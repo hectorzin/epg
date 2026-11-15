@@ -3,6 +3,7 @@ const cheerio = require('cheerio')
 const dayjs = require('dayjs')
 const timezone = require('dayjs/plugin/timezone')
 const utc = require('dayjs/plugin/utc')
+const GENERIC_TITLES = new Set(['programación no disponible', 'sin programación'])
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -13,10 +14,11 @@ module.exports = {
   url({ channel, date }) {
     return `https://www.movistarplus.es/programacion-tv/${channel.site_id}/${date.format('YYYY-MM-DD')}`
   },
-  async parser({ content, date }) {
+  async parser({ content, channel, date }) {
     let programs = []
     if (!content) return programs
-    const $ = cheerio.load(content)
+    try {
+    const $ = cheerio.load(content.toString())
     
     // Obtener todos los elementos de programas
     const programElements = $('div[id^="ele-"]')
@@ -31,7 +33,7 @@ module.exports = {
       const programDiv = $(element)
       
       // Extraer el título directamente del HTML
-      const title = programDiv.find('li.title').text().trim() || 'Sin título'
+      const title = programDiv.find('li.title').text().replace(/\s+/g, ' ').trim()
       
       // Extraer la URL del programa para obtener la descripción
       const programUrl = programDiv.find('a').attr('href')
@@ -39,8 +41,21 @@ module.exports = {
       // Extraer la hora de inicio desde el HTML
       const timeElement = programDiv.find('li.time').text().trim()
       
-      if (timeElement && timeElement.match(/^\d{2}:\d{2}$/)) {
+      const discoveredChannelTitle =
+        channel &&
+        channel._movistarDiscovered &&
+        normalizeChannelName(title).toLocaleLowerCase('es') ===
+          normalizeChannelName(channel.name).toLocaleLowerCase('es')
+      if (
+        title &&
+        !isGenericTitle(title) &&
+        !discoveredChannelTitle &&
+        timeElement &&
+        timeElement.match(/^\d{2}:\d{2}$/)
+      ) {
         const currentHour = parseInt(timeElement.split(':')[0], 10)
+        const currentMinute = parseInt(timeElement.split(':')[1], 10)
+        if (currentHour > 23 || currentMinute > 59) return
 
         // Detectar cruce de medianoche: si la hora actual es menor que la anterior
         if (prevHour >= 0 && currentHour < prevHour && prevHour >= 12) {
@@ -60,8 +75,11 @@ module.exports = {
           
           if (nextTimeElement && nextTimeElement.match(/^\d{2}:\d{2}$/)) {
             const nextHour = parseInt(nextTimeElement.split(':')[0], 10)
-            const nextDayOffset = (currentHour >= 12 && nextHour < currentHour) ? dayOffset + 1 : dayOffset
-            endTime = dayjs.tz(date.format('YYYY-MM-DD') + ' ' + nextTimeElement, 'YYYY-MM-DD HH:mm', 'Europe/Madrid').add(nextDayOffset, 'day').utc()
+            const nextMinute = parseInt(nextTimeElement.split(':')[1], 10)
+            if (nextHour < 24 && nextMinute < 60) {
+              const nextDayOffset = (currentHour >= 12 && nextHour < currentHour) ? dayOffset + 1 : dayOffset
+              endTime = dayjs.tz(date.format('YYYY-MM-DD') + ' ' + nextTimeElement, 'YYYY-MM-DD HH:mm', 'Europe/Madrid').add(nextDayOffset, 'day').utc()
+            }
           }
         }
         
@@ -93,35 +111,54 @@ module.exports = {
     })
 
     return programs
+    } catch (error) {
+      console.error('Error parsing Movistar schedule:', error.message)
+      return []
+    }
   },
   async channels() {
-    const axios = require('axios')
-    const cheerio = require('cheerio')
-    
     const data = await axios.get('https://www.movistarplus.es/programacion-tv/', {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
       }
     })
     
-    const $ = cheerio.load(data.data)
+    if (!data || !data.data) return []
+    const $ = cheerio.load(data.data.toString())
     const channels = []
     
-    $('a[href*="/programacion-tv/"]').each((i, el) => {
+    const seen = new Set()
+    $('a[href]').each((i, el) => {
       const href = $(el).attr('href')
-      if (href && href.includes('/programacion-tv/') && !href.includes('/programacion-tv/fecha/')) {
-        const match = href.match(/\/programacion-tv\/([^/]+)/)
-        if (match) {
-          const channelId = match[1]
-          const name = $(el).text().trim()
-          if (name && channelId !== 'fecha') {
-            channels.push({
-              site_id: channelId,
-              name: name
-            })
-          }
+      if (!href) return
+
+      let pathname
+      try {
+        const parsedUrl = new URL(href, 'https://www.movistarplus.es')
+        if (!['www.movistarplus.es', 'movistarplus.es'].includes(parsedUrl.hostname.toLowerCase())) {
+          return
         }
+        pathname = parsedUrl.pathname
+      } catch {
+        return
       }
+
+      const match = pathname.match(/^\/programacion-tv\/([^/]+)\/?$/i)
+      if (!match) return
+
+      const channelId = decodeURIComponent(match[1]).trim().toLowerCase()
+      if (!/^[a-z0-9_-]+$/.test(channelId) || seen.has(channelId)) return
+
+      const link = $(el)
+      const name = normalizeChannelName(
+        link.find('[title]').first().attr('title') ||
+          link.find('img[alt]').first().attr('alt') ||
+          link.text()
+      )
+      if (!name || isGenericTitle(name)) return
+
+      seen.add(channelId)
+      channels.push({ site_id: channelId, name })
     })
     
     return channels
@@ -160,7 +197,7 @@ async function getDescriptionsInBatches(urls) {
     const batch = urls.slice(i, i + batchSize)
     
     const promises = batch.map(async (url) => {
-      const description = await getProgramDescription(url)
+      const description = await getProgramDescription(url).catch(() => '')
       return { url, description }
     })
     
@@ -177,4 +214,13 @@ async function getDescriptionsInBatches(urls) {
   }
   
   return descriptions
+}
+
+function normalizeChannelName(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim()
+}
+
+function isGenericTitle(value) {
+  const normalized = normalizeChannelName(value).toLocaleLowerCase('es')
+  return !normalized || GENERIC_TITLES.has(normalized) || normalized === 'sin título'
 }

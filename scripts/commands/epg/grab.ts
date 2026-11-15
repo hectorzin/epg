@@ -1,10 +1,11 @@
 import { Logger, Timer, Storage, Collection } from '@freearhey/core'
-import { QueueCreator, Job, ChannelsParser } from '../../core'
+import { QueueCreator, Job, ChannelsParser, ConfigLoader } from '../../core'
 import { Option, program } from 'commander'
 import { SITES_DIR } from '../../constants'
 import { Channel } from 'epg-grabber'
 import path from 'path'
 import { ChannelList } from '../../models'
+import { discoverMovistarChannels } from './movistarChannels'
 
 program
   .addOption(new Option('-s, --site <name>', 'Name of the site to parse'))
@@ -15,6 +16,9 @@ program
     )
   )
   .addOption(new Option('-o, --output <path>', 'Path to output file').default('guide.xml'))
+  .addOption(
+    new Option('--discover-channels', 'Discover additional Movistar Plus+ channels').default(false)
+  )
   .addOption(new Option('-l, --lang <codes>', 'Filter channels by languages (ISO 639-1 codes)'))
   .addOption(
     new Option('-t, --timeout <milliseconds>', 'Override the default timeout for each request').env(
@@ -52,6 +56,7 @@ export interface GrabOptions {
   site?: string
   channels?: string
   output: string
+  discoverChannels: boolean
   gzip: boolean
   curl: boolean
   maxConnections: number
@@ -93,6 +98,25 @@ async function main() {
     const channelList: ChannelList = await parser.parse(filepath)
 
     channels = channels.concat(channelList.channels)
+  }
+
+  const movistarChannels = channels.filter((channel: Channel) => channel.site === 'movistarplus.es')
+  if (options.discoverChannels && movistarChannels.count() > 0) {
+    const initialCount = channels.count()
+    const configPath = path.resolve(SITES_DIR, 'movistarplus.es/movistarplus.es.config.js')
+    const config = await new ConfigLoader().load(configPath)
+    channels = new Collection(
+      await discoverMovistarChannels(
+        channels.all(),
+        options.discoverChannels,
+        async () => {
+          const discovered = await config.channels?.()
+          return Array.isArray(discovered) ? discovered : []
+        },
+        error => logger.info(`  Movistar channel discovery failed; using XML channels: ${error.message}`)
+      )
+    )
+    logger.info(`  discovered ${Math.max(0, channels.count() - initialCount)} additional Movistar channel(s)`)
   }
 
   if (options.lang) {

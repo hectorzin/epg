@@ -129,6 +129,16 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 
 Esto genera el fichero `guide.xml` en el directorio raiz.
 
+El descubrimiento web de canales Movistar es optativo y se activa con `--discover-channels`.
+Los canales nuevos usan el ID XMLTV estable `MovistarPlus.<site_id>` (por ejemplo,
+`MovistarPlus.mbalct`); los IDs y metadatos de los canales definidos en XML se conservan.
+Para canales descubiertos se descartan los bloques genéricos con el nombre del canal, mientras
+que los programas concretos de parrillas mixtas se mantienen.
+
+```sh
+npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --discover-channels --output=guide-discovery.xml
+```
+
 ### Descargar solo un site concreto
 
 ```sh

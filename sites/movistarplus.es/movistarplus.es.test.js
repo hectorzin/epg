@@ -1,4 +1,4 @@
-const { parser, url } = require('./movistarplus.es.config.js')
+const { parser, url, channels } = require('./movistarplus.es.config.js')
 const fs = require('fs')
 const path = require('path')
 const dayjs = require('dayjs')
@@ -76,4 +76,72 @@ it('can handle empty guide', async () => {
   })
 
   expect(results).toMatchObject([])
+})
+
+it('discovers and deduplicates normalized channel links', async () => {
+  axios.get.mockResolvedValue({
+    data: `
+      <a href="/programacion-tv/MBALCT/"><span>M+ Baloncesto</span></a>
+      <a href="https://www.movistarplus.es/programacion-tv/mbalct"> M+ Baloncesto </a>
+      <a href="/programacion-tv/fecha/2025-05-30">Fecha</a>
+      <a href="/programacion-tv/">Programación TV</a>
+      <a href="/programacion-tv/dazba?foo=bar"><img alt="DAZN Baloncesto" /></a>
+      <a href="https://example.com/programacion-tv/falso">Falso</a>
+    `
+  })
+
+  await expect(channels()).resolves.toEqual([
+    { site_id: 'mbalct', name: 'M+ Baloncesto' },
+    { site_id: 'dazba', name: 'DAZN Baloncesto' }
+  ])
+})
+
+it('returns an empty list when discovery response has no HTML', async () => {
+  axios.get.mockResolvedValue({ data: '' })
+  await expect(channels()).resolves.toEqual([])
+})
+
+it('rejects discovery network errors for caller fallback', async () => {
+  axios.get.mockRejectedValue(new Error('network unavailable'))
+  await expect(channels()).rejects.toThrow('network unavailable')
+})
+
+it('ignores generic and malformed schedule blocks', async () => {
+  const content = `
+    <div id="ele-1"><a href="/programa/1"><li class="title">Programación no disponible</li><li class="time">20:00</li></a></div>
+    <div id="ele-2"><a href="/programa/2"><li class="title">Sin título</li><li class="time">20:30</li></a></div>
+    <div id="ele-3"><a href="/programa/3"><li class="title">Noticia</li><li class="time">25:90</li></a></div>
+  `
+  await expect(parser({ content, date })).resolves.toEqual([])
+})
+
+it('drops generic blocks for discovered channels but keeps real mixed programming', async () => {
+  axios.get.mockResolvedValue({ data: '' })
+  const channel = {
+    name: 'M+ Vamos 2',
+    _movistarDiscovered: true
+  }
+  const content = `
+    <div id="ele-1"><a><li class="title">M+ Vamos 2</li><li class="time">10:00</li></a></div>
+    <div id="ele-2"><a><li class="title">Partido de baloncesto</li><li class="time">12:00</li></a></div>
+    <div id="ele-3"><a><li class="title">M+ Vamos 2</li><li class="time">14:00</li></a></div>
+  `
+
+  const results = await parser({ content, channel, date })
+  expect(results.map(program => program.title)).toEqual(['Partido de baloncesto'])
+  expect(results[0].start.toJSON()).toBe('2025-05-30T10:00:00.000Z')
+})
+
+it('uses the requested date and advances the schedule over midnight', async () => {
+  axios.get.mockResolvedValue({ data: '' })
+  const content = `
+    <div id="ele-1"><a><li class="title">Programa noche</li><li class="time">23:30</li></a></div>
+    <div id="ele-2"><a><li class="title">Programa madrugada</li><li class="time">00:15</li></a></div>
+  `
+  const results = await parser({ content, date: dayjs.utc('2025-06-01') })
+
+  expect(results[0].start.toJSON()).toBe('2025-06-01T21:30:00.000Z')
+  expect(results[0].stop.toJSON()).toBe('2025-06-01T22:15:00.000Z')
+  expect(results[1].start.toJSON()).toBe('2025-06-01T22:15:00.000Z')
+  expect(results[1].stop.toJSON()).toBe('2025-06-02T00:15:00.000Z')
 })
