@@ -1,7 +1,7 @@
 # EPG - Guia Electronica de Programacion (TV España)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca6936cb-f26f-4be2-b332-d9e872601737/deploy-status)](https://app.netlify.com/projects/epg-spain/deploys)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/raulfdeztdo/epg/actions)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/hectorzin/epg/actions)
 [![Node.js](https://img.shields.io/badge/Node.js_22-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
@@ -10,7 +10,7 @@
 
 Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la guia de programacion (EPG) de canales de television en España.
 
-### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [guide.xml](https://raw.githubusercontent.com/raulfdeztdo/epg/main/guide.xml)
+### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [guide.xml](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml)
 
 ## Dashboard web
 
@@ -29,7 +29,7 @@ La **Guia TV** abre por defecto en una parrilla al estilo Movistar+: una tarjeta
 - La vista de linea de tiempo sigue disponible con el selector de vista (`#/guide?vista=timeline`).
 - Mientras la Guia TV esta abierta, los datos se refrescan cada 5 minutos.
 
-El dashboard se despliega automaticamente en Netlify junto con el `lineup.json`, y carga el `guide.xml` desde GitHub.
+El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 
 ## Fuentes soportadas
 
@@ -43,13 +43,12 @@ El dashboard se despliega automaticamente en Netlify junto con el `lineup.json`,
 
 ## Como funciona
 
-1. Un **GitHub Action** (`update.yml`) se ejecuta automaticamente cada dia a las 05:00 (hora de Madrid)
-2. Lee el fichero de canales y, segun el atributo `site` de cada canal, utiliza el parser correspondiente para obtener la programacion
-3. Genera un fichero `guide.xml` en formato XMLTV con la programacion de los proximos 2 dias
-4. Genera `lineup.json` con los grupos y el orden de canales de la lista M3U privada
-5. Copia `guide.xml` y `lineup.json` al directorio `frontend/dist/`
-6. Hace commit y push automaticamente de los ficheros actualizados, con lo que `guide.xml` queda disponible en GitHub
-7. Netlify detecta el push y despliega el dashboard y `lineup.json`
+1. El workflow de GitHub Actions (`update.yml`) puede ejecutarse manualmente; su cron diario permanece desactivado.
+2. Lee el fichero maestro de canales y ejecuta sus parsers, con descubrimiento adicional de Movistar.
+3. Procesa el XMLTV local con `scripts/process-epg.py`, que añade display aliases y clones Xtream configurados.
+4. Valida el XML, la cobertura mínima y los canales requeridos, y conserva `guide.final.xml` como artefacto descargable.
+5. En una ejecución manual, publica solo si `publish_to_repo` está activado. Usa `GITHUB_TOKEN` con `contents: write` limitado a ese job, y actualiza `guide.xml` en `main` solo si el SHA-256 cambia.
+6. El XML público queda disponible en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`.
 
 ## Estructura del proyecto
 
@@ -87,7 +86,7 @@ epg/
 │   ├── orangetv.orange.es/     # Parser + canales de Orange TV
 │   └── programacion-tv.elpais.com/ # Parser + canales de El Pais
 ├── tests/                      # Tests (Jest)
-├── guide.xml                   # Salida generada (XMLTV) - en .gitignore
+├── guide.xml                   # XMLTV publicado por GitHub Actions (ignorado durante la generación local)
 ├── lineup.json                 # Salida generada (grupos de la Guia TV) - en .gitignore
 ├── netlify.toml                # Config de despliegue
 ├── package.json
@@ -112,7 +111,7 @@ sites/ejemplo.com/
 Requisitos: [Node.js](https://nodejs.org/) (v22+) y [Git](https://git-scm.com/).
 
 ```sh
-git clone https://github.com/raulfdeztdo/epg.git
+git clone https://github.com/hectorzin/epg.git
 cd epg
 npm install
 ```
@@ -153,6 +152,20 @@ que los programas concretos de parrillas mixtas se mantienen.
 ```sh
 npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --discover-channels --output=guide-discovery.xml
 ```
+
+### Publicar XMLTV con GitHub Actions
+
+`.github/workflows/update.yml` genera la guía, aplica `scripts/process-epg.py`, valida el XMLTV,
+la cobertura y los aliases configurados, y conserva `guide.final.xml` como artefacto descargable.
+El job `publish` puede publicar ese mismo archivo como `guide.xml` en `main`. Como `guide.xml`
+está ignorado por Git, se añade explícitamente con `git add -f`. Solo crea un commit si el
+contenido cambió; verifica el SHA-256 y se detiene si `main` ya recibió otra guía o cambió el
+código/configuración de generación durante el scraping.
+
+La publicación usa el `GITHUB_TOKEN` efímero con `contents: write` limitado al job de publicación;
+no requiere PAT ni otros secretos. En una ejecución manual, `publish_to_repo` está desactivado por
+defecto: genera el artefacto sin publicar. Actívalo solo tras revisar la guía. El cron sigue
+desactivado; al reactivarlo, las ejecuciones programadas publicarán automáticamente.
 
 ### Descargar solo un site concreto
 
@@ -258,7 +271,7 @@ El fichero `guide.xml` generado esta en formato [XMLTV](https://wiki.xmltv.org/i
 La guia es publica y gratuita:
 
 ```
-https://raw.githubusercontent.com/raulfdeztdo/epg/main/guide.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml
 ```
 
 ## Origen
