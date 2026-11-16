@@ -35,19 +35,7 @@ module.exports = {
         items.push(...parseItems(res, channel, url, response))
       })
       programs.push(
-        ...items.map(item => {
-          return {
-            title: item.name,
-            sub_title: item.seriesName,
-            description: item.description,
-            category: parseGenres(item),
-            season: item.seriesSeason ? parseInt(item.seriesSeason) : null,
-            episode: item.episodeId ? parseInt(item.episodeId) : null,
-            icon: parseIcon(item),
-            start: dayjs.utc(item.startDate),
-            stop: dayjs.utc(item.endDate)
-          }
-        })
+        ...items.map(convertProgram)
       )
     }
 
@@ -67,6 +55,22 @@ module.exports = {
         site_id: item.externalChannelId
       }
     })
+  }
+}
+
+module.exports.convertProgram = convertProgram
+
+function convertProgram(item) {
+  return {
+    title: item.name,
+    sub_title: item.seriesName,
+    description: item.description,
+    category: parseGenres(item),
+    season: item.seriesSeason ? parseInt(item.seriesSeason) : null,
+    episode: item.episodeId ? parseInt(item.episodeId) : null,
+    icon: parseIcon(item),
+    start: dayjs.utc(item.startDate),
+    stop: dayjs.utc(item.endDate)
   }
 }
 

@@ -37,3 +37,5 @@ jobs:
           programs = sum(len(b.get("programs", [])) for b in target)
           print(f"JSON parse: OK; top-level={type(data).__name__}; channel 11232 blocks={len(target)}; programmes={programs}")
           PY
+      - name: Run complete Orange downloader for selected channels
+        run: node scripts/commands/epg/grab-orange.cjs --channels=sites/orangetv.orange.es/orange-selected.channels.xml --days=2 --output="$RUNNER_TEMP/orange.xml"

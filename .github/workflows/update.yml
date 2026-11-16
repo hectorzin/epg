@@ -64,7 +64,7 @@ jobs:
       - name: Run selected Orange grabber
         continue-on-error: true
         run: |
-          npm run grab -- --channels=sites/orangetv.orange.es/orange-selected.channels.xml --maxConnections=3 --days=2 --timeout=10000 --output="$RUNNER_TEMP/epg-output/orange.xml"
+          node scripts/commands/epg/grab-orange.cjs --channels=sites/orangetv.orange.es/orange-selected.channels.xml --days=2 --output="$RUNNER_TEMP/epg-output/orange.xml"
           test -s "$RUNNER_TEMP/epg-output/orange.xml"
 
       - name: Run selected El País grabber
