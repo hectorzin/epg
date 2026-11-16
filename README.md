@@ -43,7 +43,7 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 
 ## Como funciona
 
-1. El workflow de GitHub Actions (`update.yml`) se ejecuta manualmente o cada día a las 04:00 UTC.
+1. El workflow de GitHub Actions (`update.yml`) se ejecuta manualmente o cada día a las 03:00 UTC.
 2. Lee el fichero maestro de canales y ejecuta sus parsers, con descubrimiento adicional de Movistar.
 3. Procesa el XMLTV local con `scripts/process-epg.py`, que añade display aliases y clones Xtream configurados.
 4. Valida el XML, la cobertura mínima y los canales requeridos, y conserva `guide.final.xml` como artefacto descargable.
@@ -226,7 +226,7 @@ Opciones:
 
 El workflow `.github/workflows/update.yml` se ejecuta:
 
-- **Automaticamente** cada dia a las 04:00 UTC (05:00 hora de Madrid en invierno, 06:00 en verano)
+- **Automaticamente** cada dia a las 03:00 UTC (05:00 hora de Madrid en invierno, 06:00 en verano)
 - **Manualmente** desde la pestana Actions del repositorio (workflow_dispatch)
 
 Corre en un runner self-hosted (Raspberry Pi) con Node 22 del sistema y necesita estos secrets en el repositorio:
