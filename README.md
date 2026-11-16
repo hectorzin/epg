@@ -129,6 +129,21 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 
 Esto genera el fichero `guide.xml` en el directorio raiz.
 
+### Normalizar y completar una guia local
+
+La segunda etapa procesa un XMLTV local generado por este repositorio y escribe una guia
+definitiva en una ruta distinta. No descarga ninguna guia externa ni sobrescribe la entrada:
+
+```sh
+python scripts/process-epg.py --input guide.xml --output temp/guide.final.xml
+```
+
+`epg/aliases.json` añade los nombres alternativos como elementos `display-name`, que AquaPlay usa
+para relacionar canales. `epg/xtream-aliases.json` conserva las equivalencias Xtream curadas y
+duplica los canales/programas con sus IDs alternativos, manteniendo los `display-name` originales.
+El catálogo Xtream, si se proporciona con `--xtream-catalog`, debe ser un JSON saneado con solo
+`xtream_id`, `name`, `epg_id` y `category`; no se distribuye en este repositorio.
+
 El descubrimiento web de canales Movistar es optativo y se activa con `--discover-channels`.
 Los canales nuevos usan el ID XMLTV estable `MovistarPlus.<site_id>` (por ejemplo,
 `MovistarPlus.mbalct`); los IDs y metadatos de los canales definidos en XML se conservan.
