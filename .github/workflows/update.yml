@@ -3,7 +3,7 @@ name: EPG Grabber
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * *" # Todos los días a las 04:00 UTC
+    - cron: "0 3 * * *" # Todos los días a las 03:00 UTC
 
 permissions:
   contents: read
