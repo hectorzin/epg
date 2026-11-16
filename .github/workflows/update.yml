@@ -2,67 +2,86 @@ name: EPG Grabber
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *" # Todos los dias a las 05:00 (Europa/Madrid)
+  # Reactivar después de validar una ejecución manual.
+  # schedule:
+  #   - cron: "0 3 * * *" # Todos los días a las 05:00 (Europa/Madrid)
 
-# El GITHUB_TOKEN solo se usa para clonar. El push usa el PAT de GH_TOKEN, al que
-# este bloque no afecta.
 permissions:
   contents: read
 
 jobs:
   grab:
-    # Runner self-hosted en Hepha (Raspberry Pi). Node 22 del sistema
-    # (/usr/local/bin), por eso no usamos actions/setup-node.
-    runs-on: self-hosted
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           persist-credentials: false
 
-      # Sin scripts de instalacion de dependencias. El unico que necesitamos es el
-      # postinstall propio, que descarga temp/data y aqui se lanza de forma explicita.
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+
+      # Evita el postinstall; api:load se ejecuta explícitamente porque el grabber
+      # necesita los ficheros de temp/data.
       - name: Install dependencies
         run: |
           npm ci --ignore-scripts
           npm run api:load
 
-      - name: Grab EPG data
-        run: npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --maxConnections=3 --days=2 --timeout=10000
+      - name: Run Movistar grabber
+        run: |
+          rm -f guide.xml
+          npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --discover-channels --maxConnections=3 --days=2 --timeout=10000
+          test -s guide.xml
 
-      # Agrupa y ordena los canales segun la lista M3U privada (secret M3U_URL).
-      # Solo publica grupos, orden y logos: nunca la URL ni los streams.
-      - name: Generate channel lineup
-        continue-on-error: true
+      - name: Process and validate definitive XMLTV
         env:
-          M3U_URL: ${{ secrets.M3U_URL }}
-        run: npm run lineup:generate
-
-      - name: Copy data files to frontend
+          FINAL_GUIDE: ${{ runner.temp }}/epg-output/guide.final.xml
         run: |
-          cp guide.xml frontend/dist/guide.xml
-          if [ -f lineup.json ]; then cp lineup.json frontend/dist/lineup.json; fi
+          mkdir -p "$(dirname "$FINAL_GUIDE")"
+          python scripts/process-epg.py --input guide.xml --output "$FINAL_GUIDE"
+          python - "$FINAL_GUIDE" <<'PY'
+          import json
+          import sys
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
 
-      - name: Commit
-        id: commit
-        run: |
-          git config user.name "epg-bot[bot]"
-          git config user.email "41898282+epg-bot[bot]@users.noreply.github.com"
-          git add -f guide.xml frontend/dist/guide.xml
-          if [ -f frontend/dist/lineup.json ]; then git add -f frontend/dist/lineup.json; fi
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git -c core.hooksPath=/dev/null commit -m "[BOT] Update EPG guide"
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+          guide_path = Path(sys.argv[1])
+          root = ET.parse(guide_path).getroot()
+          channels = {node.get("id"): node for node in root.findall("channel")}
+          programmes = root.findall("programme")
+          aliases = json.loads(Path("epg/aliases.json").read_text(encoding="utf-8"))
+          xtream = json.loads(Path("epg/xtream-aliases.json").read_text(encoding="utf-8"))
 
-      # Unico paso con GH_TOKEN. El token llega por entorno, no queda en .git/config
-      # ni en la linea de comandos, y se ignoran hooks, helpers y remotos del checkout.
-      - name: Push
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git -c core.hooksPath=/dev/null \
-            -c credential.helper= \
-            -c credential.helper='!f() { echo username=x-access-token; echo "password=${GH_TOKEN}"; }; f' \
-            push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF}"
+          if len(channels) < 100:
+              raise SystemExit(f"Definitive guide has only {len(channels)} channels (minimum 100)")
+          if len(programmes) < 1000:
+              raise SystemExit(f"Definitive guide has only {len(programmes)} programmes (minimum 1000)")
+          missing_alias_channels = sorted(set(aliases) - channels.keys())
+          if missing_alias_channels:
+              raise SystemExit("Missing display-alias channels: " + ", ".join(missing_alias_channels))
+          missing_xtream = sorted(set(xtream) - channels.keys())
+          if missing_xtream:
+              raise SystemExit("Missing Xtream alias channels: " + ", ".join(missing_xtream))
+          print(
+              f"Validated definitive guide: {len(channels)} channels, "
+              f"{len(programmes)} programmes, {len(aliases)} display-alias IDs, "
+              f"{len(xtream)} Xtream IDs"
+          )
+          PY
+
+      - name: Upload definitive XMLTV artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: movistarplus-definitive-xmltv
+          path: ${{ runner.temp }}/epg-output/guide.final.xml
+          if-no-files-found: error
+          retention-days: 7
