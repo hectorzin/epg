@@ -57,9 +57,27 @@ jobs:
 
       - name: Run Movistar grabber
         run: |
-          rm -f guide.xml
-          npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --discover-channels --maxConnections=3 --days=2 --timeout=10000
-          test -s guide.xml
+          mkdir -p "$RUNNER_TEMP/epg-output"
+          npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --discover-channels --maxConnections=3 --days=2 --timeout=10000 --output="$RUNNER_TEMP/epg-output/movistar.xml"
+          test -s "$RUNNER_TEMP/epg-output/movistar.xml"
+
+      - name: Run selected Orange grabber
+        continue-on-error: true
+        run: |
+          npm run grab -- --channels=sites/orangetv.orange.es/orange-selected.channels.xml --maxConnections=3 --days=2 --timeout=10000 --output="$RUNNER_TEMP/epg-output/orange.xml"
+          test -s "$RUNNER_TEMP/epg-output/orange.xml"
+
+      - name: Run selected El País grabber
+        continue-on-error: true
+        run: |
+          npm run grab -- --channels=sites/programacion-tv.elpais.com/elpais-selected.channels.xml --maxConnections=3 --days=2 --timeout=10000 --output="$RUNNER_TEMP/epg-output/elpais.xml"
+          test -s "$RUNNER_TEMP/epg-output/elpais.xml"
+
+      - name: Merge source guides
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/epg-output
+        run: |
+          python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --output "$OUTPUT_DIR/guide.merged.xml"
 
       - name: Process and validate definitive XMLTV
         id: validate
@@ -67,7 +85,7 @@ jobs:
           FINAL_GUIDE: ${{ runner.temp }}/epg-output/guide.final.xml
         run: |
           mkdir -p "$(dirname "$FINAL_GUIDE")"
-          python scripts/process-epg.py --input guide.xml --output "$FINAL_GUIDE"
+          python scripts/process-epg.py --input "$RUNNER_TEMP/epg-output/guide.merged.xml" --output "$FINAL_GUIDE"
           python - "$FINAL_GUIDE" <<'PY'
           import json
           import sys
@@ -158,7 +176,7 @@ jobs:
               echo "::error::The generation commit is no longer an ancestor of main. Refusing to publish stale output."
               exit 1
             }
-            git diff --quiet "$SOURCE_SHA" FETCH_HEAD -- scripts/process-epg.py scripts/commands/epg scripts/core scripts/models sites epg || {
+            git diff --quiet "$SOURCE_SHA" FETCH_HEAD -- scripts/process-epg.py scripts/merge-guides.py .github/workflows/update.yml scripts/commands/epg scripts/core scripts/models sites epg || {
               echo "::error::Generation code or channel configuration changed while this guide was being built. Rerun generation."
               exit 1
             }

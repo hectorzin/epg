@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<channels>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11093" site_id="11093">Runtime Series</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11281" site_id="11281">AMC Western</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.1089" site_id="1089">Runtime Cine y Series</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11091" site_id="11091">Runtime Thriller/Terror</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11094" site_id="11094">Runtime Acción</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11092" site_id="11092">Runtime Comedia</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11095" site_id="11095">Runtime Crimen</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11096" site_id="11096">Runtime Romance</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11097" site_id="11097">RunTime Clásico</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11182" site_id="11182">RunTime Familia</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11098" site_id="11098">Cines Verdi TV</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11099" site_id="11099">Cine Feel Good</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11102" site_id="11102">Vivir con gatos</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11103" site_id="11103">Vivir con perros</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11100" site_id="11100">Toon Goggles</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11183" site_id="11183">Anime Visión</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11184" site_id="11184">Anime Visión Classics</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11232" site_id="11232">DAZN Baloncesto 2</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11270" site_id="11270">DAZN Baloncesto 3</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11120" site_id="11120">Tennis Channel</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11121" site_id="11121">MyPadel TV</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11128" site_id="11128">Nautical Channel</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11104" site_id="11104">Surf Channel</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11105" site_id="11105">Motorvision</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.1081" site_id="1081">Moto ADV</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.1095" site_id="1095">Trace Sport Stars</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.1086" site_id="1086">Gametoon</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.2209" site_id="2209">MMA TV</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.12007" site_id="12007">FightSports</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.12006" site_id="12006">Fast&amp;FunBox</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11273" site_id="11273">Qello concerts</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11106" site_id="11106">TRACE Latina</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="Orange.11107" site_id="11107">TRACE Urban</channel>
+</channels>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<channels>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.18" site_id="18">La 1 Catalunya</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.280" site_id="280">La 2 Catalunya</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.541" site_id="541">Super 3</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.449" site_id="449">3CatInfo</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.36" site_id="36">TVG</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.521" site_id="521">TPA_7</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.551" site_id="551">7 Región de Murcia</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.582" site_id="582">Canal Extremadura TV</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.324" site_id="324">CyLTV</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.316" site_id="316">Tele Elx</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.629" site_id="629">ZTV</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.35" site_id="35">ETB 4</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.570" site_id="570">Pro TV Internacional</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.604" site_id="604">Canal Parlamento</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.567" site_id="567">Cubavisión Internacional</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.615" site_id="615">Record TV</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.566" site_id="566">Caracol TV</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.416" site_id="416">TV Chile</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.400" site_id="400">TV Polonia</channel>
+    <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="ElPais.608" site_id="608">France 24</channel>
+</channels>
