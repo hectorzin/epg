@@ -43,6 +43,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          mkdir -p output
           started="$(date +%s)"
           echo "$started" > output/start-time
           python3 - <<'PY'
@@ -143,4 +144,9 @@ jobs:
 
       - name: Publish job summary
         if: always()
-        run: cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          if [[ -f upstream/output/summary.md ]]; then
+            cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "French EPG summary was not generated; inspect the earlier step logs." >> "$GITHUB_STEP_SUMMARY"
+          fi
