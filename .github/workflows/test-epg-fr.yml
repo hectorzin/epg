@@ -1,0 +1,146 @@
+name: Test French EPG (upstream)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Download upstream iptv-org/epg
+        shell: bash
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git upstream
+
+      - name: Record upstream revision
+        id: upstream
+        working-directory: upstream
+        run: |
+          revision="$(git rev-parse HEAD)"
+          echo "revision=$revision" >> "$GITHUB_OUTPUT"
+          echo "Using iptv-org/epg commit $revision"
+
+      - name: Install upstream dependencies
+        working-directory: upstream
+        run: npm ci --ignore-scripts
+
+      - name: Select French channels and generate guides
+        id: generate
+        working-directory: upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+          started="$(date +%s)"
+          echo "$started" > output/start-time
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          def read(path):
+              return ET.parse(path).getroot().findall('channel')
+
+          def select(rows, seen):
+              selected = []
+              for row in rows:
+                  channel_id = (row.get('xmltv_id') or '').strip()
+                  if row.get('lang') != 'fr' or not channel_id or channel_id in seen:
+                      continue
+                  seen.add(channel_id)
+                  selected.append(row)
+              return selected
+
+          sfr = select(read('sites/tv.sfr.fr/tv.sfr.fr.channels.xml'), set())
+          sfr_ids = {row.get('xmltv_id').strip() for row in sfr}
+          telecablesat = select(read('sites/tv-programme.telecablesat.fr/tv-programme.telecablesat.fr.channels.xml'), set(sfr_ids))
+
+          def write(path, rows):
+              root = ET.Element('channels')
+              for source in rows:
+                  channel = ET.SubElement(root, 'channel', source.attrib)
+                  channel.text = source.text
+              ET.indent(root, space='  ')
+              ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
+
+          write('fr-sfr.channels.xml', sfr)
+          write('fr-telecablesat.channels.xml', telecablesat)
+          print(f'SFR selected: {len(sfr)}; Telecablesat additional IDs: {len(telecablesat)}')
+          PY
+
+          mkdir -p output
+          set +e
+          npm run grab -- --channels=fr-sfr.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/sfr.xml 2>&1 | tee output/sfr.log
+          sfr_status=${PIPESTATUS[0]}
+          npm run grab -- --channels=fr-telecablesat.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/telecablesat.xml 2>&1 | tee output/telecablesat.log
+          telecablesat_status=${PIPESTATUS[0]}
+          set -e
+          python3 - "$sfr_status" "$telecablesat_status" <<'PY'
+          import sys
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          status_sfr, status_tc = map(int, sys.argv[1:])
+          paths = [Path('output/sfr.xml'), Path('output/telecablesat.xml')]
+          roots = []
+          for path in paths:
+              try:
+                  roots.append(ET.parse(path).getroot())
+              except (OSError, ET.ParseError):
+                  roots.append(ET.Element('tv'))
+          combined = ET.Element('tv')
+          channels = {}
+          programs = set()
+          channel_programs = set()
+          for root in roots:
+              for channel in root.findall('channel'):
+                  channels.setdefault(channel.get('id'), channel)
+              for program in root.findall('programme'):
+                  key = (program.get('channel'), program.get('start'), program.get('stop'), program.findtext('title'))
+                  if key in programs:
+                      continue
+                  programs.add(key)
+                  channel_programs.add(program.get('channel'))
+                  combined.append(program)
+          for channel in channels.values():
+              combined.insert(0, channel)
+          ET.indent(combined, space='  ')
+          ET.ElementTree(combined).write('output/guide-fr.xml', encoding='utf-8', xml_declaration=True)
+          errors = sum((Path(log).read_text(errors='replace').count('ERR:') for log in ['output/sfr.log', 'output/telecablesat.log']))
+          import time
+          duration = time.time() - float(Path('output/start-time').read_text())
+          Path('output/summary.md').write_text(
+              f'## French EPG trial\n\n- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA", "recorded in job log")}`\n'
+              f'- SFR grab exit: {status_sfr}; Telecablesat grab exit: {status_tc}\n'
+              f'- Channels in combined XML: {len(channels)}; channels with programmes: {len(channel_programs)}\n'
+              f'- Programmes: {len(programs)}; grabber ERR entries: {errors}\n'
+              f'- Combined XML size: {Path("output/guide-fr.xml").stat().st_size} bytes\n'
+              f'- Elapsed seconds: {duration:.1f}\n', encoding='utf-8'
+          )
+          print(Path('output/summary.md').read_text())
+          PY
+          echo "duration=$(( $(date +%s) - started ))" >> "$GITHUB_OUTPUT"
+        env:
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.revision }}
+
+      - name: Upload temporary XMLTV artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: french-epg-upstream-trial
+          path: upstream/output/
+          if-no-files-found: warn
+          retention-days: 1
+
+      - name: Publish job summary
+        if: always()
+        run: cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"
