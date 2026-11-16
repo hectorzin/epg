@@ -43,11 +43,11 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 
 ## Como funciona
 
-1. El workflow de GitHub Actions (`update.yml`) puede ejecutarse manualmente; su cron diario permanece desactivado.
+1. El workflow de GitHub Actions (`update.yml`) se ejecuta manualmente o cada día a las 04:00 UTC.
 2. Lee el fichero maestro de canales y ejecuta sus parsers, con descubrimiento adicional de Movistar.
 3. Procesa el XMLTV local con `scripts/process-epg.py`, que añade display aliases y clones Xtream configurados.
 4. Valida el XML, la cobertura mínima y los canales requeridos, y conserva `guide.final.xml` como artefacto descargable.
-5. En una ejecución manual, publica solo si `publish_to_repo` está activado. Usa `GITHUB_TOKEN` con `contents: write` limitado a ese job, y actualiza `guide.xml` en `main` solo si el SHA-256 cambia.
+5. Toda ejecución correcta publica `guide.xml` en `main` si su SHA-256 cambió. Usa `GITHUB_TOKEN` con `contents: write` limitado al job de publicación.
 6. El XML público queda disponible en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`.
 
 ## Estructura del proyecto
@@ -163,9 +163,9 @@ contenido cambió; verifica el SHA-256 y se detiene si `main` ya recibió otra g
 código/configuración de generación durante el scraping.
 
 La publicación usa el `GITHUB_TOKEN` efímero con `contents: write` limitado al job de publicación;
-no requiere PAT ni otros secretos. En una ejecución manual, `publish_to_repo` está desactivado por
-defecto: genera el artefacto sin publicar. Actívalo solo tras revisar la guía. El cron sigue
-desactivado; al reactivarlo, las ejecuciones programadas publicarán automáticamente.
+no requiere PAT ni otros secretos. Tanto las ejecuciones manuales como las programadas publican
+automáticamente después de superar las validaciones. El artefacto `guide.final.xml` sigue disponible
+para descargar durante 7 días, incluso si la publicación no detecta cambios o falla.
 
 ### Descargar solo un site concreto
 
@@ -226,7 +226,7 @@ Opciones:
 
 El workflow `.github/workflows/update.yml` se ejecuta:
 
-- **Automaticamente** cada dia a las 03:00 UTC (05:00 hora de Madrid)
+- **Automaticamente** cada dia a las 04:00 UTC (05:00 hora de Madrid en invierno, 06:00 en verano)
 - **Manualmente** desde la pestana Actions del repositorio (workflow_dispatch)
 
 Corre en un runner self-hosted (Raspberry Pi) con Node 22 del sistema y necesita estos secrets en el repositorio:

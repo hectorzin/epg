@@ -2,15 +2,8 @@ name: EPG Grabber
 
 on:
   workflow_dispatch:
-    inputs:
-      publish_to_repo:
-        description: Publicar guide.xml en main después de revisar el artefacto
-        type: boolean
-        required: true
-        default: false
-  # Reactivar después de validar una ejecución manual.
-  # schedule:
-  #   - cron: "0 3 * * *" # Todos los días a las 05:00 (Europa/Madrid)
+  schedule:
+    - cron: "0 4 * * *" # Todos los días a las 04:00 UTC
 
 permissions:
   contents: read
@@ -115,7 +108,6 @@ jobs:
           retention-days: 7
 
   publish:
-    if: github.event_name != 'workflow_dispatch' || inputs.publish_to_repo == true
     needs: generate
     runs-on: ubuntu-24.04
     permissions:
