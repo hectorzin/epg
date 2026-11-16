@@ -83,3 +83,8 @@ it('can handle empty guide', async () => {
   })
   expect(result).toMatchObject([])
 })
+
+it('reports the channel, URL, HTTP metadata and size for truncated JSON', async () => {
+  await expect(parser({ content: '{', channel, date, response: { status: 200, headers: { 'content-type': 'application/json' } } }))
+    .rejects.toThrow(/channel 1010.*20250112_8h_1.json.*HTTP 200.*application\/json.*1 bytes/)
+})

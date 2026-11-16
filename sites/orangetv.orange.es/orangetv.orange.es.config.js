@@ -23,16 +23,16 @@ module.exports = {
   url({ date, segment = 1 }) {
     return `${API_PROGRAM_ENDPOINT}/${date.format('YYYYMMDD')}_8h_${segment}.json`
   },
-  async parser({ content, channel, date }) {
+  async parser({ content, channel, date, response }) {
     const programs = []
-    const items = parseItems(content, channel)
+    const items = parseItems(content, channel, module.exports.url({ date }), response)
     if (items.length) {
       const queues = [
         module.exports.url({ date, segment: 2 }),
         module.exports.url({ date, segment: 3 })
       ]
-      await doFetch(queues, (url, res) => {
-        items.push(...parseItems(res, channel))
+      await doFetch(queues, (url, res, response) => {
+        items.push(...parseItems(res, channel, url, response))
       })
       programs.push(
         ...items.map(item => {
@@ -83,17 +83,28 @@ function parseGenres(item) {
   return item.genres.map(i => i.name)
 }
 
-function parseItems(content, channel) {
+function parseItems(content, channel, url = 'Orange response', response) {
   const result = []
-  const json =
-    typeof content === 'string' ? JSON.parse(content) : Array.isArray(content) ? content : []
-  if (Array.isArray(json)) {
-    json
-      .filter(i => i.channelExternalId === channel.site_id)
-      .forEach(i => {
-        result.push(...i.programs)
-      })
+  let json = content
+  if (typeof content === 'string') {
+    try {
+      json = JSON.parse(content)
+    } catch (error) {
+      const status = response?.status || response?.statusCode || 'unknown'
+      const contentType = response?.headers?.['content-type'] || 'unknown'
+      throw new Error(
+        `Orange EPG invalid JSON for channel ${channel.site_id} at ${url} ` +
+        `(HTTP ${status}, content-type ${contentType}, ${content.length} bytes): ${error.message}`
+      )
+    }
   }
+  if (!Array.isArray(json)) {
+    if (json && typeof json === 'object' && Object.keys(json).length === 0) return result
+    throw new Error(`Orange EPG unexpected response for channel ${channel.site_id} at ${url}: expected JSON array`)
+  }
+  json
+    .filter(i => i.channelExternalId === channel.site_id)
+    .forEach(i => result.push(...(Array.isArray(i.programs) ? i.programs : [])))
 
   return result
 }
