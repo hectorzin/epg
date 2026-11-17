@@ -37,6 +37,10 @@ jobs:
         working-directory: upstream
         run: npm ci --ignore-scripts
 
+      - name: Load upstream channel metadata
+        working-directory: upstream
+        run: npm run api:load
+
       - name: Select French channels and generate guides
         id: generate
         working-directory: upstream
@@ -64,7 +68,7 @@ jobs:
 
           sfr = select(read('sites/tv.sfr.fr/tv.sfr.fr.channels.xml'), set())
           sfr_ids = {row.get('xmltv_id').strip() for row in sfr}
-          telecablesat = select(read('sites/tv-programme.telecablesat.fr/tv-programme.telecablesat.fr.channels.xml'), set(sfr_ids))
+          orange = select(read('sites/chaines-tv.orange.fr/chaines-tv.orange.fr.channels.xml'), set())
 
           def write(path, rows):
               root = ET.Element('channels')
@@ -75,24 +79,40 @@ jobs:
               ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
 
           write('fr-sfr.channels.xml', sfr)
-          write('fr-telecablesat.channels.xml', telecablesat)
-          print(f'SFR selected: {len(sfr)}; Telecablesat additional IDs: {len(telecablesat)}')
+          write('fr-orange.channels.xml', orange)
+          print(f'SFR selected: {len(sfr)}; Orange candidates: {len(orange)}')
           PY
 
           mkdir -p output
           set +e
           npm run grab -- --channels=fr-sfr.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/sfr.xml 2>&1 | tee output/sfr.log
           sfr_status=${PIPESTATUS[0]}
-          npm run grab -- --channels=fr-telecablesat.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/telecablesat.xml 2>&1 | tee output/telecablesat.log
-          telecablesat_status=${PIPESTATUS[0]}
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          def programs(path):
+              try: return ET.parse(path).getroot().findall('programme')
+              except (OSError, ET.ParseError): return []
+          covered = {p.get('channel') for p in programs('output/sfr.xml')}
+          rows = ET.parse('fr-orange.channels.xml').getroot().findall('channel')
+          root = ET.Element('channels')
+          for row in rows:
+              if row.get('xmltv_id') not in covered:
+                  channel = ET.SubElement(root, 'channel', row.attrib); channel.text = row.text
+          ET.indent(root, space='  ')
+          ET.ElementTree(root).write('fr-orange-selected.channels.xml', encoding='utf-8', xml_declaration=True)
+          print(f'Orange channels selected after SFR: {len(root.findall("channel"))}')
+          PY
+          npm run grab -- --channels=fr-orange-selected.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/orange.xml 2>&1 | tee output/orange.log
+          orange_status=${PIPESTATUS[0]}
           set -e
-          python3 - "$sfr_status" "$telecablesat_status" <<'PY'
+          python3 - "$sfr_status" "$orange_status" <<'PY'
           import sys
           from pathlib import Path
           import xml.etree.ElementTree as ET
 
-          status_sfr, status_tc = map(int, sys.argv[1:])
-          paths = [Path('output/sfr.xml'), Path('output/telecablesat.xml')]
+          status_sfr, status_orange = map(int, sys.argv[1:])
+          paths = [Path('output/sfr.xml'), Path('output/orange.xml')]
           roots = []
           for path in paths:
               try:
@@ -117,14 +137,19 @@ jobs:
               combined.insert(0, channel)
           ET.indent(combined, space='  ')
           ET.ElementTree(combined).write('output/guide-fr.xml', encoding='utf-8', xml_declaration=True)
-          errors = sum((Path(log).read_text(errors='replace').count('ERR:') for log in ['output/sfr.log', 'output/telecablesat.log']))
+          logs = [Path('output/sfr.log').read_text(errors='replace'), Path('output/orange.log').read_text(errors='replace')]
+          errors = [log.count('ERR:') for log in logs]
+          requested = [len(ET.parse('fr-sfr.channels.xml').getroot().findall('channel')), len(ET.parse('fr-orange-selected.channels.xml').getroot().findall('channel'))]
+          covered_by_source = [{p.get('channel') for p in root.findall('programme')} for root in roots]
+          program_counts = [len(root.findall('programme')) for root in roots]
           import time
           duration = time.time() - float(Path('output/start-time').read_text())
           Path('output/summary.md').write_text(
               f'## French EPG trial\n\n- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA", "recorded in job log")}`\n'
-              f'- SFR grab exit: {status_sfr}; Telecablesat grab exit: {status_tc}\n'
-              f'- Channels in combined XML: {len(channels)}; channels with programmes: {len(channel_programs)}\n'
-              f'- Programmes: {len(programs)}; grabber ERR entries: {errors}\n'
+              f'- SFR: requested {requested[0]}, with programmes {len(covered_by_source[0])}, without programmes {requested[0]-len(covered_by_source[0])}, programmes {program_counts[0]}, HTTP/grabber errors {errors[0]}, exit {status_sfr}\n'
+              f'- Orange: requested {requested[1]}, with programmes {len(covered_by_source[1])}, without programmes {requested[1]-len(covered_by_source[1])}, programmes {program_counts[1]}, HTTP/grabber errors {errors[1]}, exit {status_orange}\n'
+              f'- Channels in combined XML: {len(channels)}; channels with programmes: {len(channel_programs)}; programs after deduplication: {len(programs)}\n'
+              f'- Additional channels recovered by Orange: {len(covered_by_source[1]-covered_by_source[0])}\n'
               f'- Combined XML size: {Path("output/guide-fr.xml").stat().st_size} bytes\n'
               f'- Elapsed seconds: {duration:.1f}\n', encoding='utf-8'
           )
