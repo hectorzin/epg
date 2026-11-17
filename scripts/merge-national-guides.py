@@ -2,9 +2,34 @@
 """Merge all valid national XMLTV guides into one global guide."""
 import argparse
 import copy
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+NATIONAL_GUIDE_PATTERN = re.compile(r'^guide-[a-z]{2}\.xml$', re.IGNORECASE)
+
+
+def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path]:
+    """Return guide-XX.xml paths in deterministic sorted order.
+
+    When validate=True, every matching file must be non-empty and pass read_guide()
+    (invalid nationals abort the merge instead of being skipped).
+    """
+    if not root.is_dir():
+        return []
+    guides = sorted(
+        p for p in root.glob('guide-*.xml') if NATIONAL_GUIDE_PATTERN.match(p.name)
+    )
+    if not validate:
+        return [p for p in guides if p.stat().st_size > 0]
+    validated: list[Path] = []
+    for path in guides:
+        if path.stat().st_size == 0:
+            raise ValueError(f'{path.name}: empty national guide refused for merge')
+        read_guide(path)
+        validated.append(path)
+    return validated
 
 
 def read_guide(path):
@@ -41,16 +66,37 @@ def merge(paths):
     return result
 
 
+def resolve_guide_paths(root: Path | None, guides: list[Path]) -> list[Path]:
+    if guides:
+        return guides
+    search_root = root if root is not None else Path('.')
+    discovered = discover_national_guides(search_root, validate=True)
+    if not discovered:
+        raise ValueError(f'no national guides matching guide-XX.xml in {search_root}')
+    return discovered
+
+
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--root',
+        type=Path,
+        default=None,
+        help='Directory to scan for guide-XX.xml when no guide paths are given',
+    )
     parser.add_argument('--output', type=Path, required=True)
-    parser.add_argument('guides', nargs='+', type=Path)
+    parser.add_argument('guides', nargs='*', type=Path)
     args = parser.parse_args()
-    root = merge(args.guides)
+    paths = resolve_guide_paths(args.root, args.guides)
+    merged = merge(paths)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    ET.indent(root, space='  ')
-    ET.ElementTree(root).write(args.output, encoding='utf-8', xml_declaration=True)
-    print(f'{len(root.findall("channel"))} channels, {len(root.findall("programme"))} programmes')
+    ET.indent(merged, space='  ')
+    ET.ElementTree(merged).write(args.output, encoding='utf-8', xml_declaration=True)
+    names = [p.name for p in paths]
+    print(
+        f'Merged {", ".join(names)}: {len(merged.findall("channel"))} channels, '
+        f'{len(merged.findall("programme"))} programmes'
+    )
 
 
 if __name__ == '__main__':

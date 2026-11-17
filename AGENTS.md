@@ -27,7 +27,9 @@ epg/
 │   └── settings.json           # Permisos compartidos de Claude Code
 ├── .opencode/commands/         # Comandos /slash de OpenCode (copia de .claude/commands)
 ├── .github/workflows/
-│   └── update.yml              # GitHub Action (cron diario 03:00 UTC)
+│   ├── epg-orchestrator.yml    # Orquestador diario (generadores + fusión global)
+│   ├── generate-es.yml         # Publica solo guide-es.xml
+│   └── generate-fr.yml         # Publica solo guide-fr.xml
 ├── scripts/
 │   ├── commands/
 │   │   ├── epg/grab.ts         # Punto de entrada principal
@@ -87,23 +89,19 @@ sites/<dominio>/
 - Los configs de sites son `.js` (no TypeScript) porque se cargan dinamicamente en runtime.
 - Los tests de sites usan `jest.mock('axios')` para evitar peticiones reales.
 
-## GitHub Action (update.yml)
+## GitHub Actions (EPG)
 
-- Se ejecuta diariamente a las 03:00 UTC (05:00 Madrid) y se puede lanzar manualmente via
-  `workflow_dispatch`.
-- Corre en un runner self-hosted (Raspberry Pi "Hepha") con el Node 22 del sistema, por eso no
-  usa `actions/setup-node`.
-- Pasos: `npm ci --ignore-scripts` + `npm run api:load` -> grab -> `npm run lineup:generate` ->
-  copia `guide.xml` y `lineup.json` a `frontend/dist/` -> commit -> push (solo si hay commit).
-- El paso del lineup usa el secret `M3U_URL` y tiene `continue-on-error`: si falla, se mantiene
-  el `lineup.json` anterior.
-- Solo hace `git add -f` de `guide.xml`, `frontend/dist/guide.xml` y `frontend/dist/lineup.json`
-  (nunca `git add .`). Netlify despliega `frontend/dist` en cada push.
-- Cadena de suministro: `actions/checkout` va fijado por SHA y con `persist-credentials: false`, el
-  `GITHUB_TOKEN` solo tiene `contents: read`, y `GH_TOKEN` solo llega al paso de push. No lo pases
-  a pasos que ejecuten codigo de dependencias. `--ignore-scripts` omite el `postinstall`, por eso
-  `api:load` se lanza a mano: `temp/data` hace falta para el grab.
-- Secrets necesarios: `GH_TOKEN` (PAT con permisos de push) y `M3U_URL` (URL de la lista M3U).
+- `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
+  `generate-es.yml` y `generate-fr.yml`, luego fusiona con `scripts/merge-national-guides.py`
+  (`--root .`) y publica solo `guide.xml`.
+- Cada generador nacional publica únicamente su `guide-XX.xml` vía `scripts/ci/publish-xmltv.sh`
+  (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
+- Si un país falla, no se sobrescribe su guía; el fusionador usa las copias ya en `main`.
+- Añadir un país: publicar `guide-XX.xml` (código ISO de dos letras); el fusionador lo detecta
+  sin cambios de código.
+- Runners: `ubuntu-24.04` (ES + merge) y `ubuntu-latest` (FR). `GITHUB_TOKEN` con `contents: write`.
+- `actions/checkout` fijado por SHA con `persist-credentials: false`. `npm ci --ignore-scripts` +
+  `npm run api:load` antes del grab español.
 
 ## Skills disponibles
 

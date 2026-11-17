@@ -1,15 +1,14 @@
-name: EPG Grabber
+name: Generate Spanish EPG
 
 on:
+  workflow_call:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *" # Todos los días a las 03:00 UTC
 
 permissions:
   contents: write
 
 concurrency:
-  group: epg-generation-and-publish
+  group: epg-publish-guide-es
   cancel-in-progress: false
 
 jobs:
@@ -32,8 +31,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Evita el postinstall; api:load se ejecuta explícitamente porque el grabber
-      # necesita los ficheros de temp/data.
       - name: Install dependencies
         run: |
           npm ci --ignore-scripts
@@ -99,52 +96,20 @@ jobs:
               f"{len(xtream)} Xtream IDs"
           )
           PY
-      - name: Merge national guides
-        env:
-          OUTPUT_DIR: ${{ runner.temp }}/epg-output
-        run: |
-          guides=("$OUTPUT_DIR/guide.final.xml")
-          if [[ -s guide-es.xml ]]; then
-            guides+=(guide-es.xml)
-          elif [[ -s guide.xml ]]; then
-            guides+=(guide.xml)
-          fi
-          if [[ -s guide-fr.xml ]]; then guides+=(guide-fr.xml); fi
-          python scripts/merge-national-guides.py --output "$OUTPUT_DIR/guide.xml" "${guides[@]}"
-          python - "$OUTPUT_DIR/guide.xml" <<'PY'
-          import sys, xml.etree.ElementTree as ET
-          root = ET.parse(sys.argv[1]).getroot()
-          if not root.findall('programme'):
-              raise SystemExit('Global guide has no programmes')
-          print(f"Validated global guide: {len(root.findall('channel'))} channels, {len(root.findall('programme'))} programmes")
-          PY
 
-      - name: Publish Spanish and global guides
+      - name: Publish Spanish national guide
         env:
           SPANISH_GUIDE: ${{ runner.temp }}/epg-output/guide.final.xml
-          GLOBAL_GUIDE: ${{ runner.temp }}/epg-output/guide.xml
           SOURCE_SHA: ${{ github.sha }}
           GITHUB_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
           test -s "$SPANISH_GUIDE"
-          test -s "$GLOBAL_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py .github/workflows/update.yml scripts/commands/epg scripts/core scripts/models sites epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py .github/workflows scripts/commands/epg scripts/core scripts/models sites epg || {
             echo "::error::Generation code or channel configuration changed during the run. Refusing to publish stale output."
             exit 1
           }
           install -m 644 "$SPANISH_GUIDE" .guide-es.xml.tmp
-          install -m 644 "$GLOBAL_GUIDE" .guide.xml.tmp
           mv -f .guide-es.xml.tmp guide-es.xml
-          mv -f .guide.xml.tmp guide.xml
-          git add -f -- guide-es.xml guide.xml
-          if git diff --cached --quiet -- guide-es.xml guide.xml; then
-            echo "Spanish and global guides are unchanged."
-            exit 0
-          fi
-          git config user.name "epg-bot[bot]"
-          git config user.email "epg-bot[bot]@users.noreply.github.com"
-          git commit -m "chore(epg): update Spanish and global guides"
-          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push origin HEAD:refs/heads/main
+          bash scripts/ci/publish-xmltv.sh "chore(epg): update Spanish national guide" guide-es.xml

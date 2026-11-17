@@ -43,13 +43,14 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 
 ## Como funciona
 
-1. El workflow de GitHub Actions (`update.yml`) se ejecuta manualmente o cada día a las 03:00 UTC.
-2. Lee el fichero maestro de canales y ejecuta sus parsers, con descubrimiento adicional de Movistar.
-3. Procesa el XMLTV local con `scripts/process-epg.py`, que añade display aliases y clones Xtream configurados.
-4. Valida el XML, la cobertura mínima y los canales requeridos. Publica la guía nacional española como `guide-es.xml`.
-5. El workflow francés (`test-epg-fr.yml`) publica `guide-fr.xml`; ambos workflows ejecutan `scripts/merge-national-guides.py` con las últimas guías nacionales válidas para generar `guide.xml`.
-6. Las guías nacionales y la global se publican juntas en un único commit por ejecución. Si una generación o fusión falla, no se reemplaza la última guía válida. No se usan artifacts de Actions.
+1. El workflow orquestador (`epg-orchestrator.yml`) se ejecuta cada día a las 03:00 UTC (o manualmente).
+2. Lanza en paralelo los generadores nacionales (`generate-es.yml` y `generate-fr.yml`). Cada uno publica solo su `guide-XX.xml`.
+3. España lee el fichero maestro, ejecuta sus parsers, procesa el XMLTV con `scripts/process-epg.py` y publica `guide-es.xml`.
+4. Francia genera `guide-fr.xml` a partir de las fuentes SFR, Canal+ y Telecablesat del upstream de iptv-org/epg.
+5. Cuando acaban ambos generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona automáticamente todos los `guide-XX.xml` válidos del repositorio con `scripts/merge-national-guides.py` y publica `guide.xml`.
+6. Cada publicación es un commit independiente (`guide-es.xml`, `guide-fr.xml` o `guide.xml`). Si un país falla, se conserva su última guía publicada; la fusión usa esas copias. No se usan artifacts de Actions.
 7. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml` y `guide-fr.xml`.
+8. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
 
 ## Estructura del proyecto
 
@@ -60,7 +61,9 @@ epg/
 ├── AGENTS.md                   # Instrucciones para agentes IA (Claude Code y OpenCode)
 ├── opencode.json               # Permisos de OpenCode
 ├── .github/workflows/
-│   └── update.yml              # Workflow programado (cron diario)
+│   ├── epg-orchestrator.yml    # Orquestador diario (generadores + fusión)
+│   ├── generate-es.yml       # Generador España (manual o llamado por orquestador)
+│   └── generate-fr.yml       # Generador Francia (manual o llamado por orquestador)
 ├── frontend/
 │   ├── src/
 │   │   ├── components/         # Layout, Sidebar, MobileNav, Footer, ChannelGrid
@@ -156,17 +159,17 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 
 ### Publicar XMLTV con GitHub Actions
 
-`.github/workflows/update.yml` genera y valida la guía española, la publica como `guide-es.xml` y
-fusiona esa salida con la última `guide-fr.xml` válida para producir `guide.xml`. El workflow
-`.github/workflows/test-epg-fr.yml` genera `guide-fr.xml` y la fusiona con la última `guide-es.xml`
-válida. Ambos usan `scripts/merge-national-guides.py`; la guía global elimina canales y programas
-duplicados. Cada workflow prepara y valida todas sus salidas antes de reemplazar los ficheros y
-publica sus cambios en un commit. Una descarga, validación o fusión fallida conserva las guías
-publicadas previamente. No se transfieren XMLTV mediante artifacts.
+| Workflow | Uso |
+| --- | --- |
+| `epg-orchestrator.yml` | Cron diario 03:00 UTC. Ejecuta generadores en paralelo y fusiona al final. |
+| `generate-es.yml` | Solo `guide-es.xml`. Manual o invocado por el orquestador. |
+| `generate-fr.yml` | Solo `guide-fr.xml`. Manual o invocado por el orquestador. |
 
-Los workflows mantienen sus fuentes y horarios actuales: España a las 03:00 UTC y Francia a las
-04:00 UTC. Las publicaciones se serializan con el mismo grupo de concurrencia. Requieren el
-`GITHUB_TOKEN` efímero con permiso `contents: write`; no requieren PAT ni secretos de publicación.
+El fusionador descubre automáticamente los ficheros `guide-XX.xml` del repositorio (código ISO de
+dos letras); añadir un país nuevo solo requiere publicar su `guide-XX.xml`, sin tocar el script de
+fusión. `scripts/ci/publish-xmltv.sh` hace commit y push con reintentos tras `git pull`, evitando
+conflictos cuando España y Francia publican a la vez. La URL pública de la guía global sigue siendo
+`guide.xml` en la rama `main`.
 
 ### Descargar solo un site concreto
 
@@ -225,23 +228,14 @@ Opciones:
 
 ## GitHub Action
 
-El workflow `.github/workflows/update.yml` se ejecuta:
+El orquestador `.github/workflows/epg-orchestrator.yml` se ejecuta:
 
 - **Automaticamente** cada dia a las 03:00 UTC (05:00 hora de Madrid en invierno, 06:00 en verano)
-- **Manualmente** desde la pestana Actions del repositorio (workflow_dispatch)
+- **Manualmente** desde la pestana Actions (`workflow_dispatch`)
 
-Corre en un runner self-hosted (Raspberry Pi) con Node 22 del sistema y necesita estos secrets en el repositorio:
-
-| Secret | Uso |
-| --- | --- |
-| `GH_TOKEN` | Personal Access Token para hacer push |
-| `M3U_URL` | URL de la lista M3U con la que se genera `lineup.json` |
-
-```sh
-gh secret set M3U_URL --repo raulfdeztdo/epg
-```
-
-Si el secret no existe o la descarga falla, el workflow continua y se mantiene el `lineup.json` anterior.
+Los generadores `generate-es.yml` y `generate-fr.yml` tambien admiten ejecucion manual aislada.
+Las publicaciones usan el `GITHUB_TOKEN` del workflow con permiso `contents: write`; no hace falta PAT
+para las guias XMLTV. El paso de lineup (`M3U_URL`) sigue siendo independiente del orquestador nacional.
 
 ## Tests
 
