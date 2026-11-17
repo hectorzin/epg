@@ -1,4 +1,4 @@
-name: Test French EPG (upstream)
+﻿name: Test French EPG (upstream)
 
 on:
   workflow_dispatch:
@@ -14,164 +14,124 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           persist-credentials: false
-
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
-          cache: npm
-
       - name: Download upstream iptv-org/epg
-        shell: bash
         run: git clone --depth 1 https://github.com/iptv-org/epg.git upstream
-
       - name: Record upstream revision
         id: upstream
         working-directory: upstream
         run: |
           revision="$(git rev-parse HEAD)"
           echo "revision=$revision" >> "$GITHUB_OUTPUT"
-          echo "Using iptv-org/epg commit $revision"
-
+          echo "Upstream commit: $revision"
       - name: Install upstream dependencies
         working-directory: upstream
         run: npm ci --ignore-scripts
-
       - name: Load upstream channel metadata
         working-directory: upstream
         run: npm run api:load
-
-      - name: Select French channels and generate guides
-        id: generate
+      - name: Generate SFR, Canal+ and TVCeSoir coverage
         working-directory: upstream
         shell: bash
+        env:
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.revision }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           mkdir -p output
-          started="$(date +%s)"
+          started=$(date +%s)
           echo "$started" > output/start-time
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-
-          def read(path):
-              return ET.parse(path).getroot().findall('channel')
-
-          def select(rows, seen):
-              selected = []
-              for row in rows:
-                  channel_id = (row.get('xmltv_id') or '').strip()
-                  if row.get('lang') != 'fr' or not channel_id or channel_id in seen:
-                      continue
-                  seen.add(channel_id)
-                  selected.append(row)
-              return selected
-
-          sfr = select(read('sites/tv.sfr.fr/tv.sfr.fr.channels.xml'), set())
-          sfr_ids = {row.get('xmltv_id').strip() for row in sfr}
-          orange = select(read('sites/chaines-tv.orange.fr/chaines-tv.orange.fr.channels.xml'), set())
-
+          def read(path): return ET.parse(path).getroot().findall('channel')
+          def select(path):
+              seen=set(); out=[]
+              for c in read(path):
+                  i=(c.get('xmltv_id') or '').strip()
+                  if c.get('lang')=='fr' and i and i not in seen:
+                      seen.add(i); out.append(c)
+              return out
           def write(path, rows):
-              root = ET.Element('channels')
-              for source in rows:
-                  channel = ET.SubElement(root, 'channel', source.attrib)
-                  channel.text = source.text
-              ET.indent(root, space='  ')
-              ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
-
-          write('fr-sfr.channels.xml', sfr)
-          write('fr-orange.channels.xml', orange)
-          print(f'SFR selected: {len(sfr)}; Orange candidates: {len(orange)}')
+              root=ET.Element('channels')
+              for c in rows:
+                  n=ET.SubElement(root,'channel',c.attrib); n.text=c.text
+              ET.indent(root,space='  '); ET.ElementTree(root).write(path,encoding='utf-8',xml_declaration=True)
+          sfr=select('sites/tv.sfr.fr/tv.sfr.fr.channels.xml')
+          canal=select('sites/canalplus.com/canalplus.com_fr.channels.xml')
+          soir=select('sites/tvcesoir.fr/tvcesoir.fr.channels.xml')
+          write('fr-sfr.channels.xml',sfr); write('fr-canalplus.channels.xml',canal); write('fr-tvcesoir.channels.xml',soir)
+          print(f'Catalogs: SFR {len(sfr)}, Canal+ FR {len(canal)}, TVCeSoir {len(soir)}')
           PY
-
-          mkdir -p output
-          set +e
-          npm run grab -- --channels=fr-sfr.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/sfr.xml 2>&1 | tee output/sfr.log
-          sfr_status=${PIPESTATUS[0]}
+          run_grab() {
+            local name="$1"; shift
+            set +e
+            npm run grab -- --channels="$name.channels.xml" --days=2 --maxConnections=3 --timeout=15000 --output="output/$name.xml" 2>&1 | tee "output/$name.log"
+            local status=${PIPESTATUS[0]}
+            set -e
+            echo "$status" > "output/$name.status"
+          }
+          run_grab sfr
+          select_uncovered() {
+            python3 - "$1" "$2" "$3" <<'PY'
+          import sys,xml.etree.ElementTree as ET
+          source, guide, target=sys.argv[1:]
+          try: covered={p.get('channel') for p in ET.parse(guide).getroot().findall('programme')}
+          except (OSError,ET.ParseError): covered=set()
+          rows=ET.parse(source).getroot().findall('channel'); root=ET.Element('channels'); seen=set()
+          for c in rows:
+              i=c.get('xmltv_id')
+              if i in covered or i in seen: continue
+              seen.add(i); n=ET.SubElement(root,'channel',c.attrib); n.text=c.text
+          ET.indent(root,space='  '); ET.ElementTree(root).write(target,encoding='utf-8',xml_declaration=True)
+          print(f'{target}: {len(root.findall("channel"))} channels still without programmes')
+          PY
+          }
+          select_uncovered fr-canalplus.channels.xml output/sfr.xml fr-canalplus-selected.channels.xml
+          run_grab fr-canalplus-selected
+          mv output/fr-canalplus-selected.xml output/canalplus.xml 2>/dev/null || true
+          # Point each later source to the accumulated valid coverage.
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
-          from pathlib import Path
-          def programs(path):
-              try: return ET.parse(path).getroot().findall('programme')
-              except (OSError, ET.ParseError): return []
-          covered = {p.get('channel') for p in programs('output/sfr.xml')}
-          rows = ET.parse('fr-orange.channels.xml').getroot().findall('channel')
-          root = ET.Element('channels')
-          for row in rows:
-              if row.get('xmltv_id') not in covered:
-                  channel = ET.SubElement(root, 'channel', row.attrib); channel.text = row.text
-          ET.indent(root, space='  ')
-          ET.ElementTree(root).write('fr-orange-selected.channels.xml', encoding='utf-8', xml_declaration=True)
-          print(f'Orange channels selected after SFR: {len(root.findall("channel"))}')
+          roots=[]
+          for f in ['output/sfr.xml','output/fr-canalplus-selected.xml']:
+              try: roots.append(ET.parse(f).getroot())
+              except (OSError,ET.ParseError): pass
+          covered={p.get('channel') for r in roots for p in r.findall('programme')}
+          source=ET.parse('fr-tvcesoir.channels.xml').getroot(); out=ET.Element('channels'); seen=set()
+          for c in source.findall('channel'):
+              i=c.get('xmltv_id')
+              if i in covered or i in seen: continue
+              seen.add(i); n=ET.SubElement(out,'channel',c.attrib); n.text=c.text
+          ET.indent(out,space='  '); ET.ElementTree(out).write('fr-tvcesoir-selected.channels.xml',encoding='utf-8',xml_declaration=True)
+          print(f'TVCeSoir selected: {len(out.findall("channel"))}')
           PY
-          npm run grab -- --channels=fr-orange-selected.channels.xml --days=2 --maxConnections=3 --timeout=15000 --output=output/orange.xml 2>&1 | tee output/orange.log
-          orange_status=${PIPESTATUS[0]}
-          set -e
-          python3 - "$sfr_status" "$orange_status" <<'PY'
-          import sys
+          run_grab fr-tvcesoir-selected
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET, pathlib,time
           from pathlib import Path
-          import xml.etree.ElementTree as ET
-
-          status_sfr, status_orange = map(int, sys.argv[1:])
-          paths = [Path('output/sfr.xml'), Path('output/orange.xml')]
-          roots = []
-          for path in paths:
-              try:
-                  roots.append(ET.parse(path).getroot())
-              except (OSError, ET.ParseError):
-                  roots.append(ET.Element('tv'))
-          combined = ET.Element('tv')
-          channels = {}
-          programs = set()
-          channel_programs = set()
-          for root in roots:
-              for channel in root.findall('channel'):
-                  channels.setdefault(channel.get('id'), channel)
-              for program in root.findall('programme'):
-                  key = (program.get('channel'), program.get('start'), program.get('stop'), program.findtext('title'))
-                  if key in programs:
-                      continue
-                  programs.add(key)
-                  channel_programs.add(program.get('channel'))
-                  combined.append(program)
-          for channel in channels.values():
-              combined.insert(0, channel)
-          ET.indent(combined, space='  ')
-          ET.ElementTree(combined).write('output/guide-fr.xml', encoding='utf-8', xml_declaration=True)
-          logs = [Path('output/sfr.log').read_text(errors='replace'), Path('output/orange.log').read_text(errors='replace')]
-          errors = [log.count('ERR:') for log in logs]
-          requested = [len(ET.parse('fr-sfr.channels.xml').getroot().findall('channel')), len(ET.parse('fr-orange-selected.channels.xml').getroot().findall('channel'))]
-          covered_by_source = [{p.get('channel') for p in root.findall('programme')} for root in roots]
-          program_counts = [len(root.findall('programme')) for root in roots]
-          import time
-          duration = time.time() - float(Path('output/start-time').read_text())
-          Path('output/summary.md').write_text(
-              f'## French EPG trial\n\n- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA", "recorded in job log")}`\n'
-              f'- SFR: requested {requested[0]}, with programmes {len(covered_by_source[0])}, without programmes {requested[0]-len(covered_by_source[0])}, programmes {program_counts[0]}, HTTP/grabber errors {errors[0]}, exit {status_sfr}\n'
-              f'- Orange: requested {requested[1]}, with programmes {len(covered_by_source[1])}, without programmes {requested[1]-len(covered_by_source[1])}, programmes {program_counts[1]}, HTTP/grabber errors {errors[1]}, exit {status_orange}\n'
-              f'- Channels in combined XML: {len(channels)}; channels with programmes: {len(channel_programs)}; programs after deduplication: {len(programs)}\n'
-              f'- Additional channels recovered by Orange: {len(covered_by_source[1]-covered_by_source[0])}\n'
-              f'- Combined XML size: {Path("output/guide-fr.xml").stat().st_size} bytes\n'
-              f'- Elapsed seconds: {duration:.1f}\n', encoding='utf-8'
-          )
+          sources=[('SFR','output/sfr.xml','fr-sfr.channels.xml','output/sfr.log'),('Canal+ Francia','output/fr-canalplus-selected.xml','fr-canalplus-selected.channels.xml','output/fr-canalplus-selected.log'),('TVCeSoir','output/fr-tvcesoir-selected.xml','fr-tvcesoir-selected.channels.xml','output/fr-tvcesoir-selected.log')]
+          lines=['## French EPG upstream trial','',f'- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA")}`']
+          all_channels={}; program_keys=set(); programmed=set()
+          for label,guid,path,log in sources:
+              try: root=ET.parse(guid).getroot()
+              except (OSError,ET.ParseError): root=ET.Element('tv')
+              requested=len(ET.parse(path).getroot().findall('channel'))
+              ps=root.findall('programme'); covered={p.get('channel') for p in ps}
+              for c in root.findall('channel'): all_channels.setdefault(c.get('id'),c)
+              for p in ps:
+                  key=(p.get('channel'),p.get('start'),p.get('stop'),p.findtext('title'))
+                  if key in program_keys: continue
+                  program_keys.add(key); programmed.add(p.get('channel'))
+              errors=Path(log).read_text(errors='replace').count('ERR:') if Path(log).exists() else 0
+              status=Path(guid.replace('.xml','.status')).read_text().strip() if Path(guid.replace('.xml','.status')).exists() else 'n/a'
+              lines.append(f'- **{label}:** requested {requested}; with programming {len(covered)}; without {max(0,requested-len(covered))}; programmes {len(ps)}; grabber errors {errors}; exit {status}; additional recovered {len(covered-programmed)}')
+          lines += ['',f'- Combined distinct channels {len(all_channels)}; with programming {len(programmed)}; deduplicated programmes {len(program_keys)}',f'- Elapsed seconds {time.time()-float(Path("output/start-time").read_text()):.1f}']
+          Path('output/summary.md').write_text('\n'.join(lines)+'\n',encoding='utf8')
           print(Path('output/summary.md').read_text())
           PY
-          echo "duration=$(( $(date +%s) - started ))" >> "$GITHUB_OUTPUT"
-        env:
-          UPSTREAM_SHA: ${{ steps.upstream.outputs.revision }}
-
-      - name: Upload temporary XMLTV artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
-        with:
-          name: french-epg-upstream-trial
-          path: upstream/output/
-          if-no-files-found: warn
-          retention-days: 1
-
-      - name: Publish job summary
+      - name: Publish GitHub Actions summary
         if: always()
         run: |
-          if [[ -f upstream/output/summary.md ]]; then
-            cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "French EPG summary was not generated; inspect the earlier step logs." >> "$GITHUB_STEP_SUMMARY"
-          fi
+          if [[ -f upstream/output/summary.md ]]; then cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"; else echo "French EPG summary unavailable; inspect generation logs." >> "$GITHUB_STEP_SUMMARY"; fi
