@@ -26,17 +26,19 @@ def classify_pending_row(
     name_index: dict[str, set[str]],
     panel_core_index: dict[str, set[str]],
     allow_stream_clone: bool,
+    clones: dict[str, str] | None = None,
 ) -> tuple[str | None, str]:
     """Return (reason_code, detail). reason_code is one of four pending buckets or None if matched."""
     title = str(row.get("name") or "")
     if SECTION_HEADER.match(title.strip()):
         return None, "section_header"
 
+    clone_map = clones or {}
     guide_id, _, kind = resolve_row(
         title=title,
         panel_epg_id=row.get("epg_id"),
         stream_id=str(row.get("xtream_id") or ""),
-        channel_ids=channel_ids,
+        channel_ids=channel_ids | set(clone_map),
         stem_index=stem_index,
         name_index=name_index,
         panel_core_index=panel_core_index,
@@ -46,6 +48,10 @@ def classify_pending_row(
         return None, kind
 
     epg_id = (row.get("epg_id") or "").strip()
+    if valid_panel_epg_id(epg_id) and epg_id in clone_map:
+        root = clone_map[epg_id]
+        if root in channel_ids and root in programmed:
+            return None, "clone_map"
     if kind in ("ambiguous_name", "ambiguous_stem"):
         return "ambiguous_association", kind
 
@@ -93,6 +99,7 @@ def build_pending_report(
     name_index: dict[str, set[str]],
     panel_core_index: dict[str, set[str]],
     allow_stream_clone: bool,
+    clones: dict[str, str] | None = None,
     limit: int = 800,
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
@@ -105,6 +112,7 @@ def build_pending_report(
             name_index=name_index,
             panel_core_index=panel_core_index,
             allow_stream_clone=allow_stream_clone,
+            clones=clones,
         )
         if not bucket:
             continue

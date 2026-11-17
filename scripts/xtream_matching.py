@@ -17,7 +17,7 @@ FAKE_HD_CHARS = re.compile(r"[\u029c\u1d05\u1d2c\uff48\uff44]", re.IGNORECASE)
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
 COUNTRY_PREFIX_RE = re.compile(
-    r"^\s*(?:\[(ES|FR|AR)\]\s*|(ES|FR|AR)\s*[:|/_-]\s*)",
+    r"^\s*(?:\[(ES|FR|AR|GB|UK)\]\s*|(ES|FR|AR|GB|UK)\s*[:|/_-]\s*)",
     re.IGNORECASE,
 )
 TECHNICAL_SUFFIX_RE = re.compile(
@@ -33,6 +33,8 @@ def classify_playlist_region(category: str) -> str | None:
         return "ES"
     if cat.startswith("[FR]"):
         return "FR"
+    if cat.startswith("[GB]") or cat.startswith("[UK]"):
+        return "GB"
     if cat.startswith("[AR]") or "ARABIC" in cat.upper():
         return "ARABIC"
     return None
@@ -263,6 +265,14 @@ def resolve_row(
             pick = disambiguate_by_quality(title, stem_hits)
             if pick:
                 return pick, None, "stem_quality"
+            guide_id, name_kind = lookup_by_name(title, name_index)
+            if guide_id:
+                clone_id = None
+                if allow_stream_clone and not valid_panel_epg_id(panel_epg_id):
+                    sid = str(stream_id).strip()
+                    if sid and sid not in channel_ids and sid != guide_id:
+                        clone_id = sid
+                return guide_id, clone_id, name_kind
             return None, None, "ambiguous_stem"
 
         guide_id, core_kind = pick_panel_core(pid, title, panel_core_index, name_index)

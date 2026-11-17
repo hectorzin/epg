@@ -10,7 +10,7 @@
 
 Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la EPG de canales de television en España y generar una guia nacional arabe.
 
-### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml)
+### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml) · [Reino Unido](https://raw.githubusercontent.com/hectorzin/epg/main/guide-gb.xml)
 
 ## Dashboard web
 
@@ -50,14 +50,15 @@ trabaja con una conexión y un segundo de demora entre peticiones.
 ## Como funciona
 
 1. El workflow orquestador (`epg-orchestrator.yml`) se ejecuta cada día a las 03:00 UTC (o manualmente).
-2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml` y `generate-arabic.yml`). Cada uno publica su guía nacional.
+2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml` y `generate-gb.yml`). Cada uno publica su guía nacional.
 3. España lee el fichero maestro, ejecuta sus parsers, enriquece el XMLTV con la capa Xtream (`scripts/process-epg.py`, `epg/aliases.json`, `epg/xtream-aliases.json`) y publica `guide-es.xml`.
 4. Francia genera `guide-fr.xml` (SFR, Canal+, Telecablesat) y aplica la misma capa con `epg/aliases-fr.json` y `epg/xtream-aliases-fr.json` antes de publicar.
 5. Arabic genera `guide-arabic.xml` y aplica `epg/aliases-arabic.json` y `epg/xtream-aliases-arabic.json`.
-6. Cuando terminan los tres generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`.
-7. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
-8. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml` y `guide-arabic.xml`.
-9. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
+6. Reino Unido genera `guide-gb.xml` fusionando EPGShare UK1, Sky, tv24.co.uk y Virgin TV Go con `scripts/gb-epg.py`, reescribe colisiones de ID con otras regiones a `@UK` y aplica `epg/aliases-gb.json` y `epg/xtream-aliases-gb.json`.
+7. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`.
+8. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
+9. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml`, `guide-arabic.xml` y `guide-gb.xml`.
+10. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
 
 **Nueva región:** cualquier guía nacional que se incorpore debe incluir su propio par de ficheros `epg/aliases-XX.json` y `epg/xtream-aliases-XX.json`, un paso `process-epg.py --profile …` en el workflow y validación de que cada clone Xtream existe en el XMLTV publicado. Los mappings se generan en local con `scripts/build_xtream_mappings.py` (lee la base IPTVnator en solo lectura; no se commitea ni se pasa a CI).
 
@@ -73,12 +74,14 @@ epg/
 │   ├── epg-orchestrator.yml    # Orquestador diario (generadores + fusión)
 │   ├── generate-es.yml         # Generador España
 │   ├── generate-fr.yml         # Generador Francia
-│   └── generate-arabic.yml     # Generador Arabic
+│   ├── generate-arabic.yml     # Generador Arabic
+│   └── generate-gb.yml         # Generador Reino Unido
 ├── epg/
 │   ├── aliases.json            # display-name Xtream (ES)
 │   ├── xtream-aliases.json     # clones EPG ID Xtream (ES)
 │   ├── aliases-fr.json / xtream-aliases-fr.json
 │   ├── aliases-arabic.json / xtream-aliases-arabic.json
+│   ├── aliases-gb.json / xtream-aliases-gb.json / xtream-pending-gb.json
 │   └── xtream-pending-es.json  # asociaciones ES pendientes de fuente EPG
 ├── frontend/
 │   ├── src/
@@ -155,13 +158,14 @@ Esto genera el fichero `guide.xml` en el directorio raiz.
 ### Capa Xtream (por región)
 
 Tras el grab, cada generador nacional ejecuta `scripts/process-epg.py` con un perfil (`es`, `fr`,
-`arabic`). El script no vuelve a descargar parrillas: solo enriquece el XMLTV ya generado.
+`arabic`, `gb`). El script no vuelve a descargar parrillas: solo enriquece el XMLTV ya generado.
 
 | Perfil | Guía de entrada | `display-name` | Clones Xtream |
 | --- | --- | --- | --- |
 | `es` | `guide-es.xml` | `epg/aliases.json` | `epg/xtream-aliases.json` |
 | `fr` | `guide-fr.xml` | `epg/aliases-fr.json` | `epg/xtream-aliases-fr.json` |
 | `arabic` | `guide-arabic.xml` | `epg/aliases-arabic.json` | `epg/xtream-aliases-arabic.json` |
+| `gb` | `guide-gb.xml` | `epg/aliases-gb.json` | `epg/xtream-aliases-gb.json` |
 
 Los alias añaden los nombres exactos de la lista Xtream como `display-name`. Los clones duplican
 canal y programas bajo el `epg_channel_id` de Xtream cuando la asociación es fiable; no se usa
@@ -179,9 +183,10 @@ Comparativa antes/después del matching:
 python scripts/compare_xtream_layer.py es --output temp/guide-es-enriched.xml
 python scripts/compare_xtream_layer.py fr --output temp/guide-fr-enriched.xml
 python scripts/compare_xtream_layer.py arabic --output temp/guide-arabic-enriched.xml
+python scripts/compare_xtream_layer.py gb --output temp/guide-gb-enriched.xml
 ```
 
-Cada región persiste pendientes en `epg/xtream-pending-{es,fr,arabic}.json`, con `status`:
+Cada región persiste pendientes en `epg/xtream-pending-{es,fr,arabic,gb}.json`, con `status`:
 
 | status | Significado |
 | --- | --- |
@@ -222,6 +227,7 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 | `generate-es.yml` | Solo `guide-es.xml`. Manual o invocado por el orquestador. |
 | `generate-fr.yml` | Solo `guide-fr.xml`. Manual o invocado por el orquestador. |
 | `generate-arabic.yml` | Solo `guide-arabic.xml`. Manual o invocado por el orquestador. |
+| `generate-gb.yml` | Solo `guide-gb.xml` (upstream iptv-org/epg: EPGShare UK1, Sky, tv24, Virgin). |
 
 El fusionador descubre automáticamente los ficheros `guide-XX.xml` (incluido `guide-ar.xml` para
 Argentina) y el nombre especial `guide-arabic.xml`; este último no se confunde con Argentina.

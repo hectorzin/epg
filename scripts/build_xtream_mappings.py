@@ -26,21 +26,25 @@ GUIDES = {
     "ES": ROOT / "guide-es.xml",
     "FR": ROOT / "guide-fr.xml",
     "ARABIC": ROOT / "guide-arabic.xml",
+    "GB": ROOT / "guide-gb.xml",
 }
 ALIAS_OUT = {
     "ES": ROOT / "epg" / "aliases.json",
     "FR": ROOT / "epg" / "aliases-fr.json",
     "ARABIC": ROOT / "epg" / "aliases-arabic.json",
+    "GB": ROOT / "epg" / "aliases-gb.json",
 }
 CLONE_OUT = {
     "ES": ROOT / "epg" / "xtream-aliases.json",
     "FR": ROOT / "epg" / "xtream-aliases-fr.json",
     "ARABIC": ROOT / "epg" / "xtream-aliases-arabic.json",
+    "GB": ROOT / "epg" / "xtream-aliases-gb.json",
 }
 PENDING_OUT = {
     "ES": ROOT / "epg" / "xtream-pending-es.json",
     "FR": ROOT / "epg" / "xtream-pending-fr.json",
     "ARABIC": ROOT / "epg" / "xtream-pending-arabic.json",
+    "GB": ROOT / "epg" / "xtream-pending-gb.json",
 }
 
 
@@ -116,10 +120,22 @@ def resolve_clone_root(clone_map: dict[str, str], channel_id: str) -> str:
     return channel_id
 
 
+def strip_spanish_skyshowtime_panel_clones(mapping: dict[str, str]) -> dict[str, str]:
+    """Keep a single SkyShowtime panel clone; drop legacy fox.es.* panels (see commit 95eea31b)."""
+    allowed = {"fox.es.skyshowtime1"}
+    cleaned = dict(mapping)
+    for clone_id in list(cleaned):
+        if clone_id.startswith("fox.es.") and clone_id not in allowed:
+            del cleaned[clone_id]
+    return cleaned
+
+
 def merge_clones(
     existing: dict[str, str],
     discovered: dict[str, str],
 ) -> dict[str, str]:
+    discovered = strip_spanish_skyshowtime_panel_clones(discovered)
+    existing = strip_spanish_skyshowtime_panel_clones(existing)
     merged = dict(existing)
     for clone_id, guide_id in discovered.items():
         target = resolve_clone_root({**merged, **discovered}, guide_id)
@@ -206,6 +222,7 @@ def main() -> int:
         discovered_aliases = canonical_aliases
         aliases = merge_aliases(existing_aliases, discovered_aliases)
         clones = merge_clones(existing_clones, discovered_clones)
+        clones = strip_spanish_skyshowtime_panel_clones(clones)
 
         for clone_id, original_id in list(clones.items()):
             if original_id not in guide_ids:
@@ -222,12 +239,13 @@ def main() -> int:
 
         pending = build_pending_report(
             catalog,
-            channel_ids=guide_ids,
+            channel_ids=guide_ids | set(clones),
             programmed=programmed,
             stem_index=stem_index,
             name_index=name_index,
             panel_core_index=panel_core_index,
             allow_stream_clone=allow_stream,
+            clones=clones,
         )
         summary["regions"][region]["pending"] = len(pending)
         pending_counts: dict[str, int] = defaultdict(int)

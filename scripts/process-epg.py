@@ -518,7 +518,7 @@ def main() -> int:
     parser.add_argument("--xtream-aliases", type=Path, default=root / "epg" / "xtream-aliases.json")
     parser.add_argument(
         "--profile",
-        choices=("es", "fr", "arabic"),
+        choices=("es", "fr", "arabic", "gb"),
         default="es",
         help="Alias validation profile (regional guides use relaxed display-name counts)",
     )
@@ -549,7 +549,7 @@ def main() -> int:
         source = args.input.read_bytes()
         baseline = args.baseline.read_bytes() if args.baseline else None
         source_root = parse_xml(source, "input XMLTV")
-        auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC"}[profile]
+        auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC", "gb": "GB"}[profile]
         xtream_aliases, xtream_summary = resolve_xtream_catalog(
             source_root,
             xtream_catalog,

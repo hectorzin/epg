@@ -30,6 +30,7 @@ PROFILES = {
         "epg/xtream-aliases-arabic.json",
         "ARABIC",
     ),
+    "gb": ("guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json", "GB"),
 }
 
 
@@ -111,7 +112,9 @@ def catalog_link_stats(
     programmed: set[str],
     allow_stream_clone: bool,
 ) -> dict[str, object]:
-    stem_index, name_index, panel_core_index = build_guide_indexes(channel_ids, display_names)
+    stem_index, name_index, panel_core_index = build_guide_indexes(
+        channel_ids | set(clones), display_names
+    )
     match_kind: Counter = Counter()
     linkage: Counter = Counter()
     matched = 0
@@ -120,16 +123,34 @@ def catalog_link_stats(
     for row in rows:
         title = str(row["name"])
         panel_epg = row.get("epg_id")
+        if panel_epg and valid_panel_epg_id(str(panel_epg)) and str(panel_epg).strip() in clones:
+            root = clones[str(panel_epg).strip()]
+            if root in programmed:
+                matched += 1
+                match_kind["clone_map"] += 1
+                matched_programmed += 1
+                linkage["id_exact"] += 1
+                continue
         guide_id, _, kind = resolve_row(
             title=title,
             panel_epg_id=panel_epg,
             stream_id=str(row["xtream_id"]),
-            channel_ids=channel_ids,
+            channel_ids=channel_ids | set(clones),
             stem_index=stem_index,
             name_index=name_index,
             panel_core_index=panel_core_index,
             allow_stream_clone=allow_stream_clone,
         )
+        if not guide_id:
+            title_cf = title.strip()
+            title_plain = title_cf.replace("UK ", "", 1).strip()
+            for channel_id, labels in display_names.items():
+                if channel_id not in programmed:
+                    continue
+                if title_cf in labels or title_plain in labels:
+                    guide_id = channel_id
+                    kind = "display_name_literal"
+                    break
         if not guide_id:
             linkage["unmatched"] += 1
             continue

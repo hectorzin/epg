@@ -1,0 +1,586 @@
+[
+  {
+    "xtream_id": "2445",
+    "name": "UK BT Sports Extra 6 SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2446",
+    "name": "UK BT Sports Extra 7 SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2447",
+    "name": "UK BT Sports Extra 8 SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2448",
+    "name": "UK BT Sports Extra 9 SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2451",
+    "name": "UK Tiny Pop",
+    "epg_id": "tinypop.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2452",
+    "name": "UK POP",
+    "epg_id": "pop.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2453",
+    "name": "UK POP Max",
+    "epg_id": "popmax.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2456",
+    "name": "UK MTV MUSIC",
+    "epg_id": "mtvmusic.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2457",
+    "name": "UK MTV U",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2458",
+    "name": "UK MTV HITS",
+    "epg_id": "mtvhits.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2459",
+    "name": "UK Kerrang!",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2460",
+    "name": "UK Trace Vault",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2464",
+    "name": "UK Kiss",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2465",
+    "name": "UK 4Music",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2482",
+    "name": "UK Babenation",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2485",
+    "name": "UK Brit Asia TV",
+    "epg_id": "britasiatv.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2486",
+    "name": "UK British Muslim",
+    "epg_id": "britishmuslim.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2487",
+    "name": "UK CBS Reality",
+    "epg_id": "cbsreality.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2488",
+    "name": "UK CBS Reality+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2506",
+    "name": "UK Dave",
+    "epg_id": "dave.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2513",
+    "name": "UK Drama",
+    "epg_id": "drama.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2514",
+    "name": "UK Drama+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2515",
+    "name": "UK Eden",
+    "epg_id": "eden.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2516",
+    "name": "UK Eden+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2522",
+    "name": "UK W",
+    "epg_id": "w.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2529",
+    "name": "UK Sky Sports Premier League SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2537",
+    "name": "UK Sky Sports Arena SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2538",
+    "name": "UK Sky Showcase SD",
+    "epg_id": "skyshowcase.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2559",
+    "name": "UK Pick SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2566",
+    "name": "UK Dave ja vu",
+    "epg_id": "davejavu.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2574",
+    "name": "UK HGTV+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2577",
+    "name": "UK Ahlebait",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2578",
+    "name": "UK HorrorXtra",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2579",
+    "name": "UK HorrorXtra+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2580",
+    "name": "UK E! Entertainment SD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2596",
+    "name": "UK BBC WORLD NEWS",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2599",
+    "name": "UK RTE TWO",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2601",
+    "name": "UK RTE JR",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2609",
+    "name": "UK YESTERDAY",
+    "epg_id": "yesterday.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2612",
+    "name": "UK TCM",
+    "epg_id": "dev.linear.en.100322",
+    "category": "[GB] ENGLAND",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "2620",
+    "name": "UK DISNEY XD",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2624",
+    "name": "UK Watch",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2626",
+    "name": "UK NBC News Now",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2627",
+    "name": "UK HGTV",
+    "epg_id": "hgtv.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2630",
+    "name": "UK Foodxp",
+    "epg_id": "foodxp.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2633",
+    "name": "UK Kanshi",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2635",
+    "name": "UK London Live",
+    "epg_id": "londonlive.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2636",
+    "name": "UK Magic TV",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2638",
+    "name": "UK PTV Global",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2639",
+    "name": "UK NOW ROK",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2642",
+    "name": "UK ITV BOX OFFICE",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2643",
+    "name": "UK GOLD+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2647",
+    "name": "UK Sky History+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2648",
+    "name": "UK W+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2657",
+    "name": "UK ITV +4",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name"
+  },
+  {
+    "xtream_id": "2658",
+    "name": "UK ITV +3",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name"
+  },
+  {
+    "xtream_id": "2659",
+    "name": "UK ITV +2",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name"
+  },
+  {
+    "xtream_id": "2660",
+    "name": "UK ITV 1 MERIDIAN EAST +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2661",
+    "name": "UK ITV 1 London +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2662",
+    "name": "UK ITV 1 Granada +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2664",
+    "name": "UK CHANNEL 4 SCOTLANND +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2665",
+    "name": "UK Channel 4 North +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2666",
+    "name": "UK CHANNEL 4 LONDON +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2667",
+    "name": "UK YESTERDAY+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2671",
+    "name": "UK POP +1",
+    "epg_id": "popplus1.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2673",
+    "name": "UK POP max +1",
+    "epg_id": "popmaxplus1.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2674",
+    "name": "UK Tiny Pop +1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2679",
+    "name": "UK Box Hits",
+    "epg_id": "boxhits.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2683",
+    "name": "UK NTD News",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2686",
+    "name": "UK AMC",
+    "epg_id": "dev.linear.en.100397",
+    "category": "[GB] ENGLAND",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "2688",
+    "name": "UK Bloomberg TV",
+    "epg_id": "bloombergtv.uk",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "2689",
+    "name": "UK TCM Movies+1",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "2692",
+    "name": "UK CBS Drama",
+    "epg_id": "NULL",
+    "category": "[GB] ENGLAND",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias"
+  }
+]

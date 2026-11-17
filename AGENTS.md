@@ -30,7 +30,8 @@ epg/
 │   ├── epg-orchestrator.yml    # Orquestador diario (generadores + fusión global)
 │   ├── generate-es.yml         # Publica solo guide-es.xml
 │   ├── generate-fr.yml         # Publica solo guide-fr.xml
-│   └── generate-arabic.yml     # Publica solo guide-arabic.xml
+│   ├── generate-arabic.yml     # Publica solo guide-arabic.xml
+│   └── generate-gb.yml         # Publica solo guide-gb.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── commands/
@@ -94,8 +95,13 @@ sites/<dominio>/
 ## GitHub Actions (EPG)
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
-  `generate-es.yml`, `generate-fr.yml` y `generate-arabic.yml`, luego fusiona con `scripts/merge-national-guides.py`
-  (`--root .`) y publica solo `guide.xml`.
+  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml` y `generate-gb.yml`, luego fusiona con
+  `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`.
+- El generador British publica `guide-gb.xml` con `scripts/gb-epg.py` (selección incremental,
+  merge por calidad Virgin → Sky → tv24 → EPGShare, IDs débiles rechazados, colisiones @UK frente a
+  ES/FR/Arabic). Fuentes en upstream iptv-org/epg: EPGShare UK1, Sky (site_id `GB#`), tv24.co.uk y
+  Virgin TV Go. Tras el merge crudo, `process-epg --profile gb` con `epg/aliases-gb.json` y
+  `epg/xtream-aliases-gb.json`; los mappings curados viven en `scripts/apply_gb_xtream_curated.py`.
 - El generador Arabic publica `guide-arabic.xml` con Shahid primero y elCinema, OSN, beIN,
   beIN SPORTS MENA, Al Jazeera, ART y Ayn como fuentes complementarias. Mantiene dos días,
   limita elCinema a una conexión con un segundo de demora, conserva títulos árabes y omite SAT.tv
@@ -104,9 +110,10 @@ sites/<dominio>/
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
 - **Capa Xtream obligatoria:** tras el grab/XMLTV crudo, cada workflow ejecuta
   `scripts/process-epg.py` con `--profile es|fr|arabic` y los JSON en `epg/aliases*.json` /
-  `epg/xtream-aliases*.json`. El paso de publish valida que cada clone exista en la guía. Los
-  mappings se regeneran en local con `python scripts/build_xtream_mappings.py` (`XTREAM_DB`
-  opcional); no commitear credenciales, URLs ni la base IPTVnator.
+  `epg/xtream-aliases*.json` (p. ej. `aliases-gb.json`, `xtream-aliases-gb.json`). El paso de
+  publish valida que cada clone exista en la guía. Los mappings se regeneran en local con
+  `python scripts/build_xtream_mappings.py` (`XTREAM_DB` opcional); no commitear credenciales,
+  URLs ni la base IPTVnator.
 - Si un país falla, no se sobrescribe su guía; el fusionador usa las copias ya en `main`.
 - Añadir una guía nacional: publicar `guide-XX.xml` (código ISO de dos letras); el fusionador la
   detecta. La guía árabe usa el nombre especial `guide-arabic.xml` para no colisionar con

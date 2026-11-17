@@ -1,0 +1,730 @@
+{
+  "BBCRedButton1.uk@HD": [
+    "UK BBC Red Button 1"
+  ],
+  "TNTSports1.uk@HD": [
+    "UK TNT Sports 1 SD"
+  ],
+  "TNTSports2.uk@HD": [
+    "UK TNT Sports 2 SD"
+  ],
+  "TNTSports3.uk@HD": [
+    "UK TNT Sports 3 SD"
+  ],
+  "TNTSports4.uk@HD": [
+    "UK TNT Sports 4 SD"
+  ],
+  "NickJrToo.uk@SD": [
+    "UK Nick Jr.Too"
+  ],
+  "MTV.uk@HD": [
+    "UK MTV SD"
+  ],
+  "NOW90S.uk@SD": [
+    "UK NOW 90s"
+  ],
+  "Now80s.uk@SD": [
+    "UK NOW 80s"
+  ],
+  "Now70s.uk@SD": [
+    "UK NOW 70s"
+  ],
+  "4seven.uk@HD": [
+    "UK 4seven",
+    "UK 4 SEVEN"
+  ],
+  "5Action.uk@HD": [
+    "UK 5 ACTION"
+  ],
+  "5SELECT.uk@SD": [
+    "UK 5 SELECT"
+  ],
+  "AkaalChannel.uk@SD": [
+    "UK Akaal Channel"
+  ],
+  "Cartoonito.uk@SD": [
+    "UK Cartoonito"
+  ],
+  "ClublandTV.uk@SD": [
+    "UK Clubland TV"
+  ],
+  "ComedyXtra.uk@SD": [
+    "UK ComedyXtra"
+  ],
+  "DeenTV.uk@SD": [
+    "UK Deen TV"
+  ],
+  "EmanChannel.uk@SD": [
+    "UK Eman Channel"
+  ],
+  "SONYTV.uk@HD": [
+    "UK Sony TV SD"
+  ],
+  "SkyWitness.uk@HD": [
+    "UK Sky Witness SD"
+  ],
+  "SkySciFi.uk@HD": [
+    "UK Sky Sci-Fi SD",
+    "UK Sky Cinema Sci-Fi SD"
+  ],
+  "SkySportsRacing.uk@UKHD": [
+    "UK Sky Sports Racing SD"
+  ],
+  "SkySportsNews.uk@HD": [
+    "UK Sky Sports News SD"
+  ],
+  "SkySportsMix.uk@HD": [
+    "UK Sky Sports Mix SD"
+  ],
+  "SkySportsFootball.uk@HD": [
+    "UK Sky Sports Football SD"
+  ],
+  "SkySportsF1.uk@HD": [
+    "UK Sky Sports F1 SD"
+  ],
+  "SkySportsCricket.uk@HD": [
+    "UK Sky Sports Cricket SD"
+  ],
+  "SkyNature.uk@HD": [
+    "UK Sky Nature SD"
+  ],
+  "SkyMax.uk@HD": [
+    "UK Sky Max SD"
+  ],
+  "SkyHistory.uk@HD": [
+    "UK Sky History SD"
+  ],
+  "SkyHistory2.uk@HD": [
+    "UK Sky History 2 SD"
+  ],
+  "SkyCrime.uk@HD": [
+    "UK Sky Crime SD"
+  ],
+  "SkyDocumentaries.uk@HD": [
+    "UK Sky Documentaries SD"
+  ],
+  "SkyComedy.uk@HD": [
+    "UK Sky Comedy SD"
+  ],
+  "SkyAtlantic.uk@HD": [
+    "UK Sky Atlantic SD"
+  ],
+  "SkyArts.uk@HD": [
+    "UK Sky Arts SD"
+  ],
+  "Nicktoons.uk@SD": [
+    "UK Nicktoons SD"
+  ],
+  "Blaze.uk@SD": [
+    "UK Blaze"
+  ],
+  "GBNews.uk@SD": [
+    "UK GB News"
+  ],
+  "HUMMasala.uk@SD": [
+    "UK HUM Masala"
+  ],
+  "E4Extra.uk@SD": [
+    "UK E4 Extra"
+  ],
+  "Gold.uk@SD": [
+    "UK Gold SD"
+  ],
+  "Challenge.uk@SD": [
+    "UK Challenge",
+    "UK Challenge HD"
+  ],
+  "Alibi.uk@Plus1": [
+    "UK alibi",
+    "UK alibi+1"
+  ],
+  "BBCNews.uk@UKHD": [
+    "UK BBC NEWS"
+  ],
+  "CBeebies.uk@HD": [
+    "UK CBeebies"
+  ],
+  "UtsavBharat.uk@UK": [
+    "UK Utsav Bharat"
+  ],
+  "SkyNews.uk@HD": [
+    "UK SKY NEWS"
+  ],
+  "S4C.uk@HD": [
+    "UK S4C"
+  ],
+  "BabyTV.uk@UK": [
+    "UK Baby TV"
+  ],
+  "PBSAmerica.uk@SD": [
+    "UK PBS America"
+  ],
+  "SkySportsGolf.uk@HD": [
+    "UK Sky Sports Golf"
+  ],
+  "SonyMax.uk@HD": [
+    "UK SONY MAX"
+  ],
+  "STARPlus.uk@SD": [
+    "UK Star plus"
+  ],
+  "BestDirect.uk@SD": [
+    "UK Best Direct"
+  ],
+  "GEOTV.uk@SD": [
+    "UK GEO TV"
+  ],
+  "Really.uk@SD": [
+    "UK Really"
+  ],
+  "SikhChannel.uk@SD": [
+    "UK Sikh Channel"
+  ],
+  "DisneyJr.uk@HD": [
+    "UK Disney JR HD"
+  ],
+  "MUTV.uk@SD": [
+    "UK MUTV"
+  ],
+  "CBBC.uk@HD": [
+    "UK CBBC",
+    "UK CITV"
+  ],
+  "SkySportsTennis.uk@SD": [
+    "UK Sky Sports Tennis SD"
+  ],
+  "RewindTV.uk@SD": [
+    "UK Rewind TV"
+  ],
+  "BBCOne.uk@HD": [
+    "UK BBC One"
+  ],
+  "BBCTwo.uk@HD": [
+    "UK BBC Two"
+  ],
+  "BBCThree.uk@HD": [
+    "UK BBC Three"
+  ],
+  "BBCFour.uk@UKHD": [
+    "UK BBC Four"
+  ],
+  "ITV1.uk@HD": [
+    "UK ITV1"
+  ],
+  "ITV2.uk@HD": [
+    "UK ITV2"
+  ],
+  "ITV3.uk@HD": [
+    "UK ITV3"
+  ],
+  "ITV4.uk@HD": [
+    "UK ITV4"
+  ],
+  "ITVBe.uk@HD": [
+    "UK ITV BE"
+  ],
+  "5USA.uk@SD": [
+    "UK 5 USA"
+  ],
+  "5STAR.uk@SD": [
+    "UK 5STAR"
+  ],
+  "92News.uk@SD": [
+    "UK 92 News"
+  ],
+  "AajTak.in@SD": [
+    "UK AAJ TAK"
+  ],
+  "ARYDigital.pk@UK": [
+    "UK ARY Digital"
+  ],
+  "AhlebaitTV.uk@SD": [
+    "UK Ahlebait TV"
+  ],
+  "AriseNews.uk@UK": [
+    "UK Arise News"
+  ],
+  "AnimalPlanet.uk@HD": [
+    "UK Animal Planet"
+  ],
+  "B4UMovies.in@UK": [
+    "UK B4U Movies"
+  ],
+  "B4UMusic.in@UK": [
+    "UK B4U Music"
+  ],
+  "Boomerang.uk@SD": [
+    "UK Boomerang"
+  ],
+  "Boomerang.uk@Plus1": [
+    "UK Boomerang+1"
+  ],
+  "CartoonNetwork.uk@Plus1": [
+    "UK CN+1"
+  ],
+  "CNBCEurope.uk@HD": [
+    "UK CNBC"
+  ],
+  "ColorsMENA.in@HD": [
+    "UK COLORS"
+  ],
+  "Channel4.uk@UKHD": [
+    "UK Channel 4 SD"
+  ],
+  "Channel5.uk@HD": [
+    "UK Channel 5"
+  ],
+  "Channel5.uk@Plus1": [
+    "UK Channel 5+1"
+  ],
+  "ColorsCineplex.in@SD": [
+    "UK Colors Cineplex"
+  ],
+  "ColorsRishteyEurope.in@UK": [
+    "UK Colors Rishtey"
+  ],
+  "ComedyCentral.uk@HD": [
+    "UK Comedy Central"
+  ],
+  "CrimeInv.uk@Plus1": [
+    "UK Crime+Inv+1"
+  ],
+  "DMAX.uk@UKPlus1": [
+    "UK DMAX+1"
+  ],
+  "DiscoveryHistory.uk@SD": [
+    "UK Disc History"
+  ],
+  "DiscoveryScienceEurope.uk@UKHD": [
+    "UK Disc Science"
+  ],
+  "DiscoveryTurbo.uk@SD": [
+    "UK Disc Turbo"
+  ],
+  "DiscoveryTurbo.uk@Plus1": [
+    "UK Disc Turbo+1"
+  ],
+  "DiscoveryChannel.uk@UKHD": [
+    "UK Discovery"
+  ],
+  "Film4.uk@HD": [
+    "UK Film4"
+  ],
+  "FoodNetwork.uk@SD": [
+    "UK Food Network"
+  ],
+  "FoodNetwork.uk@Plus1": [
+    "UK Food Netwrk+1"
+  ],
+  "TLC.uk@HD": [
+    "UK TLC SD"
+  ],
+  "SkySportsNFL.uk@HD": [
+    "UK Sky Sports NFL SD"
+  ],
+  "SkyCinemaSelect.uk@SD": [
+    "UK Sky Cinema Premier SD",
+    "UK Sky Cinema Select SD"
+  ],
+  "SkyCinemaThriller.uk@HD": [
+    "UK Sky Cinema Thriller SD"
+  ],
+  "SkyCinemaHits.uk@HD": [
+    "UK Sky Cinema Hits SD"
+  ],
+  "SkyCinemaGreats.uk@HD": [
+    "UK Sky Cinema Greats SD"
+  ],
+  "SkyCinemaDrama.uk@HD": [
+    "UK Sky Cinema Drama SD"
+  ],
+  "SkyCinemaFamily.uk@HD": [
+    "UK Sky Cinema Family SD",
+    "UK Sky Cinema Animation SD"
+  ],
+  "SkyCinemaComedy.uk@HD": [
+    "UK Sky Cinema Comedy SD"
+  ],
+  "SkyCinemaAction.uk@HD": [
+    "UK Sky Cinema Action SD"
+  ],
+  "Nickelodeon.uk@HD": [
+    "UK Nickelodeon"
+  ],
+  "NickJr.uk@SD": [
+    "UK Nick Jr SD"
+  ],
+  "NationalGeographicWild.uk@HD": [
+    "UK Nat Geo Wild SD"
+  ],
+  "CBSJustice.uk@SD": [
+    "UK CBS Justice"
+  ],
+  "DMAX.uk@UK": [
+    "UK DMAX"
+  ],
+  "GREATmovies.uk@UK": [
+    "UK GREAT! Movies",
+    "UK GREAT! movies"
+  ],
+  "TalkingPicturesTV.uk@SD": [
+    "UK Talking Pictures"
+  ],
+  "HumEurope.pk@SD": [
+    "UK HUM EUROPE"
+  ],
+  "E4.uk@HD": [
+    "UK E4 SD"
+  ],
+  "InvestigationDiscovery.uk@UK": [
+    "UK ID"
+  ],
+  "Film4.uk@Plus1": [
+    "UK Film4+1"
+  ],
+  "BBCOne.uk@ScotlandHD": [
+    "UK BBC One Scotland"
+  ],
+  "More4.uk@HD": [
+    "UK More 4"
+  ],
+  "Quest.uk@HD": [
+    "UK QUEST"
+  ],
+  "PremierSports1.ie": [
+    "UK Premier Sports 1"
+  ],
+  "Travelxp.in@SD": [
+    "UK Travel xp"
+  ],
+  "SkySportsMainEvent.uk@HD": [
+    "UK Sky Sports Main Event"
+  ],
+  "CNNInternational.us@UK": [
+    "UK CNN"
+  ],
+  "GREATaction.uk@SD": [
+    "UK GREAT! action"
+  ],
+  "GREATromance.uk@UK": [
+    "UK GREAT! romance"
+  ],
+  "PTCPunjabi.in@SD": [
+    "UK PTC PUNJABI"
+  ],
+  "SonySABAsia.in@SD": [
+    "UK SONY SAB"
+  ],
+  "SonyMax2.in@SD": [
+    "UK SONY MAX 2"
+  ],
+  "ZeeCinema.in@SD": [
+    "UK Zee Cinema"
+  ],
+  "ColorsGujarati.in@SD": [
+    "UK COLORS GUJARATI"
+  ],
+  "PremierSports2.ie": [
+    "UK Premier Sports 2"
+  ],
+  "GeoNewsInternational.pk@SD": [
+    "UK GEO News"
+  ],
+  "Legend.uk@SD": [
+    "UK Legend"
+  ],
+  "NTVEurope.bd@SD": [
+    "UK NTV"
+  ],
+  "SkySportsBoxOffice.uk@UK": [
+    "UK SKY SPORTS BOX OFFICE"
+  ],
+  "NickJr.uk@Plus1": [
+    "UK Nick Jr+1"
+  ],
+  "DiscoveryHistory.uk@Plus1": [
+    "UK Disc History+1"
+  ],
+  "DiscoveryScienceEurope.uk@UKPlus1": [
+    "UK Disc Sci+1"
+  ],
+  "DiscoveryChannel.uk@UKPlus1": [
+    "UK Discovery+1"
+  ],
+  "InvestigationDiscovery.uk@Plus1": [
+    "UK ID+1"
+  ],
+  "TLC.uk@Plus1": [
+    "UK TLC+1"
+  ],
+  "More4.uk@Plus1": [
+    "UK More4 +1"
+  ],
+  "E4.uk@Plus1": [
+    "UK E4 +1"
+  ],
+  "Quest.uk@Plus1": [
+    "UK QUEST +1"
+  ],
+  "QuestRed.uk@Plus1": [
+    "UK Quest Red +1"
+  ],
+  "GREATtv.uk@Plus1": [
+    "UK GREAT! tv +1"
+  ],
+  "GREATaction.uk@Plus1": [
+    "UK GREAT!action +1"
+  ],
+  "GREATromance.uk@UKPlus1": [
+    "UK G! romance +1"
+  ],
+  "SangatTV.uk@SD": [
+    "UK Sangat"
+  ],
+  "ChannelS.uk@SD": [
+    "UK CHANNEL S"
+  ],
+  "EuronewsEnglish.fr@UK": [
+    "UK Euronews"
+  ],
+  "TVCNews.ng@SD": [
+    "UK TVC News"
+  ],
+  "bbcredbutton1.uk": [
+    "UK BBC Red Button 1"
+  ],
+  "tntsports1.uk": [
+    "UK TNT Sports 1 SD"
+  ],
+  "tntsports2.uk": [
+    "UK TNT Sports 2 SD"
+  ],
+  "tntsports3.uk": [
+    "UK TNT Sports 3 SD"
+  ],
+  "tntsports4.uk": [
+    "UK TNT Sports 4 SD"
+  ],
+  "nickjrtoo.uk": [
+    "UK Nick Jr.Too"
+  ],
+  "mtv.uk": [
+    "UK MTV SD"
+  ],
+  "now90s.uk": [
+    "UK NOW 90s"
+  ],
+  "now80s.uk": [
+    "UK NOW 80s"
+  ],
+  "now70s.uk": [
+    "UK NOW 70s"
+  ],
+  "aajtak.uk": [
+    "UK AAJ TAK"
+  ],
+  "arydigital.uk": [
+    "UK ARY Digital"
+  ],
+  "akaalchannel.uk": [
+    "UK Akaal Channel"
+  ],
+  "b4umovies.uk": [
+    "UK B4U Movies"
+  ],
+  "b4umusic.uk": [
+    "UK B4U Music"
+  ],
+  "colorscineplex.uk": [
+    "UK Colors Cineplex"
+  ],
+  "comedyxtra.uk": [
+    "UK ComedyXtra"
+  ],
+  "deentv.uk": [
+    "UK Deen TV"
+  ],
+  "emanchannel.uk": [
+    "UK Eman Channel"
+  ],
+  "sonytv.uk": [
+    "UK Sony TV SD"
+  ],
+  "skywitness.uk": [
+    "UK Sky Witness SD"
+  ],
+  "skyscifi.uk": [
+    "UK Sky Sci-Fi SD"
+  ],
+  "skysportsracing.uk": [
+    "UK Sky Sports Racing SD"
+  ],
+  "skysportsnews.uk": [
+    "UK Sky Sports News SD"
+  ],
+  "skysportsmix.uk": [
+    "UK Sky Sports Mix SD"
+  ],
+  "skysportsfootball.uk": [
+    "UK Sky Sports Football SD"
+  ],
+  "skysportsf1.uk": [
+    "UK Sky Sports F1 SD"
+  ],
+  "skysportscricket.uk": [
+    "UK Sky Sports Cricket SD"
+  ],
+  "skynature.uk": [
+    "UK Sky Nature SD"
+  ],
+  "skymax.uk": [
+    "UK Sky Max SD"
+  ],
+  "skyhistory.uk": [
+    "UK Sky History SD"
+  ],
+  "skyhistory2.uk": [
+    "UK Sky History 2 SD"
+  ],
+  "skycrime.uk": [
+    "UK Sky Crime SD"
+  ],
+  "skydocumentaries.uk": [
+    "UK Sky Documentaries SD"
+  ],
+  "skycomedy.uk": [
+    "UK Sky Comedy SD"
+  ],
+  "skyatlantic.uk": [
+    "UK Sky Atlantic SD"
+  ],
+  "skyarts.uk": [
+    "UK Sky Arts SD"
+  ],
+  "blaze.uk": [
+    "UK Blaze"
+  ],
+  "humeurope.uk": [
+    "UK HUM EUROPE"
+  ],
+  "hummasala.uk": [
+    "UK HUM Masala"
+  ],
+  "utsavbharat.uk": [
+    "UK Utsav Bharat"
+  ],
+  "s4c.uk": [
+    "UK S4C"
+  ],
+  "premiersports1.uk": [
+    "UK Premier Sports 1"
+  ],
+  "pbsamerica.uk": [
+    "UK PBS America"
+  ],
+  "ptcpunjabi.uk": [
+    "UK PTC PUNJABI"
+  ],
+  "sonymax.uk": [
+    "UK SONY MAX"
+  ],
+  "sonymax2.uk": [
+    "UK SONY MAX 2"
+  ],
+  "zeecinema.uk": [
+    "UK Zee Cinema"
+  ],
+  "colorsgujarati.uk": [
+    "UK COLORS GUJARATI"
+  ],
+  "starplus.uk": [
+    "UK Star plus"
+  ],
+  "premiersports2.uk": [
+    "UK Premier Sports 2"
+  ],
+  "bestdirect.uk": [
+    "UK Best Direct"
+  ],
+  "geotv.uk": [
+    "UK GEO TV"
+  ],
+  "really.uk": [
+    "UK Really"
+  ],
+  "sikhchannel.uk": [
+    "UK Sikh Channel"
+  ],
+  "mutv.uk": [
+    "UK MUTV"
+  ],
+  "tvcnews.uk": [
+    "UK TVC News"
+  ],
+  "skysportstennis.uk": [
+    "UK Sky Sports Tennis SD"
+  ],
+  "rewindtv.uk": [
+    "UK Rewind TV"
+  ],
+  "5STAR.uk@Plus1": [
+    "UK 5 STAR+1"
+  ],
+  "5USA.uk@Plus1": [
+    "UK 5 USA+1"
+  ],
+  "CartoonNetwork.uk@SD": [
+    "UK Cartoon Netwrk"
+  ],
+  "ZeeTVUK.uk@HD": [
+    "UK ZeeTV SD"
+  ],
+  "UtsavPlus.uk@HD": [
+    "UK Utsav Plus SD"
+  ],
+  "UtsavGold.in@HD": [
+    "UK Utsav Gold SD"
+  ],
+  "GoodNewsTV.uk@SD": [
+    "UK Good News TV"
+  ],
+  "TG4.ie@HD": [
+    "UK TG4"
+  ],
+  "RTEOne.ie@HD": [
+    "UK RTE ONE"
+  ],
+  "RTENews.ie@SD": [
+    "UK RTE NEWS"
+  ],
+  "NationalGeographic.uk@HD": [
+    "UK Nat Geo"
+  ],
+  "RacingTV.uk@HD": [
+    "UK Racing TV"
+  ],
+  "DisneyChannel.uk@SD": [
+    "UK DISNEY CHANNEL"
+  ],
+  "NOWRock.uk@SD": [
+    "UK NOW ROCK"
+  ],
+  "QuestRed.uk@SD": [
+    "UK Quest Red"
+  ],
+  "GREATtv.uk@SD": [
+    "UK GREAT! tv"
+  ],
+  "ComedyCentral.uk@Plus1": [
+    "UK Comedy Cent+1"
+  ],
+  "CrimeInv.uk@HD": [
+    "UK Crime+Inv"
+  ],
+  "Nickelodeon.uk@Plus1": [
+    "UK Nickelodeon+1"
+  ],
+  "AnimalPlanet.uk@Plus1": [
+    "UK Animal Plnt+1"
+  ]
+}

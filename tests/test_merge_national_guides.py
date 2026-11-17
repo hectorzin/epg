@@ -38,10 +38,12 @@ class NationalGuideMergeTests(unittest.TestCase):
             global_guide.write_text('<tv></tv>', encoding='utf8')
             noise.write_text('<tv></tv>', encoding='utf8')
             (root / 'guide-de.xml').write_text('', encoding='utf8')
+            gb = root / 'guide-gb.xml'
+            ET.ElementTree(guide('GB.1', 'Britain')).write(gb)
             discovered = module.discover_national_guides(root)
             self.assertEqual(
                 [p.name for p in discovered],
-                ['guide-ar.xml', 'guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml'],
+                ['guide-ar.xml', 'guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml', 'guide-gb.xml'],
             )
 
     def test_cli_discovers_guides_under_root(self):

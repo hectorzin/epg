@@ -1,0 +1,179 @@
+name: Generate British EPG
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-publish-guide-gb
+  cancel-in-progress: false
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+
+      - name: Download upstream iptv-org/epg
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git upstream
+
+      - name: Install upstream dependencies
+        working-directory: upstream
+        run: |
+          npm ci --ignore-scripts
+          npm run api:load
+
+      - name: Generate British coverage
+        id: generate
+        working-directory: upstream
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/gb-epg-output
+          HELPER: ${{ github.workspace }}/scripts/gb-epg.py
+          WORKSPACE: ${{ github.workspace }}
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p "$OUTPUT_DIR"
+          sources=(
+            "epgshare:epgshare01.online/epgshare01.online_UK1.channels.xml"
+            "sky:sites/sky.com/sky.com.channels.xml:GB#"
+            "tv24:sites/tv24.co.uk/tv24.co.uk.channels.xml"
+            "virgin:sites/virgintvgo.virginmedia.com/virgintvgo.virginmedia.com.channels.xml"
+          )
+          covered_guides=()
+          merge_sources=()
+          run_source() {
+            local name="$1" catalog="$2" prefix="${3:-}"
+            local selected="$OUTPUT_DIR/$name.channels.xml"
+            local guide="$OUTPUT_DIR/$name.xml"
+            local args=(select --catalog "$catalog" --output "$selected")
+            for prior in "${covered_guides[@]}"; do args+=(--covered-guide "$prior"); done
+            if [[ -n "$prefix" ]]; then args+=(--site-id-prefix "$prefix" --lang en); fi
+            count=$(python3 "$HELPER" "${args[@]}") || return 0
+            echo "$name: $count uncovered channels selected"
+            if [[ "$count" == "0" ]]; then return 0; fi
+            set +e
+            npm run grab -- --channels="$selected" --days=2 --maxConnections=3 --timeout=15000 "--output=$guide" 2>&1 | tee "$OUTPUT_DIR/$name.log"
+            local status=${PIPESTATUS[0]}
+            set -e
+            echo "$status" > "$OUTPUT_DIR/$name.status"
+            if [[ -s "$guide" ]] && python3 - "$guide" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          root=ET.parse(sys.argv[1]).getroot()
+          good=[p for p in root.findall('programme') if (p.findtext('title') or '').strip()]
+          raise SystemExit(0 if root.tag=='tv' and good else 1)
+          PY
+            then
+              covered_guides+=("$guide")
+              merge_sources+=("$name=$guide,$catalog")
+            else
+              echo "$name: no valid output"
+            fi
+          }
+          set -e
+          for entry in "${sources[@]}"; do
+            IFS=: read -r name catalog prefix <<< "$entry"
+            run_source "$name" "$catalog" "$prefix"
+          done
+          occupied=()
+          for national in guide-es.xml guide-fr.xml guide-arabic.xml; do
+            if [[ -f "$WORKSPACE/$national" ]]; then
+              occupied+=(--occupied-guide "$WORKSPACE/$national")
+            fi
+          done
+          merge_args=(merge --output "$OUTPUT_DIR/guide-gb.raw.xml")
+          for pair in "${merge_sources[@]}"; do
+            merge_args+=(--source "$pair")
+          done
+          python3 "$HELPER" "${merge_args[@]}" "${occupied[@]}"
+
+      - name: Apply Xtream display aliases and channel clones
+        if: success()
+        env:
+          FINAL_GUIDE: ${{ runner.temp }}/guide-gb.final.xml
+        run: |
+          set -euo pipefail
+          test -s "$RUNNER_TEMP/gb-epg-output/guide-gb.raw.xml"
+          python3 scripts/process-epg.py \
+            --input "$RUNNER_TEMP/gb-epg-output/guide-gb.raw.xml" \
+            --output "$FINAL_GUIDE" \
+            --profile gb \
+            --aliases epg/aliases-gb.json \
+            --xtream-aliases epg/xtream-aliases-gb.json \
+            --min-channels 100 \
+            --min-programmes 1000
+
+      - name: Validate and publish British national guide
+        if: success()
+        env:
+          GENERATED_GUIDE: ${{ runner.temp }}/guide-gb.final.xml
+          SOURCE_SHA: ${{ github.sha }}
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s "$GENERATED_GUIDE"
+          git diff --quiet "$SOURCE_SHA" -- scripts/gb-epg.py scripts/merge-national-guides.py scripts/process-epg.py .github/workflows epg || {
+            echo "::error::British generation code changed during the run; refusing stale output."
+            exit 1
+          }
+          python3 - "$GENERATED_GUIDE" guide-gb.xml <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          from pathlib import Path
+          generated, previous = map(Path, sys.argv[1:])
+          root=ET.parse(generated).getroot()
+          channels={c.get('id') for c in root.findall('channel')}
+          programmes=root.findall('programme')
+          if not channels or not programmes:
+              raise SystemExit('British guide is empty')
+          if any(not p.get('start') or not p.get('stop') or p.get('channel') not in channels for p in programmes):
+              raise SystemExit('British guide has invalid programme references')
+          if any(not c or c.isdigit() for c in channels):
+              raise SystemExit('British guide has empty or numeric-only channel ids')
+          current={p.get('channel') for p in programmes}
+          if previous.exists():
+              old=ET.parse(previous).getroot()
+              old_channels={c.get('id') for c in old.findall('channel')}
+              old_programmed={p.get('channel') for p in old.findall('programme') if p.get('channel') in old_channels}
+              if old_programmed:
+                  lost=old_programmed-current
+                  ratio=len(lost)/len(old_programmed)
+                  if ratio>0.20:
+                      raise SystemExit(f'Refusing publication: programmed channel coverage fell by {ratio:.1%}')
+          print(f'Validated British guide: {len(channels)} channels, {len(programmes)} programmes')
+          PY
+          python3 - "$GENERATED_GUIDE" <<'PY'
+          import json, sys, xml.etree.ElementTree as ET
+          from pathlib import Path
+          guide_path = Path(sys.argv[1])
+          root = ET.parse(guide_path).getroot()
+          channels = {c.get("id") for c in root.findall("channel")}
+          aliases = json.loads(Path("epg/aliases-gb.json").read_text(encoding="utf-8"))
+          xtream = json.loads(Path("epg/xtream-aliases-gb.json").read_text(encoding="utf-8"))
+          missing_alias = sorted(set(aliases) - channels)
+          missing_xtream = sorted(set(xtream) - channels)
+          if missing_alias:
+              raise SystemExit("Missing British display-alias channels: " + ", ".join(missing_alias))
+          if missing_xtream:
+              raise SystemExit("Missing British Xtream clone channels: " + ", ".join(missing_xtream))
+          print(f"Validated British Xtream layer: {len(channels)} channels, {len(xtream)} clone IDs")
+          PY
+          install -m 644 "$GENERATED_GUIDE" .guide-gb.xml.tmp
+          mv -f .guide-gb.xml.tmp guide-gb.xml
+          bash scripts/ci/publish-xmltv.sh "chore(epg): update British national guide" guide-gb.xml
