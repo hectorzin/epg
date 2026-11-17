@@ -33,7 +33,7 @@ jobs:
       - name: Load upstream channel metadata
         working-directory: upstream
         run: npm run api:load
-      - name: Generate SFR, Canal+ and TVCeSoir coverage
+      - name: Generate SFR, Canal+ and Telecablesat coverage
         working-directory: upstream
         shell: bash
         env:
@@ -60,9 +60,9 @@ jobs:
               ET.indent(root,space='  '); ET.ElementTree(root).write(path,encoding='utf-8',xml_declaration=True)
           sfr=select('sites/tv.sfr.fr/tv.sfr.fr.channels.xml')
           canal=select('sites/canalplus.com/canalplus.com_fr.channels.xml')
-          soir=select('sites/tvcesoir.fr/tvcesoir.fr.channels.xml')
-          write('fr-sfr.channels.xml',sfr); write('fr-canalplus.channels.xml',canal); write('fr-tvcesoir.channels.xml',soir)
-          print(f'Catalogs: SFR {len(sfr)}, Canal+ FR {len(canal)}, TVCeSoir {len(soir)}')
+          soir=select('sites/tv-programme.telecablesat.fr/tv-programme.telecablesat.fr.channels.xml')
+          write('fr-sfr.channels.xml',sfr); write('fr-canalplus.channels.xml',canal); write('fr-telecablesat.channels.xml',soir)
+          print(f'Catalogs: SFR {len(sfr)}, Canal+ FR {len(canal)}, Telecablesat {len(soir)}')
           PY
           run_grab() {
             local name="$1" channels="$2"
@@ -110,19 +110,19 @@ jobs:
               try: roots.append(ET.parse(f).getroot())
               except (OSError,ET.ParseError): pass
           covered={p.get('channel') for r in roots for p in r.findall('programme')}
-          source=ET.parse('fr-tvcesoir.channels.xml').getroot(); out=ET.Element('channels'); seen=set()
+          source=ET.parse('fr-telecablesat.channels.xml').getroot(); out=ET.Element('channels'); seen=set()
           for c in source.findall('channel'):
               i=c.get('xmltv_id')
               if i in covered or i in seen: continue
               seen.add(i); n=ET.SubElement(out,'channel',c.attrib); n.text=c.text
-          ET.indent(out,space='  '); ET.ElementTree(out).write('fr-tvcesoir-selected.channels.xml',encoding='utf-8',xml_declaration=True)
-          print(f'TVCeSoir selected: {len(out.findall("channel"))}')
+          ET.indent(out,space='  '); ET.ElementTree(out).write('fr-telecablesat-selected.channels.xml',encoding='utf-8',xml_declaration=True)
+          print(f'Telecablesat selected: {len(out.findall("channel"))}')
           PY
-          run_grab fr-tvcesoir-selected fr-tvcesoir-selected.channels.xml
+          run_grab fr-telecablesat-selected fr-telecablesat-selected.channels.xml
           python3 - <<'PY'
           import xml.etree.ElementTree as ET, pathlib,time
           from pathlib import Path
-          sources=[('SFR','output/sfr.xml','fr-sfr.channels.xml','output/sfr.log'),('Canal+ Francia','output/fr-canalplus-selected.xml','fr-canalplus-selected.channels.xml','output/fr-canalplus-selected.log'),('TVCeSoir','output/fr-tvcesoir-selected.xml','fr-tvcesoir-selected.channels.xml','output/fr-tvcesoir-selected.log')]
+          sources=[('SFR','output/sfr.xml','fr-sfr.channels.xml','output/sfr.log'),('Canal+ Francia','output/fr-canalplus-selected.xml','fr-canalplus-selected.channels.xml','output/fr-canalplus-selected.log'),('Telecablesat','output/fr-telecablesat-selected.xml','fr-telecablesat-selected.channels.xml','output/fr-telecablesat-selected.log')]
           lines=['## French EPG upstream trial','',f'- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA")}`']
           all_channels={}; program_keys=set(); programmed=set()
           prior_covered=set()
@@ -148,7 +148,7 @@ jobs:
               prior_covered |= covered
               lines.append(f'- **{label}:** requested {requested}; with programming {len(covered)}; without {max(0,requested-len(covered))}; programmes {len(ps)}; unique programmes added {unique_here}; grabber errors {errors}; exit {status}; additional channels recovered {len(incremental)}')
           if not combined_keys:
-              raise SystemExit('No programmes were produced by SFR, Canal+ France, or TVCeSoir.')
+              raise SystemExit('No programmes were produced by SFR, Canal+ France, or Telecablesat.')
           combined=ET.Element('tv')
           for c in combined_channels.values(): combined.append(c)
           for p in combined_programs: combined.append(p)
