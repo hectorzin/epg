@@ -7,7 +7,7 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-NATIONAL_GUIDE_PATTERN = re.compile(r'^guide-[a-z]{2}\.xml$', re.IGNORECASE)
+NATIONAL_GUIDE_PATTERN = re.compile(r'^(?:guide-[a-z]{2}|guide-arabic)\.xml$', re.IGNORECASE)
 
 
 def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path]:

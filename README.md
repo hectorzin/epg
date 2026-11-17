@@ -8,7 +8,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![XMLTV](https://img.shields.io/badge/XMLTV-format-orange)](https://wiki.xmltv.org/)
 
-Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la guia de programacion (EPG) de canales de television en España.
+Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la EPG de canales de television en España y generar una guia nacional arabe.
 
 ### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml)
 
@@ -39,17 +39,23 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 | `programacion-tv.elpais.com` | 17 | API JSON |
 | `orangetv.orange.es` | 6 | API JSON |
 
+El repositorio también publica `guide-arabic.xml`, generado con los catálogos árabes de Shahid,
+elCinema, OSN, beIN, beIN SPORTS MENA, Al Jazeera, ART y Ayn. Shahid se procesa primero; las
+demás fuentes completan canales que aún no tienen programación. SAT.tv y EPGShare01 se excluyen
+porque las pruebas no devolvieron programación utilizable. La guía cubre dos días y elCinema
+trabaja con una conexión y un segundo de demora entre peticiones.
+
 > Los canales estan definidos en `sites/movistarplus.es/movistarplus.es.channels.xml`. Este fichero incluye canales de las 3 fuentes (cada canal tiene el atributo `site` indicando de donde se obtienen sus datos).
 
 ## Como funciona
 
 1. El workflow orquestador (`epg-orchestrator.yml`) se ejecuta cada día a las 03:00 UTC (o manualmente).
-2. Lanza en paralelo los generadores nacionales (`generate-es.yml` y `generate-fr.yml`). Cada uno publica solo su `guide-XX.xml`.
+2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml` y `generate-arabic.yml`). Cada uno publica su guía nacional.
 3. España lee el fichero maestro, ejecuta sus parsers, procesa el XMLTV con `scripts/process-epg.py` y publica `guide-es.xml`.
 4. Francia genera `guide-fr.xml` a partir de las fuentes SFR, Canal+ y Telecablesat del upstream de iptv-org/epg.
-5. Cuando acaban ambos generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona automáticamente todos los `guide-XX.xml` válidos del repositorio con `scripts/merge-national-guides.py` y publica `guide.xml`.
-6. Cada publicación es un commit independiente (`guide-es.xml`, `guide-fr.xml` o `guide.xml`). Si un país falla, se conserva su última guía publicada; la fusión usa esas copias. No se usan artifacts de Actions.
-7. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml` y `guide-fr.xml`.
+5. Cuando terminan los tres generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`.
+6. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
+7. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml` y `guide-arabic.xml`.
 8. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
 
 ## Estructura del proyecto
@@ -164,11 +170,12 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 | `epg-orchestrator.yml` | Cron diario 03:00 UTC. Ejecuta generadores en paralelo y fusiona al final. |
 | `generate-es.yml` | Solo `guide-es.xml`. Manual o invocado por el orquestador. |
 | `generate-fr.yml` | Solo `guide-fr.xml`. Manual o invocado por el orquestador. |
+| `generate-arabic.yml` | Solo `guide-arabic.xml`. Manual o invocado por el orquestador. |
 
-El fusionador descubre automáticamente los ficheros `guide-XX.xml` del repositorio (código ISO de
-dos letras); añadir un país nuevo solo requiere publicar su `guide-XX.xml`, sin tocar el script de
-fusión. `scripts/ci/publish-xmltv.sh` hace commit y push con reintentos tras `git pull`, evitando
-conflictos cuando España y Francia publican a la vez. La URL pública de la guía global sigue siendo
+El fusionador descubre automáticamente los ficheros `guide-XX.xml` (incluido `guide-ar.xml` para
+Argentina) y el nombre especial `guide-arabic.xml`; este último no se confunde con Argentina.
+`scripts/ci/publish-xmltv.sh` hace commit y push con reintentos tras `git pull`, evitando conflictos
+cuando los generadores publican a la vez. La URL pública de la guía global sigue siendo
 `guide.xml` en la rama `main`.
 
 ### Descargar solo un site concreto
@@ -269,11 +276,12 @@ La guia es publica y gratuita:
 https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml
 https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml
 https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guide-arabic.xml
 ```
 
 ## Origen
 
-Fork de [iptv-org/epg](https://github.com/iptv-org/epg), simplificado para mantener unicamente las fuentes de TV en España.
+Fork de [iptv-org/epg](https://github.com/iptv-org/epg), simplificado para mantener fuentes de TV en España y publicar también una guía nacional árabe.
 
 Creado por [raulfdeztdo](https://github.com/raulfdeztdo).
 

@@ -1,6 +1,6 @@
-# EPG - Guia de Programacion TV Espana
+# EPG - Guia de Programacion TV Espana y arabe
 
-Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la EPG de canales de TV en Espana.
+Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la EPG de canales de TV en Espana y generar una guia nacional arabe.
 
 ## Comandos
 
@@ -29,8 +29,10 @@ epg/
 ├── .github/workflows/
 │   ├── epg-orchestrator.yml    # Orquestador diario (generadores + fusión global)
 │   ├── generate-es.yml         # Publica solo guide-es.xml
-│   └── generate-fr.yml         # Publica solo guide-fr.xml
+│   ├── generate-fr.yml         # Publica solo guide-fr.xml
+│   └── generate-arabic.yml     # Publica solo guide-arabic.xml
 ├── scripts/
+│   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── commands/
 │   │   ├── epg/grab.ts         # Punto de entrada principal
 │   │   ├── channels/lint.mts   # Linter XML
@@ -92,13 +94,18 @@ sites/<dominio>/
 ## GitHub Actions (EPG)
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
-  `generate-es.yml` y `generate-fr.yml`, luego fusiona con `scripts/merge-national-guides.py`
+  `generate-es.yml`, `generate-fr.yml` y `generate-arabic.yml`, luego fusiona con `scripts/merge-national-guides.py`
   (`--root .`) y publica solo `guide.xml`.
-- Cada generador nacional publica únicamente su `guide-XX.xml` vía `scripts/ci/publish-xmltv.sh`
+- El generador Arabic publica `guide-arabic.xml` con Shahid primero y elCinema, OSN, beIN,
+  beIN SPORTS MENA, Al Jazeera, ART y Ayn como fuentes complementarias. Mantiene dos días,
+  limita elCinema a una conexión con un segundo de demora, conserva títulos árabes y omite SAT.tv
+  y EPGShare01 mientras no aporten programación válida.
+- Cada generador nacional publica únicamente su guía vía `scripts/ci/publish-xmltv.sh`
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
 - Si un país falla, no se sobrescribe su guía; el fusionador usa las copias ya en `main`.
-- Añadir un país: publicar `guide-XX.xml` (código ISO de dos letras); el fusionador lo detecta
-  sin cambios de código.
+- Añadir una guía nacional: publicar `guide-XX.xml` (código ISO de dos letras); el fusionador la
+  detecta. La guía árabe usa el nombre especial `guide-arabic.xml` para no colisionar con
+  `guide-ar.xml` de Argentina.
 - Runners: `ubuntu-24.04` (ES + merge) y `ubuntu-latest` (FR). `GITHUB_TOKEN` con `contents: write`.
 - `actions/checkout` fijado por SHA con `persist-credentials: false`. `npm ci --ignore-scripts` +
   `npm run api:load` antes del grab español.

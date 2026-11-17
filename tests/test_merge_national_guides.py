@@ -27,15 +27,22 @@ class NationalGuideMergeTests(unittest.TestCase):
             root = Path(d)
             es = root / 'guide-es.xml'
             fr = root / 'guide-fr.xml'
+            argentina = root / 'guide-ar.xml'
+            arabic = root / 'guide-arabic.xml'
             global_guide = root / 'guide.xml'
             noise = root / 'guide-espa.xml'
             ET.ElementTree(guide('ES.1', 'Spain')).write(es)
             ET.ElementTree(guide('FR.1', 'France')).write(fr)
+            ET.ElementTree(guide('AR.1', 'Argentina')).write(argentina)
+            ET.ElementTree(guide('Arabic.1', 'Arabic')).write(arabic)
             global_guide.write_text('<tv></tv>', encoding='utf8')
             noise.write_text('<tv></tv>', encoding='utf8')
             (root / 'guide-de.xml').write_text('', encoding='utf8')
             discovered = module.discover_national_guides(root)
-            self.assertEqual([p.name for p in discovered], ['guide-es.xml', 'guide-fr.xml'])
+            self.assertEqual(
+                [p.name for p in discovered],
+                ['guide-ar.xml', 'guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml'],
+            )
 
     def test_cli_discovers_guides_under_root(self):
         with tempfile.TemporaryDirectory() as d:
@@ -104,6 +111,7 @@ class NationalGuideMergeTests(unittest.TestCase):
             root = Path(d)
             es = root / 'guide-es.xml'
             fr = root / 'guide-fr.xml'
+            arabic = root / 'guide-arabic.xml'
             es_root = ET.Element('tv')
             for ch, title in (('shared.id', 'One'), ('ES.only', 'Es')):
                 c = ET.SubElement(es_root, 'channel', id=ch)
@@ -118,11 +126,15 @@ class NationalGuideMergeTests(unittest.TestCase):
                 ET.SubElement(p, 'title').text = title
             ET.ElementTree(es_root).write(es)
             ET.ElementTree(guide('shared.id', 'One')).write(fr)
+            ET.ElementTree(guide('Arabic.1', 'Arabic')).write(arabic)
             discovered = module.discover_national_guides(root, validate=True)
-            self.assertEqual([p.name for p in discovered], ['guide-es.xml', 'guide-fr.xml'])
+            self.assertEqual(
+                [p.name for p in discovered],
+                ['guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml'],
+            )
             merged = module.merge(discovered)
-            self.assertEqual(len(merged.findall('channel')), 2)
-            self.assertEqual(len(merged.findall('programme')), 2)
+            self.assertEqual(len(merged.findall('channel')), 3)
+            self.assertEqual(len(merged.findall('programme')), 3)
 
 
 if __name__ == '__main__':

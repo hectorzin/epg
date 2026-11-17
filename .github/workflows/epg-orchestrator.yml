@@ -21,8 +21,12 @@ jobs:
     uses: ./.github/workflows/generate-fr.yml
     secrets: inherit
 
+  arabic:
+    uses: ./.github/workflows/generate-arabic.yml
+    secrets: inherit
+
   merge-global:
-    needs: [spain, france]
+    needs: [spain, france, arabic]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     concurrency:
@@ -54,5 +58,6 @@ jobs:
             echo "## EPG orchestrator"
             echo "- Spain: ${{ needs.spain.result }}"
             echo "- France: ${{ needs.france.result }}"
+            echo "- Arabic: ${{ needs.arabic.result }}"
             echo "- Global merge: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"
