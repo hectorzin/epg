@@ -332,6 +332,63 @@ class EpgUpdateTests(unittest.TestCase):
         self.assertEqual((channels, programmes), (120, 3000))
         self.assertIsNone(root.find("channel[@id='absent']"))
 
+    def test_regional_mode_skips_configured_xtream_when_original_absent(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="ch1"><display-name>One</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="ch1">'
+            b"<title>News</title></programme></tv>"
+        )
+        mapping = {"panel.x": "missing.original"}
+        result, channels, programmes = epg.merge(
+            xml, {}, xtream_aliases=mapping, min_channels=1, min_programmes=1, alias_mode="regional"
+        )
+        root = epg.parse_xml(result, "result")
+        self.assertIsNone(root.find("channel[@id='panel.x']"))
+        self.assertEqual((channels, programmes), (1, 1))
+
+    def test_strict_mode_rejects_configured_xtream_with_missing_original(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="ch1"><display-name>One</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="ch1">'
+            b"<title>News</title></programme></tv>"
+        )
+        with self.assertRaisesRegex(epg.EpgError, "unknown original channel"):
+            epg.merge(xml, {}, xtream_aliases={"panel.x": "missing.original"}, min_channels=1, min_programmes=1)
+
+    def test_regional_xtream_uses_stem_fallback_when_feed_suffix_differs(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="MTV.uk@SD"><display-name>MTV</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="MTV.uk@SD">'
+            b"<title>Hits</title></programme></tv>"
+        )
+        result, channels, programmes = epg.merge(
+            xml,
+            {},
+            xtream_aliases={"mtv.uk": "MTV.uk@HD"},
+            min_channels=1,
+            min_programmes=1,
+            alias_mode="regional",
+        )
+        root = epg.parse_xml(result, "result")
+        self.assertIsNotNone(root.find("channel[@id='mtv.uk']"))
+        self.assertEqual(len(root.findall("programme[@channel='mtv.uk']")), 1)
+
+    def test_resolve_xtream_catalog_tolerates_missing_regional_configured(self):
+        root = epg.parse_xml(
+            b'<?xml version="1.0"?><tv><channel id="a"><display-name>A</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="a">'
+            b"<title>x</title></programme></tv>",
+            "src",
+        )
+        resolved, summary = epg.resolve_xtream_catalog(
+            root, [], {}, {"clone.x": "absent"}, auto_region="GB", tolerate_missing_configured=True
+        )
+        self.assertEqual(resolved, {})
+        self.assertEqual(summary["skipped_configured_xtream"], 1)
+
     def test_xtream_clone_chain_is_flattened_to_root_on_load(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "xtream.json"

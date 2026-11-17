@@ -14,6 +14,12 @@ import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+_SCRIPT_DIR = Path(__file__).resolve().parent
+if str(_SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPT_DIR))
+
+from xtream_matching import channel_stem  # noqa: E402
+
 MIN_CHANNELS = 100
 MIN_PROGRAMMES = 1000
 MAX_DROP_RATIO = 0.60
@@ -187,6 +193,63 @@ def channel_countries(name: str, category: str = "") -> set[str]:
     return countries
 
 
+def programmed_channels(root: ET.Element) -> set[str]:
+    channel_ids = {c.get("id") for c in root.findall("channel") if c.get("id")}
+    return {
+        p.get("channel")
+        for p in root.findall("programme")
+        if (p.findtext("title") or "").strip() and p.get("channel") in channel_ids
+    }
+
+
+def pick_canonical_original(original_id: str, candidates: set[str]) -> str | None:
+    """Pick one guide channel when a configured original is missing but stem matches."""
+    if original_id in candidates:
+        return original_id
+    stems = {c for c in candidates if channel_stem(c) == channel_stem(original_id)}
+    if not stems:
+        return None
+    upper = original_id.upper()
+    if "@HD" in upper or "@UKHD" in upper or "@FHD" in upper:
+        hd = {c for c in stems if re.search(r"@(?:UK)?HD\b", c.upper())}
+        if len(hd) == 1:
+            return next(iter(hd))
+    if upper.endswith("@SD"):
+        sd = {c for c in stems if c.upper().endswith("@SD")}
+        if len(sd) == 1:
+            return next(iter(sd))
+    if len(stems) == 1:
+        return next(iter(stems))
+    return None
+
+
+def filter_configured_xtream_aliases(
+    configured: dict[str, str],
+    channel_ids: set[str],
+    original_pool: set[str],
+    *,
+    tolerate_missing_original: bool,
+) -> tuple[dict[str, str], list[str]]:
+    """Return clones applicable to this guide; optionally skip absent originals (regional runs)."""
+    applicable: dict[str, str] = {}
+    skipped: list[str] = []
+    for xtream_id, original_id in configured.items():
+        target = pick_canonical_original(original_id, original_pool)
+        if target is None:
+            if tolerate_missing_original:
+                skipped.append(xtream_id)
+                continue
+            raise EpgError(
+                f"configured Xtream alias {xtream_id} references unknown original channel {original_id}"
+            )
+        if xtream_id == target:
+            continue
+        if xtream_id in channel_ids and target not in channel_ids:
+            raise EpgError(f"configured Xtream alias {xtream_id} collides with an original channel ID")
+        applicable[xtream_id] = target
+    return applicable, skipped
+
+
 def normalize_channel_name(name: str) -> str:
     """Normalize presentation details while preserving channel numbers."""
     value = unicodedata.normalize("NFKD", name or "")
@@ -211,6 +274,7 @@ def resolve_xtream_catalog(
     configured_aliases: dict[str, str],
     *,
     auto_region: str = "ES",
+    tolerate_missing_configured: bool = False,
 ) -> tuple[dict[str, str], dict[str, int]]:
     """Resolve safe catalog matches to original guide IDs and summarize coverage."""
     channels, _ = validate_tree(root, "source")
@@ -235,6 +299,14 @@ def resolve_xtream_catalog(
             continue
         groups.setdefault(epg_id, []).append(channel)
 
+    programmed = programmed_channels(root)
+    resolved, skipped_configured = filter_configured_xtream_aliases(
+        configured_aliases,
+        set(channels),
+        set(channels),
+        tolerate_missing_original=tolerate_missing_configured,
+    )
+
     summary = {
         "catalog_channels": len(catalog),
         "covered_channels": 0,
@@ -251,16 +323,8 @@ def resolve_xtream_catalog(
         "pending_name_matches": 0,
         "region_mismatches": 0,
         "suspicious_ids": 0,
+        "skipped_configured_xtream": len(skipped_configured),
     }
-
-    resolved = dict(configured_aliases)
-    for xtream_id, original_id in configured_aliases.items():
-        if original_id not in channels:
-            raise EpgError(f"configured Xtream alias {xtream_id} references unknown original channel {original_id}")
-        if xtream_id == original_id:
-            continue
-        if xtream_id in channels and original_id not in channels:
-            raise EpgError(f"configured Xtream alias {xtream_id} collides with an original channel ID")
 
     # Existing curated mappings remain authoritative only when all catalog uses
     # consistently support the same destination name.
@@ -376,6 +440,8 @@ def merge(
             if existing is None:
                 continue
             if original_id not in initial_channels:
+                if alias_mode in ("regional", "tolerant"):
+                    continue
                 raise EpgError(f"Xtream alias {xtream_id} references unknown original channel {original_id}")
             expected_channel = copy.deepcopy(initial_channels[original_id])
             expected_channel.set("id", xtream_id)
@@ -406,6 +472,18 @@ def merge(
         raise EpgError("source is missing configured channel IDs: " + ", ".join(missing))
     if missing and alias_mode in ("regional", "tolerant"):
         aliases = {channel_id: names for channel_id, names in aliases.items() if channel_id in channels}
+    tolerate_xtream = alias_mode in ("regional", "tolerant")
+    programmed = {
+        p.get("channel")
+        for p in root.findall("programme")
+        if (p.findtext("title") or "").strip()
+    }
+    xtream_aliases, _skipped = filter_configured_xtream_aliases(
+        xtream_aliases or {},
+        set(channels),
+        {c for c in programmed if c in channels},
+        tolerate_missing_original=tolerate_xtream,
+    )
     alias_destinations: dict[str, str] = {}
     for xtream_id, original_id in xtream_aliases.items():
         if not isinstance(xtream_id, str) or not xtream_id.strip() or xtream_id.strip().casefold() in XTREAM_NULLS:
@@ -415,6 +493,8 @@ def merge(
         if xtream_id in alias_destinations and alias_destinations[xtream_id] != original_id:
             raise EpgError(f"Xtream alias {xtream_id} has multiple possible destinations")
         if original_id not in channels:
+            if tolerate_xtream:
+                continue
             raise EpgError(f"Xtream alias {xtream_id} references unknown original channel {original_id}")
         alias_destinations[xtream_id] = original_id
     if baseline:
@@ -550,12 +630,14 @@ def main() -> int:
         baseline = args.baseline.read_bytes() if args.baseline else None
         source_root = parse_xml(source, "input XMLTV")
         auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC", "gb": "GB"}[profile]
+        tolerate_configured = profile != "es"
         xtream_aliases, xtream_summary = resolve_xtream_catalog(
             source_root,
             xtream_catalog,
             aliases,
             configured_xtream_aliases,
             auto_region=auto_region,
+            tolerate_missing_configured=tolerate_configured,
         )
         result, channels, programmes = merge(
             source,

@@ -167,12 +167,23 @@ jobs:
           aliases = json.loads(Path("epg/aliases-gb.json").read_text(encoding="utf-8"))
           xtream = json.loads(Path("epg/xtream-aliases-gb.json").read_text(encoding="utf-8"))
           missing_alias = sorted(set(aliases) - channels)
-          missing_xtream = sorted(set(xtream) - channels)
+          orphan_clones = [
+              clone_id
+              for clone_id, original in xtream.items()
+              if clone_id in channels and original not in channels
+          ]
+          invalid_clones = []
+          for clone_id in xtream:
+              if clone_id in channels and not root.findall(f"programme[@channel='{clone_id}']"):
+                  invalid_clones.append(clone_id)
+          if orphan_clones:
+              raise SystemExit("British clone without original: " + ", ".join(orphan_clones))
+          if invalid_clones:
+              raise SystemExit("British clone without programmes: " + ", ".join(invalid_clones))
           if missing_alias:
-              raise SystemExit("Missing British display-alias channels: " + ", ".join(missing_alias))
-          if missing_xtream:
-              raise SystemExit("Missing British Xtream clone channels: " + ", ".join(missing_xtream))
-          print(f"Validated British Xtream layer: {len(channels)} channels, {len(xtream)} clone IDs")
+              print(f"British display-alias keys skipped (original absent): {len(missing_alias)}")
+          applied = sorted(clone for clone in xtream if clone in channels)
+          print(f"Validated British Xtream layer: {len(channels)} channels, {len(applied)} clone IDs applied")
           PY
           install -m 644 "$GENERATED_GUIDE" .guide-gb.xml.tmp
           mv -f .guide-gb.xml.tmp guide-gb.xml
