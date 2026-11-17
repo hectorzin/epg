@@ -1,4 +1,4 @@
-﻿name: Test French EPG (upstream)
+name: Test French EPG (upstream)
 
 on:
   workflow_dispatch:
@@ -114,20 +114,40 @@ jobs:
           sources=[('SFR','output/sfr.xml','fr-sfr.channels.xml','output/sfr.log'),('Canal+ Francia','output/fr-canalplus-selected.xml','fr-canalplus-selected.channels.xml','output/fr-canalplus-selected.log'),('TVCeSoir','output/fr-tvcesoir-selected.xml','fr-tvcesoir-selected.channels.xml','output/fr-tvcesoir-selected.log')]
           lines=['## French EPG upstream trial','',f'- Upstream commit: `{__import__("os").environ.get("UPSTREAM_SHA")}`']
           all_channels={}; program_keys=set(); programmed=set()
+          prior_covered=set()
+          combined_channels={}; combined_programs=[]; combined_keys=set()
           for label,guid,path,log in sources:
               try: root=ET.parse(guid).getroot()
               except (OSError,ET.ParseError): root=ET.Element('tv')
               requested=len(ET.parse(path).getroot().findall('channel'))
               ps=root.findall('programme'); covered={p.get('channel') for p in ps}
-              for c in root.findall('channel'): all_channels.setdefault(c.get('id'),c)
+              for c in root.findall('channel'):
+                  all_channels.setdefault(c.get('id'),c)
+                  combined_channels.setdefault(c.get('id'),c)
+              unique_here=0
               for p in ps:
                   key=(p.get('channel'),p.get('start'),p.get('stop'),p.findtext('title'))
                   if key in program_keys: continue
-                  program_keys.add(key); programmed.add(p.get('channel'))
+                  program_keys.add(key); combined_keys.add(key); combined_programs.append(p)
+                  unique_here+=1; programmed.add(p.get('channel'))
               errors=Path(log).read_text(errors='replace').count('ERR:') if Path(log).exists() else 0
-              status=Path(guid.replace('.xml','.status')).read_text().strip() if Path(guid.replace('.xml','.status')).exists() else 'n/a'
-              lines.append(f'- **{label}:** requested {requested}; with programming {len(covered)}; without {max(0,requested-len(covered))}; programmes {len(ps)}; grabber errors {errors}; exit {status}; additional recovered {len(covered-programmed)}')
-          lines += ['',f'- Combined distinct channels {len(all_channels)}; with programming {len(programmed)}; deduplicated programmes {len(program_keys)}',f'- Elapsed seconds {time.time()-float(Path("output/start-time").read_text()):.1f}']
+              status_path=Path(guid.replace('.xml','.status'))
+              status=status_path.read_text().strip() if status_path.exists() else 'n/a'
+              incremental=covered-prior_covered
+              prior_covered |= covered
+              lines.append(f'- **{label}:** requested {requested}; with programming {len(covered)}; without {max(0,requested-len(covered))}; programmes {len(ps)}; unique programmes added {unique_here}; grabber errors {errors}; exit {status}; additional channels recovered {len(incremental)}')
+          if not combined_keys:
+              raise SystemExit('No programmes were produced by SFR, Canal+ France, or TVCeSoir.')
+          combined=ET.Element('tv')
+          for c in combined_channels.values(): combined.append(c)
+          for p in combined_programs: combined.append(p)
+          ET.indent(combined,space='  ')
+          ET.ElementTree(combined).write('output/guide-fr.xml',encoding='utf-8',xml_declaration=True)
+          checked=ET.parse('output/guide-fr.xml').getroot()
+          final_programmes=checked.findall('programme')
+          if not final_programmes: raise SystemExit('Combined XMLTV contains zero programmes.')
+          if any(p.get('channel') not in combined_channels for p in final_programmes): raise SystemExit('Combined XMLTV has invalid channel references.')
+          lines += ['',f'- Combined distinct channels {len(all_channels)}; with programming {len(programmed)}; deduplicated programmes {len(final_programmes)}',f'- Combined XMLTV size {Path("output/guide-fr.xml").stat().st_size} bytes',f'- Elapsed seconds {time.time()-float(Path("output/start-time").read_text()):.1f}']
           Path('output/summary.md').write_text('\n'.join(lines)+'\n',encoding='utf8')
           print(Path('output/summary.md').read_text())
           PY
