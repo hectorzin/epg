@@ -6,36 +6,20 @@ on:
     - cron: "0 3 * * *" # Todos los días a las 03:00 UTC
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: epg-generation-and-publish
   cancel-in-progress: false
 
 jobs:
-  generate:
+  generate-and-publish:
     runs-on: ubuntu-24.04
-    outputs:
-      guide_sha256: ${{ steps.validate.outputs.guide_sha256 }}
-      baseline_guide_sha256: ${{ steps.baseline.outputs.guide_sha256 }}
-      source_sha: ${{ steps.baseline.outputs.source_sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           persist-credentials: false
-
-      - name: Capture guide baseline
-        id: baseline
-        shell: bash
-        run: |
-          if [[ -f guide.xml ]]; then
-            baseline="$(sha256sum guide.xml | cut -d' ' -f1)"
-          else
-            baseline=missing
-          fi
-          echo "guide_sha256=$baseline" >> "$GITHUB_OUTPUT"
-          echo "source_sha=$GITHUB_SHA" >> "$GITHUB_OUTPUT"
 
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
@@ -79,7 +63,7 @@ jobs:
         run: |
           python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --output "$OUTPUT_DIR/guide.merged.xml"
 
-      - name: Process and validate definitive XMLTV
+      - name: Process and validate Spanish XMLTV
         id: validate
         env:
           FINAL_GUIDE: ${{ runner.temp }}/epg-output/guide.final.xml
@@ -115,116 +99,52 @@ jobs:
               f"{len(xtream)} Xtream IDs"
           )
           PY
-          echo "guide_sha256=$(sha256sum "$FINAL_GUIDE" | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
-
-      - name: Upload definitive XMLTV artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
-        with:
-          name: movistarplus-definitive-xmltv
-          path: ${{ runner.temp }}/epg-output/guide.final.xml
-          if-no-files-found: error
-          retention-days: 7
-
-  publish:
-    needs: generate
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: write
-    steps:
-      - name: Download validated XMLTV artifact
-        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
-        with:
-          name: movistarplus-definitive-xmltv
-          path: ${{ runner.temp }}/epg-output
-
-      - name: Verify artifact checksum
+      - name: Merge national guides
         env:
-          EXPECTED_SHA256: ${{ needs.generate.outputs.guide_sha256 }}
-          GUIDE_PATH: ${{ runner.temp }}/epg-output/guide.final.xml
+          OUTPUT_DIR: ${{ runner.temp }}/epg-output
         run: |
-          actual_sha256="$(sha256sum "$GUIDE_PATH" | cut -d' ' -f1)"
-          [[ "$actual_sha256" == "$EXPECTED_SHA256" ]] || {
-            echo "::error::Downloaded XMLTV artifact does not match the validated checksum."
-            exit 1
-          }
+          guides=("$OUTPUT_DIR/guide.final.xml")
+          if [[ -s guide-es.xml ]]; then
+            guides+=(guide-es.xml)
+          elif [[ -s guide.xml ]]; then
+            guides+=(guide.xml)
+          fi
+          if [[ -s guide-fr.xml ]]; then guides+=(guide-fr.xml); fi
+          python scripts/merge-national-guides.py --output "$OUTPUT_DIR/guide.xml" "${guides[@]}"
+          python - "$OUTPUT_DIR/guide.xml" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          root = ET.parse(sys.argv[1]).getroot()
+          if not root.findall('programme'):
+              raise SystemExit('Global guide has no programmes')
+          print(f"Validated global guide: {len(root.findall('channel'))} channels, {len(root.findall('programme'))} programmes")
+          PY
 
-      - name: Check out main for publication
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
-        with:
-          ref: main
-          fetch-depth: 0
-          persist-credentials: true
-
-      - name: Publish validated guide to main
+      - name: Publish Spanish and global guides
         env:
-          GUIDE_PATH: ${{ runner.temp }}/epg-output/guide.final.xml
-          EXPECTED_SHA256: ${{ needs.generate.outputs.guide_sha256 }}
-          BASELINE_SHA256: ${{ needs.generate.outputs.baseline_guide_sha256 }}
-          SOURCE_SHA: ${{ needs.generate.outputs.source_sha }}
+          SPANISH_GUIDE: ${{ runner.temp }}/epg-output/guide.final.xml
+          GLOBAL_GUIDE: ${{ runner.temp }}/epg-output/guide.xml
+          SOURCE_SHA: ${{ github.sha }}
+          GITHUB_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          actual_sha256="$(sha256sum "$GUIDE_PATH" | cut -d' ' -f1)"
-          [[ "$actual_sha256" == "$EXPECTED_SHA256" ]]
-
-          changed=false
-          for attempt in 1 2 3; do
-            git fetch --no-tags origin main
-            git reset --hard FETCH_HEAD
-
-            git merge-base --is-ancestor "$SOURCE_SHA" FETCH_HEAD || {
-              echo "::error::The generation commit is no longer an ancestor of main. Refusing to publish stale output."
-              exit 1
-            }
-            git diff --quiet "$SOURCE_SHA" FETCH_HEAD -- scripts/process-epg.py scripts/merge-guides.py .github/workflows/update.yml scripts/commands/epg scripts/core scripts/models sites epg || {
-              echo "::error::Generation code or channel configuration changed while this guide was being built. Rerun generation."
-              exit 1
-            }
-
-            if [[ -f guide.xml ]]; then
-              current_sha256="$(sha256sum guide.xml | cut -d' ' -f1)"
-            else
-              current_sha256=missing
-            fi
-
-            if [[ "$current_sha256" == "$actual_sha256" ]]; then
-              echo "main already contains this exact guide; no commit created."
-              break
-            fi
-            if [[ "$current_sha256" != "$BASELINE_SHA256" ]]; then
-              echo "::error::guide.xml changed on main after generation began. Refusing to overwrite it."
-              exit 1
-            fi
-
-            temp_guide=".guide.xml.${GITHUB_RUN_ID}.${GITHUB_RUN_ATTEMPT}.tmp"
-            trap 'rm -f -- "$temp_guide"' EXIT
-            install -m 644 "$GUIDE_PATH" "$temp_guide"
-            staged_sha256="$(sha256sum "$temp_guide" | cut -d' ' -f1)"
-            [[ "$staged_sha256" == "$actual_sha256" ]]
-            mv -f -- "$temp_guide" guide.xml
-            git add -f -- guide.xml
-
-            if git diff --cached --quiet -- guide.xml; then
-              echo "Guide is unchanged; no commit created."
-              break
-            fi
-
-            git config user.name "epg-bot[bot]"
-            git config user.email "epg-bot[bot]@users.noreply.github.com"
-            git commit -m "chore(epg): update definitive guide"
-            if git push origin HEAD:refs/heads/main; then
-              git fetch --no-tags origin main
-              committed_sha256="$(git show FETCH_HEAD:guide.xml | sha256sum | cut -d' ' -f1)"
-              [[ "$committed_sha256" == "$actual_sha256" ]]
-              changed=true
-              break
-            fi
-            if [[ "$attempt" == 3 ]]; then
-              echo "::error::Could not publish after three retries; main was not force-updated."
-              exit 1
-            fi
-            echo "main advanced during publication; rechecking the current guide before retry."
-          done
-
-          echo "Guide SHA-256: $actual_sha256"
-          [[ "$changed" == 'true' ]] || echo "Publication completed without creating a commit."
+          test -s "$SPANISH_GUIDE"
+          test -s "$GLOBAL_GUIDE"
+          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py .github/workflows/update.yml scripts/commands/epg scripts/core scripts/models sites epg || {
+            echo "::error::Generation code or channel configuration changed during the run. Refusing to publish stale output."
+            exit 1
+          }
+          install -m 644 "$SPANISH_GUIDE" .guide-es.xml.tmp
+          install -m 644 "$GLOBAL_GUIDE" .guide.xml.tmp
+          mv -f .guide-es.xml.tmp guide-es.xml
+          mv -f .guide.xml.tmp guide.xml
+          git add -f -- guide-es.xml guide.xml
+          if git diff --cached --quiet -- guide-es.xml guide.xml; then
+            echo "Spanish and global guides are unchanged."
+            exit 0
+          fi
+          git config user.name "epg-bot[bot]"
+          git config user.email "epg-bot[bot]@users.noreply.github.com"
+          git commit -m "chore(epg): update Spanish and global guides"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:refs/heads/main

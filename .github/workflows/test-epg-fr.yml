@@ -19,7 +19,7 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
-          persist-credentials: true
+          persist-credentials: false
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
@@ -173,7 +173,7 @@ jobs:
         run: |
           if [[ -f upstream/output/summary.md ]]; then cat upstream/output/summary.md >> "$GITHUB_STEP_SUMMARY"; else echo "French EPG summary unavailable; inspect generation logs." >> "$GITHUB_STEP_SUMMARY"; fi
 
-      - name: Validate and publish guide-fr.xml
+      - name: Validate and merge national guides
         if: success()
         shell: bash
         run: |
@@ -200,14 +200,35 @@ jobs:
                   if ratio>0.20: raise SystemExit(f'Refusing publication: programmed channel coverage fell by {ratio:.1%} ({len(lost)}/{len(old_programmed)})')
           print(f'Validated French guide: {len(channels)} channels, {len(programmes)} programmes')
           PY
+          guides=("$generated")
+          if [[ -s guide-es.xml ]]; then
+            guides+=(guide-es.xml)
+          elif [[ -s guide.xml ]]; then
+            guides+=(guide.xml)
+            install -m 644 guide.xml .guide-es.xml.tmp
+          fi
+          python3 scripts/merge-national-guides.py --output upstream/output/guide.xml "${guides[@]}"
+          python3 - upstream/output/guide.xml <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          root=ET.parse(sys.argv[1]).getroot()
+          if not root.findall('programme'): raise SystemExit('Global guide contains no programmes')
+          print(f"Validated global guide: {len(root.findall('channel'))} channels, {len(root.findall('programme'))} programmes")
+          PY
           install -m 644 "$generated" .guide-fr.xml.tmp
+          install -m 644 upstream/output/guide.xml .guide.xml.tmp
           mv -f .guide-fr.xml.tmp guide-fr.xml
-          git add -- guide-fr.xml
-          if git diff --cached --quiet -- guide-fr.xml; then
-            echo "French guide unchanged; no commit needed."
+          if [[ -f .guide-es.xml.tmp ]]; then mv -f .guide-es.xml.tmp guide-es.xml; fi
+          mv -f .guide.xml.tmp guide.xml
+          git add -f -- guide-fr.xml guide.xml
+          if [[ -f guide-es.xml ]]; then git add -f -- guide-es.xml; fi
+          if git diff --cached --quiet -- guide-es.xml guide-fr.xml guide.xml; then
+            echo "French and global guides unchanged; no commit needed."
             exit 0
           fi
           git config user.name "epg-bot[bot]"
           git config user.email "epg-bot[bot]@users.noreply.github.com"
-          git commit -m "chore(epg): update French guide"
+          git commit -m "chore(epg): update French and global guides"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push origin HEAD:refs/heads/main
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

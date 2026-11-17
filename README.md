@@ -10,7 +10,7 @@
 
 Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la guia de programacion (EPG) de canales de television en España.
 
-### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [guide.xml](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml)
+### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml)
 
 ## Dashboard web
 
@@ -46,9 +46,10 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 1. El workflow de GitHub Actions (`update.yml`) se ejecuta manualmente o cada día a las 03:00 UTC.
 2. Lee el fichero maestro de canales y ejecuta sus parsers, con descubrimiento adicional de Movistar.
 3. Procesa el XMLTV local con `scripts/process-epg.py`, que añade display aliases y clones Xtream configurados.
-4. Valida el XML, la cobertura mínima y los canales requeridos, y conserva `guide.final.xml` como artefacto descargable.
-5. Toda ejecución correcta publica `guide.xml` en `main` si su SHA-256 cambió. Usa `GITHUB_TOKEN` con `contents: write` limitado al job de publicación.
-6. El XML público queda disponible en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`.
+4. Valida el XML, la cobertura mínima y los canales requeridos. Publica la guía nacional española como `guide-es.xml`.
+5. El workflow francés (`test-epg-fr.yml`) publica `guide-fr.xml`; ambos workflows ejecutan `scripts/merge-national-guides.py` con las últimas guías nacionales válidas para generar `guide.xml`.
+6. Las guías nacionales y la global se publican juntas en un único commit por ejecución. Si una generación o fusión falla, no se reemplaza la última guía válida. No se usan artifacts de Actions.
+7. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml` y `guide-fr.xml`.
 
 ## Estructura del proyecto
 
@@ -155,17 +156,17 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 
 ### Publicar XMLTV con GitHub Actions
 
-`.github/workflows/update.yml` genera la guía, aplica `scripts/process-epg.py`, valida el XMLTV,
-la cobertura y los aliases configurados, y conserva `guide.final.xml` como artefacto descargable.
-El job `publish` puede publicar ese mismo archivo como `guide.xml` en `main`. Como `guide.xml`
-está ignorado por Git, se añade explícitamente con `git add -f`. Solo crea un commit si el
-contenido cambió; verifica el SHA-256 y se detiene si `main` ya recibió otra guía o cambió el
-código/configuración de generación durante el scraping.
+`.github/workflows/update.yml` genera y valida la guía española, la publica como `guide-es.xml` y
+fusiona esa salida con la última `guide-fr.xml` válida para producir `guide.xml`. El workflow
+`.github/workflows/test-epg-fr.yml` genera `guide-fr.xml` y la fusiona con la última `guide-es.xml`
+válida. Ambos usan `scripts/merge-national-guides.py`; la guía global elimina canales y programas
+duplicados. Cada workflow prepara y valida todas sus salidas antes de reemplazar los ficheros y
+publica sus cambios en un commit. Una descarga, validación o fusión fallida conserva las guías
+publicadas previamente. No se transfieren XMLTV mediante artifacts.
 
-La publicación usa el `GITHUB_TOKEN` efímero con `contents: write` limitado al job de publicación;
-no requiere PAT ni otros secretos. Tanto las ejecuciones manuales como las programadas publican
-automáticamente después de superar las validaciones. El artefacto `guide.final.xml` sigue disponible
-para descargar durante 7 días, incluso si la publicación no detecta cambios o falla.
+Los workflows mantienen sus fuentes y horarios actuales: España a las 03:00 UTC y Francia a las
+04:00 UTC. Las publicaciones se serializan con el mismo grupo de concurrencia. Requieren el
+`GITHUB_TOKEN` efímero con permiso `contents: write`; no requieren PAT ni secretos de publicación.
 
 ### Descargar solo un site concreto
 
@@ -272,6 +273,8 @@ La guia es publica y gratuita:
 
 ```
 https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml
 ```
 
 ## Origen
