@@ -65,14 +65,26 @@ jobs:
           print(f'Catalogs: SFR {len(sfr)}, Canal+ FR {len(canal)}, TVCeSoir {len(soir)}')
           PY
           run_grab() {
-            local name="$1"; shift
+            local name="$1" channels="$2"
             set +e
-            npm run grab -- --channels="$name.channels.xml" --days=2 --maxConnections=3 --timeout=15000 --output="output/$name.xml" 2>&1 | tee "output/$name.log"
+            npm run grab -- --channels="$channels" --days=2 --maxConnections=3 --timeout=15000 --output="output/$name.xml" 2>&1 | tee "output/$name.log"
             local status=${PIPESTATUS[0]}
             set -e
             echo "$status" > "output/$name.status"
+            python3 - "$name" "$status" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          from pathlib import Path
+          name,status=sys.argv[1:]
+          path=Path(f'output/{name}.xml')
+          try:
+              root=ET.parse(path).getroot()
+              channels=len(root.findall('channel')); programmes=len(root.findall('programme'))
+          except (OSError,ET.ParseError):
+              channels=programmes=0
+          print(f'GRAB RESULT {name}: path={path} bytes={path.stat().st_size if path.exists() else 0} channels={channels} programmes={programmes} exit={status}')
+          PY
           }
-          run_grab sfr
+          run_grab sfr fr-sfr.channels.xml
           select_uncovered() {
             python3 - "$1" "$2" "$3" <<'PY'
           import sys,xml.etree.ElementTree as ET
@@ -89,8 +101,7 @@ jobs:
           PY
           }
           select_uncovered fr-canalplus.channels.xml output/sfr.xml fr-canalplus-selected.channels.xml
-          run_grab fr-canalplus-selected
-          mv output/fr-canalplus-selected.xml output/canalplus.xml 2>/dev/null || true
+          run_grab fr-canalplus-selected fr-canalplus-selected.channels.xml
           # Point each later source to the accumulated valid coverage.
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
@@ -107,7 +118,7 @@ jobs:
           ET.indent(out,space='  '); ET.ElementTree(out).write('fr-tvcesoir-selected.channels.xml',encoding='utf-8',xml_declaration=True)
           print(f'TVCeSoir selected: {len(out.findall("channel"))}')
           PY
-          run_grab fr-tvcesoir-selected
+          run_grab fr-tvcesoir-selected fr-tvcesoir-selected.channels.xml
           python3 - <<'PY'
           import xml.etree.ElementTree as ET, pathlib,time
           from pathlib import Path
