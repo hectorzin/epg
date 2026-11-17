@@ -106,15 +106,34 @@ def merge_aliases(
     return merged
 
 
+def resolve_clone_root(clone_map: dict[str, str], channel_id: str) -> str:
+    seen = {channel_id}
+    while channel_id in clone_map:
+        channel_id = clone_map[channel_id]
+        if channel_id in seen:
+            return channel_id
+        seen.add(channel_id)
+    return channel_id
+
+
 def merge_clones(
     existing: dict[str, str],
     discovered: dict[str, str],
 ) -> dict[str, str]:
     merged = dict(existing)
     for clone_id, guide_id in discovered.items():
-        if clone_id in merged and merged[clone_id] != guide_id:
+        target = resolve_clone_root({**merged, **discovered}, guide_id)
+        if clone_id in merged and merged[clone_id] != target:
             continue
-        merged[clone_id] = guide_id
+        if clone_id == target:
+            continue
+        merged[clone_id] = target
+    for clone_id, guide_id in list(merged.items()):
+        root = resolve_clone_root(merged, guide_id)
+        if root == clone_id:
+            del merged[clone_id]
+        else:
+            merged[clone_id] = root
     return merged
 
 

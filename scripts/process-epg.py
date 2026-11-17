@@ -103,6 +103,29 @@ def _json_object_without_duplicate_keys(pairs: list[tuple[str, object]]) -> dict
     return result
 
 
+def normalize_xtream_clone_map(mapping: dict[str, str]) -> dict[str, str]:
+    """Flatten clone chains so every alias points at a root channel, never another clone."""
+    normalized: dict[str, str] = {}
+    for alias_id, original_id in mapping.items():
+        if alias_id == original_id:
+            continue
+        target = original_id
+        visited = {alias_id}
+        while target in mapping:
+            if target in visited:
+                raise EpgError(f"Xtream alias chain contains a cycle at {alias_id}")
+            visited.add(target)
+            target = mapping[target]
+        normalized[alias_id] = target
+    clone_ids = set(normalized)
+    for alias_id, target in normalized.items():
+        if target in clone_ids and target != alias_id:
+            raise EpgError(
+                f"Xtream alias {alias_id} references clone channel {target}; originals must not be clone IDs"
+            )
+    return normalized
+
+
 def load_xtream_aliases(path: Path) -> dict[str, str]:
     """Load Xtream ID -> original XMLTV ID pairs, rejecting ambiguous entries."""
     try:
@@ -123,7 +146,7 @@ def load_xtream_aliases(path: Path) -> dict[str, str]:
             raise EpgError("Xtream aliases JSON contains an empty, NULL, or invalid alias ID")
         if not isinstance(original_id, str) or not original_id.strip() or not ID_RE.fullmatch(original_id):
             raise EpgError(f"Xtream aliases JSON has an invalid original ID for {alias_id}")
-    return aliases
+    return normalize_xtream_clone_map(aliases)
 
 
 def load_xtream_catalog(path: Path) -> list[dict[str, object]]:
@@ -381,7 +404,7 @@ def merge(
     missing = sorted(set(aliases) - channels.keys())
     if missing and alias_mode == "strict":
         raise EpgError("source is missing configured channel IDs: " + ", ".join(missing))
-    if missing and alias_mode == "regional":
+    if missing and alias_mode in ("regional", "tolerant"):
         aliases = {channel_id: names for channel_id, names in aliases.items() if channel_id in channels}
     alias_destinations: dict[str, str] = {}
     for xtream_id, original_id in xtream_aliases.items():
@@ -517,7 +540,7 @@ def main() -> int:
             raise EpgError("output path must differ from the guide and configuration input files")
         profile = args.profile
         alias_profile = "es" if profile == "es" else "regional"
-        alias_mode = "strict" if profile == "es" else "regional"
+        alias_mode = "tolerant" if profile == "es" else "regional"
         aliases = load_aliases(args.aliases, profile=alias_profile)
         configured_xtream_aliases = (
             load_xtream_aliases(args.xtream_aliases) if args.xtream_aliases.is_file() else {}

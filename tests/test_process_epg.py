@@ -324,6 +324,50 @@ class EpgUpdateTests(unittest.TestCase):
         with self.assertRaisesRegex(epg.EpgError, "missing configured channel"):
             epg.merge(sample(), aliases)
 
+    def test_tolerant_mode_skips_absent_display_alias_channels(self):
+        aliases = dict(self.aliases)
+        aliases["absent"] = ["Optional alias"]
+        result, channels, programmes = epg.merge(sample(), aliases, alias_mode="tolerant")
+        root = epg.parse_xml(result, "result")
+        self.assertEqual((channels, programmes), (120, 3000))
+        self.assertIsNone(root.find("channel[@id='absent']"))
+
+    def test_xtream_clone_chain_is_flattened_to_root_on_load(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "xtream.json"
+            path.write_text(
+                json.dumps({"fox.es.cinesur": "fox.es.skyshowtime1", "fox.es.skyshowtime1": "skysho"}),
+                encoding="utf-8",
+            )
+            mapping = epg.load_xtream_aliases(path)
+            self.assertEqual(mapping["fox.es.cinesur"], "skysho")
+            self.assertEqual(mapping["fox.es.skyshowtime1"], "skysho")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "xtream-cycle.json"
+            path.write_text(json.dumps({"a.es": "b.es", "b.es": "a.es"}), encoding="utf-8")
+            with self.assertRaisesRegex(epg.EpgError, "cycle"):
+                epg.load_xtream_aliases(path)
+
+    def test_spanish_skyshowtime_panel_clones_root_not_intermediate(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="skysho"><display-name>SkyShowtime 1</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="skysho">'
+            b"<title>Test</title></programme></tv>"
+        )
+        on_disk = epg.load_xtream_aliases(
+            Path(__file__).resolve().parents[1] / "epg" / "xtream-aliases.json"
+        )
+        self.assertEqual(on_disk.get("fox.es.skyshowtime1"), "skysho")
+        self.assertNotIn("fox.es.cinesur", on_disk)
+        mapping = {"fox.es.skyshowtime1": "skysho"}
+        aliases = {"skysho": ["M+ Cinesur", "SkyShowtime 1"]}
+        result, _, _ = epg.merge(xml, aliases, xtream_aliases=mapping, min_channels=1, min_programmes=1)
+        root = epg.parse_xml(result, "result")
+        self.assertIsNotNone(root.find("channel[@id='fox.es.skyshowtime1']"))
+        self.assertIsNone(root.find("channel[@id='fox.es.cinesur']"))
+        self.assertEqual(len(root.findall("programme[@channel='fox.es.skyshowtime1']")), 1)
+
     def test_malformed_or_truncated_xml_fails(self):
         with self.assertRaises(epg.EpgError):
             epg.merge(sample()[:-30], self.aliases)
