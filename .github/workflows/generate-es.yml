@@ -106,7 +106,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s "$SPANISH_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py .github/workflows scripts/commands/epg scripts/core scripts/models sites epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py scripts/build_xtream_mappings.py scripts/xtream_matching.py .github/workflows scripts/commands/epg scripts/core scripts/models sites epg || {
             echo "::error::Generation code or channel configuration changed during the run. Refusing to publish stale output."
             exit 1
           }

@@ -102,10 +102,16 @@ sites/<dominio>/
   y EPGShare01 mientras no aporten programación válida.
 - Cada generador nacional publica únicamente su guía vía `scripts/ci/publish-xmltv.sh`
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
+- **Capa Xtream obligatoria:** tras el grab/XMLTV crudo, cada workflow ejecuta
+  `scripts/process-epg.py` con `--profile es|fr|arabic` y los JSON en `epg/aliases*.json` /
+  `epg/xtream-aliases*.json`. El paso de publish valida que cada clone exista en la guía. Los
+  mappings se regeneran en local con `python scripts/build_xtream_mappings.py` (`XTREAM_DB`
+  opcional); no commitear credenciales, URLs ni la base IPTVnator.
 - Si un país falla, no se sobrescribe su guía; el fusionador usa las copias ya en `main`.
 - Añadir una guía nacional: publicar `guide-XX.xml` (código ISO de dos letras); el fusionador la
   detecta. La guía árabe usa el nombre especial `guide-arabic.xml` para no colisionar con
-  `guide-ar.xml` de Argentina.
+  `guide-ar.xml` de Argentina. Toda región nueva requiere alias + xtream-aliases + paso
+  `process-epg` en su workflow.
 - Runners: `ubuntu-24.04` (ES + merge) y `ubuntu-latest` (FR). `GITHUB_TOKEN` con `contents: write`.
 - `actions/checkout` fijado por SHA con `persist-credentials: false`. `npm ci --ignore-scripts` +
   `npm run api:load` antes del grab español.

@@ -1,0 +1,2576 @@
+[
+  {
+    "xtream_id": "957",
+    "name": "Cherie 25 HD",
+    "epg_id": "cherie25.fr",
+    "category": "[FR] TNT",
+    "status": "channel_not_in_sources",
+    "detail": "Chérie 25 absent from FR/XMLTV sources",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "964",
+    "name": "Canal+ Cinema HD",
+    "epg_id": "canalpluscinema.fr",
+    "category": "[FR] CANAL+",
+    "status": "channel_not_in_sources",
+    "detail": "Canal+ Cinéma absent in guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "967",
+    "name": "Canal+ Cine HD 1",
+    "epg_id": "NULL",
+    "category": "[FR] CANAL+",
+    "status": "channel_not_in_sources",
+    "detail": "Canal+ Cine multiplex absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "968",
+    "name": "Canal+ Cine HD 2",
+    "epg_id": "NULL",
+    "category": "[FR] CANAL+",
+    "status": "channel_not_in_sources",
+    "detail": "Canal+ Cine multiplex absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "969",
+    "name": "Canal+ Cine HD 3",
+    "epg_id": "NULL",
+    "category": "[FR] CANAL+",
+    "status": "channel_not_in_sources",
+    "detail": "Canal+ Cine multiplex absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "991",
+    "name": "LIGUE1 PLUS 1 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 1 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "992",
+    "name": "LIGUE1 PLUS 2 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 2 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "993",
+    "name": "LIGUE1 PLUS 3 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 3 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "994",
+    "name": "LIGUE1 PLUS 4 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 4 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "995",
+    "name": "LIGUE1 PLUS 5 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 5 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "996",
+    "name": "LIGUE1 PLUS 6 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 6 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "997",
+    "name": "LIGUE1 PLUS 7 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 7 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "998",
+    "name": "LIGUE1 PLUS 8 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 8 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "999",
+    "name": "LIGUE1 PLUS 9 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 9 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1000",
+    "name": "LIGUE1 PLUS 10 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "Ligue 1+ 10 absent",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1001",
+    "name": "CANAL+ LIVE 1 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1002",
+    "name": "CANAL+ LIVE 2 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1003",
+    "name": "CANAL+ LIVE 3 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1004",
+    "name": "CANAL+ LIVE 4 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1005",
+    "name": "CANAL+ LIVE 5 HD",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1006",
+    "name": "UFC FIGHT PASS",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1014",
+    "name": "Dimanche.Soir.Football",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1015",
+    "name": "Multiplex",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1016",
+    "name": "DAZN1_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1017",
+    "name": "DAZN2_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1018",
+    "name": "DAZN3_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1019",
+    "name": "DAZN4_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1020",
+    "name": "DAZN5_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1021",
+    "name": "DAZN6_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1022",
+    "name": "DAZN7_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1023",
+    "name": "DAZN8_FRANCE",
+    "epg_id": "NULL",
+    "category": "[FR] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1029",
+    "name": "Ciné+ Famiz",
+    "epg_id": "cineplusamiz.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1037",
+    "name": "Ciné+ 4K",
+    "epg_id": "cima.theme.quatre-k.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1038",
+    "name": "Ciné+ 4K Max",
+    "epg_id": "cima.theme.quatre-k-max.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1039",
+    "name": "Ciné+ 4K Action",
+    "epg_id": "cima.theme.4k-action.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1040",
+    "name": "Ciné+ 4K Aventure",
+    "epg_id": "cima.theme.4k-aventure.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1041",
+    "name": "Ciné+ 4K Sci-Fi",
+    "epg_id": "cima.theme.4k-scifi.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1042",
+    "name": "Ciné+ 4K Horreur",
+    "epg_id": "cima.theme.4k-horreur.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1043",
+    "name": "Ciné+ 4K Comédie",
+    "epg_id": "cima.theme.4k-comedie.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1044",
+    "name": "Ciné+ 4K Drame",
+    "epg_id": "cima.theme.4k-drame.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1045",
+    "name": "Ciné+ Box Office 1",
+    "epg_id": "fox.fr.81629",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1046",
+    "name": "Ciné+ Box Office 2",
+    "epg_id": "fox.fr.81630",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1047",
+    "name": "Ciné+ Box Office 3",
+    "epg_id": "fox.fr.81631",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1048",
+    "name": "Ciné+ Box Office 4",
+    "epg_id": "fox.fr.81632",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1049",
+    "name": "Ciné+ Box Office 5",
+    "epg_id": "fox.fr.81633",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1050",
+    "name": "Ciné+ Box Office 6",
+    "epg_id": "fox.fr.81634",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1051",
+    "name": "Ciné+ Box Office 7",
+    "epg_id": "fox.fr.81635",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1052",
+    "name": "Ciné+ Box Office 8",
+    "epg_id": "fox.fr.81636",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1053",
+    "name": "Ciné+ Box Office 9",
+    "epg_id": "fox.fr.81637",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1054",
+    "name": "Ciné+ Box Office 10",
+    "epg_id": "fox.fr.81638",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1055",
+    "name": "Ciné+ Top Films",
+    "epg_id": "fox.fr.81615",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1056",
+    "name": "Ciné+ Première 1",
+    "epg_id": "fox.fr.81670",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1057",
+    "name": "Ciné+ Première 2",
+    "epg_id": "fox.fr.81671",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1058",
+    "name": "Ciné+ Première 3",
+    "epg_id": "fox.fr.81672",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1059",
+    "name": "Ciné+ Titan 1",
+    "epg_id": "fox.fr.100469",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1060",
+    "name": "Ciné+ Titan 2",
+    "epg_id": "fox.fr.100470",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1061",
+    "name": "Ciné+ Titan 3",
+    "epg_id": "fox.fr.100471",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1062",
+    "name": "Ciné+ Eagle Force",
+    "epg_id": "fox.fr.100407",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1063",
+    "name": "Ciné+ Amazon Prime 1",
+    "epg_id": "cima.theme.amazon1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1064",
+    "name": "Ciné+ Amazon Prime 2",
+    "epg_id": "cima.theme.amazon2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1065",
+    "name": "Ciné+ Amazon Prime 3",
+    "epg_id": "cima.theme.amazon1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1066",
+    "name": "Ciné+ Amazon Prime 4",
+    "epg_id": "cima.theme.amazon2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1067",
+    "name": "Ciné+ Apple TV+ 1",
+    "epg_id": "cima.theme.apple1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1068",
+    "name": "Ciné+ Apple TV+ 2",
+    "epg_id": "cima.theme.apple2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1069",
+    "name": "Ciné+ Marvel 1",
+    "epg_id": "cima.theme.marvel1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1070",
+    "name": "Ciné+ Marvel 2",
+    "epg_id": "cima.theme.marvel2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1071",
+    "name": "Ciné+ Marvel 3",
+    "epg_id": "cima.theme.marvel3.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1072",
+    "name": "Ciné+ Marvel Studios 1",
+    "epg_id": "cima.theme.marvel1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1073",
+    "name": "Ciné+ Marvel Studios 2",
+    "epg_id": "cima.theme.marvel2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1074",
+    "name": "Ciné+ Marvel Studios 3",
+    "epg_id": "cima.theme.marvel3.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1075",
+    "name": "Ciné+ DC Studios",
+    "epg_id": "cima.theme.dc.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1076",
+    "name": "Ciné+ Oscars 1",
+    "epg_id": "cima.theme.oscars1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1077",
+    "name": "Ciné+ Oscars 2",
+    "epg_id": "cima.theme.oscars2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1078",
+    "name": "Ciné+ Warner Bros",
+    "epg_id": "fox.fr.82118",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1079",
+    "name": "Sony One Favoris",
+    "epg_id": "SonyOneFavoris.fr@HD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1080",
+    "name": "Sony One Action",
+    "epg_id": "SonyOneHitsAction.fr@HD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1081",
+    "name": "Sony One Comédie",
+    "epg_id": "SonyOneHitsComedie.fr@HD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1082",
+    "name": "Ciné+ Action",
+    "epg_id": "cima.genre.action2024.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1083",
+    "name": "Ciné+ Action Force",
+    "epg_id": "cima.genre.action2026.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1084",
+    "name": "Ciné+ Action Max 1",
+    "epg_id": "cima.genre.action2025.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1085",
+    "name": "Ciné+ Action Max 2",
+    "epg_id": "cima.genre.action2025.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1086",
+    "name": "Ciné+ Action Culte",
+    "epg_id": "cima.theme.action-culte.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1087",
+    "name": "Ciné+ Top Action 1",
+    "epg_id": "fox.fr.50912",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1088",
+    "name": "Ciné+ Top Action 2",
+    "epg_id": "fox.fr.50913",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1089",
+    "name": "Ciné+ Top Action 3",
+    "epg_id": "fox.fr.50914",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1090",
+    "name": "Ciné+ Top Action 4",
+    "epg_id": "fox.fr.50915",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1091",
+    "name": "Ciné+ Top Action 5",
+    "epg_id": "fox.fr.81415",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1092",
+    "name": "Ciné+ Top Action 6",
+    "epg_id": "fox.fr.81416",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1093",
+    "name": "Ciné+ Animation",
+    "epg_id": "cima.theme.animation.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1094",
+    "name": "Ciné+ Années 80",
+    "epg_id": "cima.theme.annees-80.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1095",
+    "name": "Ciné+ Années 90",
+    "epg_id": "cima.theme.annees-90.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1096",
+    "name": "Ciné+ Années 2010",
+    "epg_id": "cima.theme.annees-2010.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1097",
+    "name": "Ciné+ Arts Martiaux 1",
+    "epg_id": "cima.theme.arts-martiaux.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1098",
+    "name": "Ciné+ Arts Martiaux 2",
+    "epg_id": "cima.theme.arts-martiaux.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1099",
+    "name": "Ciné+ Arts Martiaux 3",
+    "epg_id": "cima.theme.kungfu.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1100",
+    "name": "Ciné+ Aventure",
+    "epg_id": "cima.theme.aventure.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1101",
+    "name": "Ciné+ Bollywood",
+    "epg_id": "cima.theme.bollywood.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1102",
+    "name": "Ciné+ Braquage",
+    "epg_id": "cima.theme.braquage.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1103",
+    "name": "Ciné+ Catastrophe",
+    "epg_id": "cima.theme.catastrophe.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1104",
+    "name": "Ciné+ Cinéma Français",
+    "epg_id": "cima.theme.francais.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1105",
+    "name": "Ciné+ Comédie",
+    "epg_id": "cima.genre.comedie.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1106",
+    "name": "Ciné+ Comédie Française",
+    "epg_id": "cima.theme.comedie-fr.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1107",
+    "name": "Ciné+ Comédie Musicale",
+    "epg_id": "cima.theme.comedies-musicales.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1108",
+    "name": "Ciné+ Comédie Romantique",
+    "epg_id": "cima.theme.romcom.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1109",
+    "name": "Ciné+ Culte 2000",
+    "epg_id": "cima.theme.culte-2000.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1110",
+    "name": "Ciné+ Dinosaures",
+    "epg_id": "cima.theme.dinosaures.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1111",
+    "name": "Ciné+ Documentaires",
+    "epg_id": "cima.theme.documentaires.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1112",
+    "name": "Ciné+ Drame",
+    "epg_id": "cima.genre.drame.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1113",
+    "name": "Ciné+ Émotion L",
+    "epg_id": "EmotionL.fr@SD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1114",
+    "name": "Ciné+ Espace",
+    "epg_id": "cima.theme.espace.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1115",
+    "name": "Ciné+ Espionnage",
+    "epg_id": "cima.theme.espionnage.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1116",
+    "name": "Ciné+ Faits Réels",
+    "epg_id": "cima.theme.faits-reels.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1117",
+    "name": "Ciné+ Famille",
+    "epg_id": "cima.theme.famille.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1118",
+    "name": "Ciné+ Fantastique",
+    "epg_id": "cima.theme.fantastique.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1119",
+    "name": "Ciné+ Guerre",
+    "epg_id": "cima.genre.guerre.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1120",
+    "name": "Ciné+ Guerre Mondiale",
+    "epg_id": "cima.theme.guerre-mondiale.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1121",
+    "name": "Ciné+ Héros Animés",
+    "epg_id": "cima.theme.super-heros-animes.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1122",
+    "name": "Ciné+ Horreur",
+    "epg_id": "cima.genre.horreur.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1123",
+    "name": "Ciné+ Horreur Max",
+    "epg_id": "cima.theme.horreur-2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1124",
+    "name": "Ciné+ Kung-Fu",
+    "epg_id": "cima.theme.kungfu.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1125",
+    "name": "Ciné+ Mafia & Cartels",
+    "epg_id": "cima.theme.mafia.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1126",
+    "name": "Ciné+ Mystère",
+    "epg_id": "cima.theme.mystere.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1127",
+    "name": "Ciné+ Nanar",
+    "epg_id": "CineNanar.fr@SD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1128",
+    "name": "Ciné+ Noël",
+    "epg_id": "cima.theme.noel.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1129",
+    "name": "Ciné+ Pirates",
+    "epg_id": "cima.theme.pirates.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1130",
+    "name": "Ciné+ Policier 1",
+    "epg_id": "cima.theme.policier.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1131",
+    "name": "Ciné+ Policier 2",
+    "epg_id": "cima.theme.policier.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1132",
+    "name": "Ciné+ Romance",
+    "epg_id": "cima.theme.romance.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1133",
+    "name": "Ciné+ Science-Fiction 1",
+    "epg_id": "cima.theme.scifi.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1134",
+    "name": "Ciné+ Science-Fiction 2",
+    "epg_id": "cima.theme.scifi.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1135",
+    "name": "Ciné+ Sous-Marins",
+    "epg_id": "cima.theme.sous-marins.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1136",
+    "name": "Ciné+ Sport",
+    "epg_id": "cima.theme.sport.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1137",
+    "name": "Ciné+ Survie 1",
+    "epg_id": "cima.theme.survie1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1138",
+    "name": "Ciné+ Survie 2",
+    "epg_id": "cima.theme.survie1.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1139",
+    "name": "Ciné+ Survie Max",
+    "epg_id": "cima.theme.survie2.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1140",
+    "name": "Ciné+ Suspense",
+    "epg_id": "cima.genre.suspense.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1141",
+    "name": "Ciné+ Thriller",
+    "epg_id": "cima.theme.thriller.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1142",
+    "name": "Ciné+ Vampires",
+    "epg_id": "cima.theme.vampires.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1143",
+    "name": "Ciné+ Vikings",
+    "epg_id": "cima.theme.vikings.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1144",
+    "name": "Ciné+ Western 1",
+    "epg_id": "cima.theme.western.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1145",
+    "name": "Ciné+ Western 2",
+    "epg_id": "CineWestern.fr@SD",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1146",
+    "name": "Ciné+ Zombies",
+    "epg_id": "cima.theme.zombies.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1147",
+    "name": "Ciné+ Saga",
+    "epg_id": "cima.saga.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1148",
+    "name": "Saga : Alien",
+    "epg_id": "cima.saga.fr.alien",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1149",
+    "name": "Saga : Annabelle",
+    "epg_id": "cima.saga.fr.annabelle",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1150",
+    "name": "Saga : Avengers",
+    "epg_id": "cima.saga.fr.avengers",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1151",
+    "name": "Saga : Bad Boys",
+    "epg_id": "cima.saga.fr.bad-boys",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1152",
+    "name": "Saga : Batman",
+    "epg_id": "cima.saga.fr.batman",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1153",
+    "name": "Saga : Captain America",
+    "epg_id": "cima.saga.fr.captain-america",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1154",
+    "name": "Saga : Conjuring",
+    "epg_id": "cima.saga.fr.conjuring",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1155",
+    "name": "Saga : Deadpool",
+    "epg_id": "cima.saga.fr.deadpool",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1156",
+    "name": "Saga : Fast & Furious",
+    "epg_id": "cima.saga.fr.fast-furious",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1157",
+    "name": "Saga : Godzilla",
+    "epg_id": "cima.saga.fr.godzilla",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1158",
+    "name": "Saga : Harry Potter",
+    "epg_id": "cima.saga.fr.harry-potter",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1159",
+    "name": "Saga : Hunger Games",
+    "epg_id": "cima.saga.fr.hunger-games",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1160",
+    "name": "Saga : Insidious",
+    "epg_id": "cima.saga.fr.insidious",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1161",
+    "name": "Saga : Ip Man",
+    "epg_id": "cima.saga.fr.ip-man",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1162",
+    "name": "Saga : Iron Man",
+    "epg_id": "cima.saga.fr.iron-man",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1163",
+    "name": "Saga : James Bond 1",
+    "epg_id": "cima.saga.fr.james-bond",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1164",
+    "name": "Saga : James Bond 2",
+    "epg_id": "cima.saga.fr.james-bond",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1165",
+    "name": "Saga : Jason Bourne",
+    "epg_id": "cima.saga.fr.jason-bourne",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1166",
+    "name": "Saga : John Wick",
+    "epg_id": "cima.saga.fr.john-wick",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1167",
+    "name": "Saga : Jumanji",
+    "epg_id": "cima.saga.fr.jumanji",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1168",
+    "name": "Saga : Jurassic Park",
+    "epg_id": "cima.saga.fr.jurassic-park",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1169",
+    "name": "Saga : Jurassic World",
+    "epg_id": "cima.saga.fr.jurassic-world",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1170",
+    "name": "Saga : Kingsman",
+    "epg_id": "cima.saga.fr.kingsman",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1171",
+    "name": "Saga : La Momie",
+    "epg_id": "cima.saga.fr.la-momie",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1172",
+    "name": "Saga : La Planète des Singes",
+    "epg_id": "cima.saga.fr.la-planete-des-singes",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1173",
+    "name": "Saga : Le Hobbit",
+    "epg_id": "cima.saga.fr.hobbit",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1174",
+    "name": "Saga : Le Seigneur des Anneaux",
+    "epg_id": "cima.saga.fr.seigneur-des-anneaux",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1175",
+    "name": "Saga : Les Gardiens de la Galaxie",
+    "epg_id": "cima.saga.fr.gardiens-de-la-galaxie",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1176",
+    "name": "Saga : Mad Max",
+    "epg_id": "cima.saga.fr.mad-max",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1177",
+    "name": "Saga : Matrix",
+    "epg_id": "cima.saga.fr.matrix",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1178",
+    "name": "Saga : Men in Black",
+    "epg_id": "cima.saga.fr.men-in-black",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1179",
+    "name": "Saga : Mission Impossible 1",
+    "epg_id": "cima.saga.fr.mission-impossible",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1180",
+    "name": "Saga : Mission Impossible 2",
+    "epg_id": "cima.saga.fr.mission-impossible",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1181",
+    "name": "Saga : Piège de Cristal (Die Hard)",
+    "epg_id": "cima.saga.fr.piege-de-cristal",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1182",
+    "name": "Saga : Pirates des Caraïbes",
+    "epg_id": "cima.saga.fr.pirates-des-caraibes",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1183",
+    "name": "Saga : Resident Evil",
+    "epg_id": "cima.saga.fr.resident-evil",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1184",
+    "name": "Saga : Retour vers le Futur",
+    "epg_id": "cima.saga.fr.retour-vers-le-futur",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1185",
+    "name": "Saga : Rocky",
+    "epg_id": "cima.saga.fr.rocky",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1186",
+    "name": "Saga : Rush Hour",
+    "epg_id": "cima.saga.fr.rush-hour",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1187",
+    "name": "Saga : Scream",
+    "epg_id": "cima.saga.fr.scream",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1188",
+    "name": "Saga : Spider-Man",
+    "epg_id": "cima.saga.fr.spider-man",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1189",
+    "name": "Saga : Star Wars",
+    "epg_id": "cima.saga.fr.star-wars",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1190",
+    "name": "Saga : Terminator",
+    "epg_id": "cima.saga.fr.terminator",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1191",
+    "name": "Saga : Thor",
+    "epg_id": "cima.saga.fr.thor",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1192",
+    "name": "Saga : Transformers",
+    "epg_id": "cima.saga.fr.transformers",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1193",
+    "name": "Saga : Twilight",
+    "epg_id": "cima.saga.fr.twilight",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1194",
+    "name": "Saga : Underworld",
+    "epg_id": "cima.saga.fr.underworld",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1195",
+    "name": "Saga : Wonder Woman",
+    "epg_id": "cima.saga.fr.wonder-woman",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1196",
+    "name": "Saga : X-Men",
+    "epg_id": "cima.saga.fr.x-men",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1197",
+    "name": "Ciné+ Al Pacino",
+    "epg_id": "cima.actor.al-pacino.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1198",
+    "name": "Ciné+ Antonio Banderas",
+    "epg_id": "cima.actor.antonio-banderas.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1199",
+    "name": "Ciné+ Arnold Schwarzenegger 1",
+    "epg_id": "cima.actor.arnold-schwarzenegger.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1200",
+    "name": "Ciné+ Arnold Schwarzenegger 2",
+    "epg_id": "cima.actor.arnold-schwarzenegger.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1201",
+    "name": "Ciné+ Brad Pitt 1",
+    "epg_id": "cima.actor.brad-pitt.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1202",
+    "name": "Ciné+ Brad Pitt 2",
+    "epg_id": "cima.actor.brad-pitt.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1203",
+    "name": "Ciné+ Bruce Lee 1",
+    "epg_id": "cima.actor.bruce-lee.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1204",
+    "name": "Ciné+ Bruce Lee 2",
+    "epg_id": "cima.actor.bruce-lee.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1205",
+    "name": "Ciné+ Bruce Willis 1",
+    "epg_id": "cima.actor.bruce-willis.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1206",
+    "name": "Ciné+ Bruce Willis 2",
+    "epg_id": "cima.actor.bruce-willis.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1207",
+    "name": "Ciné+ Christian Bale 1",
+    "epg_id": "cima.actor.christian-bale.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1208",
+    "name": "Ciné+ Christian Bale 2",
+    "epg_id": "cima.actor.christian-bale.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1209",
+    "name": "Ciné+ Chuck Norris",
+    "epg_id": "cima.actor.chuck-norris.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1210",
+    "name": "Ciné+ Denzel Washington 1",
+    "epg_id": "cima.actor.denzel-washington.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1211",
+    "name": "Ciné+ Denzel Washington 2",
+    "epg_id": "cima.actor.denzel-washington.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1212",
+    "name": "Ciné+ Dolph Lundgren",
+    "epg_id": "cima.actor.dolph-lundgren.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1213",
+    "name": "Ciné+ Jackie Chan 1",
+    "epg_id": "cima.actor.jackie-chan.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1214",
+    "name": "Ciné+ Jackie Chan 2",
+    "epg_id": "cima.actor.jackie-chan.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1215",
+    "name": "Ciné+ Jason Statham 1",
+    "epg_id": "cima.actor.jason-statham.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1216",
+    "name": "Ciné+ Jason Statham 2",
+    "epg_id": "cima.actor.jason-statham.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1217",
+    "name": "Ciné+ Jean-Claude Van Damme",
+    "epg_id": "fox.fr.81616",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1218",
+    "name": "Ciné+ Jet Li 1",
+    "epg_id": "cima.actor.jet-li.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1219",
+    "name": "Ciné+ Jet Li 2",
+    "epg_id": "cima.actor.jet-li.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1220",
+    "name": "Ciné+ John Travolta",
+    "epg_id": "cima.actor.john-travolta.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1221",
+    "name": "Ciné+ Johnny Depp",
+    "epg_id": "cima.actor.johnny-depp.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1222",
+    "name": "Ciné+ Keanu Reeves",
+    "epg_id": "cima.actor.keanu-reeves.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1223",
+    "name": "Ciné+ Kurt Russell",
+    "epg_id": "cima.actor.kurt-russell.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1224",
+    "name": "Ciné+ Leonardo DiCaprio 1",
+    "epg_id": "cima.actor.leonardo-dicaprio.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1225",
+    "name": "Ciné+ Leonardo DiCaprio 2",
+    "epg_id": "cima.actor.leonardo-dicaprio.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1226",
+    "name": "Ciné+ Liam Neeson",
+    "epg_id": "fox.fr.89044",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1227",
+    "name": "Ciné+ Matt Damon",
+    "epg_id": "cima.actor.matt-damon.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1228",
+    "name": "Ciné+ Mel Gibson",
+    "epg_id": "cima.actor.mel-gibson.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1229",
+    "name": "Ciné+ Nicolas Cage",
+    "epg_id": "cima.actor.nicolas-cage.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1230",
+    "name": "Ciné+ Quentin Tarantino",
+    "epg_id": "fox.fr.82117",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1231",
+    "name": "Ciné+ Richard Gere",
+    "epg_id": "cima.actor.richard-gere.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1232",
+    "name": "Ciné+ Robert De Niro",
+    "epg_id": "cima.actor.robert-de-niro.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1233",
+    "name": "Ciné+ Robert Downey Jr.",
+    "epg_id": "cima.actor.robert-downey-jr.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1234",
+    "name": "Ciné+ Russell Crowe 1",
+    "epg_id": "cima.actor.russell-crowe.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1235",
+    "name": "Ciné+ Russell Crowe 2",
+    "epg_id": "cima.actor.russell-crowe.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1236",
+    "name": "Ciné+ Steven Seagal 1",
+    "epg_id": "cima.actor.steven-seagal.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1237",
+    "name": "Ciné+ Steven Seagal 2",
+    "epg_id": "cima.actor.steven-seagal.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1238",
+    "name": "Ciné+ Sylvester Stallone 1",
+    "epg_id": "cima.actor.sylvester-stallone.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1239",
+    "name": "Ciné+ Sylvester Stallone 2",
+    "epg_id": "cima.actor.sylvester-stallone.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1240",
+    "name": "Ciné+ Tom Cruise 1",
+    "epg_id": "cima.actor.tom-cruise.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1241",
+    "name": "Ciné+ Tom Cruise 2",
+    "epg_id": "cima.actor.tom-cruise.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1242",
+    "name": "Ciné+ Tom Hanks",
+    "epg_id": "cima.actor.tom-hanks.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1243",
+    "name": "Ciné+ Tom Hardy",
+    "epg_id": "cima.actor.tom-hardy.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1244",
+    "name": "Ciné+ Vin Diesel 1",
+    "epg_id": "cima.actor.vin-diesel.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1245",
+    "name": "Ciné+ Vin Diesel 2",
+    "epg_id": "cima.actor.vin-diesel.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1246",
+    "name": "Ciné+ Wesley Snipes",
+    "epg_id": "cima.actor.wesley-snipes.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1247",
+    "name": "Ciné+ Will Smith 1",
+    "epg_id": "cima.actor.will-smith.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1248",
+    "name": "Ciné+ Will Smith 2",
+    "epg_id": "cima.actor.will-smith.fr",
+    "category": "[FR] CINEMA TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1256",
+    "name": "Series HD 1",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1257",
+    "name": "Series HD 2",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1258",
+    "name": "24/7 Reacher",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1259",
+    "name": "24/7 LOST",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1260",
+    "name": "24/7 Game of Thrones",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1264",
+    "name": "SERIES+ ACTION",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1265",
+    "name": "SERIES+ ANIMATION",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1266",
+    "name": "SERIES+ COMEDIE",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1267",
+    "name": "SERIES+ DOCUMENTAIRE",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1268",
+    "name": "SERIES+ FAMILIAL",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1269",
+    "name": "SERIES+ GUERRE",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1270",
+    "name": "SERIES+ HITS 1",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1271",
+    "name": "SERIES+ HITS 2",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1272",
+    "name": "SERIES+ LÉGENDES 1",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1273",
+    "name": "SERIES+ LÉGENDES 2",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1274",
+    "name": "SERIES+ PAW PATROL",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1275",
+    "name": "SERIES+ POLICIER",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1276",
+    "name": "SERIES+ WESTERN",
+    "epg_id": "NULL",
+    "category": "[FR] SERIES TOP",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1287",
+    "name": "Club-RTL",
+    "epg_id": "NULL",
+    "category": "[FR] DIVERTISSEMENT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1288",
+    "name": "Plug-RTL",
+    "epg_id": "NULL",
+    "category": "[FR] DIVERTISSEMENT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1290",
+    "name": "RTS Un HD",
+    "epg_id": "NULL",
+    "category": "[FR] DIVERTISSEMENT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1291",
+    "name": "RTS Deux HD",
+    "epg_id": "NULL",
+    "category": "[FR] DIVERTISSEMENT",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1323",
+    "name": "HISTOIRE Full HD",
+    "epg_id": "NULL",
+    "category": "[FR] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1339",
+    "name": "RTS Deux Full HD",
+    "epg_id": "NULL",
+    "category": "[FR] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1355",
+    "name": "HBO Max 4k 1",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1356",
+    "name": "HBO Max 4k 2",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1362",
+    "name": "Eleven Sports Pro League 1 FR 4K",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1363",
+    "name": "National Geo 4K",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1367",
+    "name": "Planete+ Crime Investigation 4K",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1369",
+    "name": "Ushuaïa 4K",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1383",
+    "name": "Cherie 25 4K",
+    "epg_id": "NULL",
+    "category": "[FR] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1390",
+    "name": "Discovery ID ʜᴅ",
+    "epg_id": "NULL",
+    "category": "[FR] CULTURE",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1391",
+    "name": "NATIONAL GEO",
+    "epg_id": "natgeo.fr",
+    "category": "[FR] CULTURE",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1392",
+    "name": "NAT GEO WILD",
+    "epg_id": "natgeowild.fr",
+    "category": "[FR] CULTURE",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1395",
+    "name": "HISTOIRE",
+    "epg_id": "histoire.fr",
+    "category": "[FR] CULTURE",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1407",
+    "name": "DJAZZ",
+    "epg_id": "NULL",
+    "category": "[FR] MUSIQUE",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1420",
+    "name": "BOING",
+    "epg_id": "01tv.fr",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1423",
+    "name": "Masha et Michka",
+    "epg_id": "NULL",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1424",
+    "name": "Paw Patrol 1",
+    "epg_id": "NULL",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1425",
+    "name": "Paw Patrol 2",
+    "epg_id": "NULL",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1426",
+    "name": "Paw Patrol 3",
+    "epg_id": "NULL",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1427",
+    "name": "CKN Toys channel",
+    "epg_id": "NULL",
+    "category": "[FR] ENFANTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  }
+]

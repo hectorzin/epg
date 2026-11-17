@@ -1,0 +1,6509 @@
+[
+  {
+    "xtream_id": "4",
+    "name": "Antena 3 Internacional",
+    "epg_id": "Antena3Internacional.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "21",
+    "name": "Intereconomía",
+    "epg_id": "cima.es.intereconomia",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "22",
+    "name": "NTN24",
+    "epg_id": "cima.es.ntn24",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "23",
+    "name": "Mundo TV",
+    "epg_id": "cima.es.mundo",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "27",
+    "name": "À Punt 2",
+    "epg_id": "APunt.es@SD",
+    "category": "[ES] TDT",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "35",
+    "name": "ETB 1 On",
+    "epg_id": "ETB1On.es@HD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "37",
+    "name": "ETB 2 On",
+    "epg_id": "ETB2On.es@HD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "38",
+    "name": "ETB Basque",
+    "epg_id": "cima.es.etbbasque",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "39",
+    "name": "TVG",
+    "epg_id": "cima.es.tvg",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "41",
+    "name": "TVG 2 Internacional",
+    "epg_id": "TVG2.es@SD",
+    "category": "[ES] TDT",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "42",
+    "name": "Galicia TV Europa",
+    "epg_id": "GaliciaTVEuropa.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "43",
+    "name": "Aragón TV Internacional",
+    "epg_id": "aragontvint.es",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "44",
+    "name": "CMM TV",
+    "epg_id": "CMMTV.es@HD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "46",
+    "name": "Televisión Canaria",
+    "epg_id": "TelevisionCanaria.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "47",
+    "name": "Canarias TV",
+    "epg_id": "cima.es.canariastv",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "48",
+    "name": "Bon Dia TV",
+    "epg_id": "BonDiaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "49",
+    "name": "101TV Málaga",
+    "epg_id": "cima.es.101tv",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "50",
+    "name": "28 Kanala",
+    "epg_id": "28kanala.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "51",
+    "name": "7TV Málaga",
+    "epg_id": "cima.es.7tvmalaga",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "52",
+    "name": "8 la Marina TV",
+    "epg_id": "8LaMarinaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "53",
+    "name": "Alacanti TV",
+    "epg_id": "AlacantiTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "54",
+    "name": "Alcarria TV",
+    "epg_id": "AlcarriaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "55",
+    "name": "Arabi TV",
+    "epg_id": "ArabiTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "56",
+    "name": "AuronPlay TV",
+    "epg_id": "cima.es.auronplay",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "57",
+    "name": "BCN Gospel TV",
+    "epg_id": "BCNGospelTV.es@HD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "58",
+    "name": "Canal Málaga",
+    "epg_id": "cima.es.canalmalaga",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "59",
+    "name": "Canal Malaga RTV",
+    "epg_id": "CanalMalagaRTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "60",
+    "name": "Canal San Roque",
+    "epg_id": "CanalSanRoque.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "61",
+    "name": "Canal Sierra de Cadiz",
+    "epg_id": "CanalSierradeCadiz.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "62",
+    "name": "Canal Taronja Comarques Centrals",
+    "epg_id": "CanalTaronjaComarquesCentrals.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "63",
+    "name": "Canal Taronja Osona i Moianes",
+    "epg_id": "CanalTaronjaOsonaiMoianes.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "64",
+    "name": "Canal Torrevisión",
+    "epg_id": "cima.es.torrevision",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "65",
+    "name": "Costa Noroeste TV",
+    "epg_id": "CostaNoroesteTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "66",
+    "name": "Diez TV las Villas",
+    "epg_id": "DiezTVLasVillas.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "67",
+    "name": "Diez TV Ubeda",
+    "epg_id": "DiezTVUbeda.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "68",
+    "name": "Durangaldeko Telebista",
+    "epg_id": "DurangaldekoTelebista.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "69",
+    "name": "Emporda TV",
+    "epg_id": "EmpordaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "70",
+    "name": "Fuerteventura TV",
+    "epg_id": "FuerteventuraTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "71",
+    "name": "Interalmeria TV",
+    "epg_id": "InteralmeriaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "72",
+    "name": "Intercomarcal TV",
+    "epg_id": "IntercomarcalTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "73",
+    "name": "La 8 Mediterraneo",
+    "epg_id": "La8Mediterraneo.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "74",
+    "name": "Lancelot TV",
+    "epg_id": "cima.es.cat13.lancelot-tv",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "75",
+    "name": "M95 Television Marbella",
+    "epg_id": "M95TelevisionMarbella.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "76",
+    "name": "Mijas 3.40 TV",
+    "epg_id": "Mijas340TV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "77",
+    "name": "Onda Algeciras",
+    "epg_id": "OndaAlgeciras.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "78",
+    "name": "Onda Cádiz",
+    "epg_id": "cima.es.ondacadiz",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "79",
+    "name": "PTV Málaga",
+    "epg_id": "cima.es.ptvmalaga",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "80",
+    "name": "Radio Bocairent TV",
+    "epg_id": "RadioBocairentTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "81",
+    "name": "Ribera TV",
+    "epg_id": "RiberaTV.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "82",
+    "name": "RTV Vida",
+    "epg_id": "cima.es.cat13.rtv-vida",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "83",
+    "name": "Solidaria TV",
+    "epg_id": "cima.es.cat13.solidaria-tv",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "84",
+    "name": "Tele 7",
+    "epg_id": "Tele7.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "86",
+    "name": "TV Nacional 1",
+    "epg_id": "cima.es.cat13.tv-nacional-1",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "87",
+    "name": "TV Nacional 3",
+    "epg_id": "cima.es.cat13.tv-nacional-3",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "88",
+    "name": "TV Nacional 4",
+    "epg_id": "cima.es.cat13.tv-nacional-4",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "89",
+    "name": "TV Nacional 5",
+    "epg_id": "cima.es.cat13.tv-nacional-5",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "90",
+    "name": "TV Nacional 6",
+    "epg_id": "cima.es.cat13.tv-nacional-6",
+    "category": "[ES] TDT",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "91",
+    "name": "TV Reus",
+    "epg_id": "TVReus.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "92",
+    "name": "TV Sabadell-Vallès",
+    "epg_id": "TVSabadellValles.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "93",
+    "name": "Urola Telebista",
+    "epg_id": "UrolaTelebista.es@SD",
+    "category": "[ES] TDT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "94",
+    "name": "M+ LaLigaTVHD",
+    "epg_id": "mlaliga.es",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "96",
+    "name": "M+ LaLigaTVHD 235",
+    "epg_id": "mlaliga.es",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "97",
+    "name": "M+ LaLigaTV",
+    "epg_id": "mlaliga.es",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "98",
+    "name": "M+ LaLigaTVSD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "99",
+    "name": "M+ LaLigaTV FULL HD",
+    "epg_id": "mlaliga.es",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "100",
+    "name": "M+ LaLigaTV 4K",
+    "epg_id": "mlaliga.es",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "104",
+    "name": "DAZN LALIGA HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "105",
+    "name": "DAZN LALIGA HD+",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "106",
+    "name": "DAZN LALIGA HD 235",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "107",
+    "name": "DAZN LALIGA ",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "108",
+    "name": "DAZN LALIGA SD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "116",
+    "name": "DAZN RALLY TV",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "122",
+    "name": "UEFA Champions League",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "123",
+    "name": "M+ LCAMPEONES +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "124",
+    "name": "M+ LCAMPEONES SD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "125",
+    "name": "M+ LCAMPEONES HD",
+    "epg_id": "01tv.fr",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "126",
+    "name": "M+ LCAMPEONES HD+",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "135",
+    "name": "M+LCAMPEON6",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "136",
+    "name": "M+LCAMPEON7",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "137",
+    "name": "M+LCAMPEON8",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "138",
+    "name": "M+LCAMPEON9",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "139",
+    "name": "M+LCAMPEON10",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "140",
+    "name": "M+LCAMPEON11",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "141",
+    "name": "M+LCAMPEON12",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "142",
+    "name": "M+LCAMPEON13",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "143",
+    "name": "Movistar Plus+ HD",
+    "epg_id": "movistarestrenos.es",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "144",
+    "name": "Movistar Plus+ FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "151",
+    "name": "LALIGA INSIDE (PLUS)",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "159",
+    "name": "EUROSPORT2HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "162",
+    "name": "M+ VAMOS HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "164",
+    "name": "M+ VAMOS 3 HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "171",
+    "name": "DAZN EVENTOS 1",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "172",
+    "name": "DAZN EVENTOS 2",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "173",
+    "name": "DAZN EVENTOS 3",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "174",
+    "name": "DAZN EVENTOS 4",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "175",
+    "name": "DAZN EVENTOS 5",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "176",
+    "name": "DAZN EVENTOS 6",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "177",
+    "name": "DAZN EVENTOS 7",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "178",
+    "name": "DAZN EVENTOS 8",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "179",
+    "name": "DAZN EVENTOS 9",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "180",
+    "name": "DAZN EVENTOS 10",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "181",
+    "name": "UFC HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "183",
+    "name": "TELE MADRID",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "189",
+    "name": "MULTIDEPORTE",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "190",
+    "name": "TOP BARÇA HD",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "192",
+    "name": "RED BULL TV",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "193",
+    "name": "LALIGA EA SPORTS +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "194",
+    "name": "Real Madrid +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "195",
+    "name": "Got Talent Espana",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "196",
+    "name": "El Dia Despues",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "197",
+    "name": "Toros Para Todos",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "198",
+    "name": "Las Ventas",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "199",
+    "name": "Angel 775 Toros",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "200",
+    "name": "Cocina con Carmen",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "201",
+    "name": "Operacion Triunfo",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "202",
+    "name": "DAZN Espana +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "203",
+    "name": "RFEF",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "204",
+    "name": "Eurosport Espana +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "205",
+    "name": "ACB +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "206",
+    "name": "Marco",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "207",
+    "name": "La Voz Espana",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "208",
+    "name": "SoyMotor",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "209",
+    "name": "UFC 1",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "210",
+    "name": "UFC 2",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "211",
+    "name": "UFC 3",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "212",
+    "name": "Memorias del Futbol",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "213",
+    "name": "FC Barcelona +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "214",
+    "name": "Atletico de Madrid +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "215",
+    "name": "Al Toro Por Los Cuernos",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "216",
+    "name": "Toros Fran Gomez",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "217",
+    "name": "Lethal Crysis",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "218",
+    "name": "Minime",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "219",
+    "name": "Mondo World ES",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "220",
+    "name": "Clavero",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "221",
+    "name": "Boxeo +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "222",
+    "name": "Tenis +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "223",
+    "name": "Futbol +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "224",
+    "name": "Toros +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "225",
+    "name": "Baloncesto +",
+    "epg_id": "NULL",
+    "category": "[ES] SPORT",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "226",
+    "name": "M+ LaLigaTV",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "227",
+    "name": "M+ LaLigaTV HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "228",
+    "name": "M+ LaLigaTV HD+",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "229",
+    "name": "M. LaLiga FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "230",
+    "name": "M+ LaLigaTV 4K",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "231",
+    "name": "DAZN LALIGA",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "232",
+    "name": "DAZN LALIGA HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "233",
+    "name": "DAZN LALIGA HD+",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "234",
+    "name": "DAZN LALIGA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "235",
+    "name": "DAZN LALIGA 4K",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "236",
+    "name": "M.LCAMPEONES",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "237",
+    "name": "M.LCAMPEONES HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "238",
+    "name": "M.LCAMPEONES HD+",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "239",
+    "name": "M+ LCAMPEONES 4K",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "240",
+    "name": "DAZN 1 ESP",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "241",
+    "name": "DAZN 2 ESP",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "242",
+    "name": "DAZN F1 HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "243",
+    "name": "Movistar Plus+ HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "244",
+    "name": "UEFA Champions League",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "245",
+    "name": "LA 1 HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "246",
+    "name": "LA 2 HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "247",
+    "name": "ANTENA 3 HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "248",
+    "name": "TELECINCO HD",
+    "epg_id": "NULL",
+    "category": "[ES] LIGA",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "251",
+    "name": "M+ Estrenos 2025",
+    "epg_id": "cima.es.genre.estrenos-2025",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "252",
+    "name": "M+ Estrenos 2",
+    "epg_id": "movistarestrenos.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "253",
+    "name": "M+ Estrenos 2026",
+    "epg_id": "cima.es.genre.estrenos-2026",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "256",
+    "name": "M+ Cinesur",
+    "epg_id": "fox.es.cinesur",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "257",
+    "name": "M+ Cine",
+    "epg_id": "movistarestrenos.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "258",
+    "name": "M+ Cine Selección",
+    "epg_id": "movistarestrenos.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "260",
+    "name": "M+ Acción 2",
+    "epg_id": "fox.es.accion2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "262",
+    "name": "M+ Acción 3",
+    "epg_id": "movistaraccion.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "264",
+    "name": "M+ Comedia 2",
+    "epg_id": "movistarcomedia.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "265",
+    "name": "M+ Drama 3",
+    "epg_id": "moviestardrama.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "266",
+    "name": "M+ Drama 2",
+    "epg_id": "moviestardrama.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "268",
+    "name": "M+ Clásicos 3",
+    "epg_id": "movistarclasicos.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "269",
+    "name": "M+ Clásicos 2",
+    "epg_id": "movistarclasicos.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "272",
+    "name": "Canal Hollywood 2",
+    "epg_id": "hollywood.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "275",
+    "name": "Atrescine 2",
+    "epg_id": "cima.es.a3cine",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "276",
+    "name": "Atrescine",
+    "epg_id": "cima.es.a3cine",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "278",
+    "name": "M+ Indie 2",
+    "epg_id": "cima.es.indie",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "280",
+    "name": "M+ Terror",
+    "epg_id": "cima.es.cine.terror",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "282",
+    "name": "M+ Ficción Premium",
+    "epg_id": "fox.es.ficcion.premium",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "283",
+    "name": "M+ Ficción 2",
+    "epg_id": "fox.es.ficcion2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "284",
+    "name": "M+ Ficción 1",
+    "epg_id": "fox.es.ficcion1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "285",
+    "name": "M+ Oscars 2",
+    "epg_id": "cima.es.theme.oscars2",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "286",
+    "name": "M+ Oscars",
+    "epg_id": "cima.es.theme.oscars",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "287",
+    "name": "M+ Goya",
+    "epg_id": "cima.es.genre.goya",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "288",
+    "name": "M+ Goya 2",
+    "epg_id": "cima.es.genre.goya-2",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "289",
+    "name": "M+ Iberian Screen",
+    "epg_id": "cima.es.iberian",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "290",
+    "name": "M+ Trailers",
+    "epg_id": "cima.es.theme.oscars2",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "291",
+    "name": "M+ Años 2000",
+    "epg_id": "cima.es.genre.anos-2000",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "292",
+    "name": "M+ Años 2020",
+    "epg_id": "cima.es.genre.anos-2020",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "293",
+    "name": "M+ Años 2010",
+    "epg_id": "cima.es.genre.annees-2010",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "294",
+    "name": "M+ Culto 2000",
+    "epg_id": "cima.es.genre.culte2000",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "295",
+    "name": "SensaCine TV Pluto",
+    "epg_id": "676e7b4a4bd636000819c6a7",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "296",
+    "name": "Cine Friki",
+    "epg_id": "CineFriki.es@SD",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "297",
+    "name": "M+ Misión Imposible",
+    "epg_id": "cima.es.saga.mission-impossible",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "298",
+    "name": "MyTime Movie Network",
+    "epg_id": "MyTimeMovieNetwork.es@SD",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "299",
+    "name": "Cine Western",
+    "epg_id": "CineWestern.es@SD",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "300",
+    "name": "Primeval TV",
+    "epg_id": "65dded9a0d456100081417ae",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "301",
+    "name": "M+ Años 70",
+    "epg_id": "cima.es.genre.anos-70",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "302",
+    "name": "M+ Amazon Prime 1",
+    "epg_id": "cima.es.theme.amazonprime",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "303",
+    "name": "M+ Amazon Prime 2",
+    "epg_id": "cima.es.theme.amazonprime2",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "304",
+    "name": "Prime Video 1",
+    "epg_id": "fox.es.prime1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "305",
+    "name": "Prime Video 2",
+    "epg_id": "fox.es.prime2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "306",
+    "name": "Canal Alquiler 1",
+    "epg_id": "cima.es.theme.marvel3",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "307",
+    "name": "Procaja 1",
+    "epg_id": "fox.es.procaja1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "308",
+    "name": "M+ Netflix 1",
+    "epg_id": "fox.es.netflix1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "309",
+    "name": "Procaja 3",
+    "epg_id": "fox.es.procaja3",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "310",
+    "name": "Procaja 2",
+    "epg_id": "fox.es.procaja2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "311",
+    "name": "M+ Apple TV+",
+    "epg_id": "cima.es.theme.appletvplus",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "312",
+    "name": "Apple TV+ 1",
+    "epg_id": "fox.es.apple1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "313",
+    "name": "M+ Western",
+    "epg_id": "cima.es.genre.western",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "314",
+    "name": "M+ Netflix 2",
+    "epg_id": "fox.es.netflix2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "315",
+    "name": "M+ Años 80",
+    "epg_id": "cima.es.genre.annees80",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "316",
+    "name": "M+ Vampiros",
+    "epg_id": "cima.es.genre.vampires",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "317",
+    "name": "Marvel Studios 2",
+    "epg_id": "cima.es.theme.marvel",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "319",
+    "name": "SkyShowtime 2",
+    "epg_id": "fox.es.skyshowtime2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "320",
+    "name": "Marvel Studios 1",
+    "epg_id": "fox.es.marvel1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "321",
+    "name": "M+ Años 90",
+    "epg_id": "cima.es.genre.annees90",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "322",
+    "name": "Apple TV+ 2",
+    "epg_id": "fox.es.apple2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "323",
+    "name": "M+ Deporte",
+    "epg_id": "cima.es.genre.sport",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "324",
+    "name": "M+ Comedia Romántica",
+    "epg_id": "cima.es.genre.comedieromantique",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "325",
+    "name": "M+ Cine Histórico",
+    "epg_id": "cima.es.genre.cine-historico",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "326",
+    "name": "M+ Cine Francés",
+    "epg_id": "cima.es.genre.francais",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "327",
+    "name": "M+ Dinosaurios",
+    "epg_id": "cima.es.genre.dinosaures",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "329",
+    "name": "M+ Familia",
+    "epg_id": "cima.es.genre.famille",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "330",
+    "name": "M+ Espionaje",
+    "epg_id": "cima.es.genre.espionnage",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "331",
+    "name": "M+ Espacio",
+    "epg_id": "cima.es.genre.espace",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "332",
+    "name": "M+ Drama Romántico",
+    "epg_id": "cima.es.genre.drama-romantico",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "333",
+    "name": "M+ Catástrofes",
+    "epg_id": "cima.es.genre.catastrophe",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "334",
+    "name": "M+ Bollywood",
+    "epg_id": "cima.es.genre.bollywood",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "335",
+    "name": "M+ DC Comics",
+    "epg_id": "cima.es.theme.dc",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "336",
+    "name": "M+ Marvel 2",
+    "epg_id": "cima.es.theme.marvel3",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "337",
+    "name": "M+ Marvel",
+    "epg_id": "cima.es.theme.marvel",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "338",
+    "name": "M+ Ciencia Ficción",
+    "epg_id": "cima.es.genre.sciencefiction",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "339",
+    "name": "M+ Acción de Culto",
+    "epg_id": "cima.es.genre.actionculte",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "340",
+    "name": "M+ Animación",
+    "epg_id": "cima.es.genre.animation",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "341",
+    "name": "M+ Aventura",
+    "epg_id": "cima.es.genre.aventure",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "342",
+    "name": "M+ Atracos",
+    "epg_id": "cima.es.genre.braquage",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "343",
+    "name": "M+ Artes Marciales",
+    "epg_id": "cima.es.genre.artsmartiaux",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "344",
+    "name": "M+ Fantasía",
+    "epg_id": "cima.es.genre.fantastique",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "345",
+    "name": "M+ Acción Force",
+    "epg_id": "cima.es.genre.action-force",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "346",
+    "name": "M+ Hechos Reales",
+    "epg_id": "cima.es.genre.faitsreels",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "347",
+    "name": "M+ Policíaco",
+    "epg_id": "cima.es.genre.policiaco",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "348",
+    "name": "M+ Rock y Música",
+    "epg_id": "cima.es.genre.rock-y-musica",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "349",
+    "name": "M+ Supervivencia",
+    "epg_id": "cima.es.genre.survie",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "350",
+    "name": "M+ Supervivencia Max",
+    "epg_id": "cima.es.genre.surviemax",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "351",
+    "name": "M+ Navidad Especial",
+    "epg_id": "cima.es.genre.noel",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "352",
+    "name": "M+ Piratas",
+    "epg_id": "cima.es.genre.pirates",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "353",
+    "name": "M+ Misterio",
+    "epg_id": "cima.es.genre.mystere",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "355",
+    "name": "M+ Héroes Animados",
+    "epg_id": "cima.es.genre.herosanimes",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "356",
+    "name": "M+ Musicales",
+    "epg_id": "cima.es.genre.comediesmusicales",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "357",
+    "name": "M+ Terror Max",
+    "epg_id": "cima.es.genre.horreurmax",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "358",
+    "name": "M+ Mafia y Cárteles",
+    "epg_id": "cima.es.genre.mafiacartels",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "359",
+    "name": "Saga Indiana Jones",
+    "epg_id": "cima.es.saga.indiana-jones",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "360",
+    "name": "Saga Insidious",
+    "epg_id": "cima.es.saga.insidious",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "361",
+    "name": "Saga Harry Potter",
+    "epg_id": "cima.es.saga.harry-potter",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "362",
+    "name": "Saga It (Ça)",
+    "epg_id": "cima.es.saga.ca",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "363",
+    "name": "Saga Halloween",
+    "epg_id": "cima.es.genre.halloween",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "364",
+    "name": "Saga Kingsman",
+    "epg_id": "cima.es.saga.kingsman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "365",
+    "name": "Saga La Momia",
+    "epg_id": "cima.es.genre.la-momia",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "366",
+    "name": "Saga Jurassic World",
+    "epg_id": "cima.es.saga.jurassic-world",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "367",
+    "name": "Saga Jumanji",
+    "epg_id": "cima.es.saga.jumanji",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "368",
+    "name": "Saga John Wick",
+    "epg_id": "cima.es.saga.john-wick",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "369",
+    "name": "Saga Jason Bourne",
+    "epg_id": "cima.es.saga.jason-bourne",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "370",
+    "name": "Saga Capitán América",
+    "epg_id": "cima.es.saga.captain-america",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "371",
+    "name": "Saga El Planeta de los Simios",
+    "epg_id": "cima.es.saga.la-planete-des-singes",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "372",
+    "name": "Saga Dune",
+    "epg_id": "cima.es.saga.dune",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "373",
+    "name": "Saga Equalizer",
+    "epg_id": "cima.es.saga.equalizer",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "374",
+    "name": "Saga Escuadrón Suicida",
+    "epg_id": "cima.es.saga.suicide-squad",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "375",
+    "name": "Saga Fast & Furious",
+    "epg_id": "cima.es.saga.fast-furious",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "376",
+    "name": "Saga Crepúsculo",
+    "epg_id": "cima.es.saga.twilight",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "377",
+    "name": "Saga Los Juegos del Hambre",
+    "epg_id": "cima.es.saga.hunger-games",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "378",
+    "name": "Saga Alien",
+    "epg_id": "cima.es.saga.alien",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "379",
+    "name": "Saga Animales Fantásticos",
+    "epg_id": "cima.es.saga.animaux-fantastiques",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "380",
+    "name": "Saga Avatar",
+    "epg_id": "cima.es.saga.avatar",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "381",
+    "name": "Saga Batman",
+    "epg_id": "cima.es.genre.batman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "382",
+    "name": "Saga Guardianes de la Galaxia",
+    "epg_id": "cima.es.saga.gardiens-de-la-galaxie",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "383",
+    "name": "Saga Predator",
+    "epg_id": "cima.es.saga.predator",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "384",
+    "name": "Saga Thor",
+    "epg_id": "cima.es.saga.thor",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "385",
+    "name": "Saga Terminator",
+    "epg_id": "cima.es.saga.terminator",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "386",
+    "name": "Saga Mad Max",
+    "epg_id": "cima.es.saga.mad-max",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "387",
+    "name": "Saga Star Wars",
+    "epg_id": "cima.es.saga.star-wars",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "388",
+    "name": "Saga Torrente",
+    "epg_id": "cima.es.genre.torrente",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "389",
+    "name": "Saga Transformers",
+    "epg_id": "cima.es.saga.transformers",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "390",
+    "name": "Saga X-Men",
+    "epg_id": "cima.es.saga.x-men",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "391",
+    "name": "Saga Wonder Woman",
+    "epg_id": "cima.es.saga.wonder-woman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "392",
+    "name": "Saga Venom",
+    "epg_id": "cima.es.saga.venom",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "393",
+    "name": "Saga Spider-Man",
+    "epg_id": "cima.es.saga.spider-man",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "394",
+    "name": "Saga Superman",
+    "epg_id": "cima.es.genre.superman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "395",
+    "name": "Saga Shazam",
+    "epg_id": "cima.es.saga.shazam",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "396",
+    "name": "Saga Misión Imposible",
+    "epg_id": "cima.es.saga.mission-impossible",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "397",
+    "name": "Saga Matrix",
+    "epg_id": "cima.es.saga.matrix",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "398",
+    "name": "Saga Piratas del Caribe",
+    "epg_id": "cima.es.saga.pirates-des-caraibes",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "399",
+    "name": "Saga Godzilla",
+    "epg_id": "cima.es.saga.godzilla",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "400",
+    "name": "Saga Scream",
+    "epg_id": "cima.es.saga.scream",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "401",
+    "name": "Saga Saw",
+    "epg_id": "cima.es.genre.saw",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "402",
+    "name": "Saga Resident Evil",
+    "epg_id": "cima.es.saga.resident-evil",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "403",
+    "name": "Cine+ Antonio Banderas",
+    "epg_id": "cima.es.actor.antonio-banderas",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "404",
+    "name": "Cine+ Arnold Schwarzenegger",
+    "epg_id": "cima.es.actor.arnold-schwarzenegger",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "405",
+    "name": "Cine+ Brad Pitt",
+    "epg_id": "cima.es.actor.brad-pitt",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "406",
+    "name": "Cine+ Blanca Suárez",
+    "epg_id": "cima.es.genre.blanca-suarez",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "407",
+    "name": "Cine+ Benicio del Toro",
+    "epg_id": "cima.es.genre.benicio-del-toro",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "408",
+    "name": "Cine+ Bruce Willis",
+    "epg_id": "cima.es.actor.bruce-willis",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "409",
+    "name": "Cine+ Jennifer Lawrence",
+    "epg_id": "cima.es.genre.jennifer-lawrence",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "410",
+    "name": "Cine+ Jim Carrey",
+    "epg_id": "cima.es.genre.jim-carrey",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "411",
+    "name": "Cine+ Joaquin Phoenix",
+    "epg_id": "cima.es.genre.joaquin-phoenix",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "412",
+    "name": "Cine+ Jennifer Aniston",
+    "epg_id": "cima.es.genre.jennifer-aniston",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "413",
+    "name": "Cine+ Jean Reno",
+    "epg_id": "cima.es.genre.jean-reno",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "414",
+    "name": "Cine+ Jake Gyllenhaal",
+    "epg_id": "cima.es.genre.jake-gyllenhaal",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "415",
+    "name": "Cine+ Jason Statham",
+    "epg_id": "cima.es.actor.jason-statham",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "416",
+    "name": "Cine+ Javier Bardem",
+    "epg_id": "cima.es.genre.bardem",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "417",
+    "name": "Cine+ Jodie Foster",
+    "epg_id": "cima.es.genre.jodie-foster",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "418",
+    "name": "Cine+ John Travolta",
+    "epg_id": "cima.es.actor.john-travolta",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "419",
+    "name": "Cine+ Leonardo DiCaprio",
+    "epg_id": "cima.es.actor.leonardo-dicaprio",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "420",
+    "name": "Cine+ Kurt Russell",
+    "epg_id": "cima.es.actor.kurt-russell",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "421",
+    "name": "Cine+ Anthony Hopkins",
+    "epg_id": "cima.es.genre.anthony-hopkins",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "422",
+    "name": "Cine+ Liam Neeson",
+    "epg_id": "cima.es.genre.liam-neeson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "423",
+    "name": "Cine+ Kevin Costner",
+    "epg_id": "cima.es.genre.kevin-costner",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "424",
+    "name": "Cine+ Johnny Depp",
+    "epg_id": "cima.es.actor.johnny-depp",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "425",
+    "name": "Cine+ Julia Roberts",
+    "epg_id": "cima.es.genre.julia-roberts",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "426",
+    "name": "Cine+ Keanu Reeves",
+    "epg_id": "cima.es.actor.keanu-reeves",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "427",
+    "name": "Cine+ Jackie Chan",
+    "epg_id": "cima.es.actor.jackie-chan",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "428",
+    "name": "Cine+ Hugh Jackman",
+    "epg_id": "cima.es.genre.hugh-jackman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "429",
+    "name": "Cine+ Charlize Theron",
+    "epg_id": "cima.es.genre.charlize-theron",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "430",
+    "name": "Cine+ Chris Pratt",
+    "epg_id": "cima.es.genre.chris-pratt",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "431",
+    "name": "Cine+ Christian Bale",
+    "epg_id": "cima.es.actor.christian-bale",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "432",
+    "name": "Cine+ Mel Gibson",
+    "epg_id": "cima.es.actor.mel-gibson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "433",
+    "name": "Cine+ Matthew McConaughey",
+    "epg_id": "cima.es.genre.matthew-mcconaughey",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "434",
+    "name": "Cine+ Cameron Diaz",
+    "epg_id": "cima.es.genre.cameron-diaz",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "435",
+    "name": "Cine+ Mario Casas",
+    "epg_id": "cima.es.genre.mario-casas",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "436",
+    "name": "Cine+ Matt Damon",
+    "epg_id": "cima.es.actor.matt-damon",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "437",
+    "name": "Cine+ Clint Eastwood",
+    "epg_id": "cima.es.genre.clint-eastwood",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "438",
+    "name": "Cine+ Dani Rovira",
+    "epg_id": "cima.es.genre.dani-rovira",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "439",
+    "name": "Cine+ Emma Stone",
+    "epg_id": "cima.es.genre.emma-stone",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "440",
+    "name": "Cine+ Harrison Ford",
+    "epg_id": "cima.es.genre.harrison-ford",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "441",
+    "name": "Cine+ Hugh Grant",
+    "epg_id": "cima.es.genre.hugh-grant",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "442",
+    "name": "Cine+ Dwayne Johnson",
+    "epg_id": "cima.es.genre.dwayne-johnson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "443",
+    "name": "Cine+ Dolph Lundgren",
+    "epg_id": "cima.es.actor.dolph-lundgren",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "444",
+    "name": "Cine+ Luis Tosar",
+    "epg_id": "cima.es.genre.luis-tosar",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "445",
+    "name": "Cine+ Denzel Washington",
+    "epg_id": "cima.es.actor.denzel-washington",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "446",
+    "name": "Cine+ Margot Robbie",
+    "epg_id": "cima.es.genre.margot-robbie",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "447",
+    "name": "Cine+ Sylvester Stallone",
+    "epg_id": "cima.es.actor.sylvester-stallone",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "448",
+    "name": "Cine+ Tom Hanks",
+    "epg_id": "cima.es.actor.tom-hanks",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "449",
+    "name": "Cine+ Tom Hardy",
+    "epg_id": "cima.es.actor.tom-hardy",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "450",
+    "name": "Cine+ Úrsula Corberó",
+    "epg_id": "cima.es.genre.ursula-corbero",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "451",
+    "name": "Cine+ Vin Diesel",
+    "epg_id": "cima.es.actor.vin-diesel",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "452",
+    "name": "Cine+ Tom Cruise",
+    "epg_id": "cima.es.actor.tom-cruise",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "453",
+    "name": "Cine+ Timothée Chalamet",
+    "epg_id": "cima.es.genre.timothee-chalamet",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "454",
+    "name": "Cine+ Scarlett Johansson",
+    "epg_id": "cima.es.genre.scarlett-johansson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "455",
+    "name": "Cine+ Steven Seagal",
+    "epg_id": "cima.es.actor.steven-seagal",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "456",
+    "name": "Cine+ Meryl Streep",
+    "epg_id": "cima.es.genre.meryl-streep",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "457",
+    "name": "Cine+ Wesley Snipes",
+    "epg_id": "cima.es.actor.wesley-snipes",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "458",
+    "name": "Cine+ Will Smith",
+    "epg_id": "cima.es.actor.will-smith",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "459",
+    "name": "Cine+ Terror",
+    "epg_id": "cima.es.cine.terror",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "460",
+    "name": "Cine+ Suspense",
+    "epg_id": "cima.es.cine.suspense",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "461",
+    "name": "Cine+ Drama",
+    "epg_id": "cima.es.cine.drama",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "462",
+    "name": "Cine+ Comedia",
+    "epg_id": "cima.es.cine.comedia",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "463",
+    "name": "Cine+ Guerra",
+    "epg_id": "cima.es.cine.guerra",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "464",
+    "name": "Cine+ Cine Español",
+    "epg_id": "cima.es.genre.cine-espanol",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "465",
+    "name": "Cine+ Acción",
+    "epg_id": "cima.es.cine.accion",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "466",
+    "name": "Cine+ 2",
+    "epg_id": "cima.es.theme.dc",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "467",
+    "name": "Cine+ 1",
+    "epg_id": "cima.es.theme.amazonprime",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "468",
+    "name": "Cine+ Santiago Segura",
+    "epg_id": "cima.es.genre.santiago-segura",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "469",
+    "name": "Cine+ Sandra Bullock",
+    "epg_id": "cima.es.genre.sandra-bullock",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "470",
+    "name": "Cine+ Michael Caine",
+    "epg_id": "cima.es.genre.michael-caine",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "471",
+    "name": "Cine+ Morgan Freeman",
+    "epg_id": "cima.es.genre.morgan-freeman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "472",
+    "name": "Cine+ Nicolas Cage",
+    "epg_id": "cima.es.actor.nicolas-cage",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "473",
+    "name": "Cine+ Nicole Kidman",
+    "epg_id": "cima.es.genre.nicole-kidman",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "474",
+    "name": "Cine+ Saga",
+    "epg_id": "cima.es.bestof.saga",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "475",
+    "name": "Cine+ Adam Sandler",
+    "epg_id": "cima.es.genre.adam-sandler",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "476",
+    "name": "Cine+ Angelina Jolie",
+    "epg_id": "cima.es.genre.angelina-jolie",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "477",
+    "name": "Cine+ Ana de Armas",
+    "epg_id": "cima.es.genre.ana-de-armas",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "478",
+    "name": "Cine+ Al Pacino",
+    "epg_id": "cima.es.actor.al-pacino",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "479",
+    "name": "Cine+ Pedro Pascal",
+    "epg_id": "cima.es.genre.pedro-pascal",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "480",
+    "name": "Cine+ Penélope Cruz",
+    "epg_id": "cima.es.genre.penelope-cruz",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "481",
+    "name": "Cine+ Russell Crowe",
+    "epg_id": "cima.es.actor.russell-crowe",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "482",
+    "name": "Cine+ Ryan Gosling",
+    "epg_id": "cima.es.genre.ryan-gosling",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "483",
+    "name": "Cine+ Ryan Reynolds",
+    "epg_id": "cima.es.genre.ryan-reynolds",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "484",
+    "name": "Cine+ Samuel L. Jackson",
+    "epg_id": "cima.es.genre.samuel-l-jackson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "485",
+    "name": "Cine+ Rowan Atkinson",
+    "epg_id": "cima.es.genre.rowan-atkinson",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "486",
+    "name": "Cine+ Robin Williams",
+    "epg_id": "cima.es.genre.robin-williams",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "487",
+    "name": "Cine+ Richard Gere",
+    "epg_id": "cima.es.actor.richard-gere",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "488",
+    "name": "Cine+ Robert De Niro",
+    "epg_id": "cima.es.actor.robert-de-niro",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "489",
+    "name": "Cine+ Robert Downey Jr.",
+    "epg_id": "cima.es.actor.robert-downey-jr",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "490",
+    "name": "Cine+ Anne Hathaway",
+    "epg_id": "cima.es.genre.anne-hathaway",
+    "category": "[ES] CINE",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "491",
+    "name": "Rakuten TV Drama",
+    "epg_id": "RakutenTVDramaMovies.es@Spain",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "492",
+    "name": "Pluto TV Cine Romántico",
+    "epg_id": "5f1ac9a2d3611d0007a844bb",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "493",
+    "name": "Pluto TV Cine Estelar",
+    "epg_id": "5f1ac1f1b66c76000790ef27",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "494",
+    "name": "Pluto TV Comedias Románticas",
+    "epg_id": "655b5d865812e80008843bd1",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "495",
+    "name": "Pluto TV Gore & Slasher",
+    "epg_id": "66b0dfa1d512590008bfa7fd",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "496",
+    "name": "Pluto TV Psycho",
+    "epg_id": "65ce480a78df2200131c597b",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "497",
+    "name": "Pluto TV Horror",
+    "epg_id": "6267d4d1fb694f0007a6af0e",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "498",
+    "name": "Pluto TV Cine Drama",
+    "epg_id": "5f1ac947dcd00d0007937c08",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "499",
+    "name": "Pluto TV Cine de Autor",
+    "epg_id": "60cc807324d60a0007708dc8",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "500",
+    "name": "Pluto TV Catástrofes",
+    "epg_id": "645a309c5a0cd5000873f609",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "501",
+    "name": "Paramount Network Pluto TV",
+    "epg_id": "68d566603d3a9580eb461251",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "502",
+    "name": "Pluto TV Cine Acción",
+    "epg_id": "5f1ac2591dd8880007bb7d6d",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "503",
+    "name": "Pluto TV Cine Clásico",
+    "epg_id": "61373bb45168fe000773eecd",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "504",
+    "name": "Pluto TV Cine Comedia",
+    "epg_id": "5f1ac8099c49f600076579b2",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "505",
+    "name": "Pluto TV Sci-Fi",
+    "epg_id": "5f6a38eaa5b68b0007a00e7a",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "506",
+    "name": "Pluto TV Series de Terror",
+    "epg_id": "68345650e8377f86acdeda83",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "507",
+    "name": "Rakuten TV Family",
+    "epg_id": "movistardcine.es",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "508",
+    "name": "Rakuten TV Familiar",
+    "epg_id": "RakutenTVFamilyMovies.es@Spain",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "509",
+    "name": "Rakuten TV Top 1",
+    "epg_id": "fox.es.rakuten.top1",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "510",
+    "name": "Rakuten TV Top 2",
+    "epg_id": "fox.es.rakuten.top2",
+    "category": "[ES] CINE",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "511",
+    "name": "Rakuten TV Top Películas",
+    "epg_id": "RakutenTVTopMovies.es@Spain",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "512",
+    "name": "Rakuten TV Comedia",
+    "epg_id": "RakutenTVComedyMovies.es@Spain",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "513",
+    "name": "Rakuten TV Acción",
+    "epg_id": "RakutenTVActionMovies.es@Spain",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "514",
+    "name": "Pluto TV Terror Clásico",
+    "epg_id": "66b0e00814a2bb00085f5934",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "515",
+    "name": "Pluto TV Series Sci-Fi",
+    "epg_id": "65ddec1ef7f0af0008be4b65",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "516",
+    "name": "Pluto TV Thrillers",
+    "epg_id": "5f1ac8a87cd38d000745d7cf",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "517",
+    "name": "Pluto TV Western",
+    "epg_id": "6385e82900ab2e000768a058",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "518",
+    "name": "Pluto TV Zombies",
+    "epg_id": "65786888b228b7000843ad9a",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "519",
+    "name": "Runtime Cine",
+    "epg_id": "6086d3f420fc8500075f8dbf",
+    "category": "[ES] CINE",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "520",
+    "name": "M+ Series",
+    "epg_id": "cima.es.mseries",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "521",
+    "name": "M+ Series 2",
+    "epg_id": "cima.es.mseries",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "523",
+    "name": "M+ Originales 2",
+    "epg_id": "cima.es.moriginales",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "525",
+    "name": "STAR Channel 2",
+    "epg_id": "fox.es",
+    "category": "[ES] SERIES",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "527",
+    "name": "Warner TV 2",
+    "epg_id": "cima.es.warnertv",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "529",
+    "name": "AXN 2",
+    "epg_id": "axn.es",
+    "category": "[ES] SERIES",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "531",
+    "name": "AXN Movies 2",
+    "epg_id": "cima.es.axnmovies",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "533",
+    "name": "Calle 13 2",
+    "epg_id": "calle13.es",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "537",
+    "name": "AMC 2",
+    "epg_id": "cima.es.amc",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "542",
+    "name": "FDF",
+    "epg_id": "cima.es.fdf",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "545",
+    "name": "BBC Series",
+    "epg_id": "60dafb9a0df1ba000758d37b",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "546",
+    "name": "TVE Star",
+    "epg_id": "TVEStar.es@HD",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "547",
+    "name": "TVE Star 2",
+    "epg_id": "TVEStar.es@SD",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "548",
+    "name": "La Casa de las Series",
+    "epg_id": "cima.es.casaseries",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "549",
+    "name": "El Rincón del Profesor",
+    "epg_id": "cima.es.rinconprofesor",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "550",
+    "name": "Series+ Éxitos 1",
+    "epg_id": "cima.series.exitos1.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "551",
+    "name": "Series+ Éxitos 2",
+    "epg_id": "cima.series.exitos2.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "552",
+    "name": "Series+ Leyendas 1",
+    "epg_id": "cima.series.leyendas1.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "553",
+    "name": "Series+ Leyendas 2",
+    "epg_id": "cima.series.leyendas2.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "554",
+    "name": "Series+ Acción",
+    "epg_id": "cima.series.accion.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "555",
+    "name": "Series+ Animación",
+    "epg_id": "cima.series.animacion.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "556",
+    "name": "Series+ Ciencia Ficción",
+    "epg_id": "cima.series.scifi.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "557",
+    "name": "Series+ Comedia",
+    "epg_id": "cima.series.comedia.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "558",
+    "name": "Series+ Crimen",
+    "epg_id": "cima.series.crimen.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "559",
+    "name": "Series+ Documental",
+    "epg_id": "cima.series.documental.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "560",
+    "name": "Series+ Drama",
+    "epg_id": "cima.series.drama.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "561",
+    "name": "Series+ Familia",
+    "epg_id": "cima.series.familia.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "562",
+    "name": "Series+ Guerra",
+    "epg_id": "cima.series.guerra.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "563",
+    "name": "Series+ Infantil",
+    "epg_id": "cima.series.infantil.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "564",
+    "name": "Series+ Western",
+    "epg_id": "cima.series.western.es",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "565",
+    "name": "Aquellos Maravillosos Años",
+    "epg_id": "cima.serie.es.es-aquellos-maravillosos-anos",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "566",
+    "name": "Better Call Saul",
+    "epg_id": "dev.series.title.es-better-call-saul",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "567",
+    "name": "Big Bang",
+    "epg_id": "cima.serie.es.es-big-bang",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "568",
+    "name": "Black Mirror",
+    "epg_id": "dev.series.title.es-black-mirror",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "569",
+    "name": "Blindspot",
+    "epg_id": "cima.serie.es.es-blindspot",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "570",
+    "name": "Breaking Bad",
+    "epg_id": "dev.series.title.es-breaking-bad",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "571",
+    "name": "Castle",
+    "epg_id": "cima.serie.es.es-castle",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "572",
+    "name": "Chernobyl",
+    "epg_id": "dev.series.title.es-chernobyl",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "573",
+    "name": "Cómo Conocí a Vuestra Madre",
+    "epg_id": "cima.serie.es.es-como-conoci-a-vuestra-madre",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "574",
+    "name": "CSI: Miami",
+    "epg_id": "cima.serie.es.es-csi-miami",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "575",
+    "name": "Dark",
+    "epg_id": "dev.series.title.es-dark",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "576",
+    "name": "Dexter",
+    "epg_id": "dev.series.title.es-dexter",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "577",
+    "name": "El Coche Fantástico",
+    "epg_id": "cima.serie.es.es-el-coche-fantastico",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "578",
+    "name": "El Príncipe de Bel-air",
+    "epg_id": "cima.serie.es.es-el-principe-de-bel-air",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "579",
+    "name": "Fargo",
+    "epg_id": "dev.series.title.es-fargo",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "580",
+    "name": "Gotham",
+    "epg_id": "cima.serie.es.es-gotham",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "581",
+    "name": "Hawái 5.0",
+    "epg_id": "cima.serie.es.es-hawai-5-0",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "582",
+    "name": "Hermanos de Sangre",
+    "epg_id": "dev.series.title.es-band-of-brothers",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "583",
+    "name": "Hijos de la Anarquía",
+    "epg_id": "dev.series.title.es-sons-of-anarchy",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "584",
+    "name": "House",
+    "epg_id": "dev.series.title.es-dr-house",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "585",
+    "name": "Juego de Tronos",
+    "epg_id": "dev.series.title.es-game-of-thrones",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "586",
+    "name": "La Casa de Papel",
+    "epg_id": "dev.series.title.es-la-casa-de-papel",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "587",
+    "name": "Los Soprano",
+    "epg_id": "dev.series.title.es-les-soprano",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "588",
+    "name": "Malcolm",
+    "epg_id": "cima.serie.es.es-malcolm",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "589",
+    "name": "Modern Family",
+    "epg_id": "cima.serie.es.es-modern-family",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "590",
+    "name": "Mr. Robot",
+    "epg_id": "dev.series.title.es-mr-robot",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "591",
+    "name": "Narcos",
+    "epg_id": "dev.series.title.es-narcos",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "592",
+    "name": "Navy: Investigación Criminal",
+    "epg_id": "cima.serie.es.es-navy-investigacion-criminal",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "593",
+    "name": "Peaky Blinders",
+    "epg_id": "dev.series.title.es-peaky-blinders",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "594",
+    "name": "Prison Break",
+    "epg_id": "dev.series.title.es-prison-break",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "595",
+    "name": "Riverdale",
+    "epg_id": "cima.serie.es.es-riverdale",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "596",
+    "name": "Series+ Breaking Bad",
+    "epg_id": "cima.serie.es.es-breaking-bad",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "597",
+    "name": "Series+ Embrujadas",
+    "epg_id": "cima.serie.es.es-embrujadas",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "598",
+    "name": "Sexo en Nueva York",
+    "epg_id": "cima.serie.es.es-sexo-en-nueva-york",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "599",
+    "name": "Sherlock",
+    "epg_id": "dev.series.title.es-sherlock",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "600",
+    "name": "Stranger Things",
+    "epg_id": "dev.series.title.es-stranger-things",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "601",
+    "name": "Succession",
+    "epg_id": "dev.series.title.es-succession",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "602",
+    "name": "Supergirl",
+    "epg_id": "cima.serie.es.es-supergirl",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "603",
+    "name": "The Good Doctor",
+    "epg_id": "cima.serie.es.es-the-good-doctor",
+    "category": "[ES] SERIES",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "604",
+    "name": "The Walking Dead",
+    "epg_id": "dev.series.title.es-the-walking-dead",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "605",
+    "name": "True Detective",
+    "epg_id": "dev.series.title.es-true-detective",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "606",
+    "name": "Vikingos",
+    "epg_id": "dev.series.title.es-vikings",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "607",
+    "name": "Águila Roja",
+    "epg_id": "6812206e1b3e3be031a5c363",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "608",
+    "name": "Al Salir de Clase",
+    "epg_id": "65b91e530d9ab40008340d8d",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "609",
+    "name": "Alice Nevers",
+    "epg_id": "66d71f8ee5de930008016f83",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "610",
+    "name": "Ana y los 7",
+    "epg_id": "5f1acce7f17797000718f9be",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "611",
+    "name": "Archivos Forenses",
+    "epg_id": "5f984f4a09e92d0007d74647",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "612",
+    "name": "Az Corazon",
+    "epg_id": "AzCorazon.mx@SD",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "613",
+    "name": "Cherif",
+    "epg_id": "66d71c656b63480008cf0427",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "614",
+    "name": "Crimen & Historia",
+    "epg_id": "64ddcbb14c5ed80008fad416",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "615",
+    "name": "Curro Jiménez",
+    "epg_id": "5f1acd36779de70007a680d1",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "616",
+    "name": "El Comisario",
+    "epg_id": "60c343007bcabe0007242aa6",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "617",
+    "name": "El Detective Endeavour",
+    "epg_id": "619b9f16b8fee4000832d447",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "618",
+    "name": "Embrujadas",
+    "epg_id": "657868a7a620e30008fdbfeb",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "619",
+    "name": "Gata Salvaje",
+    "epg_id": "69c5100c3d2597380f0f6422",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "620",
+    "name": "Léo Mattéï: Brigada de Protección",
+    "epg_id": "6964d2179ba4ac18051a18ce",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "621",
+    "name": "Los Archivos del FBI",
+    "epg_id": "5f1acbed25948a0007ffbe65",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "622",
+    "name": "Los Asesinatos de Midsomer",
+    "epg_id": "5f1aca8310a30e00074fab92",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "623",
+    "name": "Los Misterios de Murdoch",
+    "epg_id": "6682bd9b8768aa0008f25be5",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "624",
+    "name": "Los Nuevos Detectives",
+    "epg_id": "5f1acba0d1f6340007db8843",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "625",
+    "name": "Medium",
+    "epg_id": "6578808014fbe400086e21bc",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "626",
+    "name": "Melrose Place",
+    "epg_id": "6245c03922d9d4000760d205",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "627",
+    "name": "Merlí",
+    "epg_id": "683457aebbc703dfd45a89eb",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "628",
+    "name": "Pluto TV Invasión Alien",
+    "epg_id": "654a35ce346f420008d5c36e",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "629",
+    "name": "Pluto TV K-Drama",
+    "epg_id": "6475bfec536e0c0008858e9f",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "630",
+    "name": "Pluto TV Paranormal",
+    "epg_id": "612ce5214bb5790007ad3016",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "631",
+    "name": "Pluto TV Series Criminales",
+    "epg_id": "65cf6ab58145cb0008129ca8",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "632",
+    "name": "Pluto TV Telenovelas Clásicas",
+    "epg_id": "662a69daa0a74e00087a1c72",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "633",
+    "name": "Pluto TV True Crime",
+    "epg_id": "64a3f200f238ce0008d47247",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "634",
+    "name": "Poirot & Miss Marple",
+    "epg_id": "6304f530440dc90007f514d3",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "635",
+    "name": "Rookie Blue",
+    "epg_id": "6745f0643a61d40008a61510",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "636",
+    "name": "Todo Novelas",
+    "epg_id": "TodoNovelas.es@SD",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "637",
+    "name": "Unidad de Investigación",
+    "epg_id": "61bb2814ac085a00074309a6",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "638",
+    "name": "XPTV US",
+    "epg_id": "XPTVUS.es@SD",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "639",
+    "name": "¡Llama a la Comadrona!",
+    "epg_id": "65dded6966eec80008947157",
+    "category": "[ES] SERIES",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "641",
+    "name": "ONETORO HD",
+    "epg_id": "NULL",
+    "category": "[ES] ENTRETENIMIENTO",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "642",
+    "name": "ONETORO HD +",
+    "epg_id": "NULL",
+    "category": "[ES] ENTRETENIMIENTO",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "646",
+    "name": "FDF",
+    "epg_id": "factoriaficcion.es",
+    "category": "[ES] ENTRETENIMIENTO",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "654",
+    "name": "National Geographic 2",
+    "epg_id": "natgeo.es",
+    "category": "[ES] CULTURA",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "655",
+    "name": "National Geographic Wild",
+    "epg_id": "natgeowild.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "656",
+    "name": "Discovery Channel",
+    "epg_id": "discoverychannel.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "657",
+    "name": "Discovery Channel 2",
+    "epg_id": "discoverychannel.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "658",
+    "name": "Canal Odisea",
+    "epg_id": "cima.es.odisea",
+    "category": "[ES] CULTURA",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "661",
+    "name": "Historia Documentales",
+    "epg_id": "dev.yt.87829.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "663",
+    "name": "Canal Decasa",
+    "epg_id": "canaldecasa.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "667",
+    "name": "Iberalia 100% Caza",
+    "epg_id": "cima.es.iberaliacaza",
+    "category": "[ES] CULTURA",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "668",
+    "name": "Iberalia Pesca",
+    "epg_id": "cima.es.iberaliapesca",
+    "category": "[ES] CULTURA",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "669",
+    "name": "Crimen e Investigación",
+    "epg_id": "dev.yt.87917.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "670",
+    "name": "DW Documental",
+    "epg_id": "dev.yt.87235.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "671",
+    "name": "Aeropuertos +",
+    "epg_id": "dev.yt.87350.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "672",
+    "name": "Alex H. Cremades",
+    "epg_id": "dev.yt.88652.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "673",
+    "name": "Alto Frontera",
+    "epg_id": "dev.yt.88687.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "674",
+    "name": "Andrés Burenok",
+    "epg_id": "dev.yt.87931.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "675",
+    "name": "Andrew Macdonald",
+    "epg_id": "dev.yt.87672.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "676",
+    "name": "Animales +",
+    "epg_id": "dev.yt.87406.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "677",
+    "name": "Ciudadanos por el Mundo",
+    "epg_id": "622f42b831233300078658cc",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "678",
+    "name": "Clavero",
+    "epg_id": "dev.yt.85567.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "679",
+    "name": "Docunau",
+    "epg_id": "dev.yt.87792.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "680",
+    "name": "El Mueble",
+    "epg_id": "690dd10a37b131228d76d5b1",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "681",
+    "name": "En el Punto de Mira",
+    "epg_id": "61922be835f3910007fc58f6",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "682",
+    "name": "Feito Geo",
+    "epg_id": "dev.yt.87802.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "683",
+    "name": "Free Documentary Español",
+    "epg_id": "dev.yt.87236.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "684",
+    "name": "GeoDocs & Arka",
+    "epg_id": "dev.yt.87817.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "685",
+    "name": "Hamaika Telebista",
+    "epg_id": "HamaikaTelebista.es@SD",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "686",
+    "name": "Historia y Vida",
+    "epg_id": "67517f923a61d40008c451f0",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "687",
+    "name": "Historias Vivas",
+    "epg_id": "dev.yt.88651.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "688",
+    "name": "Horizon",
+    "epg_id": "dev.yt.87923.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "689",
+    "name": "Imineo Documentales",
+    "epg_id": "dev.yt.87696.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "690",
+    "name": "Interpol",
+    "epg_id": "dev.yt.87771.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "691",
+    "name": "Investigaciones +",
+    "epg_id": "dev.yt.87256.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "692",
+    "name": "Lethal Crysis",
+    "epg_id": "dev.yt.85437.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "693",
+    "name": "Mundo Real",
+    "epg_id": "dev.yt.87932.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "694",
+    "name": "Naga",
+    "epg_id": "dev.yt.87924.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "695",
+    "name": "Nature Time",
+    "epg_id": "60dd6b1da79e4d0007309455",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "696",
+    "name": "NatureTime Internacional",
+    "epg_id": "NatureTime.ca@SD",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "697",
+    "name": "Platzi TV",
+    "epg_id": "PlatziTV.es@SD",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "698",
+    "name": "Pluto TV Animales",
+    "epg_id": "600ae6a78d801e0007117d21",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "699",
+    "name": "Pluto TV Cocina",
+    "epg_id": "5f1acdaa8ba90f0007d5e760",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "700",
+    "name": "Pluto TV Diseño",
+    "epg_id": "64db2e0835425100080f2f5a",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "701",
+    "name": "Pluto TV Historia",
+    "epg_id": "61cd7b49543066000713b620",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "702",
+    "name": "Radio 3",
+    "epg_id": "Radio3.es@SD",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "703",
+    "name": "Real Stories Español",
+    "epg_id": "dev.yt.87254.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "704",
+    "name": "Ruhi Cenet",
+    "epg_id": "dev.yt.87260.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "705",
+    "name": "Space Live",
+    "epg_id": "69b3db5d61e8e298254c7108",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "706",
+    "name": "Tamayo",
+    "epg_id": "dev.yt.87237.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "707",
+    "name": "Waterbear",
+    "epg_id": "WaterBear.ch@SD",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "708",
+    "name": "Wild Nature Español",
+    "epg_id": "dev.yt.87803.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "709",
+    "name": "WUFO Español",
+    "epg_id": "dev.yt.87828.es",
+    "category": "[ES] CULTURA",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "718",
+    "name": "M+ LALIGA 3 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "720",
+    "name": "1“ FEDERACION 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "724",
+    "name": "Movistar Plus+ 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "725",
+    "name": "M+LCAMPEON2 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "727",
+    "name": "M+DEPORTES 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "733",
+    "name": "M+ CL.SICOS 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "737",
+    "name": "M+ SERIES 4K",
+    "epg_id": "movistarseries.es",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "738",
+    "name": "M+VAMOS 3 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "742",
+    "name": "CAZAyPESCA 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "743",
+    "name": "M+Documentales 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "744",
+    "name": "Movistar+1 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "745",
+    "name": "M+ Cine Del Mundo 4K 1",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "746",
+    "name": "M+ Cine Del Mundo 4K 2",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "747",
+    "name": "GOL PLAY",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "748",
+    "name": "M+ LALIGA TV HD",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "749",
+    "name": "M+LCAMPEONES 4K",
+    "epg_id": "NULL",
+    "category": "[ES] 4K",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "752",
+    "name": "GOL PLAY FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "755",
+    "name": "M+ VAMOS 3 FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "756",
+    "name": "M+ DEPORTES FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "772",
+    "name": "M+ ACCION 2 FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "774",
+    "name": "M+ DRAMA 2 FULL HD",
+    "epg_id": "1",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "779",
+    "name": "M+ TERROR FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "780",
+    "name": "TCM FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "782",
+    "name": "AMC BREAK FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "783",
+    "name": "AMC CRIME FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "786",
+    "name": "M+ SERIES FULL HD",
+    "epg_id": "movistarseries.es",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "787",
+    "name": "SYFY FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "789",
+    "name": "PARAMOUNT FULL HD",
+    "epg_id": "paramountchannel.es",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "791",
+    "name": "COMEDYCENTRAL FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "792",
+    "name": "COSMO FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "795",
+    "name": "FDF FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "796",
+    "name": "ONETORO FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "805",
+    "name": "Realmadrid TV FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "806",
+    "name": "CANAL COCINA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "808",
+    "name": "M+Documentales FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "811",
+    "name": "CANAL DECASA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "812",
+    "name": "CANAL ODISEA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "813",
+    "name": "CAZAyPESCA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "816",
+    "name": "IBERALIA TV FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "817",
+    "name": "MTV ESPANA FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "818",
+    "name": "BABY TV FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "821",
+    "name": "DISNEY CH FULL HD",
+    "epg_id": "disneychannel.es",
+    "category": "[ES] FULL HD",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "822",
+    "name": "NICKELODEON FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "823",
+    "name": "DreamWorks FULL HD",
+    "epg_id": "NULL",
+    "category": "[ES] FULL HD",
+    "status": "ambiguous_association",
+    "detail": "ambiguous_name",
+    "reason": "ambiguous_name"
+  },
+  {
+    "xtream_id": "825",
+    "name": "Disney Channel 2",
+    "epg_id": "cima.es.disneych",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "826",
+    "name": "Disney+ 1",
+    "epg_id": "cima.es.disneyplus1",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "828",
+    "name": "Disney Junior 2",
+    "epg_id": "disneyjunior.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "829",
+    "name": "Disney Junior España",
+    "epg_id": "dev.yt.85059.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "830",
+    "name": "Disney Junior Movies 1",
+    "epg_id": "cima.es.disneyjrmovies1",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "831",
+    "name": "Disney Junior Movies 2",
+    "epg_id": "cima.es.disneyjrmovies2",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "834",
+    "name": "Clan TVE 2",
+    "epg_id": "clantve.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "838",
+    "name": "Discovery Kids",
+    "epg_id": "cima.es.discoverykids",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "841",
+    "name": "Pluto TV Kids",
+    "epg_id": "5f1aab1d29b39600073e243f",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "842",
+    "name": "Pluto TV Kids Classics",
+    "epg_id": "609e7e423e9173000706a681",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "843",
+    "name": "Pluto TV Junior",
+    "epg_id": "5f1aa9bcd8160700076d45d1",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "844",
+    "name": "Pluto TV Anime",
+    "epg_id": "608035b8d8705f0007260287",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "845",
+    "name": "Pluto TV Teen",
+    "epg_id": "63eb944dc111bc0008fe7021",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "846",
+    "name": "WB Kids España",
+    "epg_id": "dev.yt.85936.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "847",
+    "name": "El Reino Infantil",
+    "epg_id": "6523f672a6c38300088cb807",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "848",
+    "name": "Mattel Junior",
+    "epg_id": "6888928eb52fb742416673d2",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "849",
+    "name": "Logos TV Kids",
+    "epg_id": "LogosTVKids.es@SD",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "850",
+    "name": "KinoKazka",
+    "epg_id": "KinoKazka.es@SD",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "851",
+    "name": "Minime",
+    "epg_id": "dev.yt.85548.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "852",
+    "name": "Mondo World",
+    "epg_id": "dev.yt.85558.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "853",
+    "name": "The Pet Collective",
+    "epg_id": "ThePetCollective.us@Spain",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "854",
+    "name": "Yestertoons",
+    "epg_id": "dev.yt.87273.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "855",
+    "name": "Series+ Dibujos",
+    "epg_id": "cima.series.cartoon.mixte.es",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "856",
+    "name": "Series+ Baby Looney Tunes",
+    "epg_id": "cima.series.classique.es.baby-looney-tunes",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "857",
+    "name": "Series+ Dragon Ball Z",
+    "epg_id": "cima.series.classique.es.dragon-ball-z",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "858",
+    "name": "Series+ Los Caballeros del Zodiaco",
+    "epg_id": "cima.series.classique.es.los-caballeros-del-zodiac",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "859",
+    "name": "Series+ Los Simpson",
+    "epg_id": "cima.series.classique.es.los-simpson",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "860",
+    "name": "Series+ Medabots",
+    "epg_id": "cima.series.classique.es.medabots",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "861",
+    "name": "Series+ Slam Dunk",
+    "epg_id": "cima.series.classique.es.slam-dunk",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "862",
+    "name": "Series+ Sonic X",
+    "epg_id": "cima.series.classique.es.sonic-x",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "863",
+    "name": "Series+ Thundercats",
+    "epg_id": "cima.series.classique.es.thundercats",
+    "category": "[ES] NINOS",
+    "status": "ambiguous_association",
+    "detail": "panel_core_multiple_guides",
+    "reason": "panel_core_multiple_guides"
+  },
+  {
+    "xtream_id": "864",
+    "name": "Barbie & Friends",
+    "epg_id": "688892172928933015abe479",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "865",
+    "name": "Bluey",
+    "epg_id": "dev.yt.87274.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "866",
+    "name": "Bob Esponja",
+    "epg_id": "5f1aca0b4e448e00075e7c5e",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "867",
+    "name": "Bugs Bunny",
+    "epg_id": "dev.yt.87263.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "868",
+    "name": "Caillou",
+    "epg_id": "dev.yt.84763.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "869",
+    "name": "CantaJuego",
+    "epg_id": "dev.yt.84537.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "870",
+    "name": "Correcaminos y Coyote",
+    "epg_id": "dev.yt.87265.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "871",
+    "name": "Detective Conan",
+    "epg_id": "629a066860ef810008267b70",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "872",
+    "name": "Doraemon",
+    "epg_id": "dev.yt.87271.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "873",
+    "name": "Dragon Ball",
+    "epg_id": "685a996c7c4f2ad40cb4f276",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "874",
+    "name": "Dragon Ball Z",
+    "epg_id": "68e8fd7c3ede4398bc69af93",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "875",
+    "name": "Érase una Vez...",
+    "epg_id": "63c69c87808b740007599fe1",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "876",
+    "name": "Garfield",
+    "epg_id": "dev.yt.87268.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "877",
+    "name": "H2O & Friends",
+    "epg_id": "69fc906b90dc413f536059a1",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "878",
+    "name": "Heidi",
+    "epg_id": "68779a09c691b3f0964127c6",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "879",
+    "name": "iCarly",
+    "epg_id": "6181404ef48321000797bc41",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "880",
+    "name": "Inazuma Eleven",
+    "epg_id": "632c6df43d2bc5000751f621",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "881",
+    "name": "Jelly Jamm",
+    "epg_id": "dev.yt.84803.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "882",
+    "name": "La Pantera Rosa",
+    "epg_id": "dev.yt.86402.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "883",
+    "name": "Las Tortugas Ninja",
+    "epg_id": "61373f1a12dd9f00077dcd6f",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "884",
+    "name": "Los Caballeros del Zodiaco",
+    "epg_id": "680ba8c3a48b3ead0db701cc",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "885",
+    "name": "Los Pitufos",
+    "epg_id": "68d27949793c71d988ca624c",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "886",
+    "name": "Los Pitufos Clásico",
+    "epg_id": "dev.yt.87267.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "887",
+    "name": "Lucky Luke",
+    "epg_id": "dev.yt.86180.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "888",
+    "name": "Lupin",
+    "epg_id": "683457e5f59cc6a13212fce4",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "889",
+    "name": "Marco",
+    "epg_id": "dev.yt.85313.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "890",
+    "name": "Masha y el Oso",
+    "epg_id": "dev.yt.84507.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "891",
+    "name": "Masha y el Oso 2",
+    "epg_id": "dev.yt.84507.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "892",
+    "name": "Miliki Family",
+    "epg_id": "dev.yt.85033.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "893",
+    "name": "Monster High",
+    "epg_id": "68e8fe3bcba140ddfe903677",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "894",
+    "name": "Mr. Bean",
+    "epg_id": "6a31544f2c1c785c1138dbb1",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "895",
+    "name": "Mr. Bean Animado",
+    "epg_id": "MrBeanAnimated.uk@ES",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "896",
+    "name": "One Piece",
+    "epg_id": "680ba8992472a7200a183eb5",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "897",
+    "name": "Peppa Pig",
+    "epg_id": "dev.yt.84516.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "898",
+    "name": "Pica Pica",
+    "epg_id": "dev.yt.84538.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "899",
+    "name": "Piolín y Silvestre",
+    "epg_id": "dev.yt.87264.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "900",
+    "name": "Pippi Calzaslargas",
+    "epg_id": "6a0c25fe09705ebdf7e4599a",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "901",
+    "name": "Pirueta Show",
+    "epg_id": "dev.yt.84547.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "902",
+    "name": "PJ Masks",
+    "epg_id": "dev.yt.86463.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "903",
+    "name": "Pocoyó",
+    "epg_id": "dev.yt.87270.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "904",
+    "name": "Pocoyó Canciones",
+    "epg_id": "dev.yt.87277.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "905",
+    "name": "Rugrats",
+    "epg_id": "610c09219fc0430007a3fce6",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "906",
+    "name": "Sam el Bombero",
+    "epg_id": "dev.yt.84521.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "907",
+    "name": "Sam el Bombero 2",
+    "epg_id": "dev.yt.84521.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "908",
+    "name": "Scooby-Doo",
+    "epg_id": "dev.yt.86173.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "909",
+    "name": "Simon",
+    "epg_id": "dev.yt.84520.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "910",
+    "name": "Super Wings",
+    "epg_id": "dev.yt.87269.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "911",
+    "name": "Tom y Jerry",
+    "epg_id": "dev.yt.85979.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "912",
+    "name": "Winx Club",
+    "epg_id": "62568a94ed1f380007b0211f",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "913",
+    "name": "Yu-Gi-Oh!",
+    "epg_id": "63eb96754e83e70008ab8941",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "914",
+    "name": "El Hormiguero",
+    "epg_id": "dev.yt.84739.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "915",
+    "name": "MasterChef España",
+    "epg_id": "dev.yt.84962.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "916",
+    "name": "Tu Cara Me Suena",
+    "epg_id": "dev.yt.85073.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "917",
+    "name": "Carwow España",
+    "epg_id": "dev.yt.84776.es",
+    "category": "[ES] NINOS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "918",
+    "name": "Canal 24 Horas",
+    "epg_id": "24horas.es",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "919",
+    "name": "Canal 24 Horas 2",
+    "epg_id": "24horas.es",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "920",
+    "name": "Canal 24 Horas Internacional",
+    "epg_id": "24Horas.es@SD",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "921",
+    "name": "RNE Para Todos",
+    "epg_id": "RNEparatodos.es@SD",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "922",
+    "name": "Canal Sur Noticias",
+    "epg_id": "CanalSurNoticias.es@SD",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "925",
+    "name": "Distrito TV",
+    "epg_id": "DistritoTV.es@SD",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "926",
+    "name": "Actualidad 360",
+    "epg_id": "67517fae5534bb0008187997",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "927",
+    "name": "France 24 Español",
+    "epg_id": "France24.fr@Spanish",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "928",
+    "name": "CNN Internacional",
+    "epg_id": "66c45c0de7f5e80008b82005",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "929",
+    "name": "CBS News",
+    "epg_id": "6231ede1be5b460007f91bc1",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "930",
+    "name": "TV BRICS Español",
+    "epg_id": "TVBRICSSpanish.es@HD",
+    "category": "[ES] NOTICIAS",
+    "status": "channel_not_in_sources",
+    "detail": "epg_id_not_in_guide",
+    "reason": "epg_id_not_in_guide"
+  },
+  {
+    "xtream_id": "931",
+    "name": "MTV ESPANA",
+    "epg_id": "mtv.es",
+    "category": "[ES] MUSICA",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "934",
+    "name": "101 PLAY",
+    "epg_id": "NULL",
+    "category": "[ES] MUSICA",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "935",
+    "name": "HBO Max 1",
+    "epg_id": "13tv.es",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "unresolved_matching_with_programming",
+    "detail": "panel_core_suggests_programmed_guide",
+    "reason": "panel_core_suggests_programmed_guide"
+  },
+  {
+    "xtream_id": "936",
+    "name": "HBO Max 2",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "937",
+    "name": "HBO Max 3",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "938",
+    "name": "HBO Max 4",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "939",
+    "name": "HBO Max 5",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "940",
+    "name": "MOVISTAR CINE 1 HD",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "941",
+    "name": "MOVISTAR CINE 2 HD",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  },
+  {
+    "xtream_id": "942",
+    "name": "MOVISTAR CINE 3 HD",
+    "epg_id": "NULL",
+    "category": "[ES] ALQUILAR MOVISTAR+",
+    "status": "channel_not_in_sources",
+    "detail": "no_guide_channel_or_alias",
+    "reason": "no_guide_channel_or_alias"
+  }
+]

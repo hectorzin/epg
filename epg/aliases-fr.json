@@ -1,0 +1,423 @@
+{
+  "TF1.fr@SD": [
+    "TF1 ʜᴅ",
+    "TF1 Full HD"
+  ],
+  "M6.fr@HD": [
+    "M6 ʜᴅ",
+    "M6 Hevc",
+    "M6 Full HD",
+    "M6 4K"
+  ],
+  "France2.fr@SD": [
+    "France 2 ʜᴅ",
+    "France 2 Hevc",
+    "France 2 Full HD",
+    "France 2 4K"
+  ],
+  "France3.fr@SD": [
+    "France 3 ʜᴅ",
+    "France 3 Full HD"
+  ],
+  "France4.fr@SD": [
+    "France 4 ʜᴅ",
+    "France 4 Full HD",
+    "France 4 4K"
+  ],
+  "France5.fr@SD": [
+    "France 5 ʜᴅ",
+    "France 5 Full HD",
+    "France 5 4K"
+  ],
+  "TF1SeriesFilms.fr@SD": [
+    "TF1 Series Film ʜᴅ",
+    "TF1 Series Films Full HD",
+    "TF1 SERIES FILMS 4K"
+  ],
+  "TFX.fr@SD": [
+    "TFX HD",
+    "TFX Full HD",
+    "TFX 4K"
+  ],
+  "6ter.fr@SD": [
+    "6Ter HD",
+    "6Ter Full HD",
+    "6Ter",
+    "PLANETE +AVENTURE"
+  ],
+  "W9.fr@SD": [
+    "W9 HD",
+    "W9 Full HD",
+    "W9 4K"
+  ],
+  "TMC.fr@SD": [
+    "Tmc HD",
+    "Tmc Full HD",
+    "TMC 4K"
+  ],
+  "CStar.fr@SD": [
+    "CSTAR HD",
+    "CSTAR Full HD"
+  ],
+  "RMCStory.fr@SD": [
+    "RMC STORY HD",
+    "RMC STORY Full HD",
+    "RMC Story 4K"
+  ],
+  "RMCDecouverte.fr@SD": [
+    "RMC DECOUVERTE",
+    "RMC DECOUVERTE Full HD",
+    "RMC Decouverte 4K"
+  ],
+  "arte.fr@SD": [
+    "Arte ʜᴅ",
+    "Arte Full HD",
+    "ARTE 4K"
+  ],
+  "Gulli.fr@SD": [
+    "GULLI",
+    "GULLI Full HD",
+    "Gulli 4K"
+  ],
+  "CanalPlus.fr@SD": [
+    "Canal+ HD",
+    "Canal+ 4K"
+  ],
+  "CanalPlusSeries.fr@SD": [
+    "Canal+ Series HD"
+  ],
+  "CanalPlusSport.fr@SD": [
+    "Canal+ Sport HD"
+  ],
+  "CanalPlusDocs.fr@SD": [
+    "Canal+ Docs HD"
+  ],
+  "CanalPlusGrandEcran.fr@SD": [
+    "Canal+ Grand Ecran HD",
+    "Grand Ecran 1"
+  ],
+  "CanalPlusFoot.fr@SD": [
+    "Canal+ Foot HD"
+  ],
+  "CanalPlusSport360.fr@SD": [
+    "Canal+ Sport 360 HD"
+  ],
+  "InfosportPlus.fr@SD": [
+    "INFOSPORT+ HD",
+    "INFOSPORT+ Full HD",
+    "Infosport + 4K"
+  ],
+  "Eurosport1.fr@France": [
+    "EUROSPORT 1"
+  ],
+  "Eurosport2.fr@France": [
+    "EUROSPORT 2"
+  ],
+  "beINSports1.qa@France": [
+    "beIN Sports 1 SD",
+    "beIN Sports 1 4K",
+    "beIN Sports 1 ʜᴅ"
+  ],
+  "beINSports2.qa@France": [
+    "beIN Sports 2 SD",
+    "beIN Sports 2 4K",
+    "beIN Sports 2 ʜᴅ"
+  ],
+  "beINSports3.qa@France": [
+    "beIN Sports 3 SD",
+    "beIN Sports 3 ʜᴅ"
+  ],
+  "RMCSport2.fr@SD": [
+    "RMC Sport 2"
+  ],
+  "Equidia.fr@SD": [
+    "EQUIDIA"
+  ],
+  "GolfPlus.fr@SD": [
+    "GOLF"
+  ],
+  "CinePlusOCS.fr@SD": [
+    "Ciné+ Premier",
+    "Ciné+ Premier 2",
+    "OCS"
+  ],
+  "CinePlusFrisson.fr@SD": [
+    "Ciné+ Frisson",
+    "Ciné+ Frisson 2"
+  ],
+  "CinePlusEmotion.fr@SD": [
+    "Ciné+ Émotion"
+  ],
+  "CinePlusClub.fr@SD": [
+    "Ciné+ Club",
+    "Ciné+ Club 2"
+  ],
+  "CinePlusClassic.fr@SD": [
+    "Ciné+ Classic",
+    "Ciné+ Classic 2"
+  ],
+  "Action.fr@SD": [
+    "Action",
+    "Action 2",
+    "Action Full HD"
+  ],
+  "ParamountChannel.fr@SD": [
+    "Paramount Channel HD",
+    "Paramount Channel"
+  ],
+  "SerieClub.fr@SD": [
+    "Serie Club HD"
+  ],
+  "TVBreizh.fr@SD": [
+    "TV Breizh HD",
+    "TV Breizh",
+    "TV Breizh 4K"
+  ],
+  "Syfy.fr@SD": [
+    "Syfy HD",
+    "SYFY"
+  ],
+  "AB1.fr@SD": [
+    "AB1 ʜᴅ"
+  ],
+  "13emeRue.fr@SD": [
+    "13ème Rue",
+    "PLANETE+CRIME",
+    "13eme Rue ʜᴅ"
+  ],
+  "ComediePlus.fr@SD": [
+    "Comedie+ HD",
+    "Comedie+ Full HD",
+    "Comedie+ 4K"
+  ],
+  "PolarPlus.fr@SD": [
+    "Polar HD"
+  ],
+  "Teva.fr@SD": [
+    "Teva HD"
+  ],
+  "RTL9.lu@SD": [
+    "RTL9"
+  ],
+  "AB3.be@SD": [
+    "AB3 HD",
+    "AB3 4K"
+  ],
+  "LaUne.be@SD": [
+    "La Une HD"
+  ],
+  "Tipik.be@SD": [
+    "Tipik"
+  ],
+  "LaTrois.be@SD": [
+    "La Trois"
+  ],
+  "RTLTVI.be@SD": [
+    "RTL-TVi HD"
+  ],
+  "CNews.fr@SD": [
+    "CNEWS",
+    "CNEWS Full HD",
+    "CNEWS 4K"
+  ],
+  "BFMTV.fr@SD": [
+    "BFM TV",
+    "BFM TV Full HD",
+    "BFM TV 4K"
+  ],
+  "LCI.fr@SD": [
+    "LCI",
+    "LCI Full HD",
+    "LCI 4K"
+  ],
+  "Franceinfo.fr@SD": [
+    "FRANCEINFO:",
+    "FRANCEINFO: Full HD",
+    "Franceinfo 4K"
+  ],
+  "BFMBusiness.fr@SD": [
+    "BFM BUSINESS HD"
+  ],
+  "ParisPremiere.fr@SD": [
+    "Paris Premiere HD"
+  ],
+  "TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD": [
+    "TV5 MONDE"
+  ],
+  "LaChaineMeteo.fr@SD": [
+    "LA CHAINE METEO"
+  ],
+  "PlanetePlus.fr@SD": [
+    "PLANETE+ Full HD",
+    "Planete+ 4K",
+    "PLANETE+"
+  ],
+  "PlanetePlusAventure.fr@SD": [
+    "PLANETE +AVENTURE Full HD",
+    "Planete+Aventure 4K"
+  ],
+  "PlanetePlusCrime.fr@SD": [
+    "PLANETE+CRIME Full HD"
+  ],
+  "Animaux.fr@SD": [
+    "ANIMAUX Full HD",
+    "ANIMAUX"
+  ],
+  "Seasons.fr@SD": [
+    "SEASONS Full HD",
+    "Seasons 4K",
+    "SEASONS"
+  ],
+  "MTV.fr@SD": [
+    "MTV Full HD",
+    "MTV 4K",
+    "MTV"
+  ],
+  "RFMTV.fr@SD": [
+    "RFM TV Full HD",
+    "RFM TV"
+  ],
+  "Nickelodeon.fr@SD": [
+    "NICKELODEON Full HD",
+    "Nickelodeon 4K",
+    "NICKELODEON"
+  ],
+  "TeletoonPlus.fr@SD": [
+    "TELETOON Full HD",
+    "Teletoon + 4K",
+    "TELETOON"
+  ],
+  "CanalJ.fr@SD": [
+    "CANAL J Full HD",
+    "Canal J 4K",
+    "CANAL J"
+  ],
+  "PiwiPlus.fr@SD": [
+    "PIWI Full HD",
+    "Piwi+ 4K",
+    "PIWI"
+  ],
+  "TF1.fr@4K": [
+    "TF1 4K"
+  ],
+  "NationalGeographicWild.fr@SD": [
+    "National Geographic Wild 4K"
+  ],
+  "TeletoonPlus.fr@1": [
+    "Teletoon +1 4K"
+  ],
+  "BET.fr@SD": [
+    "BET 4K"
+  ],
+  "DiscoveryChannel.fr@SD": [
+    "Discovery Channel"
+  ],
+  "DiscoveryScienceEurope.uk@France": [
+    "Discovery Science"
+  ],
+  "UshuaiaTV.fr@SD": [
+    "USHUAIA TV"
+  ],
+  "ToutelHistoire.fr@SD": [
+    "Toute L Histoire"
+  ],
+  "ChassePeche.fr@SD": [
+    "CHASSE ET PECHE"
+  ],
+  "ScienceVieTV.fr@SD": [
+    "Science et Vie TV"
+  ],
+  "Trek.fr@SD": [
+    "TREK"
+  ],
+  "CrimeDistrict.fr@SD": [
+    "Crime District"
+  ],
+  "TraceAfrica.fr@SD": [
+    "TRACE URBAN"
+  ],
+  "Melody.fr@SD": [
+    "MELODY"
+  ],
+  "DisneyChannel.fr@Plus1": [
+    "DISNEY CHANNEL+ 1"
+  ],
+  "DisneyJr.fr@SD": [
+    "DISNEY JUNIOR"
+  ],
+  "NickelodeonJunior.fr@SD": [
+    "NICKELODEON JUNIOR"
+  ],
+  "NickelodeonTeen.fr@SD": [
+    "NICKELODEON TEEN"
+  ],
+  "JOne.fr@SD": [
+    "J-ONE"
+  ],
+  "Mangas.fr@SD": [
+    "MANGAS"
+  ],
+  "GameOne.fr@SD": [
+    "GAME ONE HD"
+  ],
+  "Toonami.fr@SD": [
+    "TOONAMI"
+  ],
+  "beINSportsMax4.qa@France": [
+    "beIN Sports Max 4 ʜᴅ"
+  ],
+  "beINSportsMax5.qa@France": [
+    "beIN Sports Max 5 ʜᴅ"
+  ],
+  "beINSportsMax6.qa@France": [
+    "beIN Sports Max 6 ʜᴅ"
+  ],
+  "beINSportsMax7.qa@France": [
+    "beIN Sports Max 7 ʜᴅ"
+  ],
+  "beINSportsMax8.qa@France": [
+    "beIN Sports Max 8 ʜᴅ"
+  ],
+  "beINSportsMax9.qa@France": [
+    "beIN Sports Max 9 ʜᴅ"
+  ],
+  "beINSportsMax10.qa@France": [
+    "beIN Sports Max 10 ʜᴅ"
+  ],
+  "Automotolachaine.fr@SD": [
+    "AUTOMOTO la chaine"
+  ],
+  "NovelasTV.fr@SD": [
+    "Novelas TV HD",
+    "Novelas TV"
+  ],
+  "LCP.fr@SD": [
+    "LCP",
+    "LCP Full HD",
+    "LCP 4K"
+  ],
+  "EuronewsFrench.fr@SD": [
+    "EURONEWS FRENCH SD"
+  ],
+  "E.fr@SD": [
+    "E ! HD"
+  ],
+  "RMCSport3.fr@SD": [
+    "RMC Sport 3"
+  ],
+  "RMCSport4.fr@SD": [
+    "RMC Sport 4"
+  ],
+  "CanalPlusKids.fr@SD": [
+    "Canal+ kids HD"
+  ],
+  "RMCSport1.fr@SD": [
+    "RMC Sport 1"
+  ],
+  "Boomerang.fr@SD": [
+    "BOOMERANG"
+  ],
+  "CartoonNetworkWesternEurope.uk@SD": [
+    "CARTOON NETWORK"
+  ]
+}

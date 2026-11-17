@@ -3,25 +3,35 @@
     "24 HORAS FULL HD"
   ],
   "a3": [
-    "ANTENA 3 FULL HD"
+    "ANTENA 3 FULL HD",
+    "Antena 3",
+    "ANTENA 3 4K"
   ],
   "aragtv": [
     "ARAGON TV FULL HD"
   ],
   "axn": [
-    "AXN FULL HD"
+    "AXN FULL HD",
+    "AXN",
+    "AXN 2"
   ],
   "baby": [
-    "BABY TV FULL HD"
+    "BABY TV FULL HD",
+    "Baby TV"
   ],
   "bemad": [
-    "BE MAD FULL HD"
+    "BE MAD FULL HD",
+    "Be Mad",
+    "BE MAD HD"
   ],
   "boing": [
-    "BOING FULL HD"
+    "BOING FULL HD",
+    "Boing"
   ],
   "c4": [
-    "CUATRO FULL HD"
+    "CUATRO FULL HD",
+    "Cuatro",
+    "CUATRO 4K"
   ],
   "chap1": [
     "M+ LCAMPEONES 2 HD",
@@ -33,76 +43,113 @@
   ],
   "chap3": [
     "M+ LCAMPEONES 4 HD",
-    "M+ LCAMPEONES 4 FULL HD"
+    "M+ LCAMPEONES 4 FULL HD",
+    "M+ LCAMPEONES 4"
   ],
   "chap4": [
     "M+ LCAMPEONES 5 HD",
-    "M+ LCAMPEONES 5 FULL HD"
+    "M+ LCAMPEONES 5 FULL HD",
+    "M+ LCAMPEONES 5"
   ],
   "chapio": [
     "M+ LCAMPEONES HD",
-    "M+ LCAMPEONES FULL HD"
+    "M+ LCAMPEONES FULL HD",
+    "M+ LCAMPEONES 4K"
   ],
   "cl13": [
-    "CALLE 13 FULL HD"
+    "CALLE 13 FULL HD",
+    "Calle 13",
+    "Calle 13 2"
   ],
   "clantv": [
-    "CLAN TVE FULL HD"
+    "CLAN TVE FULL HD",
+    "Clan TVE",
+    "Clan TVE 2"
   ],
   "cosmo": [
-    "COSMO FULL HD"
+    "COSMO FULL HD",
+    "COSMO"
   ],
   "cpacci": [
-    "M+ ACCION FULL HD"
+    "M+ ACCION FULL HD",
+    "M+ Acción",
+    "M+ ACCION 4K",
+    "M+ Acción 3",
+    "M+ Acción 2"
   ],
   "cpcole": [
-    "M+ DRAMA FULL HD"
+    "M+ DRAMA FULL HD",
+    "M+ Drama",
+    "M+ DRAMA 4K",
+    "M+ Drama 3",
+    "M+ Drama 2"
   ],
   "cpcome": [
-    "M+ COMEDIA FULL HD"
+    "M+ COMEDIA FULL HD",
+    "M+ Comedia",
+    "M+ COMEDIA 4K",
+    "M+ Comedia 2"
   ],
   "cpdep": [
-    "M+ DEPORTES FULL HD"
+    "M+ DEPORTES FULL HD",
+    "M+ DEPORTESHD"
   ],
   "dazn3": [
-    "DAZN 3 FULL HD"
+    "DAZN 3 FULL HD",
+    "DAZN 3 HD"
   ],
   "dazn4": [
-    "DAZN 4 FULL HD"
+    "DAZN 4 FULL HD",
+    "DAZN 4 HD"
   ],
   "daznl2": [
-    "DAZN LALIGA 2 FULL HD"
+    "DAZN LALIGA 2 FULL HD",
+    "DAZN LALIGA 2 HD",
+    "DAZN LALIGA 2 4K"
   ],
   "daznli": [
-    "DAZN LALIGA FULL HD"
+    "DAZN LALIGA FULL HD",
+    "DAZN LALIGA 4K"
   ],
   "dcesp": [
-    "M+ Cine Español FULL HD"
+    "M+ Cine Español FULL HD",
+    "M+ Cine Español",
+    "M+ Cine Español 2",
+    "M+ Cine Español 3"
   ],
   "dcr": [
     "DISCOVERY FULL HD"
   ],
   "divini": [
-    "DIVINITY FULL HD"
+    "DIVINITY FULL HD",
+    "DIVINITY"
   ],
   "dwsp": [
-    "DreamWorks FULL HD"
+    "DreamWorks FULL HD",
+    "DreamWorks"
   ],
   "energy": [
-    "ENERGY FULL HD"
+    "ENERGY FULL HD",
+    "Energy",
+    "ENERGY"
   ],
   "esp": [
-    "EUROSPORT 1 FULL HD"
+    "EUROSPORT 1 FULL HD",
+    "EUROSPORT 1 HD",
+    "EUROSPORT 1 4K"
   ],
   "esp2": [
     "EUROSPORT 2 FULL HD",
-    "EUROSPORT2HD"
+    "EUROSPORT2HD",
+    "EUROSPORT 2"
   ],
   "esp3": [
     "ESPORT3 CAT HD"
   ],
   "arthur": [
-    "M+ DEPORTES2HD (SOLO EVENTOS)"
+    "M+ DEPORTES2HD (SOLO EVENTOS)",
+    "M+DEPORTES 2 4K",
+    "M+ DEPORTES2 FULL HD"
   ],
   "usop2": [
     "M+ DEPORTES3 (SOLO EVENTOS)"
@@ -114,19 +161,25 @@
     "M+ DEPORTES5 (SOLO EVENTOS)"
   ],
   "gol": [
-    "GOL PLAY FULL HD"
+    "GOL PLAY FULL HD",
+    "GOL PLAY"
   ],
   "golf2": [
-    "M+ GOLF 2 FULL HD"
+    "M+ GOLF 2 FULL HD",
+    "M+ GOLF 2 HD"
   ],
   "golf+": [
-    "M+ GOLF FULL HD"
+    "M+ GOLF FULL HD",
+    "M+ GOLF HD",
+    "M+ GOLF 4K"
   ],
   "iberal": [
-    "IBERALIA TV FULL HD"
+    "IBERALIA TV FULL HD",
+    "Iberalia TV"
   ],
   "telmad": [
-    "TELE MADRID"
+    "TELE MADRID",
+    "Telemadrid"
   ],
   "realm": [
     "Realmadrid TV HD"
@@ -135,105 +188,373 @@
     "CASTILLA LA MANCHA"
   ],
   "la2": [
-    "LA 2 FULL HD"
+    "LA 2 FULL HD",
+    "La 2",
+    "LA 2 4K"
   ],
   "m2sd": [
-    "DAZN 2 FULL HD"
+    "DAZN 2 FULL HD",
+    "DAZN 2 HD"
   ],
   "mliga": [
     "M+ LaLigaTVHD",
     "M+ LaLigaTVHD+",
     "M+ LaLigaTV",
     "M+ LaLigaTVSD",
-    "M+ LaLigaTV FULL HD"
+    "M+ LaLigaTV FULL HD",
+    "M+ LaLigaTV HD+"
   ],
   "mliguh": [
     "M+ LaLigaTV 4K"
   ],
   "mlig1": [
     "M+ LaLigaTV 2 HD",
-    "M+ LaLigaTV 2 FULL HD"
+    "M+ LaLigaTV 2 FULL HD",
+    "M+ LALIGA 2 4K"
   ],
   "mlig2": [
     "M+ LaLigaTV 3 HD"
   ],
   "mclas": [
-    "M+ CLASICOS FULL HD"
+    "M+ CLASICOS FULL HD",
+    "M+ Clásicos",
+    "M+ Clásicos 3",
+    "M+ Clásicos 2"
   ],
   "mindi": [
-    "M+ Indie FULL HD"
+    "M+ Indie FULL HD",
+    "M+ Indie",
+    "M+ Indie 4K",
+    "M+ Indie 2"
   ],
   "mligs": [
-    "LALIGA TV HYPERMOTION FULL HD"
+    "LALIGA TV HYPERMOTION FULL HD",
+    "LALIGA TV HYPERMOTION HD",
+    "LALIGA TV HYPERMOTION 4K"
   ],
   "mligs2": [
-    "LALIGA TV HYPERMOTION 2 FULL HD"
+    "LALIGA TV HYPERMOTION 2 FULL HD",
+    "LALIGA TV HYPERMOTION 2 HD",
+    "LALIGA TV HYPERMOTION 2 4K"
   ],
   "mligs3": [
-    "LALIGA TV HYPERMOTION 3 FULL HD"
+    "LALIGA TV HYPERMOTION 3 FULL HD",
+    "LALIGA TV HYPERMOTION 3 HD",
+    "LALIGA TV HYPERMOTION 3 4K"
   ],
   "morig": [
-    "M+ Originales FULL HD"
+    "M+ Originales FULL HD",
+    "M+ Originales",
+    "M+ Originales 4K",
+    "M+ Originales 2"
   ],
   "mplus": [
-    "Movistar Plus+ FULL HD"
+    "Movistar Plus+ FULL HD",
+    "Movistar Plus+ HD",
+    "Movistar Plus+ 4K"
   ],
   "multi8": [
     "M+ DEPORTES6 (SOLO EVENTOS)"
   ],
   "mv1": [
-    "M+ Estrenos FULL HD"
+    "M+ Estrenos FULL HD",
+    "M+ Estrenos",
+    "M+ Estrenos 4K",
+    "M+ Estrenos 2"
   ],
   "mvf1": [
-    "DAZN F1 FULL HD"
+    "DAZN F1 FULL HD",
+    "DAZN F1 HD",
+    "DAZN F1 4K"
   ],
   "natgw": [
     "NAT GEO WILD FULL HD"
   ],
   "neox": [
-    "NEOX FULL HD"
+    "NEOX FULL HD",
+    "Neox"
   ],
   "nick": [
-    "NICKELODEON FULL HD"
+    "NICKELODEON FULL HD",
+    "Nickelodeon"
   ],
   "nova": [
-    "NOVA FULL HD"
+    "NOVA FULL HD",
+    "Nova"
   ],
   "sci-fi": [
-    "SYFY FULL HD"
+    "SYFY FULL HD",
+    "SYFY"
   ],
   "sexta": [
-    "LA SEXTA FULL HD"
+    "LA SEXTA FULL HD",
+    "laSexta",
+    "LA SEXTA 4K"
   ],
   "t5": [
-    "TELECINCO FULL HD"
+    "TELECINCO FULL HD",
+    "Telecinco",
+    "TELECINCO 4K"
   ],
   "tcm": [
-    "TCM FULL HD"
+    "TCM FULL HD",
+    "TCM"
   ],
   "tdep": [
-    "TELEDEPORTE FULL HD"
+    "TELEDEPORTE FULL HD",
+    "TELEDEPORTE HD"
   ],
   "tve": [
-    "LA 1 FULL HD"
+    "LA 1 FULL HD",
+    "La 1",
+    "LA 1 4K"
   ],
   "vamosd": [
-    "M+ VAMOS FULL HD"
+    "M+ VAMOS FULL HD",
+    "M+ #VAMOS 4K",
+    "#VAMOS HD"
   ],
   "CanalCocina.es": [
-    "CANAL COCINA FULL HD"
+    "CANAL COCINA FULL HD",
+    "CANAL COCINA"
   ],
   "492": [
-    "AMC BREAK FULL HD"
+    "AMC BREAK FULL HD",
+    "AMC Break"
   ],
   "691": [
-    "AMC CRIME FULL HD"
+    "AMC CRIME FULL HD",
+    "AMC Crime"
   ],
   "Historia.es": [
-    "HISTORIA FULL HD"
+    "HISTORIA FULL HD",
+    "Canal Historia",
+    "Canal Historia 2"
   ],
   "playdc": [
     "Disney Junior",
-    "Disney Channel"
+    "Disney Channel",
+    "Disney Junior 2",
+    "Disney Channel 2"
+  ],
+  "mega": [
+    "Mega"
+  ],
+  "atress": [
+    "Atreseries"
+  ],
+  "dcrmax": [
+    "DMAX"
+  ],
+  "dkiss": [
+    "DKISS"
+  ],
+  "ten": [
+    "Ten"
+  ],
+  "13tv": [
+    "Trece",
+    "HBO Max 1"
+  ],
+  "parch": [
+    "Paramount Network"
+  ],
+  "BomCine.es": [
+    "BOM Cine"
+  ],
+  "Somos.es": [
+    "Somos"
+  ],
+  "XTRM.es": [
+    "XTRM"
+  ],
+  "tv3cat": [
+    "TV3"
+  ],
+  "tvc": [
+    "TV3 Cat"
+  ],
+  "apunt": [
+    "À Punt",
+    "À Punt 2"
+  ],
+  "CanalSur.es": [
+    "Canal Sur",
+    "Canal Sur 2",
+    "Canal Sur Internacional",
+    "Andalucía TV"
+  ],
+  "CanalSurAndalucia.es": [
+    "Canal Sur Andalucía"
+  ],
+  "etb1": [
+    "ETB 1"
+  ],
+  "etb2": [
+    "ETB 2"
+  ],
+  "ElPais.36": [
+    "TVG"
+  ],
+  "tvg2": [
+    "TVG 2",
+    "TVG 2 Internacional",
+    "TVG"
+  ],
+  "extre": [
+    "Canal Extremadura"
+  ],
+  "ElPais.316": [
+    "Tele Elx"
+  ],
+  "MovistarPlus.dazmot": [
+    "DAZN MOTO GP FULL HD",
+    "DAZN MOTO GP HD",
+    "DAZN MOTO GP SD"
+  ],
+  "m1sd": [
+    "DAZN 1 HD",
+    "#DAZN 1 FULL HD"
+  ],
+  "MovistarPlus.mcopa": [
+    "PRIMERA FEDERACION HD"
+  ],
+  "MovistarPlus.mbalct": [
+    "M+Baloncesto"
+  ],
+  "MovistarPlus.mbalc2": [
+    "M+Baloncesto2"
+  ],
+  "MovistarPlus.dazba": [
+    "DAZNBaloncesto"
+  ],
+  "MovistarPlus.dazb2": [
+    "DAZNBaloncesto2"
+  ],
+  "MovistarPlus.dazb3": [
+    "DAZNBaloncesto3"
+  ],
+  "MovistarPlus.bbgea": [
+    "BBC TOP GEAR"
+  ],
+  "MovistarPlus.vam2sd": [
+    "M+ VAMOS 2 HD",
+    "M+ VAMOS 2 4K",
+    "M+ VAMOS 2 FULL HD"
+  ],
+  "Dark.es": [
+    "Dark"
+  ],
+  "bbdra": [
+    "BBC Drama"
+  ],
+  "MovistarPlus.freeli": [
+    "M+ Cero"
+  ],
+  "skysho": [
+    "SkyShowtime 1",
+    "M+ Cinesur",
+    "M+ Acción 2",
+    "M+ Ficción Premium",
+    "M+ Ficción 2",
+    "M+ Ficción 1",
+    "Prime Video 1",
+    "Prime Video 2",
+    "Procaja 1",
+    "M+ Netflix 1",
+    "Procaja 3",
+    "Procaja 2",
+    "Apple TV+ 1",
+    "M+ Netflix 2",
+    "SkyShowtime 2",
+    "Marvel Studios 1",
+    "Apple TV+ 2",
+    "Rakuten TV Top 1",
+    "Rakuten TV Top 2",
+    "STAR Channel",
+    "STAR Channel 2",
+    "FOX FULL HD"
+  ],
+  "mdoc": [
+    "M+ Documentales"
+  ],
+  "MovistarPlus.terror": [
+    "M+ Navidad"
+  ],
+  "foxge": [
+    "STAR Channel",
+    "STAR Channel 2"
+  ],
+  "tnt": [
+    "Warner TV",
+    "WARNERTV FULL HD",
+    "Warner TV 2"
+  ],
+  "set": [
+    "AXN Movies",
+    "AXN Movies 2"
+  ],
+  "AMC.es": [
+    "AMC",
+    "AMC 4K",
+    "AMC 2"
+  ],
+  "Orange.11281": [
+    "AMC Western"
+  ],
+  "inteco": [
+    "El Toro TV HD"
+  ],
+  "pcm": [
+    "COMEDYCENTRAL"
+  ],
+  "MovistarPlus.bbfoo": [
+    "BBC FOOD"
+  ],
+  "natgeo": [
+    "National Geographic",
+    "National Geographic 2",
+    "NAT GEO FULL HD"
+  ],
+  "MovistarPlus.bbhis": [
+    "BBC History"
+  ],
+  "cazpes": [
+    "Caza y Pesca"
+  ],
+  "656": [
+    "Cazavisión"
+  ],
+  "mplus2": [
+    "Movistar Plus+2 HD"
+  ],
+  "nickjr": [
+    "Nick Jr."
+  ],
+  "CanalPanda.es": [
+    "Enfamilia"
+  ],
+  "ElPais.449": [
+    "3CatInfo"
+  ],
+  "negotv": [
+    "Negocios TV"
+  ],
+  "mezzli": [
+    "MEZZO LIVE HD"
+  ],
+  "classd": [
+    "Classica"
+  ],
+  "CanalHollywood.es": [
+    "Canal Hollywood",
+    "Canal Hollywood 2"
+  ],
+  "SundanceTV.es": [
+    "SUNDANCE TV",
+    "SUNDANCE TV FULL HD"
+  ],
+  "mtv": [
+    "MTV ESPANA"
   ]
 }

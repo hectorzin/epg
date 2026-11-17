@@ -1,0 +1,3458 @@
+[
+  {
+    "xtream_id": "1432",
+    "name": "Al Jazeera Mubasher HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Al Jazeera Mubasher feeds not in arabic guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1433",
+    "name": "Al Jazeera Mubasher 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Al Jazeera Mubasher feeds not in arabic guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1434",
+    "name": "Al Jazeera English HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Al Jazeera English not captured in guide-arabic",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1437",
+    "name": "BBC NEWS Arabic",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "BBC channels not in arabic national guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1438",
+    "name": "BBC World News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "BBC channels not in arabic national guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1439",
+    "name": "CNBC Arabiya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "CNBC Arabiya missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1441",
+    "name": "Extra News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1442",
+    "name": "Al Ekhbaria HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1443",
+    "name": "Nile News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Nile News missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1444",
+    "name": "AL SHARQIYA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1447",
+    "name": "Asharq News Channel HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1449",
+    "name": "Al ARABY 2 TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1450",
+    "name": "AL SHARQIYA NEWS HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1451",
+    "name": "Iraqia News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Iraqia channels missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1452",
+    "name": "Iraq Al Hadath HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1454",
+    "name": "Iran International TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1455",
+    "name": "Al Qahera News",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1456",
+    "name": "INEWS TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1457",
+    "name": "AL MAYADEEN TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Al Mayadeen missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1458",
+    "name": "France 24 HD (in Arabic)",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1459",
+    "name": "France 24 HD (in English)",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1460",
+    "name": "France 24 (En Francais)",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1461",
+    "name": "TRT Arabi HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1462",
+    "name": "TRT World HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1463",
+    "name": "CGTN-ARABIC HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1464",
+    "name": "CNNi SD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1465",
+    "name": "TiVi5MONDE",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1466",
+    "name": "TV5 Monde Maghreb Orient HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1468",
+    "name": "ALG PROGRAMME NATIONAL",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1469",
+    "name": "ALG A3 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1470",
+    "name": "ALG Echorouk NEWS",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1471",
+    "name": "ALG Echorouk TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1472",
+    "name": "ALG ENNAHAR TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1473",
+    "name": "ALG Bahia TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1474",
+    "name": "ALG Samira TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1475",
+    "name": "ALG Elfadjer drama Dz",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1476",
+    "name": "ALG CANAL ALGERIE",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1477",
+    "name": "ALG TV 4",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1478",
+    "name": "ALG TV 5",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1479",
+    "name": "ALG TV 6 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1480",
+    "name": "ALG TV7 ELMAARIFA",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1481",
+    "name": "ALG TV8 EDHAKIRA",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1482",
+    "name": "ALG El Barlamaniya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1483",
+    "name": "ALG Elwatania Algerie",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1484",
+    "name": "ALG EL HAYAT TV ALGERIE",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1485",
+    "name": "ALG EL HEDDAF TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1486",
+    "name": "ALG EL BILAD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1487",
+    "name": "ALG El Djazair N1",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1488",
+    "name": "ALG BERBERE TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1489",
+    "name": "ALG Zahra TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1490",
+    "name": "ALG Algerian 4Kids",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1492",
+    "name": "MAR 2M Maroc",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1493",
+    "name": "MAR 2M TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1494",
+    "name": "MAR Al Aoula Inter HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1495",
+    "name": "MAR Laayoune TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1496",
+    "name": "MAR Al Maghribia HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1497",
+    "name": "MAR Athaqafia HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1498",
+    "name": "MAR Tamazight HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1499",
+    "name": "MAR Aflam 7",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1500",
+    "name": "MAR Arryadia HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1501",
+    "name": "MAR Assadissa HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1502",
+    "name": "MAR M24 MAROC",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1503",
+    "name": "MAR Tele Maroc",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1504",
+    "name": "MAR Chada TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1505",
+    "name": "MAR Medi1 TV Maghreb HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1506",
+    "name": "MAR Medi1 TV Afrique HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1507",
+    "name": "TNT 2M",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1508",
+    "name": "TNT Al Aoula HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1509",
+    "name": "TNT Laayoune TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1510",
+    "name": "TNT Al Maghribia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1511",
+    "name": "TNT Athaqafia HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1512",
+    "name": "TNT Tamazight",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1513",
+    "name": "TNT Aflam HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1514",
+    "name": "TNT Arryadia HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1515",
+    "name": "TNT Assadissa HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1516",
+    "name": "TNT Medi1 TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1527",
+    "name": "MBC P VARIETY",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1538",
+    "name": "TUN Nessma Ejdida",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1539",
+    "name": "TUN Tunisia NAT 1",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1540",
+    "name": "TUN Tunisia Nat 2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1541",
+    "name": "TUN Carthage+",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1542",
+    "name": "TUN Elhiwar Ettounsi",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1543",
+    "name": "TUN Hannibal TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1544",
+    "name": "TUN Attessia TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1547",
+    "name": "QURAN TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1548",
+    "name": "Ressala HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1557",
+    "name": "beIN BBC EARTH 4K",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "BBC channels not in arabic national guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1559",
+    "name": "beIN FOX LIFE 4K",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1569",
+    "name": "beIN Fox Life HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1576",
+    "name": "beIN OutDoor HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1577",
+    "name": "beIN BBC Earth HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "BBC channels not in arabic national guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1578",
+    "name": "beIN Nat geo Wild HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1579",
+    "name": "beIN Nat Geo HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1582",
+    "name": "Rotana Cinema EGY HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1583",
+    "name": "Rotana Cinema HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1586",
+    "name": "rotana clip",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1588",
+    "name": "Rotana Khalijeah HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1589",
+    "name": "Rotana Music HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1592",
+    "name": "CN Arabia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1593",
+    "name": "Majd Kids TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1594",
+    "name": "Wanasat Baby",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1595",
+    "name": "Toyor Aljanah",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1596",
+    "name": "SAT-7 KIDS",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1597",
+    "name": "ZAGROS TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1598",
+    "name": "Karameesh TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1599",
+    "name": "Atfal and Mawahib TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1600",
+    "name": "TAHA",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1601",
+    "name": "Roya Kids",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1602",
+    "name": "Libya AL Hidaya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1603",
+    "name": "Libya Al Rasmia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1604",
+    "name": "Libya Alwataniya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1605",
+    "name": "Libya Alwatnya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1606",
+    "name": "Libya Al Hedaya TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1607",
+    "name": "Libya Alrasmia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1608",
+    "name": "Libya Radio Quran Karem",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1609",
+    "name": "Libya Al Ahrar HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1610",
+    "name": "Libya WTV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1611",
+    "name": "LIBYA ALHADATH HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1612",
+    "name": "LIBYA ALMASAR TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1613",
+    "name": "LIBYA TRIPOLY TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1614",
+    "name": "STARZPLAY SPORT 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1615",
+    "name": "Thamanya 1 Sport HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1616",
+    "name": "Thamanya 2 Sport HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1617",
+    "name": "Thamanya 3 Sport HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1622",
+    "name": "DUBAI SPORTS 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1623",
+    "name": "DUBAI SPORTS 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1624",
+    "name": "DUBAI RACING 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1625",
+    "name": "DUBAI RACING 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1626",
+    "name": "Jordan Sport HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1627",
+    "name": "Nile Sport",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1628",
+    "name": "Kuwait Sport Plus",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1629",
+    "name": "Kuwait Sports",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1630",
+    "name": "LIBYA SPORT 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1631",
+    "name": "Libya Sport 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1632",
+    "name": "Sharjah Sport 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1633",
+    "name": "KSA SPORTS 3 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1634",
+    "name": "KSA SPOTS 4",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1635",
+    "name": "OMAN TV Sport HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1636",
+    "name": "Arriadia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1637",
+    "name": "Al Ahly HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1638",
+    "name": "Zamalek Sports",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1639",
+    "name": "Palestine Sport",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1640",
+    "name": "Palestine",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1641",
+    "name": "Palestine Today",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1642",
+    "name": "Palestine Live HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1643",
+    "name": "Palestine News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1644",
+    "name": "Voice of Palestine HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1645",
+    "name": "Palestine EDU",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1646",
+    "name": "Almajd 01",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1647",
+    "name": "Almajd 02",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1648",
+    "name": "Almajd 03",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1649",
+    "name": "Almajd 04",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1650",
+    "name": "Almajd 08",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1651",
+    "name": "Kuwait TV 1",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1652",
+    "name": "Kuwait TV 2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1653",
+    "name": "Qatar TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1654",
+    "name": "Qatar TV Quran",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1655",
+    "name": "Qatar 2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1660",
+    "name": "AD Nat Geo HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1661",
+    "name": "Al Emarat TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1662",
+    "name": "Bahrain International HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1664",
+    "name": "Bahrain Quran",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1665",
+    "name": "Saudi ch for Quran HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1666",
+    "name": "Saudi Ch for Sunnah HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1667",
+    "name": "Saudi TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1668",
+    "name": "Saudia Alaan TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1669",
+    "name": "SYRIA TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1670",
+    "name": "Syria News HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1671",
+    "name": "Syria TV 01",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1672",
+    "name": "Al Alam Syria",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1673",
+    "name": "Syria 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1674",
+    "name": "Syria News",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1675",
+    "name": "Misk Syria TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1678",
+    "name": "Nile Cinema",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1679",
+    "name": "Nile Culture",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1682",
+    "name": "Misr ELBald",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1683",
+    "name": "Misr Al Zera3eya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1684",
+    "name": "Misr Quran Kareem",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1687",
+    "name": "Egyptian TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1688",
+    "name": "AL Oula HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1693",
+    "name": "EL MAHROUSA TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1694",
+    "name": "ELMOLED",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1695",
+    "name": "Elkholasa mosalsalat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1696",
+    "name": "ELMEHWAR-HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1697",
+    "name": "Al Ghad HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1699",
+    "name": "Al-Nahar One",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1700",
+    "name": "AlHadath Alyoum",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1701",
+    "name": "Alhayat Muslsalat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1705",
+    "name": "Sada ElBalad 3",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1706",
+    "name": "Alhayat We Alnas",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1708",
+    "name": "Al Shams Drama",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1712",
+    "name": "dmc masraheyat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1714",
+    "name": "Zee Aflam",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1715",
+    "name": "IRAQ 24",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1716",
+    "name": "Iraqia Kurd",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Iraqia channels missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1717",
+    "name": "Iraqia Turkuman",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "Iraqia channels missing",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1718",
+    "name": "Iraq Future TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1719",
+    "name": "UTV Iraq HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1720",
+    "name": "Iraq Now",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1721",
+    "name": "Sudan TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1722",
+    "name": "TCHAD TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1723",
+    "name": "YEMEN SHABAB HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1724",
+    "name": "Yemen",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1725",
+    "name": "Yemen Today",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1726",
+    "name": "El Mahadra",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1727",
+    "name": "El Medina",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1728",
+    "name": "El Mourabitoune",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1729",
+    "name": "El Mouritania 2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1730",
+    "name": "El Ousra",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1731",
+    "name": "El Wataniya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1732",
+    "name": "Ghimem TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1733",
+    "name": "Noursat Kids",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1735",
+    "name": "Al Hayat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1737",
+    "name": "Baynounah TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1738",
+    "name": "ONE TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1740",
+    "name": "El Mouritania HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1741",
+    "name": "OMAN TV Culture HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1742",
+    "name": "OMAN TV General HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1743",
+    "name": "OMAN TV Live HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1744",
+    "name": "AJMAN HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1745",
+    "name": "AL AHAD HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1746",
+    "name": "AL AYAM HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1747",
+    "name": "AL DAFRA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1749",
+    "name": "AL NOJABA TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1750",
+    "name": "AL RAHMA",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1751",
+    "name": "AL SIRAT TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1752",
+    "name": "AL-AKHBAR",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1753",
+    "name": "ALKOFIYA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1754",
+    "name": "ALSHABAB",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1755",
+    "name": "Al Ghadeer",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1756",
+    "name": "Al Mashhad",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1757",
+    "name": "Al Rabiaa TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1758",
+    "name": "Al Rayyan Al Qadeem HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1759",
+    "name": "Al Rayyan HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1761",
+    "name": "Al Wousta from Al Dhaid HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1762",
+    "name": "Al-Nahar Life",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1763",
+    "name": "Almahriah HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1764",
+    "name": "Almasrawya TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1765",
+    "name": "Arirang HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1766",
+    "name": "Awdeh HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1767",
+    "name": "BAGHDAD TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1769",
+    "name": "Extra Live SD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1770",
+    "name": "Faith TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1772",
+    "name": "Gali Kurdistan HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1773",
+    "name": "Huda TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1774",
+    "name": "Imam Ali TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1775",
+    "name": "KTO",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1776",
+    "name": "Kirkuk TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1777",
+    "name": "MUSAWA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1778",
+    "name": "Nawader TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1779",
+    "name": "RUDAW TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1780",
+    "name": "SABA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1781",
+    "name": "SUHAIL TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1782",
+    "name": "Sawt Alitra",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1783",
+    "name": "Sharjah Quran TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1784",
+    "name": "Sharqiya from Kalba HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1785",
+    "name": "TRT KURDI",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1786",
+    "name": "12Arabia",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1787",
+    "name": "AGHAPY TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1788",
+    "name": "AL MALAKOOT SAT-THE KINGDOM SAT",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1789",
+    "name": "ALHAWYAH TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1790",
+    "name": "ALIMAN TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1791",
+    "name": "ALLAHDAH TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1792",
+    "name": "ALMASIRAH TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1793",
+    "name": "ALWAQIE TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1794",
+    "name": "AVA TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1795",
+    "name": "Al Forat HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1796",
+    "name": "Al Hayat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1797",
+    "name": "Al Horreya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1798",
+    "name": "Al Karma Family",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1799",
+    "name": "Al Ons TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1800",
+    "name": "Al Sahat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1801",
+    "name": "Al-Awhad TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1802",
+    "name": "AlKarma Praise",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1803",
+    "name": "Aldawayiya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1804",
+    "name": "Alerth-Alnbawi",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1805",
+    "name": "Alkarma Discipleship",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1806",
+    "name": "Alkarma ME 1",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1807",
+    "name": "Almagd TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1808",
+    "name": "Almasirah Mubashar",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1809",
+    "name": "Alnajaf Alashraf tv",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1810",
+    "name": "AnwarTV2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1811",
+    "name": "Aryen TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1812",
+    "name": "Asil TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1813",
+    "name": "BANGAWAZ TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1814",
+    "name": "BIN OTHAIMEEN",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1815",
+    "name": "CIRA TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1816",
+    "name": "CTV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1817",
+    "name": "Eriteria TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1818",
+    "name": "GSN7 TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1819",
+    "name": "K24 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1820",
+    "name": "KURDISTAN TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1821",
+    "name": "Kaifa",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1822",
+    "name": "Koogi TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1823",
+    "name": "Logos TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1824",
+    "name": "MBBC AL ASRAR TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "BBC channels not in arabic national guide",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1825",
+    "name": "MTA3",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1826",
+    "name": "Nour Koddass",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1827",
+    "name": "NourSat",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1828",
+    "name": "PAYAM TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1829",
+    "name": "Ronahi TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1830",
+    "name": "SAT-7 ARABIC",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1831",
+    "name": "SBN Global",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1832",
+    "name": "Saout alaqila",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1833",
+    "name": "The Way",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1834",
+    "name": "WAAR HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1835",
+    "name": "AL-MUSTAKILA",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1836",
+    "name": "Aden Almustakilla",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1837",
+    "name": "Al Insen TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1838",
+    "name": "Al JANOUBIA TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1839",
+    "name": "Jawhara FM-TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1841",
+    "name": "Mazzika",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1842",
+    "name": "Nogoum FM TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1843",
+    "name": "ALSahraa HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1844",
+    "name": "ALhayah ALaan",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1845",
+    "name": "Beity TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1846",
+    "name": "HADRAMAUT TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1847",
+    "name": "Madrastna 1",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1848",
+    "name": "N Africa",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1849",
+    "name": "Al Barlemania",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1850",
+    "name": "Al Mashhad",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1851",
+    "name": "AlKawthar HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1852",
+    "name": "Athagaviya",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1853",
+    "name": "Chinguit",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1854",
+    "name": "Dava",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1855",
+    "name": "ERI TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1857",
+    "name": "Roya News",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1858",
+    "name": "SAHEL TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1859",
+    "name": "SSad TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1860",
+    "name": "Sahara24",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1861",
+    "name": "2M NAT",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1862",
+    "name": "Aghani",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1863",
+    "name": "Arabica",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1864",
+    "name": "Awdeh HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1865",
+    "name": "HD2",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1866",
+    "name": "Jawhara FM-TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1868",
+    "name": "MUSAWA HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1869",
+    "name": "Majan TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1870",
+    "name": "NBN",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1871",
+    "name": "OTV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1874",
+    "name": "SD10",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1875",
+    "name": "SD4",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1876",
+    "name": "Teleliban TV",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1877",
+    "name": "Thikrayat HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1879",
+    "name": "QBC HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1880",
+    "name": "IEN Rawdati HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1881",
+    "name": "IEN TV HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1882",
+    "name": "iEN Doros 01",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1883",
+    "name": "iEN Doros 02",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1884",
+    "name": "iEN Doros 03",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1885",
+    "name": "iEN Doros 04",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1886",
+    "name": "iEN Doros 05",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1887",
+    "name": "iEN Doros 06",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1888",
+    "name": "iEN Doros 07",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1889",
+    "name": "iEN Doros 08",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1890",
+    "name": "iEN Doros 09",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1891",
+    "name": "iEN Doros 10",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1892",
+    "name": "iEN Doros 11",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1893",
+    "name": "iEN Doros 12",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1894",
+    "name": "iEN Doros 13",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1895",
+    "name": "iEN Doros 14",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1896",
+    "name": "iEN Doros 15",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1897",
+    "name": "iEN Doros 16",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1898",
+    "name": "iEN Doros 17",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1899",
+    "name": "iEN Doros 18",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1900",
+    "name": "iEN Doros 19",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1901",
+    "name": "iEN Doros 20",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1902",
+    "name": "iEN Doros 21",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1903",
+    "name": "iEN Doros 22",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1904",
+    "name": "iEN Doros 23",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1905",
+    "name": "ALG AL24 News",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1906",
+    "name": "TUN Tunisia 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1907",
+    "name": "TUN Tunisia 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] ARABIC",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1910",
+    "name": "ARRYADIA SAT",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1911",
+    "name": "ARRYADIA TNT",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1912",
+    "name": "AD Sport 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1913",
+    "name": "AD Sport 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1914",
+    "name": "ONTIME SPORTS HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1915",
+    "name": "ONTIME SPORTS2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1916",
+    "name": "ONTIME SPORTS3 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1917",
+    "name": "Bahrain Sport 1 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1918",
+    "name": "Bahrain Sport 2 HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1920",
+    "name": "KSA Sports 2",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  },
+  {
+    "xtream_id": "1921",
+    "name": "YAS Sports HD",
+    "epg_id": "NULL",
+    "category": "[AR] SPORTS",
+    "status": "channel_not_in_sources",
+    "detail": "no_fiable_match",
+    "reviewed_candidates": 0
+  }
+]

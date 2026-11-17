@@ -69,13 +69,18 @@ def validate_tree(root: ET.Element, label: str) -> tuple[dict[str, ET.Element], 
     return channels, len(programmes)
 
 
-def load_aliases(path: Path) -> dict[str, list[str]]:
+def load_aliases(path: Path, *, profile: str = "es") -> dict[str, list[str]]:
     try:
         aliases = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         raise EpgError(f"could not read aliases JSON: {exc}") from exc
-    if not isinstance(aliases, dict) or len(aliases) < MIN_ALIAS_IDS:
-        raise EpgError(f"aliases JSON must contain at least {MIN_ALIAS_IDS} channel IDs")
+    if not isinstance(aliases, dict):
+        raise EpgError("aliases JSON must be an object of channel ID to display names")
+    if profile == "es":
+        if len(aliases) < MIN_ALIAS_IDS:
+            raise EpgError(f"aliases JSON must contain at least {MIN_ALIAS_IDS} channel IDs")
+    elif not aliases:
+        raise EpgError("regional aliases JSON is empty")
     for channel_id, names in aliases.items():
         if not isinstance(channel_id, str) or not ID_RE.fullmatch(channel_id):
             raise EpgError("aliases JSON contains an invalid channel ID")
@@ -84,7 +89,7 @@ def load_aliases(path: Path) -> dict[str, list[str]]:
         if len(set(names)) != len(names):
             raise EpgError(f"aliases JSON contains duplicate names for channel {channel_id}")
     alias_count = sum(map(len, aliases.values()))
-    if alias_count < EXPECTED_ALIAS_COUNT:
+    if profile == "es" and alias_count < EXPECTED_ALIAS_COUNT:
         raise EpgError(f"aliases JSON must contain at least the expected {EXPECTED_ALIAS_COUNT} custom display names")
     return aliases
 
@@ -181,6 +186,8 @@ def resolve_xtream_catalog(
     catalog: list[dict[str, object]],
     display_aliases: dict[str, list[str]],
     configured_aliases: dict[str, str],
+    *,
+    auto_region: str = "ES",
 ) -> tuple[dict[str, str], dict[str, int]]:
     """Resolve safe catalog matches to original guide IDs and summarize coverage."""
     channels, _ = validate_tree(root, "source")
@@ -229,7 +236,7 @@ def resolve_xtream_catalog(
             raise EpgError(f"configured Xtream alias {xtream_id} references unknown original channel {original_id}")
         if xtream_id == original_id:
             continue
-        if xtream_id in channels:
+        if xtream_id in channels and original_id not in channels:
             raise EpgError(f"configured Xtream alias {xtream_id} collides with an original channel ID")
 
     # Existing curated mappings remain authoritative only when all catalog uses
@@ -247,7 +254,7 @@ def resolve_xtream_catalog(
             len(name_keys) != 1
             or "" in name_keys
             or len(regions) > 1
-            or regions != {"ES"}
+            or (regions and regions != {auto_region})
             or name_matches != {original_id}
         ):
             raise EpgError(f"configured Xtream alias {xtream_id} conflicts with its catalog channel names")
@@ -284,7 +291,7 @@ def resolve_xtream_catalog(
             continue
         if len(matches) == 1:
             region = next(iter(regions)) if regions else None
-            if region != "ES":
+            if region and region != auto_region:
                 summary["uncovered_epg_ids"] += 1
                 summary["uncovered_channels"] += len(rows)
                 summary["region_mismatches"] += 1
@@ -326,6 +333,10 @@ def merge(
     aliases: dict[str, list[str]],
     baseline: bytes | None = None,
     xtream_aliases: dict[str, str] | None = None,
+    *,
+    min_channels: int = MIN_CHANNELS,
+    min_programmes: int = MIN_PROGRAMMES,
+    alias_mode: str = "strict",
 ) -> tuple[bytes, int, int]:
     root = parse_xml(source, "input XMLTV")
     xtream_aliases = xtream_aliases or {}
@@ -361,13 +372,17 @@ def merge(
             for programme in alias_programmes:
                 root.remove(programme)
     channels, programme_count = validate_tree(root, "input XMLTV")
-    if len(channels) < MIN_CHANNELS or programme_count < MIN_PROGRAMMES:
-        raise EpgError(f"input XMLTV: coverage below minimum ({len(channels)} channels, {programme_count} programmes)")
+    if len(channels) < min_channels or programme_count < min_programmes:
+        raise EpgError(
+            f"input XMLTV: coverage below minimum ({len(channels)} channels, {programme_count} programmes)"
+        )
     programme_fingerprint = [_programme_fingerprint(node) for node in root.findall("programme")]
     original_channels = set(channels)
     missing = sorted(set(aliases) - channels.keys())
-    if missing:
+    if missing and alias_mode == "strict":
         raise EpgError("source is missing configured channel IDs: " + ", ".join(missing))
+    if missing and alias_mode == "regional":
+        aliases = {channel_id: names for channel_id, names in aliases.items() if channel_id in channels}
     alias_destinations: dict[str, str] = {}
     for xtream_id, original_id in xtream_aliases.items():
         if not isinstance(xtream_id, str) or not xtream_id.strip() or xtream_id.strip().casefold() in XTREAM_NULLS:
@@ -479,6 +494,14 @@ def main() -> int:
     parser.add_argument("--aliases", type=Path, default=root / "epg" / "aliases.json")
     parser.add_argument("--xtream-aliases", type=Path, default=root / "epg" / "xtream-aliases.json")
     parser.add_argument(
+        "--profile",
+        choices=("es", "fr", "arabic"),
+        default="es",
+        help="Alias validation profile (regional guides use relaxed display-name counts)",
+    )
+    parser.add_argument("--min-channels", type=int, default=MIN_CHANNELS)
+    parser.add_argument("--min-programmes", type=int, default=MIN_PROGRAMMES)
+    parser.add_argument(
         "--xtream-catalog",
         type=Path,
         help="Optional sanitized catalog supplied locally; catalog data is not bundled",
@@ -492,16 +515,34 @@ def main() -> int:
             protected_paths.append(args.xtream_catalog)
         if args.output.resolve() in {path.resolve() for path in protected_paths}:
             raise EpgError("output path must differ from the guide and configuration input files")
-        aliases = load_aliases(args.aliases)
-        configured_xtream_aliases = load_xtream_aliases(args.xtream_aliases)
+        profile = args.profile
+        alias_profile = "es" if profile == "es" else "regional"
+        alias_mode = "strict" if profile == "es" else "regional"
+        aliases = load_aliases(args.aliases, profile=alias_profile)
+        configured_xtream_aliases = (
+            load_xtream_aliases(args.xtream_aliases) if args.xtream_aliases.is_file() else {}
+        )
         xtream_catalog = load_xtream_catalog(args.xtream_catalog) if args.xtream_catalog else []
         source = args.input.read_bytes()
         baseline = args.baseline.read_bytes() if args.baseline else None
         source_root = parse_xml(source, "input XMLTV")
+        auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC"}[profile]
         xtream_aliases, xtream_summary = resolve_xtream_catalog(
-            source_root, xtream_catalog, aliases, configured_xtream_aliases
+            source_root,
+            xtream_catalog,
+            aliases,
+            configured_xtream_aliases,
+            auto_region=auto_region,
         )
-        result, channels, programmes = merge(source, aliases, baseline, xtream_aliases)
+        result, channels, programmes = merge(
+            source,
+            aliases,
+            baseline,
+            xtream_aliases,
+            min_channels=args.min_channels,
+            min_programmes=args.min_programmes,
+            alias_mode=alias_mode,
+        )
         atomic_write(args.output, result)
         print(f"Wrote {args.output} ({channels} channels, {programmes} programmes, {len(aliases)} display alias IDs, {len(xtream_aliases)} Xtream IDs)")
         print(
