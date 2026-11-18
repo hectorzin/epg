@@ -246,15 +246,18 @@
     "NL RTV Drenthe 4K",
     "NL RTV Drenthe HD"
   ],
+  "RTVNoord.nl@SD": [
+    "NL RTV Noord 4K",
+    "NL RTV Noord HD"
+  ],
   "RTVOost.nl@SD": [
-    "NL TV Oost HD"
+    "NL TV Oost HD",
+    "NL TV Oost 4K"
   ],
   "RTVRijnmond.nl@SD": [
     "NL TV Rijnmond 4K"
   ],
   "RTVUtrecht.nl@SD": [
-    "NL RTV Noord 4K",
-    "NL RTV Noord HD",
     "NL RTV Utrecht 4K",
     "NL RTV Utrecht HD"
   ],

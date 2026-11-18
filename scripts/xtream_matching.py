@@ -37,6 +37,10 @@ def classify_playlist_region(category: str) -> str | None:
         return "GB"
     if cat.startswith("[PR]") or cat.startswith("[PT]"):
         return "PT"
+    if cat.startswith("[NL]"):
+        return "NL"
+    if cat.startswith("[IT]"):
+        return "IT"
     if cat.startswith("[AR]") or "ARABIC" in cat.upper():
         return "ARABIC"
     return None

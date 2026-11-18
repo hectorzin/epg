@@ -7,7 +7,9 @@
   "a3": [
     "ANTENA 3 FULL HD",
     "Antena 3",
-    "ANTENA 3 4K"
+    "ANTENA 3 4K",
+    "ANTENA 3 HD",
+    "A3 UHD"
   ],
   "aragtv": [
     "ARAGON TV FULL HD"
@@ -56,7 +58,14 @@
   "chapio": [
     "M+ LCAMPEONES HD",
     "M+ LCAMPEONES FULL HD",
-    "M+ LCAMPEONES 4K"
+    "M+ LCAMPEONES 4K",
+    "M+ LCAMPEONES +",
+    "M+ LCAMPEONES SD",
+    "M+ LCAMPEONES HD+",
+    "M.LCAMPEONES",
+    "M.LCAMPEONES HD",
+    "M.LCAMPEONES HD+",
+    "M+LCAMPEONES 4K"
   ],
   "cl13": [
     "CALLE 13 FULL HD",
@@ -84,7 +93,8 @@
     "M+ Drama",
     "M+ DRAMA 4K",
     "M+ Drama 3",
-    "M+ Drama 2"
+    "M+ Drama 2",
+    "M+ DRAMA 2 FULL HD"
   ],
   "cpcome": [
     "M+ COMEDIA FULL HD",
@@ -94,7 +104,8 @@
   ],
   "cpdep": [
     "M+ DEPORTES FULL HD",
-    "M+ DEPORTESHD"
+    "M+ DEPORTESHD",
+    "M+DEPORTES 4K"
   ],
   "dazn3": [
     "DAZN 3 FULL HD",
@@ -111,7 +122,10 @@
   ],
   "daznli": [
     "DAZN LALIGA FULL HD",
-    "DAZN LALIGA 4K"
+    "DAZN LALIGA 4K",
+    "DAZN LALIGA HD",
+    "DAZN LALIGA HD+",
+    "DAZN LALIGA SD"
   ],
   "dcesp": [
     "M+ Cine Español FULL HD",
@@ -184,7 +198,8 @@
     "Telemadrid"
   ],
   "realm": [
-    "Realmadrid TV HD"
+    "Realmadrid TV HD",
+    "Realmadrid TV FULL HD"
   ],
   "casman": [
     "CASTILLA LA MANCHA"
@@ -192,7 +207,9 @@
   "la2": [
     "LA 2 FULL HD",
     "La 2",
-    "LA 2 4K"
+    "LA 2 4K",
+    "LA 2 HD",
+    "LA 2 UHD"
   ],
   "m2sd": [
     "DAZN 2 FULL HD",
@@ -296,7 +313,9 @@
   "t5": [
     "TELECINCO FULL HD",
     "Telecinco",
-    "TELECINCO 4K"
+    "TELECINCO 4K",
+    "TELECINCO HD",
+    "TELECINCO UHD"
   ],
   "tcm": [
     "TCM FULL HD",
@@ -309,12 +328,15 @@
   "tve": [
     "LA 1 FULL HD",
     "La 1",
-    "LA 1 4K"
+    "LA 1 4K",
+    "LA 1 HD",
+    "LA 1 UHD"
   ],
   "vamosd": [
     "M+ VAMOS FULL HD",
     "M+ #VAMOS 4K",
-    "#VAMOS HD"
+    "#VAMOS HD",
+    "M+ VAMOS HD"
   ],
   "CanalCocina.es": [
     "CANAL COCINA FULL HD",
@@ -479,7 +501,9 @@
     "FOX FULL HD"
   ],
   "mdoc": [
-    "M+ Documentales"
+    "M+ Documentales",
+    "M+Documentales 4K",
+    "M+Documentales FULL HD"
   ],
   "cima.es.theme.noel": [
     "M+ Navidad"
@@ -509,7 +533,8 @@
     "El Toro TV HD"
   ],
   "pcm": [
-    "COMEDYCENTRAL"
+    "COMEDYCENTRAL",
+    "COMEDYCENTRAL FULL HD"
   ],
   "MovistarPlus.bbfoo": [
     "BBC FOOD"
@@ -523,7 +548,9 @@
     "BBC History"
   ],
   "cazpes": [
-    "Caza y Pesca"
+    "Caza y Pesca",
+    "CAZAyPESCA 4K",
+    "CAZAyPESCA FULL HD"
   ],
   "656": [
     "Cazavisión"
@@ -558,6 +585,7 @@
     "SUNDANCE TV FULL HD"
   ],
   "mtv": [
-    "MTV ESPANA"
+    "MTV ESPANA",
+    "MTV ESPANA FULL HD"
   ]
 }

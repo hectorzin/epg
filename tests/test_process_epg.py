@@ -100,6 +100,23 @@ class EpgUpdateTests(unittest.TestCase):
         self.assertEqual(len(root.findall("channel[@id='antena3.es']")), 1)
         self.assertEqual(len(root.findall("programme[@channel='antena3.es']")), 25)
 
+    def test_reprocessing_published_clone_with_eof_programme_tail_is_rejected(self):
+        """Clones appended at EOF pick up a different last-programme tail after pretty-print.
+
+        CI never feeds the published guide back into process-epg; it reads the raw grab.
+        This mismatch is serialization drift, not two different channels.
+        """
+        mapping = {"antena3.es": "ch0"}
+        first, _, _ = epg.merge(sample(), self.aliases, xtream_aliases=mapping)
+        root = epg.parse_xml(first, "published-like")
+        orig = [p for p in root.findall("programme") if p.get("channel") == "ch0"]
+        clone = [p for p in root.findall("programme") if p.get("channel") == "antena3.es"]
+        orig[-1].tail = "\n  "
+        clone[-1].tail = "\n"
+        republished = epg.ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n"
+        with self.assertRaisesRegex(epg.EpgError, "ambiguous or different programme records"):
+            epg.merge(republished, self.aliases, xtream_aliases=mapping)
+
     def test_xtream_alias_conflicts_are_rejected(self):
         with self.assertRaisesRegex(epg.EpgError, "already belongs to a different channel"):
             epg.merge(sample().replace(
