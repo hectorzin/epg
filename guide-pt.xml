@@ -47183,7 +47183,7 @@
   <channel id="SportTVPlus.pt@SD">
     <display-name>Sport TV +</display-name>
     <icon src="https://i.imgur.com/R5FZEW6.png" />
-  <display-name>PT Sport TV </display-name><display-name>PT Sport TV 4K</display-name><display-name>PT Sport TV HD</display-name></channel>
+  <display-name>PT Sport TV</display-name><display-name>PT Sport TV 4K</display-name><display-name>PT Sport TV HD</display-name></channel>
   <programme start="20261117234200 +0000" stop="20261118001200 +0000" channel="SportTVPlus.pt@SD">
     <title lang="pt">Dinamarca x Noruega - UEFA Nations League</title>
     <desc lang="pt">Transmissão do encontro a contar para a UEFA Nations League.</desc>
@@ -53603,14 +53603,14 @@
     <category lang="pt">Desporto</category>
     <category lang="pt">Notícias</category>
   </programme>
-  <programme start="20261118143500 +0000" stop="20261118151500 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118143500 +0000" stop="20261118152000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Saber y Ganar</title>
     <desc lang="pt">Programa concurso diario en el que tres participantes demuestran sus conocimientos y su agilidad mental. Concursantes: XAVI QUILIS, ADRIÁN VARGAS, LYDIA RODRÍGUEZ.[S]</desc>
     <category lang="pt">Concurso</category>
     <category lang="pt">Entretenimento</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118151500 +0000" stop="20261118155000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118152000 +0000" stop="20261118155000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Cifras y Letras</title>
     <desc lang="pt">En esta nueva entrega, dos concursantes lucharán por el título de campeón de "Cifras y Letras". Lo harán acompañados de Aitor Albizua y los expertos de cifras y letras, David Calle y Elena Herraiz, quienes validarán las respuestas.[S]</desc>
     <category lang="pt">Concurso</category>
@@ -53619,7 +53619,7 @@
   </programme>
   <programme start="20261118155000 +0000" stop="20261118175000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Directo Al Grano</title>
-    <desc lang="pt">"Directo al grano", presentado por Marta Flich y Gonzalo Miró. Un magacín diario que, en medio de la alta demanda informativa actual, busca separar el grano de la paja y explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <desc lang="pt">"Directo al grano", presentado por Marta Flich y Gonzalo Miró. Un magacín diario que, en medio de la alta demanda informativa actual, busca separar el grano de la paja y explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.[S]</desc>
     <category lang="pt">Magazine de notícias</category>
     <category lang="pt">Notícias</category>
   </programme>
@@ -53630,16 +53630,16 @@
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118184500 +0000" stop="20261118193000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118184500 +0000" stop="20261118193500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Valle Salvaje</title>
-    <desc lang="pt">José Luis y el resto de la familia se enfrentan a grandes amenazas: se descubre públicamente que el primer esposo de Victoria, Dámaso, sigue vivo y Enriqueta, valiéndose de la deuda que José Luis tenía con su marido Domingo muerto a manos de Alejo, le amenaza exigiendo a cambio todo Valle Salvaje.[S]</desc>
+    <desc lang="pt">José Luis y el resto de la familia se enfrentan a grandes amenazas: se descubre públicamente que el primer esposo de Victoria, Dámaso, sigue vivo y Enriqueta, valiéndose de la deuda que José Luis tenía con su marido Domingo muerto a manos de Alejo, le amenaza exigiendo a cambio todo Valle Salvaje.</desc>
     <category lang="pt">Drama</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118193000 +0000" stop="20261118195500 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118193500 +0000" stop="20261118195500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Aquí La Tierra</title>
-    <desc lang="pt">Jacob Petrus, geógrafo especializado en climatología, nos ofrece todas las tardes de lunes a viernes una mirada inédita y entretenida sobre nuestro planeta. Comprobaremos cómo la salud, la arquitectura, la conducta, incluso el arte o la economía, pueden estar condicionados por la meteorología.[S]</desc>
+    <desc lang="pt">Jacob Petrus, geógrafo especializado en climatología, nos ofrece todas las tardes de lunes a viernes una mirada inédita y entretenida sobre nuestro planeta. Comprobaremos cómo la salud, la arquitectura, la conducta, incluso el arte o la economía, pueden estar condicionados por la meteorología.</desc>
     <category lang="pt">Meteorologia</category>
     <category lang="pt">Notícias</category>
   </programme>
@@ -53650,44 +53650,44 @@
   </programme>
   <programme start="20261118204500 +0000" stop="20261118205000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Deportes 2</title>
-    <desc lang="pt">Actualidad deportiva diaria nacional e internacional.</desc>
+    <desc lang="pt">Actualidad deportiva diaria nacional e internacional.[S]</desc>
     <category lang="pt">Desporto</category>
     <category lang="pt">Notícias</category>
   </programme>
   <programme start="20261118205000 +0000" stop="20261118221500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">La Revuelta</title>
-    <desc lang="pt">Artistas, deportistas, científicos y todo tipo de personalidades se sumergen en las conversaciones más impredecibles con el presentador David Broncano, siempre acompañado por su banda: Ricardo Castella, veterano de la comedia española, y el campeón de beatbox Grison, una mina antipersona de chistes.</desc>
+    <desc lang="pt">Artistas, deportistas, científicos y todo tipo de personalidades se sumergen en las conversaciones más impredecibles con el presentador David Broncano, siempre acompañado por su banda: Ricardo Castella, veterano de la comedia española, y el campeón de beatbox Grison...[S]</desc>
     <category lang="pt">Comédia</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118221500 +0000" stop="20261118235000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118221500 +0000" stop="20261118235500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">El perro andaluz</title>
-    <desc lang="pt">Manu Sánchez se pone al frente de El perro andaluz, un gran formato donde se mezclan humor, conversación, música y actualidad.</desc>
+    <desc lang="pt">Manu Sánchez se pone al frente de El perro andaluz, un gran formato donde se mezclan humor, conversación, música y actualidad.[S]</desc>
     <category lang="pt">Comédia</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118235000 +0000" stop="20261119004000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261118235500 +0000" stop="20261119004500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Sukha</title>
-    <desc lang="pt">Magacín diario con una amplia mirada al panorama cultural actual que gira sobre tres términos: felicidad, placer y bienestar, que son precisamente el significado de la palabra sánscrita 'sukha'.</desc>
+    <desc lang="pt">Magacín diario con una amplia mirada al panorama cultural actual que gira sobre tres términos: felicidad, placer y bienestar, que son precisamente el significado de la palabra sánscrita 'sukha'.[S]</desc>
     <category lang="pt">Magazine de notícias</category>
     <category lang="pt">Notícias</category>
     <category lang="pt">Arte e cultura</category>
   </programme>
-  <programme start="20261119004000 +0000" stop="20261119032000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261119004500 +0000" stop="20261119032500 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">La Noche en 24H</title>
-    <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del día.</desc>
+    <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del...[S]</desc>
     <category lang="pt">Notícias</category>
   </programme>
-  <programme start="20261119032000 +0000" stop="20261119043000 +0000" channel="TVEInternacional.es@HD">
+  <programme start="20261119032500 +0000" stop="20261119043000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">Noticias 24 Horas</title>
-    <desc lang="pt">Información continua 24 horas los 365 días del año. Este informativo ofrece una mirada detallada a las noticias que marcan cada jornada, desde los puntos donde se generan y con sus imágenes, voces y sonidos en directo.</desc>
+    <desc lang="pt">Información continua 24 horas los 365 días del año. Este informativo ofrece una mirada detallada a las noticias que marcan cada jornada, desde los puntos donde se generan y con sus imágenes, voces y sonidos en directo.[S]</desc>
     <category lang="pt">Notícias</category>
   </programme>
   <programme start="20261119043000 +0000" stop="20261119053000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">La Aventura del Saber</title>
-    <desc lang="pt">Programa diario destinado a la formación y la divulgación mediante entrevistas y series documentales. Por el programa han pasado invitados destacados, grandes personalidades que han modelado la realidad cultural y científica de nuestro país.</desc>
+    <desc lang="pt">Programa diario destinado a la formación y la divulgación mediante entrevistas y series documentales. Por el programa han pasado invitados destacados, grandes personalidades que han modelado la realidad cultural y científica de nuestro país.[S]</desc>
     <category lang="pt">Talk Show</category>
     <category lang="pt">Entretenimento</category>
     <category lang="pt">Série</category>
@@ -65638,14 +65638,14 @@
     <category lang="pt">Desporto</category>
     <category lang="pt">Notícias</category>
   </programme>
-  <programme start="20261118143500 +0000" stop="20261118151500 +0000" channel="tveinternacional.pt">
+  <programme start="20261118143500 +0000" stop="20261118152000 +0000" channel="tveinternacional.pt">
     <title lang="pt">Saber y Ganar</title>
     <desc lang="pt">Programa concurso diario en el que tres participantes demuestran sus conocimientos y su agilidad mental. Concursantes: XAVI QUILIS, ADRIÁN VARGAS, LYDIA RODRÍGUEZ.[S]</desc>
     <category lang="pt">Concurso</category>
     <category lang="pt">Entretenimento</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118151500 +0000" stop="20261118155000 +0000" channel="tveinternacional.pt">
+  <programme start="20261118152000 +0000" stop="20261118155000 +0000" channel="tveinternacional.pt">
     <title lang="pt">Cifras y Letras</title>
     <desc lang="pt">En esta nueva entrega, dos concursantes lucharán por el título de campeón de "Cifras y Letras". Lo harán acompañados de Aitor Albizua y los expertos de cifras y letras, David Calle y Elena Herraiz, quienes validarán las respuestas.[S]</desc>
     <category lang="pt">Concurso</category>
@@ -65654,7 +65654,7 @@
   </programme>
   <programme start="20261118155000 +0000" stop="20261118175000 +0000" channel="tveinternacional.pt">
     <title lang="pt">Directo Al Grano</title>
-    <desc lang="pt">"Directo al grano", presentado por Marta Flich y Gonzalo Miró. Un magacín diario que, en medio de la alta demanda informativa actual, busca separar el grano de la paja y explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.</desc>
+    <desc lang="pt">"Directo al grano", presentado por Marta Flich y Gonzalo Miró. Un magacín diario que, en medio de la alta demanda informativa actual, busca separar el grano de la paja y explicar de forma sencilla lo que ocurre, con rigor, claridad y dinamismo.[S]</desc>
     <category lang="pt">Magazine de notícias</category>
     <category lang="pt">Notícias</category>
   </programme>
@@ -65665,16 +65665,16 @@
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118184500 +0000" stop="20261118193000 +0000" channel="tveinternacional.pt">
+  <programme start="20261118184500 +0000" stop="20261118193500 +0000" channel="tveinternacional.pt">
     <title lang="pt">Valle Salvaje</title>
-    <desc lang="pt">José Luis y el resto de la familia se enfrentan a grandes amenazas: se descubre públicamente que el primer esposo de Victoria, Dámaso, sigue vivo y Enriqueta, valiéndose de la deuda que José Luis tenía con su marido Domingo muerto a manos de Alejo, le amenaza exigiendo a cambio todo Valle Salvaje.[S]</desc>
+    <desc lang="pt">José Luis y el resto de la familia se enfrentan a grandes amenazas: se descubre públicamente que el primer esposo de Victoria, Dámaso, sigue vivo y Enriqueta, valiéndose de la deuda que José Luis tenía con su marido Domingo muerto a manos de Alejo, le amenaza exigiendo a cambio todo Valle Salvaje.</desc>
     <category lang="pt">Drama</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118193000 +0000" stop="20261118195500 +0000" channel="tveinternacional.pt">
+  <programme start="20261118193500 +0000" stop="20261118195500 +0000" channel="tveinternacional.pt">
     <title lang="pt">Aquí La Tierra</title>
-    <desc lang="pt">Jacob Petrus, geógrafo especializado en climatología, nos ofrece todas las tardes de lunes a viernes una mirada inédita y entretenida sobre nuestro planeta. Comprobaremos cómo la salud, la arquitectura, la conducta, incluso el arte o la economía, pueden estar condicionados por la meteorología.[S]</desc>
+    <desc lang="pt">Jacob Petrus, geógrafo especializado en climatología, nos ofrece todas las tardes de lunes a viernes una mirada inédita y entretenida sobre nuestro planeta. Comprobaremos cómo la salud, la arquitectura, la conducta, incluso el arte o la economía, pueden estar condicionados por la meteorología.</desc>
     <category lang="pt">Meteorologia</category>
     <category lang="pt">Notícias</category>
   </programme>
@@ -65685,44 +65685,44 @@
   </programme>
   <programme start="20261118204500 +0000" stop="20261118205000 +0000" channel="tveinternacional.pt">
     <title lang="pt">Deportes 2</title>
-    <desc lang="pt">Actualidad deportiva diaria nacional e internacional.</desc>
+    <desc lang="pt">Actualidad deportiva diaria nacional e internacional.[S]</desc>
     <category lang="pt">Desporto</category>
     <category lang="pt">Notícias</category>
   </programme>
   <programme start="20261118205000 +0000" stop="20261118221500 +0000" channel="tveinternacional.pt">
     <title lang="pt">La Revuelta</title>
-    <desc lang="pt">Artistas, deportistas, científicos y todo tipo de personalidades se sumergen en las conversaciones más impredecibles con el presentador David Broncano, siempre acompañado por su banda: Ricardo Castella, veterano de la comedia española, y el campeón de beatbox Grison, una mina antipersona de chistes.</desc>
+    <desc lang="pt">Artistas, deportistas, científicos y todo tipo de personalidades se sumergen en las conversaciones más impredecibles con el presentador David Broncano, siempre acompañado por su banda: Ricardo Castella, veterano de la comedia española, y el campeón de beatbox Grison...[S]</desc>
     <category lang="pt">Comédia</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118221500 +0000" stop="20261118235000 +0000" channel="tveinternacional.pt">
+  <programme start="20261118221500 +0000" stop="20261118235500 +0000" channel="tveinternacional.pt">
     <title lang="pt">El perro andaluz</title>
-    <desc lang="pt">Manu Sánchez se pone al frente de El perro andaluz, un gran formato donde se mezclan humor, conversación, música y actualidad.</desc>
+    <desc lang="pt">Manu Sánchez se pone al frente de El perro andaluz, un gran formato donde se mezclan humor, conversación, música y actualidad.[S]</desc>
     <category lang="pt">Comédia</category>
     <category lang="pt">Filmes e séries</category>
     <category lang="pt">Série</category>
   </programme>
-  <programme start="20261118235000 +0000" stop="20261119004000 +0000" channel="tveinternacional.pt">
+  <programme start="20261118235500 +0000" stop="20261119004500 +0000" channel="tveinternacional.pt">
     <title lang="pt">Sukha</title>
-    <desc lang="pt">Magacín diario con una amplia mirada al panorama cultural actual que gira sobre tres términos: felicidad, placer y bienestar, que son precisamente el significado de la palabra sánscrita 'sukha'.</desc>
+    <desc lang="pt">Magacín diario con una amplia mirada al panorama cultural actual que gira sobre tres términos: felicidad, placer y bienestar, que son precisamente el significado de la palabra sánscrita 'sukha'.[S]</desc>
     <category lang="pt">Magazine de notícias</category>
     <category lang="pt">Notícias</category>
     <category lang="pt">Arte e cultura</category>
   </programme>
-  <programme start="20261119004000 +0000" stop="20261119032000 +0000" channel="tveinternacional.pt">
+  <programme start="20261119004500 +0000" stop="20261119032500 +0000" channel="tveinternacional.pt">
     <title lang="pt">La Noche en 24H</title>
-    <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del día.</desc>
+    <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del...[S]</desc>
     <category lang="pt">Notícias</category>
   </programme>
-  <programme start="20261119032000 +0000" stop="20261119043000 +0000" channel="tveinternacional.pt">
+  <programme start="20261119032500 +0000" stop="20261119043000 +0000" channel="tveinternacional.pt">
     <title lang="pt">Noticias 24 Horas</title>
-    <desc lang="pt">Información continua 24 horas los 365 días del año. Este informativo ofrece una mirada detallada a las noticias que marcan cada jornada, desde los puntos donde se generan y con sus imágenes, voces y sonidos en directo.</desc>
+    <desc lang="pt">Información continua 24 horas los 365 días del año. Este informativo ofrece una mirada detallada a las noticias que marcan cada jornada, desde los puntos donde se generan y con sus imágenes, voces y sonidos en directo.[S]</desc>
     <category lang="pt">Notícias</category>
   </programme>
   <programme start="20261119043000 +0000" stop="20261119053000 +0000" channel="tveinternacional.pt">
     <title lang="pt">La Aventura del Saber</title>
-    <desc lang="pt">Programa diario destinado a la formación y la divulgación mediante entrevistas y series documentales. Por el programa han pasado invitados destacados, grandes personalidades que han modelado la realidad cultural y científica de nuestro país.</desc>
+    <desc lang="pt">Programa diario destinado a la formación y la divulgación mediante entrevistas y series documentales. Por el programa han pasado invitados destacados, grandes personalidades que han modelado la realidad cultural y científica de nuestro país.[S]</desc>
     <category lang="pt">Talk Show</category>
     <category lang="pt">Entretenimento</category>
     <category lang="pt">Série</category>
