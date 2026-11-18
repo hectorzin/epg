@@ -467,7 +467,20 @@ def merge(
         )
     programme_fingerprint = [_programme_fingerprint(node) for node in root.findall("programme")]
     original_channels = set(channels)
-    missing = sorted(set(aliases) - channels.keys())
+    incoming_aliases = aliases
+    remapped_aliases: dict[str, list[str]] = {}
+    resolved_alias_keys: set[str] = set()
+    for channel_id, names in incoming_aliases.items():
+        target = channel_id if channel_id in channels else pick_canonical_original(channel_id, set(channels))
+        if not target or target not in channels:
+            continue
+        resolved_alias_keys.add(channel_id)
+        bucket = remapped_aliases.setdefault(target, [])
+        for name in names:
+            if name not in bucket:
+                bucket.append(name)
+    aliases = remapped_aliases
+    missing = sorted(set(incoming_aliases) - resolved_alias_keys)
     if missing and alias_mode == "strict":
         raise EpgError("source is missing configured channel IDs: " + ", ".join(missing))
     if missing and alias_mode in ("regional", "tolerant"):

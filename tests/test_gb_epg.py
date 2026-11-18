@@ -39,6 +39,23 @@ def write_guide(path, channels, programmes, *, extra=None):
 
 
 class BritishEpgTests(unittest.TestCase):
+    def test_select_skips_channels_covered_by_logical_identity(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            catalog = root / "catalog.xml"
+            covered_guide = root / "sky.xml"
+            selected = root / "selected.xml"
+            write_channels(
+                catalog,
+                [
+                    ({"lang": "en", "site_id": "1", "xmltv_id": "BBCOne.uk@HD"}, "BBC One HD"),
+                    ({"lang": "en", "site_id": "2"}, "BBC One HD"),
+                ],
+            )
+            write_guide(covered_guide, [("BBCOne.uk@UK", "BBC One HD")], [("BBCOne.uk@UK", "News")])
+            count = module.select_channels(catalog, selected, covered_guides=[covered_guide])
+            self.assertEqual(count, 0)
+
     def test_select_skips_channels_already_covered_by_prior_guide(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

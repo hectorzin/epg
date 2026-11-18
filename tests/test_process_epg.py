@@ -376,6 +376,21 @@ class EpgUpdateTests(unittest.TestCase):
         self.assertIsNotNone(root.find("channel[@id='mtv.uk']"))
         self.assertEqual(len(root.findall("programme[@channel='mtv.uk']")), 1)
 
+    def test_display_alias_targets_canonical_id_when_feed_suffix_differs(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="MTV.uk@SD"><display-name>MTV</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="MTV.uk@SD">'
+            b"<title>Hits</title></programme></tv>"
+        )
+        aliases = {"MTV.uk@HD": ["My MTV"]}
+        result, _, _ = epg.merge(
+            xml, aliases, xtream_aliases={}, min_channels=1, min_programmes=1, alias_mode="regional"
+        )
+        root = epg.parse_xml(result, "result")
+        names = [node.text for node in root.find("channel[@id='MTV.uk@SD']").findall("display-name")]
+        self.assertIn("My MTV", names)
+
     def test_resolve_xtream_catalog_tolerates_missing_regional_configured(self):
         root = epg.parse_xml(
             b'<?xml version="1.0"?><tv><channel id="a"><display-name>A</display-name></channel>'

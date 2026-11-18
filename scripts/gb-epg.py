@@ -290,9 +290,10 @@ def avoid_collision(channel_id: str, occupied: set[str], name: str) -> str:
     return fallback
 
 
-def programmed_channel_names(guide_paths: list[Path]) -> tuple[set[str], set[str]]:
+def programmed_channel_names(guide_paths: list[Path]) -> tuple[set[str], set[str], set[tuple]]:
     ids: set[str] = set()
     names: set[str] = set()
+    identities: set[tuple] = set()
     for path in guide_paths:
         if not path.is_file() or path.stat().st_size == 0:
             continue
@@ -307,9 +308,39 @@ def programmed_channel_names(guide_paths: list[Path]) -> tuple[set[str], set[str
             if channel_id not in programmed:
                 continue
             ids.add(channel_id.casefold())
-            for display_name in channel.findall("display-name"):
-                names.add(normalise_text(display_name.text))
-    return ids, names
+            display_names = [
+                (node.text or "").strip()
+                for node in channel.findall("display-name")
+                if (node.text or "").strip()
+            ]
+            label = display_names[0] if display_names else channel_id
+            identities.add(identity_key(label))
+            for display_name in display_names:
+                names.add(normalise_text(display_name))
+                identities.add(identity_key(display_name))
+    return ids, names, identities
+
+
+def canonical_hints_from_guide(path: Path) -> dict[tuple, str]:
+    if not path.is_file() or path.stat().st_size == 0:
+        return {}
+    root = parse_xmltv(path)
+    programmed = {
+        p.get("channel")
+        for p in root.findall("programme")
+        if (p.findtext("title") or "").strip()
+    }
+    hints: dict[tuple, str] = {}
+    for channel in root.findall("channel"):
+        channel_id = channel.get("id") or ""
+        if channel_id not in programmed:
+            continue
+        names = [node.text.strip() for node in channel.findall("display-name") if (node.text or "").strip()]
+        label = names[0] if names else channel_id
+        key = identity_key(label)
+        if key[0]:
+            hints.setdefault(key, channel_id)
+    return hints
 
 
 def collect_occupied(paths: list[Path]) -> set[str]:
@@ -334,7 +365,7 @@ def select_channels(
     covered_guides: list[Path] | None = None,
 ) -> int:
     root = ET.parse(catalog).getroot()
-    covered_ids, covered_names = programmed_channel_names(covered_guides or [])
+    covered_ids, covered_names, covered_identities = programmed_channel_names(covered_guides or [])
     selected = ET.Element("channels")
     seen: set[str] = set()
     for channel in root.findall("channel"):
@@ -345,9 +376,10 @@ def select_channels(
             continue
         xmltv_id = (channel.get("xmltv_id") or "").strip().casefold()
         name_key = normalise_text("".join(channel.itertext()))
+        logical_key = identity_key(name_key) if name_key else tuple()
         if (xmltv_id and xmltv_id in covered_ids) or (
-            not xmltv_id and name_key and name_key in covered_names
-        ):
+            logical_key[0] and logical_key in covered_identities
+        ) or (name_key and name_key in covered_names):
             continue
         identity = site_id or (channel.get("xmltv_id") or "") or "".join(channel.itertext())
         if not identity or identity in seen:
@@ -364,7 +396,9 @@ def select_channels(
 def merge_guides(
     sources: list[tuple[str, Path, Path | None]],
     occupied: set[str],
+    canonical_hints: dict[tuple, str] | None = None,
 ) -> tuple[ET.Element, dict[str, str], list[dict[str, str]]]:
+    canonical_hints = canonical_hints or {}
     groups: dict[tuple, list[dict]] = defaultdict(list)
     collisions: list[dict[str, str]] = []
 
@@ -420,6 +454,11 @@ def merge_guides(
             for entry in viable
         ]
         channel_id = preferred_id(candidate_ids)
+        hinted = canonical_hints.get(key)
+        if hinted and hinted not in used_ids and ID_RE.fullmatch(hinted):
+            hinted_allowed = hinted not in occupied or hinted == channel_id
+            if hinted_allowed:
+                channel_id = hinted
         original_id = channel_id
         channel_id = avoid_collision(channel_id, occupied | used_ids, winner["name"])
         if original_id in occupied:
@@ -455,8 +494,9 @@ def write_merged(
     sources: list[tuple[str, Path, Path | None]],
     output: Path,
     occupied: set[str],
+    canonical_hints: dict[tuple, str] | None = None,
 ) -> tuple[int, int, dict[str, str], list[dict[str, str]]]:
-    merged, source_choice, collisions = merge_guides(sources, occupied)
+    merged, source_choice, collisions = merge_guides(sources, occupied, canonical_hints)
     output.parent.mkdir(parents=True, exist_ok=True)
     ET.indent(merged, space="  ")
     ET.ElementTree(merged).write(output, encoding="utf-8", xml_declaration=True)
@@ -499,6 +539,13 @@ def main() -> int:
     )
     merge.add_argument("--output", type=Path, required=True)
     merge.add_argument("--occupied-guide", action="append", type=Path, default=[])
+    merge.add_argument(
+        "--canonical-guide",
+        action="append",
+        type=Path,
+        default=[],
+        help="Reuse published channel IDs for matching logical channels",
+    )
     args = parser.parse_args()
     if args.command == "select":
         count = select_channels(
@@ -512,7 +559,13 @@ def main() -> int:
         return 0
     sources = [parse_source(value) for value in args.source]
     occupied = collect_occupied(args.occupied_guide)
-    channels, programmes, choices, collisions = write_merged(sources, args.output, occupied)
+    hints: dict[tuple, str] = {}
+    for guide in args.canonical_guide:
+        for key, channel_id in canonical_hints_from_guide(guide).items():
+            hints.setdefault(key, channel_id)
+    channels, programmes, choices, collisions = write_merged(
+        sources, args.output, occupied, hints or None
+    )
     by_source: dict[str, int] = defaultdict(int)
     for source in choices.values():
         by_source[source] += 1
