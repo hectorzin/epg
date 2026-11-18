@@ -44,6 +44,12 @@ class GlobalXtreamPolicyTests(unittest.TestCase):
         filtered = policy.filter_denied_xtream_aliases(mapping, frozenset())
         self.assertEqual(filtered, {"panel.es": "ch1"})
 
+    def test_exempt_numeric_only_configured_xtream_clones(self):
+        numeric_xtream = policy.intentional_numeric_xtream_clone_ids()
+        self.assertIn("1436", numeric_xtream)
+        self.assertFalse(policy.policy_exempt_programmed_loss("2065"))
+        self.assertTrue(policy.policy_exempt_programmed_loss("1436"))
+
     def test_regional_alias_files_have_no_forbidden_keys(self):
         for name in ("aliases-fr.json", "aliases-pt.json", "aliases-arabic.json"):
             aliases = json.loads((ROOT / "epg" / name).read_text(encoding="utf-8"))

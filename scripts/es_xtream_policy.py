@@ -109,6 +109,43 @@ def filter_numeric_stream_clones(mapping: dict[str, str]) -> dict[str, str]:
     return {k: v for k, v in mapping.items() if not NUMERIC_ID_RE.fullmatch(k.strip())}
 
 
+@lru_cache(maxsize=1)
+def intentional_numeric_xtream_clone_ids() -> frozenset[str]:
+    """Numeric IDs configured as Xtream clone keys/values (stream clones), not scrape-native ids."""
+    out: set[str] = set()
+    epg_dir = ROOT / "epg"
+    for path in sorted(epg_dir.glob("xtream-aliases*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if not isinstance(data, dict):
+            continue
+        for key, value in data.items():
+            key_s = str(key).strip()
+            val_s = str(value).strip()
+            if NUMERIC_ID_RE.fullmatch(key_s):
+                out.add(key_s)
+            if NUMERIC_ID_RE.fullmatch(val_s):
+                out.add(val_s)
+    return frozenset(out)
+
+
+def policy_exempt_programmed_loss(channel_id: str) -> bool:
+    """Losses expected after global policy (configured numeric Xtream clones, denied ids)."""
+    if not channel_id:
+        return False
+    if channel_id in denied_xtream_clone_ids():
+        return True
+    stripped = channel_id.strip()
+    return NUMERIC_ID_RE.fullmatch(stripped) is not None and stripped in intentional_numeric_xtream_clone_ids()
+
+
+def split_policy_exempt_losses(lost_ids: set[str]) -> tuple[set[str], set[str]]:
+    exempt = {cid for cid in lost_ids if policy_exempt_programmed_loss(cid)}
+    return exempt, lost_ids - exempt
+
+
 def remap_alias_keys(aliases: dict[str, list[str]], renames: dict[str, str]) -> dict[str, list[str]]:
     if not renames:
         return aliases
