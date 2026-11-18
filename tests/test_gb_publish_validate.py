@@ -82,6 +82,23 @@ class BritishPublishValidateTests(unittest.TestCase):
             self.assertEqual(report["resolved_clone_map"]["mtv.uk"], "MTV.uk@SD")
             self.assertEqual(report["orphan_clones"], [])
             self.assertEqual(report["invalid_clones"], [])
+            self.assertEqual(report["missing_xtream_clone_ids"], ["mtv.uk"])
+
+    def test_absent_configured_aliases_and_clones_are_reportable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            guide = root / "guide.xml"
+            aliases = root / "aliases.json"
+            xtream = root / "xtream.json"
+            write_guide(guide, [("source.id", "Source")], [("source.id", "Program")])
+            aliases.write_text(json.dumps({"absent.display": ["Alias"]}), encoding="utf-8")
+            xtream.write_text(json.dumps({"absent.clone": "absent.original"}), encoding="utf-8")
+
+            report = validate.validate_xtream_layer(guide, aliases, xtream, process_epg=process_epg)
+
+            self.assertEqual(report["missing_display_alias_keys"], ["absent.display"])
+            self.assertEqual(report["missing_xtream_clone_ids"], ["absent.clone"])
+            self.assertEqual(report["skipped_configured_clones"], ["absent.clone"])
 
 
 if __name__ == "__main__":

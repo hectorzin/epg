@@ -73,6 +73,9 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
+          sys.path.insert(0, "scripts")
+          from xtream_publish_warnings import warn_missing_configured_channels
+
           guide_path = Path(sys.argv[1])
           root = ET.parse(guide_path).getroot()
           channels = {node.get("id"): node for node in root.findall("channel")}
@@ -84,21 +87,7 @@ jobs:
               raise SystemExit(f"Definitive guide has only {len(channels)} channels (minimum 100)")
           if len(programmes) < 1000:
               raise SystemExit(f"Definitive guide has only {len(programmes)} programmes (minimum 1000)")
-          missing_alias_channels = sorted(set(aliases) - channels.keys())
-          if missing_alias_channels:
-              print(
-                  "::warning::Display aliases skipped (channel absent this run): "
-                  + ", ".join(missing_alias_channels[:40])
-                  + (f" … +{len(missing_alias_channels) - 40} more" if len(missing_alias_channels) > 40 else "")
-              )
-              if len(missing_alias_channels) > max(25, len(aliases) // 5):
-                  raise SystemExit(
-                      "Too many missing display-alias channels ("
-                      f"{len(missing_alias_channels)}/{len(aliases)}); refusing publish"
-                  )
-          missing_xtream = sorted(set(xtream) - channels.keys())
-          if missing_xtream:
-              raise SystemExit("Missing Xtream alias channels: " + ", ".join(missing_xtream))
+          warn_missing_configured_channels("Spanish", channels, aliases, xtream)
           print(
               f"Validated definitive guide: {len(channels)} channels, "
               f"{len(programmes)} programmes, {len(aliases)} display-alias IDs, "

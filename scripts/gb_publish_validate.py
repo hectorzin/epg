@@ -121,6 +121,7 @@ def validate_xtream_layer(
     aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
     configured = json.loads(xtream_path.read_text(encoding="utf-8"))
     missing_alias = sorted(set(aliases) - channels)
+    missing_clones = sorted(set(configured) - channels)
     resolved, skipped = process_epg.filter_configured_xtream_aliases(
         configured,
         channels,
@@ -140,6 +141,7 @@ def validate_xtream_layer(
     applied = sorted(clone for clone in resolved if clone in channels)
     return {
         "missing_display_alias_keys": missing_alias,
+        "missing_xtream_clone_ids": missing_clones,
         "orphan_clones": orphan_clones,
         "invalid_clones": invalid_clones,
         "skipped_configured_clones": skipped,
@@ -193,10 +195,28 @@ def main() -> int:
         raise SystemExit("British clone without original: " + ", ".join(xtream_report["orphan_clones"]))
     if xtream_report["invalid_clones"]:
         raise SystemExit("British clone without programmes: " + ", ".join(xtream_report["invalid_clones"]))
-    if xtream_report["missing_display_alias_keys"]:
+    missing_aliases = xtream_report["missing_display_alias_keys"]
+    if missing_aliases:
         print(
-            "British display-alias keys skipped (original absent): "
-            f"{len(xtream_report['missing_display_alias_keys'])}"
+            "::warning::British: "
+            f"{len(missing_aliases)} configured display-alias channel(s) absent; "
+            f"aliases skipped for this run: {', '.join(missing_aliases)}"
+        )
+    missing_clones = xtream_report["missing_xtream_clone_ids"]
+    if missing_clones:
+        print(
+            "::warning::British: "
+            f"{len(missing_clones)} configured Xtream clone ID(s) absent; "
+            f"clones not generated: {', '.join(missing_clones)}"
+        )
+    skipped_clones = sorted(
+        set(xtream_report["skipped_configured_clones"]) - set(missing_clones)
+    )
+    if skipped_clones:
+        print(
+            "::warning::British: "
+            f"{len(skipped_clones)} configured Xtream clone(s) have no programmed source; "
+            f"clones not generated: {', '.join(skipped_clones)}"
         )
     print(
         "Validated British Xtream layer: "
