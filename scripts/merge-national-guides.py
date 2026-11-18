@@ -15,7 +15,12 @@ import xml.etree.ElementTree as ET
 
 NATIONAL_GUIDE_PATTERN = re.compile(r'^(?:guide-[a-z]{2}|guide-arabic)\.xml$', re.IGNORECASE)
 MADRID = ZoneInfo('Europe/Madrid')
-LAST_RUN: dict[str, int] = {'programmes_before_filter': 0, 'programmes_removed': 0}
+LAST_RUN: dict[str, int] = {
+    'programmes_before_filter': 0,
+    'programmes_removed': 0,
+    'programmes_trimmed_tomorrow': 0,
+}
+TOMORROW_PROGRAMME_CHILDREN = frozenset({'title', 'category'})
 
 
 def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path]:
@@ -80,6 +85,32 @@ def programme_overlaps_window(start: str, stop: str, window_start: datetime, win
     return programme_start < window_end and programme_stop > window_start
 
 
+def programme_start_madrid_date(programme: ET.Element) -> datetime.date:
+    start = programme.get('start') or ''
+    if not start:
+        raise ValueError('programme start is required')
+    return parse_xmltv_datetime(start).astimezone(MADRID).date()
+
+
+def trim_tomorrow_programme_metadata(result: ET.Element, window_start: datetime) -> int:
+    """Keep full metadata for programmes starting today; slim tomorrow-only starts."""
+    today = window_start.date()
+    tomorrow = today + timedelta(days=1)
+    trimmed = 0
+    for programme in result.findall('programme'):
+        try:
+            start_day = programme_start_madrid_date(programme)
+        except ValueError:
+            continue
+        if start_day != tomorrow:
+            continue
+        for child in list(programme):
+            if child.tag not in TOMORROW_PROGRAMME_CHILDREN:
+                programme.remove(child)
+        trimmed += 1
+    return trimmed
+
+
 def filter_programmes(result: ET.Element, window_start: datetime, window_end: datetime) -> int:
     """Drop programmes outside the window; return how many were removed."""
     removed = 0
@@ -110,7 +141,7 @@ def read_guide(path):
     return root
 
 
-def merge(paths, *, reference: datetime | None = None) -> ET.Element:
+def merge(paths, *, reference: datetime | None = None, trim_tomorrow_metadata: bool = True) -> ET.Element:
     channels = {}
     programs = {}
     for path in paths:
@@ -146,6 +177,9 @@ def merge(paths, *, reference: datetime | None = None) -> ET.Element:
     window_start, window_end = madrid_two_day_window(reference)
     LAST_RUN['programmes_before_filter'] = len(programs)
     LAST_RUN['programmes_removed'] = filter_programmes(result, window_start, window_end)
+    LAST_RUN['programmes_trimmed_tomorrow'] = (
+        trim_tomorrow_programme_metadata(result, window_start) if trim_tomorrow_metadata else 0
+    )
     if not result.findall('programme'):
         raise ValueError(
             'no programmes remain after filtering to today and tomorrow in Europe/Madrid '
@@ -187,10 +221,19 @@ def main():
         default=None,
         help='Interpret "today" on this calendar day in Europe/Madrid (default: now)',
     )
+    parser.add_argument(
+        '--no-trim-tomorrow-metadata',
+        action='store_true',
+        help='Keep every programme child element for both Madrid window days',
+    )
     parser.add_argument('guides', nargs='*', type=Path)
     args = parser.parse_args()
     paths = resolve_guide_paths(args.root, args.guides)
-    merged = merge(paths, reference=args.reference_date)
+    merged = merge(
+        paths,
+        reference=args.reference_date,
+        trim_tomorrow_metadata=not args.no_trim_tomorrow_metadata,
+    )
     window_start, window_end = madrid_two_day_window(args.reference_date)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     ET.indent(merged, space='  ')
@@ -201,7 +244,8 @@ def main():
         f'Merged {", ".join(names)}: {len(merged.findall("channel"))} channels, '
         f'{programme_count} programmes '
         f'(Madrid window {window_start.date()}..{(window_end - timedelta(days=1)).date()}, '
-        f'{LAST_RUN["programmes_removed"]} programmes dropped)'
+        f'{LAST_RUN["programmes_removed"]} programmes dropped, '
+        f'{LAST_RUN["programmes_trimmed_tomorrow"]} tomorrow starts slimmed)'
     )
 
 

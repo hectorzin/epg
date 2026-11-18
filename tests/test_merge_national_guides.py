@@ -234,5 +234,101 @@ class MadridProgrammeWindowTests(unittest.TestCase):
         self.assertEqual(madrid.isoformat(), '2026-11-17T02:00:00+01:00')
 
 
+class TomorrowMetadataTrimTests(unittest.TestCase):
+    def _write_guide(self, path: Path, programmes):
+        root = ET.Element('tv')
+        channel = ET.SubElement(root, 'channel', id='ch')
+        ET.SubElement(channel, 'display-name').text = 'Channel'
+        for start, stop, title, extra in programmes:
+            programme = ET.SubElement(root, 'programme', channel='ch', start=start, stop=stop)
+            ET.SubElement(programme, 'title').text = title
+            if extra:
+                ET.SubElement(programme, 'desc').text = extra
+                ET.SubElement(programme, 'category').text = 'News'
+                ET.SubElement(programme, 'episode-num', system='xmltv_ns').text = '0.1.0/1'
+        ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
+
+    def test_tomorrow_start_drops_secondary_metadata(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'guide-es.xml'
+            # 2026-11-18 02:00 Madrid = 20261118010000 +0000
+            self._write_guide(
+                path,
+                [
+                    (
+                        '20261118010000 +0000',
+                        '20261118020000 +0000',
+                        'Tomorrow',
+                        'Long description',
+                    ),
+                ],
+            )
+            merged = module.merge([path], reference=TEST_REFERENCE)
+            programme = merged.find('programme')
+            child_tags = {child.tag for child in programme}
+            self.assertEqual(child_tags, {'title', 'category'})
+            self.assertEqual(programme.find('title').text, 'Tomorrow')
+            self.assertEqual(module.LAST_RUN['programmes_trimmed_tomorrow'], 1)
+
+    def test_today_start_keeps_secondary_metadata(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'guide-es.xml'
+            self._write_guide(
+                path,
+                [
+                    (
+                        '20261117010000 +0000',
+                        '20261117020000 +0000',
+                        'Today',
+                        'Keep me',
+                    ),
+                ],
+            )
+            merged = module.merge([path], reference=TEST_REFERENCE)
+            programme = merged.find('programme')
+            self.assertIsNotNone(programme.find('desc'))
+            self.assertIsNotNone(programme.find('episode-num'))
+            self.assertEqual(module.LAST_RUN['programmes_trimmed_tomorrow'], 0)
+
+    def test_cross_midnight_starting_today_keeps_metadata(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'guide-es.xml'
+            # Starts 2026-11-17 23:30 Madrid, ends next Madrid morning
+            self._write_guide(
+                path,
+                [
+                    (
+                        '20261117223000 +0000',
+                        '20261118083000 +0000',
+                        'Late show',
+                        'Spans midnight',
+                    ),
+                ],
+            )
+            merged = module.merge([path], reference=TEST_REFERENCE)
+            programme = merged.find('programme')
+            self.assertIsNotNone(programme.find('desc'))
+            self.assertEqual(module.LAST_RUN['programmes_trimmed_tomorrow'], 0)
+
+    def test_trim_can_be_disabled(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'guide-es.xml'
+            self._write_guide(
+                path,
+                [
+                    (
+                        '20261118010000 +0000',
+                        '20261118020000 +0000',
+                        'Tomorrow',
+                        'Still here',
+                    ),
+                ],
+            )
+            merged = module.merge([path], reference=TEST_REFERENCE, trim_tomorrow_metadata=False)
+            programme = merged.find('programme')
+            self.assertIsNotNone(programme.find('desc'))
+            self.assertEqual(module.LAST_RUN['programmes_trimmed_tomorrow'], 0)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -27,24 +27,28 @@ GUIDES = {
     "FR": ROOT / "guide-fr.xml",
     "ARABIC": ROOT / "guide-arabic.xml",
     "GB": ROOT / "guide-gb.xml",
+    "PT": ROOT / "guide-pt.xml",
 }
 ALIAS_OUT = {
     "ES": ROOT / "epg" / "aliases.json",
     "FR": ROOT / "epg" / "aliases-fr.json",
     "ARABIC": ROOT / "epg" / "aliases-arabic.json",
     "GB": ROOT / "epg" / "aliases-gb.json",
+    "PT": ROOT / "epg" / "aliases-pt.json",
 }
 CLONE_OUT = {
     "ES": ROOT / "epg" / "xtream-aliases.json",
     "FR": ROOT / "epg" / "xtream-aliases-fr.json",
     "ARABIC": ROOT / "epg" / "xtream-aliases-arabic.json",
     "GB": ROOT / "epg" / "xtream-aliases-gb.json",
+    "PT": ROOT / "epg" / "xtream-aliases-pt.json",
 }
 PENDING_OUT = {
     "ES": ROOT / "epg" / "xtream-pending-es.json",
     "FR": ROOT / "epg" / "xtream-pending-fr.json",
     "ARABIC": ROOT / "epg" / "xtream-pending-arabic.json",
     "GB": ROOT / "epg" / "xtream-pending-gb.json",
+    "PT": ROOT / "epg" / "xtream-pending-pt.json",
 }
 
 
@@ -193,6 +197,9 @@ def main() -> int:
 
     for region, guide_path in GUIDES.items():
         if not guide_path.is_file():
+            if region == "PT":
+                print(f"Skipping PT: missing guide {guide_path}", file=sys.stderr)
+                continue
             print(f"Missing guide: {guide_path}", file=sys.stderr)
             return 1
         guide_ids, guide_names, programmed = load_guide_channels(guide_path)

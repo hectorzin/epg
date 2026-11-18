@@ -95,10 +95,18 @@ sites/<dominio>/
 ## GitHub Actions (EPG)
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
-  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml` y `generate-gb.yml`, luego fusiona con
+  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml` y
+  `generate-pt.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
-  altera los `guide-*.xml`: conserva todos los canales y metadatos, pero filtra la parrilla a hoy y
-  mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se mantienen).
+  altera los `guide-*.xml`: conserva todos los canales (IDs, alias, logos), pero filtra la parrilla
+  a hoy y mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se
+  mantienen). Solo en `guide.xml`, los programas cuya hora de inicio cae en **mañana** (Madrid)
+  conservan `title`, `category` y los atributos del `<programme>`; el resto de metadatos del
+  programa se omiten. Los que empiezan hoy, aunque terminen mañana, conservan todos los metadatos.
+- El generador portugués publica `guide-pt.xml` con `scripts/pt-epg.py` (prioridad NOS → MEO →
+  Vodafone → TVI, identidad de mercado PT, colisiones con feed `Portugal`). Tras el merge crudo,
+  `process-epg --profile pt` con `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`. El grab usa
+  `--days=2`.
 - El generador British publica `guide-gb.xml` con `scripts/gb-epg.py` (selección incremental,
   merge por calidad Virgin → Sky → tv24 → EPGShare, IDs débiles rechazados, colisiones @UK frente a
   ES/FR/Arabic). Fuentes en upstream iptv-org/epg: EPGShare UK1, Sky (site_id `GB#`), tv24.co.uk y
@@ -111,7 +119,7 @@ sites/<dominio>/
 - Cada generador nacional publica únicamente su guía vía `scripts/ci/publish-xmltv.sh`
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
 - **Capa Xtream obligatoria:** tras el grab/XMLTV crudo, cada workflow ejecuta
-  `scripts/process-epg.py` con `--profile es|fr|arabic` y los JSON en `epg/aliases*.json` /
+  `scripts/process-epg.py` con `--profile es|fr|arabic|gb|pt` y los JSON en `epg/aliases*.json` /
   `epg/xtream-aliases*.json` (p. ej. `aliases-gb.json`, `xtream-aliases-gb.json`). El paso de
   publish valida que cada clone exista en la guía. Los mappings se regeneran en local con
   `python scripts/build_xtream_mappings.py` (`XTREAM_DB` opcional); no commitear credenciales,

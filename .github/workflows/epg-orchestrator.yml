@@ -39,8 +39,13 @@ jobs:
     uses: ./.github/workflows/generate-gb.yml
     secrets: inherit
 
+  portugal:
+    if: ${{ inputs.merge_only != true }}
+    uses: ./.github/workflows/generate-pt.yml
+    secrets: inherit
+
   merge-global:
-    needs: [spain, france, arabic, britain]
+    needs: [spain, france, arabic, britain, portugal]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     concurrency:
@@ -74,5 +79,6 @@ jobs:
             echo "- France: ${{ needs.france.result }}"
             echo "- Arabic: ${{ needs.arabic.result }}"
             echo "- Britain: ${{ needs.britain.result }}"
+            echo "- Portugal: ${{ needs.portugal.result }}"
             echo "- Global merge: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"

@@ -15,6 +15,7 @@ PROFILES = {
     "fr": ("epg/aliases-fr.json", "epg/xtream-aliases-fr.json", "guide-fr.xml"),
     "arabic": ("epg/aliases-arabic.json", "epg/xtream-aliases-arabic.json", "guide-arabic.xml"),
     "gb": ("epg/aliases-gb.json", "epg/xtream-aliases-gb.json", "guide-gb.xml"),
+    "pt": ("epg/aliases-pt.json", "epg/xtream-aliases-pt.json", "guide-pt.xml"),
 }
 
 

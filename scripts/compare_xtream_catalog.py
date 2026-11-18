@@ -31,6 +31,7 @@ PROFILES = {
         "ARABIC",
     ),
     "gb": ("guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json", "GB"),
+    "pt": ("guide-pt.xml", "epg/aliases-pt.json", "epg/xtream-aliases-pt.json", "PT"),
 }
 
 

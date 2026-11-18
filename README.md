@@ -50,15 +50,16 @@ trabaja con una conexión y un segundo de demora entre peticiones.
 ## Como funciona
 
 1. El workflow orquestador (`epg-orchestrator.yml`) se ejecuta cada día a las 03:00 UTC (o manualmente).
-2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml` y `generate-gb.yml`). Cada uno publica su guía nacional.
+2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml` y `generate-pt.yml`). Cada uno publica su guía nacional.
 3. España lee el fichero maestro, ejecuta sus parsers, enriquece el XMLTV con la capa Xtream (`scripts/process-epg.py`, `epg/aliases.json`, `epg/xtream-aliases.json`) y publica `guide-es.xml`.
 4. Francia genera `guide-fr.xml` (SFR, Canal+, Telecablesat) y aplica la misma capa con `epg/aliases-fr.json` y `epg/xtream-aliases-fr.json` antes de publicar.
 5. Arabic genera `guide-arabic.xml` y aplica `epg/aliases-arabic.json` y `epg/xtream-aliases-arabic.json`.
 6. Reino Unido genera `guide-gb.xml` fusionando EPGShare UK1, Sky, tv24.co.uk y Virgin TV Go con `scripts/gb-epg.py`, reescribe colisiones de ID con otras regiones a `@UK` y aplica `epg/aliases-gb.json` y `epg/xtream-aliases-gb.json`.
-7. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`. La fusión conserva **todos** los canales (IDs, `display-name`, alias y clones Xtream) de cada guía nacional, pero **recorta la parrilla global** a **hoy y mañana** según `Europe/Madrid`, respetando las zonas horarias XMLTV y manteniendo cualquier programa que solape ese intervalo. Las guías `guide-*.xml` no se modifican.
-8. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
-9. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml`, `guide-arabic.xml` y `guide-gb.xml`.
-10. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
+7. Portugal genera `guide-pt.xml` con `scripts/pt-epg.py` (NOS, MEO, Vodafone, TVI; dos días) y aplica `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`.
+8. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`. La fusión conserva **todos** los canales (IDs, `display-name`, alias y clones Xtream) de cada guía nacional, pero **recorta la parrilla global** a **hoy y mañana** según `Europe/Madrid`, respetando las zonas horarias XMLTV y manteniendo cualquier programa que solape ese intervalo. En `guide.xml` únicamente, los programas que **empiezan** mañana (fecha de inicio en Madrid) dejan fuera descripciones, iconos y demás metadatos secundarios del `<programme>` (se conservan `title`, `category` y atributos `channel`/`start`/`stop`); los que empiezan hoy mantienen metadatos completos aunque acaben mañana. Las guías `guide-*.xml` no se modifican.
+9. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
+10. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml`, `guide-arabic.xml`, `guide-gb.xml` y `guide-pt.xml`.
+11. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
 
 **Nueva región:** cualquier guía nacional que se incorpore debe incluir su propio par de ficheros `epg/aliases-XX.json` y `epg/xtream-aliases-XX.json`, un paso `process-epg.py --profile …` en el workflow y validación de que cada clone Xtream existe en el XMLTV publicado. Los mappings se generan en local con `scripts/build_xtream_mappings.py` (lee la base IPTVnator en solo lectura; no se commitea ni se pasa a CI).
 
