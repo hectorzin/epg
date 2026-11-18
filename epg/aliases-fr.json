@@ -419,5 +419,71 @@
   ],
   "CartoonNetworkWesternEurope.uk@SD": [
     "CARTOON NETWORK"
+  ],
+  "2MMonde.ma@SD": [
+    "MA 2M Maroc",
+    "TNT 2M."
+  ],
+  "AlMaghribia.ma@SD": [
+    "MA Al Maghribia HD",
+    "TNT Al Maghribia."
+  ],
+  "AlAoula.ma@SD": [
+    "TNT Al Aoula HD."
+  ],
+  "Medi1TVAfrique.ma@SD": [
+    "TNT Medi1 TV."
+  ],
+  "Arryadia.ma@HD": [
+    "MA Arryadia HD",
+    "TNT Arryadia FULL HD",
+    "TNT Arryadia HD."
+  ],
+  "Assadissa.ma@SD": [
+    "MA Assadissa",
+    "TNT Assadissa HD."
+  ],
+  "TeleMaroc.ma@SD": [
+    "MA Tele Maroc"
+  ],
+  "ChadaTV.ma@SD": [
+    "MA CHADA TV HD"
+  ],
+  "Athaqafia.ma@SD": [
+    "MA Athaqafia HD",
+    "TNT Athaqafia ."
+  ],
+  "EnnaharTV.dz@SD": [
+    "DZ ENNAHAR TV"
+  ],
+  "EchoroukNews.dz@SD": [
+    "DZ Echorouk NEWS"
+  ],
+  "TV3.dz@SD": [
+    "DZ A3 HD"
+  ],
+  "SamiraTV.dz@SD": [
+    "DZ Samira TV"
+  ],
+  "ElBiladTV.dz@SD": [
+    "DZ EL BILAD"
+  ],
+  "TV2.dz@SD": [
+    "DZ CANAL ALGERIE"
+  ],
+  "BahiaTV.dz@SD": [
+    "DZ Bahia TV"
+  ],
+  "TT1.tn@SD": [
+    "TN Tunisia NAT 1"
+  ],
+  "HannibalTV.tn@SD": [
+    "TN Hannibal TV"
+  ],
+  "ElhiwarEttounsiTV.tn@SD": [
+    "TN Elhiwar Ettounsi"
+  ],
+  "CarthagePlus.tn@SD": [
+    "TN Carthage"
   ]
 }

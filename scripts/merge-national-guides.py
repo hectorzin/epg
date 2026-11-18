@@ -116,7 +116,23 @@ def merge(paths, *, reference: datetime | None = None) -> ET.Element:
     for path in paths:
         root = read_guide(path)
         for c in root.findall('channel'):
-            channels.setdefault(c.get('id'), copy.deepcopy(c))
+            channel_id = c.get('id')
+            if channel_id not in channels:
+                channels[channel_id] = copy.deepcopy(c)
+                continue
+            # Keep aliases from every national producer when the same XMLTV
+            # channel is present in multiple guides. The first definition
+            # remains authoritative for other metadata.
+            canonical = channels[channel_id]
+            known_names = {
+                (node.text or '', tuple(sorted(node.attrib.items())))
+                for node in canonical.findall('display-name')
+            }
+            for display_name in c.findall('display-name'):
+                identity = (display_name.text or '', tuple(sorted(display_name.attrib.items())))
+                if identity not in known_names:
+                    canonical.append(copy.deepcopy(display_name))
+                    known_names.add(identity)
         for p in root.findall('programme'):
             key = (p.get('channel'), p.get('start'), p.get('stop'), tuple((x.tag, x.text or '') for x in p))
             programs.setdefault(key, copy.deepcopy(p))

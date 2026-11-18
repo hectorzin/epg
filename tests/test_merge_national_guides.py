@@ -147,6 +147,45 @@ class NationalGuideMergeTests(unittest.TestCase):
             self.assertEqual(len(merged.findall('channel')), 3)
             self.assertEqual(len(merged.findall('programme')), 3)
 
+    def test_duplicate_channels_keep_display_aliases_from_later_national_guides(self):
+        with tempfile.TemporaryDirectory() as d:
+            first = Path(d) / 'guide-arabic.xml'
+            second = Path(d) / 'guide-fr.xml'
+            first_root = ET.Element('tv')
+            first_channel = ET.SubElement(first_root, 'channel', id='shared.id')
+            ET.SubElement(first_channel, 'display-name').text = 'Canonical'
+            first_programme = ET.SubElement(
+                first_root,
+                'programme',
+                channel='shared.id',
+                start='20261117010000 +0000',
+                stop='20261117020000 +0000',
+            )
+            ET.SubElement(first_programme, 'title').text = 'Arabic schedule'
+            second_root = ET.Element('tv')
+            second_channel = ET.SubElement(second_root, 'channel', id='shared.id')
+            ET.SubElement(second_channel, 'display-name').text = 'Canonical'
+            ET.SubElement(second_channel, 'display-name').text = 'Xtream alias'
+            second_programme = ET.SubElement(
+                second_root,
+                'programme',
+                channel='shared.id',
+                start='20261117020000 +0000',
+                stop='20261117030000 +0000',
+            )
+            ET.SubElement(second_programme, 'title').text = 'French schedule'
+            ET.ElementTree(first_root).write(first)
+            ET.ElementTree(second_root).write(second)
+
+            merged = module.merge([first, second], reference=TEST_REFERENCE)
+            channel = merged.find("channel[@id='shared.id']")
+            self.assertEqual(
+                [node.text for node in channel.findall('display-name')],
+                ['Canonical', 'Xtream alias'],
+            )
+            self.assertEqual(len(merged.findall('channel')), 1)
+            self.assertEqual(len(merged.findall('programme')), 2)
+
 
 class MadridProgrammeWindowTests(unittest.TestCase):
     def test_window_is_today_and_tomorrow_in_madrid(self):

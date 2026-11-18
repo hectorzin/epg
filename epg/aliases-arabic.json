@@ -27,7 +27,8 @@
   ],
   "MBC5.ae@SD": [
     "MBC5 HD",
-    "MBC 5"
+    "MBC 5",
+    "MA MBC5"
   ],
   "MBCAction.ae@SD": [
     "MBC Action HD",
@@ -204,7 +205,8 @@
     "Sada El Balad 2"
   ],
   "MBC1.ae@SD": [
-    "MBC1 HD"
+    "MBC1 HD",
+    "MA MBC1"
   ],
   "MBC3.ae@SD": [
     "MBC3 HD",
@@ -267,5 +269,17 @@
   ],
   "StarWorldMiddleEast.ae@SD": [
     "beIN Star World HD"
+  ],
+  "AlAoula.ma@MiddleEast": [
+    "MA Al Aoula Inter HD"
+  ],
+  "EchoroukTV.dz@SD": [
+    "DZ Echorouk TV HD"
+  ],
+  "NessmaElJadida.tn@SD": [
+    "TN Nessma"
+  ],
+  "ElWatania2.tn@SD": [
+    "TN Tunis TV Nat 2"
   ]
 }
