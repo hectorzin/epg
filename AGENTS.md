@@ -96,7 +96,9 @@ sites/<dominio>/
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
   `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml` y `generate-gb.yml`, luego fusiona con
-  `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`.
+  `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
+  altera los `guide-*.xml`: conserva todos los canales y metadatos, pero filtra la parrilla a hoy y
+  mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se mantienen).
 - El generador British publica `guide-gb.xml` con `scripts/gb-epg.py` (selección incremental,
   merge por calidad Virgin → Sky → tv24 → EPGShare, IDs débiles rechazados, colisiones @UK frente a
   ES/FR/Arabic). Fuentes en upstream iptv-org/epg: EPGShare UK1, Sky (site_id `GB#`), tv24.co.uk y

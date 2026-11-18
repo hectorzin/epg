@@ -3,7 +3,10 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
 import xml.etree.ElementTree as ET
 
 SCRIPT = Path(__file__).resolve().parents[1] / 'scripts' / 'merge-national-guides.py'
@@ -11,12 +14,14 @@ SPEC = importlib.util.spec_from_file_location('merge_national_guides', SCRIPT)
 module = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(module)
 
+TEST_REFERENCE = datetime(2026, 11, 17, 15, 0, tzinfo=ZoneInfo('Europe/Madrid'))
 
-def guide(channel, title):
+
+def guide(channel, title, *, start='20261117010000 +0000', stop='20261117020000 +0000'):
     root = ET.Element('tv')
     c = ET.SubElement(root, 'channel', id=channel)
     ET.SubElement(c, 'display-name').text = channel
-    p = ET.SubElement(root, 'programme', channel=channel, start='20261117010000 +0000', stop='20261117020000 +0000')
+    p = ET.SubElement(root, 'programme', channel=channel, start=start, stop=stop)
     ET.SubElement(p, 'title').text = title
     return root
 
@@ -60,6 +65,8 @@ class NationalGuideMergeTests(unittest.TestCase):
                     str(root),
                     '--output',
                     str(out),
+                    '--reference-date',
+                    '2026-11-17',
                 ],
                 check=True,
                 capture_output=True,
@@ -67,24 +74,24 @@ class NationalGuideMergeTests(unittest.TestCase):
             )
             merged = ET.parse(out).getroot()
             self.assertEqual(len(merged.findall('programme')), 1)
+            self.assertEqual(len(merged.findall('channel')), 1)
 
     def test_duplicate_channels_programmes_and_missing_country(self):
         with tempfile.TemporaryDirectory() as d:
             one, two = Path(d) / 'es.xml', Path(d) / 'fr.xml'
             ET.ElementTree(guide('shared.id', 'Same')).write(one)
             ET.ElementTree(guide('shared.id', 'Same')).write(two)
-            merged = module.merge([one, two])
+            merged = module.merge([one, two], reference=TEST_REFERENCE)
             self.assertEqual(len(merged.findall('channel')), 1)
             self.assertEqual(len(merged.findall('programme')), 1)
-            # Omitting a national guide preserves every remaining country's data.
-            self.assertEqual(len(module.merge([one]).findall('programme')), 1)
+            self.assertEqual(len(module.merge([one], reference=TEST_REFERENCE).findall('programme')), 1)
 
     def test_invalid_xml_and_invalid_references_are_rejected(self):
         with tempfile.TemporaryDirectory() as d:
             bad = Path(d) / 'bad.xml'
             bad.write_text('<tv><programme channel="missing"/></tv>', encoding='utf8')
             with self.assertRaises((ValueError, ET.ParseError)):
-                module.merge([bad])
+                module.merge([bad], reference=TEST_REFERENCE)
 
     def test_empty_national_file_blocks_automatic_merge(self):
         with tempfile.TemporaryDirectory() as d:
@@ -102,6 +109,8 @@ class NationalGuideMergeTests(unittest.TestCase):
                         str(root),
                         '--output',
                         str(root / 'guide.xml'),
+                        '--reference-date',
+                        '2026-11-17',
                     ],
                     check=True,
                     capture_output=True,
@@ -134,9 +143,56 @@ class NationalGuideMergeTests(unittest.TestCase):
                 [p.name for p in discovered],
                 ['guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml'],
             )
-            merged = module.merge(discovered)
+            merged = module.merge(discovered, reference=TEST_REFERENCE)
             self.assertEqual(len(merged.findall('channel')), 3)
             self.assertEqual(len(merged.findall('programme')), 3)
+
+
+class MadridProgrammeWindowTests(unittest.TestCase):
+    def test_window_is_today_and_tomorrow_in_madrid(self):
+        start, end = module.madrid_two_day_window(TEST_REFERENCE)
+        self.assertEqual(start.isoformat(), '2026-11-17T00:00:00+01:00')
+        self.assertEqual(end.isoformat(), '2026-11-19T00:00:00+01:00')
+
+    def test_overlap_keeps_programmes_spanning_boundaries(self):
+        self.assertTrue(
+            module.programme_overlaps_window(
+                '20261116223000 +0000',
+                '20261117013000 +0000',
+                *module.madrid_two_day_window(TEST_REFERENCE),
+            )
+        )
+        self.assertTrue(
+            module.programme_overlaps_window(
+                '20261118220000 +0000',
+                '20261119013000 +0000',
+                *module.madrid_two_day_window(TEST_REFERENCE),
+            )
+        )
+
+    def test_merge_drops_outside_window_but_keeps_channels(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = ET.Element('tv')
+            channel = ET.SubElement(root, 'channel', id='ch')
+            ET.SubElement(channel, 'display-name').text = 'Channel'
+            for start, stop, title in (
+                ('20261110010000 +0000', '20261110020000 +0000', 'Too early'),
+                ('20261117010000 +0000', '20261117020000 +0000', 'Inside'),
+                ('20261119010000 +0000', '20261119020000 +0000', 'Too late'),
+            ):
+                programme = ET.SubElement(root, 'programme', channel='ch', start=start, stop=stop)
+                ET.SubElement(programme, 'title').text = title
+            path = Path(d) / 'guide-es.xml'
+            ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
+            merged = module.merge([path], reference=TEST_REFERENCE)
+            titles = [node.text for node in merged.findall('programme/title')]
+            self.assertEqual(titles, ['Inside'])
+            self.assertEqual(len(merged.findall('channel')), 1)
+
+    def test_parse_xmltv_datetime_respects_offsets(self):
+        parsed = module.parse_xmltv_datetime('20261117010000 +0000')
+        madrid = parsed.astimezone(ZoneInfo('Europe/Madrid'))
+        self.assertEqual(madrid.isoformat(), '2026-11-17T02:00:00+01:00')
 
 
 if __name__ == '__main__':

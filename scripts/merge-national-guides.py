@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """Merge all valid national XMLTV guides into one global guide."""
+
+from __future__ import annotations
+
 import argparse
 import copy
 import re
 import sys
-import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import xml.etree.ElementTree as ET
 
 NATIONAL_GUIDE_PATTERN = re.compile(r'^(?:guide-[a-z]{2}|guide-arabic)\.xml$', re.IGNORECASE)
+MADRID = ZoneInfo('Europe/Madrid')
+LAST_RUN: dict[str, int] = {'programmes_before_filter': 0, 'programmes_removed': 0}
 
 
 def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path]:
@@ -32,6 +40,62 @@ def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path
     return validated
 
 
+def parse_xmltv_datetime(value: str) -> datetime:
+    """Parse an XMLTV programme start/stop timestamp with its timezone offset."""
+    raw = (value or '').strip()
+    if not raw:
+        raise ValueError('empty XMLTV timestamp')
+    parts = raw.split(None, 1)
+    if not re.fullmatch(r'\d{14}', parts[0]):
+        raise ValueError(f'unrecognised XMLTV timestamp: {value!r}')
+    when = datetime.strptime(parts[0], '%Y%m%d%H%M%S')
+    if len(parts) == 1:
+        return when.replace(tzinfo=timezone.utc)
+    tz_part = parts[1].strip()
+    upper = tz_part.upper()
+    if upper in ('Z', 'UTC'):
+        return when.replace(tzinfo=timezone.utc)
+    offset_match = re.fullmatch(r'([+-])(\d{2}):?(\d{2})', tz_part)
+    if not offset_match:
+        raise ValueError(f'unrecognised XMLTV timezone: {value!r}')
+    sign = 1 if offset_match.group(1) == '+' else -1
+    hours = int(offset_match.group(2))
+    minutes = int(offset_match.group(3))
+    offset = timezone(sign * timedelta(hours=hours, minutes=minutes))
+    return when.replace(tzinfo=offset)
+
+
+def madrid_two_day_window(reference: datetime | None = None) -> tuple[datetime, datetime]:
+    """Inclusive today and tomorrow in Europe/Madrid, as [start, end)."""
+    anchor = datetime.now(MADRID) if reference is None else reference.astimezone(MADRID)
+    start = anchor.replace(hour=0, minute=0, second=0, microsecond=0)
+    end = start + timedelta(days=2)
+    return start, end
+
+
+def programme_overlaps_window(start: str, stop: str, window_start: datetime, window_end: datetime) -> bool:
+    """Keep programmes that overlap the Madrid window (half-open interval)."""
+    programme_start = parse_xmltv_datetime(start).astimezone(MADRID)
+    programme_stop = parse_xmltv_datetime(stop).astimezone(MADRID)
+    return programme_start < window_end and programme_stop > window_start
+
+
+def filter_programmes(result: ET.Element, window_start: datetime, window_end: datetime) -> int:
+    """Drop programmes outside the window; return how many were removed."""
+    removed = 0
+    for programme in list(result.findall('programme')):
+        start = programme.get('start') or ''
+        stop = programme.get('stop') or ''
+        try:
+            keep = programme_overlaps_window(start, stop, window_start, window_end)
+        except ValueError as exc:
+            raise ValueError(f'programme timestamp could not be parsed ({start!r}, {stop!r}): {exc}') from exc
+        if not keep:
+            result.remove(programme)
+            removed += 1
+    return removed
+
+
 def read_guide(path):
     root = ET.parse(path).getroot()
     if root.tag != 'tv':
@@ -46,7 +110,7 @@ def read_guide(path):
     return root
 
 
-def merge(paths):
+def merge(paths, *, reference: datetime | None = None) -> ET.Element:
     channels = {}
     programs = {}
     for path in paths:
@@ -63,6 +127,14 @@ def merge(paths):
         result.append(c)
     for p in programs.values():
         result.append(p)
+    window_start, window_end = madrid_two_day_window(reference)
+    LAST_RUN['programmes_before_filter'] = len(programs)
+    LAST_RUN['programmes_removed'] = filter_programmes(result, window_start, window_end)
+    if not result.findall('programme'):
+        raise ValueError(
+            'no programmes remain after filtering to today and tomorrow in Europe/Madrid '
+            f'({window_start.isoformat()} .. {window_end.isoformat()})'
+        )
     return result
 
 
@@ -76,6 +148,14 @@ def resolve_guide_paths(root: Path | None, guides: list[Path]) -> list[Path]:
     return discovered
 
 
+def parse_reference_date(value: str) -> datetime:
+    try:
+        when = datetime.strptime(value, '%Y-%m-%d')
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError('reference date must use YYYY-MM-DD') from exc
+    return when.replace(tzinfo=MADRID)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -85,17 +165,27 @@ def main():
         help='Directory to scan for guide-XX.xml when no guide paths are given',
     )
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument(
+        '--reference-date',
+        type=parse_reference_date,
+        default=None,
+        help='Interpret "today" on this calendar day in Europe/Madrid (default: now)',
+    )
     parser.add_argument('guides', nargs='*', type=Path)
     args = parser.parse_args()
     paths = resolve_guide_paths(args.root, args.guides)
-    merged = merge(paths)
+    merged = merge(paths, reference=args.reference_date)
+    window_start, window_end = madrid_two_day_window(args.reference_date)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     ET.indent(merged, space='  ')
     ET.ElementTree(merged).write(args.output, encoding='utf-8', xml_declaration=True)
     names = [p.name for p in paths]
+    programme_count = len(merged.findall('programme'))
     print(
         f'Merged {", ".join(names)}: {len(merged.findall("channel"))} channels, '
-        f'{len(merged.findall("programme"))} programmes'
+        f'{programme_count} programmes '
+        f'(Madrid window {window_start.date()}..{(window_end - timedelta(days=1)).date()}, '
+        f'{LAST_RUN["programmes_removed"]} programmes dropped)'
     )
 
 

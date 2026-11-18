@@ -55,7 +55,7 @@ trabaja con una conexión y un segundo de demora entre peticiones.
 4. Francia genera `guide-fr.xml` (SFR, Canal+, Telecablesat) y aplica la misma capa con `epg/aliases-fr.json` y `epg/xtream-aliases-fr.json` antes de publicar.
 5. Arabic genera `guide-arabic.xml` y aplica `epg/aliases-arabic.json` y `epg/xtream-aliases-arabic.json`.
 6. Reino Unido genera `guide-gb.xml` fusionando EPGShare UK1, Sky, tv24.co.uk y Virgin TV Go con `scripts/gb-epg.py`, reescribe colisiones de ID con otras regiones a `@UK` y aplica `epg/aliases-gb.json` y `epg/xtream-aliases-gb.json`.
-7. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`.
+7. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` y publica una sola vez `guide.xml`. La fusión conserva **todos** los canales (IDs, `display-name`, alias y clones Xtream) de cada guía nacional, pero **recorta la parrilla global** a **hoy y mañana** según `Europe/Madrid`, respetando las zonas horarias XMLTV y manteniendo cualquier programa que solape ese intervalo. Las guías `guide-*.xml` no se modifican.
 8. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
 9. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml`, `guide-es.xml`, `guide-fr.xml`, `guide-arabic.xml` y `guide-gb.xml`.
 10. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
@@ -315,9 +315,17 @@ Ejecuta los tests de los parsers de cada site y los tests de los comandos, inclu
 npm run lint
 ```
 
+## Fusión global manual
+
+```sh
+python scripts/merge-national-guides.py --root . --output guide.xml
+```
+
+Usa el mismo recorte de dos días en `Europe/Madrid` que el orquestador. Opcionalmente puedes fijar el día de referencia con `--reference-date YYYY-MM-DD` (zona Madrid) para pruebas o reproducción.
+
 ## Uso del guide.xml
 
-El fichero `guide.xml` generado esta en formato [XMLTV](https://wiki.xmltv.org/index.php/XMLTVFormat) y es compatible con:
+El fichero `guide.xml` global combina las guías nacionales y limita la parrilla a **hoy y mañana** (calendario de Madrid). Los ficheros `guide-*.xml` conservan su ventana completa. El formato es [XMLTV](https://wiki.xmltv.org/index.php/XMLTVFormat) y es compatible con:
 
 - **Kodi** (PVR IPTV Simple Client)
 - **TiviMate**
