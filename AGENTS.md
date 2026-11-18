@@ -33,7 +33,8 @@ epg/
 │   ├── generate-arabic.yml     # Publica solo guide-arabic.xml
 │   ├── generate-gb.yml         # Publica solo guide-gb.xml
 │   ├── generate-pt.yml         # Publica solo guide-pt.xml
-│   └── generate-nl.yml         # Publica solo guide-nl.xml
+│   ├── generate-nl.yml         # Publica solo guide-nl.xml
+│   └── generate-it.yml         # Publica solo guide-it.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── commands/
@@ -98,7 +99,7 @@ sites/<dominio>/
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
- `generate-pt.yml` y `generate-nl.yml`, luego fusiona con
+ `generate-pt.yml`, `generate-nl.yml` y `generate-it.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
   altera los `guide-*.xml`: conserva todos los canales (IDs, alias, logos), pero filtra la parrilla
   a hoy y mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se
@@ -110,14 +111,20 @@ sites/<dominio>/
  `process-epg --profile pt` con `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`. El grab usa
  `--days=2`.
 - El generador neerlandés publica `guide-nl.xml` con `scripts/nl-epg.py` (Ziggo → Delta →
- tvgids.nl, huecos por hora de inicio, colisiones con feed `@Netherlands`). Delta usa selección
- incremental y `epg/nl-delta-grab-excludes.json` para omitir `PROGRAM_NOT_FOUND` conocidos. Tras
- el merge crudo, `process-epg --profile nl` con `epg/aliases-nl.json` y
- `epg/xtream-aliases-nl.json` (sin clones automáticos; equivalencias curadas en
- `epg/global-xtream-policy.json`). Validación con `scripts/nl_publish_validate.py` y simulación
- AquaPlay/IPTVnator vía `scripts/nl_catalog_match.py` cuando existe
- `temp/nl-xtream-catalog.json`. El panel NH Nieuws debe resolver a `NH.nl@SD`, no clonar
- `nponieuws.nl`. El grab usa `--days=2`.
+  tvgids.nl, huecos por hora de inicio, colisiones con feed `@Netherlands`). Delta usa selección
+  incremental y `epg/nl-delta-grab-excludes.json` para omitir `PROGRAM_NOT_FOUND` conocidos. Tras
+  el merge crudo, `process-epg --profile nl` con `epg/aliases-nl.json` y
+  `epg/xtream-aliases-nl.json` (sin clones automáticos; equivalencias curadas en
+  `epg/global-xtream-policy.json`). Validación con `scripts/nl_publish_validate.py` y simulación
+  AquaPlay/IPTVnator vía `scripts/nl_catalog_match.py` cuando existe
+  `temp/nl-xtream-catalog.json`. El panel NH Nieuws debe resolver a `NH.nl@SD`, no clonar
+  `nponieuws.nl`. El grab usa `--days=2`.
+- El generador italiano publica `guide-it.xml` con `scripts/it-epg.py` (guidatv.sky.it →
+  mediasetinfinity → raiplay.it → tivu.tv, selección incremental, colisiones internacionales
+  `@Italy`). No usa guida.tv, superguidatv ni EPGShare. Tras el merge crudo,
+  `process-epg --profile it` con `epg/aliases-it.json` y `epg/xtream-aliases-it.json` (vacío:
+  panel Xtream sin `epg_channel_id`). Validación con `scripts/it_publish_validate.py` y cobertura
+  curada vía `scripts/it_catalog_match.py`. El grab usa `--days=2`.
 - El generador British publica `guide-gb.xml` con `scripts/gb-epg.py` (selección incremental,
   merge por calidad Virgin → Sky → tv24 → EPGShare, IDs débiles rechazados, colisiones @UK frente a
   ES/FR/Arabic). Fuentes en upstream iptv-org/epg: EPGShare UK1, Sky (site_id `GB#`), tv24.co.uk y

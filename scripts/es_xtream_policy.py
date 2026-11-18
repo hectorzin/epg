@@ -19,6 +19,7 @@ PROFILE_TO_POLICY_KEY = {
     "arabic": "arabic",
     "gb": None,
     "nl": "nl",
+    "it": None,
 }
 
 
