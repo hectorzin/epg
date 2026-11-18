@@ -50,8 +50,9 @@
   </channel>
   <channel id="AlArabiyaBusiness.ae@SD">
     <display-name>العربية Business</display-name>
+    <display-name>Al Arabiya Business</display-name>
     <icon src="https://i.imgur.com/eEV4r6J.jpg" />
-  <display-name>Al Arabiya Business</display-name></channel>
+  </channel>
   <channel id="AlArabiyaEnglish.sa@SD">
     <display-name>AL Arabiya English</display-name>
     <icon src="https://english.alarabiya.net/.resources/aa-fe-templating/webresources/dist/assets/gfx/logo/en-night-logo.svg" />
@@ -66,8 +67,9 @@
   </channel>
   <channel id="AlHadath.sa@SD">
     <display-name>الحدث</display-name>
+    <display-name>AL HADATH HD</display-name>
     <icon src="https://i.imgur.com/De4SEWE.png" />
-  <display-name>AL HADATH HD</display-name></channel>
+  </channel>
   <channel id="AlkhuzamaRadio.sa@SD">
     <display-name>إذاعة خزامى</display-name>
     <icon src="https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b" />
@@ -86,20 +88,24 @@
   </channel>
   <channel id="AlSouriyaTV.sy@HD">
     <display-name>السورية</display-name>
+    <display-name>Alsouriya TV-HD</display-name>
+    <display-name>Alsouriya tv</display-name>
     <icon src="https://i.imgur.com/8FILgXT.jpeg" />
-  <display-name>Alsouriya TV-HD</display-name><display-name>Alsouriya tv</display-name></channel>
+  </channel>
   <channel id="AlSunnahAlNabawiyahTV.sa@SD">
     <display-name>السنة النبوية</display-name>
     <icon src="https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png" />
   </channel>
   <channel id="AsharqDiscovery.sa@SD">
     <display-name>الشرق ديسكفري</display-name>
+    <display-name>Asharq Discovery HD</display-name>
     <icon src="https://i.imgur.com/Czxi7yk.png" />
-  <display-name>Asharq Discovery HD</display-name></channel>
+  </channel>
   <channel id="AsharqDocumentary.sa@SD">
     <display-name>Asharq Documentary</display-name>
+    <display-name>Asharq Documentary HD</display-name>
     <icon src="https://i.imgur.com/v6VsFEt.png" />
-  <display-name>Asharq Documentary HD</display-name></channel>
+  </channel>
   <channel id="AsharqNews.sa@SD">
     <display-name>الشرق</display-name>
     <icon src="https://i.imgur.com/bqRC3sl.png" />
@@ -138,8 +144,10 @@
   </channel>
   <channel id="MBC1.ae@SD">
     <display-name>MBC1</display-name>
+    <display-name>MBC1 HD</display-name>
+    <display-name>MA MBC1</display-name>
     <icon src="https://i.imgur.com/CiA3plN.png" />
-  <display-name>MBC1 HD</display-name><display-name>MA MBC1</display-name></channel>
+  </channel>
   <channel id="MBC1Egypt.eg@HD">
     <display-name>MBC1</display-name>
     <icon src="https://i.imgur.com/CiA3plN.png" />
@@ -150,36 +158,48 @@
   </channel>
   <channel id="MBC2.ae@SD">
     <display-name>MBC2</display-name>
+    <display-name>MBC2 HD</display-name>
+    <display-name>MBC 2</display-name>
     <icon src="https://i.imgur.com/n9mSHuP.png" />
-  <display-name>MBC2 HD</display-name><display-name>MBC 2</display-name></channel>
+  </channel>
   <channel id="MBC3.ae@SD">
     <display-name>MBC3</display-name>
+    <display-name>MBC3 HD</display-name>
+    <display-name>MBC 3</display-name>
     <icon src="https://i.imgur.com/PVt8OPN.png" />
-  <display-name>MBC3 HD</display-name><display-name>MBC 3</display-name></channel>
+  </channel>
   <channel id="MBC3USA.us@SD">
     <display-name>MBC3</display-name>
     <icon src="https://i.imgur.com/PVt8OPN.png" />
   </channel>
   <channel id="MBC4.ae@SD">
     <display-name>MBC4</display-name>
+    <display-name>MBC4 HD</display-name>
+    <display-name>MBC 4</display-name>
     <icon src="https://i.imgur.com/BcXASJp.png" />
-  <display-name>MBC4 HD</display-name><display-name>MBC 4</display-name></channel>
+  </channel>
   <channel id="MBC5.ae@SD">
     <display-name>MBC5</display-name>
+    <display-name>MBC5 HD</display-name>
+    <display-name>MBC 5</display-name>
+    <display-name>MA MBC5</display-name>
     <icon src="https://i.imgur.com/fRWaDyF.png" />
-  <display-name>MBC5 HD</display-name><display-name>MBC 5</display-name><display-name>MA MBC5</display-name></channel>
+  </channel>
   <channel id="MBCAction.ae@SD">
     <display-name>MBC Action</display-name>
+    <display-name>MBC Action HD</display-name>
     <icon src="https://i.imgur.com/OWZAghw.png" />
-  <display-name>MBC Action HD</display-name></channel>
+  </channel>
   <channel id="MBCBollywood.ae@SD">
     <display-name>MBC Bollywood</display-name>
+    <display-name>MBC Bollywood HD</display-name>
     <icon src="https://i.imgur.com/TTAGFHG.png" />
-  <display-name>MBC Bollywood HD</display-name></channel>
+  </channel>
   <channel id="MBCDrama.ae@SD">
     <display-name>MBC Drama</display-name>
+    <display-name>MBC Drama  HD</display-name>
     <icon src="https://i.imgur.com/g5PWnqp.png" />
-  <display-name>MBC Drama  HD</display-name></channel>
+  </channel>
   <channel id="MBCDramaUSA.us@SD">
     <display-name>MBC Drama</display-name>
     <icon src="https://i.imgur.com/g5PWnqp.png" />
@@ -190,35 +210,41 @@
   </channel>
   <channel id="MBCIraq.iq@SD">
     <display-name>MBC Iraq</display-name>
+    <display-name>MBC IRAQ HD</display-name>
     <icon src="https://i.imgur.com/D0LxiPE.png" />
-  <display-name>MBC IRAQ HD</display-name></channel>
+  </channel>
   <channel id="MBCMasr2.eg@SD">
     <display-name>MBC Masr2</display-name>
+    <display-name>MBC Masr 2</display-name>
     <icon src="https://i.imgur.com/KHo7Gtn.png" />
-  <display-name>MBC Masr 2</display-name></channel>
+  </channel>
   <channel id="MBCMasr.eg@SD">
     <display-name>MBC Masr</display-name>
+    <display-name>MBC MASR</display-name>
     <icon src="https://i.imgur.com/o2elx0u.png" />
-  <display-name>MBC MASR</display-name></channel>
+  </channel>
   <channel id="MBCMasrDrama.sa@SD">
     <display-name>مصر دراما</display-name>
+    <display-name>MBC MASR DRAMA HD</display-name>
     <icon src="https://media0070.elcinema.com/tvguide/1399_1.png" />
-  <display-name>MBC MASR DRAMA HD</display-name></channel>
+  </channel>
   <channel id="MBCMasrUSA.us@SD">
     <display-name>MBC Masr</display-name>
     <icon src="https://i.imgur.com/o2elx0u.png" />
   </channel>
   <channel id="MBCMax.ae@SD">
     <display-name>MBC MAX</display-name>
-  <display-name>MBC MAX HD</display-name></channel>
+    <display-name>MBC MAX HD</display-name>
+  </channel>
   <channel id="MBCPersia.ae@SD">
     <display-name>MBC Persia</display-name>
     <icon src="https://i.imgur.com/4FXiyjn.png" />
   </channel>
   <channel id="MBCPlusDrama.sa@SD">
     <display-name>MBC Plus Drama</display-name>
+    <display-name>MBC Drama PLUS HD</display-name>
     <icon src="https://i.imgur.com/lxWdjXG.png" />
-  <display-name>MBC Drama PLUS HD</display-name></channel>
+  </channel>
   <channel id="MohammedAbdo.sa@SD">
     <display-name>محمد عبده</display-name>
     <icon src="https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png" />
@@ -233,7 +259,8 @@
   </channel>
   <channel id="MTV.lb@SD">
     <display-name>MTV Lebanon</display-name>
-  <display-name>MTV Lebanon HD</display-name></channel>
+    <display-name>MTV Lebanon HD</display-name>
+  </channel>
   <channel id="PanoramaFM.sa@SD">
     <display-name>Panorama FM</display-name>
     <icon src="https://i.imgur.com/JkDD3bK.png" />
@@ -252,12 +279,14 @@
   </channel>
   <channel id="SBC.sa@SD">
     <display-name>SBC</display-name>
+    <display-name>SBC HD</display-name>
     <icon src="https://i.imgur.com/9JSQglj.png" />
-  <display-name>SBC HD</display-name></channel>
+  </channel>
   <channel id="SpacetoonArabic.ae@SD">
     <display-name>Spacetoon</display-name>
+    <display-name>SPACETOON ARABIC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" />
-  <display-name>SPACETOON ARABIC</display-name></channel>
+  </channel>
   <channel id="Tarab.sa@SD">
     <display-name>طرب</display-name>
     <icon src="https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png" />
@@ -268,7 +297,8 @@
   </channel>
   <channel id="Wanasah.ae@SD">
     <display-name>وناسه</display-name>
-  <display-name>Wanasah</display-name></channel>
+    <display-name>Wanasah</display-name>
+  </channel>
   <channel id="ERTU1.eg@SD">
     <display-name>قناة مصر الأولى</display-name>
     <icon src="https://i.imgur.com/uuIqiAy.png" />
@@ -279,15 +309,17 @@
   </channel>
   <channel id="OnDrama.eg@SD">
     <display-name>أون دراما</display-name>
+    <display-name>ON Drama</display-name>
     <icon src="https://i.imgur.com/qpaKDtL.png" />
-  <display-name>ON Drama</display-name></channel>
+  </channel>
   <channel id="arabic.الإمارات">
     <display-name>اﻹمارات</display-name>
   </channel>
   <channel id="AbuDhabiTV.ae@SD">
     <display-name>أبو ظبي</display-name>
+    <display-name>Abu Dhabi TV HD</display-name>
     <icon src="https://i.imgur.com/8DAriPs.png" />
-  <display-name>Abu Dhabi TV HD</display-name></channel>
+  </channel>
   <channel id="AlhayatTV.eg@SD">
     <display-name>الحياة</display-name>
     <icon src="https://i.imgur.com/bl9ie9u.png" />
@@ -298,8 +330,9 @@
   </channel>
   <channel id="RotanaDrama.sa@SD">
     <display-name>روتانا دراما</display-name>
+    <display-name>Rotana Drama HD</display-name>
     <icon src="https://i.imgur.com/btnhPjZ.png" />
-  <display-name>Rotana Drama HD</display-name></channel>
+  </channel>
   <channel id="RotanaCinemaEgypt.eg@SD">
     <display-name>روتانا سينما مصر</display-name>
     <icon src="https://i.imgur.com/dGlKoLW.png" />
@@ -310,36 +343,44 @@
   </channel>
   <channel id="NileDrama.eg@SD">
     <display-name>نايل دراما</display-name>
+    <display-name>Nile Drama</display-name>
     <icon src="https://i.imgur.com/FasJFMM.png" />
-  <display-name>Nile Drama</display-name></channel>
+  </channel>
   <channel id="NileLife.eg@SD">
     <display-name>نايل لايف</display-name>
+    <display-name>Nile Life</display-name>
     <icon src="https://i.imgur.com/ou42bUh.png" />
-  <display-name>Nile Life</display-name></channel>
+  </channel>
   <channel id="LBCInternational.lb@SD">
     <display-name>إل بي سي آي</display-name>
+    <display-name>LBC International</display-name>
     <icon src="https://i.imgur.com/h26xtUv.png" />
-  <display-name>LBC International</display-name></channel>
+  </channel>
   <channel id="DubaiTV.ae@SD">
     <display-name>دبي</display-name>
+    <display-name>Dubai TV HD</display-name>
     <icon src="https://i.imgur.com/UMmbyHv.png" />
-  <display-name>Dubai TV HD</display-name></channel>
+  </channel>
   <channel id="DubaiOne.ae@SD">
     <display-name>دبي وان</display-name>
+    <display-name>Dubai One HD</display-name>
     <icon src="https://i.imgur.com/Dj16oKL.png" />
-  <display-name>Dubai One HD</display-name></channel>
+  </channel>
   <channel id="AlKaheraWalNas.eg@SD">
     <display-name>القاهرة والناس</display-name>
+    <display-name>Al Kahera Wal Nas</display-name>
     <icon src="https://i.ibb.co/SD0YYqYW/alkahera-welnas.png" />
-  <display-name>Al Kahera Wal Nas</display-name></channel>
+  </channel>
   <channel id="Cima.eg@SD">
     <display-name>سيما</display-name>
+    <display-name>Cima</display-name>
     <icon src="https://i.ibb.co/p6SPr0Ym/Cima.png" />
-  <display-name>Cima</display-name></channel>
+  </channel>
   <channel id="SamaDubai.ae@SD">
     <display-name>سما دبي</display-name>
+    <display-name>SAMA DUBAI HD</display-name>
     <icon src="https://i.imgur.com/F5g3ymW.png" />
-  <display-name>SAMA DUBAI HD</display-name></channel>
+  </channel>
   <channel id="SharjahTV.ae@SD">
     <display-name>الشارقة</display-name>
     <icon src="https://maraya.faulio.com/storage/mediagallery/bd/e5/fullhd_e2d4b08eb269edbf134b01459cc79b9802f63b8b.png" />
@@ -350,40 +391,50 @@
   </channel>
   <channel id="CBC.eg@SD">
     <display-name>سي بي سي</display-name>
+    <display-name>CBC</display-name>
     <icon src="https://i.imgur.com/8apNaLP.png" />
-  <display-name>CBC</display-name></channel>
+  </channel>
   <channel id="CBCDrama.eg@SD">
     <display-name>سي بي سي دراما</display-name>
+    <display-name>CBC Drama</display-name>
     <icon src="https://i.imgur.com/I8YdakH.png" />
-  <display-name>CBC Drama</display-name></channel>
+  </channel>
   <channel id="OnE.eg@SD">
     <display-name>أون إي</display-name>
+    <display-name>ON E HD</display-name>
+    <display-name>One</display-name>
     <icon src="https://i.imgur.com/EPln9yU.png" />
-  <display-name>ON E HD</display-name><display-name>One</display-name></channel>
+  </channel>
   <channel id="iFilmArabic.ir@SD">
     <display-name>آي فيلم</display-name>
+    <display-name>IFilm Arabic</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" />
-  <display-name>IFilm Arabic</display-name></channel>
+  </channel>
   <channel id="StarMoviesMiddleEast.ae@SD">
     <display-name>ستار موفيز</display-name>
     <icon src="https://i.imgur.com/JhT3k6R.png" />
   </channel>
   <channel id="AlJadeed.lb@SD">
     <display-name>الجديد</display-name>
+    <display-name>AL JADEED</display-name>
     <icon src="https://i.imgur.com/CfxR8o3.png" />
-  <display-name>AL JADEED</display-name></channel>
+  </channel>
   <channel id="RotanaClassic.sa@SD">
     <display-name>روتانا كلاسيك</display-name>
+    <display-name>Rotana Classic HD</display-name>
     <icon src="https://i.imgur.com/pMMUvkt.png" />
-  <display-name>Rotana Classic HD</display-name></channel>
+  </channel>
   <channel id="AlNaharDrama.eg@SD">
     <display-name>النهار دراما</display-name>
+    <display-name>Al-Nahar Drama</display-name>
     <icon src="https://i.ibb.co/ksnNhr5w/Al-Nahar-Drama.png" />
-  <display-name>Al-Nahar Drama</display-name></channel>
+  </channel>
   <channel id="SadaElbalad.eg@SD">
     <display-name>صدى البلد</display-name>
+    <display-name>Sada El Balad</display-name>
+    <display-name>Sada ElBalad 3</display-name>
     <icon src="https://i.imgur.com/vOKvPeK.png" />
-  <display-name>Sada El Balad</display-name><display-name>Sada ElBalad 3</display-name></channel>
+  </channel>
   <channel id="SadaElbaladDrama.eg@SD">
     <display-name>صدى البلد دراما</display-name>
     <icon src="https://i.imgur.com/3VLjZKc.png" />
@@ -394,16 +445,18 @@
   </channel>
   <channel id="AlKaheraWalNas2.eg@SD">
     <display-name>القاهرة والناس 2</display-name>
+    <display-name>Al Kahera Wal Nas +2</display-name>
     <icon src="https://i.imgur.com/5GVcS8t.png" />
-  <display-name>Al Kahera Wal Nas +2</display-name></channel>
+  </channel>
   <channel id="CBCSofra.eg@SD">
     <display-name>سي بي سي سفرة</display-name>
     <icon src="https://i.imgur.com/YAdk2WR.png" />
   </channel>
   <channel id="ZeeAlwan.ae@SD">
     <display-name>زي ألوان</display-name>
+    <display-name>ZEE ALWAN</display-name>
     <icon src="https://i.imgur.com/OLuCox7.png" />
-  <display-name>ZEE ALWAN</display-name></channel>
+  </channel>
   <channel id="AlDafrahTV.ae@SD">
     <display-name>الظفرة</display-name>
     <icon src="https://i.imgur.com/sOMOe9t.png" />
@@ -426,8 +479,9 @@
   </channel>
   <channel id="SadaElbalad2.eg@SD">
     <display-name>صدى البلد 2</display-name>
+    <display-name>Sada El Balad 2</display-name>
     <icon src="https://i.imgur.com/Z2YkoG2.png" />
-  <display-name>Sada El Balad 2</display-name></channel>
+  </channel>
   <channel id="TeN.eg@SD">
     <display-name>تن</display-name>
     <icon src="https://i.ibb.co/zWQjVq6s/ten-tv.png" />
@@ -438,36 +492,42 @@
   </channel>
   <channel id="RotanaCinemaKSA.sa@SD">
     <display-name>روتانا سينما</display-name>
+    <display-name>Rotana Cinema KSA</display-name>
     <icon src="https://i.imgur.com/pGgp38I.png" />
-  <display-name>Rotana Cinema KSA</display-name></channel>
+  </channel>
   <channel id="DMC.eg@SD">
     <display-name>دي إم سي</display-name>
+    <display-name>dmc HD</display-name>
     <icon src="https://i.imgur.com/iy70Xxr.png" />
-  <display-name>dmc HD</display-name></channel>
+  </channel>
   <channel id="DMCDrama.eg@SD">
     <display-name>دي إم سي دراما</display-name>
+    <display-name>dmc drama</display-name>
     <icon src="https://i.imgur.com/OOXylJI.png" />
-  <display-name>dmc drama</display-name></channel>
+  </channel>
   <channel id="AmmanTV.jo@SD">
     <display-name>عَمان</display-name>
     <icon src="https://i.imgur.com/5l7kw0b.png" />
   </channel>
   <channel id="RoyaTV.jo@SD">
     <display-name>رؤيا</display-name>
+    <display-name>ROYA TV</display-name>
     <icon src="https://i.imgur.com/WX80rty.png" />
-  <display-name>ROYA TV</display-name></channel>
+  </channel>
   <channel id="Alsumaria.iq@SD">
     <display-name>السومرية</display-name>
     <icon src="https://i.imgur.com/2eiGt0r.png" />
   </channel>
   <channel id="FujairahTV.ae@SD">
     <display-name>الفجيرة</display-name>
+    <display-name>Fujairah TV HD</display-name>
     <icon src="https://i.imgur.com/D2tOhbE.png" />
-  <display-name>Fujairah TV HD</display-name></channel>
+  </channel>
   <channel id="NessmaElJadida.tn@SD">
     <display-name>نسمة</display-name>
+    <display-name>TN Nessma</display-name>
     <icon src="https://i.imgur.com/66CJtdz.png" />
-  <display-name>TN Nessma</display-name></channel>
+  </channel>
   <channel id="AlRasheedTV.iq@SD">
     <display-name>الرشيد</display-name>
     <icon src="https://i.imgur.com/ltyRjPK.png" />
@@ -486,8 +546,9 @@
   </channel>
   <channel id="AlAoula.ma@MiddleEast">
     <display-name>الأولى المغربية</display-name>
+    <display-name>MA Al Aoula Inter HD</display-name>
     <icon src="https://i.imgur.com/nq53d2N.png" />
-  <display-name>MA Al Aoula Inter HD</display-name></channel>
+  </channel>
   <channel id="LanaTV.lb@SD">
     <display-name>ال تي في</display-name>
     <icon src="https://i.imgur.com/xPoycVY.png" />
@@ -498,8 +559,9 @@
   </channel>
   <channel id="EchoroukTV.dz@SD">
     <display-name>الشروق الجزائرية</display-name>
+    <display-name>DZ Echorouk TV HD</display-name>
     <icon src="https://i.imgur.com/33rf7KV.png" />
-  <display-name>DZ Echorouk TV HD</display-name></channel>
+  </channel>
   <channel id="OmanTV.om@SD">
     <display-name>عمان</display-name>
     <icon src="https://i.imgur.com/rBftT9x.png" />
@@ -514,48 +576,62 @@
   </channel>
   <channel id="beINMovies1Premiere.qa@SD">
     <display-name>بي إن موفيز بريمير</display-name>
+    <display-name>beIN MOVIES 4K 1</display-name>
+    <display-name>beIN Movies HD1</display-name>
     <icon src="https://i.imgur.com/SmAq8yM.png" />
-  <display-name>beIN MOVIES 4K 1</display-name><display-name>beIN Movies HD1</display-name></channel>
+  </channel>
   <channel id="beINMovies2Action.qa@SD">
     <display-name>بي إن موفيز أكشن</display-name>
+    <display-name>beIN MOVIES 4K 2</display-name>
+    <display-name>beIN Movies HD2</display-name>
     <icon src="https://i.imgur.com/jMGd93V.png" />
-  <display-name>beIN MOVIES 4K 2</display-name><display-name>beIN Movies HD2</display-name></channel>
+  </channel>
   <channel id="beINMovies3Drama.qa@SD">
     <display-name>بي إن موفيز دراما</display-name>
+    <display-name>beIN MOVIES 4K 3</display-name>
+    <display-name>beIN Movies HD3</display-name>
     <icon src="https://i.imgur.com/STmIWSa.png" />
-  <display-name>beIN MOVIES 4K 3</display-name><display-name>beIN Movies HD3</display-name></channel>
+  </channel>
   <channel id="beINSeries1.qa@SD">
     <display-name>بي إن سيريس</display-name>
+    <display-name>beIN SERIES 4K 1</display-name>
+    <display-name>beIN Series HD1</display-name>
     <icon src="https://i.imgur.com/nCkbPOD.png" />
-  <display-name>beIN SERIES 4K 1</display-name><display-name>beIN Series HD1</display-name></channel>
+  </channel>
   <channel id="beINSeries2.qa@SD">
     <display-name>بي إن سيريس إتش...</display-name>
     <icon src="https://i.imgur.com/c0B8bmf.png" />
   </channel>
   <channel id="StarWorldMiddleEast.ae@SD">
     <display-name>ستار ورلد</display-name>
+    <display-name>beIN Star World HD</display-name>
     <icon src="https://i.imgur.com/TD8d1eQ.png" />
-  <display-name>beIN Star World HD</display-name></channel>
+  </channel>
   <channel id="FoxActionMoviesMENA.hk@SD">
     <display-name>ستار أكشن</display-name>
+    <display-name>beIN FOX MOV ACTION 4K</display-name>
+    <display-name>beIN Fox Action Movies HD</display-name>
     <icon src="https://i.imgur.com/UkNkpCe.png" />
-  <display-name>beIN FOX MOV ACTION 4K</display-name><display-name>beIN Fox Action Movies HD</display-name></channel>
+  </channel>
   <channel id="ElWatania2.tn@SD">
     <display-name>الوطنية 2</display-name>
+    <display-name>TN Tunis TV Nat 2</display-name>
     <icon src="https://i.imgur.com/kgkrD3V.png" />
-  <display-name>TN Tunis TV Nat 2</display-name></channel>
+  </channel>
   <channel id="MasperoZaman.eg@SD">
     <display-name>ماسبيرو زمان</display-name>
+    <display-name>Maspero Zaman</display-name>
     <icon src="https://i.ibb.co/Tqr4q5wd/Maspero.png" />
-  <display-name>Maspero Zaman</display-name></channel>
+  </channel>
   <channel id="AlSaeedah.eg@SD">
     <display-name>السعيدة</display-name>
     <icon src="https://i.imgur.com/fVgus9P.png" />
   </channel>
   <channel id="LBC.sa@SD">
     <display-name>إل بي سي</display-name>
+    <display-name>LBC HD</display-name>
     <icon src="https://s3.eu-central-1.amazonaws.com/rotana.website/channels/1688402500.webp" />
-  <display-name>LBC HD</display-name></channel>
+  </channel>
   <channel id="AlIraqia.iq@SD">
     <display-name>العراقية</display-name>
     <icon src="https://i.imgur.com/8qQouTW.jpg" />
@@ -566,8 +642,9 @@
   </channel>
   <channel id="RotanaComedy.sa@SD">
     <display-name>روتانا كوميدي</display-name>
+    <display-name>Rotana Comedy HD</display-name>
     <icon src="https://i.imgur.com/IlT8U6S.png" />
-  <display-name>Rotana Comedy HD</display-name></channel>
+  </channel>
   <channel id="SalamTV.ly@SD">
     <display-name>سلام</display-name>
     <icon src="https://i.imgur.com/u1sgEdd.png" />
@@ -578,8 +655,9 @@
   </channel>
   <channel id="BahrainTV.bh@SD">
     <display-name>البحرين</display-name>
+    <display-name>Bahrain TV HD</display-name>
     <icon src="https://i.imgur.com/LTD0jIm.png" />
-  <display-name>Bahrain TV HD</display-name></channel>
+  </channel>
   <channel id="MixBelAraby.eg@SD">
     <display-name>ميكس بالعربي</display-name>
     <icon src="https://i.imgur.com/KucgM9c.png" />
@@ -598,12 +676,14 @@
   </channel>
   <channel id="DijlahTV.iq@SD">
     <display-name>دجلة</display-name>
+    <display-name>Dijlah TV HD</display-name>
     <icon src="https://i.imgur.com/kyzH3G5.png" />
-  <display-name>Dijlah TV HD</display-name></channel>
+  </channel>
   <channel id="Althania.sy@SD">
     <display-name>الثانية</display-name>
+    <display-name>Al Thania</display-name>
     <icon src="https://www.althania.tv/themes/custom/althania/assets/images/stv-logo.svg" />
-  <display-name>Al Thania</display-name></channel>
+  </channel>
   <channel id="Masah.sa@SD">
     <display-name>ماسة</display-name>
     <icon src="https://i.imgur.com/6I9d9qe.png" />
@@ -678,8 +758,9 @@
   </channel>
   <channel id="AlArabyTV.qa@SD">
     <display-name>Al Araby TV</display-name>
+    <display-name>AL ARABY TV HD</display-name>
     <icon src="https://i.imgur.com/YMqWEe4.png" />
-  <display-name>AL ARABY TV HD</display-name></channel>
+  </channel>
   <channel id="AlraiTV.kw@SD">
     <display-name>Al Rai TV</display-name>
     <icon src="https://i.imgur.com/ZohZFuq.png" />
@@ -714,8 +795,10 @@
   </channel>
   <channel id="Fatafeat.ae@SD">
     <display-name>Fatafeat</display-name>
+    <display-name>beIN FATAFEAT 4K</display-name>
+    <display-name>beIN Fatafeat</display-name>
     <icon src="https://i.imgur.com/jCsUXTk.png" />
-  <display-name>beIN FATAFEAT 4K</display-name><display-name>beIN Fatafeat</display-name></channel>
+  </channel>
   <channel id="Gametoon.nl@SD">
     <display-name>Gametoon</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png" />
@@ -738,8 +821,9 @@
   </channel>
   <channel id="KSASports1.sa@SD">
     <display-name>KSA Sports 1 HD</display-name>
+    <display-name>KSA Sports 1</display-name>
     <icon src="https://i.imgur.com/ONKNOAp.png" />
-  <display-name>KSA Sports 1</display-name></channel>
+  </channel>
   <channel id="MBCMood.sa@HD">
     <display-name>MBC Mood</display-name>
     <icon src="https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&amp;width=144&amp;croppingPoint=&amp;version=1&amp;type=png" />
@@ -818,8 +902,9 @@
   </channel>
   <channel id="RTArabic.ru@SD">
     <display-name>RT Arabic</display-name>
+    <display-name>RT Arabic HD</display-name>
     <icon src="https://i.imgur.com/G8vGrn1.png" />
-  <display-name>RT Arabic HD</display-name></channel>
+  </channel>
   <channel id="SkyNewsArabia.ae@SD">
     <display-name>Sky News Arabia HD</display-name>
     <icon src="https://i.imgur.com/SvjU4h6.png" />
@@ -934,12 +1019,14 @@
   </channel>
   <channel id="AlJazeera2.qa@HD">
     <display-name>Al Jazeera 2</display-name>
+    <display-name>Al Jazeera 2 HD</display-name>
     <icon src="https://i.imgur.com/miq8O1Q.png" />
-  <display-name>Al Jazeera 2 HD</display-name></channel>
+  </channel>
   <channel id="AlJazeera.qa@Arabic">
     <display-name>Al Jazeera Arabic</display-name>
+    <display-name>Al Jazeera HD</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540" />
-  <display-name>Al Jazeera HD</display-name></channel>
+  </channel>
   <channel id="ARTAflam1.sa@SD">
     <display-name>افلام 1</display-name>
     <icon src="https://i.imgur.com/aeY4ax8.png" />

@@ -2,8 +2,9 @@
 <tv>
   <channel id="100NLTV.nl@SD">
     <display-name>100% NL TV</display-name>
+    <display-name>NL 100% NL TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/100p-nl-tv-logo.png/960px-100p-nl-tv-logo.png" />
-  <display-name>NL 100% NL TV</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118050000 +0000" channel="100NLTV.nl@SD">
     <title lang="nl">100% Muzieknacht</title>
     <desc lang="nl">Nachtelijk programma met clips van populaire muziek van uiteenlopende artiesten van eigen bodem.</desc>
@@ -96,8 +97,10 @@
   </programme>
   <channel id="192TV.nl@SD">
     <display-name>192TV</display-name>
+    <display-name>NL 192 TV 4K</display-name>
+    <display-name>NL 192 TV HD</display-name>
     <icon src="https://i.imgur.com/PQ0Arp9.png" />
-  <display-name>NL 192 TV 4K</display-name><display-name>NL 192 TV HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118010000 +0000" channel="192TV.nl@SD">
     <title lang="nl">Nachtklup in de late uurtjes</title>
     <desc lang="nl">Nachtclub, de beste clips om de nacht te eindigen...of beginnen?</desc>
@@ -316,8 +319,10 @@
   </programme>
   <channel id="24Kitchen.us@Netherlands">
     <display-name>24Kitchen</display-name>
+    <display-name>NL 24 Kitchen 4K</display-name>
+    <display-name>NL 24 Kitchen HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/960px-24Kitchen.png" />
-  <display-name>NL 24 Kitchen 4K</display-name><display-name>NL 24 Kitchen HD</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118002000 +0000" channel="24Kitchen.us@Netherlands">
     <title lang="nl">Next Level Chef</title>
     <sub-title lang="nl">Infinite Pastabilities</sub-title>
@@ -4507,8 +4512,10 @@
   </programme>
   <channel id="AnimalPlanet.nl@SD">
     <display-name>Animal Planet</display-name>
+    <display-name>NL Animal Planet 4K</display-name>
+    <display-name>NL Animal Planet HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
-  <display-name>NL Animal Planet 4K</display-name><display-name>NL Animal Planet HD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118003000 +0000" channel="AnimalPlanet.nl@SD">
     <title lang="nl">Dogs: The Untold Story</title>
     <sub-title lang="nl">Wild Survivors</sub-title>
@@ -7698,8 +7705,10 @@
   </programme>
   <channel id="AT5.nl@SD">
     <display-name>AT5</display-name>
+    <display-name>NL AT 5 4K</display-name>
+    <display-name>NL At 5 HD</display-name>
     <icon src="https://i.imgur.com/iAiSlEL.png" />
-  <display-name>NL AT 5 4K</display-name><display-name>NL At 5 HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="AT5.nl@SD">
     <title lang="nl">AT5 Nieuws</title>
     <desc lang="nl">Reportage over het regionale nieuws uit Amsterdam en omstreken.</desc>
@@ -11098,8 +11107,9 @@
   </programme>
   <channel id="BabyTV.uk@Netherlands">
     <display-name>BabyTV</display-name>
+    <display-name>NL Baby TV</display-name>
     <icon src="https://i.imgur.com/4BDJ5FT.png" />
-  <display-name>NL Baby TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000400 +0000" channel="BabyTV.uk@Netherlands">
     <title lang="nl">Doe je ogen dicht</title>
     <sub-title lang="nl">Zonsondergang</sub-title>
@@ -21099,8 +21109,10 @@
   </programme>
   <channel id="BBCFirst.uk@Benelux">
     <display-name>BBC First</display-name>
+    <display-name>NL BBC First 4K</display-name>
+    <display-name>NL BBC First HD</display-name>
     <icon src="https://i.imgur.com/UBoBYUI.png" />
-  <display-name>NL BBC First 4K</display-name><display-name>NL BBC First HD</display-name></channel>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118190500 +0000" channel="BBCFirst.uk@Benelux">
     <title lang="nl">Death in Paradise</title>
     <desc lang="nl">De zonovergoten succesvolle whodunit keert terug met meer moordmysteries. Rechercheur Neville Parker moet nog meer misdrijven oplossen op het paradijselijke eiland Saint Marie, terwijl hij ook te maken krijgt met de emotionele problemen van het samenwerken met rechercheur Florence Cassell. Afl. 2 van seizoen 15. Warme, luchtige en humorvolle detectiveserie over een Britse inspecteur die op het paradijselijke eiland Saint-Marie in het Caribisch gebied onderzoek gaat doen naar strafbare feiten. 2/8 Cast: Don Warrington, Elizabeth Bourgine, Ralf Little, Don Gilet &amp; Gary Carr Regisseur: Ian Aryeh Script: Robert Thorogood</desc>
@@ -27900,8 +27912,9 @@
   </programme>
   <channel id="BVN.nl@SD">
     <display-name>BVN</display-name>
+    <display-name>NL BVN HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/960px-BVN_logo.svg.png" />
-  <display-name>NL BVN HD</display-name></channel>
+  </channel>
   <programme start="20261117225000 +0000" stop="20261117230500 +0000" channel="BVN.nl@SD">
     <title lang="nl">NOS Journaal</title>
     <desc lang="nl">Met het laatste nieuws en de weersverwachting.</desc>
@@ -28792,8 +28805,9 @@
   </programme>
   <channel id="CartoonitoCEE.uk@SD">
     <display-name>Cartoonito</display-name>
+    <display-name>NL Boomerang 4K</display-name>
     <icon src="https://i.imgur.com/9MrzLb1.png" />
-  <display-name>NL Boomerang 4K</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118000500 +0000" channel="CartoonitoCEE.uk@SD">
     <title lang="nl">Grizzy en de Lemmings</title>
     <sub-title lang="nl">IJs &amp; beren</sub-title>
@@ -33080,8 +33094,10 @@
   </programme>
   <channel id="CartoonNetworkWesternEurope.uk@Netherlands">
     <display-name>Cartoon Network</display-name>
+    <display-name>NL Cartoon Network 4K</display-name>
+    <display-name>NL Cartoon Network HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>NL Cartoon Network 4K</display-name><display-name>NL Cartoon Network HD</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118000500 +0000" channel="CartoonNetworkWesternEurope.uk@Netherlands">
     <title lang="nl">Teen Titans Go!</title>
     <sub-title lang="nl">De terugkomst van Slade</sub-title>
@@ -42086,8 +42102,10 @@
   </programme>
   <channel id="ComedyCentral.nl@SD">
     <display-name>Comedy Central</display-name>
+    <display-name>NL Comedy Central 4K</display-name>
+    <display-name>NL Comedy Central HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Comedy_Central_2018.svg" />
-  <display-name>NL Comedy Central 4K</display-name><display-name>NL Comedy Central HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118001000 +0000" channel="ComedyCentral.nl@SD">
     <title lang="nl">According to Jim</title>
     <sub-title lang="nl">Het kerstfeest</sub-title>
@@ -43959,8 +43977,10 @@
   </programme>
   <channel id="CrimeInvestigation.nl@SD">
     <display-name>Crime+Investigation</display-name>
+    <display-name>NL Crime &amp; Investigation 4K</display-name>
+    <display-name>NL Crime &amp; Investigation HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
-  <display-name>NL Crime &amp; Investigation 4K</display-name><display-name>NL Crime &amp; Investigation HD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118004000 +0000" channel="CrimeInvestigation.nl@SD">
     <title lang="nl">Homicide Hunter</title>
     <sub-title lang="nl">Where Is Claudia Jane?</sub-title>
@@ -45786,8 +45806,9 @@
   </programme>
   <channel id="DanceTelevision.nl@SD">
     <display-name>DanceTelevision</display-name>
+    <display-name>NL DANCE TRIPPIN 4K</display-name>
     <icon src="https://pbs.twimg.com/profile_images/1268129322730127364/OJlQBZpS_400x400.jpg" />
-  <display-name>NL DANCE TRIPPIN 4K</display-name></channel>
+  </channel>
   <programme start="20261117230400 +0000" stop="20261118000500 +0000" channel="DanceTelevision.nl@SD">
     <title lang="en">Los Suruba ----- Ants at Ushuaia - Ibiza (Spain)</title>
     <desc lang="en">The dynamic duo Los Suruba, whose amazing productions have given the global underground electronic music circuit much to talk about in the last few years, have been given the opportunity to be ANTS Resident DJs in Ushuaia this season.</desc>
@@ -47145,8 +47166,12 @@
   </programme>
   <channel id="DiscoveryChannel.nl@SD">
     <display-name>Discovery</display-name>
+    <display-name>NL Discovery Channel 4K</display-name>
+    <display-name>NL Discovery Channel HD</display-name>
+    <display-name>NL Investigation Discovery ID 4K</display-name>
+    <display-name>NL Investigation Discovery ID HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
-  <display-name>NL Discovery Channel 4K</display-name><display-name>NL Discovery Channel HD</display-name><display-name>NL Investigation Discovery ID 4K</display-name><display-name>NL Investigation Discovery ID HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118002500 +0000" channel="DiscoveryChannel.nl@SD">
     <title lang="nl">This Cop Life</title>
     <sub-title lang="nl">Necessary Force</sub-title>
@@ -48018,8 +48043,10 @@
   </programme>
   <channel id="DiscoveryScienceEurope.uk@Netherlands">
     <display-name>Discovery Science</display-name>
+    <display-name>NL Discovery Science 4K</display-name>
+    <display-name>NL Discovery Science HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
-  <display-name>NL Discovery Science 4K</display-name><display-name>NL Discovery Science HD</display-name></channel>
+  </channel>
   <programme start="20261117232000 +0000" stop="20261118001000 +0000" channel="DiscoveryScienceEurope.uk@Netherlands">
     <title lang="nl">How the Universe Works</title>
     <sub-title lang="nl">Death of the Milky Way</sub-title>
@@ -49198,8 +49225,10 @@
   </programme>
   <channel id="DisneyChannel.nl@SD">
     <display-name>Disney Channel</display-name>
+    <display-name>NL Disney Channel 4K</display-name>
+    <display-name>NL Disney Channel HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
-  <display-name>NL Disney Channel 4K</display-name><display-name>NL Disney Channel HD</display-name></channel>
+  </channel>
   <programme start="20261117234200 +0000" stop="20261118000400 +0000" channel="DisneyChannel.nl@SD">
     <title lang="nl">Phineas en Ferb</title>
     <sub-title lang="nl">Terug naar de winkel / Storm in een glas water</sub-title>
@@ -56538,8 +56567,9 @@
   </programme>
   <channel id="EEurope.nl@SD">
     <display-name>E!</display-name>
+    <display-name>NL E! Entertainment HD</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png" />
-  <display-name>NL E! Entertainment HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="EEurope.nl@SD">
     <title lang="nl">Botched</title>
     <sub-title lang="nl">The Pec Whisperer</sub-title>
@@ -58148,8 +58178,9 @@
   </programme>
   <channel id="ESPN2.nl@HD">
     <display-name>ESPN 2</display-name>
+    <display-name>NL ESPN 2 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" />
-  <display-name>NL ESPN 2 HD</display-name></channel>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118183000 +0000" channel="ESPN2.nl@HD">
     <title lang="nl">ESPN Vandaag</title>
     <desc lang="nl">Een round-up van de dag op ESPN en het belangrijkste en opvallendste (inter)nationale sportnieuws. In ESPN Vandaag wordt de kijker volledig bijgepraat aan de hand van highlights, reportages, rubrieken en social media. Afl. 110:.</desc>
@@ -58532,8 +58563,9 @@
   </programme>
   <channel id="ESPN3.nl@HD">
     <display-name>ESPN 3</display-name>
+    <display-name>NL ESPN 3 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" />
-  <display-name>NL ESPN 3 HD</display-name></channel>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118190000 +0000" channel="ESPN3.nl@HD">
     <title lang="nl">NHL On the Fly</title>
     <desc lang="nl">Studioprogramma met hoogtepunten en analyses uit de NHL in het seizoen 2026-2027 Afl. 50:.</desc>
@@ -58871,7 +58903,8 @@
   </programme>
   <channel id="ESPN4.nl@SD">
     <display-name>ESPN 4</display-name>
-  <display-name>NL ESPN 4 HD</display-name></channel>
+    <display-name>NL ESPN 4 HD</display-name>
+  </channel>
   <programme start="20261118170000 +0000" stop="20261118190000 +0000" channel="ESPN4.nl@SD">
     <title lang="nl">The Pat McAfee Show</title>
     <desc lang="nl">Van maandag tot en met vrijdag is oud-NFL-speler Pat McAfee gastheer van een dynamische talkshow waarin alles uit de Amerikaanse sportwereld ter sprake komt. Afl. 78:. Van maandag tot en met vrijdag is oud-NFL-speler Pat McAfee gastheer van een dynamische talkshow waarin alles uit de Amerikaanse sportwereld ter sprake komt. Onder meer A.J. Hawk, Evan Fox, Zito Perez, Connor Campbell, Ty Schmit, Tone Digs, Frank Maraldo, Phil Mains, Casey Tok, Matt Brahn, Michael Girdy, AQ Shipley, Bailey McComas, Mitt McMahon, Coach Chuck Pagano, Aaron Rodgers, Darius Butler en Adam Jones maken hun opwachting in het programma. Presentatie: Pat McAfee</desc>
@@ -59179,8 +59212,10 @@
   </programme>
   <channel id="ESPN.nl@HD">
     <display-name>ESPN</display-name>
+    <display-name>NL ESPN 1 HD</display-name>
+    <display-name>NL ESPN UHD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" />
-  <display-name>NL ESPN 1 HD</display-name><display-name>NL ESPN UHD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118023000 +0000" channel="ESPN.nl@HD">
     <title lang="nl">NHL</title>
     <sub-title lang="nl">Florida Panthers - Edmonton Oilers</sub-title>
@@ -61268,8 +61303,10 @@
   </programme>
   <channel id="Eurosport1.fr@Netherlands">
     <display-name>Eurosport 1</display-name>
+    <display-name>NL EuroSport 1 4K</display-name>
+    <display-name>NL EuroSport 1 HD</display-name>
     <icon src="https://i.imgur.com/olQJgm7.png" />
-  <display-name>NL EuroSport 1 4K</display-name><display-name>NL EuroSport 1 HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118003300 +0000" channel="Eurosport1.fr@Netherlands">
     <title lang="nl">World Snooker Tour</title>
     <sub-title lang="nl">Kyren Wilson - Jak Jones: Sessie 2</sub-title>
@@ -61613,8 +61650,9 @@
   </programme>
   <channel id="Eurosport2.fr@Netherlands">
     <display-name>Eurosport 2</display-name>
+    <display-name>NL EuroSport 2 HD</display-name>
     <icon src="https://i.imgur.com/f56dHgR.png" />
-  <display-name>NL EuroSport 2 HD</display-name></channel>
+  </channel>
   <programme start="20261117234400 +0000" stop="20261118003000 +0000" channel="Eurosport2.fr@Netherlands">
     <title lang="nl">FIS Alpineskiën</title>
     <sub-title lang="nl">Sölden: Reuzenslalom: Run 2</sub-title>
@@ -62214,8 +62252,10 @@
   </programme>
   <channel id="ExtremeSportsChannel.nl@SD">
     <display-name>Extreme Sports Channel</display-name>
+    <display-name>NL Extreme Sports 4K</display-name>
+    <display-name>NL Extreme Sports HD</display-name>
     <icon src="https://i.imgur.com/m7IC01U.png" />
-  <display-name>NL Extreme Sports 4K</display-name><display-name>NL Extreme Sports HD</display-name></channel>
+  </channel>
   <programme start="20261117223000 +0000" stop="20261117230000 +0000" channel="ExtremeSportsChannel.nl@SD">
     <title lang="en">Serbia Upside Down: Into the Unknown</title>
     <desc lang="en">Serbia, a hidden Balkan gem, reveals stunning nature and culture.</desc>
@@ -62518,8 +62558,10 @@
   </programme>
   <channel id="Family7.nl@SD">
     <display-name>Family7</display-name>
+    <display-name>NL Family 7 4K</display-name>
+    <display-name>NL Family 7 HD</display-name>
     <icon src="https://i.imgur.com/hjApcBw.png" />
-  <display-name>NL Family 7 4K</display-name><display-name>NL Family 7 HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="Family7.nl@SD">
     <title lang="nl">Joyce Meyer</title>
     <desc lang="nl">Welke smoesjes uit de smoezentas verzin je als God je roept om iets te doen? Laten we onze 'niet-storen-bordjes' wegdoen en onszelf beschikbaar maken voor wat God in ons leven wil doen. Zo leert Joyce Meyer.</desc>
@@ -63752,8 +63794,9 @@
   </programme>
   <channel id="FashionTVEurope.fr@Netherlands">
     <display-name>Fashion TV HD</display-name>
+    <display-name>NL Fashion TV 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
-  <display-name>NL Fashion TV 4K</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="FashionTVEurope.fr@Netherlands">
     <title lang="en">The Dress Code</title>
     <desc lang="en">Crack the code of celebrity style! THE DRESS CODE decodes luxury red carpet fashion, designer secrets, and how stars master every look. Learn to dress like an A-lister!</desc>
@@ -64501,8 +64544,9 @@
   </programme>
   <channel id="Film1Action.nl@SD">
     <display-name>Film1 Action</display-name>
+    <display-name>NL Film1 Action HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Film1_Action_SVG.svg/960px-Film1_Action_SVG.svg.png" />
-  <display-name>NL Film1 Action HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118004500 +0000" channel="Film1Action.nl@SD">
     <title lang="nl">Blind Date Swingers</title>
     <desc lang="nl">Jullie zijn van harte uitgenodigd op een privéfeestje, georganiseerd door Tina Kay en Georgie Lyall. Wat zal het thema van deze sexy soiree zijn? Georgie en Tina fantaseren en verrassen zichzelf, in deze hardcore, erotische kunstfilm van Sinful XXX.</desc>
@@ -65182,8 +65226,10 @@
   </programme>
   <channel id="Film1Drama.nl@SD">
     <display-name>Film1 Drama</display-name>
+    <display-name>NL Film1 Drama 4K</display-name>
+    <display-name>NL Film1 Drama HD</display-name>
     <icon src="https://i.imgur.com/oqrnvib.png" />
-  <display-name>NL Film1 Drama 4K</display-name><display-name>NL Film1 Drama HD</display-name></channel>
+  </channel>
   <programme start="20261117231000 +0000" stop="20261118010000 +0000" channel="Film1Drama.nl@SD">
     <title lang="nl">Florence Foster Jenkins</title>
     <desc lang="nl">In de jaren veertig droomt socialite Florence Foster Jenkins ervan operazangeres te worden. Helaas overtreft haar ambitie haar talent. De stem die Florence in haar hoofd hoort, is mooi, maar voor alle anderen is het nogal belabberd. Haar man St.-Clair doet er alles aan om ervoor te zorgen dat zijn vrouw er nooit achterkomt hoe vreselijk ze werkelijk is. Wanneer Florence haar plannen voor een concert in Carnegie Hall aankondigt, staat St.-Clair voor zijn grootste uitdaging tot nu toe.</desc>
@@ -65821,8 +65867,10 @@
   </programme>
   <channel id="Film1Family.nl@SD">
     <display-name>Film1 Family</display-name>
+    <display-name>NL Film1 Family 4K</display-name>
+    <display-name>NL Film1 Family HD</display-name>
     <icon src="https://i.imgur.com/8XRfXIa.png" />
-  <display-name>NL Film1 Family 4K</display-name><display-name>NL Film1 Family HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118010000 +0000" channel="Film1Family.nl@SD">
     <title lang="nl">Loosies</title>
     <desc lang="nl">Een jonge zakkenroller komt in aanraking met een vrouw met wie hij een onenightstand heeft gehad. Als hij te horen krijgt dat ze zwanger is van hem, moet hij een allesbepalende keuze maken.</desc>
@@ -66554,8 +66602,10 @@
   </programme>
   <channel id="Film1Premiere.nl@SD">
     <display-name>Film1 Premiere</display-name>
+    <display-name>NL Film1 Premiere 4K</display-name>
+    <display-name>NL Film1 Premiere HD</display-name>
     <icon src="https://i.imgur.com/Kn9LX8i.png" />
-  <display-name>NL Film1 Premiere 4K</display-name><display-name>NL Film1 Premiere HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118004500 +0000" channel="Film1Premiere.nl@SD">
     <title lang="nl">Darkness of Man</title>
     <desc lang="nl">Interpol-agent Russell Hatch is getuige van de dood van een informant. Jaren later moet hij de zoon van de informant beschermen tegen meedogenloze gangs die verwikkeld zijn in een grootscheepse bendeoorlog.</desc>
@@ -72513,8 +72563,10 @@
   </programme>
   <channel id="History.nl@SD">
     <display-name>HISTORY</display-name>
+    <display-name>NL History Channel 4K</display-name>
+    <display-name>NL History Channel HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
-  <display-name>NL History Channel 4K</display-name><display-name>NL History Channel HD</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118000500 +0000" channel="History.nl@SD">
     <title lang="nl">Forged in Fire</title>
     <sub-title lang="nl">On the Road: Appalachian Showdown</sub-title>
@@ -74098,8 +74150,10 @@
   </programme>
   <channel id="HorseCountryTV.uk@SD">
     <display-name>Horse &amp; Country TV</display-name>
+    <display-name>NL Horse &amp; Country 4K</display-name>
+    <display-name>NL Horse &amp; Country HD</display-name>
     <icon src="https://i.imgur.com/1x6zYZr.png" />
-  <display-name>NL Horse &amp; Country 4K</display-name><display-name>NL Horse &amp; Country HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="HorseCountryTV.uk@SD">
     <title lang="nl">Backstage Pass with Monty Roberts</title>
     <desc lang="nl">Bekend paardenfluisteraar Monty Roberts bezoekt probleempaarden, zodat hij ze kan helpen om hun angsten te overwinnen. Hierbij geeft hij een inkijk in veel van zijn bekende technieken.</desc>
@@ -76536,8 +76590,9 @@
   </programme>
   <channel id="Ketnet.be@Netherlands">
     <display-name>Ketnet</display-name>
+    <display-name>NL Ketnet HD</display-name>
     <icon src="https://i.imgur.com/Q4vI453.png" />
-  <display-name>NL Ketnet HD</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118040000 +0000" channel="Ketnet.be@Netherlands">
     <title lang="nl">Geen uitzending</title>
     <desc lang="nl">Geen uitzending.</desc>
@@ -79673,8 +79728,9 @@
   </programme>
   <channel id="L1TV.nl@SD">
     <display-name>L1 TV</display-name>
+    <display-name>NL L1murg 4K</display-name>
     <icon src="https://i.imgur.com/SDD5KS5.png" />
-  <display-name>NL L1murg 4K</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="L1TV.nl@SD">
     <title lang="nl">Nachtcarrousel</title>
     <desc lang="nl">Nachtelijk programma met doorlopend L1mburg Centraal en Óngerwaeg. Limburgse actualiteiten, achtergronden en nieuwsberichten.</desc>
@@ -81339,8 +81395,9 @@
   </programme>
   <channel id="LoveNature.ca@SD">
     <display-name>Love Nature</display-name>
+    <display-name>NL Love Nature HD</display-name>
     <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
-  <display-name>NL Love Nature HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="LoveNature.ca@SD">
     <title lang="nl">Verhalen uit Zambia</title>
     <sub-title lang="nl">De Woodland-groep</sub-title>
@@ -84087,8 +84144,9 @@
   </programme>
   <channel id="Mezzo.fr@Netherlands">
     <display-name>Mezzo</display-name>
+    <display-name>NL Mezzo Llive</display-name>
     <icon src="https://i.imgur.com/auNdGeW.png" />
-  <display-name>NL Mezzo Llive</display-name></channel>
+  </channel>
   <programme start="20261117220900 +0000" stop="20261118004800 +0000" channel="Mezzo.fr@Netherlands">
     <title lang="nl">Haendel: Jephtha - Joyce DiDonato, Michael Spyres, Il Pomo d'Oro</title>
     <desc lang="nl">Een uitvoering van Händels `Jephtha' van Il Pomo d'Oro, gedirigeerd door Francesco Corti.</desc>
@@ -86195,8 +86253,10 @@
   </programme>
   <channel id="MTV.nl@SD">
     <display-name>MTV</display-name>
+    <display-name>NL MTV 4K</display-name>
+    <display-name>NL MTV HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>NL MTV 4K</display-name><display-name>NL MTV HD</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118002000 +0000" channel="MTV.nl@SD">
     <title lang="nl">Ridiculousness</title>
     <sub-title lang="nl">Sterling en Lolo Wood CLXXXVII</sub-title>
@@ -88135,8 +88195,9 @@
   </programme>
   <channel id="MyZenTV.fr@Netherlands">
     <display-name>MyZen TV</display-name>
+    <display-name>NL MyZen TV</display-name>
     <icon src="https://i.imgur.com/fIi8o0C.png" />
-  <display-name>NL MyZen TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="MyZenTV.fr@Netherlands">
     <title lang="en">Body &amp; Soul: Yoga</title>
     <desc lang="en">Practice yoga from the comfort of your home with our experienced teachers.</desc>
@@ -88697,8 +88758,10 @@
   </programme>
   <channel id="NationalGeographic.nl@SD">
     <display-name>National Geographic</display-name>
+    <display-name>NL Nat Geo 4K</display-name>
+    <display-name>NL Nat Geo HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
-  <display-name>NL Nat Geo 4K</display-name><display-name>NL Nat Geo HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="NationalGeographic.nl@SD">
     <title lang="nl">Pompeii: Out of Time With Tom Hiddleston</title>
     <sub-title lang="nl">Eruption</sub-title>
@@ -89606,8 +89669,10 @@
   </programme>
   <channel id="NationalGeographicWild.nl@SD">
     <display-name>National Geographic WILD</display-name>
+    <display-name>NL Nat Geo Wild 4K</display-name>
+    <display-name>NL Nat Geo Wild HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
-  <display-name>NL Nat Geo Wild 4K</display-name><display-name>NL Nat Geo Wild HD</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118004500 +0000" channel="NationalGeographicWild.nl@SD">
     <title lang="nl">The Hidden Kingdoms of China</title>
     <sub-title lang="nl">Born Wild</sub-title>
@@ -92191,8 +92256,9 @@
   </programme>
   <channel id="NET5.nl@SD">
     <display-name>Net5</display-name>
+    <display-name>NL NET 5 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Net5_Logo_2023.jpg" />
-  <display-name>NL NET 5 4K</display-name></channel>
+  </channel>
   <programme start="20261117235300 +0000" stop="20261118001500 +0000" channel="NET5.nl@SD">
     <title lang="nl">Loop: Hart van Nederland</title>
     <desc lang="nl">Het nieuws van Nederland. Mis niets van het gesprek van de dag.</desc>
@@ -92855,8 +92921,9 @@
   </programme>
   <channel id="NH.nl@SD">
     <display-name>NH</display-name>
+    <display-name>NL NH NIEUWS HD</display-name>
     <icon src="https://i.imgur.com/SPkK4md.png" />
-  <display-name>NL NH NIEUWS HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000800 +0000" channel="NH.nl@SD">
     <title lang="nl">NH Nieuws</title>
     <desc lang="nl">Al het nieuws uit Noord-Holland.</desc>
@@ -94375,8 +94442,11 @@
   </programme>
   <channel id="Nickelodeon.nl@Netherlands">
     <display-name>Nickelodeon</display-name>
+    <display-name>NL NickToons HD</display-name>
+    <display-name>NL Nickelodeon 4K</display-name>
+    <display-name>NL Nickelodeon HD</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
-  <display-name>NL NickToons HD</display-name><display-name>NL Nickelodeon 4K</display-name><display-name>NL Nickelodeon HD</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118001500 +0000" channel="Nickelodeon.nl@Netherlands">
     <title lang="nl">De Marsupilami's</title>
     <sub-title lang="nl">Hope op de vlucht / Lopez verliest zijn hoofd</sub-title>
@@ -99205,8 +99275,9 @@
   </programme>
   <channel id="NickJr.nl@SD">
     <display-name>Nick Jr.</display-name>
+    <display-name>NL Nick Jr. HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
-  <display-name>NL Nick Jr. HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118000500 +0000" channel="NickJr.nl@SD">
     <title lang="nl">Rubble &amp; Crew</title>
     <sub-title lang="nl">De crew bouwt een superbed voor Charger / De crew bouwt een Super Eki Eekhoorn-speelplaats</sub-title>
@@ -106942,8 +107013,10 @@
   </programme>
   <channel id="NPO1.nl@SD">
     <display-name>NPO 1</display-name>
+    <display-name>NL NPO 1 4K</display-name>
+    <display-name>NL NPO 1 HD</display-name>
     <icon src="https://i.imgur.com/HEtJEBa.png" />
-  <display-name>NL NPO 1 4K</display-name><display-name>NL NPO 1 HD</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118002000 +0000" channel="NPO1.nl@SD">
     <title lang="nl">NOS Journaal Laat</title>
     <desc lang="nl">Met het laatste nieuws, de sport van de dag en de actuele weersverwachting.</desc>
@@ -108888,8 +108961,9 @@
   </programme>
   <channel id="NPO1extra.nl@SD">
     <display-name>NPO 1 Extra</display-name>
+    <display-name>NL NPO 1 Extra</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1e/NPO_1_Extra_logo_2018.svg" />
-  <display-name>NL NPO 1 Extra</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118002500 +0000" channel="NPO1extra.nl@SD">
     <title lang="nl">BinnensteBuiten</title>
     <sub-title lang="nl">Aflevering 152</sub-title>
@@ -109927,8 +110001,10 @@
   </programme>
   <channel id="NPO2.nl@SD">
     <display-name>NPO 2</display-name>
+    <display-name>NL NPO 2 4K</display-name>
+    <display-name>NL NPO 2 HD</display-name>
     <icon src="https://i.imgur.com/wmqaoXS.png" />
-  <display-name>NL NPO 2 4K</display-name><display-name>NL NPO 2 HD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118002500 +0000" channel="NPO2.nl@SD">
     <title lang="nl">Ongehoord Nieuws</title>
     <sub-title lang="nl">Aflevering 62</sub-title>
@@ -111097,8 +111173,9 @@
   </programme>
   <channel id="NPO2extra.nl@SD">
     <display-name>NPO 2 Extra</display-name>
+    <display-name>NL NPO 2 Extra 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d5/NPO_2_Extra_logo_2018.svg" />
-  <display-name>NL NPO 2 Extra 4K</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118013000 +0000" channel="NPO2extra.nl@SD">
     <title lang="nl">Motherboard</title>
     <desc lang="nl">De BAFTA-winnende regisseur Victoria Mapplebeck richtte de camera op zichzelf toen ze op haar 38e single, zwanger en blut was. Opgenomen in twee decennia is 'Motherboard' een viering van rommelige levens, solo-moederschap en het bewijs dat epische reizen thuis kunnen beginnen en eindigen.</desc>
@@ -111775,8 +111852,10 @@
   </programme>
   <channel id="NPO3.nl@SD">
     <display-name>NPO 3</display-name>
+    <display-name>NL NPO 3 4K</display-name>
+    <display-name>NL NPO 3 HD</display-name>
     <icon src="https://i.imgur.com/lKcFUqi.png" />
-  <display-name>NL NPO 3 4K</display-name><display-name>NL NPO 3 HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118003500 +0000" channel="NPO3.nl@SD">
     <title lang="nl">Dropout Resort</title>
     <sub-title lang="nl">Een echte baas zijn</sub-title>
@@ -114967,8 +115046,10 @@
   </programme>
   <channel id="NPOPolitiekenNieuws.nl@SD">
     <display-name>NPO Politiek en Nieuws</display-name>
+    <display-name>NL NPO Nieuws</display-name>
+    <display-name>NL NPO Politiek HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/6/62/NPO_Politiek_en_Nieuws_logo.svg" />
-  <display-name>NL NPO Nieuws</display-name><display-name>NL NPO Politiek HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118020000 +0000" channel="NPOPolitiekenNieuws.nl@SD">
     <title lang="nl">Haagse politiek</title>
     <desc lang="nl">24 uur per dag de laatste politieke ontwikkelingen, met live debatten, interviews en andere nieuwsuitzendingen.</desc>
@@ -115872,8 +115953,10 @@
   </programme>
   <channel id="OmroepBrabant.nl@SD">
     <display-name>Omroep Brabant</display-name>
+    <display-name>NL Omroep Brabant 4K</display-name>
+    <display-name>NL Omroep Brabant HD</display-name>
     <icon src="https://i.imgur.com/KLYsKKC.png" />
-  <display-name>NL Omroep Brabant 4K</display-name><display-name>NL Omroep Brabant HD</display-name></channel>
+  </channel>
   <programme start="20261117234700 +0000" stop="20261118050000 +0000" channel="OmroepBrabant.nl@SD">
     <title lang="nl">Nachtprogrammering</title>
     <desc lang="nl">Een doorlopende herhaling van de programma's die de avond ervoor zijn uitgezonden.</desc>
@@ -117663,8 +117746,9 @@
   </programme>
   <channel id="OmroepFlevoland.nl@SD">
     <display-name>Omroep Flevoland</display-name>
+    <display-name>NL Omroep Flevoland 4K</display-name>
     <icon src="https://i.imgur.com/rF4MTYD.png" />
-  <display-name>NL Omroep Flevoland 4K</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="OmroepFlevoland.nl@SD">
     <title lang="nl">Dit is Flevoland nieuws</title>
     <desc lang="nl">Nieuwsprogramma waarin actuele onderwerpen uit de provincie Flevoland besproken worden.</desc>
@@ -118577,8 +118661,10 @@
   </programme>
   <channel id="OmroepGelderland.nl@SD">
     <display-name>Omroep Gelderland</display-name>
+    <display-name>NL TV Gelderland 4K</display-name>
+    <display-name>NL TV Gelderland HD</display-name>
     <icon src="https://i.imgur.com/G08hKit.png" />
-  <display-name>NL TV Gelderland 4K</display-name><display-name>NL TV Gelderland HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="OmroepGelderland.nl@SD">
     <title lang="nl">Gisteren gemist?</title>
     <desc lang="nl">Het programma van de voorgaande avond wordt opnieuw uitgezonden.</desc>
@@ -120954,8 +121040,10 @@
   </programme>
   <channel id="OmroepZeeland.nl@SD">
     <display-name>Omroep Zeeland</display-name>
+    <display-name>NL Omroep Zeeland 4K</display-name>
+    <display-name>NL Omroep Zeeland HD</display-name>
     <icon src="https://i.imgur.com/3c3QUSn.png" />
-  <display-name>NL Omroep Zeeland 4K</display-name><display-name>NL Omroep Zeeland HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118050000 +0000" channel="OmroepZeeland.nl@SD">
     <title lang="nl">Tekst televisie</title>
     <desc lang="nl">Overzicht van de actualiteiten uit Zeeland.</desc>
@@ -121862,8 +121950,9 @@
   </programme>
   <channel id="OmropFryslan.nl@SD">
     <display-name>Omrop Fryslân</display-name>
+    <display-name>NL Omroep Frysland 4K</display-name>
     <icon src="https://i.imgur.com/khacDTU.png" />
-  <display-name>NL Omroep Frysland 4K</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118050000 +0000" channel="OmropFryslan.nl@SD">
     <title lang="nl">Nachtprogrammering</title>
     <category lang="nl">Entertainment</category>
@@ -122618,8 +122707,10 @@
   </programme>
   <channel id="ONS.nl@SD">
     <display-name>ONS</display-name>
+    <display-name>NL ONS 4K</display-name>
+    <display-name>NL Ons HD</display-name>
     <icon src="https://i.imgur.com/f9ruYUn.png" />
-  <display-name>NL ONS 4K</display-name><display-name>NL Ons HD</display-name></channel>
+  </channel>
   <programme start="20261117235600 +0000" stop="20261118000300 +0000" channel="ONS.nl@SD">
     <title lang="nl">Betty Boop</title>
     <desc lang="nl">De mooie, gewiekste en zeer geëmancipeerde Betty Boop beleeft talloze avonturen.</desc>
@@ -124307,8 +124398,9 @@
   </programme>
   <channel id="RTVOost.nl@SD">
     <display-name>Oost</display-name>
+    <display-name>NL TV Oost HD</display-name>
     <icon src="https://i.imgur.com/nTR6q9H.png" />
-  <display-name>NL TV Oost HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118002600 +0000" channel="RTVOost.nl@SD">
     <title lang="nl">Vandaag in Overijssel</title>
     <desc lang="nl">Vandaag in Overijssel zet elke dag de belangrijkste gebeurtenissen én de mooiste verhalen voor je op een rij. Met actueel nieuws, reportages en verrassende ontmoetingen uit alle hoeken van de provincie.</desc>
@@ -125285,8 +125377,10 @@
   </programme>
   <channel id="OUTtv.nl@SD">
     <display-name>OUTTV</display-name>
+    <display-name>NL OUT TV 4K</display-name>
+    <display-name>NL OUT TV HD</display-name>
     <icon src="https://i.imgur.com/QlUWNSU.png" />
-  <display-name>NL OUT TV 4K</display-name><display-name>NL OUT TV HD</display-name></channel>
+  </channel>
   <programme start="20261117235900 +0000" stop="20261118011900 +0000" channel="OUTtv.nl@SD">
     <title lang="nl">Triangle</title>
     <sub-title lang="nl">Aflevering 12</sub-title>
@@ -125920,8 +126014,10 @@
   </programme>
   <channel id="ParamountNetwork.nl@SD">
     <display-name>Paramount Network</display-name>
+    <display-name>NL Spike 4K</display-name>
+    <display-name>NL Spike HD</display-name>
     <icon src="https://i.imgur.com/I0JJySN.png" />
-  <display-name>NL Spike 4K</display-name><display-name>NL Spike HD</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118005000 +0000" channel="ParamountNetwork.nl@SD">
     <title lang="nl">Ghost Whisperer</title>
     <sub-title lang="nl">Een duivels pact</sub-title>
@@ -127769,8 +127865,9 @@
   </programme>
   <channel id="PebbleTV.nl@SD">
     <display-name>Pebble TV</display-name>
+    <display-name>NL Pebble TV HD</display-name>
     <icon src="https://i.imgur.com/Nb435IH.png" />
-  <display-name>NL Pebble TV HD</display-name></channel>
+  </channel>
   <programme start="20261118173159 +0000" stop="20261118190158 +0000" channel="PebbleTV.nl@SD">
     <title lang="nl">Best of StoryZoo &amp; Friends</title>
     <desc lang="nl">De allerleukste momenten van StoryZoo &amp; Friends op een rij! Een feest van herkenning!</desc>
@@ -134867,8 +134964,10 @@
   </programme>
   <channel id="RTL5.nl@SD">
     <display-name>RTL 5</display-name>
+    <display-name>NL RTL 5 4K</display-name>
+    <display-name>NL RTL 5 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/0/07/RTL5_2023.svg" />
-  <display-name>NL RTL 5 4K</display-name><display-name>NL RTL 5 HD</display-name></channel>
+  </channel>
   <programme start="20261117233200 +0000" stop="20261118003900 +0000" channel="RTL5.nl@SD">
     <title lang="nl">Stop! Politie UK</title>
     <sub-title lang="nl">Aflevering 1</sub-title>
@@ -135237,8 +135336,11 @@
   </programme>
   <channel id="RTL7.nl@SD">
     <display-name>RTL 7</display-name>
+    <display-name>NL RTL 7 4K</display-name>
+    <display-name>NL RTL 7 HD</display-name>
+    <display-name>NL RTV 7 HD</display-name>
     <icon src="https://i.imgur.com/k3NwiUB.png" />
-  <display-name>NL RTL 7 4K</display-name><display-name>NL RTL 7 HD</display-name><display-name>NL RTV 7 HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118002600 +0000" channel="RTL7.nl@SD">
     <title lang="nl">Pawn Stars</title>
     <sub-title lang="nl">Good Eats &amp; Rick's Wicked Ale</sub-title>
@@ -135990,8 +136092,10 @@
   </programme>
   <channel id="RTL8.nl@SD">
     <display-name>RTL 8</display-name>
+    <display-name>NL RTL 8 4K</display-name>
+    <display-name>NL RTL 8 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/5/52/RTL8_2023.svg" />
-  <display-name>NL RTL 8 4K</display-name><display-name>NL RTL 8 HD</display-name></channel>
+  </channel>
   <programme start="20261117234900 +0000" stop="20261118010100 +0000" channel="RTL8.nl@SD">
     <title lang="nl">Telvero</title>
     <desc lang="nl">Homeshoppingprogramma waarin de kijker via de telefoon allerlei producten kan aanschaffen.</desc>
@@ -136319,8 +136423,10 @@
   </programme>
   <channel id="RTLCrime.nl@SD">
     <display-name>RTL Crime</display-name>
+    <display-name>NL RTL Crime 4K</display-name>
+    <display-name>NL RTL Crime HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5c/RTL_Crime_%28Netherlands%29_%282023%2C_stacked%29.svg" />
-  <display-name>NL RTL Crime 4K</display-name><display-name>NL RTL Crime HD</display-name></channel>
+  </channel>
   <programme start="20261117235600 +0000" stop="20261118010200 +0000" channel="RTLCrime.nl@SD">
     <title lang="nl">Bloodline Detectives</title>
     <sub-title lang="nl">Murder in Apartment 101</sub-title>
@@ -137568,8 +137674,10 @@
   </programme>
   <channel id="RTLLounge.nl@SD">
     <display-name>RTL Lounge</display-name>
+    <display-name>NL RTL Lounge 4K</display-name>
+    <display-name>NL RTL Lounge HD</display-name>
     <icon src="https://i.imgur.com/kxHy0md.png" />
-  <display-name>NL RTL Lounge 4K</display-name><display-name>NL RTL Lounge HD</display-name></channel>
+  </channel>
   <programme start="20261117234800 +0000" stop="20261118010300 +0000" channel="RTLLounge.nl@SD">
     <title lang="nl">McLeod's Daughters</title>
     <sub-title lang="nl">Lover Come Back</sub-title>
@@ -139148,8 +139256,10 @@
   </programme>
   <channel id="RTLTelekids.nl@SD">
     <display-name>RTL Telekids</display-name>
+    <display-name>NL RTL Telekids 4K</display-name>
+    <display-name>NL RTL Telekids HD</display-name>
     <icon src="https://i.imgur.com/TLQjK7g.png" />
-  <display-name>NL RTL Telekids 4K</display-name><display-name>NL RTL Telekids HD</display-name></channel>
+  </channel>
   <programme start="20261117234100 +0000" stop="20261118000300 +0000" channel="RTLTelekids.nl@SD">
     <title lang="nl">Bassie en Adriaan: De Diamant</title>
     <sub-title lang="nl">50 keer het bewijs</sub-title>
@@ -142820,8 +142930,10 @@
   </programme>
   <channel id="RTLZ.nl@SD">
     <display-name>RTL Z</display-name>
+    <display-name>NL RTL Z 4K</display-name>
+    <display-name>NL RTL Z HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/8/85/RTLZ_2023.svg" />
-  <display-name>NL RTL Z 4K</display-name><display-name>NL RTL Z HD</display-name></channel>
+  </channel>
   <programme start="20261117232300 +0000" stop="20261118001900 +0000" channel="RTLZ.nl@SD">
     <title lang="nl">Een nieuw leven in de zon</title>
     <sub-title lang="nl">Aflevering 24</sub-title>
@@ -145391,8 +145503,10 @@
   </programme>
   <channel id="RTVDrenthe.nl@SD">
     <display-name>RTV Drenthe</display-name>
+    <display-name>NL RTV Drenthe 4K</display-name>
+    <display-name>NL RTV Drenthe HD</display-name>
     <icon src="https://i.imgur.com/UBQCjnG.png" />
-  <display-name>NL RTV Drenthe 4K</display-name><display-name>NL RTV Drenthe HD</display-name></channel>
+  </channel>
   <programme start="20261117234700 +0000" stop="20261118000100 +0000" channel="RTVDrenthe.nl@SD">
     <title lang="nl">Drenthe Nu</title>
     <desc lang="nl">Het laatste nieuws uit de regio Drenthe wordt belicht en er wordt ingegaan op actualiteiten.</desc>
@@ -149225,8 +149339,9 @@
   </programme>
   <channel id="RTVRijnmond.nl@SD">
     <display-name>RTV Rijnmond</display-name>
+    <display-name>NL TV Rijnmond 4K</display-name>
     <icon src="https://i.imgur.com/fJTs9xH.png" />
-  <display-name>NL TV Rijnmond 4K</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="RTVRijnmond.nl@SD">
     <title lang="nl">Nachtprogrammering</title>
     <sub-title lang="nl">Aflevering 230</sub-title>
@@ -150366,8 +150481,12 @@
   </programme>
   <channel id="RTVUtrecht.nl@SD">
     <display-name>RTV Utrecht</display-name>
+    <display-name>NL RTV Noord 4K</display-name>
+    <display-name>NL RTV Noord HD</display-name>
+    <display-name>NL RTV Utrecht 4K</display-name>
+    <display-name>NL RTV Utrecht HD</display-name>
     <icon src="https://i.imgur.com/nrvs30l.png" />
-  <display-name>NL RTV Noord 4K</display-name><display-name>NL RTV Noord HD</display-name><display-name>NL RTV Utrecht 4K</display-name><display-name>NL RTV Utrecht HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001300 +0000" channel="RTVUtrecht.nl@SD">
     <title lang="nl">UVandaag</title>
     <desc lang="nl">Het nieuwsmagazine met reportages, gasten. Achtergronden en actualiteiten uit de regio Utrecht.</desc>
@@ -151982,8 +152101,9 @@
   </programme>
   <channel id="RTVWest.nl@SD">
     <display-name>RTV West</display-name>
+    <display-name>NL TV West 4K</display-name>
     <icon src="https://i.imgur.com/5IDb9fk.png" />
-  <display-name>NL TV West 4K</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118050000 +0000" channel="RTVWest.nl@SD">
     <title lang="nl">Nachtprogrammering</title>
     <desc lang="nl">Doorlopende herhaling van de programmering van de voorafgaande avond.</desc>
@@ -153334,8 +153454,10 @@
   </programme>
   <channel id="SBS6.nl@SD">
     <display-name>SBS6</display-name>
+    <display-name>NL SBS 6 4K</display-name>
+    <display-name>NL SBS 6 HD</display-name>
     <icon src="https://i.imgur.com/pCfKkqB.png" />
-  <display-name>NL SBS 6 4K</display-name><display-name>NL SBS 6 HD</display-name></channel>
+  </channel>
   <programme start="20261117235200 +0000" stop="20261118002400 +0000" channel="SBS6.nl@SD">
     <title lang="nl">Prijzenjacht</title>
     <sub-title lang="nl">Aflevering 32</sub-title>
@@ -154362,8 +154484,10 @@
   </programme>
   <channel id="SBS9.nl@SD">
     <display-name>SBS9</display-name>
+    <display-name>NL SBS 9 4K</display-name>
+    <display-name>NL SBS 9 HD</display-name>
     <icon src="https://i.imgur.com/8AeOOvm.png" />
-  <display-name>NL SBS 9 4K</display-name><display-name>NL SBS 9 HD</display-name></channel>
+  </channel>
   <programme start="20261117232100 +0000" stop="20261118000900 +0000" channel="SBS9.nl@SD">
     <title lang="nl">NUMB3RS</title>
     <sub-title lang="nl">Uncertainty Principle</sub-title>
@@ -156470,8 +156594,9 @@
   </programme>
   <channel id="ShortsTV.uk@SD">
     <display-name>Shorts TV</display-name>
+    <display-name>NL Shorts TV HD</display-name>
     <icon src="https://i.imgur.com/426L1ig.png" />
-  <display-name>NL Shorts TV HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000100 +0000" channel="ShortsTV.uk@SD">
     <title lang="en">Midnight Horror</title>
     <desc lang="en">A collection of spooky and scary short films, covering a variety of horror genres with everything from tales of ghosts and ghouls, to scary monsters and cackling witches around a bubbling cauldron.</desc>
@@ -157185,8 +157310,9 @@
   </programme>
   <channel id="SLAMTV.nl@SD">
     <display-name>SLAM!TV</display-name>
+    <display-name>NL Slam!TV</display-name>
     <icon src="https://i.imgur.com/X7NWB3A.png" />
-  <display-name>NL Slam!TV</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="SLAMTV.nl@SD">
     <title lang="nl">SLAM! - Boost Your Night!</title>
     <desc lang="nl">Uitzending van de populairste videoclips om de nacht mee door te komen.</desc>
@@ -159779,8 +159905,10 @@
   </programme>
   <channel id="STARChannel.nl@SD">
     <display-name>STAR Channel</display-name>
+    <display-name>NL Fox 4K</display-name>
+    <display-name>NL Fox HD</display-name>
     <icon src="https://i.imgur.com/5xeR7Ec.png" />
-  <display-name>NL Fox 4K</display-name><display-name>NL Fox HD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118004000 +0000" channel="STARChannel.nl@SD">
     <title lang="nl">Criminal Minds</title>
     <sub-title lang="nl">The Job</sub-title>
@@ -161655,8 +161783,9 @@
   </programme>
   <channel id="StingrayDJAZZ.ca@Netherlands">
     <display-name>Stingray DJAZZ</display-name>
+    <display-name>NL Stingray Djazz 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" />
-  <display-name>NL Stingray Djazz 4K</display-name></channel>
+  </channel>
   <programme start="20261117235600 +0000" stop="20261118010600 +0000" channel="StingrayDJAZZ.ca@Netherlands">
     <title lang="nl">Stan Getz: Jazz Greats</title>
     <desc lang="nl">De Amerikaanse tenorsaxofonist Stan Getz trad op in bebop- en cooljazzgroepen en hielp bossanova populair te maken in de VS. In 1983 speelde hij in Napa Valley in Californië met bassist Marc Johnson, drummer Victor Lewis en pianist Jim McNeely.</desc>
@@ -162316,8 +162445,9 @@
   </programme>
   <channel id="StingrayLiteTV.ca@SD">
     <display-name>Stingray LiteTV</display-name>
+    <display-name>NL Stingray Lite TV HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/5/50/StingrayLiteTVlogo.png" />
-  <display-name>NL Stingray Lite TV HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118050000 +0000" channel="StingrayLiteTV.ca@SD">
     <title lang="nl">Hit Parade</title>
     <desc lang="nl">Video's van de grootste hedendaagse popsterren en hitparades van de afgelopen twintig jaar.</desc>
@@ -163388,8 +163518,10 @@
   </programme>
   <channel id="TLC.nl@SD">
     <display-name>TLC</display-name>
+    <display-name>NL TLC 4K</display-name>
+    <display-name>NL TLC HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
-  <display-name>NL TLC 4K</display-name><display-name>NL TLC HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="TLC.nl@SD">
     <title lang="nl">De Frogers: Groeten Uit…</title>
     <sub-title lang="nl">Aflevering 4</sub-title>
@@ -166627,8 +166759,9 @@
   </programme>
   <channel id="TV538.nl@SD">
     <display-name>TV538</display-name>
+    <display-name>NL TV 538 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7a/TV-538-RGB_new.png" />
-  <display-name>NL TV 538 HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118040000 +0000" channel="TV538.nl@SD">
     <title lang="nl">538N8 Non-Stop</title>
     <sub-title lang="nl">Aflevering 265</sub-title>
@@ -170673,8 +170806,9 @@
   </programme>
   <channel id="TVOranje.nl@SD">
     <display-name>TV Oranje</display-name>
+    <display-name>NL TV Oranje</display-name>
     <icon src="https://i.imgur.com/4EQIm6x.png" />
-  <display-name>NL TV Oranje</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118030000 +0000" channel="TVOranje.nl@SD">
     <title lang="nl">TV Oranje Nonstop</title>
     <desc lang="nl">Non-stop muziek van eigen bodem van uiteenlopende artiesten.</desc>
@@ -177195,7 +177329,9 @@
   </programme>
   <channel id="VeronicaDisneyXD.nl@SD">
     <display-name>Veronica / DisneyXD</display-name>
-  <display-name>NL Disney XD / Veronica 4K</display-name><display-name>NL Disney XD / Veronica HD</display-name></channel>
+    <display-name>NL Disney XD / Veronica 4K</display-name>
+    <display-name>NL Disney XD / Veronica HD</display-name>
+  </channel>
   <programme start="20261118174307 +0000" stop="20261118180842 +0000" channel="VeronicaDisneyXD.nl@SD">
     <title lang="nl">Two and a Half Men</title>
     <desc lang="nl">Charlie Sheen en Jon Cryer spelen de hoofdrollen in deze voor een Emmy® genomineerde comedy. Sheen speelt een vrijgezel in Malibu die makkelijk vrouwen voor zich wint. Zijn zorgeloze levensstijl wordt onderbroken wanneer zijn verkrampte broer (Cryer) en diens zoon bij hem komen wonen. Ondanks alle complexiteit in hun levens, belooft deze ongewone familie elk van hen een beter mens te maken. Afl. 22 van seizoen 9. De hopeloze Alan Harper en zijn puberende zoon Jake wonen bij Alans broer en miljardair Charlie Harper in zijn huis aan het strand in Malibu. De drie kerels botsen vaak, maar zijn ook aan elkaar gehecht en leven samen als een gezin. Cast: Charlie Sheen, Jon Cryer, Angus T. Jones, Marin Hinkle &amp; Melanie Lynskey Regisseur: Lee Aronsohn Script: Lee Aronsohn</desc>
@@ -183300,8 +183436,9 @@
   </programme>
   <channel id="XITE.nl@SD">
     <display-name>XITE</display-name>
+    <display-name>NL Xite HD</display-name>
     <icon src="https://i.imgur.com/jxuwGRi.png" />
-  <display-name>NL Xite HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118040000 +0000" channel="XITE.nl@SD">
     <title lang="nl">All Night Hits x Classics</title>
     <desc lang="nl">Geen zin om te slapen? Op XITE zie je de hele nacht de grootste hits en beste classics.</desc>
@@ -189738,8 +189875,10 @@
   </programme>
   <channel id="ZiggoSport.nl@HD">
     <display-name>Ziggo Sport</display-name>
+    <display-name>NL ZIGGO SPORT HD</display-name>
+    <display-name>NL Ziggo Sport 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Ziggo_Sport_logo.svg" />
-  <display-name>NL ZIGGO SPORT HD</display-name><display-name>NL Ziggo Sport 4K</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118012500 +0000" channel="ZiggoSport.nl@HD">
     <title lang="nl">UEFA Nations League</title>
     <sub-title lang="nl">België - Italië</sub-title>
@@ -190203,7 +190342,9 @@
   </programme>
   <channel id="ZiggoSportDocu.nl@SD">
     <display-name>Ziggo Sport Docu</display-name>
-  <display-name>NL Ziggo Sport Docu 4K</display-name><display-name>NL Ziggo Sport Docu FHD</display-name></channel>
+    <display-name>NL Ziggo Sport Docu 4K</display-name>
+    <display-name>NL Ziggo Sport Docu FHD</display-name>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118182500 +0000" channel="ZiggoSportDocu.nl@SD">
     <title lang="nl">De Evolutie van Sport</title>
     <desc lang="nl">Evolution of Sport is een serie die onderzoekt wat de impact van verandering is en hoe atleten, coaches en bestuurders zich door de jaren heen hebben aangepast om voorop te blijven lopen, Atleten zijn inmiddels ‘merken’ geworden, vrouwensport groeit explosief, data stuurt prestaties op het veld en technologie verandert de manier waarop fans sport beleven. Het is een tijdloze serie die laat zien hoe sport voortdurend in beweging is. Afl. 34:.</desc>
@@ -190898,7 +191039,9 @@
   </programme>
   <channel id="ZiggoSportGolf.nl@SD">
     <display-name>Ziggo Sport Golf</display-name>
-  <display-name>NL Ziggo Sport Golf 4K</display-name><display-name>NL Ziggo Sport Golf HD</display-name></channel>
+    <display-name>NL Ziggo Sport Golf 4K</display-name>
+    <display-name>NL Ziggo Sport Golf HD</display-name>
+  </channel>
   <programme start="20261118173000 +0000" stop="20261118184000 +0000" channel="ZiggoSportGolf.nl@SD">
     <title lang="nl">Race Café</title>
     <desc lang="nl">In het Race Cafe worden de laatste ontwikkelingen besproken uit de verschillende raceklasses zoals Formule 1, MotoGP, Indycar, NASCAR en vele andere categorieën. Uiteraard wordt er ook vooruit gekeken naar de race-actie van komend weekend. Afl. 38:.</desc>
@@ -191141,7 +191284,9 @@
   </programme>
   <channel id="ZiggoSportRacing.nl@SD">
     <display-name>Ziggo Sport Racing</display-name>
-  <display-name>NL Ziggo Sport Racing 4K</display-name><display-name>NL Ziggo Sport Racing HD</display-name></channel>
+    <display-name>NL Ziggo Sport Racing 4K</display-name>
+    <display-name>NL Ziggo Sport Racing HD</display-name>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118190000 +0000" channel="ZiggoSportRacing.nl@SD">
     <title lang="nl">Nitto ATP Finals 2026: Nitto ATP Finals: Groepsfase</title>
     <desc lang="nl">Herhaling van de vierde dag van de Nitto ATP Finals, gespeeld in Turijn, Italie. Afl. 6:.</desc>
@@ -191389,7 +191534,9 @@
   </programme>
   <channel id="ZiggoSportSelect.nl@SD">
     <display-name>Ziggo Sport Select</display-name>
-  <display-name>NL Ziggo Sport Select 4K</display-name><display-name>NL Ziggo Sport Select HD</display-name></channel>
+    <display-name>NL Ziggo Sport Select 4K</display-name>
+    <display-name>NL Ziggo Sport Select HD</display-name>
+  </channel>
   <programme start="20261118180000 +0000" stop="20261118183000 +0000" channel="ZiggoSportSelect.nl@SD">
     <title lang="nl">UEFA Nations League Samenvatting</title>
     <desc lang="nl">Hoogtepunten van de wedstrijden gespeeld in de UEFA Nations League. De UEFA Nations League 2026–27 is de vijfde editie van dit voetbalkampioenschap. Een toernooi dat om de twee jaar zal worden gespeeld tussen de 55 lidstaten van de UEFA. Op dit toernooi zijn plekken te verdienen voor het Europees kampioenschap voetbal 2028.. Afl. 26:.</desc>
@@ -191647,7 +191794,8 @@
   </programme>
   <channel id="ZiggoSportTennis.nl@SD">
     <display-name>Ziggo Sport Tennis</display-name>
-  <display-name>NL Ziggo Sport Tennis 4K</display-name></channel>
+    <display-name>NL Ziggo Sport Tennis 4K</display-name>
+  </channel>
   <programme start="20261118175500 +0000" stop="20261118190000 +0000" channel="ZiggoSportTennis.nl@SD">
     <title lang="nl">PGA Tour Champions: Hoogtepunten: PGA Tour Champions: Charles Schwab Cup Championship Hoogtepunten</title>
     <desc lang="nl">Hoogtepunten van de PGA Tour Champions van afgelopen weekend. Afl. 23:.</desc>
@@ -191895,7 +192043,9 @@
   </programme>
   <channel id="ZiggoSportVoetbal.nl@SD">
     <display-name>Ziggo Sport Voetbal</display-name>
-  <display-name>NL Ziggo Sport Voetbal 4K</display-name><display-name>NL Ziggo Sport Voetbal HD</display-name></channel>
+    <display-name>NL Ziggo Sport Voetbal 4K</display-name>
+    <display-name>NL Ziggo Sport Voetbal HD</display-name>
+  </channel>
   <programme start="20261118171500 +0000" stop="20261118181000 +0000" channel="ZiggoSportVoetbal.nl@SD">
     <title lang="nl">Sport Stories: Het finale duel: Ronaldo vs Messi</title>
     <desc lang="nl">In deze documentaire de twee genieën die voorbestemd waren om een tijdperk te bepalen, botsten op hetzelfde podium. Deze documentaire onderzoekt de oorsprong van de rivaliteit tussen Cristiano Ronaldo en Lionel Messi, het moment waarop hun confrontatie het Spaanse voetbal veranderde en grootsheid in het moderne voetbal voorgoed herdefinieerde. Afl. 198:.</desc>
@@ -192143,7 +192293,8 @@
   </programme>
   <channel id="ZiggoTV.nl@SD">
     <display-name>Ziggo TV</display-name>
-  <display-name>NL Ziggo TV 4K</display-name></channel>
+    <display-name>NL Ziggo TV 4K</display-name>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001000 +0000" channel="ZiggoTV.nl@SD">
     <title lang="nl">Spider-Man: Brand New Day</title>
     <desc lang="nl">Kijk 10 minuten uit de film Spider-Man: Brand New Day. Liever de hele film zien? Ga naar Pathé Thuis in het Entertainment Menu.</desc>

@@ -2,8 +2,10 @@
 <tv>
   <channel id="24Kitchen.us@Portugal">
     <display-name>24Kitchen</display-name>
+    <display-name>PT 24 Kitchen 4K</display-name>
+    <display-name>PT 24 Kitchen HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/960px-24Kitchen.png" />
-  <display-name>PT 24 Kitchen 4K</display-name><display-name>PT 24 Kitchen HD</display-name></channel>
+  </channel>
   <programme start="20261117235100 +0000" stop="20261118001300 +0000" channel="24Kitchen.us@Portugal">
     <title lang="pt">Iguarias Semivegetarianas T1 - Ep. 19</title>
     <desc lang="pt">Tendo sido criança nos anos 80, desenvolvi alguns gostos muito particulares a que não consigo deixar de voltar quando me apetece algo verdadeiramente reconfortante ou me sinto nostálgica. Neste episódio, reuni alguns dos meus pratos favoritos que vão levá-lo numa viagem ao passado. Classificação etária: M/7+</desc>
@@ -702,8 +704,10 @@
   </programme>
   <channel id="ABolaTV.pt@Portugal">
     <display-name>A Bola</display-name>
+    <display-name>PT A Bola 4K</display-name>
+    <display-name>PT A Bola TV</display-name>
     <icon src="https://i.imgur.com/IP1NWeA.png" />
-  <display-name>PT A Bola 4K</display-name><display-name>PT A Bola TV</display-name></channel>
+  </channel>
   <programme start="20261117224500 +0000" stop="20261118001500 +0000" channel="ABolaTV.pt@Portugal">
     <title lang="pt">90+3: Rui Jorge</title>
     <desc lang="pt">90+3: Rui Jorge</desc>
@@ -1298,8 +1302,10 @@
   </programme>
   <channel id="AMCEurope.uk@Portugal">
     <display-name>AMC</display-name>
+    <display-name>PT AMC</display-name>
+    <display-name>PT AMC 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
-  <display-name>PT AMC</display-name><display-name>PT AMC 4K</display-name></channel>
+  </channel>
   <programme start="20261117235400 +0000" stop="20261118020600 +0000" channel="AMCEurope.uk@Portugal">
     <title lang="pt">A Ilha</title>
     <desc lang="pt">Neste filme de ação de ficção científica do diretor Michael Bay (“Armageddon”, “O Rochedo”), Lincoln Six-Echo (Ewan McGregor, “Moulin Rouge”) é um residente de uma instalação controlada em pleno século 21.</desc>
@@ -2772,8 +2778,10 @@
   </programme>
   <channel id="AXN.pt@SD">
     <display-name>AXN</display-name>
+    <display-name>PT AXN 4K</display-name>
+    <display-name>PT AXN HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
-  <display-name>PT AXN 4K</display-name><display-name>PT AXN HD</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118001300 +0000" channel="AXN.pt@SD">
     <title lang="pt">12 Indomáveis</title>
     <desc lang="pt">A primeira equipa das Forças Especiais dos EUA destacada para o Afeganistão a seguir ao 11 de setembro tenta conquistar aliados entre as tribos locais para, em conjunto, derrotarem os Talibãs.</desc>
@@ -3058,8 +3066,10 @@
   </programme>
   <channel id="AXNMovies.pt@SD">
     <display-name>AXN Movies</display-name>
+    <display-name>PT AXN Movies 4K</display-name>
+    <display-name>PT AXN Movies HD</display-name>
     <icon src="https://i.imgur.com/tJQckal.png" />
-  <display-name>PT AXN Movies 4K</display-name><display-name>PT AXN Movies HD</display-name></channel>
+  </channel>
   <programme start="20261117233200 +0000" stop="20261118013200 +0000" channel="AXNMovies.pt@SD">
     <title lang="pt">Maré Vermelha</title>
     <desc lang="pt">Depois do motim de uns rebeldes russos numa base com armamento nuclear, os Estados Unidos decidem enviar o submarino Alabama em missão de reconhecimento. Quando chegam ao lugar, o sistema de rádio do submarino avaria-se, sem que a tripulação conheça as ordens daquilo que devem fazer. O resultado é um motim a bordo.</desc>
@@ -3224,8 +3234,10 @@
   </programme>
   <channel id="AXNWhite.us@Portugal">
     <display-name>AXN White</display-name>
+    <display-name>PT AXN White</display-name>
+    <display-name>PT AXN White 4K</display-name>
     <icon src="https://i.imgur.com/47IKxmt.png" />
-  <display-name>PT AXN White</display-name><display-name>PT AXN White 4K</display-name></channel>
+  </channel>
   <programme start="20261117223100 +0000" stop="20261118000200 +0000" channel="AXNWhite.us@Portugal">
     <title lang="pt">Amor Envenenado: A História de Stacey Castor</title>
     <desc lang="pt">Stacey Ruth Castor superou a morte do seu primeiro marido e conseguiu voltar a encontrar o amor com o seu chefe, David. Mas quando David é encontrado morto, num aparente suicídio, a polícia suspeita de crime.</desc>
@@ -3516,8 +3528,9 @@
   </programme>
   <channel id="VITECAzoresTV.pt@SD">
     <display-name>Azores TV</display-name>
+    <display-name>PT AZORES TV</display-name>
     <icon src="https://i.imgur.com/NaDX3sm.png" />
-  <display-name>PT AZORES TV</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="VITECAzoresTV.pt@SD">
     <title lang="pt">Música Açores T1 - Ep. 803</title>
     <desc lang="pt">A música apresentada em mil cores açorianas. Diversidade de géneros e de talentos no meio do Atlântico visíveis entre vários concertos e eventos musicais.</desc>
@@ -4510,8 +4523,9 @@
   </programme>
   <channel id="BBCWorldNews.pt@SD">
     <display-name>BBC World News</display-name>
+    <display-name>PT BBC WORLD NEWS</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
-  <display-name>PT BBC WORLD NEWS</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="BBCWorldNews.pt@SD">
     <title lang="pt">BBC World News America</title>
     <desc lang="pt">The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
@@ -5162,8 +5176,9 @@
   </programme>
   <channel id="BloombergTV.us@Portugal">
     <display-name>Bloomberg</display-name>
+    <display-name>PT Bloomberg</display-name>
     <icon src="https://i.imgur.com/OuogLHx.png" />
-  <display-name>PT Bloomberg</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118010000 +0000" channel="BloombergTV.us@Portugal">
     <title lang="pt">Bloomberg The Asia Trade</title>
     <desc lang="pt">Live from Tokyo and Sydney with Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping markets.</desc>
@@ -5452,8 +5467,12 @@
   </programme>
   <channel id="BTV.pt@SD">
     <display-name>BTV</display-name>
+    <display-name>PT BTV 4K</display-name>
+    <display-name>PT BTV HD</display-name>
+    <display-name>PT Benfica 4K</display-name>
+    <display-name>PT Benfica HD</display-name>
     <icon src="https://i.imgur.com/l6LACto.png" />
-  <display-name>PT BTV 4K</display-name><display-name>PT BTV HD</display-name><display-name>PT Benfica 4K</display-name><display-name>PT Benfica HD</display-name></channel>
+  </channel>
   <programme start="20261117235900 +0000" stop="20261118002600 +0000" channel="BTV.pt@SD">
     <title lang="pt">Benfica 24 Horas</title>
     <desc lang="pt">Bloco informativo dedicado ao Benfica e aos desafios em que se encontra envolvido.</desc>
@@ -7409,8 +7428,10 @@
   </programme>
   <channel id="Canal11.pt@Portugal">
     <display-name>Canal 11</display-name>
+    <display-name>PT Canal 11 4K</display-name>
+    <display-name>PT Canal 11 HD</display-name>
     <icon src="https://i.imgur.com/mbQCGm5.png" />
-  <display-name>PT Canal 11 4K</display-name><display-name>PT Canal 11 HD</display-name></channel>
+  </channel>
   <programme start="20261117214500 +0000" stop="20261118000000 +0000" channel="Canal11.pt@Portugal">
     <title lang="pt">Futebol Total</title>
     <desc lang="pt">Futebol Total</desc>
@@ -7695,8 +7716,9 @@
   </programme>
   <channel id="Canal180.pt@SD">
     <display-name>CANAL 180</display-name>
+    <display-name>PT Canal 180</display-name>
     <icon src="https://i.imgur.com/2JgwPmm.jpeg" />
-  <display-name>PT Canal 180</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118000000 +0000" channel="Canal180.pt@SD">
     <title lang="pt">C180</title>
     <desc lang="pt">C180</desc>
@@ -10938,8 +10960,9 @@
   </programme>
   <channel id="CanalQ.pt@Portugal">
     <display-name>Canal Q</display-name>
+    <display-name>PT Canal Q</display-name>
     <icon src="https://i.imgur.com/OovTKqv.png" />
-  <display-name>PT Canal Q</display-name></channel>
+  </channel>
   <programme start="20261117231400 +0000" stop="20261118000800 +0000" channel="CanalQ.pt@Portugal">
     <title lang="pt">Bitalk T6 - Ep. 12</title>
     <desc lang="pt">Negócios que são paixões e paixões que são negócios! Bem-vindos ao Bitalk, um programa que recebe o melhor do empreendedorismo português, numa conversa que junta José Serra e Tocha, e um convidado, cheio de talento.</desc>
@@ -11476,8 +11499,9 @@
   </programme>
   <channel id="TVCancaoNova.pt@SD">
     <display-name>Canção Nova</display-name>
+    <display-name>PT Cancao Nova</display-name>
     <icon src="https://i.imgur.com/rSmwbkj.png" />
-  <display-name>PT Cancao Nova</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="TVCancaoNova.pt@SD">
     <title lang="pt">O Tempo É Breve (Monsenhor Jonas Abib) - 1ª Exibição</title>
     <desc lang="pt">O Monsenhor Jonas Abib, Fundador Da Comunidade Canção Nova, Através Das Suas Inúmeras Palestras, Traz Vários Ensinamentos E Mensagens Para Cada Um De Nós.</desc>
@@ -11900,8 +11924,9 @@
   </programme>
   <channel id="Cartoonito.pt@SD">
     <display-name>Cartoonito</display-name>
+    <display-name>PT Boomerang HD</display-name>
     <icon src="https://i.imgur.com/6vYWCD0.png" />
-  <display-name>PT Boomerang HD</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118000000 +0000" channel="Cartoonito.pt@SD">
     <title lang="pt">Batwheels T2 - Ep. 30</title>
     <desc lang="pt">Batwheels é uma série de ação e aventura para crianças em idade pré-escolar, protagonizada pelos veículos mais heroicos e icónicos do universo DC. Eles são os Batwheels: Bam (o Batmobile de Batman), Bibi (a mota de Batgirl), Redbird (o carro de Robin), Batwing (o Bat-avião) e Buff (o Bat-camião).</desc>
@@ -13800,8 +13825,9 @@
   </programme>
   <channel id="CartoonNetworkWesternEurope.uk@Portugal">
     <display-name>Cartoon Network</display-name>
+    <display-name>PT Cartoon Network</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>PT Cartoon Network</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118000000 +0000" channel="CartoonNetworkWesternEurope.uk@Portugal">
     <title lang="pt">Regular Show T2 - Ep. 4</title>
     <desc lang="pt">O Mordecai e o Rigby esquivam-se do trabalho como qualquer outro guaxinim e gaio-azul fariam:evitando o típico chefe máquina de pastilhas elásticas.</desc>
@@ -15166,8 +15192,10 @@
   </programme>
   <channel id="CasaeCozinha.pt@SD">
     <display-name>Casa e Cozinha</display-name>
+    <display-name>PT Casa E Cozinha 4K</display-name>
+    <display-name>PT Casa E Cozinha HD</display-name>
     <icon src="https://i.imgur.com/DMRkYYx.png" />
-  <display-name>PT Casa E Cozinha 4K</display-name><display-name>PT Casa E Cozinha HD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118003500 +0000" channel="CasaeCozinha.pt@SD">
     <title lang="pt">A Ilha Do Bryan T4 - Ep. 15</title>
     <desc lang="pt">Os Baeumler dão as boas-vindas aos visitantes da Florida durante as obras. A cozinha e a suite do quarto principal ganham forma.</desc>
@@ -15614,8 +15642,10 @@
   </programme>
   <channel id="CineMundo.pt@SD">
     <display-name>Cinemundo</display-name>
+    <display-name>PT Cinemundo 4K</display-name>
+    <display-name>PT Cinemundo HD</display-name>
     <icon src="https://i.imgur.com/U4Wd5HO.png" />
-  <display-name>PT Cinemundo 4K</display-name><display-name>PT Cinemundo HD</display-name></channel>
+  </channel>
   <programme start="20261117223000 +0000" stop="20261118002500 +0000" channel="CineMundo.pt@SD">
     <title lang="pt">Snitch - Infiltrado</title>
     <desc lang="pt">Com o filho adolescente injustamente acusado de tráfico de droga, John Matthews faz um acordo para trabalhar numa perigosa missão como informador infiltrado junto de traficantes, arriscando tudo, incluindo a família e a própria vida.</desc>
@@ -15792,8 +15822,10 @@
   </programme>
   <channel id="CMTV.pt@SD">
     <display-name>CMTV</display-name>
+    <display-name>PT CM TV 4K</display-name>
+    <display-name>PT CM TV HD</display-name>
     <icon src="https://i.imgur.com/QFLqg8y.png" />
-  <display-name>PT CM TV 4K</display-name><display-name>PT CM TV HD</display-name></channel>
+  </channel>
   <programme start="20261117213500 +0000" stop="20261118003000 +0000" channel="CMTV.pt@SD">
     <title lang="pt">Liga D’Ouro - Ep. 271</title>
     <desc lang="pt">As emoções do futebol jogam se todos os dias. Todas as novidades dos grandes do futebol a caminho de mais uma jornada de golos, polémicas, alegrias e tristezas para Benfica, Sporting e Porto.</desc>
@@ -16048,8 +16080,11 @@
   </programme>
   <channel id="CNNPortugal.pt@SD">
     <display-name>CNN Portugal</display-name>
+    <display-name>PT CNN Portugal</display-name>
+    <display-name>PT CNN Portugal 4K</display-name>
+    <display-name>PT TVI 24</display-name>
     <icon src="https://i.imgur.com/bc6tYVZ.png" />
-  <display-name>PT CNN Portugal</display-name><display-name>PT CNN Portugal 4K</display-name><display-name>PT TVI 24</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118015800 +0000" channel="CNNPortugal.pt@SD">
     <title lang="pt">CNN Meia Noite</title>
     <desc lang="pt">Fecha-se um ciclo noticioso e abre-se outro. Recordamos os temas que marcaram as últimas hora e ganhamos balanço para um novo dia, espreitando as capas dos jornais e os destaques da imprensa nacional e internacional.</desc>
@@ -16654,8 +16689,10 @@
   </programme>
   <channel id="DAZN1.uk@Portugal">
     <display-name>DAZN 1</display-name>
+    <display-name>PT Eleven Sport 1 HD</display-name>
+    <display-name>PT Eleven Sports 1 4K</display-name>
     <icon src="https://i.imgur.com/2Z2EmZF.png" />
-  <display-name>PT Eleven Sport 1 HD</display-name><display-name>PT Eleven Sports 1 4K</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118000000 +0000" channel="DAZN1.uk@Portugal">
     <title lang="pt">Benfica x Lech Poznan - UEFA Europa League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznan</desc>
@@ -16886,8 +16923,10 @@
   </programme>
   <channel id="DAZN2.uk@Portugal">
     <display-name>DAZN 2</display-name>
+    <display-name>PT Eleven Sport 2 HD</display-name>
+    <display-name>PT Eleven Sports 2 4K</display-name>
     <icon src="https://i.imgur.com/OGj3qf5.png" />
-  <display-name>PT Eleven Sport 2 HD</display-name><display-name>PT Eleven Sports 2 4K</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118000000 +0000" channel="DAZN2.uk@Portugal">
     <title lang="pt">Atl. Madrid x Bayern München - UEFA Champions League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Bayern München</desc>
@@ -17064,8 +17103,10 @@
   </programme>
   <channel id="DAZN3.uk@Portugal">
     <display-name>DAZN 3</display-name>
+    <display-name>PT Eleven Sport 3 HD</display-name>
+    <display-name>PT Eleven Sports 3 4K</display-name>
     <icon src="https://i.imgur.com/2rXsq2m.png" />
-  <display-name>PT Eleven Sport 3 HD</display-name><display-name>PT Eleven Sports 3 4K</display-name></channel>
+  </channel>
   <programme start="20261117231000 +0000" stop="20261118010000 +0000" channel="DAZN3.uk@Portugal">
     <title lang="pt">Getafe x Brighton &amp; Hove Albion - UEFA Conference League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Conference League entre Getafe x Brighton &amp; Hove Albion</desc>
@@ -17182,8 +17223,10 @@
   </programme>
   <channel id="DAZN5.uk@Portugal">
     <display-name>DAZN 5</display-name>
+    <display-name>PT Eleven Sport 5 HD</display-name>
+    <display-name>PT Eleven Sports 5 4K</display-name>
     <icon src="https://i.imgur.com/HD2XaeS.png" />
-  <display-name>PT Eleven Sport 5 HD</display-name><display-name>PT Eleven Sports 5 4K</display-name></channel>
+  </channel>
   <programme start="20261118120000 +0000" stop="20261118123000 +0000" channel="DAZN5.uk@Portugal">
     <title lang="pt">National Motorsports Competitions: GRIP - Magazine</title>
     <desc lang="pt">Assiste ao Magazine Grip</desc>
@@ -17330,8 +17373,10 @@
   </programme>
   <channel id="DiscoveryChannel.pt@SD">
     <display-name>Discovery Channel</display-name>
+    <display-name>PT Discovery Channel 4K</display-name>
+    <display-name>PT Discovery Channel HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
-  <display-name>PT Discovery Channel 4K</display-name><display-name>PT Discovery Channel HD</display-name></channel>
+  </channel>
   <programme start="20261117234200 +0000" stop="20261118003200 +0000" channel="DiscoveryChannel.pt@SD">
     <title lang="pt">Mestres Do Restauro T1 - Ep. 1</title>
     <desc lang="pt">Os artesãos por detrás do império de antiguidades de Drew Pritchard resgatam uma icónica cadeira Eames e ressuscitam um invulgar candeeiro a óleo dos anos 90 e um glamoroso baú.</desc>
@@ -17784,8 +17829,9 @@
   </programme>
   <channel id="DisneyChannel.pt@SD">
     <display-name>Disney Channel</display-name>
+    <display-name>PT Disney Channel</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
-  <display-name>PT Disney Channel</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118002000 +0000" channel="DisneyChannel.pt@SD">
     <title lang="pt">Phineas E Ferb T4 - Ep. 108</title>
     <desc lang="pt">Phineas e Ferb levam a cabo projetos ambiciosos para terem as melhores férias de verão de sempre. Entretanto, o Dr. Doofenshmirtz tenta controlar toda a área e Perry.</desc>
@@ -19899,8 +19945,9 @@
   </programme>
   <channel id="DisneyJunior.pt@SD">
     <display-name>Disney Junior</display-name>
+    <display-name>PT Disney Junior HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
-  <display-name>PT Disney Junior HD</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118001500 +0000" channel="DisneyJunior.pt@SD">
     <title lang="pt">A Casa Do Mickey Mouse+ T1 - Ep. 28</title>
     <desc lang="pt">Mickey e os amigos dão as boas-vindas ao clube para novas aventuras cheias de canções, gargalhadas, ajuda e novas surpresas divertidas!</desc>
@@ -22233,8 +22280,9 @@
   </programme>
   <channel id="EuronewsPortuguese.fr@SD">
     <display-name>Euronews</display-name>
+    <display-name>PT EuroNews</display-name>
     <icon src="https://i.imgur.com/8t9mdg9.png" />
-  <display-name>PT EuroNews</display-name></channel>
+  </channel>
   <programme start="20261117234200 +0000" stop="20261118000000 +0000" channel="EuronewsPortuguese.fr@SD">
     <title lang="pt">Euroverify</title>
     <desc lang="pt">Journalists specialised in fact-checking and debunking the biggest stories and rumours targeting …</desc>
@@ -24235,8 +24283,10 @@
   </programme>
   <channel id="FashionTVUHD.fr@SD">
     <display-name>Fashion TV</display-name>
+    <display-name>PT FASHION TV</display-name>
+    <display-name>PT FTV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
-  <display-name>PT FASHION TV</display-name><display-name>PT FTV</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118000000 +0000" channel="FashionTVUHD.fr@SD">
     <title lang="pt">FASHION TV</title>
     <desc lang="pt">FASHION TV</desc>
@@ -24889,7 +24939,8 @@
   </programme>
   <channel id="Fightbox.pt@HD">
     <display-name>Fightbox</display-name>
-  <display-name>PT FightBox FHD</display-name></channel>
+    <display-name>PT FightBox FHD</display-name>
+  </channel>
   <programme start="20261118010000 +0000" stop="20261118025000 +0000" channel="Fightbox.pt@HD">
     <title lang="pt">King Of Kings</title>
     <desc lang="pt">King of Kings, one of the most recognizable brands in the world of kickboxing, returns to live action on FightBox HD. KOK brings the most dedicated fans to the biggest arenas in the world to create an amazing spectacle.</desc>
@@ -25955,8 +26006,10 @@
   </programme>
   <channel id="FUELTV.pt@EMEA">
     <display-name>Fuel TV</display-name>
+    <display-name>PT FUEL TV 4K</display-name>
+    <display-name>PT Fuel TV</display-name>
     <icon src="https://i.imgur.com/I8mviBy.png" />
-  <display-name>PT FUEL TV 4K</display-name><display-name>PT Fuel TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="FUELTV.pt@EMEA">
     <title lang="pt">What's Going On</title>
     <sub-title lang="pt">Wade Goodall</sub-title>
@@ -27789,8 +27842,10 @@
   </programme>
   <channel id="Historia.pt@SD">
     <display-name>História</display-name>
+    <display-name>PT Historia</display-name>
+    <display-name>PT Historia HD</display-name>
     <icon src="https://i.imgur.com/VUy8xIG.png" />
-  <display-name>PT Historia</display-name><display-name>PT Historia HD</display-name></channel>
+  </channel>
   <programme start="20261117235100 +0000" stop="20261118003400 +0000" channel="Historia.pt@SD">
     <title lang="pt">Terra: Sob Suspeita T2 - Ep. 1</title>
     <desc lang="pt">Três homens desaparecem de um remoto farol escocês. Durante a Guerra do Vietname, e sem razão aparente, dezenas de minas rebentam em simultâneo. Culpa da meteorologia?.</desc>
@@ -30450,8 +30505,10 @@
   </programme>
   <channel id="KuriakosTV.pt@SD">
     <display-name>Kuriakos TV</display-name>
+    <display-name>PT Kuriakos TV</display-name>
+    <display-name>PT Kuriakos TV 4k</display-name>
     <icon src="https://i.imgur.com/xdAW0D5.png" />
-  <display-name>PT Kuriakos TV</display-name><display-name>PT Kuriakos TV 4k</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="KuriakosTV.pt@SD">
     <title lang="pt">Isto É O Povo A Falar T10 - Ep. 45</title>
     <desc lang="pt">ISTO É O POVO A FALAR' é um programa de entrevista e reportagem que aborda assuntos controversos e atuais vividos na sociedade portuguesa. Trata-se de um programa feito a pensar no Povo Português, em prol da sua dignidade e da proteção dos seus direitos enquanto cidadãos.'.</desc>
@@ -30938,8 +30995,9 @@
   </programme>
   <channel id="LollyKids.uk@SD">
     <display-name>Lolly Kids</display-name>
+    <display-name>PT LOLLY KIDS HD</display-name>
     <icon src="https://i.imgur.com/DOpgaBe.png" />
-  <display-name>PT LOLLY KIDS HD</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118000000 +0000" channel="LollyKids.uk@SD">
     <title lang="pt">LOLLY KIDS</title>
     <desc lang="pt">LOLLY KIDS</desc>
@@ -31953,8 +32011,9 @@
   </programme>
   <channel id="Motorvision.de@SD">
     <display-name>Motorvision</display-name>
+    <display-name>PT Motorvision</display-name>
     <icon src="https://i.imgur.com/v4kj8pI.png" />
-  <display-name>PT Motorvision</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118003000 +0000" channel="Motorvision.de@SD">
     <title lang="pt">Gt World Challenge Asia 2026</title>
     <sub-title lang="pt">Fuji Inernational Speedway, Japan</sub-title>
@@ -32563,8 +32622,10 @@
   </programme>
   <channel id="MTV.pt@SD">
     <display-name>MTV Portugal</display-name>
+    <display-name>PT MTV 4K</display-name>
+    <display-name>PT MTV HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>PT MTV 4K</display-name><display-name>PT MTV HD</display-name></channel>
+  </channel>
   <programme start="20261117233600 +0000" stop="20261118002000 +0000" channel="MTV.pt@SD">
     <title lang="pt">Storytellers</title>
     <sub-title lang="pt">Storytellers: Coldplay</sub-title>
@@ -33229,8 +33290,10 @@
   </programme>
   <channel id="NationalGeographic.pt@SD">
     <display-name>National Geographic</display-name>
+    <display-name>PT Nat Geo 4K</display-name>
+    <display-name>PT Nat Geo HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
-  <display-name>PT Nat Geo 4K</display-name><display-name>PT Nat Geo HD</display-name></channel>
+  </channel>
   <programme start="20261117233900 +0000" stop="20261118002400 +0000" channel="NationalGeographic.pt@SD">
     <title lang="pt">Mega Fábricas T5 - Ep. 11</title>
     <desc lang="pt">Uma vasta equipa de engenheiros, distribuída por três países, constrói o impressionante Typhoon, capaz de atingir velocidades superiores a 2000 km/h. Classificação etária: M/12+</desc>
@@ -33647,8 +33710,10 @@
   </programme>
   <channel id="NationalGeographicWild.pt@SD">
     <display-name>National Geographic Wild</display-name>
+    <display-name>PT Nat Geo Wild 4K</display-name>
+    <display-name>PT Nat Geo Wild HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
-  <display-name>PT Nat Geo Wild 4K</display-name><display-name>PT Nat Geo Wild HD</display-name></channel>
+  </channel>
   <programme start="20261117231700 +0000" stop="20261118000300 +0000" channel="NationalGeographicWild.pt@SD">
     <title lang="pt">Indonesia's Volcanic Islands T1 - Ep. 1</title>
     <desc lang="pt">Born from fire millions of years ago, Sulawesi is shaped by volcanoes. Over time, its fertile soil yields an incomparable tropical forest with all its unique inhabitants. Some are babirusas, pigs with extra-long teeth, that feast around mineral-rich hot springs, while megapodes rely on geothermal heat to incubate their eggs. In the absence of large predators like leopards, giant pythons and monitor lizards dominate the forests.</desc>
@@ -35129,8 +35194,9 @@
   </programme>
   <channel id="NosStudios.pt@SD">
     <display-name>NOS Studios</display-name>
+    <display-name>PT NOS STUDIOS HD</display-name>
     <icon src="https://i.imgur.com/gVYQmKm.png" />
-  <display-name>PT NOS STUDIOS HD</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118004400 +0000" channel="NosStudios.pt@SD">
     <title lang="pt">Animais Perigosos</title>
     <desc lang="pt">Zephyr, uma surfista livre e destemida, é raptada por um assassino em série obcecado por tubarões. Presa no barco dele, Zephyr luta para escapar antes de ser usada num macabro ritual.</desc>
@@ -35767,8 +35833,10 @@
   </programme>
   <channel id="Odisseia.pt@SD">
     <display-name>Odisseia</display-name>
+    <display-name>PT Odisseia 4K</display-name>
+    <display-name>PT Odisseia HD</display-name>
     <icon src="https://i.imgur.com/zz0Vtty.png" />
-  <display-name>PT Odisseia 4K</display-name><display-name>PT Odisseia HD</display-name></channel>
+  </channel>
   <programme start="20261117232400 +0000" stop="20261118001200 +0000" channel="Odisseia.pt@SD">
     <title lang="pt">Como Funciona A Terra? T2 - Ep. 8</title>
     <desc lang="pt">Tempestades com o dobro do tamanho da Terra, ventos mais rápidos que os furacões mais fortes e tornados imponentes causam estragos nos cantos mais distantes do Universo.</desc>
@@ -36623,8 +36691,9 @@
   </programme>
   <channel id="CanalPanda.pt@SD">
     <display-name>Panda</display-name>
+    <display-name>PT CANAL PANDA</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/0/08/Canal_Panda_2015.png" />
-  <display-name>PT CANAL PANDA</display-name></channel>
+  </channel>
   <programme start="20261117235200 +0000" stop="20261118000500 +0000" channel="CanalPanda.pt@SD">
     <title lang="pt">Os Contos Da Masha T1 - Ep. 5</title>
     <desc lang="pt">Uma mulher zangada tinha duas filhas - uma sua e a segunda - uma enteada.</desc>
@@ -38181,8 +38250,9 @@
   </programme>
   <channel id="PandaKids.pt@SD">
     <display-name>Panda Kids</display-name>
+    <display-name>PT PANDA KIDS</display-name>
     <icon src="https://i.imgur.com/6OP31oP.png" />
-  <display-name>PT PANDA KIDS</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118000700 +0000" channel="PandaKids.pt@SD">
     <title lang="pt">Alvin E Os Esquilos T2 - Ep. 1</title>
     <desc lang="pt">O Alvin esgueira-se para o laboratório do Simon e acidentalmente, clona-se a si próprio. Com dois Alvins há o dobro dos sarilhos.</desc>
@@ -39097,8 +39167,10 @@
   </programme>
   <channel id="PortoCanal.pt@Portugal">
     <display-name>Porto Canal</display-name>
+    <display-name>PT Porto Canal 4K</display-name>
+    <display-name>PT Porto Canal HD</display-name>
     <icon src="https://i.imgur.com/DwziwMY.png" />
-  <display-name>PT Porto Canal 4K</display-name><display-name>PT Porto Canal HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118001000 +0000" channel="PortoCanal.pt@Portugal">
     <title lang="pt">Caminhos Da História</title>
     <desc lang="pt">Um programa dedicado à divulgação da História e do Património do nosso país, que visa valorizar a nossa memória através de percursos no território e de visitas a monumentos, na companhia do arqueólogo e historiador Joel Cleto.</desc>
@@ -40196,8 +40268,9 @@
   </programme>
   <channel id="RTPAcores.pt@HD">
     <display-name>RTP Açores</display-name>
+    <display-name>PT RTP Acores</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png" />
-  <display-name>PT RTP Acores</display-name></channel>
+  </channel>
   <programme start="20261117232300 +0000" stop="20261118001300 +0000" channel="RTPAcores.pt@HD">
     <title lang="pt">O Grito - Ep. 1</title>
     <desc lang="pt">Sofia regressa a Portugal após o suicídio da irmã, Vitória, e confronta-se com segredos e tensões familiares e o desaparecimento da namorada do sobrinho.</desc>
@@ -40632,8 +40705,9 @@
   </programme>
   <channel id="RTPMadeira.pt@HD">
     <display-name>RTP Madeira</display-name>
+    <display-name>PT RTP MADEIRA</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmadeira_2026.png" />
-  <display-name>PT RTP MADEIRA</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118000000 +0000" channel="RTPMadeira.pt@HD">
     <title lang="pt">Super Especial - Ep. 16</title>
     <desc lang="pt">Programa de caráter regional dedicado ao acompanhamento do campeonato regional de ralis, que inclui a cobertura do circuito regional de rampas.</desc>
@@ -40822,8 +40896,10 @@
   </programme>
   <channel id="RTP1.pt@HD">
     <display-name>RTP1</display-name>
+    <display-name>PT RTP 1 4K</display-name>
+    <display-name>PT RTP 1 HD</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png" />
-  <display-name>PT RTP 1 4K</display-name><display-name>PT RTP 1 HD</display-name></channel>
+  </channel>
   <programme start="20261117233400 +0000" stop="20261118011700 +0000" channel="RTP1.pt@HD">
     <title lang="pt">Vadio</title>
     <desc lang="pt">André tem 13 anos e vive isolado com o pai numa zona seca e remota do Alentejo, onde o ajuda com o seu negócio de perfuração de água em vez de ir à escola. Quando o pai desaparece subitamente, André bate à porta da única vizinha por perto, uma jovem mãe chamada Sandra - a sua única esperança de encontrar o pai.</desc>
@@ -41060,8 +41136,10 @@
   </programme>
   <channel id="RTP2.pt@HD">
     <display-name>RTP2</display-name>
+    <display-name>PT RTP 2 4K</display-name>
+    <display-name>PT RTP 2 HD</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png" />
-  <display-name>PT RTP 2 4K</display-name><display-name>PT RTP 2 HD</display-name></channel>
+  </channel>
   <programme start="20261117231300 +0000" stop="20261118010000 +0000" channel="RTP2.pt@HD">
     <title lang="pt">Maguy Marin: A Urgência De Agir</title>
     <desc lang="pt">Maguy Marin é uma daquelas artistas que deixam marcas profundas e duradouras, que transformam vidas. Há mais de 40 anos que a bailarina e coreógrafa francesa se afirmou como uma das principais coreógrafas no panorama mundial. Filha de imigrantes espanhóis, a sua obra é um murro, ao mesmo tempo alegre e furioso, contra a barbárie. A sua carreira e as suas posições políticas exigem ousadia, coragem e luta.</desc>
@@ -41760,8 +41838,9 @@
   </programme>
   <channel id="RTPAfrica.pt@SD">
     <display-name>RTP África</display-name>
+    <display-name>PT RTP Africa</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png" />
-  <display-name>PT RTP Africa</display-name></channel>
+  </channel>
   <programme start="20261117235700 +0000" stop="20261118010100 +0000" channel="RTPAfrica.pt@SD">
     <title lang="pt">24 Horas</title>
     <desc lang="pt">O essencial da informação à meia-noite e as primeiras páginas dos jornais com análise em antena. Com Fátima Araújo e Beatriz Veloso.</desc>
@@ -42064,8 +42143,9 @@
   </programme>
   <channel id="RTPMemoria.pt@SD">
     <display-name>RTP Memória</display-name>
+    <display-name>PT RTP Memoria</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png" />
-  <display-name>PT RTP Memoria</display-name></channel>
+  </channel>
   <programme start="20261117235300 +0000" stop="20261118000600 +0000" channel="RTPMemoria.pt@SD">
     <title lang="pt">Arq 3 T2 - Ep. 9</title>
     <desc lang="pt">Esta semana, na Foz do Porto, visitámos a Casa Montevideu, uma reabilitação que recupera e moderniza uma habitação histórica dos anos 30. Ainda na Foz fomos conhecer um apartamento com vistas para a praia e que mistura modernismo e funcionalidade na sua decoração.</desc>
@@ -42524,8 +42604,9 @@
   </programme>
   <channel id="RTPNoticias.pt@HD">
     <display-name>RTP Notícias</display-name>
+    <display-name>PT RTP 3</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" />
-  <display-name>PT RTP 3</display-name></channel>
+  </channel>
   <programme start="20261117235700 +0000" stop="20261118010000 +0000" channel="RTPNoticias.pt@HD">
     <title lang="pt">24 Horas</title>
     <desc lang="pt">O essencial da informação à meia-noite e as primeiras páginas dos jornais com análise em antena. Com Fátima Araújo e Beatriz Veloso.</desc>
@@ -43252,8 +43333,9 @@
   </programme>
   <channel id="SPlus.pt@SD">
     <display-name>S+</display-name>
+    <display-name>PT S 4K</display-name>
     <icon src="https://i.imgur.com/Vy7PRuq.png" />
-  <display-name>PT S 4K</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="SPlus.pt@SD">
     <title lang="pt">Especial Rumo para a Saúde T1 - Ep. 1</title>
     <desc lang="pt">Apresentação do estudo 'Retrato da Saúde em Portugal no Pós-Pandemia: Percepções, Acessos aos cuidados e uma só saúde'.</desc>
@@ -43676,8 +43758,10 @@
   </programme>
   <channel id="SIC.pt@SD">
     <display-name>SIC</display-name>
+    <display-name>PT SIC 4K</display-name>
+    <display-name>PT SIC HD</display-name>
     <icon src="https://i.imgur.com/SPMqiDG.png" />
-  <display-name>PT SIC 4K</display-name><display-name>PT SIC HD</display-name></channel>
+  </channel>
   <programme start="20261117225000 +0000" stop="20261118001500 +0000" channel="SIC.pt@SD">
     <title lang="pt">Páginas Da Vida - Ep. 192</title>
     <desc lang="pt">Em intercâmbio no Rio, Nanda apaixona-se por Leo e engravida, mas a separação forçada leva-a a regressar a Portugal, onde morre após dar à luz gémeos. Clara, com Trissomia 21, é rejeitada pela avó e adotada por Helena; anos depois, Leo volta decidido a lutar pela guarda dos filhos, reacendendo segredos, culpas e amores do passado.</desc>
@@ -43908,8 +43992,10 @@
   </programme>
   <channel id="SICCaras.pt@SD">
     <display-name>SIC Caras</display-name>
+    <display-name>PT SIC Caras 4K</display-name>
+    <display-name>PT SIC Caras HD</display-name>
     <icon src="https://i.imgur.com/di3sIto.png" />
-  <display-name>PT SIC Caras 4K</display-name><display-name>PT SIC Caras HD</display-name></channel>
+  </channel>
   <programme start="20261117233400 +0000" stop="20261118001200 +0000" channel="SICCaras.pt@SD">
     <title lang="pt">Ilha Da Tentação Espanha T10 - Ep. 57</title>
     <desc lang="pt">Por à prova um relacionamento poderá ser uma experiência limite e em Temptation Island Spain ganha um novo horizonte. A participação de casais neste reality show implica mais do que a vontade de testar o seu relacionamento. Num cenário paradisíaco, a regra é entrar em 'modo solteiro' e conviver com um grupo de pessoas totalmente descomprometidas.</desc>
@@ -44266,8 +44352,10 @@
   </programme>
   <channel id="SICK.pt@SD">
     <display-name>SIC K</display-name>
+    <display-name>PT SIC K 4K</display-name>
+    <display-name>PT SIC K HD</display-name>
     <icon src="https://i.imgur.com/ypTCVsB.png" />
-  <display-name>PT SIC K 4K</display-name><display-name>PT SIC K HD</display-name></channel>
+  </channel>
   <programme start="20261117235400 +0000" stop="20261118001500 +0000" channel="SICK.pt@SD">
     <title lang="pt">O11Ze T5 - Ep. 9</title>
     <desc lang="pt">Um adolescente talentoso sai de casa para frequentar uma prestigiada academia de futebol, onde descobre verdades sobre a história da sua família e lidera a sua equipa na vitória contra rivais ferozes.</desc>
@@ -45074,8 +45162,10 @@
   </programme>
   <channel id="SICMulher.pt@SD">
     <display-name>SIC Mulher</display-name>
+    <display-name>PT SIC Mulher</display-name>
+    <display-name>PT SIC Mulher 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/c/c4/Sicmulher.png" />
-  <display-name>PT SIC Mulher</display-name><display-name>PT SIC Mulher 4K</display-name></channel>
+  </channel>
   <programme start="20261117234400 +0000" stop="20261118003400 +0000" channel="SICMulher.pt@SD">
     <title lang="pt">Elif T1 - Ep. 122</title>
     <desc lang="pt">Uma menina de 6 anos é colocada sob a proteção da melhor amiga da mãe, que guarda um segredo bem guardado e trabalha como empregada doméstica para uma família rica, em cuja mansão vive.</desc>
@@ -45510,8 +45600,10 @@
   </programme>
   <channel id="SICNoticias.pt@Portugal">
     <display-name>SIC Notícias</display-name>
+    <display-name>PT SIC Noticias 4K</display-name>
+    <display-name>PT SIC Noticias HD</display-name>
     <icon src="https://i.imgur.com/Gi6Q26M.png" />
-  <display-name>PT SIC Noticias 4K</display-name><display-name>PT SIC Noticias HD</display-name></channel>
+  </channel>
   <programme start="20261117215700 +0000" stop="20261118000000 +0000" channel="SICNoticias.pt@Portugal">
     <title lang="pt">Edição Da Noite</title>
     <desc lang="pt">A atualidade do dia.</desc>
@@ -46268,8 +46360,10 @@
   </programme>
   <channel id="SICRadical.pt@SD">
     <display-name>SIC Radical</display-name>
+    <display-name>PT SIC Radical</display-name>
+    <display-name>PT SIC Radical 4K</display-name>
     <icon src="https://i.imgur.com/6g0obyk.png" />
-  <display-name>PT SIC Radical</display-name><display-name>PT SIC Radical 4K</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118001200 +0000" channel="SICRadical.pt@SD">
     <title lang="pt">The Summit Australia T2 - Ep. 2</title>
     <desc lang="pt">Na Cimeira, a moral será severamente testada, os limites físicos levados ao ponto de rutura e os laços serão desfeitos.</desc>
@@ -46788,8 +46882,10 @@
   </programme>
   <channel id="SportingTV.pt@SD">
     <display-name>Sporting TV</display-name>
+    <display-name>PT Sporting TV</display-name>
+    <display-name>PT Sporting TV 4K</display-name>
     <icon src="https://i.imgur.com/GOlNfTo.png" />
-  <display-name>PT Sporting TV</display-name><display-name>PT Sporting TV 4K</display-name></channel>
+  </channel>
   <programme start="20261117233500 +0000" stop="20261118000500 +0000" channel="SportingTV.pt@SD">
     <title lang="pt">Paulo Fonseca: Há Sonhos Que Se Tornam Realidade</title>
     <desc lang="pt">As imagens e as declarações dos primeiros dias de trabalho do novo treinador da equipa principal de futebol do Sporting CP.</desc>
@@ -47182,8 +47278,11 @@
   </programme>
   <channel id="SportTVPlus.pt@SD">
     <display-name>Sport TV +</display-name>
+    <display-name>PT Sport TV</display-name>
+    <display-name>PT Sport TV 4K</display-name>
+    <display-name>PT Sport TV HD</display-name>
     <icon src="https://i.imgur.com/R5FZEW6.png" />
-  <display-name>PT Sport TV</display-name><display-name>PT Sport TV 4K</display-name><display-name>PT Sport TV HD</display-name></channel>
+  </channel>
   <programme start="20261117234200 +0000" stop="20261118001200 +0000" channel="SportTVPlus.pt@SD">
     <title lang="pt">Dinamarca x Noruega - UEFA Nations League</title>
     <desc lang="pt">Transmissão do encontro a contar para a UEFA Nations League.</desc>
@@ -47582,8 +47681,11 @@
   </programme>
   <channel id="SportTV1.pt@SD">
     <display-name>Sport TV1</display-name>
+    <display-name>PT Sport TV 1 4K</display-name>
+    <display-name>PT Sport TV 1 HD</display-name>
+    <display-name>PT Sport TV 1 SD</display-name>
     <icon src="https://i.imgur.com/YWic36u.png" />
-  <display-name>PT Sport TV 1 4K</display-name><display-name>PT Sport TV 1 HD</display-name><display-name>PT Sport TV 1 SD</display-name></channel>
+  </channel>
   <programme start="20261117234900 +0000" stop="20261118020000 +0000" channel="SportTV1.pt@SD">
     <title lang="pt">Eua x Haiti - Concacaf Nations League (Direto)</title>
     <desc lang="pt">Transmissão do encontro a contar para a Concacaf Nations League.</desc>
@@ -47820,8 +47922,11 @@
   </programme>
   <channel id="SportTV2.pt@SD">
     <display-name>Sport TV2</display-name>
+    <display-name>PT Sport TV 2 4K</display-name>
+    <display-name>PT Sport TV 2 HD</display-name>
+    <display-name>PT Sport TV 2 SD</display-name>
     <icon src="https://i.imgur.com/0jSR6yG.png" />
-  <display-name>PT Sport TV 2 4K</display-name><display-name>PT Sport TV 2 HD</display-name><display-name>PT Sport TV 2 SD</display-name></channel>
+  </channel>
   <programme start="20261117235400 +0000" stop="20261118002400 +0000" channel="SportTV2.pt@SD">
     <title lang="pt">Libéria x Cabo Verde - Taça Nações Africanas Qualificação</title>
     <desc lang="pt">Transmissão do jogo a contar para a Taça Nações Africanas - Qualificação.</desc>
@@ -48034,8 +48139,11 @@
   </programme>
   <channel id="SportTV3.pt@SD">
     <display-name>Sport TV3</display-name>
+    <display-name>PT Sport TV 3 4K</display-name>
+    <display-name>PT Sport TV 3 HD</display-name>
+    <display-name>PT Sport TV 3 SD</display-name>
     <icon src="https://i.imgur.com/6Dw3GUx.png" />
-  <display-name>PT Sport TV 3 4K</display-name><display-name>PT Sport TV 3 HD</display-name><display-name>PT Sport TV 3 SD</display-name></channel>
+  </channel>
   <programme start="20261117235900 +0000" stop="20261118023800 +0000" channel="SportTV3.pt@SD">
     <title lang="pt">Florida Phanters x Edmonton Oilers - NHL (Direto)</title>
     <desc lang="pt">Transmissão do encontro a contar para a NHL.</desc>
@@ -48224,8 +48332,10 @@
   </programme>
   <channel id="SportTV4.pt@SD">
     <display-name>Sport TV4</display-name>
+    <display-name>PT Sport TV 4 4K</display-name>
+    <display-name>PT Sport TV 4 HD</display-name>
     <icon src="https://i.imgur.com/mJlbVfW.png" />
-  <display-name>PT Sport TV 4 4K</display-name><display-name>PT Sport TV 4 HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118001000 +0000" channel="SportTV4.pt@SD">
     <title lang="pt">The Outdoor Sports Show</title>
     <desc lang="pt">Magazine dedicado aos desportos ao ar livre.</desc>
@@ -48408,8 +48518,10 @@
   </programme>
   <channel id="SportTV5.pt@SD">
     <display-name>Sport TV5</display-name>
+    <display-name>PT Sport TV 5 4K</display-name>
+    <display-name>PT Sport TV 5 HD</display-name>
     <icon src="https://i.imgur.com/4w4vuad.png" />
-  <display-name>PT Sport TV 5 4K</display-name><display-name>PT Sport TV 5 HD</display-name></channel>
+  </channel>
   <programme start="20261117213000 +0000" stop="20261118003000 +0000" channel="SportTV5.pt@SD">
     <title lang="pt">Fora de Horas: Sem Transmissão</title>
     <desc lang="pt">Fora de Horas: Sem Transmissão.</desc>
@@ -48744,8 +48856,11 @@
   </programme>
   <channel id="StarChannel.pt@SD">
     <display-name>STAR Channel</display-name>
+    <display-name>PT FOX 4K</display-name>
+    <display-name>PT Fox HD</display-name>
+    <display-name>PT STAR HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" />
-  <display-name>PT FOX 4K</display-name><display-name>PT Fox HD</display-name><display-name>PT STAR HD</display-name></channel>
+  </channel>
   <programme start="20261117235700 +0000" stop="20261118005000 +0000" channel="StarChannel.pt@SD">
     <title lang="pt">FBI: Most Wanted T6 - Ep. 10</title>
     <desc lang="pt">Depois de testemunhar um homicídio em plena luz do dia, a Fugitive Task Force tem de caçar um grupo de assassinos que competem num jogo online perverso. Entretanto, Remy e Abby lutam para entrar em acordo. Classificação etária: M/12+</desc>
@@ -49114,8 +49229,10 @@
   </programme>
   <channel id="StarComedy.pt@SD">
     <display-name>STAR Comedy</display-name>
+    <display-name>PT FOX Comedy 4K</display-name>
+    <display-name>PT Fox Comedy HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Star_Comedy_2024.svg/960px-Star_Comedy_2024.svg.png" />
-  <display-name>PT FOX Comedy 4K</display-name><display-name>PT Fox Comedy HD</display-name></channel>
+  </channel>
   <programme start="20261117233700 +0000" stop="20261118000400 +0000" channel="StarComedy.pt@SD">
     <title lang="pt">Friends T6 - Ep. 22</title>
     <desc lang="pt">Quando visita um museu de arte, Monica coloca o seu nome numa lista de espera de dois anos para usar o museu para um casamento. Quando Paul ameaça despedir Ross se ele não parar de namorar a sua filha, Ross e Elizabeth fazem uma viagem até à cabana de montanha do pai dela. Infelizmente, Paul tem a mesma ideia e leva Rachel para a cabine. Classificação etária: M/12+</desc>
@@ -49814,8 +49931,10 @@
   </programme>
   <channel id="StarCrime.pt@SD">
     <display-name>STAR Crime</display-name>
+    <display-name>PT FOX Crime 4K</display-name>
+    <display-name>PT Fox Crime HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Star_Crime_2023.svg/960px-Star_Crime_2023.svg.png" />
-  <display-name>PT FOX Crime 4K</display-name><display-name>PT Fox Crime HD</display-name></channel>
+  </channel>
   <programme start="20261117234800 +0000" stop="20261118004000 +0000" channel="StarCrime.pt@SD">
     <title lang="pt">Mentes Criminosas T5 - Ep. 6</title>
     <desc lang="pt">A equipa procura um assassino que fica com os olhos das vítimas. Classificação etária: M/12+</desc>
@@ -50142,8 +50261,10 @@
   </programme>
   <channel id="StarLife.pt@SD">
     <display-name>STAR Life</display-name>
+    <display-name>PT FOX Life 4K</display-name>
+    <display-name>PT Fox Life HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png" />
-  <display-name>PT FOX Life 4K</display-name><display-name>PT Fox Life HD</display-name></channel>
+  </channel>
   <programme start="20261117231300 +0000" stop="20261118000700 +0000" channel="StarLife.pt@SD">
     <title lang="pt">Lei &amp; Ordem: Unidade Especial T20 - Ep. 13</title>
     <desc lang="pt">Benson tenta ajudar duas irmãs adolescentes na sequência do homicídio do pai de ambas. Entretanto, Rollins entra em trabalho de parto. Classificação etária: M/12+</desc>
@@ -50512,8 +50633,10 @@
   </programme>
   <channel id="StarMovies.pt@SD">
     <display-name>STAR Movies</display-name>
+    <display-name>PT FOX Movies 4K</display-name>
+    <display-name>PT FOX Movies HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Star_Movies_2023.svg/960px-Star_Movies_2023.svg.png" />
-  <display-name>PT FOX Movies 4K</display-name><display-name>PT FOX Movies HD</display-name></channel>
+  </channel>
   <programme start="20261117225800 +0000" stop="20261118003400 +0000" channel="StarMovies.pt@SD">
     <title lang="pt">Joe Procura Um Sítio Para Morrer</title>
     <desc lang="pt">Um soldado confederado banido redime-se ao defender uma mulher contra bandidos dispostos a matar pela sua reivindicação de uma mina de ouro. Classificação etária: M/12+</desc>
@@ -51716,8 +51839,10 @@
   </programme>
   <channel id="Syfy.pt@SD">
     <display-name>SyFy</display-name>
+    <display-name>PT SYFY 4K</display-name>
+    <display-name>PT SyFy HD</display-name>
     <icon src="https://i.imgur.com/4fMWhUE.png" />
-  <display-name>PT SYFY 4K</display-name><display-name>PT SyFy HD</display-name></channel>
+  </channel>
   <programme start="20261117234600 +0000" stop="20261118014500 +0000" channel="Syfy.pt@SD">
     <title lang="pt">Sherlock Holmes: Jogo De Sombras</title>
     <desc lang="pt">Sherlock Holmes, o brilhante investigador criado por Sir Arthur Conan Doyle, regressa numa abordagem diferente, cheia de acção, onde o intelecto e a dedução estão agora aliados às artes marciais e ao boxe. Desta vez Holmes e o seu fiel companheiro Dr. John Watson juntam esforços e sinergias para arruinar o terrível plano de um dos seus piores inimigos: o professor Moriarty (Jared Harris).</desc>
@@ -52068,8 +52193,9 @@
   </programme>
   <channel id="TLC.pt@SD">
     <display-name>TLC</display-name>
+    <display-name>PT TLC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
-  <display-name>PT TLC</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118000000 +0000" channel="TLC.pt@SD">
     <title lang="pt">My Feet Are Killing Me T1 - Ep. 15</title>
     <desc lang="pt">Os doentes do Dr. Brad Schaeffer e da Dra. Ebonie Vincent realizam uma cirurgia para uma transformação radical aos pés e uma mudança de vida definitiva.</desc>
@@ -52498,8 +52624,10 @@
   </programme>
   <channel id="TVCineAction.pt@SD">
     <display-name>TVCine Action</display-name>
+    <display-name>PT TV Cine Action 4K</display-name>
+    <display-name>PT TV Cine Action HD</display-name>
     <icon src="https://i.imgur.com/fsQ6dMR.png" />
-  <display-name>PT TV Cine Action 4K</display-name><display-name>PT TV Cine Action HD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118011000 +0000" channel="TVCineAction.pt@SD">
     <title lang="pt">The Toxic Avenger: A Vingança</title>
     <desc lang="pt">Quando Winston Gooze, empregado de limpeza oprimido, sofre um acidente tóxico, torna-se o herói Toxic Avenger. Determinado a vingar-se, enfrenta criminosos cruéis e combate a corrupção. Num mundo dominado pela ganância, a justiça serve-se radioativa.</desc>
@@ -52676,8 +52804,10 @@
   </programme>
   <channel id="TVCineEdition.pt@SD">
     <display-name>TVCine Edition</display-name>
+    <display-name>PT TV Cine Edition 4K</display-name>
+    <display-name>PT TV Cine Edition HD</display-name>
     <icon src="https://i.imgur.com/G2pYTem.png" />
-  <display-name>PT TV Cine Edition 4K</display-name><display-name>PT TV Cine Edition HD</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118003500 +0000" channel="TVCineEdition.pt@SD">
     <title lang="pt">O Último Mergulho (A Água)</title>
     <desc lang="pt">O que o jovem Samuel fazia àquela hora da noite, no cais deserto, nunca se saberá ao certo. De facto, quando o senhor Elói - um velho marinheiro reformado - o abordou, ele olhava fixamente as águas do Tejo. Estaria ali para por cobro à vida?.</desc>
@@ -53110,8 +53240,10 @@
   </programme>
   <channel id="TVCineTop.pt@SD">
     <display-name>TVCine Top</display-name>
+    <display-name>PT TV CINE TOP HD</display-name>
+    <display-name>PT TV Cine Top 4K</display-name>
     <icon src="https://i.imgur.com/uMmmK0s.png" />
-  <display-name>PT TV CINE TOP HD</display-name><display-name>PT TV Cine Top 4K</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118014500 +0000" channel="TVCineTop.pt@SD">
     <title lang="pt">Saw X</title>
     <desc lang="pt">John, doente e desesperado, vai para o México para fazer um procedimento médico arriscado e experimental na esperança de uma cura milagrosa para o seu cancro, mas acaba por descobrir que toda a operação é um esquema para defraudar os mais vulneráveis.</desc>
@@ -53549,7 +53681,8 @@
   </programme>
   <channel id="TVEInternacional.es@HD">
     <display-name>TVE Internacional</display-name>
-  <display-name>PT TVE Internacional</display-name></channel>
+    <display-name>PT TVE Internacional</display-name>
+  </channel>
   <programme start="20261118001500 +0000" stop="20261118025000 +0000" channel="TVEInternacional.es@HD">
     <title lang="pt">La Noche en 24H</title>
     <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del...[S]</desc>
@@ -53800,8 +53933,10 @@
   </programme>
   <channel id="TVI.pt@SD">
     <display-name>TVI</display-name>
+    <display-name>PT TVI 4K</display-name>
+    <display-name>PT TVI HD</display-name>
     <icon src="https://i.imgur.com/H8Tgl7m.png" />
-  <display-name>PT TVI 4K</display-name><display-name>PT TVI HD</display-name></channel>
+  </channel>
   <programme start="20261117233500 +0000" stop="20261118001500 +0000" channel="TVI.pt@SD">
     <title lang="pt">Terra Forte - Ep. 276</title>
     <desc lang="pt">Dada como morta no Brasil, Flor ressurge quase vinte anos depois nos Açores, trazendo uma revelação que pode mudar tudo: alguém tentou matá-la em alto-mar. Um encontro com Sammy, o amor da juventude, agora casado com a sua antiga melhor amiga, Maria de Fátima, obriga-a a regressar ao passado, que quase a destruiu, para descobrir a verdade.</desc>
@@ -54050,8 +54185,10 @@
   </programme>
   <channel id="TVIFiccao.pt@Portugal">
     <display-name>TVI Ficção</display-name>
+    <display-name>PT TVI FICCAO 4K</display-name>
+    <display-name>PT TVI FICCAO HD</display-name>
     <icon src="https://cdn.iol.pt/img/logostvi/branco/tvificcao.png" />
-  <display-name>PT TVI FICCAO 4K</display-name><display-name>PT TVI FICCAO HD</display-name></channel>
+  </channel>
   <programme start="20261118061500 +0000" stop="20261118095000 +0000" channel="TVIFiccao.pt@Portugal">
     <title lang="pt">Diário da Manhã</title>
     <icon src="https://img.iol.pt/image/id/63f3d2530cf2cf9224f9e5e8/300.jpg" />
@@ -54228,8 +54365,9 @@
   </programme>
   <channel id="TVIInternacional.pt@Portugal">
     <display-name>TVI Internacional</display-name>
+    <display-name>PT TVI Internacional</display-name>
     <icon src="https://i.imgur.com/l1cun8s.png" />
-  <display-name>PT TVI Internacional</display-name></channel>
+  </channel>
   <programme start="20261118061500 +0000" stop="20261118095000 +0000" channel="TVIInternacional.pt@Portugal">
     <title lang="pt">Diário da Manhã</title>
     <icon src="https://img.iol.pt/image/id/63f3d2530cf2cf9224f9e5e8/300.jpg" />
@@ -54385,8 +54523,10 @@
   </programme>
   <channel id="TVIReality.pt@SD">
     <display-name>TVI Reality</display-name>
+    <display-name>PT TVI Reality</display-name>
+    <display-name>PT TVI Reality 4K</display-name>
     <icon src="https://i.imgur.com/C9rxqA5.png" />
-  <display-name>PT TVI Reality</display-name><display-name>PT TVI Reality 4K</display-name></channel>
+  </channel>
   <programme start="20261117221500 +0000" stop="20261118000000 +0000" channel="TVIReality.pt@SD">
     <title lang="pt">Big Brother All Stars - Direto</title>
     <desc lang="pt">Há 26 anos, Portugal parou para assistir à estreia do primeiro reality show do país. Desde então, muitos foram os concorrentes que fizeram história e conquistaram um lugar único na memória do público. Agora, os protagonistas estão de volta. O Big Brother All Stars está a chegar para reunir alguns dos concorrentes mais competitivos, estratégicos e marcantes de sempre.</desc>
@@ -55780,8 +55920,9 @@
   </programme>
   <channel id="VinTV.pt@HD">
     <display-name>VinTV</display-name>
+    <display-name>PT Biggs</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/5b/VinTV_Portugal_2026.png" />
-  <display-name>PT Biggs</display-name></channel>
+  </channel>
   <programme start="20261117231000 +0000" stop="20261118000500 +0000" channel="VinTV.pt@HD">
     <title lang="pt">Morangos Com Açúcar T5 - Ep. 42</title>
     <desc lang="pt">No arranque do ano letivo, a escola organiza uma receção a toda a comunidade escolar, como forma de dar as boas vindas aos novos alunos, sobretudo do 7º ano, que ali vêm pela primeira vez. Mas desde logo percebemos os problemas dos alunos mais novos, que são sujeitos pelos mais velhos, às escondidas, a situações violentas e humilhantes.</desc>
@@ -56436,8 +56577,10 @@
   </programme>
   <channel id="ZapViva.ao@SD">
     <display-name>ZAP Viva</display-name>
+    <display-name>PT ZAP Viva 4K</display-name>
+    <display-name>PT Zap Viva HD</display-name>
     <icon src="https://i.imgur.com/T8aotqw.png" />
-  <display-name>PT ZAP Viva 4K</display-name><display-name>PT Zap Viva HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118013000 +0000" channel="ZapViva.ao@SD">
     <title lang="pt">Na Placa</title>
     <desc lang="pt">Na Placa é a voz dos jovens. É o programa de entretenimento feito a pensar nos que gostam de música, dança, desafios, conversas com influenciadores e muito, mas muito mais. De segunda a sexta, é aqui que tu tens de estar.</desc>
@@ -56682,10 +56825,12 @@
     <episode-num system="onscreen">S02E237</episode-num>
     <image>https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http://vip.pam.local.internal/PAM.Images/Store/227e9ab5c2c64d129e97252b7a12970d&amp;profile=ott_1_452x340&amp;client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI</image>
   </programme>
-<channel id="24kitchen.pt">
+  <channel id="24kitchen.pt">
     <display-name>24Kitchen</display-name>
+    <display-name>PT 24 Kitchen 4K</display-name>
+    <display-name>PT 24 Kitchen HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/960px-24Kitchen.png" />
-  <display-name>PT 24 Kitchen 4K</display-name><display-name>PT 24 Kitchen HD</display-name></channel>
+  </channel>
   <programme start="20261117235100 +0000" stop="20261118001300 +0000" channel="24kitchen.pt">
     <title lang="pt">Iguarias Semivegetarianas T1 - Ep. 19</title>
     <desc lang="pt">Tendo sido criança nos anos 80, desenvolvi alguns gostos muito particulares a que não consigo deixar de voltar quando me apetece algo verdadeiramente reconfortante ou me sinto nostálgica. Neste episódio, reuni alguns dos meus pratos favoritos que vão levá-lo numa viagem ao passado. Classificação etária: M/7+</desc>
@@ -57384,8 +57529,10 @@
   </programme>
   <channel id="amc.pt">
     <display-name>AMC</display-name>
+    <display-name>PT AMC</display-name>
+    <display-name>PT AMC 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
-  <display-name>PT AMC</display-name><display-name>PT AMC 4K</display-name></channel>
+  </channel>
   <programme start="20261117235400 +0000" stop="20261118020600 +0000" channel="amc.pt">
     <title lang="pt">A Ilha</title>
     <desc lang="pt">Neste filme de ação de ficção científica do diretor Michael Bay (“Armageddon”, “O Rochedo”), Lincoln Six-Echo (Ewan McGregor, “Moulin Rouge”) é um residente de uma instalação controlada em pleno século 21.</desc>
@@ -57556,8 +57703,10 @@
   </programme>
   <channel id="axnwhite.pt">
     <display-name>AXN White</display-name>
+    <display-name>PT AXN White</display-name>
+    <display-name>PT AXN White 4K</display-name>
     <icon src="https://i.imgur.com/47IKxmt.png" />
-  <display-name>PT AXN White</display-name><display-name>PT AXN White 4K</display-name></channel>
+  </channel>
   <programme start="20261117223100 +0000" stop="20261118000200 +0000" channel="axnwhite.pt">
     <title lang="pt">Amor Envenenado: A História de Stacey Castor</title>
     <desc lang="pt">Stacey Ruth Castor superou a morte do seu primeiro marido e conseguiu voltar a encontrar o amor com o seu chefe, David. Mas quando David é encontrado morto, num aparente suicídio, a polícia suspeita de crime.</desc>
@@ -57848,8 +57997,9 @@
   </programme>
   <channel id="biggs.pt">
     <display-name>VinTV</display-name>
+    <display-name>PT Biggs</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/5b/VinTV_Portugal_2026.png" />
-  <display-name>PT Biggs</display-name></channel>
+  </channel>
   <programme start="20261117231000 +0000" stop="20261118000500 +0000" channel="biggs.pt">
     <title lang="pt">Morangos Com Açúcar T5 - Ep. 42</title>
     <desc lang="pt">No arranque do ano letivo, a escola organiza uma receção a toda a comunidade escolar, como forma de dar as boas vindas aos novos alunos, sobretudo do 7º ano, que ali vêm pela primeira vez. Mas desde logo percebemos os problemas dos alunos mais novos, que são sujeitos pelos mais velhos, às escondidas, a situações violentas e humilhantes.</desc>
@@ -58248,8 +58398,9 @@
   </programme>
   <channel id="bloomberg.pt">
     <display-name>Bloomberg</display-name>
+    <display-name>PT Bloomberg</display-name>
     <icon src="https://i.imgur.com/OuogLHx.png" />
-  <display-name>PT Bloomberg</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118010000 +0000" channel="bloomberg.pt">
     <title lang="pt">Bloomberg The Asia Trade</title>
     <desc lang="pt">Live from Tokyo and Sydney with Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping markets.</desc>
@@ -58462,8 +58613,9 @@
   </programme>
   <channel id="cancaonova.pt">
     <display-name>Canção Nova</display-name>
+    <display-name>PT Cancao Nova</display-name>
     <icon src="https://i.imgur.com/rSmwbkj.png" />
-  <display-name>PT Cancao Nova</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="cancaonova.pt">
     <title lang="pt">O Tempo É Breve (Monsenhor Jonas Abib) - 1ª Exibição</title>
     <desc lang="pt">O Monsenhor Jonas Abib, Fundador Da Comunidade Canção Nova, Através Das Suas Inúmeras Palestras, Traz Vários Ensinamentos E Mensagens Para Cada Um De Nós.</desc>
@@ -58886,8 +59038,9 @@
   </programme>
   <channel id="cartoonnetwork.pt">
     <display-name>Cartoon Network</display-name>
+    <display-name>PT Cartoon Network</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>PT Cartoon Network</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118000000 +0000" channel="cartoonnetwork.pt">
     <title lang="pt">Regular Show T2 - Ep. 4</title>
     <desc lang="pt">O Mordecai e o Rigby esquivam-se do trabalho como qualquer outro guaxinim e gaio-azul fariam:evitando o típico chefe máquina de pastilhas elásticas.</desc>
@@ -60252,8 +60405,10 @@
   </programme>
   <channel id="elevensports1.pt">
     <display-name>DAZN 1</display-name>
+    <display-name>PT Eleven Sport 1 HD</display-name>
+    <display-name>PT Eleven Sports 1 4K</display-name>
     <icon src="https://i.imgur.com/2Z2EmZF.png" />
-  <display-name>PT Eleven Sport 1 HD</display-name><display-name>PT Eleven Sports 1 4K</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118000000 +0000" channel="elevensports1.pt">
     <title lang="pt">Benfica x Lech Poznan - UEFA Europa League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznan</desc>
@@ -60484,8 +60639,10 @@
   </programme>
   <channel id="elevensports2.pt">
     <display-name>DAZN 2</display-name>
+    <display-name>PT Eleven Sport 2 HD</display-name>
+    <display-name>PT Eleven Sports 2 4K</display-name>
     <icon src="https://i.imgur.com/OGj3qf5.png" />
-  <display-name>PT Eleven Sport 2 HD</display-name><display-name>PT Eleven Sports 2 4K</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118000000 +0000" channel="elevensports2.pt">
     <title lang="pt">Atl. Madrid x Bayern München - UEFA Champions League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Bayern München</desc>
@@ -60662,8 +60819,10 @@
   </programme>
   <channel id="elevensports3.pt">
     <display-name>DAZN 3</display-name>
+    <display-name>PT Eleven Sport 3 HD</display-name>
+    <display-name>PT Eleven Sports 3 4K</display-name>
     <icon src="https://i.imgur.com/2rXsq2m.png" />
-  <display-name>PT Eleven Sport 3 HD</display-name><display-name>PT Eleven Sports 3 4K</display-name></channel>
+  </channel>
   <programme start="20261117231000 +0000" stop="20261118010000 +0000" channel="elevensports3.pt">
     <title lang="pt">Getafe x Brighton &amp; Hove Albion - UEFA Conference League</title>
     <desc lang="pt">Assiste ao jogo da UEFA Conference League entre Getafe x Brighton &amp; Hove Albion</desc>
@@ -60780,8 +60939,10 @@
   </programme>
   <channel id="elevensports5.pt">
     <display-name>DAZN 5</display-name>
+    <display-name>PT Eleven Sport 5 HD</display-name>
+    <display-name>PT Eleven Sports 5 4K</display-name>
     <icon src="https://i.imgur.com/HD2XaeS.png" />
-  <display-name>PT Eleven Sport 5 HD</display-name><display-name>PT Eleven Sports 5 4K</display-name></channel>
+  </channel>
   <programme start="20261118120000 +0000" stop="20261118123000 +0000" channel="elevensports5.pt">
     <title lang="pt">National Motorsports Competitions: GRIP - Magazine</title>
     <desc lang="pt">Assiste ao Magazine Grip</desc>
@@ -60928,8 +61089,9 @@
   </programme>
   <channel id="euronews.pt">
     <display-name>Euronews</display-name>
+    <display-name>PT EuroNews</display-name>
     <icon src="https://i.imgur.com/8t9mdg9.png" />
-  <display-name>PT EuroNews</display-name></channel>
+  </channel>
   <programme start="20261117234200 +0000" stop="20261118000000 +0000" channel="euronews.pt">
     <title lang="pt">Euroverify</title>
     <desc lang="pt">Journalists specialised in fact-checking and debunking the biggest stories and rumours targeting …</desc>
@@ -61994,8 +62156,10 @@
   </programme>
   <channel id="fashiontv.pt">
     <display-name>Fashion TV</display-name>
+    <display-name>PT FASHION TV</display-name>
+    <display-name>PT FTV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
-  <display-name>PT FASHION TV</display-name><display-name>PT FTV</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118000000 +0000" channel="fashiontv.pt">
     <title lang="pt">FASHION TV</title>
     <desc lang="pt">FASHION TV</desc>
@@ -62070,8 +62234,9 @@
   </programme>
   <channel id="lollykids.pt">
     <display-name>Lolly Kids</display-name>
+    <display-name>PT LOLLY KIDS HD</display-name>
     <icon src="https://i.imgur.com/DOpgaBe.png" />
-  <display-name>PT LOLLY KIDS HD</display-name></channel>
+  </channel>
   <programme start="20261117200000 +0000" stop="20261118000000 +0000" channel="lollykids.pt">
     <title lang="pt">LOLLY KIDS</title>
     <desc lang="pt">LOLLY KIDS</desc>
@@ -62146,8 +62311,9 @@
   </programme>
   <channel id="motorvision.pt">
     <display-name>Motorvision</display-name>
+    <display-name>PT Motorvision</display-name>
     <icon src="https://i.imgur.com/v4kj8pI.png" />
-  <display-name>PT Motorvision</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118003000 +0000" channel="motorvision.pt">
     <title lang="pt">Gt World Challenge Asia 2026</title>
     <sub-title lang="pt">Fuji Inernational Speedway, Japan</sub-title>
@@ -62756,8 +62922,9 @@
   </programme>
   <channel id="nostudios.pt">
     <display-name>NOS Studios</display-name>
+    <display-name>PT NOS STUDIOS HD</display-name>
     <icon src="https://i.imgur.com/gVYQmKm.png" />
-  <display-name>PT NOS STUDIOS HD</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118004400 +0000" channel="nostudios.pt">
     <title lang="pt">Animais Perigosos</title>
     <desc lang="pt">Zephyr, uma surfista livre e destemida, é raptada por um assassino em série obcecado por tubarões. Presa no barco dele, Zephyr luta para escapar antes de ser usada num macabro ritual.</desc>
@@ -62946,8 +63113,9 @@
   </programme>
   <channel id="panda.pt">
     <display-name>Panda</display-name>
+    <display-name>PT CANAL PANDA</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/0/08/Canal_Panda_2015.png" />
-  <display-name>PT CANAL PANDA</display-name></channel>
+  </channel>
   <programme start="20261117235200 +0000" stop="20261118000500 +0000" channel="panda.pt">
     <title lang="pt">Os Contos Da Masha T1 - Ep. 5</title>
     <desc lang="pt">Uma mulher zangada tinha duas filhas - uma sua e a segunda - uma enteada.</desc>
@@ -64504,8 +64672,10 @@
   </programme>
   <channel id="porto.pt">
     <display-name>Porto Canal</display-name>
+    <display-name>PT Porto Canal 4K</display-name>
+    <display-name>PT Porto Canal HD</display-name>
     <icon src="https://i.imgur.com/DwziwMY.png" />
-  <display-name>PT Porto Canal 4K</display-name><display-name>PT Porto Canal HD</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118001000 +0000" channel="porto.pt">
     <title lang="pt">Caminhos Da História</title>
     <desc lang="pt">Um programa dedicado à divulgação da História e do Património do nosso país, que visa valorizar a nossa memória através de percursos no território e de visitas a monumentos, na companhia do arqueólogo e historiador Joel Cleto.</desc>
@@ -64730,8 +64900,9 @@
   </programme>
   <channel id="rtp3.pt">
     <display-name>RTP Notícias</display-name>
+    <display-name>PT RTP 3</display-name>
     <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" />
-  <display-name>PT RTP 3</display-name></channel>
+  </channel>
   <programme start="20261117235700 +0000" stop="20261118010000 +0000" channel="rtp3.pt">
     <title lang="pt">24 Horas</title>
     <desc lang="pt">O essencial da informação à meia-noite e as primeiras páginas dos jornais com análise em antena. Com Fátima Araújo e Beatriz Veloso.</desc>
@@ -65214,8 +65385,11 @@
   </programme>
   <channel id="star.pt">
     <display-name>STAR Channel</display-name>
+    <display-name>PT FOX 4K</display-name>
+    <display-name>PT Fox HD</display-name>
+    <display-name>PT STAR HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" />
-  <display-name>PT FOX 4K</display-name><display-name>PT Fox HD</display-name><display-name>PT STAR HD</display-name></channel>
+  </channel>
   <programme start="20261117235700 +0000" stop="20261118005000 +0000" channel="star.pt">
     <title lang="pt">FBI: Most Wanted T6 - Ep. 10</title>
     <desc lang="pt">Depois de testemunhar um homicídio em plena luz do dia, a Fugitive Task Force tem de caçar um grupo de assassinos que competem num jogo online perverso. Entretanto, Remy e Abby lutam para entrar em acordo. Classificação etária: M/12+</desc>
@@ -65584,7 +65758,8 @@
   </programme>
   <channel id="tveinternacional.pt">
     <display-name>TVE Internacional</display-name>
-  <display-name>PT TVE Internacional</display-name></channel>
+    <display-name>PT TVE Internacional</display-name>
+  </channel>
   <programme start="20261118001500 +0000" stop="20261118025000 +0000" channel="tveinternacional.pt">
     <title lang="pt">La Noche en 24H</title>
     <desc lang="pt">Informativo diario centrado en el análisis de la actualidad del día. Incluye conexiones en directo desde los puntos de interés informativo, entrevistas en plató con los protagonistas de la jornada y tertulia de opinión con periodistas de otros medios que analizarán los temas más relevantes del...[S]</desc>
@@ -65835,8 +66010,10 @@
   </programme>
   <channel id="zapviva.pt">
     <display-name>ZAP Viva</display-name>
+    <display-name>PT ZAP Viva 4K</display-name>
+    <display-name>PT Zap Viva HD</display-name>
     <icon src="https://i.imgur.com/T8aotqw.png" />
-  <display-name>PT ZAP Viva 4K</display-name><display-name>PT Zap Viva HD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118013000 +0000" channel="zapviva.pt">
     <title lang="pt">Na Placa</title>
     <desc lang="pt">Na Placa é a voz dos jovens. É o programa de entretenimento feito a pensar nos que gostam de música, dança, desafios, conversas com influenciadores e muito, mas muito mais. De segunda a sexta, é aqui que tu tens de estar.</desc>

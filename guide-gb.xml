@@ -948,8 +948,10 @@
   </programme>
   <channel id="4seven.uk@HD">
     <display-name>4seven</display-name>
+    <display-name>UK 4seven</display-name>
+    <display-name>UK 4 SEVEN</display-name>
     <icon src="https://i.imgur.com/Fpaxyop.png" />
-  <display-name>UK 4seven</display-name><display-name>UK 4 SEVEN</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118002500 +0000" channel="4seven.uk@HD">
     <title lang="en">24 Hours in A&amp;E</title>
     <desc lang="en">Sunny is rushed to Queen's with multiple stab wounds. Tyler's hurt his foot playing football. And doctors are concerned about an 87-year-old woman who's coughing up blood. (S36 Ep1)</desc>
@@ -1326,8 +1328,9 @@
   </programme>
   <channel id="5Action.uk@HD">
     <display-name>5ACTION</display-name>
+    <display-name>UK 5 ACTION</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png" />
-  <display-name>UK 5 ACTION</display-name></channel>
+  </channel>
   <programme start="20261117233500 +0000" stop="20261118003500 +0000" channel="5Action.uk@HD">
     <title lang="en">The X-Files</title>
     <desc lang="en">With Scully about to give birth and alien super-soldiers closing in, Doggett, Mulder and Skinner try to work out who can be trusted. (S8 Ep21/21)</desc>
@@ -1736,8 +1739,9 @@
   </programme>
   <channel id="5SELECT.uk@SD">
     <display-name>5SELECT</display-name>
+    <display-name>UK 5 SELECT</display-name>
     <icon src="https://i.imgur.com/WJ9xR6l.png" />
-  <display-name>UK 5 SELECT</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118001000 +0000" channel="5SELECT.uk@SD">
     <title lang="en">Prisoner: Cell Block H</title>
     <desc lang="en">Bea seems happy to live out her sentence at Barnhurst. Meg keeps quiet about Latham's illegal activity so she is granted custody of Elizabeth. The women agree to lift the barricade. (S3 Ep32)</desc>
@@ -2132,8 +2136,9 @@
   </programme>
   <channel id="5STAR.uk@Plus1">
     <display-name>5STAR+1</display-name>
+    <display-name>UK 5 STAR+1</display-name>
     <icon src="https://i.imgur.com/PI11s9s.png" />
-  <display-name>UK 5 STAR+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="5STAR.uk@Plus1">
     <title lang="en">Skin A&amp;E</title>
     <desc lang="en">Dr Natalia Spierings needs a colleague's help after losing the location of a lipoma in patient Pauline's abdomen. Dr Emma McMullen tackles a very visible cyst on patient Steve's face. (S6 Ep2)</desc>
@@ -2526,8 +2531,9 @@
   </programme>
   <channel id="5STAR.uk@SD">
     <display-name>5STAR</display-name>
+    <display-name>UK 5STAR</display-name>
     <icon src="https://i.imgur.com/PI11s9s.png" />
-  <display-name>UK 5STAR</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010500 +0000" channel="5STAR.uk@SD">
     <title lang="en">999: Emergency Call Out</title>
     <desc lang="en">A paramedic and officer pair respond to two calls, one about a car crash and another about an increasingly dangerous argument. (S1 Ep 3)</desc>
@@ -2920,8 +2926,9 @@
   </programme>
   <channel id="5USA.uk@Plus1">
     <display-name>5USA+1</display-name>
+    <display-name>UK 5 USA+1</display-name>
     <icon src="https://i.imgur.com/Pi7so2l.png" />
-  <display-name>UK 5 USA+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="5USA.uk@Plus1">
     <title lang="en">Law &amp; Order: Special Victims Unit</title>
     <desc lang="en">The kidnapping of an infant at a grocery store leads to a scheme of snatching and selling babies for adoption which brings back a case from 12 years ago. (S3 Ep3/23)</desc>
@@ -3264,8 +3271,9 @@
   </programme>
   <channel id="5USA.uk@SD">
     <display-name>5 USA</display-name>
+    <display-name>UK 5 USA</display-name>
     <icon src="https://i.imgur.com/Pi7so2l.png" />
-  <display-name>UK 5 USA</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="5USA.uk@SD">
     <title lang="en">NCIS</title>
     <desc lang="en">Alden Parker is still on the run with his ex-wife Vivian. The team investigates who might have a personal vendetta against him in the hope of clearing Parker's name. (S20 Ep1)</desc>
@@ -3608,7 +3616,8 @@
   </programme>
   <channel id="92News.uk@SD">
     <display-name>92 News</display-name>
-  <display-name>UK 92 News</display-name></channel>
+    <display-name>UK 92 News</display-name>
+  </channel>
   <programme start="20261118043000 +0000" stop="20261118073000 +0000" channel="92News.uk@SD">
     <title lang="en">News Bulletin</title>
     <desc lang="en">The host presents the latest regional, national and international news of the day.</desc>
@@ -4116,8 +4125,9 @@
   </programme>
   <channel id="AajTak.in@SD">
     <display-name>AAJ TAK</display-name>
+    <display-name>UK AAJ TAK</display-name>
     <icon src="https://i.imgur.com/JYLmXy4.png" />
-  <display-name>UK AAJ TAK</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="AajTak.in@SD">
     <title lang="en">Khabardar</title>
     <desc lang="en">Khabardar is a people-first campaign spotlighting issues that truly matter, Anchored by Sweta Singh</desc>
@@ -4959,8 +4969,9 @@
   </programme>
   <channel id="AhlebaitTV.uk@SD">
     <display-name>Ahlebait TV</display-name>
+    <display-name>UK Ahlebait TV</display-name>
     <icon src="https://i.imgur.com/e8NUQ5V.png" />
-  <display-name>UK Ahlebait TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="AhlebaitTV.uk@SD">
     <title lang="en">Subh-e-Nau</title>
     <desc lang="en">Repeat telecast of morning show.</desc>
@@ -5179,8 +5190,9 @@
   </programme>
   <channel id="AkaalChannel.uk@SD">
     <display-name>Akaal Channel</display-name>
+    <display-name>UK Akaal Channel</display-name>
     <icon src="https://i.imgur.com/K81vNbk.png" />
-  <display-name>UK Akaal Channel</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118023000 +0000" channel="AkaalChannel.uk@SD">
     <title lang="en">Gurmat Smagam</title>
     <desc lang="en">Gurbani, Kirtan, Katha and Lecture at Gurmat Smagam.</desc>
@@ -7002,8 +7014,9 @@
   </programme>
   <channel id="AnimalPlanet.uk@Plus1">
     <display-name>Animal Plnt+1</display-name>
+    <display-name>UK Animal Plnt+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
-  <display-name>UK Animal Plnt+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="AnimalPlanet.uk@Plus1">
     <title lang="en">The Haunted</title>
     <desc lang="en">The Door. A family is horrified when they witness their dog being flung across the room by an unseen entity. On a nearby farm, all the animals are dying. Are the cases related? S1, Ep9</desc>
@@ -7388,8 +7401,9 @@
   </programme>
   <channel id="AnimalPlanet.uk@HD">
     <display-name>Animal Planet</display-name>
+    <display-name>UK Animal Planet</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
-  <display-name>UK Animal Planet</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="AnimalPlanet.uk@HD">
     <title lang="en">Crikey! It's the Irwins</title>
     <desc lang="en">It's A Baby Giraffe! There's huge excitement at Australia Zoo: Rosie the Giraffe is set to give birth! Robert has a bloody encounter with a wild python that entered an enclosure. S1, Ep7</desc>
@@ -9558,8 +9572,9 @@
   </programme>
   <channel id="AriseNews.uk@UK">
     <display-name>Arise News</display-name>
+    <display-name>UK Arise News</display-name>
     <icon src="https://i.imgur.com/B5IXKIb.png" />
-  <display-name>UK Arise News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="AriseNews.uk@UK">
     <title lang="en">Prime Time</title>
     <desc lang="en">Current Affairs Programme with Newsmakers and InDepth Analysis of Topical Issues.</desc>
@@ -9945,8 +9960,9 @@
   </programme>
   <channel id="ARYDigital.pk@UK">
     <display-name>ARY Digital</display-name>
+    <display-name>UK ARY Digital</display-name>
     <icon src="https://i.ibb.co/DqxCNMW/ARY-DIGITAL.png" />
-  <display-name>UK ARY Digital</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="ARYDigital.pk@UK">
     <title lang="en">Rutba</title>
     <desc lang="en">Hadi, a dedicated police officer whose life takes an unexpected turn when he is posted to a new area and comes into conflict with the powerful businessman Meer and his corrupt wife, Shelly.</desc>
@@ -10601,8 +10617,9 @@
   </programme>
   <channel id="B4UMovies.in@UK">
     <display-name>B4U Movies</display-name>
+    <display-name>UK B4U Movies</display-name>
     <icon src="https://i.imgur.com/BoJB8P0.png" />
-  <display-name>UK B4U Movies</display-name></channel>
+  </channel>
   <programme start="20261117221300 +0000" stop="20261118004800 +0000" channel="B4UMovies.in@UK">
     <title lang="en">Viduthalai Part 1</title>
     <desc lang="en">A policeman is conflicted between duty and morality when his department begins a brutal campaign to capture a local activist.</desc>
@@ -10707,8 +10724,9 @@
   </programme>
   <channel id="B4UMusic.in@UK">
     <display-name>B4U Music</display-name>
+    <display-name>UK B4U Music</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK B4U Music</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="B4UMusic.in@UK">
     <title lang="en">Aawaaz De Kahan Hai</title>
     <desc lang="en">Compilation of classic hit Hindi film songs.</desc>
@@ -11131,8 +11149,9 @@
   </programme>
   <channel id="BabyTV.uk@UK">
     <display-name>BabyTV</display-name>
+    <display-name>UK Baby TV</display-name>
     <icon src="https://i.imgur.com/4BDJ5FT.png" />
-  <display-name>UK Baby TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000300 +0000" channel="BabyTV.uk@UK">
     <title lang="en">Kiku at the Home</title>
     <desc lang="en">It's time to relax, slow down and unwind with Kiku. Calming visuals and soft music are great ways to prepare for bed.</desc>
@@ -16531,8 +16550,9 @@
   </programme>
   <channel id="BBCFour.uk@UKHD">
     <display-name>BBC Four HD</display-name>
+    <display-name>UK BBC Four</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" />
-  <display-name>UK BBC Four</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118004000 +0000" channel="BBCFour.uk@UKHD">
     <title lang="en">Colour: The Spectrum of Science</title>
     <desc lang="en">1/3. Helen Czerski uncovers what colour is, how it works and how it has written the story of our planet. She seeks out the hues that turned the Earth multicoloured. [S,AD] [HD]</desc>
@@ -16719,8 +16739,9 @@
   </programme>
   <channel id="BBCNews.uk@UKHD">
     <display-name>BBC NEWS HD</display-name>
+    <display-name>UK BBC NEWS</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK BBC NEWS</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="BBCNews.uk@UKHD">
     <title lang="en">BBC News</title>
     <desc lang="en">The latest news from the BBC. [S] [HD]</desc>
@@ -18479,7 +18500,8 @@
   </programme>
   <channel id="BBCOne.uk@ScotlandHD">
     <display-name>BBC One Scotland</display-name>
-  <display-name>UK BBC One Scotland</display-name></channel>
+    <display-name>UK BBC One Scotland</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118093000 +0000" channel="BBCOne.uk@ScotlandHD">
     <title lang="en">Breakfast</title>
     <desc lang="en">The BBC's Breakfast programme features the latest news, sport, business, weather and other items on a daily basis.</desc>
@@ -19113,7 +19135,8 @@
   </programme>
   <channel id="BBCOne.uk@HD">
     <display-name>BBC One HD</display-name>
-  <display-name>UK BBC One</display-name></channel>
+    <display-name>UK BBC One</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118093000 +0000" channel="BBCOne.uk@HD">
     <title lang="en">Breakfast</title>
     <desc lang="en">The BBC's Breakfast programme features the latest news, sport, business, weather and other items on a daily basis.</desc>
@@ -32414,8 +32437,9 @@
   </programme>
   <channel id="BBCRedButton1.uk@HD">
     <display-name>BBC RB 1 HD</display-name>
+    <display-name>UK BBC Red Button 1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png" />
-  <display-name>UK BBC Red Button 1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118060000 +0000" channel="BBCRedButton1.uk@HD">
     <title lang="en">Autumnwatch: Autumn Calm</title>
     <desc lang="en">Enjoy the very best of the season in a natural escape that lets nature do the talking. [HD]</desc>
@@ -33157,8 +33181,9 @@
   </programme>
   <channel id="BBCThree.uk@HD">
     <display-name>BBC Three HD</display-name>
+    <display-name>UK BBC Three</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png" />
-  <display-name>UK BBC Three</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="BBCThree.uk@HD">
     <title lang="en">Teen Predator/Online Killer</title>
     <desc lang="en">3/3. After one of McCartney's victims is found dead, police fight to bring him to justice. Contains scenes which some viewers may find disturbing. [S,AD] [HD]</desc>
@@ -33521,8 +33546,9 @@
   </programme>
   <channel id="BBCTwo.uk@HD">
     <display-name>BBC Two HD</display-name>
+    <display-name>UK BBC Two</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
-  <display-name>UK BBC Two</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="BBCTwo.uk@HD">
     <title lang="en">A Course Called Ireland</title>
     <desc lang="en">4/6. Comedian Joanne McNally joins Bill for golf and oysters as his 75th birthday approaches. Contains some strong language. [S,AD] [HD]</desc>
@@ -36232,8 +36258,9 @@
   </programme>
   <channel id="BestDirect.uk@SD">
     <display-name>Best Direct</display-name>
+    <display-name>UK Best Direct</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4100.png" />
-  <display-name>UK Best Direct</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118050000 +0000" channel="BestDirect.uk@SD">
     <title lang="en">Best Direct Night-Time Offers</title>
     <desc lang="en">From fitness equipment to household gadgets, Best Direct has something for everyone! All at amazing prices! Don't miss out! Call 0871 222 2007 (national rates apply) or visit www.bestdirect.co.uk</desc>
@@ -37123,8 +37150,9 @@
   </programme>
   <channel id="Blaze.uk@SD">
     <display-name>BLAZE</display-name>
+    <display-name>UK Blaze</display-name>
     <icon src="https://i.imgur.com/6UcPWP9.png" />
-  <display-name>UK Blaze</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="Blaze.uk@SD">
     <title lang="en">Mission Unexplained</title>
     <desc lang="en">A security officer is visited by an unearthly presence at a nuclear launch site, before waking up miles away. Meanwhile, a higher power seems to protect a US Army gunner. (S1, ep 4)</desc>
@@ -38053,8 +38081,9 @@
   </programme>
   <channel id="Boomerang.uk@Plus1">
     <display-name>Boomerang+1</display-name>
+    <display-name>UK Boomerang+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
-  <display-name>UK Boomerang+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="Boomerang.uk@Plus1">
     <title lang="en">Mush-Mush And The Mushables</title>
     <desc lang="en">Mush-Mush and the Mushables follows the adventures of Mush-Mush, his best friends Lilit and Chep as they discover just how fun outdoor life can be.</desc>
@@ -38453,8 +38482,9 @@
   </programme>
   <channel id="Boomerang.uk@SD">
     <display-name>Boomerang</display-name>
+    <display-name>UK Boomerang</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
-  <display-name>UK Boomerang</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118005000 +0000" channel="Boomerang.uk@SD">
     <title lang="en">Mush-Mush And The Mushables</title>
     <desc lang="en">Mush-Mush and the Mushables follows the adventures of Mush-Mush, his best friends Lilit and Chep as they discover just how fun outdoor life can be.</desc>
@@ -40317,8 +40347,9 @@
   </programme>
   <channel id="Cartoonito.uk@SD">
     <display-name>Cartoonito</display-name>
+    <display-name>UK Cartoonito</display-name>
     <icon src="https://i.imgur.com/B29D2s1.png" />
-  <display-name>UK Cartoonito</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="Cartoonito.uk@SD">
     <title lang="en">Grizzy and The Lemmings</title>
     <desc lang="en">He is big as a bear, strong as a bear, smart... as a bear. No other animal dares to contest Grizzy. Except the lemmings...</desc>
@@ -41148,8 +41179,9 @@
   </programme>
   <channel id="CartoonNetwork.uk@Plus1">
     <display-name>CN+1</display-name>
+    <display-name>UK CN+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>UK CN+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="CartoonNetwork.uk@Plus1">
     <title lang="en">The Amazing World of Gumball</title>
     <desc lang="en">Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball... the 12-year-old cat with a flair for misadventure!</desc>
@@ -41577,8 +41609,9 @@
   </programme>
   <channel id="CartoonNetwork.uk@SD">
     <display-name>Cartoon Netwrk</display-name>
+    <display-name>UK Cartoon Netwrk</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>UK Cartoon Netwrk</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118013000 +0000" channel="CartoonNetwork.uk@SD">
     <title lang="en">The Amazing World of Gumball</title>
     <desc lang="en">Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure!</desc>
@@ -42006,8 +42039,10 @@
   </programme>
   <channel id="CBBC.uk@HD">
     <display-name>CBBC HD</display-name>
+    <display-name>UK CBBC</display-name>
+    <display-name>UK CITV</display-name>
     <icon src="https://i.imgur.com/tk8G4CU.png" />
-  <display-name>UK CBBC</display-name><display-name>UK CITV</display-name></channel>
+  </channel>
   <programme start="20261117185800 +0000" stop="20261118005800 +0000" channel="CBBC.uk@HD">
     <title lang="en">.programmes start at 7.00am</title>
   </programme>
@@ -42777,8 +42812,9 @@
   </programme>
   <channel id="CBeebies.uk@HD">
     <display-name>CBeebies HD</display-name>
+    <display-name>UK CBeebies</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2088.png" />
-  <display-name>UK CBeebies</display-name></channel>
+  </channel>
   <programme start="20261117185800 +0000" stop="20261118005800 +0000" channel="CBeebies.uk@HD">
     <title lang="en">..programmes start at 6.00am</title>
   </programme>
@@ -44296,8 +44332,10 @@
   </programme>
   <channel id="Challenge.uk@SD">
     <display-name>Challenge</display-name>
+    <display-name>UK Challenge</display-name>
+    <display-name>UK Challenge HD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png" />
-  <display-name>UK Challenge</display-name><display-name>UK Challenge HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="Challenge.uk@SD">
     <title lang="en">Bridge Of Lies</title>
     <desc lang="en">Ross Kemp hosts the Bridge of Lies. Contestants must cross by stepping on the truths and avoiding the lies, earning money as they go.</desc>
@@ -44739,8 +44777,9 @@
   </programme>
   <channel id="Channel4.uk@UKHD">
     <display-name>Channel 4 HD</display-name>
+    <display-name>UK Channel 4 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png" />
-  <display-name>UK Channel 4 SD</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="Channel4.uk@UKHD">
     <title lang="en">Gogglebox</title>
     <desc lang="en">What do the Goggleboxers make of the week's TV? Featuring Rivals, Jamie's 20 Minute Meals, Strictly, First Dates, Made in Chelsea, The Famous Finish Line and Hanging by a Wire. (S28 Ep11) [SL]</desc>
@@ -50750,8 +50789,9 @@
   </programme>
   <channel id="Channel5.uk@HD">
     <display-name>5 HD</display-name>
+    <display-name>UK Channel 5</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
-  <display-name>UK Channel 5</display-name></channel>
+  </channel>
   <programme start="20261117223500 +0000" stop="20261118000500 +0000" channel="Channel5.uk@HD">
     <title lang="en">Body at the Bottom of the Ocean...</title>
     <desc lang="en">...The Murder of Ronald Platt. A bizarre murder mystery: the story of missing millions, stolen identity, and a confident trickster and master criminal, finally caught in a web of his own lies.</desc>
@@ -51410,8 +51450,9 @@
   </programme>
   <channel id="Channel5.uk@Plus1">
     <display-name>5+1</display-name>
+    <display-name>UK Channel 5+1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
-  <display-name>UK Channel 5+1</display-name></channel>
+  </channel>
   <programme start="20261117233500 +0000" stop="20261118010500 +0000" channel="Channel5.uk@Plus1">
     <title lang="en">Body at the Bottom of the Ocean...</title>
     <desc lang="en">...The Murder of Ronald Platt. A bizarre murder mystery: the story of missing millions, stolen identity, and a confident trickster and master criminal, finally caught in a web of his own lies.</desc>
@@ -52062,7 +52103,8 @@
   </programme>
   <channel id="ChannelS.uk@SD">
     <display-name>Channel S</display-name>
-  <display-name>UK CHANNEL S</display-name></channel>
+    <display-name>UK CHANNEL S</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118100000 +0000" channel="ChannelS.uk@SD">
     <title lang="en">Channel S Television</title>
   </programme>
@@ -53069,8 +53111,9 @@
   </programme>
   <channel id="ClublandTV.uk@SD">
     <display-name>Clubland TV</display-name>
+    <display-name>UK Clubland TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png" />
-  <display-name>UK Clubland TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020500 +0000" channel="ClublandTV.uk@SD">
     <title lang="en">Timmy Mallett's Brilliant Xmas!</title>
     <desc lang="en">Pinky Punky celebrates with just a little help from his best friend Timmy. Seasonal silliness galore with The Frog Chorus, Nellie The Elephant &amp; a whole stack of Xmas classics!</desc>
@@ -53253,8 +53296,9 @@
   </programme>
   <channel id="CNBCEurope.uk@HD">
     <display-name>CNBC HD</display-name>
+    <display-name>UK CNBC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
-  <display-name>UK CNBC</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="CNBCEurope.uk@HD">
     <title lang="en">Squawk Box Asia</title>
     <desc lang="en">Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories.</desc>
@@ -53793,8 +53837,9 @@
   </programme>
   <channel id="CNNInternational.us@UK">
     <display-name>CNN HD</display-name>
+    <display-name>UK CNN</display-name>
     <icon src="https://i.imgur.com/dfxefQw.png" />
-  <display-name>UK CNN</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="CNNInternational.us@UK">
     <title lang="en">Erin Burnett OutFront</title>
     <desc lang="en">Tuesday, November 17, 2026 7PM. Erin Burnett stays ahead of the headlines, delivering a show that's in-depth and informative.</desc>
@@ -54414,8 +54459,9 @@
   </programme>
   <channel id="ColorsMENA.in@HD">
     <display-name>COLORS</display-name>
+    <display-name>UK COLORS</display-name>
     <icon src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/108/1782291760108-h.jpg" />
-  <display-name>UK COLORS</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118003000 +0000" channel="ColorsMENA.in@HD">
     <title lang="en">Bigg Boss S20</title>
     <desc lang="en">Bigg Boss 20 introduces the unique 'Old vs New' and 'Two Lives' themes, as fresh contestants and familiar faces face twists, advantages and intense drama.</desc>
@@ -55098,8 +55144,9 @@
   </programme>
   <channel id="ColorsCineplex.in@SD">
     <display-name>ColorsCineplex</display-name>
+    <display-name>UK Colors Cineplex</display-name>
     <icon src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3042/1782291173042-h.jpg" />
-  <display-name>UK Colors Cineplex</display-name></channel>
+  </channel>
   <programme start="20261117213000 +0000" stop="20261118001500 +0000" channel="ColorsCineplex.in@SD">
     <title lang="en">Tanhaji The Unsung Warrior</title>
     <desc lang="en">Tanhaji Malusare, a Maratha leader under Shivaji, fights to seize Kondhana Fort from Rajput commander Udaybhan Rathod, facing strong defense and ruthless obstacles ahead.</desc>
@@ -55222,8 +55269,9 @@
   </programme>
   <channel id="ColorsGujarati.in@SD">
     <display-name>ColorsGujarati</display-name>
+    <display-name>UK COLORS GUJARATI</display-name>
     <icon src="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/6493/1782290866493-h.jpg" />
-  <display-name>UK COLORS GUJARATI</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="ColorsGujarati.in@SD">
     <title lang="en">Rangai Jaane Rang Ma</title>
     <desc lang="en">The show follows the lives of two girls unknowingly exchanged at birth by a doctor, played by Dipika Chikhalia, as fate intertwines their journeys in unexpected ways.</desc>
@@ -55866,8 +55914,9 @@
   </programme>
   <channel id="ColorsRishteyEurope.in@UK">
     <display-name>ColorsRishtey</display-name>
+    <display-name>UK Colors Rishtey</display-name>
     <icon src="https://i.imgur.com/gyyRpFv.png" />
-  <display-name>UK Colors Rishtey</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="ColorsRishteyEurope.in@UK">
     <title lang="en">Shiv-Shakti Tap..Tyaag..Tandav</title>
     <desc lang="en">After being tricked, a powerful figure lashes out in anger. A fierce divine form rises in rage to punish him, but intervention prevents the act and restores balance.</desc>
@@ -56574,8 +56623,9 @@
   </programme>
   <channel id="ComedyCentral.uk@HD">
     <display-name>ComedyCentral</display-name>
+    <display-name>UK Comedy Central</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
-  <display-name>UK Comedy Central</display-name></channel>
+  </channel>
   <programme start="20261117232000 +0000" stop="20261118002000 +0000" channel="ComedyCentral.uk@HD">
     <title lang="en">Jimmy Carr's Am I the A******?</title>
     <desc lang="en">Jimmy, GK Barry and Jamali are passing judgement on some potential a******s. Taking the stand tonight is a romantic gesture fail and someone who refuses to date if the stars don't align. (S2, E03)</desc>
@@ -57244,8 +57294,9 @@
   </programme>
   <channel id="ComedyCentral.uk@Plus1">
     <display-name>ComedyCent+1</display-name>
+    <display-name>UK Comedy Cent+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
-  <display-name>UK Comedy Cent+1</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118002000 +0000" channel="ComedyCentral.uk@Plus1">
     <title lang="en">Lethal Weapon 3</title>
     <desc lang="en">Riggs (Mel Gibson) and Murtaugh (Danny Glover) pursue a former LAPD officer who uses his knowledge of police procedure and policies to steal and sell confiscated guns to local street gangs. (1992)</desc>
@@ -58822,8 +58873,9 @@
   </programme>
   <channel id="ComedyXtra.uk@SD">
     <display-name>ComedyXtra</display-name>
+    <display-name>UK ComedyXtra</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png" />
-  <display-name>UK ComedyXtra</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="ComedyXtra.uk@SD">
     <title lang="en">Friends</title>
     <desc lang="en">The One With The Cheap Wedding Dress: Monica battles another shopper for the perfect wedding dress. Meanwhile, Joey and Ross fight over the same girl and go to drastic measures to win. (S7, E17)</desc>
@@ -59703,8 +59755,9 @@
   </programme>
   <channel id="CrimeInv.uk@HD">
     <display-name>Crime+Inv HD</display-name>
+    <display-name>UK Crime+Inv</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
-  <display-name>UK Crime+Inv</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="CrimeInv.uk@HD">
     <title lang="en">Britain's Darkest Taboos</title>
     <desc lang="en">My Mother Murdered By Her Golden Boy Son: Family members question what drove 31-year-old Ross Taggart to murder his mother and dispose of her body under a caravan in Fife.</desc>
@@ -60121,8 +60174,9 @@
   </programme>
   <channel id="CrimeInv.uk@Plus1">
     <display-name>Crime+Inv+1</display-name>
+    <display-name>UK Crime+Inv+1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
-  <display-name>UK Crime+Inv+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="CrimeInv.uk@Plus1">
     <title lang="en">Interview With A Killer</title>
     <desc lang="en">Adam Williams (Part 2): Adam Williams finally tells the story behind the Texas beach double murder and the manhunt that followed, now insisting he's found redemption. (S2, ep 2)</desc>
@@ -63803,8 +63857,9 @@
   </programme>
   <channel id="DeenTV.uk@SD">
     <display-name>Deen TV</display-name>
+    <display-name>UK Deen TV</display-name>
     <icon src="https://i.imgur.com/Zp62Nbd.png" />
-  <display-name>UK Deen TV</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118010000 +0000" channel="DeenTV.uk@SD">
     <title lang="en">Qari ul Quran</title>
     <desc lang="en">Religious programme for all age groups which helps them to learn the correct way of reading the Quran.</desc>
@@ -64317,8 +64372,9 @@
   </programme>
   <channel id="DiscoveryChannel.uk@UKHD">
     <display-name>Discovery</display-name>
+    <display-name>UK Discovery</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png" />
-  <display-name>UK Discovery</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryChannel.uk@UKHD">
     <title lang="en">Deadliest Catch</title>
     <desc lang="en">Bring Out The Monster. Keith and Jake defend their grounds from encroaching trawlers. Sig struggles to keep his vessel operational under the pressure of a looming offload. S21, Ep14</desc>
@@ -64737,8 +64793,9 @@
   </programme>
   <channel id="DiscoveryChannel.uk@UKPlus1">
     <display-name>Discovery+1</display-name>
+    <display-name>UK Discovery+1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png" />
-  <display-name>UK Discovery+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryChannel.uk@UKPlus1">
     <title lang="en">Combat Dealers</title>
     <desc lang="en">Bruce hunts down relics of one of the greatest military commanders of all-time, George S. Patton. Then, he tries to close a deal worth £200,000. S5, Ep3</desc>
@@ -66299,8 +66356,9 @@
   </programme>
   <channel id="DiscoveryHistory.uk@Plus1">
     <display-name>Disc.History+1</display-name>
+    <display-name>UK Disc History+1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png" />
-  <display-name>UK Disc History+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryHistory.uk@Plus1">
     <title lang="en">Combat Dealers</title>
     <desc lang="en">Secrets And Spies. Bruce dives into the murky secrets of World War II spies. In Italy, he unearths an iconic code-breaking machine. In the UK the lads revive two rocket launchers. S3, Ep1</desc>
@@ -66691,8 +66749,9 @@
   </programme>
   <channel id="DiscoveryHistory.uk@SD">
     <display-name>Disc.History</display-name>
+    <display-name>UK Disc History</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png" />
-  <display-name>UK Disc History</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryHistory.uk@SD">
     <title lang="en">How the Universe Works</title>
     <desc lang="en">Secrets Of The Sun. Some of the brightest minds and theorists on the planet explore the limits of human knowledge and explain the science behind our star. S9, Ep4</desc>
@@ -67083,8 +67142,9 @@
   </programme>
   <channel id="DiscoveryScienceEurope.uk@UKPlus1">
     <display-name>Disc.Sci+1</display-name>
+    <display-name>UK Disc Sci+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
-  <display-name>UK Disc Sci+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryScienceEurope.uk@UKPlus1">
     <title lang="en">You Have Been Warned</title>
     <desc lang="en">MVPs. A look at the internet's Most Valuable Players in science. Featuring a brave sportsman skiing behind a supercar and people pulling cars with their teeth! S6, Ep7</desc>
@@ -67535,8 +67595,9 @@
   </programme>
   <channel id="DiscoveryScienceEurope.uk@UKHD">
     <display-name>Disc.Science</display-name>
+    <display-name>UK Disc Science</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
-  <display-name>UK Disc Science</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryScienceEurope.uk@UKHD">
     <title lang="en">You Have Been Warned</title>
     <desc lang="en">Masters Of Mayhem. Showcases the internet's most destructive minds, using science to create chaos! Featuring incredible punching robots to amazing bowling ball launchers. S6, Ep8</desc>
@@ -68244,8 +68305,9 @@
   </programme>
   <channel id="DiscoveryTurbo.uk@Plus1">
     <display-name>Disc.Turbo+1</display-name>
+    <display-name>UK Disc Turbo+1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png" />
-  <display-name>UK Disc Turbo+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryTurbo.uk@Plus1">
     <title lang="en">Supertruckers</title>
     <desc lang="en">The team traverses tiny Welsh villages moving a huge cheese vat from a factory to Felixstowe for shipment abroad. And there's a rookie error moving three Bulldog tanks to Germany. S3, Ep6</desc>
@@ -68696,8 +68758,9 @@
   </programme>
   <channel id="DiscoveryTurbo.uk@SD">
     <display-name>Disc.Turbo</display-name>
+    <display-name>UK Disc Turbo</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png" />
-  <display-name>UK Disc Turbo</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DiscoveryTurbo.uk@SD">
     <title lang="en">Wheeler Dealers World Tour</title>
     <desc lang="en">Mexico: Baja Bug. Mike and Elvis turn a VW Beetle into a Baja Bug for racing across sand dunes. But with just 5 days for the build will their project hit the skids? S2, Ep1</desc>
@@ -69148,7 +69211,8 @@
   </programme>
   <channel id="DisneyChannel.uk@SD">
     <display-name>Disney Channel</display-name>
-  <display-name>UK DISNEY CHANNEL</display-name></channel>
+    <display-name>UK DISNEY CHANNEL</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118061500 +0000" channel="DisneyChannel.uk@SD">
     <title lang="en">Bluey</title>
     <desc lang="en">Während eines Camping-Urlaubs im Busch findet Bluey einen neuen Freund namens Jean-Luc. Bluey versteht ihn zwar nicht, aber die beiden finden im Spielen und der Jagd nach einem wilden Papa-Wildschwein eine gemeinsame Sprache.</desc>
@@ -69714,8 +69778,9 @@
   </programme>
   <channel id="DisneyJr.uk@HD">
     <display-name>Disney Jr HD</display-name>
+    <display-name>UK Disney JR HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
-  <display-name>UK Disney JR HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="DisneyJr.uk@HD">
     <title lang="en">Mickey Mouse Clubhouse+</title>
     <desc lang="en">A Dragon Tale:A tea party is disrupted by a dragon. 0</desc>
@@ -70998,8 +71063,9 @@
   </programme>
   <channel id="DMAX.uk@UK">
     <display-name>DMAX</display-name>
+    <display-name>UK DMAX</display-name>
     <icon src="https://i.imgur.com/CDsoyjN.png" />
-  <display-name>UK DMAX</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DMAX.uk@UK">
     <title lang="en">Naked and Afraid XL</title>
     <desc lang="en">All-Stars: To Hail And Back. Freezing rainstorms torture the remaining survivalists, risking severe hypothermia. Plus, a successful hunt ends up backfiring. S3, Ep4</desc>
@@ -71394,8 +71460,9 @@
   </programme>
   <channel id="DMAX.uk@UKPlus1">
     <display-name>DMAX+1</display-name>
+    <display-name>UK DMAX+1</display-name>
     <icon src="https://i.imgur.com/CDsoyjN.png" />
-  <display-name>UK DMAX+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="DMAX.uk@UKPlus1">
     <title lang="en">Expedition X</title>
     <desc lang="en">Avalanche Ghost Train. At the site of America's deadliest avalanche, witnesses report bizarre apparitions and feelings of dread. Phil and Jess test a mind-bending scientific theory. S3, Ep8</desc>
@@ -72841,8 +72908,9 @@
   </programme>
   <channel id="E4.uk@HD">
     <display-name>E4</display-name>
+    <display-name>UK E4 SD</display-name>
     <icon src="https://i.imgur.com/22MfjF4.png" />
-  <display-name>UK E4 SD</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="E4.uk@HD">
     <title lang="en">Dating Naked USA</title>
     <desc lang="en">Natalie and David spend 12 weeks in Bora Bora on a unique dating experience, looking for love in the nuddy. David gets hot under the collar (even though he's not wearing one). (S3 Ep1)</desc>
@@ -73487,8 +73555,9 @@
   </programme>
   <channel id="E4.uk@Plus1">
     <display-name>E4+1</display-name>
+    <display-name>UK E4 +1</display-name>
     <icon src="https://i.imgur.com/22MfjF4.png" />
-  <display-name>UK E4 +1</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000500 +0000" channel="E4.uk@Plus1">
     <title lang="en">Gogglebox</title>
     <desc lang="en">Britain's sharpest armchair critics watch: Banged Up: Stars Behind Bars, Planet Earth, Bake Off, Culprits, The Curse of Robert the Doll and much more. (S22 Ep10)</desc>
@@ -74133,8 +74202,9 @@
   </programme>
   <channel id="E4Extra.uk@SD">
     <display-name>E4 Extra</display-name>
+    <display-name>UK E4 Extra</display-name>
     <icon src="https://i.imgur.com/vA2j0YP.png" />
-  <display-name>UK E4 Extra</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="E4Extra.uk@SD">
     <title lang="en">Taskmaster</title>
     <desc lang="en">Greg Davies and Alex Horne return to host the BAFTA-winning comedy game show, with fresh contestants Charlotte Ritchie, Jamali Maddix, Lee Mack, Mike Wozniak and Sarah Kendall. (S11 Ep1/10)</desc>
@@ -74885,8 +74955,9 @@
   </programme>
   <channel id="EmanChannel.uk@SD">
     <display-name>Eman Channel</display-name>
+    <display-name>UK Eman Channel</display-name>
     <icon src="https://i.imgur.com/ugn0DWe.png" />
-  <display-name>UK Eman Channel</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118021500 +0000" channel="EmanChannel.uk@SD">
     <title lang="en">Makkah Live</title>
     <desc lang="en">Live stream from the Holy Mosque in Makkah al-Mukarramah.</desc>
@@ -75624,8 +75695,9 @@
   </programme>
   <channel id="EuronewsEnglish.fr@UK">
     <display-name>Euronews</display-name>
+    <display-name>UK Euronews</display-name>
     <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
-  <display-name>UK Euronews</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001200 +0000" channel="EuronewsEnglish.fr@UK">
     <title lang="en">The European Debrief</title>
     <desc lang="en">Live headlines,breaking news, analysis and interviews from Europe's News Centre.</desc>
@@ -78119,8 +78191,9 @@
   </programme>
   <channel id="Film4.uk@HD">
     <display-name>Film4</display-name>
+    <display-name>UK Film4</display-name>
     <icon src="https://i.imgur.com/MTSgoGI.png" />
-  <display-name>UK Film4</display-name></channel>
+  </channel>
   <programme start="20261117225500 +0000" stop="20261118010500 +0000" channel="Film4.uk@HD">
     <title lang="en">Predator</title>
     <desc lang="en">(1987) Sci-fi thriller starring Arnold Schwarzenegger. A US commando unit gets trapped in the jungle by a murderous, seemingly invincible alien hunter. But they ain't got time to bleed.</desc>
@@ -78247,8 +78320,9 @@
   </programme>
   <channel id="Film4.uk@Plus1">
     <display-name>Film4+1</display-name>
+    <display-name>UK Film4+1</display-name>
     <icon src="https://i.imgur.com/MTSgoGI.png" />
-  <display-name>UK Film4+1</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118020500 +0000" channel="Film4.uk@Plus1">
     <title lang="en">Predator</title>
     <desc lang="en">(1987) Sci-fi thriller starring Arnold Schwarzenegger. A US commando unit gets trapped in the jungle by a murderous, seemingly invincible alien hunter. But they ain't got time to bleed.</desc>
@@ -78592,8 +78666,9 @@
   </programme>
   <channel id="FoodNetwork.uk@SD">
     <display-name>Food Network</display-name>
+    <display-name>UK Food Network</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
-  <display-name>UK Food Network</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020000 +0000" channel="FoodNetwork.uk@SD">
     <title lang="en">Holiday Baking Championship</title>
     <desc lang="en">Ultimate Holiday Party. The bakers create dessert charcuterie boards and pinata desserts. Then, they take on holiday party theme cakes and incorporate lights into their designs. S8, Ep8</desc>
@@ -78952,7 +79027,8 @@
   </programme>
   <channel id="FoodNetwork.uk@Plus1">
     <display-name>Food Network +1</display-name>
-  <display-name>UK Food Netwrk+1</display-name></channel>
+    <display-name>UK Food Netwrk+1</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118063000 +0000" channel="FoodNetwork.uk@Plus1">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Shopping from home.</desc>
@@ -83214,8 +83290,9 @@
   </programme>
   <channel id="GBNews.uk@SD">
     <display-name>GB News HD</display-name>
+    <display-name>UK GB News</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" />
-  <display-name>UK GB News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="GBNews.uk@SD">
     <title lang="en">The Late Show Live</title>
     <desc lang="en">Live from Washington DC, Tom Harwood and Ben Leo bring you the latest from the US and what it means for Britain.</desc>
@@ -83957,8 +84034,9 @@
   </programme>
   <channel id="GeoNewsInternational.pk@SD">
     <display-name>GEO News</display-name>
+    <display-name>UK GEO News</display-name>
     <icon src="https://i.imgur.com/8kTij1G.png" />
-  <display-name>UK GEO News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000500 +0000" channel="GeoNewsInternational.pk@SD">
     <title lang="en">Geo World News Headlines</title>
     <desc lang="en">Tune in to Geo News for all the latest headlines from around the globe, keeping you updated on the biggest news stories as they unfold.</desc>
@@ -84567,8 +84645,9 @@
   </programme>
   <channel id="GEOTV.uk@SD">
     <display-name>GEO TV</display-name>
+    <display-name>UK GEO TV</display-name>
     <icon src="https://i.imgur.com/NX3vvAX.png" />
-  <display-name>UK GEO TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="GEOTV.uk@SD">
     <title lang="en">Mohabbat</title>
     <desc lang="en">A showcase for creative talent from Pakistan, GEO's telefilms combine the storyteller's art with cinematic excellence.</desc>
@@ -86030,7 +86109,8 @@
   </programme>
   <channel id="GoodNewsTV.uk@SD">
     <display-name>Good News TV</display-name>
-  <display-name>UK Good News TV</display-name></channel>
+    <display-name>UK Good News TV</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118100000 +0000" channel="GoodNewsTV.uk@SD">
     <title lang="en">To Be Announced</title>
   </programme>
@@ -86069,8 +86149,9 @@
   </programme>
   <channel id="GREATaction.uk@Plus1">
     <display-name>Great! Action+1</display-name>
+    <display-name>UK GREAT!action +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
-  <display-name>UK GREAT!action +1</display-name></channel>
+  </channel>
   <programme start="20261117230100 +0000" stop="20261118001500 +0000" channel="GREATaction.uk@Plus1">
     <title lang="en">The Day the Earth Stood Still</title>
     <desc lang="en">A mysterious alien visitor arrives on Earth to deliver an urgent warning about the fate of the entire human race. Stars Keanu Reeves, Jennifer Connelly and Kathy Bates. (2008)</desc>
@@ -86503,8 +86584,9 @@
   </programme>
   <channel id="GREATaction.uk@SD">
     <display-name>Great! Action</display-name>
+    <display-name>UK GREAT! action</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
-  <display-name>UK GREAT! action</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="GREATaction.uk@SD">
     <title lang="en">The Unit</title>
     <desc lang="en">The Unit finds itself torn between saving an African dictator or innocent people when they are sent into a hospital as a hurricane hits. On the base, Mack and Tiffy reconnect with each other. (S2 Ep5)</desc>
@@ -88102,8 +88184,9 @@
   </programme>
   <channel id="GREATromance.uk@UK">
     <display-name>Great! Romance</display-name>
+    <display-name>UK GREAT! romance</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" />
-  <display-name>UK GREAT! romance</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118004000 +0000" channel="GREATromance.uk@UK">
     <title lang="en">Christmas A La Carte</title>
     <desc lang="en">Five-star romance with Erin Agostino. A food correspondent filming a festive special about a handsome chef's fancy new restaurant discovers that she's interested in more than just the menu. (2021)</desc>
@@ -88508,8 +88591,9 @@
   </programme>
   <channel id="GREATromance.uk@UKPlus1">
     <display-name>G! Romance+1</display-name>
+    <display-name>UK G! romance +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" />
-  <display-name>UK G! romance +1</display-name></channel>
+  </channel>
   <programme start="20261117235000 +0000" stop="20261118004500 +0000" channel="GREATromance.uk@UKPlus1">
     <title lang="en">Very British Christmas</title>
     <desc lang="en">Christmas romance with Rachel Shenton. A US opera star finds herself stranded at a handsome widower's BandB in Yorkshire. As Carnegie Hall calls and romance blooms, will it be career or love? (2019)</desc>
@@ -88908,8 +88992,9 @@
   </programme>
   <channel id="GREATtv.uk@SD">
     <display-name>Great! TV</display-name>
+    <display-name>UK GREAT! tv</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
-  <display-name>UK GREAT! tv</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="GREATtv.uk@SD">
     <title lang="en">M*A*S*H</title>
     <desc lang="en">Welcome to Korea - Part 1: Hawkeye returns from R&amp;R to find Trapper has been discharged. He drives Radar at breakneck speed to the airport, but Trapper's plane has gone. (S4 Ep1)</desc>
@@ -89380,8 +89465,9 @@
   </programme>
   <channel id="GREATtv.uk@Plus1">
     <display-name>Great! TV+1</display-name>
+    <display-name>UK GREAT! tv +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
-  <display-name>UK GREAT! tv +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="GREATtv.uk@Plus1">
     <title lang="en">M*A*S*H</title>
     <desc lang="en">White Gold: Thieves attempt to steal penicillin from the 4077th but Klinger catches one of them. Hawkeye and Trapper are suspicious when Colonel Flagg of the CIA arrives to investigate. (S3 Ep23)</desc>
@@ -94417,8 +94503,9 @@
   </programme>
   <channel id="HumEurope.pk@SD">
     <display-name>HUM EUROPE</display-name>
+    <display-name>UK HUM EUROPE</display-name>
     <icon src="https://i.imgur.com/l20Idz9.jpg" />
-  <display-name>UK HUM EUROPE</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="HumEurope.pk@SD">
     <title lang="en">Hurmat</title>
     <desc lang="en">Hurmat struggles against strict family restrictions as she seeks education, freedom and the courage to discover her identity and choose her own path.</desc>
@@ -96065,8 +96152,9 @@
   </programme>
   <channel id="InvestigationDiscovery.uk@Plus1">
     <display-name>ID+1</display-name>
+    <display-name>UK ID+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
-  <display-name>UK ID+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="InvestigationDiscovery.uk@Plus1">
     <title lang="en">Disappeared</title>
     <desc lang="en">Vanished In The Heartland. When Dee Ann Warner, a successful businesswoman and mother disappears, her family initially suspects her husband. But he insists she just took off. S10, Ep6</desc>
@@ -96467,8 +96555,9 @@
   </programme>
   <channel id="InvestigationDiscovery.uk@UK">
     <display-name>ID</display-name>
+    <display-name>UK ID</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
-  <display-name>UK ID</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="InvestigationDiscovery.uk@UK">
     <title lang="en">Mother, May I Murder?</title>
     <desc lang="en">Suburban Psycho. When Kay Parsons is brutally murdered and her best friend is shot the very next day, police uncover a tale of adulterous deceit and a deadly mother-son conspiracy. S1, Ep3</desc>
@@ -99557,8 +99646,9 @@
   </programme>
   <channel id="ITV1.uk@HD">
     <display-name>ITV1 HD</display-name>
+    <display-name>UK ITV1</display-name>
     <icon src="https://i.imgur.com/xwPekCF.png" />
-  <display-name>UK ITV1</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="ITV1.uk@HD">
     <title lang="en">TikTok: Murder Gone Viral - The...</title>
     <desc lang="en">...Killing of Alexis Sharkey. Documentary. A stunning Houston influencer appears to have it all, but her popular TikTok posts hide a terrible and dark secret about her husband.</desc>
@@ -109610,8 +109700,9 @@
   </programme>
   <channel id="ITV2.uk@HD">
     <display-name>ITV2 HD</display-name>
+    <display-name>UK ITV2</display-name>
     <icon src="https://i.imgur.com/2BpUK0W.png" />
-  <display-name>UK ITV2</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="ITV2.uk@HD">
     <title lang="en">American Dad!</title>
     <desc lang="en">The Life Aquatic with Steve Smith: Animated comedy series. Steve joins a water polo team, while Stan and Roger purchase a boat, but neither experience works out as planned. S12 Ep2</desc>
@@ -110506,8 +110597,9 @@
   </programme>
   <channel id="ITV3.uk@HD">
     <display-name>ITV3 HD</display-name>
+    <display-name>UK ITV3</display-name>
     <icon src="https://i.imgur.com/JuyM2z5.png" />
-  <display-name>UK ITV3</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118020000 +0000" channel="ITV3.uk@HD">
     <title lang="en">Foyle's War</title>
     <desc lang="en">War Games: Drama about a detective, set during World War II. Divided loyalties lead to revenge and murder when a businessman puts profits before principles in a pact with the Nazis. S2 Ep3</desc>
@@ -111154,8 +111246,9 @@
   </programme>
   <channel id="ITV4.uk@HD">
     <display-name>ITV4 HD</display-name>
+    <display-name>UK ITV4</display-name>
     <icon src="https://i.imgur.com/DYI4IA2.png" />
-  <display-name>UK ITV4</display-name></channel>
+  </channel>
   <programme start="20261117220500 +0000" stop="20261118000500 +0000" channel="ITV4.uk@HD">
     <title lang="en">New: AEW: Collision</title>
     <desc lang="en">Hard-hitting action from AEW's newest show, featuring stars including Kyle Fletcher, Kazuchika Okada, Megan Bayne, Tommaso Ciampa and Claudio Castagnoli.</desc>
@@ -112188,8 +112281,9 @@
   </programme>
   <channel id="ITVBe.uk@HD">
     <display-name>ITVBe HD</display-name>
+    <display-name>UK ITV BE</display-name>
     <icon src="https://i.imgur.com/98U4KjU.png" />
-  <display-name>UK ITV BE</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118005500 +0000" channel="ITVBe.uk@HD">
     <title lang="en">Tipping Point</title>
     <sub-title lang="en">Josh, Siobhan, Gary and Fi</sub-title>
@@ -117707,8 +117801,9 @@
   </programme>
   <channel id="Legend.uk@SD">
     <display-name>LEGEND</display-name>
+    <display-name>UK Legend</display-name>
     <icon src="https://i.imgur.com/dN2OsIT.png" />
-  <display-name>UK Legend</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118015500 +0000" channel="Legend.uk@SD">
     <title lang="en">Mobsters</title>
     <desc lang="en">Crime thriller with Christian Slater. Notorious gangsters Bugsy Siegel and Lucky Luciano make a daring bid to overthrow the dons of Twenties New York. (1991)</desc>
@@ -121418,8 +121513,9 @@
   </programme>
   <channel id="More4.uk@HD">
     <display-name>More4</display-name>
+    <display-name>UK More 4</display-name>
     <icon src="https://i.imgur.com/cx5YcAU.png" />
-  <display-name>UK More 4</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="More4.uk@HD">
     <title lang="en">Emergency Helicopter Medics</title>
     <desc lang="en">A freak car accident in Cumbria leaves Richard fighting for his life. In Hampshire, horse rider Pat takes a nasty fall when her animal is spooked. (S3 Ep2)</desc>
@@ -121848,8 +121944,9 @@
   </programme>
   <channel id="More4.uk@Plus1">
     <display-name>More4+1</display-name>
+    <display-name>UK More4 +1</display-name>
     <icon src="https://i.imgur.com/cx5YcAU.png" />
-  <display-name>UK More4 +1</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000500 +0000" channel="More4.uk@Plus1">
     <title lang="en">24 Hours in A&amp;E</title>
     <desc lang="en">This episode shows how a trip to A&amp;E can act as a long-overdue wake-up call. Phil, 36, has chronic pain in his back and side. Kamilla, 12, has been knocked down by a car. (S5 Ep4/8)</desc>
@@ -123068,8 +123165,9 @@
   </programme>
   <channel id="MTV.uk@HD">
     <display-name>MTV</display-name>
+    <display-name>UK MTV SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>UK MTV SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="MTV.uk@HD">
     <title lang="en">Geordie Shore: From The Beginning</title>
     <desc lang="en">The Radgies are in Rome and Boss Anna has work for them to do! Nathan is annoyed with Chloe, Gaz and Abbie get closer, and Aaron tells Gaz he wants to give it a go with Marnie. (S15, ep6)</desc>
@@ -123858,8 +123956,9 @@
   </programme>
   <channel id="MUTV.uk@SD">
     <display-name>MUTV HD</display-name>
+    <display-name>UK MUTV</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" />
-  <display-name>UK MUTV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="MUTV.uk@SD">
     <title lang="en">All The Goals: MU Women 24/25</title>
     <desc lang="en">Relive all the goals from Manchester United Women's 2024/25 season.</desc>
@@ -125547,8 +125646,9 @@
   </programme>
   <channel id="NationalGeographic.uk@HD">
     <display-name>Nat Geo HD</display-name>
+    <display-name>UK Nat Geo</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
-  <display-name>UK Nat Geo</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="NationalGeographic.uk@HD">
     <title lang="en">Ice Road Rescue</title>
     <desc lang="en">River Alert: Jo Roger and Ole Henrik struggle to rescue a trailer load of salt that threatens to pollute Norway's biggest salmon river. Any slip-up could cause an environmental disaster. 7+</desc>
@@ -126222,8 +126322,9 @@
   </programme>
   <channel id="NationalGeographicWild.uk@HD">
     <display-name>NatGeoWild HD</display-name>
+    <display-name>UK Nat Geo Wild SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
-  <display-name>UK Nat Geo Wild SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="NationalGeographicWild.uk@HD">
     <title lang="en">Caught In The Act</title>
     <desc lang="en">Charge!: Startling wildlife footage reveals what happens when killer whales confront filmmakers. Plus, a group of tourists fall victim to an unexpected bunch of animal thieves. (2 of 6)</desc>
@@ -130867,8 +130968,9 @@
   </programme>
   <channel id="Nickelodeon.uk@HD">
     <display-name>Nickelodeon</display-name>
+    <display-name>UK Nickelodeon</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
-  <display-name>UK Nickelodeon</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="Nickelodeon.uk@HD">
     <title lang="en">Wylde Pak</title>
     <desc lang="en">Jack has his first sleepover in 'Meats of Strength', then in 'Dead Ed's', the kids have a surreal restaurant adventure. (S1, ep 5)</desc>
@@ -131677,8 +131779,9 @@
   </programme>
   <channel id="Nickelodeon.uk@Plus1">
     <display-name>Nickelodeon+1</display-name>
+    <display-name>UK Nickelodeon+1</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
-  <display-name>UK Nickelodeon+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003100 +0000" channel="Nickelodeon.uk@Plus1">
     <title lang="en">The Boss Baby: Back in Business</title>
     <desc lang="en">The Big Break: After breaking his arm, Boss Baby faces the real pain of Dr. Kevin's terrible jokes and rallies the playgroup to stop the doctor, while Tim gets obsessed with protecting him. (S2, ep 6)</desc>
@@ -133289,8 +133392,9 @@
   </programme>
   <channel id="NickJr.uk@SD">
     <display-name>Nick Jr.</display-name>
+    <display-name>UK Nick Jr SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
-  <display-name>UK Nick Jr SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000500 +0000" channel="NickJr.uk@SD">
     <title lang="en">Peppa Pig</title>
     <desc lang="en">Gerald Giraffe: Gerald Giraffe is new to playgroup! He's trying to make friends with Peppa and the group, but finds being so tall is making playing hide and seek quite a challenge! [SL]</desc>
@@ -134965,8 +135069,9 @@
   </programme>
   <channel id="NickJr.uk@Plus1">
     <display-name>Nick Jr+1</display-name>
+    <display-name>UK Nick Jr+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
-  <display-name>UK Nick Jr+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000500 +0000" channel="NickJr.uk@Plus1">
     <title lang="en">Peppa Pig</title>
     <desc lang="en">Being Babies: Peppa and Rebecca Rabbit pretend to be babies to get Mummy Rabbit's attention. Mummy Rabbit plays along until they admit they are not really babies!</desc>
@@ -139717,7 +139822,8 @@
   </programme>
   <channel id="NickJrToo.uk@SD">
     <display-name>Nick Jr. Too</display-name>
-  <display-name>UK Nick Jr.Too</display-name></channel>
+    <display-name>UK Nick Jr.Too</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118060500 +0000" channel="NickJrToo.uk@SD">
     <title lang="en">Peppa Pig</title>
     <desc lang="en">A curious, naive, yet friendly little pig navigates through her life with her friends and family by her side. Guided by her loving mother and brash father, Peppa is stuck almost every day. Her little siblings, however, look up to Peppa lovingly.</desc>
@@ -141244,7 +141350,8 @@
   </programme>
   <channel id="Nicktoons.uk@SD">
     <display-name>Nicktoons</display-name>
-  <display-name>UK Nicktoons SD</display-name></channel>
+    <display-name>UK Nicktoons SD</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118063000 +0000" channel="Nicktoons.uk@SD">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Karen tells the fairytale of a nerd trying to steal an action figure from his three little neighbours. Squidward hosts a secret We Hate SpongeBob Club at his house.</desc>
@@ -143210,8 +143317,9 @@
   </programme>
   <channel id="Now70s.uk@SD">
     <display-name>NOW 70s</display-name>
+    <display-name>UK NOW 70s</display-name>
     <icon src="https://i.imgur.com/qiCCX5X.png" />
-  <display-name>UK NOW 70s</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118012500 +0000" channel="Now70s.uk@SD">
     <title lang="en">Punk &amp; New Wave 25 with Kid Jensen</title>
     <desc lang="en">David 'Kid' Jensen championed many top new wave and post-punk acts in the late 70s. His top 25 include Weller, Numan, Costello, Strummer, Geldof, Hynde and Dury. What a line-up!</desc>
@@ -143406,8 +143514,9 @@
   </programme>
   <channel id="Now80s.uk@SD">
     <display-name>NOW 80s</display-name>
+    <display-name>UK NOW 80s</display-name>
     <icon src="https://i.imgur.com/YyPnMeB.png" />
-  <display-name>UK NOW 80s</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118004000 +0000" channel="Now80s.uk@SD">
     <title lang="en">Carol Decker's 30 Rock Dudes!</title>
     <desc lang="en">T'Pau's Carol Decker is back again with a countdown of '80s guys who liked to rock! With John Parr, Billy Idol, Guns N' Roses and ZZ Top. (Ep1)</desc>
@@ -143798,8 +143907,9 @@
   </programme>
   <channel id="NOWRock.uk@SD">
     <display-name>NOW ROCK</display-name>
+    <display-name>UK NOW ROCK</display-name>
     <icon src="https://i.imgur.com/GuM4GnX.png" />
-  <display-name>UK NOW ROCK</display-name></channel>
+  </channel>
   <programme start="20261117180000 +0000" stop="20261118000500 +0000" channel="NOWRock.uk@SD">
     <title lang="en">Monsters of Rock! 2000-2009</title>
     <desc lang="en">A definitive 6 hour marathon of 00s rock anthems in order! From Alien Ant Farm to The Arctic Monkeys, Fall Out Boy to The Foo Fighters, Weezer to the White Stripes.</desc>
@@ -144340,8 +144450,9 @@
   </programme>
   <channel id="NTVEurope.bd@SD">
     <display-name>NTV</display-name>
+    <display-name>UK NTV</display-name>
     <icon src="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" />
-  <display-name>UK NTV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="NTVEurope.bd@SD">
     <title lang="en">Nayok</title>
     <desc lang="en">Popular Bangla movie.</desc>
@@ -147478,8 +147589,9 @@
   </programme>
   <channel id="PBSAmerica.uk@SD">
     <display-name>PBS America</display-name>
+    <display-name>UK PBS America</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png" />
-  <display-name>UK PBS America</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118011000 +0000" channel="PBSAmerica.uk@SD">
     <title lang="en">Inside Japan's War</title>
     <desc lang="en">For the Sake of the Country: Episode Two examines Japan's war preparations and entrance into WW2. (Part 2 of 4)</desc>
@@ -150822,7 +150934,8 @@
   </programme>
   <channel id="PremierSports2.ie">
     <display-name>Premier Sports 2 HD</display-name>
-  <display-name>UK Premier Sports 2</display-name></channel>
+    <display-name>UK Premier Sports 2</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118063000 +0000" channel="PremierSports2.ie">
     <title lang="en">This is Hockey</title>
     <desc lang="en">An exhilarating documentary series produced by the NHL that delves into the burgeoning world of hockey across Latin America and the Caribbean.</desc>
@@ -150953,8 +151066,9 @@
   </programme>
   <channel id="PremierSports1.ie">
     <display-name>Premier Sports 1</display-name>
+    <display-name>UK Premier Sports 1</display-name>
     <icon src="https://i.imgur.com/eOybZMU.png" />
-  <display-name>UK Premier Sports 1</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="PremierSports1.ie">
     <title lang="en">NHL Hockey</title>
     <sub-title lang="en">Top 20 Defensemen</sub-title>
@@ -152627,8 +152741,9 @@
   </programme>
   <channel id="PTCPunjabi.in@SD">
     <display-name>PTC PUNJABI</display-name>
+    <display-name>UK PTC PUNJABI</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s159123_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK PTC PUNJABI</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="PTCPunjabi.in@SD">
     <title lang="en">Vichar Taqrar</title>
     <desc lang="en">A discussion about the most burning issues of the week.</desc>
@@ -153358,8 +153473,9 @@
   </programme>
   <channel id="Quest.uk@HD">
     <display-name>QUEST HD</display-name>
+    <display-name>UK QUEST</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
-  <display-name>UK QUEST</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="Quest.uk@HD">
     <title lang="en">How Do They Do It?</title>
     <desc lang="en">How do engineers build and control high-tech, unmanned aircraft? Plus, the process of removing caffeine from coffee is revealed.</desc>
@@ -154262,8 +154378,9 @@
   </programme>
   <channel id="Quest.uk@Plus1">
     <display-name>QUEST+1</display-name>
+    <display-name>UK QUEST +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
-  <display-name>UK QUEST +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="Quest.uk@Plus1">
     <title lang="en">How Do They Do It?</title>
     <desc lang="en">How can steel repair itself? How do they create the world's most powerful bikes? And how is wood transformed into paper? S6, Ep19</desc>
@@ -154716,8 +154833,9 @@
   </programme>
   <channel id="QuestRed.uk@SD">
     <display-name>Quest Red</display-name>
+    <display-name>UK Quest Red</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
-  <display-name>UK Quest Red</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="QuestRed.uk@SD">
     <title lang="en">Murder On CCTV</title>
     <desc lang="en">Come Home Sierra. 15-year-old Sierra LaMar disappears on her way to school. Surveillance footage and diligent police work help to reveal the chilling truth. S6, Ep20</desc>
@@ -155136,8 +155254,9 @@
   </programme>
   <channel id="QuestRed.uk@Plus1">
     <display-name>Quest Red+1</display-name>
+    <display-name>UK Quest Red +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
-  <display-name>UK Quest Red +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="QuestRed.uk@Plus1">
     <title lang="en">Body Cam</title>
     <desc lang="en">90 Minutes. When an officer joins a high-speed police chase across the Texas plains, his life changes when he comes face to face with the armed suspects. S2, Ep1</desc>
@@ -156686,8 +156805,9 @@
   </programme>
   <channel id="RacingTV.uk@HD">
     <display-name>Racing TV HD</display-name>
+    <display-name>UK Racing TV</display-name>
     <icon src="https://i.imgur.com/eaVrQU4.png" />
-  <display-name>UK Racing TV</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="RacingTV.uk@HD">
     <title lang="en">Irish Racing Replay</title>
     <desc lang="en">Another chance to watch today's racing action from Limerick.</desc>
@@ -159211,8 +159331,9 @@
   </programme>
   <channel id="Really.uk@SD">
     <display-name>Really</display-name>
+    <display-name>UK Really</display-name>
     <icon src="https://i.imgur.com/lY5sFgo.png" />
-  <display-name>UK Really</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="Really.uk@SD">
     <title lang="en">Help! My House Is Haunted</title>
     <desc lang="en">Balgonie Castle. The team investigate disturbing reports of a mysterious green lady in a Scottish castle with a history of murder, torture and war. S1, Ep11</desc>
@@ -161438,8 +161559,9 @@
   </programme>
   <channel id="RewindTV.uk@SD">
     <display-name>Rewind TV</display-name>
+    <display-name>UK Rewind TV</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/10000/10000/skychb1030.png" />
-  <display-name>UK Rewind TV</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118014500 +0000" channel="RewindTV.uk@SD">
     <title lang="en">The Lair Of The White Worm</title>
     <desc lang="en">Hugh Grant and Amanda Donohoe headline Ken Russell's wicked brew of pagan myth, seduction and monster madness.</desc>
@@ -164727,8 +164849,9 @@
   </programme>
   <channel id="RTENews.ie@SD">
     <display-name>RTÉ News</display-name>
+    <display-name>UK RTE NEWS</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Updated_RT%C3%89_News_and_Current_Affairs_Logo.png/960px-Updated_RT%C3%89_News_and_Current_Affairs_Logo.png" />
-  <display-name>UK RTE NEWS</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118002500 +0000" channel="RTENews.ie@SD">
     <title lang="en">Nuacht RTÉ</title>
     <desc lang="en">Príomhscéalta an lae ó Nuacht RTÉ.</desc>
@@ -165049,8 +165172,9 @@
   </programme>
   <channel id="RTEOne.ie@HD">
     <display-name>RTÉ One HD</display-name>
+    <display-name>UK RTE ONE</display-name>
     <icon src="https://i.imgur.com/8uZSZdS.png" />
-  <display-name>UK RTE ONE</display-name></channel>
+  </channel>
   <programme start="20261117232000 +0000" stop="20261118002500 +0000" channel="RTEOne.ie@HD">
     <title lang="en">Call The Midwife</title>
     <desc lang="en">The Nonnatus team grow increasingly concerned for the welfare of four young children. (HD)</desc>
@@ -167109,8 +167233,9 @@
   </programme>
   <channel id="S4C.uk@HD">
     <display-name>S4C HD</display-name>
+    <display-name>UK S4C</display-name>
     <icon src="https://i.imgur.com/vrcbnBv.png" />
-  <display-name>UK S4C</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="S4C.uk@HD">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Home Shopping.</desc>
@@ -169100,8 +169225,9 @@
   </programme>
   <channel id="SangatTV.uk@SD">
     <display-name>Sangat</display-name>
+    <display-name>UK Sangat</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/c/c3/Sangat_TV_logo.png" />
-  <display-name>UK Sangat</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="SangatTV.uk@SD">
     <title lang="en">Sangat News</title>
     <desc lang="en">Daily News Bulletin from and around Punjab.</desc>
@@ -170551,8 +170677,9 @@
   </programme>
   <channel id="SikhChannel.uk@SD">
     <display-name>Sikh Channel</display-name>
+    <display-name>UK Sikh Channel</display-name>
     <icon src="https://i.imgur.com/YLNhR3Q.png" />
-  <display-name>UK Sikh Channel</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="SikhChannel.uk@SD">
     <title lang="en">Gurbani Kirtan</title>
     <desc lang="en">A performance of Gurbani Shabad Kirtan.</desc>
@@ -171622,8 +171749,9 @@
   </programme>
   <channel id="SkyArts.uk@HD">
     <display-name>Sky Arts HD</display-name>
+    <display-name>UK Sky Arts SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png" />
-  <display-name>UK Sky Arts SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020000 +0000" channel="SkyArts.uk@HD">
     <title lang="en">Garbo: Where Did You Go?</title>
     <desc lang="en">Beautiful, talented, sombre and enigmatic, a troubled genius with a proclivity for solitude, Greta Garbo is still considered one of the greatest Hollywood actresses of all time.</desc>
@@ -172062,8 +172190,9 @@
   </programme>
   <channel id="SkyAtlantic.uk@HD">
     <display-name>Sky Atlantic</display-name>
+    <display-name>UK Sky Atlantic SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
-  <display-name>UK Sky Atlantic SD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118005500 +0000" channel="SkyAtlantic.uk@HD">
     <title lang="en">The Last Of Us</title>
     <desc lang="en">Future Days: Five years on, Joel seeks help in mending his relationship with Ellie, as the now 19-year-old faces a new threat. (S2, ep 1 of 7)</desc>
@@ -173387,7 +173516,8 @@
   </programme>
   <channel id="SkyCinemaAction.uk@HD">
     <display-name>Sky Cinema Action</display-name>
-  <display-name>UK Sky Cinema Action SD</display-name></channel>
+    <display-name>UK Sky Cinema Action SD</display-name>
+  </channel>
   <programme start="20261118034000 +0000" stop="20261118060500 +0000" channel="SkyCinemaAction.uk@HD">
     <title lang="en">Godzilla</title>
     <desc lang="en">Effects-laden blockbuster about a huge reptile which emerges from the sea to wreak havoc in Manhattan. On a research trip to Chernobyl, a young scientist discovers a startling link between genetic mutation and radioactivity. When a fishing trawler is attacked by an unseen creature, and other evidence of a massive reptilian creature is unearthed, he realises that the creature is following a destructive path to New York.</desc>
@@ -173498,7 +173628,8 @@
   </programme>
   <channel id="SkyCinemaComedy.uk@HD">
     <display-name>Sky Cinema Comedy</display-name>
-  <display-name>UK Sky Cinema Comedy SD</display-name></channel>
+    <display-name>UK Sky Cinema Comedy SD</display-name>
+  </channel>
   <programme start="20261118050500 +0000" stop="20261118065000 +0000" channel="SkyCinemaComedy.uk@HD">
     <title lang="en">About Last Night</title>
     <desc lang="en">Four Los Angeles singles experience undeniable chemistry and pair off to follow their attraction to its logical conclusion. Afterward, each new couple tries to make love last in the real world.</desc>
@@ -173617,7 +173748,8 @@
   </programme>
   <channel id="SkyCinemaDrama.uk@HD">
     <display-name>Sky Cinema Drama</display-name>
-  <display-name>UK Sky Cinema Drama SD</display-name></channel>
+    <display-name>UK Sky Cinema Drama SD</display-name>
+  </channel>
   <programme start="20261118052000 +0000" stop="20261118071000 +0000" channel="SkyCinemaDrama.uk@HD">
     <title lang="en">Don't Let's Go to the Dogs Tonight</title>
     <desc lang="en">Depicts 8-year-old Bobo's life on her family's Rhodesian farm during the Bush War's final stages. It explores the family's bond with Africa's land and the war's impact on the region and individuals through Bobo's perspective.</desc>
@@ -173716,7 +173848,9 @@
   </programme>
   <channel id="SkyCinemaFamily.uk@HD">
     <display-name>Sky Cinema Family</display-name>
-  <display-name>UK Sky Cinema Family SD</display-name><display-name>UK Sky Cinema Animation SD</display-name></channel>
+    <display-name>UK Sky Cinema Family SD</display-name>
+    <display-name>UK Sky Cinema Animation SD</display-name>
+  </channel>
   <programme start="20261118045500 +0000" stop="20261118063500 +0000" channel="SkyCinemaFamily.uk@HD">
     <title lang="en">Hotel Transylvania</title>
     <desc lang="en">Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teen-aged daughter.</desc>
@@ -173843,7 +173977,8 @@
   </programme>
   <channel id="SkyCinemaGreats.uk@HD">
     <display-name>Sky Cinema Greats</display-name>
-  <display-name>UK Sky Cinema Greats SD</display-name></channel>
+    <display-name>UK Sky Cinema Greats SD</display-name>
+  </channel>
   <programme start="20261118044500 +0000" stop="20261118070500 +0000" channel="SkyCinemaGreats.uk@HD">
     <title lang="en">The Hunt for Red October</title>
     <desc lang="en">Soviet and American forces give chase when the captain of a Soviet nuclear submarine sets a course for the Maine coast.</desc>
@@ -173954,7 +174089,8 @@
   </programme>
   <channel id="SkyCinemaHits.uk@HD">
     <display-name>Sky Cinema Hits</display-name>
-  <display-name>UK Sky Cinema Hits SD</display-name></channel>
+    <display-name>UK Sky Cinema Hits SD</display-name>
+  </channel>
   <programme start="20261118053500 +0000" stop="20261118075500 +0000" channel="SkyCinemaHits.uk@HD">
     <title lang="en">xXx</title>
     <desc lang="en">An extreme sports junkie is blackmailed by the CIA into taking on a highly dangerous mission to Prague in order to thwart the plans of a group of Russian extremists. The reluctant hero soon finds himself with the safety of the USA in his hands - and a complicated romance on the horizon.</desc>
@@ -174282,7 +174418,9 @@
   </programme>
   <channel id="SkyCinemaSelect.uk@SD">
     <display-name>Sky Cinema Select</display-name>
-  <display-name>UK Sky Cinema Premier SD</display-name><display-name>UK Sky Cinema Select SD</display-name></channel>
+    <display-name>UK Sky Cinema Premier SD</display-name>
+    <display-name>UK Sky Cinema Select SD</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118080500 +0000" channel="SkyCinemaSelect.uk@SD">
     <title lang="en">White Christmas</title>
     <desc lang="en">Two army buddies who have become entertainers travel to a Vermont ski resort for a well-earned rest. However, on arrival they find the resort - run by their old army commander - in need of a helping hand. There's only one answer - put on a show.</desc>
@@ -174397,7 +174535,8 @@
   </programme>
   <channel id="SkyCinemaThriller.uk@HD">
     <display-name>Sky Cinema Thriller</display-name>
-  <display-name>UK Sky Cinema Thriller SD</display-name></channel>
+    <display-name>UK Sky Cinema Thriller SD</display-name>
+  </channel>
   <programme start="20261118041000 +0000" stop="20261118063000 +0000" channel="SkyCinemaThriller.uk@HD">
     <title lang="en">King Ivory</title>
     <desc lang="en">Based upon extensive research with law enforcement, gangs, inmates, migrants, and addicts, an exposé on fentanyl trafficking, and its effect on all walks of life.</desc>
@@ -174496,8 +174635,9 @@
   </programme>
   <channel id="SkyComedy.uk@HD">
     <display-name>Sky Comedy</display-name>
+    <display-name>UK Sky Comedy SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png" />
-  <display-name>UK Sky Comedy SD</display-name></channel>
+  </channel>
   <programme start="20261117223000 +0000" stop="20261118003000 +0000" channel="SkyComedy.uk@HD">
     <title lang="en">Quartet</title>
     <desc lang="en">A retirement home for former musicians is shaken up by the arrival of a renowned soprano. Heart-warming comedy with Maggie Smith. (2012)</desc>
@@ -175114,8 +175254,9 @@
   </programme>
   <channel id="SkyCrime.uk@HD">
     <display-name>Sky Crime HD</display-name>
+    <display-name>UK Sky Crime SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
-  <display-name>UK Sky Crime SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkyCrime.uk@HD">
     <title lang="en">Killer In My Village</title>
     <desc lang="en">Sinead Wooding: The story of a young wife and mother-of-four, murdered ferociously by her controlling husband and an accomplice.</desc>
@@ -175739,8 +175880,9 @@
   </programme>
   <channel id="SkyDocumentaries.uk@HD">
     <display-name>SkyDocumntrs</display-name>
+    <display-name>UK Sky Documentaries SD</display-name>
     <icon src="https://i.imgur.com/bCJZZo6.png" />
-  <display-name>UK Sky Documentaries SD</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118001500 +0000" channel="SkyDocumentaries.uk@HD">
     <title lang="en">Bowling For Columbine</title>
     <desc lang="en">Oscar-winning film from Michael Moore investigating the circumstances that lead up to the 1999 Columbine High School massacre, and the root cause of America's high homicide rate.</desc>
@@ -176519,8 +176661,9 @@
   </programme>
   <channel id="SkyHistory.uk@HD">
     <display-name>Sky HistoryHD</display-name>
+    <display-name>UK Sky History SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
-  <display-name>UK Sky History SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="SkyHistory.uk@HD">
     <title lang="en">Close Encounters</title>
     <desc lang="en">In 1993, a teenage girl walking her dog in Shropshire, England, witnesses a cylindrical object in the sky. School kids in Florida report multiple UFO sightings in 1967. (S2, ep 2)</desc>
@@ -177043,8 +177186,9 @@
   </programme>
   <channel id="SkyHistory2.uk@HD">
     <display-name>Sky History2</display-name>
+    <display-name>UK Sky History 2 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png" />
-  <display-name>UK Sky History 2 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkyHistory2.uk@HD">
     <title lang="en">Alien Files: Unsealed</title>
     <desc lang="en">Experts investigate evidence suggesting that aliens have created the means for controlling humanity. They find that the shocking truth might be hidden right inside you. (S1, ep 9)</desc>
@@ -179190,8 +179334,9 @@
   </programme>
   <channel id="SkyMax.uk@HD">
     <display-name>Sky Max HD</display-name>
+    <display-name>UK Sky Max SD</display-name>
     <icon src="https://i.imgur.com/yGZnTh7.png" />
-  <display-name>UK Sky Max SD</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="SkyMax.uk@HD">
     <title lang="en">Karl Pilkington: The Moaning of Life</title>
     <sub-title lang="en">The Body</sub-title>
@@ -180934,8 +181079,9 @@
   </programme>
   <channel id="SkyNature.uk@HD">
     <display-name>Sky Nature HD</display-name>
+    <display-name>UK Sky Nature SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png" />
-  <display-name>UK Sky Nature SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkyNature.uk@HD">
     <title lang="en">The Big Dry</title>
     <desc lang="en">Life in the Furnace: In Zambia's Luangwa Valley, the global El Niño event makes the dry season hotter and harsher than ever. (S1, ep 2)</desc>
@@ -181378,8 +181524,9 @@
   </programme>
   <channel id="SkyNews.uk@HD">
     <display-name>Sky News HD</display-name>
+    <display-name>UK SKY NEWS</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" />
-  <display-name>UK SKY NEWS</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkyNews.uk@HD">
     <title lang="en">Sky News</title>
     <desc lang="en">A round up of all the latest news from the UK and around the world.</desc>
@@ -185253,8 +185400,10 @@
   </programme>
   <channel id="SkySciFi.uk@HD">
     <display-name>Sky Sci-Fi HD</display-name>
+    <display-name>UK Sky Sci-Fi SD</display-name>
+    <display-name>UK Sky Cinema Sci-Fi SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png" />
-  <display-name>UK Sky Sci-Fi SD</display-name><display-name>UK Sky Cinema Sci-Fi SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySciFi.uk@HD">
     <title lang="en">Evil</title>
     <desc lang="en">Fear of the Other: Sister Andrea gives the team their last assessment, a man who believes his doppelganger has possessed him and has a personal connection to the nun. (S4, ep 12)</desc>
@@ -189051,7 +189200,8 @@
   </programme>
   <channel id="SkySportsBoxOffice.uk@UK">
     <display-name>Sky Sports Box Office HD</display-name>
-  <display-name>UK SKY SPORTS BOX OFFICE</display-name></channel>
+    <display-name>UK SKY SPORTS BOX OFFICE</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118120000 +0000" channel="SkySportsBoxOffice.uk@UK">
     <title lang="en">Programmes Coming Soon</title>
     <desc lang="en">Programmes coming soon.</desc>
@@ -189086,8 +189236,9 @@
   </programme>
   <channel id="SkySportsCricket.uk@HD">
     <display-name>SkySpCricket HD</display-name>
+    <display-name>UK Sky Sports Cricket SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png" />
-  <display-name>UK Sky Sports Cricket SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySportsCricket.uk@HD">
     <title lang="en">1st Test Day 3: SA v BAN Hlts</title>
     <desc lang="en">Day three of the first Test in a two-match series between South Africa and Bangladesh. The hosts ended day two on 287-4 in response to Bangladesh's first-innings total of 400. (17.11)</desc>
@@ -191046,8 +191197,9 @@
   </programme>
   <channel id="SkySportsF1.uk@HD">
     <display-name>SkySp F1 HD</display-name>
+    <display-name>UK Sky Sports F1 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" />
-  <display-name>UK Sky Sports F1 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySportsF1.uk@HD">
     <title lang="en">Las Vegas F1 GP Highlights 2025</title>
     <desc lang="en">As the lights go out on the Strip for the Las Vegas Grand Prix, championship leader Lando Norris starts from P1 with Max Verstappen behind. Oscar Piastri lines up in fifth place. (23.11)</desc>
@@ -192337,8 +192489,9 @@
   </programme>
   <channel id="SkySportsFootball.uk@HD">
     <display-name>SkySp F'ball HD</display-name>
+    <display-name>UK Sky Sports Football SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png" />
-  <display-name>UK Sky Sports Football SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySportsFootball.uk@HD">
     <title lang="en">EFL League 2 Play-Off Final: 17/18</title>
     <desc lang="en">Coventry City and Exeter City go head-to-head in the Sky Bet League Two play-off final at Wembley. The sides each beat each other once during the regular season.</desc>
@@ -194885,8 +195038,9 @@
   </programme>
   <channel id="SkySportsGolf.uk@HD">
     <display-name>SkySp Golf HD</display-name>
+    <display-name>UK Sky Sports Golf</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png" />
-  <display-name>UK Sky Sports Golf</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySportsGolf.uk@HD">
     <title lang="en">PGA Tour Champions Highlights</title>
     <desc lang="en">Tournament highlights from the 2026 Simmons Bank Championship, a PGA Tour Champions event - forming part of the Charles Schwab Cup Playoffs - at Pleasant Valley Country Club.</desc>
@@ -196177,8 +196331,9 @@
   </programme>
   <channel id="SkySportsMainEvent.uk@HD">
     <display-name>SkySpMainEvHD</display-name>
+    <display-name>UK Sky Sports Main Event</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" />
-  <display-name>UK Sky Sports Main Event</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118040000 +0000" channel="SkySportsMainEvent.uk@HD">
     <title lang="en">Live NBA: Pistons @ Spurs</title>
     <desc lang="en">The San Antonio Spurs take on the Detroit Pistons in the NBA. The Spurs are riding a 12-game winning streak, with the latest victory coming over Utah on Sunday.</desc>
@@ -197265,8 +197420,9 @@
   </programme>
   <channel id="SkySportsMix.uk@HD">
     <display-name>SkySp Mix HD</display-name>
+    <display-name>UK Sky Sports Mix SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png" />
-  <display-name>UK Sky Sports Mix SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="SkySportsMix.uk@HD">
     <title lang="en">My Icon: Kelly Smith</title>
     <desc lang="en">In a special edition of My Icon to mark International Women's Day, former football star Kelly Smith looks at the personalities that inspired her illustrious career.</desc>
@@ -198693,8 +198849,9 @@
   </programme>
   <channel id="SkySportsNews.uk@HD">
     <display-name>SkySp News HD</display-name>
+    <display-name>UK Sky Sports News SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png" />
-  <display-name>UK Sky Sports News SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkySportsNews.uk@HD">
     <title lang="en">Sky Sports News</title>
     <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
@@ -202277,8 +202434,9 @@
   </programme>
   <channel id="SkySportsRacing.uk@UKHD">
     <display-name>SkySp Racing HD</display-name>
+    <display-name>UK Sky Sports Racing SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1354.png" />
-  <display-name>UK Sky Sports Racing SD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118020000 +0000" channel="SkySportsRacing.uk@UKHD">
     <title lang="en">Sky Sports News</title>
     <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
@@ -202809,8 +202967,9 @@
   </programme>
   <channel id="SkySportsTennis.uk@SD">
     <display-name>SkySp Tennis HD</display-name>
+    <display-name>UK Sky Sports Tennis SD</display-name>
     <icon src="https://i.postimg.cc/nLCng5F3/Sky-Sports-Tennis.png" />
-  <display-name>UK Sky Sports Tennis SD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118013000 +0000" channel="SkySportsTennis.uk@SD">
     <title lang="en">WTA Finals: Singles Final</title>
     <desc lang="en">Unbeaten and yet to drop a set, teenage superstar Mirra Andreeva competes against former winner Elina Svitolina to determine this season's singles champion at the WTA Finals. (15.11)</desc>
@@ -204665,8 +204824,9 @@
   </programme>
   <channel id="SkyWitness.uk@HD">
     <display-name>Sky Witness HD</display-name>
+    <display-name>UK Sky Witness SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
-  <display-name>UK Sky Witness SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="SkyWitness.uk@HD">
     <title lang="en">FBI</title>
     <desc lang="en">Crossroads: A young family man is kidnapped when he unwittingly finds himself deeply involved in illegal dealings. (S2, ep 5)</desc>
@@ -205738,8 +205898,9 @@
   </programme>
   <channel id="SonyMax.uk@HD">
     <display-name>SONY MAX HD</display-name>
+    <display-name>UK SONY MAX</display-name>
     <icon src="https://i.imgur.com/LBICKI5.png" />
-  <display-name>UK SONY MAX</display-name></channel>
+  </channel>
   <programme start="20261117231400 +0000" stop="20261118014500 +0000" channel="SonyMax.uk@HD">
     <title lang="en">Pati Patni Aur Woh - 2019</title>
     <desc lang="en">Chintu Tyagi is an ordinary, middle class man who finds himself torn between his wife and another woman.</desc>
@@ -205908,8 +206069,9 @@
   </programme>
   <channel id="SonyMax2.in@SD">
     <display-name>SONY MAX 2</display-name>
+    <display-name>UK SONY MAX 2</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143801_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK SONY MAX 2</display-name></channel>
+  </channel>
   <programme start="20261117213900 +0000" stop="20261118010500 +0000" channel="SonyMax2.in@SD">
     <title lang="en">Phool</title>
     <desc lang="en">Dharamraaj (Rajendra Kumar) and Balram Choudhary (Sunil Dutt) are two friends who earn their living by farming. To cement their friendship both fathers fix their children's wedding.</desc>
@@ -206034,7 +206196,8 @@
   </programme>
   <channel id="SonySABAsia.in@SD">
     <display-name>SONY SAB</display-name>
-  <display-name>UK SONY SAB</display-name></channel>
+    <display-name>UK SONY SAB</display-name>
+  </channel>
   <programme start="20261117230100 +0000" stop="20261118000100 +0000" channel="SonySABAsia.in@SD">
     <title lang="en">Crime Patrol</title>
     <desc lang="en">Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
@@ -206709,8 +206872,9 @@
   </programme>
   <channel id="SONYTV.uk@HD">
     <display-name>SONY TV HD</display-name>
+    <display-name>UK Sony TV SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png" />
-  <display-name>UK Sony TV SD</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118002000 +0000" channel="SONYTV.uk@HD">
     <title lang="en">Crime Patrol</title>
     <desc lang="en">Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
@@ -207592,7 +207756,8 @@
   </programme>
   <channel id="STARPlus.uk@SD">
     <display-name>STAR Plus</display-name>
-  <display-name>UK Star plus</display-name></channel>
+    <display-name>UK Star plus</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118100000 +0000" channel="STARPlus.uk@SD">
     <title lang="en">Star Plus</title>
   </programme>
@@ -211213,8 +211378,9 @@
   </programme>
   <channel id="TalkingPicturesTV.uk@SD">
     <display-name>TalkingPictures</display-name>
+    <display-name>UK Talking Pictures</display-name>
     <icon src="https://i.imgur.com/S1zoIp7.png" />
-  <display-name>UK Talking Pictures</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118011500 +0000" channel="TalkingPicturesTV.uk@SD">
     <title lang="en">The Comic</title>
     <desc lang="en">1969. Comedy/Drama. Directed by Carl Reiner. Stars Dick Van Dyke, Michele Lee &amp; Mickey Rooney. The intriguing story of an exceptional silent-film comic whose talent is overshadowed by his ego. [S]</desc>
@@ -212551,8 +212717,9 @@
   </programme>
   <channel id="TG4.ie@HD">
     <display-name>TG4 HD</display-name>
+    <display-name>UK TG4</display-name>
     <icon src="https://i.imgur.com/XiAKb4E.png" />
-  <display-name>UK TG4</display-name></channel>
+  </channel>
   <programme start="20261117234000 +0000" stop="20261118004000 +0000" channel="TG4.ie@HD">
     <title lang="en">Fíorscéal</title>
     <desc lang="en">Clár faisnéise faoi leá na n-oighearshruthanna san Íoslainn. (Documentary on the retreat of Iceland's glaciers.)</desc>
@@ -214218,8 +214385,9 @@
   </programme>
   <channel id="TLC.uk@HD">
     <display-name>TLC HD</display-name>
+    <display-name>UK TLC SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
-  <display-name>UK TLC SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="TLC.uk@HD">
     <title lang="en">The Middle</title>
     <desc lang="en">Valentine's Day. Valentine's Day unexpectedly finds Frankie and Mike home alone for a romantic evening. Unfortunately, the best-laid plans soon begin to unravel. S1, Ep15</desc>
@@ -214850,8 +215018,9 @@
   </programme>
   <channel id="TLC.uk@Plus1">
     <display-name>TLC+1</display-name>
+    <display-name>UK TLC+1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
-  <display-name>UK TLC+1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="TLC.uk@Plus1">
     <title lang="en">Dr. Pimple Popper</title>
     <desc lang="en">Numbing Nevus. Monica returns in the hopes that Dr. Lee can remove more of her face growths. Ken has several large cysts on his head that he has tried to remove on his own. S3, Ep16</desc>
@@ -215579,8 +215748,9 @@
   </programme>
   <channel id="TNTSports1.uk@HD">
     <display-name>TNTSports1 HD</display-name>
+    <display-name>UK TNT Sports 1 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true" />
-  <display-name>UK TNT Sports 1 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="TNTSports1.uk@HD">
     <title lang="en">The Muddy Roots of Football</title>
     <desc lang="en">In Ireland, the home captain recounts last night's Christmas party, and a tight and terrible game ends with the captain getting told off by his mother.</desc>
@@ -216815,8 +216985,9 @@
   </programme>
   <channel id="TNTSports2.uk@HD">
     <display-name>TNTSports2 HD</display-name>
+    <display-name>UK TNT Sports 2 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true" />
-  <display-name>UK TNT Sports 2 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="TNTSports2.uk@HD">
     <title lang="en">Fishing: On the Bank</title>
     <desc lang="en">Angling magazine show presented by Rob Hughes and Andy Ford, with action from the British Carp Championships.</desc>
@@ -217507,8 +217678,9 @@
   </programme>
   <channel id="TNTSports3.uk@HD">
     <display-name>TNTSports3 HD</display-name>
+    <display-name>UK TNT Sports 3 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true" />
-  <display-name>UK TNT Sports 3 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="TNTSports3.uk@HD">
     <title lang="en">FA Cup: Peterborough v Reading</title>
     <desc lang="en">FA Cup action as Peterborough United host League One rivals Reading. Posh manager Robbie Savage could face his son Charlie for the first time in a competitive fixture.</desc>
@@ -218079,8 +218251,9 @@
   </programme>
   <channel id="TNTSports4.uk@HD">
     <display-name>TNTSports4 HD</display-name>
+    <display-name>UK TNT Sports 4 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" />
-  <display-name>UK TNT Sports 4 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="TNTSports4.uk@HD">
     <title lang="en">Exeter Chiefs W v Harlequins W</title>
     <desc lang="en">Premiership Women's Rugby action from the clash between Exeter Chiefs and Harlequins at Sandy Park. The Quins are looking to avoid a third consecutive league defeat.</desc>
@@ -220443,8 +220616,9 @@
   </programme>
   <channel id="Travelxp.in@SD">
     <display-name>Travelxp</display-name>
+    <display-name>UK Travel xp</display-name>
     <icon src="https://i.imgur.com/HUWEnc5.png" />
-  <display-name>UK Travel xp</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="Travelxp.in@SD">
     <title lang="en">Backpack Indonesia</title>
     <desc lang="en">Hannah Jackson visits the youngest volcano on the ancient Tengger caldera, Mount Bromo. She also goes to see the Komodo dragons.</desc>
@@ -227200,8 +227374,9 @@
   </programme>
   <channel id="TVCNews.ng@SD">
     <display-name>TVC News</display-name>
+    <display-name>UK TVC News</display-name>
     <icon src="https://i.imgur.com/jaSq18B.png" />
-  <display-name>UK TVC News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="TVCNews.ng@SD">
     <title lang="en">Fillers</title>
     <desc lang="en">Fillers.</desc>
@@ -234829,8 +235004,9 @@
   </programme>
   <channel id="UtsavBharat.uk@UK">
     <display-name>Utsav Bharat</display-name>
+    <display-name>UK Utsav Bharat</display-name>
     <icon src="https://i.imgur.com/IQ2n0WY.png" />
-  <display-name>UK Utsav Bharat</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="UtsavBharat.uk@UK">
     <title lang="en">Savdhaan India - Nayaa Season</title>
     <desc lang="en">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
@@ -235299,7 +235475,8 @@
   </programme>
   <channel id="UtsavGold.in@HD">
     <display-name>Utsav Gold HD</display-name>
-  <display-name>UK Utsav Gold SD</display-name></channel>
+    <display-name>UK Utsav Gold SD</display-name>
+  </channel>
   <programme start="20261117210000 +0000" stop="20261118002500 +0000" channel="UtsavGold.in@HD">
     <title lang="en">Aankhen</title>
     <desc lang="en">Vijay Singh Rajput sets out to seek revenge on the bank that fired him unfairly. In response, he plans an elaborate money heist with three distinct men, who are visually impaired.</desc>
@@ -235410,8 +235587,9 @@
   </programme>
   <channel id="UtsavPlus.uk@HD">
     <display-name>Utsav Plus</display-name>
+    <display-name>UK Utsav Plus SD</display-name>
     <icon src="https://i.imgur.com/TERVtWT.png" />
-  <display-name>UK Utsav Plus SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="UtsavPlus.uk@HD">
     <title lang="en">Oh Humnava Tum Dena Saath Mera</title>
     <desc lang="en">Aparajita, a talented artist haunted by her past, crosses paths with Rakshit, a reserved businessman. Though he avoids romance, their unexpected connection might just lead to true love.</desc>
@@ -245268,8 +245446,9 @@
   </programme>
   <channel id="ZeeCinema.in@SD">
     <display-name>Zee Cinema</display-name>
+    <display-name>UK Zee Cinema</display-name>
     <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png?lock=720x540" />
-  <display-name>UK Zee Cinema</display-name></channel>
+  </channel>
   <programme start="20261117210000 +0000" stop="20261118002000 +0000" channel="ZeeCinema.in@SD">
     <title lang="en">Gangaajal</title>
     <desc lang="en">IPS Amit Kumar, an honest cop, is posted to a crime-ridden town. He battles ruthless criminals, crooked officers, and shady politicians to restore law and justice.</desc>
@@ -245784,8 +245963,9 @@
   </programme>
   <channel id="ZeeTVUK.uk@HD">
     <display-name>Zee TV HD</display-name>
+    <display-name>UK ZeeTV SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg" />
-  <display-name>UK ZeeTV SD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="ZeeTVUK.uk@HD">
     <title lang="en">Lakshmi Nivas</title>
     <desc lang="en">Ep. 306. Lakshmi, a determined woman, tackles the ups and downs of life in a traditional joint family, supporting her husband Shriniwas as he works tirelessly to create their dream home.</desc>
@@ -246569,10 +246749,11 @@
     <title lang="en">Work Stress Release</title>
     <desc lang="en">Wind down after a stressful day and start your sleep journey.</desc>
   </programme>
-<channel id="bbcredbutton1.uk">
+  <channel id="bbcredbutton1.uk">
     <display-name>BBC RB 1 HD</display-name>
+    <display-name>UK BBC Red Button 1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png" />
-  <display-name>UK BBC Red Button 1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118060000 +0000" channel="bbcredbutton1.uk">
     <title lang="en">Autumnwatch: Autumn Calm</title>
     <desc lang="en">Enjoy the very best of the season in a natural escape that lets nature do the talking. [HD]</desc>
@@ -246639,8 +246820,9 @@
   </programme>
   <channel id="tntsports1.uk">
     <display-name>TNTSports1 HD</display-name>
+    <display-name>UK TNT Sports 1 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true" />
-  <display-name>UK TNT Sports 1 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="tntsports1.uk">
     <title lang="en">The Muddy Roots of Football</title>
     <desc lang="en">In Ireland, the home captain recounts last night's Christmas party, and a tight and terrible game ends with the captain getting told off by his mother.</desc>
@@ -247875,8 +248057,9 @@
   </programme>
   <channel id="tntsports2.uk">
     <display-name>TNTSports2 HD</display-name>
+    <display-name>UK TNT Sports 2 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true" />
-  <display-name>UK TNT Sports 2 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="tntsports2.uk">
     <title lang="en">Fishing: On the Bank</title>
     <desc lang="en">Angling magazine show presented by Rob Hughes and Andy Ford, with action from the British Carp Championships.</desc>
@@ -248567,8 +248750,9 @@
   </programme>
   <channel id="tntsports3.uk">
     <display-name>TNTSports3 HD</display-name>
+    <display-name>UK TNT Sports 3 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true" />
-  <display-name>UK TNT Sports 3 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="tntsports3.uk">
     <title lang="en">FA Cup: Peterborough v Reading</title>
     <desc lang="en">FA Cup action as Peterborough United host League One rivals Reading. Posh manager Robbie Savage could face his son Charlie for the first time in a competitive fixture.</desc>
@@ -249139,8 +249323,9 @@
   </programme>
   <channel id="tntsports4.uk">
     <display-name>TNTSports4 HD</display-name>
+    <display-name>UK TNT Sports 4 SD</display-name>
     <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" />
-  <display-name>UK TNT Sports 4 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="tntsports4.uk">
     <title lang="en">Exeter Chiefs W v Harlequins W</title>
     <desc lang="en">Premiership Women's Rugby action from the clash between Exeter Chiefs and Harlequins at Sandy Park. The Quins are looking to avoid a third consecutive league defeat.</desc>
@@ -249671,7 +249856,8 @@
   </programme>
   <channel id="nickjrtoo.uk">
     <display-name>Nick Jr. Too</display-name>
-  <display-name>UK Nick Jr.Too</display-name></channel>
+    <display-name>UK Nick Jr.Too</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118060500 +0000" channel="nickjrtoo.uk">
     <title lang="en">Peppa Pig</title>
     <desc lang="en">A curious, naive, yet friendly little pig navigates through her life with her friends and family by her side. Guided by her loving mother and brash father, Peppa is stuck almost every day. Her little siblings, however, look up to Peppa lovingly.</desc>
@@ -251198,8 +251384,9 @@
   </programme>
   <channel id="mtv.uk">
     <display-name>MTV</display-name>
+    <display-name>UK MTV SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>UK MTV SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="mtv.uk">
     <title lang="en">Geordie Shore: From The Beginning</title>
     <desc lang="en">The Radgies are in Rome and Boss Anna has work for them to do! Nathan is annoyed with Chloe, Gaz and Abbie get closer, and Aaron tells Gaz he wants to give it a go with Marnie. (S15, ep6)</desc>
@@ -251688,8 +251875,9 @@
   </programme>
   <channel id="now80s.uk">
     <display-name>NOW 80s</display-name>
+    <display-name>UK NOW 80s</display-name>
     <icon src="https://i.imgur.com/YyPnMeB.png" />
-  <display-name>UK NOW 80s</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118004000 +0000" channel="now80s.uk">
     <title lang="en">Carol Decker's 30 Rock Dudes!</title>
     <desc lang="en">T'Pau's Carol Decker is back again with a countdown of '80s guys who liked to rock! With John Parr, Billy Idol, Guns N' Roses and ZZ Top. (Ep1)</desc>
@@ -251908,8 +252096,9 @@
   </programme>
   <channel id="now70s.uk">
     <display-name>NOW 70s</display-name>
+    <display-name>UK NOW 70s</display-name>
     <icon src="https://i.imgur.com/qiCCX5X.png" />
-  <display-name>UK NOW 70s</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118012500 +0000" channel="now70s.uk">
     <title lang="en">Punk &amp; New Wave 25 with Kid Jensen</title>
     <desc lang="en">David 'Kid' Jensen championed many top new wave and post-punk acts in the late 70s. His top 25 include Weller, Numan, Costello, Strummer, Geldof, Hynde and Dury. What a line-up!</desc>
@@ -252104,8 +252293,10 @@
   </programme>
   <channel id="4seven.uk">
     <display-name>4seven</display-name>
+    <display-name>UK 4seven</display-name>
+    <display-name>UK 4 SEVEN</display-name>
     <icon src="https://i.imgur.com/Fpaxyop.png" />
-  <display-name>UK 4seven</display-name><display-name>UK 4 SEVEN</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118002500 +0000" channel="4seven.uk">
     <title lang="en">24 Hours in A&amp;E</title>
     <desc lang="en">Sunny is rushed to Queen's with multiple stab wounds. Tyler's hurt his foot playing football. And doctors are concerned about an 87-year-old woman who's coughing up blood. (S36 Ep1)</desc>
@@ -252482,8 +252673,9 @@
   </programme>
   <channel id="5action.uk">
     <display-name>5ACTION</display-name>
+    <display-name>UK 5 ACTION</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png" />
-  <display-name>UK 5 ACTION</display-name></channel>
+  </channel>
   <programme start="20261117233500 +0000" stop="20261118003500 +0000" channel="5action.uk">
     <title lang="en">The X-Files</title>
     <desc lang="en">With Scully about to give birth and alien super-soldiers closing in, Doggett, Mulder and Skinner try to work out who can be trusted. (S8 Ep21/21)</desc>
@@ -252892,8 +253084,9 @@
   </programme>
   <channel id="5select.uk">
     <display-name>5SELECT</display-name>
+    <display-name>UK 5 SELECT</display-name>
     <icon src="https://i.imgur.com/WJ9xR6l.png" />
-  <display-name>UK 5 SELECT</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118001000 +0000" channel="5select.uk">
     <title lang="en">Prisoner: Cell Block H</title>
     <desc lang="en">Bea seems happy to live out her sentence at Barnhurst. Meg keeps quiet about Latham's illegal activity so she is granted custody of Elizabeth. The women agree to lift the barricade. (S3 Ep32)</desc>
@@ -253288,8 +253481,9 @@
   </programme>
   <channel id="akaalchannel.uk">
     <display-name>Akaal Channel</display-name>
+    <display-name>UK Akaal Channel</display-name>
     <icon src="https://i.imgur.com/K81vNbk.png" />
-  <display-name>UK Akaal Channel</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118023000 +0000" channel="akaalchannel.uk">
     <title lang="en">Gurmat Smagam</title>
     <desc lang="en">Gurbani, Kirtan, Katha and Lecture at Gurmat Smagam.</desc>
@@ -253512,8 +253706,9 @@
   </programme>
   <channel id="cartoonito.uk">
     <display-name>Cartoonito</display-name>
+    <display-name>UK Cartoonito</display-name>
     <icon src="https://i.imgur.com/B29D2s1.png" />
-  <display-name>UK Cartoonito</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="cartoonito.uk">
     <title lang="en">Grizzy and The Lemmings</title>
     <desc lang="en">He is big as a bear, strong as a bear, smart... as a bear. No other animal dares to contest Grizzy. Except the lemmings...</desc>
@@ -253914,8 +254109,9 @@
   </programme>
   <channel id="clublandtv.uk">
     <display-name>Clubland TV</display-name>
+    <display-name>UK Clubland TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png" />
-  <display-name>UK Clubland TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020500 +0000" channel="clublandtv.uk">
     <title lang="en">Timmy Mallett's Brilliant Xmas!</title>
     <desc lang="en">Pinky Punky celebrates with just a little help from his best friend Timmy. Seasonal silliness galore with The Frog Chorus, Nellie The Elephant &amp; a whole stack of Xmas classics!</desc>
@@ -254098,8 +254294,9 @@
   </programme>
   <channel id="comedyxtra.uk">
     <display-name>ComedyXtra</display-name>
+    <display-name>UK ComedyXtra</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png" />
-  <display-name>UK ComedyXtra</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="comedyxtra.uk">
     <title lang="en">Friends</title>
     <desc lang="en">The One With The Cheap Wedding Dress: Monica battles another shopper for the perfect wedding dress. Meanwhile, Joey and Ross fight over the same girl and go to drastic measures to win. (S7, E17)</desc>
@@ -254784,8 +254981,9 @@
   </programme>
   <channel id="deentv.uk">
     <display-name>Deen TV</display-name>
+    <display-name>UK Deen TV</display-name>
     <icon src="https://i.imgur.com/Zp62Nbd.png" />
-  <display-name>UK Deen TV</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118010000 +0000" channel="deentv.uk">
     <title lang="en">Qari ul Quran</title>
     <desc lang="en">Religious programme for all age groups which helps them to learn the correct way of reading the Quran.</desc>
@@ -255044,8 +255242,9 @@
   </programme>
   <channel id="emanchannel.uk">
     <display-name>Eman Channel</display-name>
+    <display-name>UK Eman Channel</display-name>
     <icon src="https://i.imgur.com/ugn0DWe.png" />
-  <display-name>UK Eman Channel</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118021500 +0000" channel="emanchannel.uk">
     <title lang="en">Makkah Live</title>
     <desc lang="en">Live stream from the Holy Mosque in Makkah al-Mukarramah.</desc>
@@ -255472,8 +255671,9 @@
   </programme>
   <channel id="sonytv.uk">
     <display-name>SONY TV HD</display-name>
+    <display-name>UK Sony TV SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png" />
-  <display-name>UK Sony TV SD</display-name></channel>
+  </channel>
   <programme start="20261117232500 +0000" stop="20261118002000 +0000" channel="sonytv.uk">
     <title lang="en">Crime Patrol</title>
     <desc lang="en">Join India's police force in action as they deal with criminal activities around the country in this dramatisation of real life crime stories, narrated by Anup Soni.</desc>
@@ -255892,8 +256092,9 @@
   </programme>
   <channel id="skywitness.uk">
     <display-name>Sky Witness HD</display-name>
+    <display-name>UK Sky Witness SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
-  <display-name>UK Sky Witness SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skywitness.uk">
     <title lang="en">FBI</title>
     <desc lang="en">Crossroads: A young family man is kidnapped when he unwittingly finds himself deeply involved in illegal dealings. (S2, ep 5)</desc>
@@ -256392,8 +256593,10 @@
   </programme>
   <channel id="skyscifi.uk">
     <display-name>Sky Sci-Fi HD</display-name>
+    <display-name>UK Sky Sci-Fi SD</display-name>
+    <display-name>UK Sky Cinema Sci-Fi SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png" />
-  <display-name>UK Sky Sci-Fi SD</display-name><display-name>UK Sky Cinema Sci-Fi SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skyscifi.uk">
     <title lang="en">Evil</title>
     <desc lang="en">Fear of the Other: Sister Andrea gives the team their last assessment, a man who believes his doppelganger has possessed him and has a personal connection to the nun. (S4, ep 12)</desc>
@@ -256796,8 +256999,9 @@
   </programme>
   <channel id="skysportsracing.uk">
     <display-name>SkySp Racing HD</display-name>
+    <display-name>UK Sky Sports Racing SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1354.png" />
-  <display-name>UK Sky Sports Racing SD</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118020000 +0000" channel="skysportsracing.uk">
     <title lang="en">Sky Sports News</title>
     <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
@@ -257328,8 +257532,9 @@
   </programme>
   <channel id="skysportsnews.uk">
     <display-name>SkySp News HD</display-name>
+    <display-name>UK Sky Sports News SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png" />
-  <display-name>UK Sky Sports News SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skysportsnews.uk">
     <title lang="en">Sky Sports News</title>
     <desc lang="en">Round-up of the sports news with live analysis and comments, plus extended interviews with the headline makers.</desc>
@@ -258580,8 +258785,9 @@
   </programme>
   <channel id="skysportsmix.uk">
     <display-name>SkySp Mix HD</display-name>
+    <display-name>UK Sky Sports Mix SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png" />
-  <display-name>UK Sky Sports Mix SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="skysportsmix.uk">
     <title lang="en">My Icon: Kelly Smith</title>
     <desc lang="en">In a special edition of My Icon to mark International Women's Day, former football star Kelly Smith looks at the personalities that inspired her illustrious career.</desc>
@@ -260008,8 +260214,9 @@
   </programme>
   <channel id="skysportsfootball.uk">
     <display-name>SkySp F'ball HD</display-name>
+    <display-name>UK Sky Sports Football SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png" />
-  <display-name>UK Sky Sports Football SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skysportsfootball.uk">
     <title lang="en">EFL League 2 Play-Off Final: 17/18</title>
     <desc lang="en">Coventry City and Exeter City go head-to-head in the Sky Bet League Two play-off final at Wembley. The sides each beat each other once during the regular season.</desc>
@@ -262556,8 +262763,9 @@
   </programme>
   <channel id="skysportsf1.uk">
     <display-name>SkySp F1 HD</display-name>
+    <display-name>UK Sky Sports F1 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" />
-  <display-name>UK Sky Sports F1 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skysportsf1.uk">
     <title lang="en">Las Vegas F1 GP Highlights 2025</title>
     <desc lang="en">As the lights go out on the Strip for the Las Vegas Grand Prix, championship leader Lando Norris starts from P1 with Max Verstappen behind. Oscar Piastri lines up in fifth place. (23.11)</desc>
@@ -263416,8 +263624,9 @@
   </programme>
   <channel id="skysportscricket.uk">
     <display-name>SkySpCricket HD</display-name>
+    <display-name>UK Sky Sports Cricket SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png" />
-  <display-name>UK Sky Sports Cricket SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skysportscricket.uk">
     <title lang="en">1st Test Day 3: SA v BAN Hlts</title>
     <desc lang="en">Day three of the first Test in a two-match series between South Africa and Bangladesh. The hosts ended day two on 287-4 in response to Bangladesh's first-innings total of 400. (17.11)</desc>
@@ -264692,8 +264901,9 @@
   </programme>
   <channel id="skynature.uk">
     <display-name>Sky Nature HD</display-name>
+    <display-name>UK Sky Nature SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png" />
-  <display-name>UK Sky Nature SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skynature.uk">
     <title lang="en">The Big Dry</title>
     <desc lang="en">Life in the Furnace: In Zambia's Luangwa Valley, the global El Niño event makes the dry season hotter and harsher than ever. (S1, ep 2)</desc>
@@ -265136,8 +265346,9 @@
   </programme>
   <channel id="skymax.uk">
     <display-name>Sky Max HD</display-name>
+    <display-name>UK Sky Max SD</display-name>
     <icon src="https://i.imgur.com/yGZnTh7.png" />
-  <display-name>UK Sky Max SD</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="skymax.uk">
     <title lang="en">Karl Pilkington: The Moaning of Life</title>
     <sub-title lang="en">The Body</sub-title>
@@ -266324,8 +266535,9 @@
   </programme>
   <channel id="skyhistory.uk">
     <display-name>Sky HistoryHD</display-name>
+    <display-name>UK Sky History SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
-  <display-name>UK Sky History SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="skyhistory.uk">
     <title lang="en">Close Encounters</title>
     <desc lang="en">In 1993, a teenage girl walking her dog in Shropshire, England, witnesses a cylindrical object in the sky. School kids in Florida report multiple UFO sightings in 1967. (S2, ep 2)</desc>
@@ -266848,8 +267060,9 @@
   </programme>
   <channel id="skyhistory2.uk">
     <display-name>Sky History2</display-name>
+    <display-name>UK Sky History 2 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png" />
-  <display-name>UK Sky History 2 SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skyhistory2.uk">
     <title lang="en">Alien Files: Unsealed</title>
     <desc lang="en">Experts investigate evidence suggesting that aliens have created the means for controlling humanity. They find that the shocking truth might be hidden right inside you. (S1, ep 9)</desc>
@@ -267300,8 +267513,9 @@
   </programme>
   <channel id="skycrime.uk">
     <display-name>Sky Crime HD</display-name>
+    <display-name>UK Sky Crime SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
-  <display-name>UK Sky Crime SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skycrime.uk">
     <title lang="en">Killer In My Village</title>
     <desc lang="en">Sinead Wooding: The story of a young wife and mother-of-four, murdered ferociously by her controlling husband and an accomplice.</desc>
@@ -267718,8 +267932,9 @@
   </programme>
   <channel id="skydocumentaries.uk">
     <display-name>SkyDocumntrs</display-name>
+    <display-name>UK Sky Documentaries SD</display-name>
     <icon src="https://i.imgur.com/bCJZZo6.png" />
-  <display-name>UK Sky Documentaries SD</display-name></channel>
+  </channel>
   <programme start="20261117220000 +0000" stop="20261118001500 +0000" channel="skydocumentaries.uk">
     <title lang="en">Bowling For Columbine</title>
     <desc lang="en">Oscar-winning film from Michael Moore investigating the circumstances that lead up to the 1999 Columbine High School massacre, and the root cause of America's high homicide rate.</desc>
@@ -268018,8 +268233,9 @@
   </programme>
   <channel id="skycomedy.uk">
     <display-name>Sky Comedy</display-name>
+    <display-name>UK Sky Comedy SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png" />
-  <display-name>UK Sky Comedy SD</display-name></channel>
+  </channel>
   <programme start="20261117223000 +0000" stop="20261118003000 +0000" channel="skycomedy.uk">
     <title lang="en">Quartet</title>
     <desc lang="en">A retirement home for former musicians is shaken up by the arrival of a renowned soprano. Heart-warming comedy with Maggie Smith. (2012)</desc>
@@ -268636,8 +268852,9 @@
   </programme>
   <channel id="skyatlantic.uk">
     <display-name>Sky Atlantic</display-name>
+    <display-name>UK Sky Atlantic SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
-  <display-name>UK Sky Atlantic SD</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118005500 +0000" channel="skyatlantic.uk">
     <title lang="en">The Last Of Us</title>
     <desc lang="en">Future Days: Five years on, Joel seeks help in mending his relationship with Ellie, as the now 19-year-old faces a new threat. (S2, ep 1 of 7)</desc>
@@ -269016,8 +269233,9 @@
   </programme>
   <channel id="skyarts.uk">
     <display-name>Sky Arts HD</display-name>
+    <display-name>UK Sky Arts SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png" />
-  <display-name>UK Sky Arts SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020000 +0000" channel="skyarts.uk">
     <title lang="en">Garbo: Where Did You Go?</title>
     <desc lang="en">Beautiful, talented, sombre and enigmatic, a troubled genius with a proclivity for solitude, Greta Garbo is still considered one of the greatest Hollywood actresses of all time.</desc>
@@ -269456,7 +269674,8 @@
   </programme>
   <channel id="nicktoons.uk">
     <display-name>Nicktoons</display-name>
-  <display-name>UK Nicktoons SD</display-name></channel>
+    <display-name>UK Nicktoons SD</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118063000 +0000" channel="nicktoons.uk">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Karen tells the fairytale of a nerd trying to steal an action figure from his three little neighbours. Squidward hosts a secret We Hate SpongeBob Club at his house.</desc>
@@ -269859,8 +270078,9 @@
   </programme>
   <channel id="blaze.uk">
     <display-name>BLAZE</display-name>
+    <display-name>UK Blaze</display-name>
     <icon src="https://i.imgur.com/6UcPWP9.png" />
-  <display-name>UK Blaze</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="blaze.uk">
     <title lang="en">Mission Unexplained</title>
     <desc lang="en">A security officer is visited by an unearthly presence at a nuclear launch site, before waking up miles away. Meanwhile, a higher power seems to protect a US Army gunner. (S1, ep 4)</desc>
@@ -270359,8 +270579,9 @@
   </programme>
   <channel id="gbnews.uk">
     <display-name>GB News HD</display-name>
+    <display-name>UK GB News</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" />
-  <display-name>UK GB News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="gbnews.uk">
     <title lang="en">The Late Show Live</title>
     <desc lang="en">Live from Washington DC, Tom Harwood and Ben Leo bring you the latest from the US and what it means for Britain.</desc>
@@ -270513,8 +270734,9 @@
   </programme>
   <channel id="e4extra.uk">
     <display-name>E4 Extra</display-name>
+    <display-name>UK E4 Extra</display-name>
     <icon src="https://i.imgur.com/vA2j0YP.png" />
-  <display-name>UK E4 Extra</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="e4extra.uk">
     <title lang="en">Taskmaster</title>
     <desc lang="en">Greg Davies and Alex Horne return to host the BAFTA-winning comedy game show, with fresh contestants Charlotte Ritchie, Jamali Maddix, Lee Mack, Mike Wozniak and Sarah Kendall. (S11 Ep1/10)</desc>
@@ -271265,8 +271487,10 @@
   </programme>
   <channel id="challenge.uk">
     <display-name>Challenge</display-name>
+    <display-name>UK Challenge</display-name>
+    <display-name>UK Challenge HD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png" />
-  <display-name>UK Challenge</display-name><display-name>UK Challenge HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="challenge.uk">
     <title lang="en">Bridge Of Lies</title>
     <desc lang="en">Ross Kemp hosts the Bridge of Lies. Contestants must cross by stepping on the truths and avoiding the lies, earning money as they go.</desc>
@@ -271708,8 +271932,9 @@
   </programme>
   <channel id="bbcnews.uk">
     <display-name>BBC NEWS HD</display-name>
+    <display-name>UK BBC NEWS</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK BBC NEWS</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="bbcnews.uk">
     <title lang="en">BBC News</title>
     <desc lang="en">The latest news from the BBC. [S] [HD]</desc>
@@ -272344,8 +272569,9 @@
   </programme>
   <channel id="cbeebies.uk">
     <display-name>CBeebies HD</display-name>
+    <display-name>UK CBeebies</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2088.png" />
-  <display-name>UK CBeebies</display-name></channel>
+  </channel>
   <programme start="20261117185800 +0000" stop="20261118005800 +0000" channel="cbeebies.uk">
     <title lang="en">..programmes start at 6.00am</title>
   </programme>
@@ -273551,8 +273777,9 @@
   </programme>
   <channel id="utsavbharat.uk">
     <display-name>Utsav Bharat</display-name>
+    <display-name>UK Utsav Bharat</display-name>
     <icon src="https://i.imgur.com/IQ2n0WY.png" />
-  <display-name>UK Utsav Bharat</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="utsavbharat.uk">
     <title lang="en">Savdhaan India - Nayaa Season</title>
     <desc lang="en">Savdhaan India returns with a new thrilling season of modern day crime showcasing upgraded criminals who are using all the tricks of trade, technology and otherwise.</desc>
@@ -274021,8 +274248,9 @@
   </programme>
   <channel id="skynews.uk">
     <display-name>Sky News HD</display-name>
+    <display-name>UK SKY NEWS</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" />
-  <display-name>UK SKY NEWS</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skynews.uk">
     <title lang="en">Sky News</title>
     <desc lang="en">A round up of all the latest news from the UK and around the world.</desc>
@@ -274493,8 +274721,9 @@
   </programme>
   <channel id="s4c.uk">
     <display-name>S4C HD</display-name>
+    <display-name>UK S4C</display-name>
     <icon src="https://i.imgur.com/vrcbnBv.png" />
-  <display-name>UK S4C</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="s4c.uk">
     <title lang="en">Teleshopping</title>
     <desc lang="en">Home Shopping.</desc>
@@ -275417,8 +275646,9 @@
   </programme>
   <channel id="babytv.uk">
     <display-name>BabyTV</display-name>
+    <display-name>UK Baby TV</display-name>
     <icon src="https://i.imgur.com/4BDJ5FT.png" />
-  <display-name>UK Baby TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000300 +0000" channel="babytv.uk">
     <title lang="en">Kiku at the Home</title>
     <desc lang="en">It's time to relax, slow down and unwind with Kiku. Calming visuals and soft music are great ways to prepare for bed.</desc>
@@ -279541,8 +279771,9 @@
   </programme>
   <channel id="pbsamerica.uk">
     <display-name>PBS America</display-name>
+    <display-name>UK PBS America</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png" />
-  <display-name>UK PBS America</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118011000 +0000" channel="pbsamerica.uk">
     <title lang="en">Inside Japan's War</title>
     <desc lang="en">For the Sake of the Country: Episode Two examines Japan's war preparations and entrance into WW2. (Part 2 of 4)</desc>
@@ -279819,8 +280050,9 @@
   </programme>
   <channel id="skysportsgolf.uk">
     <display-name>SkySp Golf HD</display-name>
+    <display-name>UK Sky Sports Golf</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png" />
-  <display-name>UK Sky Sports Golf</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="skysportsgolf.uk">
     <title lang="en">PGA Tour Champions Highlights</title>
     <desc lang="en">Tournament highlights from the 2026 Simmons Bank Championship, a PGA Tour Champions event - forming part of the Charles Schwab Cup Playoffs - at Pleasant Valley Country Club.</desc>
@@ -281111,8 +281343,9 @@
   </programme>
   <channel id="sonymax.uk">
     <display-name>SONY MAX HD</display-name>
+    <display-name>UK SONY MAX</display-name>
     <icon src="https://i.imgur.com/LBICKI5.png" />
-  <display-name>UK SONY MAX</display-name></channel>
+  </channel>
   <programme start="20261117231400 +0000" stop="20261118014500 +0000" channel="sonymax.uk">
     <title lang="en">Pati Patni Aur Woh - 2019</title>
     <desc lang="en">Chintu Tyagi is an ordinary, middle class man who finds himself torn between his wife and another woman.</desc>
@@ -281281,7 +281514,8 @@
   </programme>
   <channel id="starplus.uk">
     <display-name>STAR Plus</display-name>
-  <display-name>UK Star plus</display-name></channel>
+    <display-name>UK Star plus</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118100000 +0000" channel="starplus.uk">
     <title lang="en">Star Plus</title>
   </programme>
@@ -281320,8 +281554,9 @@
   </programme>
   <channel id="bestdirect.uk">
     <display-name>Best Direct</display-name>
+    <display-name>UK Best Direct</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4100.png" />
-  <display-name>UK Best Direct</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118050000 +0000" channel="bestdirect.uk">
     <title lang="en">Best Direct Night-Time Offers</title>
     <desc lang="en">From fitness equipment to household gadgets, Best Direct has something for everyone! All at amazing prices! Don't miss out! Call 0871 222 2007 (national rates apply) or visit www.bestdirect.co.uk</desc>
@@ -281412,8 +281647,9 @@
   </programme>
   <channel id="geotv.uk">
     <display-name>GEO TV</display-name>
+    <display-name>UK GEO TV</display-name>
     <icon src="https://i.imgur.com/NX3vvAX.png" />
-  <display-name>UK GEO TV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="geotv.uk">
     <title lang="en">Mohabbat</title>
     <desc lang="en">A showcase for creative talent from Pakistan, GEO's telefilms combine the storyteller's art with cinematic excellence.</desc>
@@ -281830,8 +282066,9 @@
   </programme>
   <channel id="really.uk">
     <display-name>Really</display-name>
+    <display-name>UK Really</display-name>
     <icon src="https://i.imgur.com/lY5sFgo.png" />
-  <display-name>UK Really</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="really.uk">
     <title lang="en">Help! My House Is Haunted</title>
     <desc lang="en">Balgonie Castle. The team investigate disturbing reports of a mysterious green lady in a Scottish castle with a history of murder, torture and war. S1, Ep11</desc>
@@ -282188,8 +282425,9 @@
   </programme>
   <channel id="sikhchannel.uk">
     <display-name>Sikh Channel</display-name>
+    <display-name>UK Sikh Channel</display-name>
     <icon src="https://i.imgur.com/YLNhR3Q.png" />
-  <display-name>UK Sikh Channel</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="sikhchannel.uk">
     <title lang="en">Gurbani Kirtan</title>
     <desc lang="en">A performance of Gurbani Shabad Kirtan.</desc>
@@ -282452,8 +282690,9 @@
   </programme>
   <channel id="disneyjr.uk">
     <display-name>Disney Jr HD</display-name>
+    <display-name>UK Disney JR HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
-  <display-name>UK Disney JR HD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="disneyjr.uk">
     <title lang="en">Mickey Mouse Clubhouse+</title>
     <desc lang="en">A Dragon Tale:A tea party is disrupted by a dragon. 0</desc>
@@ -283736,8 +283975,9 @@
   </programme>
   <channel id="mutv.uk">
     <display-name>MUTV HD</display-name>
+    <display-name>UK MUTV</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" />
-  <display-name>UK MUTV</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="mutv.uk">
     <title lang="en">All The Goals: MU Women 24/25</title>
     <desc lang="en">Relive all the goals from Manchester United Women's 2024/25 season.</desc>
@@ -284350,8 +284590,10 @@
   </programme>
   <channel id="cbbc.uk">
     <display-name>CBBC HD</display-name>
+    <display-name>UK CBBC</display-name>
+    <display-name>UK CITV</display-name>
     <icon src="https://i.imgur.com/tk8G4CU.png" />
-  <display-name>UK CBBC</display-name><display-name>UK CITV</display-name></channel>
+  </channel>
   <programme start="20261117185800 +0000" stop="20261118005800 +0000" channel="cbbc.uk">
     <title lang="en">.programmes start at 7.00am</title>
   </programme>
@@ -285121,8 +285363,9 @@
   </programme>
   <channel id="skysportstennis.uk">
     <display-name>SkySp Tennis HD</display-name>
+    <display-name>UK Sky Sports Tennis SD</display-name>
     <icon src="https://i.postimg.cc/nLCng5F3/Sky-Sports-Tennis.png" />
-  <display-name>UK Sky Sports Tennis SD</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118013000 +0000" channel="skysportstennis.uk">
     <title lang="en">WTA Finals: Singles Final</title>
     <desc lang="en">Unbeaten and yet to drop a set, teenage superstar Mirra Andreeva competes against former winner Elina Svitolina to determine this season's singles champion at the WTA Finals. (15.11)</desc>
@@ -286629,8 +286872,9 @@
   </programme>
   <channel id="rewindtv.uk">
     <display-name>Rewind TV</display-name>
+    <display-name>UK Rewind TV</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/10000/10000/skychb1030.png" />
-  <display-name>UK Rewind TV</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118014500 +0000" channel="rewindtv.uk">
     <title lang="en">The Lair Of The White Worm</title>
     <desc lang="en">Hugh Grant and Amanda Donohoe headline Ken Russell's wicked brew of pagan myth, seduction and monster madness.</desc>
@@ -287151,8 +287395,9 @@
   </programme>
   <channel id="aajtak.uk">
     <display-name>AAJ TAK</display-name>
+    <display-name>UK AAJ TAK</display-name>
     <icon src="https://i.imgur.com/JYLmXy4.png" />
-  <display-name>UK AAJ TAK</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="aajtak.uk">
     <title lang="en">Khabardar</title>
     <desc lang="en">Khabardar is a people-first campaign spotlighting issues that truly matter, Anchored by Sweta Singh</desc>
@@ -287731,8 +287976,9 @@
   </programme>
   <channel id="arydigital.uk">
     <display-name>ARY Digital</display-name>
+    <display-name>UK ARY Digital</display-name>
     <icon src="https://i.ibb.co/DqxCNMW/ARY-DIGITAL.png" />
-  <display-name>UK ARY Digital</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="arydigital.uk">
     <title lang="en">Rutba</title>
     <desc lang="en">Hadi, a dedicated police officer whose life takes an unexpected turn when he is posted to a new area and comes into conflict with the powerful businessman Meer and his corrupt wife, Shelly.</desc>
@@ -287935,8 +288181,9 @@
   </programme>
   <channel id="b4umovies.uk">
     <display-name>B4U Movies</display-name>
+    <display-name>UK B4U Movies</display-name>
     <icon src="https://i.imgur.com/BoJB8P0.png" />
-  <display-name>UK B4U Movies</display-name></channel>
+  </channel>
   <programme start="20261117221300 +0000" stop="20261118004800 +0000" channel="b4umovies.uk">
     <title lang="en">Viduthalai Part 1</title>
     <desc lang="en">A policeman is conflicted between duty and morality when his department begins a brutal campaign to capture a local activist.</desc>
@@ -288041,8 +288288,9 @@
   </programme>
   <channel id="b4umusic.uk">
     <display-name>B4U Music</display-name>
+    <display-name>UK B4U Music</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK B4U Music</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="b4umusic.uk">
     <title lang="en">Aawaaz De Kahan Hai</title>
     <desc lang="en">Compilation of classic hit Hindi film songs.</desc>
@@ -288465,8 +288713,9 @@
   </programme>
   <channel id="boomerang.uk">
     <display-name>Boomerang</display-name>
+    <display-name>UK Boomerang</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
-  <display-name>UK Boomerang</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118005000 +0000" channel="boomerang.uk">
     <title lang="en">Mush-Mush And The Mushables</title>
     <desc lang="en">Mush-Mush and the Mushables follows the adventures of Mush-Mush, his best friends Lilit and Chep as they discover just how fun outdoor life can be.</desc>
@@ -288865,8 +289114,9 @@
   </programme>
   <channel id="colorscineplex.uk">
     <display-name>ColorsCineplex</display-name>
+    <display-name>UK Colors Cineplex</display-name>
     <icon src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3042/1782291173042-h.jpg" />
-  <display-name>UK Colors Cineplex</display-name></channel>
+  </channel>
   <programme start="20261117213000 +0000" stop="20261118001500 +0000" channel="colorscineplex.uk">
     <title lang="en">Tanhaji The Unsung Warrior</title>
     <desc lang="en">Tanhaji Malusare, a Maratha leader under Shivaji, fights to seize Kondhana Fort from Rajput commander Udaybhan Rathod, facing strong defense and ruthless obstacles ahead.</desc>
@@ -288989,8 +289239,9 @@
   </programme>
   <channel id="dev.linear.en.100217">
     <display-name>Film4</display-name>
+    <display-name>UK Film4</display-name>
     <icon src="https://i.imgur.com/MTSgoGI.png" />
-  <display-name>UK Film4</display-name></channel>
+  </channel>
   <programme start="20261117225500 +0000" stop="20261118010500 +0000" channel="dev.linear.en.100217">
     <title lang="en">Predator</title>
     <desc lang="en">(1987) Sci-fi thriller starring Arnold Schwarzenegger. A US commando unit gets trapped in the jungle by a murderous, seemingly invincible alien hunter. But they ain't got time to bleed.</desc>
@@ -289117,8 +289368,9 @@
   </programme>
   <channel id="foodnetwork.uk">
     <display-name>Food Network</display-name>
+    <display-name>UK Food Network</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
-  <display-name>UK Food Network</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118020000 +0000" channel="foodnetwork.uk">
     <title lang="en">Holiday Baking Championship</title>
     <desc lang="en">Ultimate Holiday Party. The bakers create dessert charcuterie boards and pinata desserts. Then, they take on holiday party theme cakes and incorporate lights into their designs. S8, Ep8</desc>
@@ -289477,8 +289729,9 @@
   </programme>
   <channel id="tlc.uk">
     <display-name>TLC HD</display-name>
+    <display-name>UK TLC SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
-  <display-name>UK TLC SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="tlc.uk">
     <title lang="en">The Middle</title>
     <desc lang="en">Valentine's Day. Valentine's Day unexpectedly finds Frankie and Mike home alone for a romantic evening. Unfortunately, the best-laid plans soon begin to unravel. S1, Ep15</desc>
@@ -290109,7 +290362,9 @@
   </programme>
   <channel id="dev.linear.en.100250">
     <display-name>Sky Cinema Select</display-name>
-  <display-name>UK Sky Cinema Premier SD</display-name><display-name>UK Sky Cinema Select SD</display-name></channel>
+    <display-name>UK Sky Cinema Premier SD</display-name>
+    <display-name>UK Sky Cinema Select SD</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118080500 +0000" channel="dev.linear.en.100250">
     <title lang="en">White Christmas</title>
     <desc lang="en">Two army buddies who have become entertainers travel to a Vermont ski resort for a well-earned rest. However, on arrival they find the resort - run by their old army commander - in need of a helping hand. There's only one answer - put on a show.</desc>
@@ -290224,8 +290479,10 @@
   </programme>
   <channel id="dev.linear.en.100251">
     <display-name>Sky Sci-Fi HD</display-name>
+    <display-name>UK Sky Sci-Fi SD</display-name>
+    <display-name>UK Sky Cinema Sci-Fi SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png" />
-  <display-name>UK Sky Sci-Fi SD</display-name><display-name>UK Sky Cinema Sci-Fi SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="dev.linear.en.100251">
     <title lang="en">Evil</title>
     <desc lang="en">Fear of the Other: Sister Andrea gives the team their last assessment, a man who believes his doppelganger has possessed him and has a personal connection to the nun. (S4, ep 12)</desc>
@@ -290628,7 +290885,9 @@
   </programme>
   <channel id="dev.linear.en.100252">
     <display-name>Sky Cinema Select</display-name>
-  <display-name>UK Sky Cinema Premier SD</display-name><display-name>UK Sky Cinema Select SD</display-name></channel>
+    <display-name>UK Sky Cinema Premier SD</display-name>
+    <display-name>UK Sky Cinema Select SD</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118080500 +0000" channel="dev.linear.en.100252">
     <title lang="en">White Christmas</title>
     <desc lang="en">Two army buddies who have become entertainers travel to a Vermont ski resort for a well-earned rest. However, on arrival they find the resort - run by their old army commander - in need of a helping hand. There's only one answer - put on a show.</desc>
@@ -290743,7 +291002,8 @@
   </programme>
   <channel id="dev.linear.en.100253">
     <display-name>Sky Cinema Thriller</display-name>
-  <display-name>UK Sky Cinema Thriller SD</display-name></channel>
+    <display-name>UK Sky Cinema Thriller SD</display-name>
+  </channel>
   <programme start="20261118041000 +0000" stop="20261118063000 +0000" channel="dev.linear.en.100253">
     <title lang="en">King Ivory</title>
     <desc lang="en">Based upon extensive research with law enforcement, gangs, inmates, migrants, and addicts, an exposé on fentanyl trafficking, and its effect on all walks of life.</desc>
@@ -290842,7 +291102,8 @@
   </programme>
   <channel id="dev.linear.en.100257">
     <display-name>Sky Cinema Hits</display-name>
-  <display-name>UK Sky Cinema Hits SD</display-name></channel>
+    <display-name>UK Sky Cinema Hits SD</display-name>
+  </channel>
   <programme start="20261118053500 +0000" stop="20261118075500 +0000" channel="dev.linear.en.100257">
     <title lang="en">xXx</title>
     <desc lang="en">An extreme sports junkie is blackmailed by the CIA into taking on a highly dangerous mission to Prague in order to thwart the plans of a group of Russian extremists. The reluctant hero soon finds himself with the safety of the USA in his hands - and a complicated romance on the horizon.</desc>
@@ -290940,7 +291201,8 @@
   </programme>
   <channel id="dev.linear.en.100258">
     <display-name>Sky Cinema Greats</display-name>
-  <display-name>UK Sky Cinema Greats SD</display-name></channel>
+    <display-name>UK Sky Cinema Greats SD</display-name>
+  </channel>
   <programme start="20261118044500 +0000" stop="20261118070500 +0000" channel="dev.linear.en.100258">
     <title lang="en">The Hunt for Red October</title>
     <desc lang="en">Soviet and American forces give chase when the captain of a Soviet nuclear submarine sets a course for the Maine coast.</desc>
@@ -291051,7 +291313,8 @@
   </programme>
   <channel id="dev.linear.en.100259">
     <display-name>Sky Cinema Drama</display-name>
-  <display-name>UK Sky Cinema Drama SD</display-name></channel>
+    <display-name>UK Sky Cinema Drama SD</display-name>
+  </channel>
   <programme start="20261118052000 +0000" stop="20261118071000 +0000" channel="dev.linear.en.100259">
     <title lang="en">Don't Let's Go to the Dogs Tonight</title>
     <desc lang="en">Depicts 8-year-old Bobo's life on her family's Rhodesian farm during the Bush War's final stages. It explores the family's bond with Africa's land and the war's impact on the region and individuals through Bobo's perspective.</desc>
@@ -291150,7 +291413,9 @@
   </programme>
   <channel id="dev.linear.en.100260">
     <display-name>Sky Cinema Family</display-name>
-  <display-name>UK Sky Cinema Family SD</display-name><display-name>UK Sky Cinema Animation SD</display-name></channel>
+    <display-name>UK Sky Cinema Family SD</display-name>
+    <display-name>UK Sky Cinema Animation SD</display-name>
+  </channel>
   <programme start="20261118045500 +0000" stop="20261118063500 +0000" channel="dev.linear.en.100260">
     <title lang="en">Hotel Transylvania</title>
     <desc lang="en">Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teen-aged daughter.</desc>
@@ -291277,7 +291542,8 @@
   </programme>
   <channel id="dev.linear.en.100261">
     <display-name>Sky Cinema Comedy</display-name>
-  <display-name>UK Sky Cinema Comedy SD</display-name></channel>
+    <display-name>UK Sky Cinema Comedy SD</display-name>
+  </channel>
   <programme start="20261118050500 +0000" stop="20261118065000 +0000" channel="dev.linear.en.100261">
     <title lang="en">About Last Night</title>
     <desc lang="en">Four Los Angeles singles experience undeniable chemistry and pair off to follow their attraction to its logical conclusion. Afterward, each new couple tries to make love last in the real world.</desc>
@@ -291396,7 +291662,9 @@
   </programme>
   <channel id="dev.linear.en.100262">
     <display-name>Sky Cinema Family</display-name>
-  <display-name>UK Sky Cinema Family SD</display-name><display-name>UK Sky Cinema Animation SD</display-name></channel>
+    <display-name>UK Sky Cinema Family SD</display-name>
+    <display-name>UK Sky Cinema Animation SD</display-name>
+  </channel>
   <programme start="20261118045500 +0000" stop="20261118063500 +0000" channel="dev.linear.en.100262">
     <title lang="en">Hotel Transylvania</title>
     <desc lang="en">Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teen-aged daughter.</desc>
@@ -291523,7 +291791,8 @@
   </programme>
   <channel id="dev.linear.en.100263">
     <display-name>Sky Cinema Action</display-name>
-  <display-name>UK Sky Cinema Action SD</display-name></channel>
+    <display-name>UK Sky Cinema Action SD</display-name>
+  </channel>
   <programme start="20261118034000 +0000" stop="20261118060500 +0000" channel="dev.linear.en.100263">
     <title lang="en">Godzilla</title>
     <desc lang="en">Effects-laden blockbuster about a huge reptile which emerges from the sea to wreak havoc in Manhattan. On a research trip to Chernobyl, a young scientist discovers a startling link between genetic mutation and radioactivity. When a fishing trawler is attacked by an unseen creature, and other evidence of a massive reptilian creature is unearthed, he realises that the creature is following a destructive path to New York.</desc>
@@ -291634,8 +291903,9 @@
   </programme>
   <channel id="nickelodeon.uk">
     <display-name>Nickelodeon</display-name>
+    <display-name>UK Nickelodeon</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
-  <display-name>UK Nickelodeon</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="nickelodeon.uk">
     <title lang="en">Wylde Pak</title>
     <desc lang="en">Jack has his first sleepover in 'Meats of Strength', then in 'Dead Ed's', the kids have a surreal restaurant adventure. (S1, ep 5)</desc>
@@ -292444,8 +292714,9 @@
   </programme>
   <channel id="nickjunior.uk">
     <display-name>Nick Jr.</display-name>
+    <display-name>UK Nick Jr SD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
-  <display-name>UK Nick Jr SD</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118000500 +0000" channel="nickjunior.uk">
     <title lang="en">Peppa Pig</title>
     <desc lang="en">Gerald Giraffe: Gerald Giraffe is new to playgroup! He's trying to make friends with Peppa and the group, but finds being so tall is making playing hide and seek quite a challenge! [SL]</desc>
@@ -294120,8 +294391,9 @@
   </programme>
   <channel id="discoverydmax.uk">
     <display-name>DMAX</display-name>
+    <display-name>UK DMAX</display-name>
     <icon src="https://i.imgur.com/CDsoyjN.png" />
-  <display-name>UK DMAX</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="discoverydmax.uk">
     <title lang="en">Naked and Afraid XL</title>
     <desc lang="en">All-Stars: To Hail And Back. Freezing rainstorms torture the remaining survivalists, risking severe hypothermia. Plus, a successful hunt ends up backfiring. S3, Ep4</desc>
@@ -294516,8 +294788,9 @@
   </programme>
   <channel id="humeurope.uk">
     <display-name>HUM EUROPE</display-name>
+    <display-name>UK HUM EUROPE</display-name>
     <icon src="https://i.imgur.com/l20Idz9.jpg" />
-  <display-name>UK HUM EUROPE</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="humeurope.uk">
     <title lang="en">Hurmat</title>
     <desc lang="en">Hurmat struggles against strict family restrictions as she seeks education, freedom and the courage to discover her identity and choose her own path.</desc>
@@ -294928,8 +295201,9 @@
   </programme>
   <channel id="dev.linear.en.100294">
     <display-name>Film4+1</display-name>
+    <display-name>UK Film4+1</display-name>
     <icon src="https://i.imgur.com/MTSgoGI.png" />
-  <display-name>UK Film4+1</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118020500 +0000" channel="dev.linear.en.100294">
     <title lang="en">Predator</title>
     <desc lang="en">(1987) Sci-fi thriller starring Arnold Schwarzenegger. A US commando unit gets trapped in the jungle by a murderous, seemingly invincible alien hunter. But they ain't got time to bleed.</desc>
@@ -295056,8 +295330,9 @@
   </programme>
   <channel id="premiersports1.uk">
     <display-name>Premier Sports 1</display-name>
+    <display-name>UK Premier Sports 1</display-name>
     <icon src="https://i.imgur.com/eOybZMU.png" />
-  <display-name>UK Premier Sports 1</display-name></channel>
+  </channel>
   <programme start="20261117233000 +0000" stop="20261118003000 +0000" channel="premiersports1.uk">
     <title lang="en">NHL Hockey</title>
     <sub-title lang="en">Top 20 Defensemen</sub-title>
@@ -295482,8 +295757,9 @@
   </programme>
   <channel id="dev.linear.en.100323">
     <display-name>Great! Action</display-name>
+    <display-name>UK GREAT! action</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
-  <display-name>UK GREAT! action</display-name></channel>
+  </channel>
   <programme start="20261117231500 +0000" stop="20261118001500 +0000" channel="dev.linear.en.100323">
     <title lang="en">The Unit</title>
     <desc lang="en">The Unit finds itself torn between saving an African dictator or innocent people when they are sent into a hospital as a hurricane hits. On the base, Mack and Tiffy reconnect with each other. (S2 Ep5)</desc>
@@ -295918,8 +296194,9 @@
   </programme>
   <channel id="dev.linear.en.100324">
     <display-name>Great! Romance</display-name>
+    <display-name>UK GREAT! romance</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" />
-  <display-name>UK GREAT! romance</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118004000 +0000" channel="dev.linear.en.100324">
     <title lang="en">Christmas A La Carte</title>
     <desc lang="en">Five-star romance with Erin Agostino. A food correspondent filming a festive special about a handsome chef's fancy new restaurant discovers that she's interested in more than just the menu. (2021)</desc>
@@ -296324,8 +296601,9 @@
   </programme>
   <channel id="ptcpunjabi.uk">
     <display-name>PTC PUNJABI</display-name>
+    <display-name>UK PTC PUNJABI</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s159123_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK PTC PUNJABI</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="ptcpunjabi.uk">
     <title lang="en">Vichar Taqrar</title>
     <desc lang="en">A discussion about the most burning issues of the week.</desc>
@@ -296652,8 +296930,9 @@
   </programme>
   <channel id="sonymax2.uk">
     <display-name>SONY MAX 2</display-name>
+    <display-name>UK SONY MAX 2</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s143801_ld_h15_aa.png?lock=720x540" />
-  <display-name>UK SONY MAX 2</display-name></channel>
+  </channel>
   <programme start="20261117213900 +0000" stop="20261118010500 +0000" channel="sonymax2.uk">
     <title lang="en">Phool</title>
     <desc lang="en">Dharamraaj (Rajendra Kumar) and Balram Choudhary (Sunil Dutt) are two friends who earn their living by farming. To cement their friendship both fathers fix their children's wedding.</desc>
@@ -296778,8 +297057,9 @@
   </programme>
   <channel id="zeecinema.uk">
     <display-name>Zee Cinema</display-name>
+    <display-name>UK Zee Cinema</display-name>
     <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png?lock=720x540" />
-  <display-name>UK Zee Cinema</display-name></channel>
+  </channel>
   <programme start="20261117210000 +0000" stop="20261118002000 +0000" channel="zeecinema.uk">
     <title lang="en">Gangaajal</title>
     <desc lang="en">IPS Amit Kumar, an honest cop, is posted to a crime-ridden town. He battles ruthless criminals, crooked officers, and shady politicians to restore law and justice.</desc>
@@ -296896,8 +297176,9 @@
   </programme>
   <channel id="colorsgujarati.uk">
     <display-name>ColorsGujarati</display-name>
+    <display-name>UK COLORS GUJARATI</display-name>
     <icon src="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/6493/1782290866493-h.jpg" />
-  <display-name>UK COLORS GUJARATI</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="colorsgujarati.uk">
     <title lang="en">Rangai Jaane Rang Ma</title>
     <desc lang="en">The show follows the lives of two girls unknowingly exchanged at birth by a doctor, played by Dipika Chikhalia, as fate intertwines their journeys in unexpected ways.</desc>
@@ -297540,7 +297821,8 @@
   </programme>
   <channel id="premiersports2.uk">
     <display-name>Premier Sports 2 HD</display-name>
-  <display-name>UK Premier Sports 2</display-name></channel>
+    <display-name>UK Premier Sports 2</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118063000 +0000" channel="premiersports2.uk">
     <title lang="en">This is Hockey</title>
     <desc lang="en">An exhilarating documentary series produced by the NHL that delves into the burgeoning world of hockey across Latin America and the Caribbean.</desc>
@@ -297671,8 +297953,9 @@
   </programme>
   <channel id="dev.linear.en.100345">
     <display-name>LEGEND</display-name>
+    <display-name>UK Legend</display-name>
     <icon src="https://i.imgur.com/dN2OsIT.png" />
-  <display-name>UK Legend</display-name></channel>
+  </channel>
   <programme start="20261117234500 +0000" stop="20261118015500 +0000" channel="dev.linear.en.100345">
     <title lang="en">Mobsters</title>
     <desc lang="en">Crime thriller with Christian Slater. Notorious gangsters Bugsy Siegel and Lucky Luciano make a daring bid to overthrow the dons of Twenties New York. (1991)</desc>
@@ -298143,7 +298426,8 @@
   </programme>
   <channel id="skysportsboxoffice.uk">
     <display-name>Sky Sports Box Office HD</display-name>
-  <display-name>UK SKY SPORTS BOX OFFICE</display-name></channel>
+    <display-name>UK SKY SPORTS BOX OFFICE</display-name>
+  </channel>
   <programme start="20261118060000 +0000" stop="20261118120000 +0000" channel="skysportsboxoffice.uk">
     <title lang="en">Programmes Coming Soon</title>
     <desc lang="en">Programmes coming soon.</desc>
@@ -298178,8 +298462,9 @@
   </programme>
   <channel id="more4plus1.uk">
     <display-name>More4+1</display-name>
+    <display-name>UK More4 +1</display-name>
     <icon src="https://i.imgur.com/cx5YcAU.png" />
-  <display-name>UK More4 +1</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000500 +0000" channel="more4plus1.uk">
     <title lang="en">24 Hours in A&amp;E</title>
     <desc lang="en">This episode shows how a trip to A&amp;E can act as a long-overdue wake-up call. Phil, 36, has chronic pain in his back and side. Kamilla, 12, has been knocked down by a car. (S5 Ep4/8)</desc>
@@ -298608,8 +298893,9 @@
   </programme>
   <channel id="e4plus1.uk">
     <display-name>E4+1</display-name>
+    <display-name>UK E4 +1</display-name>
     <icon src="https://i.imgur.com/22MfjF4.png" />
-  <display-name>UK E4 +1</display-name></channel>
+  </channel>
   <programme start="20261117230000 +0000" stop="20261118000500 +0000" channel="e4plus1.uk">
     <title lang="en">Gogglebox</title>
     <desc lang="en">Britain's sharpest armchair critics watch: Banged Up: Stars Behind Bars, Planet Earth, Bake Off, Culprits, The Curse of Robert the Doll and much more. (S22 Ep10)</desc>
@@ -299254,8 +299540,9 @@
   </programme>
   <channel id="questplus1.uk">
     <display-name>QUEST+1</display-name>
+    <display-name>UK QUEST +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
-  <display-name>UK QUEST +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="questplus1.uk">
     <title lang="en">How Do They Do It?</title>
     <desc lang="en">How can steel repair itself? How do they create the world's most powerful bikes? And how is wood transformed into paper? S6, Ep19</desc>
@@ -299708,8 +299995,9 @@
   </programme>
   <channel id="questredplus1.uk">
     <display-name>Quest Red+1</display-name>
+    <display-name>UK Quest Red +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
-  <display-name>UK Quest Red +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="questredplus1.uk">
     <title lang="en">Body Cam</title>
     <desc lang="en">90 Minutes. When an officer joins a high-speed police chase across the Texas plains, his life changes when he comes face to face with the armed suspects. S2, Ep1</desc>
@@ -300128,8 +300416,9 @@
   </programme>
   <channel id="greattvplus1.uk">
     <display-name>Great! TV+1</display-name>
+    <display-name>UK GREAT! tv +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
-  <display-name>UK GREAT! tv +1</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="greattvplus1.uk">
     <title lang="en">M*A*S*H</title>
     <desc lang="en">White Gold: Thieves attempt to steal penicillin from the 4077th but Klinger catches one of them. Hawkeye and Trapper are suspicious when Colonel Flagg of the CIA arrives to investigate. (S3 Ep23)</desc>
@@ -300600,8 +300889,9 @@
   </programme>
   <channel id="greatactionplus1.uk">
     <display-name>Great! Action+1</display-name>
+    <display-name>UK GREAT!action +1</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
-  <display-name>UK GREAT!action +1</display-name></channel>
+  </channel>
   <programme start="20261117230100 +0000" stop="20261118001500 +0000" channel="greatactionplus1.uk">
     <title lang="en">The Day the Earth Stood Still</title>
     <desc lang="en">A mysterious alien visitor arrives on Earth to deliver an urgent warning about the fate of the entire human race. Stars Keanu Reeves, Jennifer Connelly and Kathy Bates. (2008)</desc>
@@ -301034,8 +301324,9 @@
   </programme>
   <channel id="euronews.uk">
     <display-name>Euronews</display-name>
+    <display-name>UK Euronews</display-name>
     <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
-  <display-name>UK Euronews</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001200 +0000" channel="euronews.uk">
     <title lang="en">The European Debrief</title>
     <desc lang="en">Live headlines,breaking news, analysis and interviews from Europe's News Centre.</desc>
@@ -302154,8 +302445,9 @@
   </programme>
   <channel id="tvcnews.uk">
     <display-name>TVC News</display-name>
+    <display-name>UK TVC News</display-name>
     <icon src="https://i.imgur.com/jaSq18B.png" />
-  <display-name>UK TVC News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="tvcnews.uk">
     <title lang="en">Fillers</title>
     <desc lang="en">Fillers.</desc>
@@ -302734,8 +303026,9 @@
   </programme>
   <channel id="fiveusa.uk">
     <display-name>5 USA</display-name>
+    <display-name>UK 5 USA</display-name>
     <icon src="https://i.imgur.com/Pi7so2l.png" />
-  <display-name>UK 5 USA</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="fiveusa.uk">
     <title lang="en">NCIS</title>
     <desc lang="en">Alden Parker is still on the run with his ex-wife Vivian. The team investigates who might have a personal vendetta against him in the hope of clearing Parker's name. (S20 Ep1)</desc>
@@ -303078,8 +303371,9 @@
   </programme>
   <channel id="5star.uk">
     <display-name>5STAR</display-name>
+    <display-name>UK 5STAR</display-name>
     <icon src="https://i.imgur.com/PI11s9s.png" />
-  <display-name>UK 5STAR</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010500 +0000" channel="5star.uk">
     <title lang="en">999: Emergency Call Out</title>
     <desc lang="en">A paramedic and officer pair respond to two calls, one about a car crash and another about an increasingly dangerous argument. (S1 Ep 3)</desc>
@@ -303472,8 +303766,9 @@
   </programme>
   <channel id="channel4.uk">
     <display-name>Channel 4 HD</display-name>
+    <display-name>UK Channel 4 SD</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png" />
-  <display-name>UK Channel 4 SD</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="channel4.uk">
     <title lang="en">Gogglebox</title>
     <desc lang="en">What do the Goggleboxers make of the week's TV? Featuring Rivals, Jamie's 20 Minute Meals, Strictly, First Dates, Made in Chelsea, The Famous Finish Line and Hanging by a Wire. (S28 Ep11) [SL]</desc>
@@ -306176,8 +306471,9 @@
   </programme>
   <channel id="channel5.uk">
     <display-name>5 HD</display-name>
+    <display-name>UK Channel 5</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
-  <display-name>UK Channel 5</display-name></channel>
+  </channel>
   <programme start="20261117223500 +0000" stop="20261118000500 +0000" channel="channel5.uk">
     <title lang="en">Body at the Bottom of the Ocean...</title>
     <desc lang="en">...The Murder of Ronald Platt. A bizarre murder mystery: the story of missing millions, stolen identity, and a confident trickster and master criminal, finally caught in a web of his own lies.</desc>
@@ -306836,8 +307132,9 @@
   </programme>
   <channel id="comedycentral.uk">
     <display-name>ComedyCentral</display-name>
+    <display-name>UK Comedy Central</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
-  <display-name>UK Comedy Central</display-name></channel>
+  </channel>
   <programme start="20261117232000 +0000" stop="20261118002000 +0000" channel="comedycentral.uk">
     <title lang="en">Jimmy Carr's Am I the A******?</title>
     <desc lang="en">Jimmy, GK Barry and Jamali are passing judgement on some potential a******s. Taking the stand tonight is a romantic gesture fail and someone who refuses to date if the stars don't align. (S2, E03)</desc>
@@ -307506,8 +307803,9 @@
   </programme>
   <channel id="e4.uk">
     <display-name>E4</display-name>
+    <display-name>UK E4 SD</display-name>
     <icon src="https://i.imgur.com/22MfjF4.png" />
-  <display-name>UK E4 SD</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="e4.uk">
     <title lang="en">Dating Naked USA</title>
     <desc lang="en">Natalie and David spend 12 weeks in Bora Bora on a unique dating experience, looking for love in the nuddy. David gets hot under the collar (even though he's not wearing one). (S3 Ep1)</desc>
@@ -308152,8 +308450,9 @@
   </programme>
   <channel id="itv2.uk">
     <display-name>ITV2 HD</display-name>
+    <display-name>UK ITV2</display-name>
     <icon src="https://i.imgur.com/2BpUK0W.png" />
-  <display-name>UK ITV2</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="itv2.uk">
     <title lang="en">American Dad!</title>
     <desc lang="en">The Life Aquatic with Steve Smith: Animated comedy series. Steve joins a water polo team, while Stan and Roger purchase a boat, but neither experience works out as planned. S12 Ep2</desc>
@@ -308596,8 +308895,9 @@
   </programme>
   <channel id="itv3.uk">
     <display-name>ITV3 HD</display-name>
+    <display-name>UK ITV3</display-name>
     <icon src="https://i.imgur.com/JuyM2z5.png" />
-  <display-name>UK ITV3</display-name></channel>
+  </channel>
   <programme start="20261117235500 +0000" stop="20261118020000 +0000" channel="itv3.uk">
     <title lang="en">Foyle's War</title>
     <desc lang="en">War Games: Drama about a detective, set during World War II. Divided loyalties lead to revenge and murder when a businessman puts profits before principles in a pact with the Nazis. S2 Ep3</desc>
@@ -308920,8 +309220,9 @@
   </programme>
   <channel id="itv4.uk">
     <display-name>ITV4 HD</display-name>
+    <display-name>UK ITV4</display-name>
     <icon src="https://i.imgur.com/DYI4IA2.png" />
-  <display-name>UK ITV4</display-name></channel>
+  </channel>
   <programme start="20261117220500 +0000" stop="20261118000500 +0000" channel="itv4.uk">
     <title lang="en">New: AEW: Collision</title>
     <desc lang="en">Hard-hitting action from AEW's newest show, featuring stars including Kyle Fletcher, Kazuchika Okada, Megan Bayne, Tommaso Ciampa and Claudio Castagnoli.</desc>
@@ -311414,8 +311715,9 @@
   </programme>
   <channel id="quest.uk">
     <display-name>QUEST HD</display-name>
+    <display-name>UK QUEST</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
-  <display-name>UK QUEST</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="quest.uk">
     <title lang="en">How Do They Do It?</title>
     <desc lang="en">How do engineers build and control high-tech, unmanned aircraft? Plus, the process of removing caffeine from coffee is revealed.</desc>
@@ -312318,8 +312620,9 @@
   </programme>
   <channel id="more4.uk">
     <display-name>More4</display-name>
+    <display-name>UK More 4</display-name>
     <icon src="https://i.imgur.com/cx5YcAU.png" />
-  <display-name>UK More 4</display-name></channel>
+  </channel>
   <programme start="20261117230500 +0000" stop="20261118000500 +0000" channel="more4.uk">
     <title lang="en">Emergency Helicopter Medics</title>
     <desc lang="en">A freak car accident in Cumbria leaves Richard fighting for his life. In Hampshire, horse rider Pat takes a nasty fall when her animal is spooked. (S3 Ep2)</desc>
@@ -312748,8 +313051,9 @@
   </programme>
   <channel id="cnn.uk">
     <display-name>CNN HD</display-name>
+    <display-name>UK CNN</display-name>
     <icon src="https://i.imgur.com/dfxefQw.png" />
-  <display-name>UK CNN</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="cnn.uk">
     <title lang="en">Erin Burnett OutFront</title>
     <desc lang="en">Tuesday, November 17, 2026 7PM. Erin Burnett stays ahead of the headlines, delivering a show that's in-depth and informative.</desc>
@@ -313130,8 +313434,9 @@
   </programme>
   <channel id="questred.uk">
     <display-name>Quest Red</display-name>
+    <display-name>UK Quest Red</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
-  <display-name>UK Quest Red</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="questred.uk">
     <title lang="en">Murder On CCTV</title>
     <desc lang="en">Come Home Sierra. 15-year-old Sierra LaMar disappears on her way to school. Surveillance footage and diligent police work help to reveal the chilling truth. S6, Ep20</desc>
@@ -313550,8 +313855,9 @@
   </programme>
   <channel id="greattv.uk">
     <display-name>Great! TV</display-name>
+    <display-name>UK GREAT! tv</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
-  <display-name>UK GREAT! tv</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118003000 +0000" channel="greattv.uk">
     <title lang="en">M*A*S*H</title>
     <desc lang="en">Welcome to Korea - Part 1: Hawkeye returns from R&amp;R to find Trapper has been discharged. He drives Radar at breakneck speed to the airport, but Trapper's plane has gone. (S4 Ep1)</desc>
@@ -314022,8 +314328,9 @@
   </programme>
   <channel id="arisenews.uk">
     <display-name>Arise News</display-name>
+    <display-name>UK Arise News</display-name>
     <icon src="https://i.imgur.com/B5IXKIb.png" />
-  <display-name>UK Arise News</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="arisenews.uk">
     <title lang="en">Prime Time</title>
     <desc lang="en">Current Affairs Programme with Newsmakers and InDepth Analysis of Topical Issues.</desc>
@@ -314178,8 +314485,9 @@
   </programme>
   <channel id="animalplanet.uk">
     <display-name>Animal Planet</display-name>
+    <display-name>UK Animal Planet</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
-  <display-name>UK Animal Planet</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="animalplanet.uk">
     <title lang="en">Crikey! It's the Irwins</title>
     <desc lang="en">It's A Baby Giraffe! There's huge excitement at Australia Zoo: Rosie the Giraffe is set to give birth! Robert has a bloody encounter with a wild python that entered an enclosure. S1, Ep7</desc>
@@ -314564,8 +314872,9 @@
   </programme>
   <channel id="skysportsmainevent.uk">
     <display-name>SkySpMainEvHD</display-name>
+    <display-name>UK Sky Sports Main Event</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" />
-  <display-name>UK Sky Sports Main Event</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118040000 +0000" channel="skysportsmainevent.uk">
     <title lang="en">Live NBA: Pistons @ Spurs</title>
     <desc lang="en">The San Antonio Spurs take on the Detroit Pistons in the NBA. The Spurs are riding a 12-game winning streak, with the latest victory coming over Utah on Sunday.</desc>
@@ -315216,8 +315525,9 @@
   </programme>
   <channel id="crimeplusinvestigation.uk">
     <display-name>Crime+Inv HD</display-name>
+    <display-name>UK Crime+Inv</display-name>
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
-  <display-name>UK Crime+Inv</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="crimeplusinvestigation.uk">
     <title lang="en">Britain's Darkest Taboos</title>
     <desc lang="en">My Mother Murdered By Her Golden Boy Son: Family members question what drove 31-year-old Ross Taggart to murder his mother and dispose of her body under a caravan in Fife.</desc>
@@ -315632,4 +315942,4 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://images.metadata.sky.com/pd-image/aa2cf173-291b-4a14-ac06-444277d0913a/16-9/640</image>
   </programme>
-  </tv>
+</tv>

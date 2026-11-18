@@ -72,6 +72,34 @@ def parse_xmltv_datetime(value: str) -> datetime:
     return when.replace(tzinfo=offset)
 
 
+def national_guide_sort_key(path: Path) -> str:
+    return path.name.casefold()
+
+
+def display_name_identity(node: ET.Element) -> tuple[str, tuple[tuple[str, str], ...]]:
+    return (node.text or '', tuple(sorted(node.attrib.items())))
+
+
+def merge_display_names(canonical: ET.Element, incoming: ET.Element) -> None:
+    """Append unseen display-names after the canonical name block, not after icon/url."""
+    known = {display_name_identity(node) for node in canonical.findall('display-name')}
+    new_names: list[ET.Element] = []
+    for display_name in incoming.findall('display-name'):
+        identity = display_name_identity(display_name)
+        if identity in known:
+            continue
+        known.add(identity)
+        new_names.append(copy.deepcopy(display_name))
+    if not new_names:
+        return
+    insert_at = 0
+    for index, child in enumerate(canonical):
+        if child.tag == 'display-name':
+            insert_at = index + 1
+    for offset, node in enumerate(new_names):
+        canonical.insert(insert_at + offset, node)
+
+
 def madrid_two_day_window(reference: datetime | None = None) -> tuple[datetime, datetime]:
     """Inclusive today and tomorrow in Europe/Madrid, as [start, end)."""
     anchor = datetime.now(MADRID) if reference is None else reference.astimezone(MADRID)
@@ -146,7 +174,7 @@ def read_guide(path):
 def merge(paths, *, reference: datetime | None = None, trim_tomorrow_metadata: bool = True) -> ET.Element:
     channels = {}
     programs = {}
-    for path in paths:
+    for path in sorted(paths, key=national_guide_sort_key):
         root = read_guide(path)
         for c in root.findall('channel'):
             channel_id = c.get('id')
@@ -157,15 +185,7 @@ def merge(paths, *, reference: datetime | None = None, trim_tomorrow_metadata: b
             # channel is present in multiple guides. The first definition
             # remains authoritative for other metadata.
             canonical = channels[channel_id]
-            known_names = {
-                (node.text or '', tuple(sorted(node.attrib.items())))
-                for node in canonical.findall('display-name')
-            }
-            for display_name in c.findall('display-name'):
-                identity = (display_name.text or '', tuple(sorted(display_name.attrib.items())))
-                if identity not in known_names:
-                    canonical.append(copy.deepcopy(display_name))
-                    known_names.add(identity)
+            merge_display_names(canonical, c)
         for p in root.findall('programme'):
             key = (p.get('channel'), p.get('start'), p.get('stop'), tuple((x.tag, x.text or '') for x in p))
             programs.setdefault(key, copy.deepcopy(p))

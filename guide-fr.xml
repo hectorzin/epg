@@ -2,64 +2,88 @@
 <tv>
   <channel id="13emeRue.fr@SD">
     <display-name>13ème rue</display-name>
+    <display-name>13ème Rue</display-name>
+    <display-name>PLANETE+CRIME</display-name>
+    <display-name>13eme Rue ʜᴅ</display-name>
     <icon src="https://i.imgur.com/k0DCMTL.png" />
-  <display-name>13ème Rue</display-name><display-name>PLANETE+CRIME</display-name><display-name>13eme Rue ʜᴅ</display-name></channel>
+  </channel>
   <channel id="France2.fr@SD">
     <display-name>France 2</display-name>
+    <display-name>France 2 ʜᴅ</display-name>
+    <display-name>France 2 Hevc</display-name>
+    <display-name>France 2 Full HD</display-name>
+    <display-name>France 2 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" />
-  <display-name>France 2 ʜᴅ</display-name><display-name>France 2 Hevc</display-name><display-name>France 2 Full HD</display-name><display-name>France 2 4K</display-name></channel>
+  </channel>
   <channel id="AB1.fr@SD">
     <display-name>AB1</display-name>
+    <display-name>AB1 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/9C7UsOe.png" />
-  <display-name>AB1 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="Mangas.fr@SD">
     <display-name>Mangas</display-name>
+    <display-name>MANGAS</display-name>
     <icon src="https://i.imgur.com/wmmEOza.png" />
-  <display-name>MANGAS</display-name></channel>
+  </channel>
   <channel id="ToutelHistoire.fr@SD">
     <display-name>Toute l'histoire</display-name>
+    <display-name>Toute L Histoire</display-name>
     <icon src="https://i.imgur.com/xRfyQYn.png" />
-  <display-name>Toute L Histoire</display-name></channel>
+  </channel>
   <channel id="Action.fr@SD">
     <display-name>Action</display-name>
+    <display-name>Action 2</display-name>
+    <display-name>Action Full HD</display-name>
     <icon src="https://i.imgur.com/Zv9VsVq.png" />
-  <display-name>Action 2</display-name><display-name>Action Full HD</display-name></channel>
+  </channel>
   <channel id="Animaux.fr@SD">
     <display-name>Animaux</display-name>
+    <display-name>ANIMAUX Full HD</display-name>
+    <display-name>ANIMAUX</display-name>
     <icon src="https://i.imgur.com/FM9FVAG.png" />
-  <display-name>ANIMAUX Full HD</display-name><display-name>ANIMAUX</display-name></channel>
+  </channel>
   <channel id="DasErste.de@SD">
     <display-name>Das Erste</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" />
   </channel>
   <channel id="Automotolachaine.fr@SD">
     <display-name>Auto Moto</display-name>
+    <display-name>AUTOMOTO la chaine</display-name>
     <icon src="https://i.imgur.com/ebf2uc7.png" />
-  <display-name>AUTOMOTO la chaine</display-name></channel>
+  </channel>
   <channel id="BBCNews.uk@Europe">
     <display-name>BBC NEWS</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="CanalJ.fr@SD">
     <display-name>Canal J</display-name>
+    <display-name>CANAL J Full HD</display-name>
+    <display-name>Canal J 4K</display-name>
+    <display-name>CANAL J</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/960px-Canal_J_2019_Logo.png" />
-  <display-name>CANAL J Full HD</display-name><display-name>Canal J 4K</display-name><display-name>CANAL J</display-name></channel>
+  </channel>
   <channel id="CartoonNetworkWesternEurope.uk@SD">
     <display-name>Cartoon Network</display-name>
+    <display-name>CARTOON NETWORK</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
-  <display-name>CARTOON NETWORK</display-name></channel>
+  </channel>
   <channel id="ChassePeche.fr@SD">
     <display-name>Chasse et Pêche</display-name>
+    <display-name>CHASSE ET PECHE</display-name>
     <icon src="https://i.imgur.com/ZIS2ZQ1.png" />
-  <display-name>CHASSE ET PECHE</display-name></channel>
+  </channel>
   <channel id="France5.fr@SD">
     <display-name>France 5</display-name>
+    <display-name>France 5 ʜᴅ</display-name>
+    <display-name>France 5 Full HD</display-name>
+    <display-name>France 5 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" />
-  <display-name>France 5 ʜᴅ</display-name><display-name>France 5 Full HD</display-name><display-name>France 5 4K</display-name></channel>
+  </channel>
   <channel id="SerieClub.fr@SD">
     <display-name>SERIE CLUB</display-name>
+    <display-name>Serie Club HD</display-name>
     <icon src="https://i.imgur.com/V8wRRg5.png" />
-  <display-name>Serie Club HD</display-name></channel>
+  </channel>
   <channel id="CNBCEurope.uk@SD">
     <display-name>CNBC Europe</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
@@ -86,8 +110,9 @@
   </channel>
   <channel id="Equidia.fr@SD">
     <display-name>Equidia</display-name>
+    <display-name>EQUIDIA</display-name>
     <icon src="https://i.imgur.com/QPpbRcZ.png" />
-  <display-name>EQUIDIA</display-name></channel>
+  </channel>
   <channel id="ETB1.es@SD">
     <display-name>ETB1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/960px-ETB1_2022_logo.svg.png" />
@@ -98,20 +123,27 @@
   </channel>
   <channel id="Eurosport1.fr@France">
     <display-name>EUROSPORT 1 HD</display-name>
+    <display-name>EUROSPORT 1</display-name>
     <icon src="https://i.imgur.com/olQJgm7.png" />
-  <display-name>EUROSPORT 1</display-name></channel>
+  </channel>
   <channel id="France4.fr@SD">
     <display-name>France 4</display-name>
+    <display-name>France 4 ʜᴅ</display-name>
+    <display-name>France 4 Full HD</display-name>
+    <display-name>France 4 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" />
-  <display-name>France 4 ʜᴅ</display-name><display-name>France 4 Full HD</display-name><display-name>France 4 4K</display-name></channel>
+  </channel>
   <channel id="France3.fr@SD">
     <display-name>France 3</display-name>
+    <display-name>France 3 ʜᴅ</display-name>
+    <display-name>France 3 Full HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
-  <display-name>France 3 ʜᴅ</display-name><display-name>France 3 Full HD</display-name></channel>
+  </channel>
   <channel id="GameOne.fr@SD">
     <display-name>Game One</display-name>
+    <display-name>GAME ONE HD</display-name>
     <icon src="https://i.imgur.com/UHkaObv.png" />
-  <display-name>GAME ONE HD</display-name></channel>
+  </channel>
   <channel id="HistoireTV.fr@SD">
     <display-name>Histoire TV</display-name>
     <icon src="https://i.imgur.com/hxuJXll.png" />
@@ -122,12 +154,17 @@
   </channel>
   <channel id="arte.fr@SD">
     <display-name>Arte</display-name>
+    <display-name>Arte ʜᴅ</display-name>
+    <display-name>Arte Full HD</display-name>
+    <display-name>ARTE 4K</display-name>
     <icon src="https://i.imgur.com/ecXMjNl.png" />
-  <display-name>Arte ʜᴅ</display-name><display-name>Arte Full HD</display-name><display-name>ARTE 4K</display-name></channel>
+  </channel>
   <channel id="LCI.fr@SD">
     <display-name>LCI</display-name>
+    <display-name>LCI Full HD</display-name>
+    <display-name>LCI 4K</display-name>
     <icon src="https://i.imgur.com/DED8EXs.png" />
-  <display-name>LCI Full HD</display-name><display-name>LCI 4K</display-name></channel>
+  </channel>
   <channel id="RTL9.lu@SD">
     <display-name>RTL9</display-name>
     <icon src="https://i.imgur.com/nFqjVNW.png" />
@@ -138,12 +175,19 @@
   </channel>
   <channel id="M6.fr@HD">
     <display-name>M6</display-name>
+    <display-name>M6 ʜᴅ</display-name>
+    <display-name>M6 Hevc</display-name>
+    <display-name>M6 Full HD</display-name>
+    <display-name>M6 4K</display-name>
     <icon src="https://i.imgur.com/7GVp3fW.png" />
-  <display-name>M6 ʜᴅ</display-name><display-name>M6 Hevc</display-name><display-name>M6 Full HD</display-name><display-name>M6 4K</display-name></channel>
+  </channel>
   <channel id="W9.fr@SD">
     <display-name>W9</display-name>
+    <display-name>W9 HD</display-name>
+    <display-name>W9 Full HD</display-name>
+    <display-name>W9 4K</display-name>
     <icon src="https://i.imgur.com/reYeMuE.png" />
-  <display-name>W9 HD</display-name><display-name>W9 Full HD</display-name><display-name>W9 4K</display-name></channel>
+  </channel>
   <channel id="MCM.fr@SD">
     <display-name>MCM</display-name>
     <icon src="https://i.imgur.com/F5WNCp0.png" />
@@ -158,16 +202,20 @@
   </channel>
   <channel id="MTV.fr@SD">
     <display-name>MTV</display-name>
+    <display-name>MTV Full HD</display-name>
+    <display-name>MTV 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>MTV Full HD</display-name><display-name>MTV 4K</display-name></channel>
+  </channel>
   <channel id="EuronewsFrench.fr@SD">
     <display-name>Euronews Fra</display-name>
+    <display-name>EURONEWS FRENCH SD</display-name>
     <icon src="https://i.imgur.com/5A0Wnrv.png" />
-  <display-name>EURONEWS FRENCH SD</display-name></channel>
+  </channel>
   <channel id="ParisPremiere.fr@SD">
     <display-name>Paris Première</display-name>
+    <display-name>Paris Premiere HD</display-name>
     <icon src="https://i.imgur.com/ily4bEm.png" />
-  <display-name>Paris Premiere HD</display-name></channel>
+  </channel>
   <channel id="Rai2.it@SD">
     <display-name>Rai Due</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
@@ -190,8 +238,10 @@
   </channel>
   <channel id="Seasons.fr@SD">
     <display-name>SEASONS</display-name>
+    <display-name>SEASONS Full HD</display-name>
+    <display-name>Seasons 4K</display-name>
     <icon src="https://i.imgur.com/vBti1As.png" />
-  <display-name>SEASONS Full HD</display-name><display-name>Seasons 4K</display-name></channel>
+  </channel>
   <channel id="SWRFernsehenHD.de@SD">
     <display-name>SWR</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/960px-SWR_Logo_2023.svg.png" />
@@ -202,24 +252,31 @@
   </channel>
   <channel id="Teva.fr@SD">
     <display-name>Téva</display-name>
+    <display-name>Teva HD</display-name>
     <icon src="https://i.imgur.com/kDW0hN5.png" />
-  <display-name>Teva HD</display-name></channel>
+  </channel>
   <channel id="TF1.fr@SD">
     <display-name>TF1</display-name>
+    <display-name>TF1 ʜᴅ</display-name>
+    <display-name>TF1 Full HD</display-name>
     <icon src="https://i.imgur.com/QxHt9NC.png" />
-  <display-name>TF1 ʜᴅ</display-name><display-name>TF1 Full HD</display-name></channel>
+  </channel>
   <channel id="TMC.fr@SD">
     <display-name>TMC</display-name>
+    <display-name>Tmc HD</display-name>
+    <display-name>Tmc Full HD</display-name>
+    <display-name>TMC 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" />
-  <display-name>Tmc HD</display-name><display-name>Tmc Full HD</display-name><display-name>TMC 4K</display-name></channel>
+  </channel>
   <channel id="TV3CAT.es@SD">
     <display-name>TV3 Catalunya</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png" />
   </channel>
   <channel id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD">
     <display-name>TV5 Monde</display-name>
+    <display-name>TV5 MONDE</display-name>
     <icon src="https://i.imgur.com/WmRbudc.png" />
-  <display-name>TV5 MONDE</display-name></channel>
+  </channel>
   <channel id="TVEInternacionalEuropeAsia.es@SD">
     <display-name>TVE</display-name>
   </channel>
@@ -233,56 +290,74 @@
   </channel>
   <channel id="TVBreizh.fr@SD">
     <display-name>TV Breizh</display-name>
+    <display-name>TV Breizh HD</display-name>
+    <display-name>TV Breizh 4K</display-name>
     <icon src="https://i.imgur.com/O8W4yhn.png" />
-  <display-name>TV Breizh HD</display-name><display-name>TV Breizh 4K</display-name></channel>
+  </channel>
   <channel id="CNews.fr@SD">
     <display-name>CNews</display-name>
+    <display-name>CNEWS</display-name>
+    <display-name>CNEWS Full HD</display-name>
+    <display-name>CNEWS 4K</display-name>
     <icon src="https://i.imgur.com/sSNhk2g.png" />
-  <display-name>CNEWS</display-name><display-name>CNEWS Full HD</display-name><display-name>CNEWS 4K</display-name></channel>
+  </channel>
   <channel id="TiJi.fr@SD">
     <display-name>Tiji</display-name>
     <icon src="https://i.imgur.com/ZjsfAGb.png" />
   </channel>
   <channel id="LCP.fr@SD">
     <display-name>LCP-Public Sénat</display-name>
+    <display-name>LCP</display-name>
+    <display-name>LCP Full HD</display-name>
+    <display-name>LCP 4K</display-name>
     <icon src="https://i.imgur.com/k7UImOJ.png" />
-  <display-name>LCP</display-name><display-name>LCP Full HD</display-name><display-name>LCP 4K</display-name></channel>
+  </channel>
   <channel id="RFMTV.fr@SD">
     <display-name>RFM TV</display-name>
+    <display-name>RFM TV Full HD</display-name>
     <icon src="https://i.imgur.com/FVDTJxW.png" />
-  <display-name>RFM TV Full HD</display-name></channel>
+  </channel>
   <channel id="Melody.fr@SD">
     <display-name>Melody TV</display-name>
+    <display-name>MELODY</display-name>
     <icon src="https://i.imgur.com/9GVyQ6x.png" />
-  <display-name>MELODY</display-name></channel>
+  </channel>
   <channel id="TV7Bordeaux.fr@SD">
     <display-name>TV7 Bordeaux</display-name>
     <icon src="https://i.imgur.com/lJdlu2r.png" />
   </channel>
   <channel id="CinePlusOCS.fr@SD">
     <display-name>OCS</display-name>
+    <display-name>Ciné+ Premier</display-name>
+    <display-name>Ciné+ Premier 2</display-name>
     <icon src="https://i.imgur.com/ujin9Uf.png" />
-  <display-name>Ciné+ Premier</display-name><display-name>Ciné+ Premier 2</display-name></channel>
+  </channel>
   <channel id="CinePlusEmotion.fr@SD">
     <display-name>CINE+ émotion</display-name>
+    <display-name>Ciné+ Émotion</display-name>
     <icon src="https://i.imgur.com/upYjPvc.jpeg" />
-  <display-name>Ciné+ Émotion</display-name></channel>
+  </channel>
   <channel id="CinePlusFrisson.fr@SD">
     <display-name>CINE+ frisson</display-name>
+    <display-name>Ciné+ Frisson</display-name>
+    <display-name>Ciné+ Frisson 2</display-name>
     <icon src="https://i.imgur.com/MwFtbnR.jpeg" />
-  <display-name>Ciné+ Frisson</display-name><display-name>Ciné+ Frisson 2</display-name></channel>
+  </channel>
   <channel id="CinePlusFestival.fr@SD">
     <display-name>CINE+ festival</display-name>
     <icon src="https://i.imgur.com/ROvEXf9.jpeg" />
   </channel>
   <channel id="CinePlusClassic.fr@SD">
     <display-name>CINE+ classic</display-name>
+    <display-name>Ciné+ Classic</display-name>
+    <display-name>Ciné+ Classic 2</display-name>
     <icon src="https://i.imgur.com/y2zeLS3.jpeg" />
-  <display-name>Ciné+ Classic</display-name><display-name>Ciné+ Classic 2</display-name></channel>
+  </channel>
   <channel id="DisneyChannel.fr@Plus1">
     <display-name>DISNEY CHANNEL +1</display-name>
+    <display-name>DISNEY CHANNEL+ 1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
-  <display-name>DISNEY CHANNEL+ 1</display-name></channel>
+  </channel>
   <channel id="France3.fr@CorseViaStella">
     <display-name>France 3 via Stella</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/0/07/France_3_Corse_Via_Stella_-_Logo.svg" />
@@ -293,24 +368,28 @@
   </channel>
   <channel id="Boomerang.fr@SD">
     <display-name>Boomerang</display-name>
+    <display-name>BOOMERANG</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
-  <display-name>BOOMERANG</display-name></channel>
+  </channel>
   <channel id="TraceUrban.fr@SD">
     <display-name>Trace Urban</display-name>
     <icon src="https://i.imgur.com/DLIbUMx.png" />
   </channel>
   <channel id="2MMonde.ma@SD">
     <display-name>2M Maroc</display-name>
+    <display-name>MA 2M Maroc</display-name>
+    <display-name>TNT 2M.</display-name>
     <icon src="https://i.imgur.com/MvpntzA.png" />
-  <display-name>MA 2M Maroc</display-name><display-name>TNT 2M.</display-name></channel>
+  </channel>
   <channel id="AlJazeera.qa@Arabic">
     <display-name>Al Jazeera</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540" />
   </channel>
   <channel id="TV2.dz@SD">
     <display-name>Canal Algérie</display-name>
+    <display-name>DZ CANAL ALGERIE</display-name>
     <icon src="https://i.imgur.com/VEb631f.png" />
-  <display-name>DZ CANAL ALGERIE</display-name></channel>
+  </channel>
   <channel id="AlMasriyah.eg@SD">
     <display-name>Al Masriya</display-name>
     <icon src="https://i.ibb.co/Kx7wmXCQ/almasriya.png" />
@@ -333,8 +412,9 @@
   </channel>
   <channel id="TT1.tn@SD">
     <display-name>Tunisia 1</display-name>
+    <display-name>TN Tunisia NAT 1</display-name>
     <icon src="https://i.imgur.com/bFDWP2O.png" />
-  <display-name>TN Tunisia NAT 1</display-name></channel>
+  </channel>
   <channel id="Matele.be@SD">
     <display-name>Vià MATÉLÉ</display-name>
     <icon src="https://i.imgur.com/rw72POr.png" />
@@ -353,8 +433,9 @@
   </channel>
   <channel id="E.fr@SD">
     <display-name>E! Entertainment</display-name>
+    <display-name>E ! HD</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png" />
-  <display-name>E ! HD</display-name></channel>
+  </channel>
   <channel id="PinkTV.fr@SD">
     <display-name>Pink TV / Pink X</display-name>
     <icon src="https://i.imgur.com/FOFRZrD.png" />
@@ -373,44 +454,61 @@
   </channel>
   <channel id="Eurosport2.fr@France">
     <display-name>EUROSPORT 2 HD</display-name>
+    <display-name>EUROSPORT 2</display-name>
     <icon src="https://i.imgur.com/f56dHgR.png" />
-  <display-name>EUROSPORT 2</display-name></channel>
+  </channel>
   <channel id="TFX.fr@SD">
     <display-name>TFX</display-name>
+    <display-name>TFX HD</display-name>
+    <display-name>TFX Full HD</display-name>
+    <display-name>TFX 4K</display-name>
     <icon src="https://i.imgur.com/d91GcVf.png" />
-  <display-name>TFX HD</display-name><display-name>TFX Full HD</display-name><display-name>TFX 4K</display-name></channel>
+  </channel>
   <channel id="UshuaiaTV.fr@SD">
     <display-name>Ushuaia TV</display-name>
+    <display-name>USHUAIA TV</display-name>
     <icon src="https://i.imgur.com/WjjlqbP.png" />
-  <display-name>USHUAIA TV</display-name></channel>
+  </channel>
   <channel id="M6Music.fr@SD">
     <display-name>M6 Music</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/6/68/M6music-95cde0867d.svg/revision/latest?cb=20200412210630" />
   </channel>
   <channel id="CStar.fr@SD">
     <display-name>CStar</display-name>
+    <display-name>CSTAR HD</display-name>
+    <display-name>CSTAR Full HD</display-name>
     <icon src="https://i.imgur.com/w4kAX1V.png" />
-  <display-name>CSTAR HD</display-name><display-name>CSTAR Full HD</display-name></channel>
+  </channel>
   <channel id="OLTV.fr@SD">
     <display-name>OLPLAY</display-name>
     <icon src="https://i.imgur.com/0Y856vu.png" />
   </channel>
   <channel id="Nickelodeon.fr@SD">
     <display-name>Nickelodeon</display-name>
+    <display-name>NICKELODEON Full HD</display-name>
+    <display-name>Nickelodeon 4K</display-name>
+    <display-name>NICKELODEON</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
-  <display-name>NICKELODEON Full HD</display-name><display-name>Nickelodeon 4K</display-name><display-name>NICKELODEON</display-name></channel>
+  </channel>
   <channel id="Syfy.fr@SD">
     <display-name>Syfy</display-name>
+    <display-name>Syfy HD</display-name>
+    <display-name>SYFY</display-name>
     <icon src="https://i.imgur.com/gUOXdjv.png" />
-  <display-name>Syfy HD</display-name><display-name>SYFY</display-name></channel>
+  </channel>
   <channel id="BFMTV.fr@SD">
     <display-name>BFM TV</display-name>
+    <display-name>BFM TV Full HD</display-name>
+    <display-name>BFM TV 4K</display-name>
     <icon src="https://i.imgur.com/YJCcczD.png" />
-  <display-name>BFM TV Full HD</display-name><display-name>BFM TV 4K</display-name></channel>
+  </channel>
   <channel id="Gulli.fr@SD">
     <display-name>Gulli</display-name>
+    <display-name>GULLI</display-name>
+    <display-name>GULLI Full HD</display-name>
+    <display-name>Gulli 4K</display-name>
     <icon src="https://i.imgur.com/kqYssbW.png" />
-  <display-name>GULLI</display-name><display-name>GULLI Full HD</display-name><display-name>Gulli 4K</display-name></channel>
+  </channel>
   <channel id="Telenantes.fr@SD">
     <display-name>Télé Nantes</display-name>
     <icon src="https://i.imgur.com/G1SCqNI.png" />
@@ -545,8 +643,9 @@
   </channel>
   <channel id="Medi1TVAfrique.ma@SD">
     <display-name>Medi 1 TV</display-name>
+    <display-name>TNT Medi1 TV.</display-name>
     <icon src="https://i.imgur.com/a20DHnj.png" />
-  <display-name>TNT Medi1 TV.</display-name></channel>
+  </channel>
   <channel id="France24.fr@English">
     <display-name>France 24 ENG</display-name>
     <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
@@ -581,8 +680,9 @@
   </channel>
   <channel id="AlAoula.ma@SD">
     <display-name>Al Aoula</display-name>
+    <display-name>TNT Al Aoula HD.</display-name>
     <icon src="https://i.imgur.com/nq53d2N.png" />
-  <display-name>TNT Al Aoula HD.</display-name></channel>
+  </channel>
   <channel id="BeijingSatelliteTV.cn@SD">
     <display-name>Beijing TV</display-name>
     <icon src="https://i.imgur.com/vsktAez.png" />
@@ -697,8 +797,9 @@
   </channel>
   <channel id="NickelodeonJunior.fr@SD">
     <display-name>Nickelodeon Junior</display-name>
+    <display-name>NICKELODEON JUNIOR</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" />
-  <display-name>NICKELODEON JUNIOR</display-name></channel>
+  </channel>
   <channel id="MezzoLive.fr@SD">
     <display-name>Mezzo Live</display-name>
     <icon src="https://i.imgur.com/H9ytKPN.png" />
@@ -733,20 +834,29 @@
   </channel>
   <channel id="Arryadia.ma@HD">
     <display-name>Arryadia</display-name>
+    <display-name>MA Arryadia HD</display-name>
+    <display-name>TNT Arryadia FULL HD</display-name>
+    <display-name>TNT Arryadia HD.</display-name>
     <icon src="https://i.imgur.com/XjzK3gZ.png" />
-  <display-name>MA Arryadia HD</display-name><display-name>TNT Arryadia FULL HD</display-name><display-name>TNT Arryadia HD.</display-name></channel>
+  </channel>
   <channel id="AlMaghribia.ma@SD">
     <display-name>Al Maghribia</display-name>
+    <display-name>MA Al Maghribia HD</display-name>
+    <display-name>TNT Al Maghribia.</display-name>
     <icon src="https://i.imgur.com/7GaahYh.png" />
-  <display-name>MA Al Maghribia HD</display-name><display-name>TNT Al Maghribia.</display-name></channel>
+  </channel>
   <channel id="Athaqafia.ma@SD">
     <display-name>Arrabiâ</display-name>
+    <display-name>MA Athaqafia HD</display-name>
+    <display-name>TNT Athaqafia .</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png" />
-  <display-name>MA Athaqafia HD</display-name><display-name>TNT Athaqafia .</display-name></channel>
+  </channel>
   <channel id="Assadissa.ma@SD">
     <display-name>Assadissa</display-name>
+    <display-name>MA Assadissa</display-name>
+    <display-name>TNT Assadissa HD.</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/medium_Assadissa_f8b25de821.png" />
-  <display-name>MA Assadissa</display-name><display-name>TNT Assadissa HD.</display-name></channel>
+  </channel>
   <channel id="3sat.de@SD">
     <display-name>3 SAT</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
@@ -833,8 +943,9 @@
   </channel>
   <channel id="BFMBusiness.fr@SD">
     <display-name>BFM Business</display-name>
+    <display-name>BFM BUSINESS HD</display-name>
     <icon src="https://i.imgur.com/psqIHn4.png" />
-  <display-name>BFM BUSINESS HD</display-name></channel>
+  </channel>
   <channel id="VosgesTV.fr@SD">
     <display-name>vià Vosges</display-name>
     <icon src="https://i.imgur.com/7y7ancc.png" />
@@ -896,8 +1007,9 @@
   </channel>
   <channel id="TraceAfrica.fr@SD">
     <display-name>Trace Africa</display-name>
+    <display-name>TRACE URBAN</display-name>
     <icon src="https://i.imgur.com/kPUkoS7.png" />
-  <display-name>TRACE URBAN</display-name></channel>
+  </channel>
   <channel id="Colors.in@SD">
     <display-name>Colors</display-name>
     <icon src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/108/1782291760108-h.jpg" />
@@ -936,75 +1048,103 @@
   </channel>
   <channel id="beINSports1.qa@France">
     <display-name>beIN SPORTS 1</display-name>
+    <display-name>beIN Sports 1 SD</display-name>
+    <display-name>beIN Sports 1 4K</display-name>
+    <display-name>beIN Sports 1 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/Vtk2cGI.png" />
-  <display-name>beIN Sports 1 SD</display-name><display-name>beIN Sports 1 4K</display-name><display-name>beIN Sports 1 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="GolfporMovistarPlusPlus.es@SD">
     <display-name>GOLF+ HD</display-name>
   </channel>
   <channel id="beINSports2.qa@France">
     <display-name>beIN SPORTS 2</display-name>
+    <display-name>beIN Sports 2 SD</display-name>
+    <display-name>beIN Sports 2 4K</display-name>
+    <display-name>beIN Sports 2 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/vUJZSvs.png" />
-  <display-name>beIN Sports 2 SD</display-name><display-name>beIN Sports 2 4K</display-name><display-name>beIN Sports 2 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="TebeoTV.fr@SD">
     <display-name>Tébéo</display-name>
     <icon src="https://i.imgur.com/WdZWBEd.png" />
   </channel>
   <channel id="beINSports3.qa@France">
     <display-name>beIN SPORTS 3</display-name>
+    <display-name>beIN Sports 3 SD</display-name>
+    <display-name>beIN Sports 3 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/UYSMao3.png" />
-  <display-name>beIN Sports 3 SD</display-name><display-name>beIN Sports 3 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax4.qa@France">
     <display-name>beIN SPORTS MAX 4</display-name>
+    <display-name>beIN Sports Max 4 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/j7osMfM.png" />
-  <display-name>beIN Sports Max 4 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax5.qa@France">
     <display-name>beIN SPORTS MAX 5</display-name>
+    <display-name>beIN Sports Max 5 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/L6TvXAi.png" />
-  <display-name>beIN Sports Max 5 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax6.qa@France">
     <display-name>beIN SPORTS MAX 6</display-name>
+    <display-name>beIN Sports Max 6 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/GHZHRPF.png" />
-  <display-name>beIN Sports Max 6 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax7.qa@France">
     <display-name>beIN SPORTS MAX 7</display-name>
+    <display-name>beIN Sports Max 7 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/sMH0tFc.png" />
-  <display-name>beIN Sports Max 7 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax8.qa@France">
     <display-name>beIN SPORTS MAX 8</display-name>
+    <display-name>beIN Sports Max 8 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/VTzzoQP.png" />
-  <display-name>beIN Sports Max 8 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax9.qa@France">
     <display-name>beIN SPORTS MAX 9</display-name>
+    <display-name>beIN Sports Max 9 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/dMTBut1.png" />
-  <display-name>beIN Sports Max 9 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="beINSportsMax10.qa@France">
     <display-name>beIN SPORTS MAX 10</display-name>
+    <display-name>beIN Sports Max 10 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/lVB4Ao9.png" />
-  <display-name>beIN Sports Max 10 ʜᴅ</display-name></channel>
+  </channel>
   <channel id="TLC.fr@SD">
     <display-name>TLC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
   </channel>
   <channel id="RMCDecouverte.fr@SD">
     <display-name>RMC Découverte</display-name>
+    <display-name>RMC DECOUVERTE</display-name>
+    <display-name>RMC DECOUVERTE Full HD</display-name>
+    <display-name>RMC Decouverte 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png" />
-  <display-name>RMC DECOUVERTE</display-name><display-name>RMC DECOUVERTE Full HD</display-name><display-name>RMC Decouverte 4K</display-name></channel>
+  </channel>
   <channel id="LEquipe.fr@SD">
     <display-name>L'équipe</display-name>
     <icon src="https://i.imgur.com/t35zhM9.png" />
   </channel>
   <channel id="RMCStory.fr@SD">
     <display-name>RMC Story</display-name>
+    <display-name>RMC STORY HD</display-name>
+    <display-name>RMC STORY Full HD</display-name>
+    <display-name>RMC Story 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" />
-  <display-name>RMC STORY HD</display-name><display-name>RMC STORY Full HD</display-name><display-name>RMC Story 4K</display-name></channel>
+  </channel>
   <channel id="6ter.fr@SD">
     <display-name>6ter</display-name>
+    <display-name>6Ter HD</display-name>
+    <display-name>6Ter Full HD</display-name>
+    <display-name>6Ter</display-name>
+    <display-name>PLANETE +AVENTURE</display-name>
     <icon src="https://i.imgur.com/2nd5Cox.png" />
-  <display-name>6Ter HD</display-name><display-name>6Ter Full HD</display-name><display-name>6Ter</display-name><display-name>PLANETE +AVENTURE</display-name></channel>
+  </channel>
   <channel id="TF1SeriesFilms.fr@SD">
     <display-name>TF1 Séries-Films</display-name>
+    <display-name>TF1 Series Film ʜᴅ</display-name>
+    <display-name>TF1 Series Films Full HD</display-name>
+    <display-name>TF1 SERIES FILMS 4K</display-name>
     <icon src="https://i.imgur.com/4CJIDKQ.png" />
-  <display-name>TF1 Series Film ʜᴅ</display-name><display-name>TF1 Series Films Full HD</display-name><display-name>TF1 SERIES FILMS 4K</display-name></channel>
+  </channel>
   <channel id="MensUPTV.fr@SD">
     <display-name>Men's Up TV</display-name>
     <icon src="https://i.imgur.com/5BZwRFs.png" />
@@ -1031,19 +1171,23 @@
   </channel>
   <channel id="EnnaharTV.dz@SD">
     <display-name>Ennahar TV</display-name>
+    <display-name>DZ ENNAHAR TV</display-name>
     <icon src="https://i.imgur.com/C0TCA1s.png" />
-  <display-name>DZ ENNAHAR TV</display-name></channel>
+  </channel>
   <channel id="SICNoticias.pt@SD">
     <display-name>SIC Noticias</display-name>
     <icon src="https://i.imgur.com/Gi6Q26M.png" />
   </channel>
   <channel id="ParamountChannel.fr@SD">
     <display-name>Paramount Network</display-name>
-  <display-name>Paramount Channel HD</display-name><display-name>Paramount Channel</display-name></channel>
+    <display-name>Paramount Channel HD</display-name>
+    <display-name>Paramount Channel</display-name>
+  </channel>
   <channel id="JOne.fr@SD">
     <display-name>J-One</display-name>
+    <display-name>J-ONE</display-name>
     <icon src="https://i.imgur.com/cicreDo.png" />
-  <display-name>J-ONE</display-name></channel>
+  </channel>
   <channel id="AngersTele.fr@SD">
     <display-name>Angers Télé</display-name>
     <icon src="https://i.imgur.com/CMKKbaP.png" />
@@ -1066,8 +1210,9 @@
   </channel>
   <channel id="TV3.dz@SD">
     <display-name>A3</display-name>
+    <display-name>DZ A3 HD</display-name>
     <icon src="https://i.imgur.com/EQTGCbm.png" />
-  <display-name>DZ A3 HD</display-name></channel>
+  </channel>
   <channel id="AlMajdHolyQuran.sa@SD">
     <display-name>Al Majd Holy Quran</display-name>
     <icon src="https://i.imgur.com/JBelAQj.png" />
@@ -1122,7 +1267,8 @@
   </channel>
   <channel id="NickelodeonTeen.fr@SD">
     <display-name>Nickelodeon Teen</display-name>
-  <display-name>NICKELODEON TEEN</display-name></channel>
+    <display-name>NICKELODEON TEEN</display-name>
+  </channel>
   <channel id="viaTelePaese.fr@SD">
     <display-name>Télé Paese</display-name>
     <icon src="https://i.imgur.com/TLZsAKK.png" />
@@ -1221,8 +1367,9 @@
   </channel>
   <channel id="BET.fr@SD">
     <display-name>BET</display-name>
+    <display-name>BET 4K</display-name>
     <icon src="https://i.imgur.com/HOtpa6H.png" />
-  <display-name>BET 4K</display-name></channel>
+  </channel>
   <channel id="ColorsRishteyEurope.in@SD">
     <display-name>Rishtey</display-name>
     <icon src="https://i.imgur.com/gyyRpFv.png" />
@@ -1265,8 +1412,9 @@
   </channel>
   <channel id="ElhiwarEttounsiTV.tn@SD">
     <display-name>El Hiwar Ettounsi</display-name>
+    <display-name>TN Elhiwar Ettounsi</display-name>
     <icon src="https://i.imgur.com/qYG1qLO.png" />
-  <display-name>TN Elhiwar Ettounsi</display-name></channel>
+  </channel>
   <channel id="Nickelodeon.fr@Plus1">
     <display-name>Nickelodeon+1</display-name>
     <icon src="https://i.imgur.com/E84jnP8.png" />
@@ -1281,8 +1429,11 @@
   </channel>
   <channel id="Franceinfo.fr@SD">
     <display-name>franceinfo:</display-name>
+    <display-name>FRANCEINFO:</display-name>
+    <display-name>FRANCEINFO: Full HD</display-name>
+    <display-name>Franceinfo 4K</display-name>
     <icon src="https://i.imgur.com/eITXz6A.png" />
-  <display-name>FRANCEINFO:</display-name><display-name>FRANCEINFO: Full HD</display-name><display-name>Franceinfo 4K</display-name></channel>
+  </channel>
   <channel id="TGCom24.it@SD">
     <display-name>TGCOM24</display-name>
     <icon src="https://i.imgur.com/fPmvbGH.png" />
@@ -1293,8 +1444,9 @@
   </channel>
   <channel id="SamiraTV.dz@SD">
     <display-name>Samira TV</display-name>
+    <display-name>DZ Samira TV</display-name>
     <icon src="https://i.imgur.com/XZzINfq.png" />
-  <display-name>DZ Samira TV</display-name></channel>
+  </channel>
   <channel id="ViaOccitanieToulouse.fr@SD">
     <display-name>vià31</display-name>
     <icon src="https://i.imgur.com/07JdLoh.png" />
@@ -1365,8 +1517,9 @@
   </channel>
   <channel id="RMCSport2.fr@SD">
     <display-name>RMC Sport Live 2</display-name>
+    <display-name>RMC Sport 2</display-name>
     <icon src="https://i.imgur.com/nZd8aPo.png" />
-  <display-name>RMC Sport 2</display-name></channel>
+  </channel>
   <channel id="France3.fr@NoA">
     <display-name>France 3 Nouvelle Aquitaine</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
@@ -1401,8 +1554,9 @@
   </channel>
   <channel id="EchoroukNews.dz@SD">
     <display-name>Echorouk News</display-name>
+    <display-name>DZ Echorouk NEWS</display-name>
     <icon src="https://i.imgur.com/TNtjYcw.png" />
-  <display-name>DZ Echorouk NEWS</display-name></channel>
+  </channel>
   <channel id="SportenFrance.fr@SD">
     <display-name>Sport en France</display-name>
     <icon src="https://i.imgur.com/1IXQoWq.png" />
@@ -1429,8 +1583,9 @@
   </channel>
   <channel id="ElBiladTV.dz@SD">
     <display-name>El Bilad TV</display-name>
+    <display-name>DZ EL BILAD</display-name>
     <icon src="https://i.imgur.com/7c1JjCd.png" />
-  <display-name>DZ EL BILAD</display-name></channel>
+  </channel>
   <channel id="TraceVanillaIslands.fr@SD">
     <display-name>Trace Vanilla</display-name>
     <icon src="https://i.imgur.com/ngF58fe.png" />
@@ -1469,12 +1624,14 @@
   </channel>
   <channel id="RMCSport3.fr@SD">
     <display-name>RMC Sport Live 3</display-name>
+    <display-name>RMC Sport 3</display-name>
     <icon src="https://i.imgur.com/37GNibZ.png" />
-  <display-name>RMC Sport 3</display-name></channel>
+  </channel>
   <channel id="RMCSport4.fr@SD">
     <display-name>RMC Sport Live 4</display-name>
+    <display-name>RMC Sport 4</display-name>
     <icon src="https://i.imgur.com/86gygYV.png" />
-  <display-name>RMC Sport 4</display-name></channel>
+  </channel>
   <channel id="CDirect.fr@SD">
     <display-name>CDIRECT</display-name>
     <icon src="https://i.imgur.com/Zis4TRh.png" />
@@ -1497,16 +1654,20 @@
   </channel>
   <channel id="CanalPlusDocs.fr@SD">
     <display-name>CANAL+ DOCS</display-name>
+    <display-name>Canal+ Docs HD</display-name>
     <icon src="https://i.imgur.com/WFXhE8f.png" />
-  <display-name>Canal+ Docs HD</display-name></channel>
+  </channel>
   <channel id="CanalPlusKids.fr@SD">
     <display-name>CANAL+ KIDS</display-name>
+    <display-name>Canal+ kids HD</display-name>
     <icon src="https://i.imgur.com/xknv5py.png" />
-  <display-name>Canal+ kids HD</display-name></channel>
+  </channel>
   <channel id="CanalPlusGrandEcran.fr@SD">
     <display-name>CANAL+ GRAND ECRAN</display-name>
+    <display-name>Canal+ Grand Ecran HD</display-name>
+    <display-name>Grand Ecran 1</display-name>
     <icon src="https://i0.wp.com/www.planetecsat.com/wp-content/uploads/2022/01/CANALP_GRAND_ECRAN_1lignes_RVB_2021_06_07-07-01-22.png?w=509&amp;ssl=1" />
-  <display-name>Canal+ Grand Ecran HD</display-name><display-name>Grand Ecran 1</display-name></channel>
+  </channel>
   <channel id="MaisonTravauxTV.fr@SD">
     <display-name>Maison &amp; Travaux TV</display-name>
     <icon src="https://i.imgur.com/uYpc6nE.png" />
@@ -1517,12 +1678,14 @@
   </channel>
   <channel id="CarthagePlus.tn@SD">
     <display-name>Carthage+</display-name>
+    <display-name>TN Carthage</display-name>
     <icon src="https://i.imgur.com/5BsDW4B.png" />
-  <display-name>TN Carthage</display-name></channel>
+  </channel>
   <channel id="TeleMaroc.ma@SD">
     <display-name>Télé Maroc</display-name>
+    <display-name>MA Tele Maroc</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png" />
-  <display-name>MA Tele Maroc</display-name></channel>
+  </channel>
   <channel id="FixFoxi.de@SD">
     <display-name>Fix et Foxy</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Fix_and_Fox_Channel_Logo.png/250px-Fix_and_Fox_Channel_Logo.png" />
@@ -1537,12 +1700,14 @@
   </channel>
   <channel id="CanalPlusFoot.fr@SD">
     <display-name>CANAL+ FOOT</display-name>
+    <display-name>Canal+ Foot HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png" />
-  <display-name>Canal+ Foot HD</display-name></channel>
+  </channel>
   <channel id="CanalPlusSport360.fr@SD">
     <display-name>CANAL+ SPORT 360</display-name>
+    <display-name>Canal+ Sport 360 HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" />
-  <display-name>Canal+ Sport 360 HD</display-name></channel>
+  </channel>
   <channel id="DMC.eg@SD">
     <display-name>DMC</display-name>
     <icon src="https://i.imgur.com/iy70Xxr.png" />
@@ -1585,8 +1750,9 @@
   </channel>
   <channel id="HannibalTV.tn@SD">
     <display-name>HANNIBAL TV</display-name>
+    <display-name>TN Hannibal TV</display-name>
     <icon src="https://i.imgur.com/sIMmkBo.png" />
-  <display-name>TN Hannibal TV</display-name></channel>
+  </channel>
   <channel id="BFMNormandie.fr@SD">
     <display-name>BFM Normandie</display-name>
     <icon src="https://i.imgur.com/WWWQ44G.png" />
@@ -1621,8 +1787,9 @@
   </channel>
   <channel id="BahiaTV.dz@SD">
     <display-name>Bahia</display-name>
+    <display-name>DZ Bahia TV</display-name>
     <icon src="https://i.imgur.com/RvfNxIw.png" />
-  <display-name>DZ Bahia TV</display-name></channel>
+  </channel>
   <channel id="ElWatania2.tn@SD">
     <display-name>Watania 2</display-name>
     <icon src="https://i.imgur.com/kgkrD3V.png" />
@@ -1649,8 +1816,10 @@
   </channel>
   <channel id="NovelasTV.fr@SD">
     <display-name>NOVELAS</display-name>
+    <display-name>Novelas TV HD</display-name>
+    <display-name>Novelas TV</display-name>
     <icon src="https://i.imgur.com/HZw19jM.png" />
-  <display-name>Novelas TV HD</display-name><display-name>Novelas TV</display-name></channel>
+  </channel>
   <channel id="CannesLerinsTV.fr@SD">
     <display-name>Cannes Lérins TV</display-name>
     <icon src="https://i.imgur.com/atlgnum.png" />
@@ -1661,8 +1830,9 @@
   </channel>
   <channel id="ChadaTV.ma@SD">
     <display-name>CHADA TV</display-name>
+    <display-name>MA CHADA TV HD</display-name>
     <icon src="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" />
-  <display-name>MA CHADA TV HD</display-name></channel>
+  </channel>
   <channel id="WeoPicardie.fr@SD">
     <display-name>Wéo Picardie</display-name>
     <icon src="https://i.imgur.com/LUjrSOK.png" />
@@ -1749,32 +1919,41 @@
   </channel>
   <channel id="CanalPlus.fr@SD">
     <display-name>CANAL+</display-name>
+    <display-name>Canal+ HD</display-name>
+    <display-name>Canal+ 4K</display-name>
     <icon src="https://i.imgur.com/5HcyMnW.png" />
-  <display-name>Canal+ HD</display-name><display-name>Canal+ 4K</display-name></channel>
+  </channel>
   <channel id="CanalPlusPremierLeague.fr@SD">
     <display-name>CANAL+PREMIER LEAGUE</display-name>
     <icon src="https://i.imgur.com/aKFlhRO.png" />
   </channel>
   <channel id="CanalPlusSeries.fr@SD">
     <display-name>CANAL+SERIES</display-name>
+    <display-name>Canal+ Series HD</display-name>
     <icon src="https://i.imgur.com/JxXXTGk.png" />
-  <display-name>Canal+ Series HD</display-name></channel>
+  </channel>
   <channel id="CanalPlusSport.fr@SD">
     <display-name>CANAL+SPORT</display-name>
+    <display-name>Canal+ Sport HD</display-name>
     <icon src="https://i.imgur.com/EOXnU15.png" />
-  <display-name>Canal+ Sport HD</display-name></channel>
+  </channel>
   <channel id="CinePlusClub.fr@SD">
     <display-name>CINE+ FESTIVAL</display-name>
+    <display-name>Ciné+ Club</display-name>
+    <display-name>Ciné+ Club 2</display-name>
     <icon src="https://i.imgur.com/OJfAUMj.png" />
-  <display-name>Ciné+ Club</display-name><display-name>Ciné+ Club 2</display-name></channel>
+  </channel>
   <channel id="CinePlusPremier.fr@SD">
     <display-name>OCS</display-name>
     <icon src="https://i.imgur.com/b20LLN6.png" />
   </channel>
   <channel id="ComediePlus.fr@SD">
     <display-name>COMEDIE+</display-name>
+    <display-name>Comedie+ HD</display-name>
+    <display-name>Comedie+ Full HD</display-name>
+    <display-name>Comedie+ 4K</display-name>
     <icon src="https://i.imgur.com/ArgX0Af.png" />
-  <display-name>Comedie+ HD</display-name><display-name>Comedie+ Full HD</display-name><display-name>Comedie+ 4K</display-name></channel>
+  </channel>
   <channel id="CStarHitsFrance.fr@SD">
     <display-name>EUROPE 2 POP TV</display-name>
   </channel>
@@ -1848,12 +2027,16 @@
   </channel>
   <channel id="GolfPlus.fr@SD">
     <display-name>GOLF+</display-name>
+    <display-name>GOLF</display-name>
     <icon src="https://i.imgur.com/WHnddkg.png" />
-  <display-name>GOLF</display-name></channel>
+  </channel>
   <channel id="InfosportPlus.fr@SD">
     <display-name>INFOSPORT+</display-name>
+    <display-name>INFOSPORT+ HD</display-name>
+    <display-name>INFOSPORT+ Full HD</display-name>
+    <display-name>Infosport + 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/19/Infosport%2B_%282016%29.svg/960px-Infosport%2B_%282016%29.svg.png" />
-  <display-name>INFOSPORT+ HD</display-name><display-name>INFOSPORT+ Full HD</display-name><display-name>Infosport + 4K</display-name></channel>
+  </channel>
   <channel id="LaTele.ch@SD">
     <display-name>LA TELE</display-name>
     <icon src="https://i.imgur.com/DdCfl4n.png" />
@@ -1908,24 +2091,33 @@
   </channel>
   <channel id="PiwiPlus.fr@SD">
     <display-name>PIWI+</display-name>
+    <display-name>PIWI Full HD</display-name>
+    <display-name>Piwi+ 4K</display-name>
+    <display-name>PIWI</display-name>
     <icon src="https://i.imgur.com/Ahckjj2.png" />
-  <display-name>PIWI Full HD</display-name><display-name>Piwi+ 4K</display-name><display-name>PIWI</display-name></channel>
+  </channel>
   <channel id="PlanetePlus.fr@SD">
     <display-name>PLANETE+</display-name>
+    <display-name>PLANETE+ Full HD</display-name>
+    <display-name>Planete+ 4K</display-name>
     <icon src="https://i.imgur.com/RMbMGMg.png" />
-  <display-name>PLANETE+ Full HD</display-name><display-name>Planete+ 4K</display-name></channel>
+  </channel>
   <channel id="PlanetePlusAventure.fr@SD">
     <display-name>PLANETE+AVENTURE</display-name>
+    <display-name>PLANETE +AVENTURE Full HD</display-name>
+    <display-name>Planete+Aventure 4K</display-name>
     <icon src="https://i.imgur.com/h09sbN0.png" />
-  <display-name>PLANETE +AVENTURE Full HD</display-name><display-name>Planete+Aventure 4K</display-name></channel>
+  </channel>
   <channel id="PlanetePlusCrime.fr@SD">
     <display-name>PLANETE+CRIME</display-name>
+    <display-name>PLANETE+CRIME Full HD</display-name>
     <icon src="https://i.imgur.com/xGGBbun.png" />
-  <display-name>PLANETE+CRIME Full HD</display-name></channel>
+  </channel>
   <channel id="PolarPlus.fr@SD">
     <display-name>POLAR+</display-name>
+    <display-name>Polar HD</display-name>
     <icon src="https://i.imgur.com/RjnuWFU.png" />
-  <display-name>Polar HD</display-name></channel>
+  </channel>
   <channel id="RougeTV.ch@SD">
     <display-name>CARAC1</display-name>
     <icon src="https://i.imgur.com/hx3exCH.png" />
@@ -1940,12 +2132,16 @@
   </channel>
   <channel id="TeletoonPlus.fr@1">
     <display-name>TELETOON+1</display-name>
+    <display-name>Teletoon +1 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" />
-  <display-name>Teletoon +1 4K</display-name></channel>
+  </channel>
   <channel id="TeletoonPlus.fr@SD">
     <display-name>TELETOON+</display-name>
+    <display-name>TELETOON Full HD</display-name>
+    <display-name>Teletoon + 4K</display-name>
+    <display-name>TELETOON</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" />
-  <display-name>TELETOON Full HD</display-name><display-name>Teletoon + 4K</display-name><display-name>TELETOON</display-name></channel>
+  </channel>
   <channel id="VixenTV.ca@SD">
     <display-name>VIXEN</display-name>
     <icon src="https://i.imgur.com/5Iq2h96.png" />
@@ -1964,12 +2160,14 @@
   </channel>
   <channel id="LaUne.be@SD">
     <display-name>La Une</display-name>
+    <display-name>La Une HD</display-name>
     <icon src="https://i.imgur.com/jMwZp7z.png" />
-  <display-name>La Une HD</display-name></channel>
+  </channel>
   <channel id="RTLTVI.be@SD">
     <display-name>RTL TVI</display-name>
+    <display-name>RTL-TVi HD</display-name>
     <icon src="https://i.imgur.com/2CimAAN.png" />
-  <display-name>RTL-TVi HD</display-name></channel>
+  </channel>
   <channel id="RTS2.ch@SD">
     <display-name>RTS 2</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/RTS_2_logo_2019.svg/960px-RTS_2_logo_2019.svg.png" />
@@ -2016,8 +2214,10 @@
   </channel>
   <channel id="AB3.be@SD">
     <display-name>AB 3</display-name>
+    <display-name>AB3 HD</display-name>
+    <display-name>AB3 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5d/AB3_2025.svg" />
-  <display-name>AB3 HD</display-name><display-name>AB3 4K</display-name></channel>
+  </channel>
   <channel id="Guyane1ere.gf@SD">
     <display-name>Guyane la 1ère</display-name>
     <icon src="https://i.imgur.com/aHoVNvh.png" />
@@ -2028,8 +2228,9 @@
   </channel>
   <channel id="DisneyJr.fr@SD">
     <display-name>Disney Junior</display-name>
+    <display-name>DISNEY JUNIOR</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" />
-  <display-name>DISNEY JUNIOR</display-name></channel>
+  </channel>
   <channel id="ABXplore.be@SD">
     <display-name>ABXPLORE</display-name>
     <icon src="https://i.imgur.com/Z7bCdz9.png" />
@@ -2128,8 +2329,9 @@
   </channel>
   <channel id="NationalGeographicWild.fr@SD">
     <display-name>National Geographic Wild</display-name>
+    <display-name>National Geographic Wild 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
-  <display-name>National Geographic Wild 4K</display-name></channel>
+  </channel>
   <channel id="OCSMax.fr@SD">
     <display-name>OCS Max</display-name>
     <icon src="https://i.imgur.com/nYS8K4A.png" />
@@ -2220,8 +2422,9 @@
   </channel>
   <channel id="Toonami.fr@SD">
     <display-name>Warner TV Next</display-name>
+    <display-name>TOONAMI</display-name>
     <icon src="https://i.imgur.com/U7qh4yF.png" />
-  <display-name>TOONAMI</display-name></channel>
+  </channel>
   <channel id="APlusInternational.fr@SD">
     <display-name>A+ International France</display-name>
     <icon src="https://i.imgur.com/tkUjnWD.png" />
@@ -213086,10 +213289,12 @@
     <desc lang="fr">Figure incontestée de la littérature française, Victor Hugo est un nom qui résonne à travers les siècles. Que ce soit à travers ses romans, leurs innombrables adaptations ou les références omniprésentes à son oeuvre, il a laissé une empreinte...</desc>
     <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDkAwEADAv-wZLaotb-lltVuEhlgSifi7HucyL4zIBAPM13Xw4IQTS8KJuEoUFiyPk5hL5q3y234HJ6SysdUoTYhKGZ81dr4OvdeNlaYnKCAhr3nU2jyt7eD7AQ.jpg</image>
   </programme>
-<channel id="tf1.fr">
+  <channel id="tf1.fr">
     <display-name>TF1</display-name>
+    <display-name>TF1 ʜᴅ</display-name>
+    <display-name>TF1 Full HD</display-name>
     <icon src="https://i.imgur.com/QxHt9NC.png" />
-  <display-name>TF1 ʜᴅ</display-name><display-name>TF1 Full HD</display-name></channel>
+  </channel>
   <programme start="20261118004000 +0000" stop="20261118004500 +0000" channel="tf1.fr">
     <title lang="fr">Tirage de l'EuroMillions</title>
     <desc lang="fr">Découvrez les 5 numéros gagnants, les deux bonnes étoiles ainsi que le code gagnant de ce tirage du loto Euro Millions de la Française des Jeux. La carte EuroMillions va-t-elle livrer un gagnant du jackpot ?</desc>
@@ -213674,8 +213879,12 @@
   </programme>
   <channel id="m6.fr">
     <display-name>M6</display-name>
+    <display-name>M6 ʜᴅ</display-name>
+    <display-name>M6 Hevc</display-name>
+    <display-name>M6 Full HD</display-name>
+    <display-name>M6 4K</display-name>
     <icon src="https://i.imgur.com/7GVp3fW.png" />
-  <display-name>M6 ʜᴅ</display-name><display-name>M6 Hevc</display-name><display-name>M6 Full HD</display-name><display-name>M6 4K</display-name></channel>
+  </channel>
   <programme start="20261118002500 +0000" stop="20261118050000 +0000" channel="m6.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -214111,8 +214320,12 @@
   </programme>
   <channel id="france2.fr">
     <display-name>France 2</display-name>
+    <display-name>France 2 ʜᴅ</display-name>
+    <display-name>France 2 Hevc</display-name>
+    <display-name>France 2 Full HD</display-name>
+    <display-name>France 2 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" />
-  <display-name>France 2 ʜᴅ</display-name><display-name>France 2 Hevc</display-name><display-name>France 2 Full HD</display-name><display-name>France 2 4K</display-name></channel>
+  </channel>
   <programme start="20261118003500 +0000" stop="20261118012000 +0000" channel="france2.fr">
     <title lang="fr">Justice en France</title>
     <sub-title lang="fr">Comparutions immédiates de Rennes</sub-title>
@@ -214834,8 +215047,10 @@
   </programme>
   <channel id="france3.fr">
     <display-name>France 3</display-name>
+    <display-name>France 3 ʜᴅ</display-name>
+    <display-name>France 3 Full HD</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
-  <display-name>France 3 ʜᴅ</display-name><display-name>France 3 Full HD</display-name></channel>
+  </channel>
   <programme start="20261118001000 +0000" stop="20261118003000 +0000" channel="france3.fr">
     <title lang="fr">Cachez cette barbe !</title>
     <desc lang="fr">Une Réunionnaise promise à une grande carrière de championne de nage-sirène vit un enfer depuis qu'une immense barbe s'est mise à pousser sur son visage.</desc>
@@ -215669,8 +215884,11 @@
   </programme>
   <channel id="france4.fr">
     <display-name>France 4</display-name>
+    <display-name>France 4 ʜᴅ</display-name>
+    <display-name>France 4 Full HD</display-name>
+    <display-name>France 4 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" />
-  <display-name>France 4 ʜᴅ</display-name><display-name>France 4 Full HD</display-name><display-name>France 4 4K</display-name></channel>
+  </channel>
   <programme start="20261118010000 +0000" stop="20261118013000 +0000" channel="france4.fr">
     <title lang="fr">Music Box</title>
     <sub-title lang="fr">Flo Catteau</sub-title>
@@ -217728,8 +217946,11 @@
   </programme>
   <channel id="france5.fr">
     <display-name>France 5</display-name>
+    <display-name>France 5 ʜᴅ</display-name>
+    <display-name>France 5 Full HD</display-name>
+    <display-name>France 5 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" />
-  <display-name>France 5 ʜᴅ</display-name><display-name>France 5 Full HD</display-name><display-name>France 5 4K</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118005000 +0000" channel="france5.fr">
     <title lang="fr">C à vous</title>
     <category lang="fr">Débat</category>
@@ -219237,8 +219458,11 @@
   </programme>
   <channel id="tf1seriesfilms.fr">
     <display-name>TF1 Séries-Films</display-name>
+    <display-name>TF1 Series Film ʜᴅ</display-name>
+    <display-name>TF1 Series Films Full HD</display-name>
+    <display-name>TF1 SERIES FILMS 4K</display-name>
     <icon src="https://i.imgur.com/4CJIDKQ.png" />
-  <display-name>TF1 Series Film ʜᴅ</display-name><display-name>TF1 Series Films Full HD</display-name><display-name>TF1 SERIES FILMS 4K</display-name></channel>
+  </channel>
   <programme start="20261118052500 +0000" stop="20261118055000 +0000" channel="tf1seriesfilms.fr">
     <title lang="fr">Amour, gloire et beauté</title>
     <desc lang="fr">La famille Forrester se réunit chez Eric le soir de Noël pour célébrer les traditions, échanger des cadeaux et partager des discours touchants.</desc>
@@ -220034,8 +220258,11 @@
   </programme>
   <channel id="tfx.fr">
     <display-name>TFX</display-name>
+    <display-name>TFX HD</display-name>
+    <display-name>TFX Full HD</display-name>
+    <display-name>TFX 4K</display-name>
     <icon src="https://i.imgur.com/d91GcVf.png" />
-  <display-name>TFX HD</display-name><display-name>TFX Full HD</display-name><display-name>TFX 4K</display-name></channel>
+  </channel>
   <programme start="20261118002300 +0000" stop="20261118055500 +0000" channel="tfx.fr">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
@@ -220479,8 +220706,11 @@
   </programme>
   <channel id="w9.fr">
     <display-name>W9</display-name>
+    <display-name>W9 HD</display-name>
+    <display-name>W9 Full HD</display-name>
+    <display-name>W9 4K</display-name>
     <icon src="https://i.imgur.com/reYeMuE.png" />
-  <display-name>W9 HD</display-name><display-name>W9 Full HD</display-name><display-name>W9 4K</display-name></channel>
+  </channel>
   <programme start="20261118010000 +0000" stop="20261118050000 +0000" channel="w9.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -221015,8 +221245,11 @@
   </programme>
   <channel id="tmc.fr">
     <display-name>TMC</display-name>
+    <display-name>Tmc HD</display-name>
+    <display-name>Tmc Full HD</display-name>
+    <display-name>TMC 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" />
-  <display-name>Tmc HD</display-name><display-name>Tmc Full HD</display-name><display-name>TMC 4K</display-name></channel>
+  </channel>
   <programme start="20261118051000 +0000" stop="20261118060500 +0000" channel="tmc.fr">
     <title lang="fr">Sous le soleil</title>
     <sub-title lang="fr">Derrière les miroirs</sub-title>
@@ -221419,8 +221652,10 @@
   </programme>
   <channel id="cstar.fr">
     <display-name>CStar</display-name>
+    <display-name>CSTAR HD</display-name>
+    <display-name>CSTAR Full HD</display-name>
     <icon src="https://i.imgur.com/w4kAX1V.png" />
-  <display-name>CSTAR HD</display-name><display-name>CSTAR Full HD</display-name></channel>
+  </channel>
   <programme start="20261118014400 +0000" stop="20261118022700 +0000" channel="cstar.fr">
     <title lang="fr">Top France</title>
     <category lang="fr">Clips</category>
@@ -222050,8 +222285,11 @@
   </programme>
   <channel id="rmcstory.fr">
     <display-name>RMC Story</display-name>
+    <display-name>RMC STORY HD</display-name>
+    <display-name>RMC STORY Full HD</display-name>
+    <display-name>RMC Story 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" />
-  <display-name>RMC STORY HD</display-name><display-name>RMC STORY Full HD</display-name><display-name>RMC Story 4K</display-name></channel>
+  </channel>
   <programme start="20261118012000 +0000" stop="20261118030000 +0000" channel="rmcstory.fr">
     <title lang="fr">Le 11 septembre vu du World Trade Center, les témoins du chaos</title>
     <desc lang="fr">Le 11 septembre 2001, le vol American Airlines 11 percute la tour nord du World Trade Center, quelques instants plus tard, le vol United Airlines 175 frappe la tour sud. Les laveurs de vitres, employés de banque, agents de sécurité et secouristes, qui étaient à l'intérieur, racontent ce qu'ils ont vu, entendu, et comment ils sont sortis. Six cent trente-sept personnes sont restées piégées. Ce matin-là, 17 400 personnes étaient présentes dans les deux tours, près de neuf sur dix ont réussi à en sortir. Ces attentats ont fait 2977 morts, dont 343 pompiers de New York.</desc>
@@ -222599,8 +222837,11 @@
   </programme>
   <channel id="arte.fr">
     <display-name>Arte</display-name>
+    <display-name>Arte ʜᴅ</display-name>
+    <display-name>Arte Full HD</display-name>
+    <display-name>ARTE 4K</display-name>
     <icon src="https://i.imgur.com/ecXMjNl.png" />
-  <display-name>Arte ʜᴅ</display-name><display-name>Arte Full HD</display-name><display-name>ARTE 4K</display-name></channel>
+  </channel>
   <programme start="20261118003500 +0000" stop="20261118024000 +0000" channel="arte.fr">
     <title lang="fr">Stardust, le mystère de l'étoile</title>
     <desc lang="fr">Angleterre, XIXe siècle. Le village de Wall est entouré d'un haut mur qui empêche quiconque de se rendre au royaume de Stormhold. Un jour pourtant, un certain Dunstan brave l'interdit. Il visite Stormhold où il rencontre une séduisante personne. Tous deux passent la nuit ensemble. Neuf mois plus tard, Dunstan trouve devant sa porte un nourrisson, Tristan. Devenu adulte, Tristan se révèle un être timide. Il se montre toutefois fort courageux lorsqu'il est amené à défendre Yvaine, une femme poursuivie par trois sorcières qui veulent la tuer. Tristan ne sait pas encore qu'Yvaine est également convoitée par les héritiers du royaume de Stormhold...</desc>
@@ -223255,8 +223496,11 @@
   </programme>
   <channel id="gulli.fr">
     <display-name>Gulli</display-name>
+    <display-name>GULLI</display-name>
+    <display-name>GULLI Full HD</display-name>
+    <display-name>Gulli 4K</display-name>
     <icon src="https://i.imgur.com/kqYssbW.png" />
-  <display-name>GULLI</display-name><display-name>GULLI Full HD</display-name><display-name>Gulli 4K</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118023000 +0000" channel="gulli.fr">
     <title lang="fr">Programmation nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -223817,8 +224061,10 @@
   </programme>
   <channel id="canalplus.fr">
     <display-name>CANAL+</display-name>
+    <display-name>Canal+ HD</display-name>
+    <display-name>Canal+ 4K</display-name>
     <icon src="https://i.imgur.com/5HcyMnW.png" />
-  <display-name>Canal+ HD</display-name><display-name>Canal+ 4K</display-name></channel>
+  </channel>
   <programme start="20261118052500 +0000" stop="20261118061800 +0000" channel="canalplus.fr">
     <title lang="fr">Clique</title>
     <desc lang="fr">Orchestré par Mouloud Achour, le rendez-vous de Clique donne la parole à différents invités de différents horizons pour faire le tour des talents du moment. Une fois par semaine, Pauline Clavière prend la relève.</desc>
@@ -224579,8 +224825,9 @@
   </programme>
   <channel id="canalplussport.fr">
     <display-name>CANAL+SPORT</display-name>
+    <display-name>Canal+ Sport HD</display-name>
     <icon src="https://i.imgur.com/EOXnU15.png" />
-  <display-name>Canal+ Sport HD</display-name></channel>
+  </channel>
   <programme start="20261118060700 +0000" stop="20261118074700 +0000" channel="canalplussport.fr">
     <title lang="fr">Nouvelle-Zélande / Australie</title>
     <desc lang="fr">Pour ce premier match de la Bledisloe Cup 2026, la Nouvelle-Zélande accueille l'Australie à l'Eden Park d'Auckland. La Bledisloe Cup se dispute cette année sur deux confrontations sèches. Après cette manche à Auckland, le match retour et décisif se tiendra le 17 octobre à l'Accor Stadium de Sydney.</desc>
@@ -224791,8 +225038,11 @@
   </programme>
   <channel id="infosportplus.fr">
     <display-name>INFOSPORT+</display-name>
+    <display-name>INFOSPORT+ HD</display-name>
+    <display-name>INFOSPORT+ Full HD</display-name>
+    <display-name>Infosport + 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/19/Infosport%2B_%282016%29.svg/960px-Infosport%2B_%282016%29.svg.png" />
-  <display-name>INFOSPORT+ HD</display-name><display-name>INFOSPORT+ Full HD</display-name><display-name>Infosport + 4K</display-name></channel>
+  </channel>
   <programme start="20261119095800 +0000" stop="20261119190000 +0000" channel="infosportplus.fr">
     <title lang="fr">Les grands directs</title>
     <desc lang="fr">"Les grands directs" sont en conditions réelles pour les événements sportifs premium comme le football ou le basketball, avec des commentaires et les dernières informations.</desc>
@@ -224810,8 +225060,9 @@
   </programme>
   <channel id="eurosport1.fr">
     <display-name>EUROSPORT 1 HD</display-name>
+    <display-name>EUROSPORT 1</display-name>
     <icon src="https://i.imgur.com/olQJgm7.png" />
-  <display-name>EUROSPORT 1</display-name></channel>
+  </channel>
   <programme start="20261118050100 +0000" stop="20261118060500 +0000" channel="eurosport1.fr">
     <title lang="fr">Jeux olympiques : Home of the Olympics</title>
     <desc lang="fr">Retour sur les meilleurs moments des XXVes Jeux olympiques d'hiver de Milan-Cortina, qui ont eu lieu, en Italie, du 6 au 22 février 2026. Quelles nations ont remporté le plus de médailles et de titres, la France a-t-elle brillé avec ses biathlètes,...</desc>
@@ -224894,8 +225145,9 @@
   </programme>
   <channel id="rmcsport2.fr">
     <display-name>RMC Sport Live 2</display-name>
+    <display-name>RMC Sport 2</display-name>
     <icon src="https://i.imgur.com/nZd8aPo.png" />
-  <display-name>RMC Sport 2</display-name></channel>
+  </channel>
   <programme start="20261118050000 +0000" stop="20261118060000 +0000" channel="rmcsport2.fr">
     <title lang="fr">Chaîne événementielle pour suivre tous les matches en direct (RMC Sport Live 2)</title>
     <category lang="fr">Magazine sportif</category>
@@ -225036,8 +225288,10 @@
   </programme>
   <channel id="cineplusocs.fr">
     <display-name>OCS</display-name>
+    <display-name>Ciné+ Premier</display-name>
+    <display-name>Ciné+ Premier 2</display-name>
     <icon src="https://i.imgur.com/ujin9Uf.png" />
-  <display-name>Ciné+ Premier</display-name><display-name>Ciné+ Premier 2</display-name></channel>
+  </channel>
   <programme start="20261118005500 +0000" stop="20261118024200 +0000" channel="cineplusocs.fr">
     <title lang="fr">Novocaïne</title>
     <desc lang="fr">San Diego, dans le sud de la Californie. Employé de banque sans histoires, Nathan Caine mène une existence paisible et discrète. Atteint d'insensibilité congénitale à la douleur, une affection rare et handicapante, il a longtemps hésité avant d'accepter de s'engager dans une relation avec Sherry, une charmante collègue de bureau. Quand cette dernière est prise en otage par des braqueurs qui se sont attaqués à leur établissement, Nathan n'hésite pas un seul instant et se lance aux trousses de ces derniers, bien décidé à retrouver sa petite amie. Les symptômes de sa maladie deviennent alors un immense avantage...</desc>
@@ -225426,8 +225680,10 @@
   </programme>
   <channel id="cineplusfrisson.fr">
     <display-name>CINE+ frisson</display-name>
+    <display-name>Ciné+ Frisson</display-name>
+    <display-name>Ciné+ Frisson 2</display-name>
     <icon src="https://i.imgur.com/MwFtbnR.jpeg" />
-  <display-name>Ciné+ Frisson</display-name><display-name>Ciné+ Frisson 2</display-name></channel>
+  </channel>
   <programme start="20261118010600 +0000" stop="20261118025200 +0000" channel="cineplusfrisson.fr">
     <title lang="fr">The Ugly Stepsister</title>
     <desc lang="fr">Dans un royaume où la beauté règne en maître, la jeune et laide Elvira doit faire face à une redoutable concurrence pour espérer conquérir le coeur du prince Julian et mettre sa famille à l'abri du besoin. Parmi les nombreuses prétendantes, se trouve notamment sa demi-soeur Agnes, à l'insolente beauté. Pour parvenir à ses fins dans cette impitoyable course au physique parfait, Elvira est poussée par sa mère, l'ambitieuse Rebekka, à recourir aux méthodes les plus extrêmes...</desc>
@@ -225707,8 +225963,9 @@
   </programme>
   <channel id="cineplusemotion.fr">
     <display-name>CINE+ émotion</display-name>
+    <display-name>Ciné+ Émotion</display-name>
     <icon src="https://i.imgur.com/upYjPvc.jpeg" />
-  <display-name>Ciné+ Émotion</display-name></channel>
+  </channel>
   <programme start="20261118002800 +0000" stop="20261118020300 +0000" channel="cineplusemotion.fr">
     <title lang="fr">Risky Business</title>
     <desc lang="fr">Joel Goodson, fils d'une famille bourgeoise de l'Illinois, promis à un bel avenir universitaire, profite de l'absence de ses parents pour inviter une call-girl, Lana. Alors que tout les sépare, les jeunes gens s'éprennent l'un de l'autre. Au point que Lana décide de profiter de la brutale disparition de son protecteur pour s'installer chez les Goodson, toujours absents. Joel a tôt fait d'imaginer le profit qu'il pourrait tirer d'une fréquentation assidue des collègues de Lana. Un soir, il invite les étudiants du campus à échanger quelques dollars contre les faveurs de ces dames. L'affaire s'avère très rentable. Mais l'arrivée inopinée d'un enquêteur de la prestigieuse université de Princeton, venu vérifier les qualités de manager de Joel, perturbe quelque peu la joyeuse soirée...</desc>
@@ -226071,8 +226328,10 @@
   </programme>
   <channel id="cineplusclub.fr">
     <display-name>CINE+ FESTIVAL</display-name>
+    <display-name>Ciné+ Club</display-name>
+    <display-name>Ciné+ Club 2</display-name>
     <icon src="https://i.imgur.com/OJfAUMj.png" />
-  <display-name>Ciné+ Club</display-name><display-name>Ciné+ Club 2</display-name></channel>
+  </channel>
   <programme start="20261118052200 +0000" stop="20261118072900 +0000" channel="cineplusclub.fr">
     <title lang="fr">Fantôme utile</title>
     <desc lang="fr">Après la mort tragique de son épouse, victime de "pollution à la poussière", March sombre dans le deuil. Mais son quotidien bascule lorsqu'il découvre que l'esprit de sa femme s'est réincarné dans un aspirateur. Bien qu'absurde, leur lien renaît, plus fort que jamais, mais loin de faire l'unanimité...</desc>
@@ -226431,8 +226690,10 @@
   </programme>
   <channel id="cineplusclassic.fr">
     <display-name>CINE+ classic</display-name>
+    <display-name>Ciné+ Classic</display-name>
+    <display-name>Ciné+ Classic 2</display-name>
     <icon src="https://i.imgur.com/y2zeLS3.jpeg" />
-  <display-name>Ciné+ Classic</display-name><display-name>Ciné+ Classic 2</display-name></channel>
+  </channel>
   <programme start="20261118005900 +0000" stop="20261118024700 +0000" channel="cineplusclassic.fr">
     <title lang="fr">Nous irons tous au paradis</title>
     <desc lang="fr">Après avoir découvert incidemment une photographie, Etienne est persuadé que sa femme, Marthe, le trompe. Il entreprend aussitôt de filer la suspecte afin de réunir les preuves de son infortune. Dans le même temps, il s'associe avec ses trois compères, Bouly, Simon et Daniel, pour acheter une maison de campagne dans un endroit parfaitement calme, dont ils comprennent trop tard que la sérénité n'était due qu'à la longue grève des pilotes de ligne, l'aéroport étant proche. Le temps des crises semble venu pour les quatre amis. Bouly a dû accepter le départ de sa femme, Daniel ne peut plus cacher son homosexualité et Simon étouffe sous les embrassades pathologiques de sa mère...</desc>
@@ -226789,8 +227050,10 @@
   </programme>
   <channel id="action.fr">
     <display-name>Action</display-name>
+    <display-name>Action 2</display-name>
+    <display-name>Action Full HD</display-name>
     <icon src="https://i.imgur.com/Zv9VsVq.png" />
-  <display-name>Action 2</display-name><display-name>Action Full HD</display-name></channel>
+  </channel>
   <programme start="20261118005200 +0000" stop="20261118020600 +0000" channel="action.fr">
     <title lang="fr">Les expériences érotiques de Frankenstein</title>
     <desc lang="fr">Dans son laboratoire, le docteur Frankenstein tente de transplanter un cerveau humain à sa créature afin d'en faire un être intelligent. Cagliostro, un sorcier maléfique désireux de créer la race parfaite, envoie Melissa, une femme-oiseau-vampire, capturer le monstre. Il veut l'accoupler avec la créature qu'il fabriquée à partir d'un assemblage de jeunes vierges. Mais Vera, la fille du docteur Frankenstein, et le docteur Seward sont bien décidés à faire échouer ce plan diabolique...</desc>
@@ -227082,8 +227345,9 @@
   </programme>
   <channel id="serieclub.fr">
     <display-name>SERIE CLUB</display-name>
+    <display-name>Serie Club HD</display-name>
     <icon src="https://i.imgur.com/V8wRRg5.png" />
-  <display-name>Serie Club HD</display-name></channel>
+  </channel>
   <programme start="20261118004500 +0000" stop="20261118060000 +0000" channel="serieclub.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -227588,8 +227852,10 @@
   </programme>
   <channel id="tvbreizh.fr">
     <display-name>TV Breizh</display-name>
+    <display-name>TV Breizh HD</display-name>
+    <display-name>TV Breizh 4K</display-name>
     <icon src="https://i.imgur.com/O8W4yhn.png" />
-  <display-name>TV Breizh HD</display-name><display-name>TV Breizh 4K</display-name></channel>
+  </channel>
   <programme start="20261118005400 +0000" stop="20261118060500 +0000" channel="tvbreizh.fr">
     <title lang="fr">Programmes de la nuit</title>
     <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
@@ -228141,8 +228407,10 @@
   </programme>
   <channel id="syfy.fr">
     <display-name>Syfy</display-name>
+    <display-name>Syfy HD</display-name>
+    <display-name>SYFY</display-name>
     <icon src="https://i.imgur.com/gUOXdjv.png" />
-  <display-name>Syfy HD</display-name><display-name>SYFY</display-name></channel>
+  </channel>
   <programme start="20261118002500 +0000" stop="20261118011500 +0000" channel="syfy.fr">
     <title lang="fr">Stargate Atlantis</title>
     <sub-title lang="fr">Les Balarans</sub-title>
@@ -228881,8 +229149,9 @@
   </programme>
   <channel id="ab1.fr">
     <display-name>AB1</display-name>
+    <display-name>AB1 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/9C7UsOe.png" />
-  <display-name>AB1 ʜᴅ</display-name></channel>
+  </channel>
   <programme start="20261118000800 +0000" stop="20261118003400 +0000" channel="ab1.fr">
     <title lang="fr">Cut</title>
     <sub-title lang="fr">Piégées</sub-title>
@@ -229821,8 +230090,9 @@
   </programme>
   <channel id="teva.fr">
     <display-name>Téva</display-name>
+    <display-name>Teva HD</display-name>
     <icon src="https://i.imgur.com/kDW0hN5.png" />
-  <display-name>Teva HD</display-name></channel>
+  </channel>
   <programme start="20261118001000 +0000" stop="20261118060000 +0000" channel="teva.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -230319,8 +230589,11 @@
   </programme>
   <channel id="cnews.fr">
     <display-name>CNews</display-name>
+    <display-name>CNEWS</display-name>
+    <display-name>CNEWS Full HD</display-name>
+    <display-name>CNEWS 4K</display-name>
     <icon src="https://i.imgur.com/sSNhk2g.png" />
-  <display-name>CNEWS</display-name><display-name>CNEWS Full HD</display-name><display-name>CNEWS 4K</display-name></channel>
+  </channel>
   <programme start="20261118000100 +0000" stop="20261118000900 +0000" channel="cnews.fr">
     <title lang="fr">La sélection</title>
     <desc lang="fr">Bienvenue dans la sélection CNEWS, l'agenda des événements à ne pas manquer</desc>
@@ -231536,8 +231809,10 @@
   </programme>
   <channel id="bfmtv.fr">
     <display-name>BFM TV</display-name>
+    <display-name>BFM TV Full HD</display-name>
+    <display-name>BFM TV 4K</display-name>
     <icon src="https://i.imgur.com/YJCcczD.png" />
-  <display-name>BFM TV Full HD</display-name><display-name>BFM TV 4K</display-name></channel>
+  </channel>
   <programme start="20261118033000 +0000" stop="20261118050000 +0000" channel="bfmtv.fr">
     <title lang="fr">BFM Première : Pré-matinale</title>
     <category lang="fr">Journal</category>
@@ -231739,8 +232014,10 @@
   </programme>
   <channel id="lci.fr">
     <display-name>LCI</display-name>
+    <display-name>LCI Full HD</display-name>
+    <display-name>LCI 4K</display-name>
     <icon src="https://i.imgur.com/DED8EXs.png" />
-  <display-name>LCI Full HD</display-name><display-name>LCI 4K</display-name></channel>
+  </channel>
   <programme start="20261118010000 +0000" stop="20261118040000 +0000" channel="lci.fr">
     <title lang="fr">LCI Nuit</title>
     <category lang="fr">Magazine d'information</category>
@@ -231977,8 +232254,9 @@
   </programme>
   <channel id="parispremiere.fr">
     <display-name>Paris Première</display-name>
+    <display-name>Paris Premiere HD</display-name>
     <icon src="https://i.imgur.com/ily4bEm.png" />
-  <display-name>Paris Premiere HD</display-name></channel>
+  </channel>
   <programme start="20261118010000 +0000" stop="20261118060000 +0000" channel="parispremiere.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -232374,8 +232652,9 @@
   </programme>
   <channel id="tv5monde.fr">
     <display-name>TV5 Monde</display-name>
+    <display-name>TV5 MONDE</display-name>
     <icon src="https://i.imgur.com/WmRbudc.png" />
-  <display-name>TV5 MONDE</display-name></channel>
+  </channel>
   <programme start="20261118001100 +0000" stop="20261118004200 +0000" channel="tv5monde.fr">
     <title lang="fr">Le journal Afrique</title>
     <category lang="fr">Journal</category>
@@ -233427,8 +233706,12 @@
   </programme>
   <channel id="6ter.fr">
     <display-name>6ter</display-name>
+    <display-name>6Ter HD</display-name>
+    <display-name>6Ter Full HD</display-name>
+    <display-name>6Ter</display-name>
+    <display-name>PLANETE +AVENTURE</display-name>
     <icon src="https://i.imgur.com/2nd5Cox.png" />
-  <display-name>6Ter HD</display-name><display-name>6Ter Full HD</display-name><display-name>6Ter</display-name><display-name>PLANETE +AVENTURE</display-name></channel>
+  </channel>
   <programme start="20261118003000 +0000" stop="20261118054000 +0000" channel="6ter.fr">
     <title lang="fr">Programmes de la nuit</title>
     <category lang="fr">Programme indéterminé</category>
@@ -233965,8 +234248,11 @@
   </programme>
   <channel id="13emerue.fr">
     <display-name>13ème rue</display-name>
+    <display-name>13ème Rue</display-name>
+    <display-name>PLANETE+CRIME</display-name>
+    <display-name>13eme Rue ʜᴅ</display-name>
     <icon src="https://i.imgur.com/k0DCMTL.png" />
-  <display-name>13ème Rue</display-name><display-name>PLANETE+CRIME</display-name><display-name>13eme Rue ʜᴅ</display-name></channel>
+  </channel>
   <programme start="20261118001500 +0000" stop="20261118020000 +0000" channel="13emerue.fr">
     <title lang="fr">Meurtres à...</title>
     <sub-title lang="fr">Meurtres à Carcassonne</sub-title>
@@ -235373,8 +235659,9 @@
   </programme>
   <channel id="ushuaiatv.fr">
     <display-name>Ushuaia TV</display-name>
+    <display-name>USHUAIA TV</display-name>
     <icon src="https://i.imgur.com/WjjlqbP.png" />
-  <display-name>USHUAIA TV</display-name></channel>
+  </channel>
   <programme start="20261118011500 +0000" stop="20261118023500 +0000" channel="ushuaiatv.fr">
     <title lang="fr">Grand-Popo</title>
     <desc lang="fr">Grand-Popo, ville historique du Bénin entre l'océan et le fleuve Mono, est menacée par l'érosion et les inondations. Pour freiner sa disparition, le gouvernement, avec le soutien de la Banque mondiale, construit digues, dunes artificielles et plantations de cocotiers. Ces travaux décidés sans concertation signifient la destruction d'une partie de la ville au profit de complexes touristiques. Pris entre la force de la nature et ces grands projets, les habitants de Grand Popo se battent contre l'oubli et la dépossession.</desc>
@@ -235892,8 +236179,10 @@
   </programme>
   <channel id="animaux.fr">
     <display-name>Animaux</display-name>
+    <display-name>ANIMAUX Full HD</display-name>
+    <display-name>ANIMAUX</display-name>
     <icon src="https://i.imgur.com/FM9FVAG.png" />
-  <display-name>ANIMAUX Full HD</display-name><display-name>ANIMAUX</display-name></channel>
+  </channel>
   <programme start="20261118003500 +0000" stop="20261118013000 +0000" channel="animaux.fr">
     <title lang="fr">Alaïs, tortue sauvage de Provence</title>
     <desc lang="fr">Au coeur des collines du Massif des Maures sur la Côte d'Azur, ce documentaire raconte les aventures extraordinaires d'Alaïs, une tortue des Maures ayant atteint l'âge canonique de 82 ans, des années 1940 à nos jours. Dans ce film, la caméra est en permanence du côté des tortues, les rares humains et les grands animaux sauvages ou domestiques que croise Alaïs sont perçus comme des géants. En danger d'extinction, la tortue des Maures ou d'Hermann est la seule tortue terrestre sauvage de France. Ces dernières décennies, les activités humaines ont largement réduit sa population, au point qu'elle est désormais protégée comme un trésor national.</desc>
@@ -236593,8 +236882,9 @@
   </programme>
   <channel id="chassepeche.fr">
     <display-name>Chasse et Pêche</display-name>
+    <display-name>CHASSE ET PECHE</display-name>
     <icon src="https://i.imgur.com/ZIS2ZQ1.png" />
-  <display-name>CHASSE ET PECHE</display-name></channel>
+  </channel>
   <programme start="20261118002700 +0000" stop="20261118012000 +0000" channel="chassepeche.fr">
     <title lang="fr">Les carnets de Julie</title>
     <sub-title lang="fr">La saison du gibier</sub-title>
@@ -238787,8 +239077,10 @@
   </programme>
   <channel id="mtv.fr">
     <display-name>MTV</display-name>
+    <display-name>MTV Full HD</display-name>
+    <display-name>MTV 4K</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
-  <display-name>MTV Full HD</display-name><display-name>MTV 4K</display-name></channel>
+  </channel>
   <programme start="20261118002000 +0000" stop="20261118004000 +0000" channel="mtv.fr">
     <title lang="fr">Ink Master rédemption</title>
     <sub-title lang="fr">Un service client difficile</sub-title>
@@ -239869,8 +240161,9 @@
   </programme>
   <channel id="traceafrica.fr">
     <display-name>Trace Africa</display-name>
+    <display-name>TRACE URBAN</display-name>
     <icon src="https://i.imgur.com/kPUkoS7.png" />
-  <display-name>TRACE URBAN</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="traceafrica.fr">
     <title lang="fr">La nuit c'est la nuit !</title>
     <desc lang="fr">La playlist de la nuit sur TRACE Africa</desc>
@@ -240190,8 +240483,9 @@
   </programme>
   <channel id="melody.fr">
     <display-name>Melody TV</display-name>
+    <display-name>MELODY</display-name>
     <icon src="https://i.imgur.com/9GVyQ6x.png" />
-  <display-name>MELODY</display-name></channel>
+  </channel>
   <programme start="20261118003000 +0000" stop="20261118003500 +0000" channel="melody.fr">
     <title lang="fr">La chronique variété</title>
     <desc lang="fr">Le meilleur des années 60 à 2000 est sur Melody TV. Nous vous ferons découvrir ou redécouvrir certains des plus grands artistes musicaux de l'histoire dans nos programmes exclusifs.</desc>
@@ -240974,8 +241268,9 @@
   </programme>
   <channel id="disneyjunior.fr">
     <display-name>Disney Junior</display-name>
+    <display-name>DISNEY JUNIOR</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" />
-  <display-name>DISNEY JUNIOR</display-name></channel>
+  </channel>
   <programme start="20261118050000 +0000" stop="20261118052500 +0000" channel="disneyjunior.fr">
     <title lang="fr">La Maison de Mickey+</title>
     <desc lang="fr">Mickey et ses amis reçoivent un appel étrange de Mickey et Minnie version martiennes. Leur maison de l'espace a besoin d'être remplacée. Mickey et ses amis utilisent donc leur maxi-outils pour leur en construire une nouvelle.Saison</desc>
@@ -241093,8 +241388,9 @@
   </programme>
   <channel id="nickjr.fr">
     <display-name>Nickelodeon Junior</display-name>
+    <display-name>NICKELODEON JUNIOR</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" />
-  <display-name>NICKELODEON JUNIOR</display-name></channel>
+  </channel>
   <programme start="20261118002200 +0000" stop="20261118004600 +0000" channel="nickjr.fr">
     <title lang="fr">Bubulle Guppies</title>
     <sub-title lang="fr">Bonjour monsieur Grognon !</sub-title>
@@ -244266,8 +244562,11 @@
   </programme>
   <channel id="canalj.fr">
     <display-name>Canal J</display-name>
+    <display-name>CANAL J Full HD</display-name>
+    <display-name>Canal J 4K</display-name>
+    <display-name>CANAL J</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/960px-Canal_J_2019_Logo.png" />
-  <display-name>CANAL J Full HD</display-name><display-name>Canal J 4K</display-name><display-name>CANAL J</display-name></channel>
+  </channel>
   <programme start="20261118050000 +0000" stop="20261118051500 +0000" channel="canalj.fr">
     <title lang="fr">Robin des Bois, malice à Sherwood</title>
     <sub-title lang="fr">La lettre</sub-title>
@@ -245584,8 +245883,11 @@
   </programme>
   <channel id="piwi.fr">
     <display-name>PIWI+</display-name>
+    <display-name>PIWI Full HD</display-name>
+    <display-name>Piwi+ 4K</display-name>
+    <display-name>PIWI</display-name>
     <icon src="https://i.imgur.com/Ahckjj2.png" />
-  <display-name>PIWI Full HD</display-name><display-name>Piwi+ 4K</display-name><display-name>PIWI</display-name></channel>
+  </channel>
   <programme start="20261119050100 +0000" stop="20261119050500 +0000" channel="piwi.fr">
     <title lang="fr">Barbapapa</title>
     <desc lang="fr">Les Barbapapa découvrent combien il est amusant de se peindre et de se fondre dans le paysage.</desc>
@@ -245978,8 +246280,9 @@
   </programme>
   <channel id="mangas.fr">
     <display-name>Mangas</display-name>
+    <display-name>MANGAS</display-name>
     <icon src="https://i.imgur.com/wmmEOza.png" />
-  <display-name>MANGAS</display-name></channel>
+  </channel>
   <programme start="20261118001700 +0000" stop="20261118004200 +0000" channel="mangas.fr">
     <title lang="fr">Valérian et Laureline</title>
     <sub-title lang="fr">Une valse à mille temps</sub-title>
@@ -247388,8 +247691,11 @@
   </programme>
   <channel id="beinsports1.fr">
     <display-name>beIN SPORTS 1</display-name>
+    <display-name>beIN Sports 1 SD</display-name>
+    <display-name>beIN Sports 1 4K</display-name>
+    <display-name>beIN Sports 1 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/Vtk2cGI.png" />
-  <display-name>beIN Sports 1 SD</display-name><display-name>beIN Sports 1 4K</display-name><display-name>beIN Sports 1 ʜᴅ</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118001500 +0000" channel="beinsports1.fr">
     <title lang="fr">Ça se passe sur beIN SPORTS</title>
     <sub-title lang="fr">NBA</sub-title>
@@ -247805,8 +248111,11 @@
   </programme>
   <channel id="beinsports2.fr">
     <display-name>beIN SPORTS 2</display-name>
+    <display-name>beIN Sports 2 SD</display-name>
+    <display-name>beIN Sports 2 4K</display-name>
+    <display-name>beIN Sports 2 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/vUJZSvs.png" />
-  <display-name>beIN Sports 2 SD</display-name><display-name>beIN Sports 2 4K</display-name><display-name>beIN Sports 2 ʜᴅ</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118030000 +0000" channel="beinsports2.fr">
     <title lang="fr">Hockey sur glace : NHL</title>
     <desc lang="fr">Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace. Constituée de franchises canadiennes et américaines, cette compétition est la plus célèbre au monde concernant les clubs de hockey sur glace. Elle existe depuis 1917, date de sa création à l'hôtel Windsor de Montréal au Canada.</desc>
@@ -248128,8 +248437,10 @@
   </programme>
   <channel id="beinsports3.fr">
     <display-name>beIN SPORTS 3</display-name>
+    <display-name>beIN Sports 3 SD</display-name>
+    <display-name>beIN Sports 3 ʜᴅ</display-name>
     <icon src="https://i.imgur.com/UYSMao3.png" />
-  <display-name>beIN Sports 3 SD</display-name><display-name>beIN Sports 3 ʜᴅ</display-name></channel>
+  </channel>
   <programme start="20261118000000 +0000" stop="20261118013000 +0000" channel="beinsports3.fr">
     <title lang="fr">Handball : Ligue des champions féminine EHF</title>
     <desc lang="fr">Le 15 novembre, le Metz Handball se déplacera au Danemark pour affronter Odense lors de la 8e journée. Les Messines devront s'appuyer sur l'efficacité de Léna Grandveau et de Kristina Jørgensen pour mettre en difficulté la défense danoise. Metz cherchera à décrocher un résultat précieux.</desc>
@@ -248441,8 +248752,9 @@
   </programme>
   <channel id="abmoteurs.fr">
     <display-name>Auto Moto</display-name>
+    <display-name>AUTOMOTO la chaine</display-name>
     <icon src="https://i.imgur.com/ebf2uc7.png" />
-  <display-name>AUTOMOTO la chaine</display-name></channel>
+  </channel>
   <programme start="20261118003800 +0000" stop="20261118013700 +0000" channel="abmoteurs.fr">
     <title lang="fr">Type E, le fauve éternel</title>
     <desc lang="fr">Enzo Ferrari lui-même a qualifiée la jaguar Type E de "plus belle voiture du monde", face au design osé, racé et révolutionnaire de cette belle Anglaise légendaire.</desc>
@@ -249047,8 +249359,9 @@
   </programme>
   <channel id="eentertainment.fr">
     <display-name>E! Entertainment</display-name>
+    <display-name>E ! HD</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png" />
-  <display-name>E ! HD</display-name></channel>
+  </channel>
   <programme start="20261118003300 +0000" stop="20261118011900 +0000" channel="eentertainment.fr">
     <title lang="fr">Les Real Housewives de New York</title>
     <sub-title lang="fr">Choisir c'est renoncer</sub-title>
@@ -249940,4 +250253,4 @@
     <image>http://static-cdn.tv.sfr.net/data/img/pl/8/3/5/15725538.jpg</image>
     <image>http://static-cdn.tv.sfr.net/data/img/pl/2/2/8/16262822.jpg</image>
   </programme>
-  </tv>
+</tv>

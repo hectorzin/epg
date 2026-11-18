@@ -190,6 +190,43 @@ class NationalGuideMergeTests(unittest.TestCase):
             self.assertEqual(len(merged.findall('channel')), 1)
             self.assertEqual(len(merged.findall('programme')), 2)
 
+    def test_duplicate_channels_use_filename_order_not_argument_order(self):
+        with tempfile.TemporaryDirectory() as d:
+            arabic = Path(d) / 'guide-arabic.xml'
+            spanish = Path(d) / 'guide-es.xml'
+            arabic_root = ET.Element('tv')
+            arabic_channel = ET.SubElement(arabic_root, 'channel', id='AlSaudiya.sa@SD')
+            ET.SubElement(arabic_channel, 'display-name').text = 'السعودية'
+            ET.SubElement(arabic_channel, 'icon', src='https://example.com/sa.png')
+            arabic_programme = ET.SubElement(
+                arabic_root,
+                'programme',
+                channel='AlSaudiya.sa@SD',
+                start='20261117010000 +0000',
+                stop='20261117020000 +0000',
+            )
+            ET.SubElement(arabic_programme, 'title').text = 'Arabic schedule'
+            spanish_root = ET.Element('tv')
+            spanish_channel = ET.SubElement(spanish_root, 'channel', id='AlSaudiya.sa@SD')
+            ET.SubElement(spanish_channel, 'display-name').text = 'Saudi Channel 1'
+            ET.SubElement(spanish_channel, 'display-name').text = 'السعودية'
+            spanish_programme = ET.SubElement(
+                spanish_root,
+                'programme',
+                channel='AlSaudiya.sa@SD',
+                start='20261117020000 +0000',
+                stop='20261117030000 +0000',
+            )
+            ET.SubElement(spanish_programme, 'title').text = 'Spanish schedule'
+            ET.ElementTree(arabic_root).write(arabic)
+            ET.ElementTree(spanish_root).write(spanish)
+
+            merged = module.merge([spanish, arabic], reference=TEST_REFERENCE)
+            channel = merged.find("channel[@id='AlSaudiya.sa@SD']")
+            names = [node.text for node in channel.findall('display-name')]
+            self.assertEqual(names[0], 'السعودية')
+            self.assertEqual(names, ['السعودية', 'Saudi Channel 1'])
+
 
 class MadridProgrammeWindowTests(unittest.TestCase):
     def test_window_is_today_and_tomorrow_in_madrid(self):
