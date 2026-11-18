@@ -2,6 +2,12 @@ name: EPG orchestrator
 
 on:
   workflow_dispatch:
+    inputs:
+      merge_only:
+        description: Merge only the national guides already published on main
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "0 3 * * *"
 
@@ -14,18 +20,22 @@ concurrency:
 
 jobs:
   spain:
+    if: ${{ inputs.merge_only != true }}
     uses: ./.github/workflows/generate-es.yml
     secrets: inherit
 
   france:
+    if: ${{ inputs.merge_only != true }}
     uses: ./.github/workflows/generate-fr.yml
     secrets: inherit
 
   arabic:
+    if: ${{ inputs.merge_only != true }}
     uses: ./.github/workflows/generate-arabic.yml
     secrets: inherit
 
   britain:
+    if: ${{ inputs.merge_only != true }}
     uses: ./.github/workflows/generate-gb.yml
     secrets: inherit
 
