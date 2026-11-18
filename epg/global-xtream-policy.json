@@ -208,6 +208,24 @@
       "actionable_fixes": 0,
       "detail": "Panel lowercase id vs XMLTV @SD clone; AquaPlay already correct"
     },
+    "nl": {
+      "NH.nl@SD": [
+        "NL NH NIEUWS HD",
+        "NL NH NIEUWS 4K"
+      ],
+      "HorseCountryTV.uk@SD": [
+        "NL Horse & Country HD",
+        "NL Horse & Country 4K"
+      ],
+      "ESPN.nl@HD": [
+        "NL ESPN 1 HD",
+        "NL ESPN 1 4K"
+      ],
+      "RTVOost.nl@SD": [
+        "NL TV Oost HD",
+        "NL TV Oost 4K"
+      ]
+    },
     "gb": {
       "count_reported": 8,
       "verdict": "all_same_feed_casing_only",

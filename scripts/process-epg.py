@@ -627,7 +627,7 @@ def main() -> int:
     parser.add_argument("--xtream-aliases", type=Path, default=root / "epg" / "xtream-aliases.json")
     parser.add_argument(
         "--profile",
-        choices=("es", "fr", "arabic", "gb", "pt"),
+        choices=("es", "fr", "arabic", "gb", "pt", "nl"),
         default="es",
         help="Alias validation profile (regional guides use relaxed display-name counts)",
     )
@@ -670,7 +670,7 @@ def main() -> int:
         if denied_clones:
             purge_denied_clone_channels(source_root, denied_clones)
         source = ET.tostring(source_root, encoding="utf-8", xml_declaration=True) + b"\n"
-        auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC", "gb": "GB", "pt": "PT"}[profile]
+        auto_region = {"es": "ES", "fr": "FR", "arabic": "ARABIC", "gb": "GB", "pt": "PT", "nl": "NL"}[profile]
         tolerate_configured = profile != "es"
         xtream_aliases, xtream_summary = resolve_xtream_catalog(
             source_root,

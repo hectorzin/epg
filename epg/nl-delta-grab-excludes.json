@@ -1,0 +1,142 @@
+[
+  {
+    "site_id": "65",
+    "xmltv_id": "Family7.nl@SD",
+    "name": "Family 7"
+  },
+  {
+    "site_id": "67",
+    "xmltv_id": "ZVTAVS.nl@SD",
+    "name": "ZVT-AVS"
+  },
+  {
+    "site_id": "68",
+    "xmltv_id": "RTVScheldemond.nl@SD",
+    "name": "RTV Scheldemond"
+  },
+  {
+    "site_id": "80",
+    "xmltv_id": "MTVLive.uk@SD",
+    "name": "MTV Live HD"
+  },
+  {
+    "site_id": "81",
+    "xmltv_id": "MTV00s.uk@SD",
+    "name": "MTV 00s"
+  },
+  {
+    "site_id": "82",
+    "xmltv_id": "MTV80s.uk@SD",
+    "name": "MTV 80s"
+  },
+  {
+    "site_id": "3004",
+    "xmltv_id": "FashionTVEurope.fr@SD",
+    "name": "FashionTV"
+  },
+  {
+    "site_id": "3009",
+    "xmltv_id": "ShortsTV.uk@SD",
+    "name": "Shorts TV"
+  },
+  {
+    "site_id": "3010",
+    "xmltv_id": "BBCEntertainment.uk@SD",
+    "name": "BBC Entertainment"
+  },
+  {
+    "site_id": "3015",
+    "xmltv_id": "KiKA.de@SD",
+    "name": "KiKa"
+  },
+  {
+    "site_id": "3016",
+    "xmltv_id": "3sat.de@SD",
+    "name": "3Sat"
+  },
+  {
+    "site_id": "3018",
+    "xmltv_id": "kabeleins.de@SD",
+    "name": "Kabel Eins"
+  },
+  {
+    "site_id": "3023",
+    "xmltv_id": "TRTTurk.tr@SD",
+    "name": "TRT Türk"
+  },
+  {
+    "site_id": "3026",
+    "xmltv_id": "Film1Action.nl@SD",
+    "name": "Film1 Action"
+  },
+  {
+    "site_id": "3060",
+    "xmltv_id": "LOKTV.nl@SD",
+    "name": "LOK TV"
+  },
+  {
+    "site_id": "3116",
+    "xmltv_id": "FoxNewsChannel.us@SD",
+    "name": "Fox News Channel"
+  },
+  {
+    "site_id": "3149",
+    "xmltv_id": "InsightTV.nl@SD",
+    "name": "Inplus TV"
+  },
+  {
+    "site_id": "3160",
+    "xmltv_id": "SlotstadTV.nl@SD",
+    "name": "Slotstad TV"
+  },
+  {
+    "site_id": "3162",
+    "xmltv_id": "CastricumTV.nl@SD",
+    "name": "Castricum-TV"
+  },
+  {
+    "site_id": "3164",
+    "xmltv_id": "RondeVenenTV.nl@SD",
+    "name": "Ronde Venen TV"
+  },
+  {
+    "site_id": "3173",
+    "xmltv_id": "Regio8TV.nl@SD",
+    "name": "REGIO8 TV"
+  },
+  {
+    "site_id": "3181",
+    "xmltv_id": "RTVRijnstreekTV.nl@SD",
+    "name": "RTV Rijnstreek TV"
+  },
+  {
+    "site_id": "3182",
+    "xmltv_id": "Samen1TV.nl@SD",
+    "name": "Samen1 TV Apeldoorn"
+  },
+  {
+    "site_id": "3186",
+    "xmltv_id": "RTVFocusTV.nl@SD",
+    "name": "RTV Focus TV"
+  },
+  {
+    "site_id": "10000",
+    "xmltv_id": "AAVISIE.nl@SD",
+    "name": "AAVISIE"
+  },
+  {
+    "site_id": "10042",
+    "xmltv_id": "VOSTV.nl@SD",
+    "name": "VOS TV"
+  },
+  {
+    "site_id": "10046",
+    "xmltv_id": "ViaplayXtra.uk@SD",
+    "name": "Viaplay Xtra"
+  },
+  {
+    "site_id": "10081",
+    "xmltv_id": "HTRTV.nl@SD",
+    "name": "HTR TV"
+  }
+]

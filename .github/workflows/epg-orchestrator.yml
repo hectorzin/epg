@@ -44,8 +44,13 @@ jobs:
     uses: ./.github/workflows/generate-pt.yml
     secrets: inherit
 
+  netherlands:
+    if: ${{ inputs.merge_only != true }}
+    uses: ./.github/workflows/generate-nl.yml
+    secrets: inherit
+
   merge-global:
-    needs: [spain, france, arabic, britain, portugal]
+    needs: [spain, france, arabic, britain, portugal, netherlands]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     concurrency:
@@ -80,5 +85,6 @@ jobs:
             echo "- Arabic: ${{ needs.arabic.result }}"
             echo "- Britain: ${{ needs.britain.result }}"
             echo "- Portugal: ${{ needs.portugal.result }}"
+            echo "- Netherlands: ${{ needs.netherlands.result }}"
             echo "- Global merge: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"

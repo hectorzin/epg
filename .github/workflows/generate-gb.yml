@@ -92,7 +92,7 @@ jobs:
             run_source "$name" "$catalog" "$prefix"
           done
           occupied=()
-          for national in guide-es.xml guide-fr.xml guide-arabic.xml; do
+          for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-pt.xml guide-nl.xml; do
             if [[ -f "$WORKSPACE/$national" ]]; then
               occupied+=(--occupied-guide "$WORKSPACE/$national")
             fi

@@ -12,7 +12,14 @@ GLOBAL_POLICY_PATH = ROOT / "epg" / "global-xtream-policy.json"
 ID_RE = re.compile(r"^[^\s<>\"']+$")
 FORBIDDEN_ALIAS_TOKENS = frozenset({"", "null", "none", "undefined"})
 NUMERIC_ID_RE = re.compile(r"^\d+$")
-PROFILE_TO_POLICY_KEY = {"es": None, "fr": "fr", "pt": "pt", "arabic": "arabic", "gb": None}
+PROFILE_TO_POLICY_KEY = {
+    "es": None,
+    "fr": "fr",
+    "pt": "pt",
+    "arabic": "arabic",
+    "gb": None,
+    "nl": "nl",
+}
 
 
 @lru_cache(maxsize=1)
