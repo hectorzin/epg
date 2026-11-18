@@ -62,7 +62,7 @@ jobs:
             local name="$1" catalog="$2"
             local selected="$OUTPUT_DIR/$name.channels.xml"
             local guide="$OUTPUT_DIR/$name.xml"
-            local args=(select --catalog "$catalog" --output "$selected")
+            local args=(select --catalog "$catalog" --output "$selected" --source "$name")
             for prior in "${covered_guides[@]}"; do args+=(--covered-guide "$prior"); done
             count=$(python3 "$HELPER" "${args[@]}") || return 0
             echo "$name: $count uncovered channels selected"

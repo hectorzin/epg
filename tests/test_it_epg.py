@@ -84,6 +84,43 @@ class ItalyEpgTests(unittest.TestCase):
             merged = ET.parse(output).getroot()
             self.assertEqual({c.get("id") for c in merged.findall("channel")}, {"FoxNewsChannel.us@Italy"})
 
+    def test_mediaset_select_ignores_sky_incremental_cover(self):
+        trial_root = Path(__file__).resolve().parents[1] / "temp" / "it-trial"
+        med_catalog = (
+            trial_root
+            / "upstream"
+            / "sites"
+            / "mediasetinfinity.mediaset.it"
+            / "mediasetinfinity.mediaset.it.channels.xml"
+        )
+        sky_guide = trial_root / "sky-guida.xml"
+        if not med_catalog.is_file() or not sky_guide.is_file():
+            self.skipTest("temp/it-trial captures required")
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "mediaset.channels.xml"
+            without = module.select_channels(med_catalog, output, covered_guides=[sky_guide], source="sky")
+            output2 = Path(directory) / "official.channels.xml"
+            with_select = module.select_channels(med_catalog, output2, covered_guides=[sky_guide], source="mediaset")
+            self.assertGreater(with_select, without)
+            self.assertGreaterEqual(with_select, 10)
+
+    def test_rai1_hd_rewrites_when_france_holds_sd(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            sky = root / "sky.xml"
+            output = root / "out.xml"
+            occupied = {"Rai1.it@SD", "Rai2.it@SD", "TGCom24.it@SD"}
+            write_guide(
+                sky,
+                [("Rai1.it@HD", "Rai 1 HD")],
+                [("Rai1.it@HD", "Rai 1 programme", "20261117010000 +0000")],
+            )
+            module.write_merged([("sky", sky, None)], output, occupied)
+            merged = ET.parse(output).getroot()
+            ids = {c.get("id") for c in merged.findall("channel")}
+            self.assertIn("Rai1.it@Italy", ids)
+            self.assertNotIn("Rai1.it@HD", ids)
+
 
 if __name__ == "__main__":
     unittest.main()

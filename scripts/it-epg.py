@@ -36,6 +36,8 @@ NUMERIC_ID_RE = re.compile(r"^[0-9]+$")
 ID_RE = re.compile(r"^[^\s<>\"']+$")
 IT_PREFIX = re.compile(r"^\s*(?:\[IT\]|IT)\s*[:|/_-]?\s*", re.IGNORECASE)
 SOURCE_PRIORITY = {"sky": 4, "mediaset": 3, "rai": 2, "tivu": 1}
+# Lower-priority incremental guides must not skip official Mediaset/Rai grabs.
+OFFICIAL_BROADCASTER_SOURCES = frozenset({"mediaset", "rai"})
 COLLISION_FEED = "Italy"
 DAZN_RE = re.compile(r"\bdazn\s*a?\s*(\d+)\b", re.IGNORECASE)
 SKY_SPORT_NUM_RE = re.compile(r"\bsky\s*sport\s*(\d+)\b", re.IGNORECASE)
@@ -265,21 +267,52 @@ def score_channel(programmes: list[ET.Element], source: str) -> tuple[int, int, 
     return (score, SOURCE_PRIORITY.get(source, 0), len(titled))
 
 
-def avoid_collision(channel_id: str, occupied: set[str], name: str) -> str:
-    if channel_id not in occupied:
+def same_market_base_conflict(channel_id: str, occupied: set[str]) -> bool:
+    """True when another regional guide already uses the same Italian channel base."""
+    if "@" not in channel_id:
+        return False
+    base, _feed = channel_id.rsplit("@", 1)
+    if not base.endswith(".it"):
+        return False
+    prefix = f"{base}@"
+    return any(item.startswith(prefix) and item != channel_id for item in occupied)
+
+
+def italy_feed_id(channel_id: str, occupied: set[str]) -> str | None:
+    if "@" not in channel_id:
+        return None
+    base, _feed = channel_id.rsplit("@", 1)
+    candidate = f"{base}@{COLLISION_FEED}"
+    if candidate not in occupied and ID_RE.fullmatch(candidate) and candidate != channel_id:
+        return candidate
+    return None
+
+
+def avoid_collision(
+    channel_id: str,
+    foreign_occupied: set[str],
+    used_ids: set[str],
+    name: str,
+) -> str:
+    reserved = foreign_occupied | used_ids
+    if channel_id not in reserved:
+        if same_market_base_conflict(channel_id, foreign_occupied):
+            rewritten = italy_feed_id(channel_id, reserved)
+            if rewritten:
+                return rewritten
         return channel_id
     if "@" in channel_id:
-        base, _feed = channel_id.split("@", 1)
+        base, _feed = channel_id.rsplit("@", 1)
         rewritten = f"{base}@{COLLISION_FEED}"
-        if rewritten not in occupied and rewritten != channel_id:
+        if rewritten not in reserved and rewritten != channel_id:
             return rewritten
     minted = mint_id(name)
-    if minted not in occupied:
+    if minted not in reserved:
         return minted
     slug = normalise_text(name) or "channel"
     fallback = f"it.{slug}"
     suffix = 2
-    while fallback in occupied or not ID_RE.fullmatch(fallback):
+    while fallback in reserved or not ID_RE.fullmatch(fallback):
         fallback = f"it.{slug}{suffix}"
         suffix += 1
     return fallback
@@ -367,9 +400,13 @@ def select_channels(
     output: Path,
     *,
     covered_guides: list[Path] | None = None,
+    source: str | None = None,
 ) -> int:
     root = ET.parse(catalog).getroot()
-    covered_ids, covered_names, covered_identities = programmed_channel_names(covered_guides or [])
+    guides_for_coverage = (
+        [] if source in OFFICIAL_BROADCASTER_SOURCES else (covered_guides or [])
+    )
+    covered_ids, covered_names, covered_identities = programmed_channel_names(guides_for_coverage)
     selected = ET.Element("channels")
     seen: set[str] = set()
     for channel in root.findall("channel"):
@@ -462,7 +499,7 @@ def merge_guides(
         if hinted and hinted not in used_ids and is_strong_id(hinted):
             channel_id = hinted
         original_id = channel_id
-        channel_id = avoid_collision(channel_id, occupied | used_ids, winner["name"])
+        channel_id = avoid_collision(channel_id, occupied, used_ids, winner["name"])
         if original_id in occupied:
             collisions.append(
                 {
@@ -538,6 +575,11 @@ def main() -> int:
     select.add_argument("--catalog", type=Path, required=True)
     select.add_argument("--output", type=Path, required=True)
     select.add_argument("--covered-guide", action="append", type=Path, default=[])
+    select.add_argument(
+        "--source",
+        choices=tuple(SOURCE_PRIORITY),
+        help="feed name (Mediaset/Rai ignore lower-priority covered guides)",
+    )
     merge = sub.add_parser("merge")
     merge.add_argument(
         "--source",
@@ -550,7 +592,12 @@ def main() -> int:
     merge.add_argument("--canonical-guide", action="append", type=Path, default=[])
     args = parser.parse_args()
     if args.command == "select":
-        count = select_channels(args.catalog, args.output, covered_guides=args.covered_guide)
+        count = select_channels(
+            args.catalog,
+            args.output,
+            covered_guides=args.covered_guide,
+            source=args.source,
+        )
         print(count)
         return 0
     sources = [parse_source(value) for value in args.source]
