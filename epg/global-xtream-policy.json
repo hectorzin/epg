@@ -1,0 +1,222 @@
+{
+  "global_denied_xtream_clone_ids": [
+    "01tv.fr",
+    "13tv.es",
+    "24horas.es",
+    "aragontvint.es",
+    "canalsur.es",
+    "movistardcine.es",
+    "movistarestrenos.es"
+  ],
+  "forbidden_alias_tokens": [
+    "",
+    "NULL",
+    "null",
+    "none",
+    "undefined"
+  ],
+  "no_numeric_stream_clones": true,
+  "curated_display_aliases": {
+    "fr": {
+      "RMCDecouverte.fr@SD": [
+        "RMC DECOUVERTE",
+        "RMC DECOUVERTE Full HD",
+        "RMC Decouverte 4K"
+      ],
+      "CanalPlusGrandEcran.fr@SD": [
+        "Grand Ecran 1",
+        "Canal+ Grand Ecran HD"
+      ],
+      "CanalPlusDocs.fr@SD": [
+        "Canal+ Docs HD"
+      ],
+      "CanalPlusFoot.fr@SD": [
+        "Canal+ Foot HD"
+      ],
+      "CanalPlusSport360.fr@SD": [
+        "Canal+ Sport 360 HD"
+      ],
+      "RMCSport4.fr@SD": [
+        "RMC Sport 4"
+      ],
+      "NovelasTV.fr@SD": [
+        "Novelas TV HD",
+        "Novelas TV"
+      ],
+      "RTL9.lu@SD": [
+        "RTL9"
+      ],
+      "Franceinfo.fr@SD": [
+        "FRANCEINFO:",
+        "FRANCEINFO: Full HD",
+        "Franceinfo 4K"
+      ],
+      "EuronewsFrench.fr@SD": [
+        "EURONEWS FRENCH SD"
+      ],
+      "BFMBusiness.fr@SD": [
+        "BFM BUSINESS HD"
+      ],
+      "RFMTV.fr@SD": [
+        "RFM TV Full HD",
+        "RFM TV"
+      ],
+      "TeletoonPlus.fr@SD": [
+        "TELETOON Full HD",
+        "Teletoon + 4K"
+      ],
+      "LCP.fr@SD": [
+        "LCP Full HD",
+        "LCP 4K"
+      ],
+      "ToutelHistoire.fr@SD": [
+        "Toute L Histoire"
+      ],
+      "CrimeDistrict.fr@SD": [
+        "Crime District"
+      ]
+    },
+    "pt": {
+      "CMTV.pt@SD": [
+        "PT CM TV HD",
+        "PT CM TV 4K"
+      ],
+      "VITECAzoresTV.pt@SD": [
+        "PT AZORES TV"
+      ],
+      "TVIInternacional.pt@Portugal": [
+        "PT TVI Internacional"
+      ],
+      "StarComedy.pt@SD": [
+        "PT Fox Comedy HD",
+        "PT FOX Comedy 4K"
+      ],
+      "StarCrime.pt@SD": [
+        "PT Fox Crime HD",
+        "PT FOX Crime 4K"
+      ],
+      "StarLife.pt@SD": [
+        "PT Fox Life HD",
+        "PT FOX Life 4K"
+      ],
+      "StarMovies.pt@SD": [
+        "PT FOX Movies HD",
+        "PT FOX Movies 4K"
+      ],
+      "TVCineAction.pt@SD": [
+        "PT TV Cine Action HD",
+        "PT TV Cine Action 4K"
+      ],
+      "TVCineEdition.pt@SD": [
+        "PT TV Cine Edition HD",
+        "PT TV Cine Edition 4K"
+      ],
+      "TVCineTop.pt@SD": [
+        "PT TV CINE TOP HD",
+        "PT TV Cine Top 4K"
+      ],
+      "NationalGeographic.pt@SD": [
+        "PT Nat Geo HD",
+        "PT Nat Geo 4K"
+      ],
+      "NationalGeographicWild.pt@SD": [
+        "PT Nat Geo Wild HD",
+        "PT Nat Geo Wild 4K"
+      ],
+      "DiscoveryChannel.pt@SD": [
+        "PT Discovery Channel HD",
+        "PT Discovery Channel 4K"
+      ],
+      "SPlus.pt@SD": [
+        "PT S 4K"
+      ],
+      "DisneyJunior.pt@SD": [
+        "PT Disney Junior HD"
+      ],
+      "Cartoonito.pt@SD": [
+        "PT Boomerang HD"
+      ],
+      "SportTVPlus.pt@SD": [
+        "PT Sport TV",
+        "PT Sport TV HD",
+        "PT Sport TV 4K"
+      ],
+      "BTV.pt@SD": [
+        "PT BTV 4K",
+        "PT BTV HD",
+        "PT Benfica HD",
+        "PT Benfica 4K"
+      ],
+      "ABolaTV.pt@Portugal": [
+        "PT A Bola 4K"
+      ],
+      "Fightbox.pt@HD": [
+        "PT FightBox FHD"
+      ],
+      "MTV.pt@SD": [
+        "PT MTV HD",
+        "PT MTV 4K"
+      ],
+      "BBCWorldNews.pt@SD": [
+        "PT BBC WORLD NEWS"
+      ],
+      "CNNPortugal.pt@SD": [
+        "PT TVI 24"
+      ]
+    },
+    "arabic": {
+      "AlJazeera.qa@Arabic": [
+        "Al Jazeera HD"
+      ],
+      "MBCPlusDrama.sa@SD": [
+        "MBC Drama PLUS HD"
+      ],
+      "beINMovies1Premiere.qa@SD": [
+        "beIN MOVIES 4K 1",
+        "beIN Movies HD1"
+      ],
+      "beINMovies2Action.qa@SD": [
+        "beIN MOVIES 4K 2",
+        "beIN Movies HD2"
+      ],
+      "beINMovies3Drama.qa@SD": [
+        "beIN MOVIES 4K 3",
+        "beIN Movies HD3"
+      ],
+      "beINSeries1.qa@SD": [
+        "beIN SERIES 4K 1",
+        "beIN Series HD1"
+      ],
+      "Baraem.qa@SD": [
+        "beIN BARAEAM 4K",
+        "beIN Baraem HD",
+        "Bein Baraem HD"
+      ],
+      "Fatafeat.ae@SD": [
+        "beIN FATAFEAT 4K",
+        "beIN Fatafeat"
+      ],
+      "StarWorldMiddleEast.ae@SD": [
+        "beIN Star World HD"
+      ]
+    }
+  },
+  "investigated_incorrect_assignments": {
+    "fr": {
+      "count_reported": 13,
+      "verdict": "all_same_feed_casing_only",
+      "actionable_fixes": 0,
+      "detail": "Panel lowercase id vs XMLTV @SD clone; AquaPlay already correct"
+    },
+    "gb": {
+      "count_reported": 8,
+      "verdict": "all_same_feed_casing_only",
+      "actionable_fixes": 0,
+      "detail": "Panel *.uk vs clone *.uk@HD; no XMLTV change without breaking SD lineup"
+    }
+  },
+  "notes": {
+    "es_policy_file": "epg/es-xtream-policy.json",
+    "merge_purge": "Apply global_denied on national process-epg and merge-national-guides"
+  }
+}

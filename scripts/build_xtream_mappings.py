@@ -19,6 +19,7 @@ from xtream_matching import (  # noqa: E402
     classify_playlist_region,
     valid_panel_epg_id,
 )
+from es_xtream_policy import denied_xtream_clone_ids, filter_denied_xtream_aliases  # noqa: E402
 from xtream_pending import build_pending_report  # noqa: E402
 
 DEFAULT_DB = Path.home() / ".iptvnator" / "databases" / "iptvnator.db"
@@ -230,6 +231,7 @@ def main() -> int:
         aliases = merge_aliases(existing_aliases, discovered_aliases)
         clones = merge_clones(existing_clones, discovered_clones)
         clones = strip_spanish_skyshowtime_panel_clones(clones)
+        clones = filter_denied_xtream_aliases(clones, denied_xtream_clone_ids())
 
         for clone_id, original_id in list(clones.items()):
             if original_id not in guide_ids:

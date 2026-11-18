@@ -69,7 +69,7 @@
   <channel site="orangetv.orange.es" lang="es" xmltv_id="NatureTime.es" site_id="1084">NatureTime</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La7.es" site_id="2011">7RM HD</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="LevanteTV.es" site_id="2070">Levante TV</channel>
-  <channel site="orangetv.orange.es" lang="es" xmltv_id="CanalSur.es" site_id="1035">Canal Sur</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="csurOrange" site_id="1035">Canal Sur</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="CanalSur2.es" site_id="2022">CanalSur 2</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="CanalSurAndalucia.es" site_id="2031">Andalucía TV</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="" site_id="2065">7 TV Andalucia</channel>

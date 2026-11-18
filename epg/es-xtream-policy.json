@@ -1,0 +1,50 @@
+{
+  "channel_renames": {
+    "CanalSur.es": "csurOrange",
+    "24Horas.es@SD": "ch24hIntl"
+  },
+  "denied_xtream_clone_ids": [
+    "01tv.fr",
+    "13tv.es",
+    "24horas.es",
+    "aragontvint.es",
+    "canalsur.es",
+    "movistardcine.es",
+    "movistarestrenos.es"
+  ],
+  "pending_equivalences": [
+    {
+      "stream": "Canal 24 Horas Internacional",
+      "provider_epg_id": "24Horas.es@SD",
+      "xmltv_id_after_rename": "ch24hIntl",
+      "reason": "Provider keeps legacy EPG id; no clone (matchKey collides with 24horas.es). Needs catalogue-side id update or separate non-colliding feed."
+    },
+    {
+      "stream": "M+ Cine / M+ Cine Selección",
+      "provider_epg_id": "movistarestrenos.es",
+      "reason": "No scrape target; deny shared clone mapping."
+    },
+    {
+      "stream": "HBO Max 1",
+      "provider_epg_id": "13tv.es",
+      "reason": "Trece only; deny 13tv.es clone."
+    },
+    {
+      "stream": "M+ Cine Español vs Rakuten TV Family",
+      "provider_epg_id": "movistardcine.es",
+      "reason": "Distinct brands; deny shared clone."
+    },
+    {
+      "stream": "Cima thematic / saga channels",
+      "provider_epg_id": "cima.es.*",
+      "reason": "Virtual feeds without validated programming; no auto clone."
+    }
+  ],
+  "notes": {
+    "matchkey_collisions_avoided": [
+      "canalsur.es -> canalsures (avoid @id CanalSur.es)",
+      "24horas.es -> 24horases (avoid @id 24Horas.es@SD)"
+    ],
+    "legitimate_duplicate_groups_es": 49
+  }
+}

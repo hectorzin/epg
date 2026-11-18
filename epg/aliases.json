@@ -1,6 +1,8 @@
 {
   "24h": [
-    "24 HORAS FULL HD"
+    "24 HORAS FULL HD",
+    "Canal 24 Horas",
+    "Canal 24 Horas 2"
   ],
   "a3": [
     "ANTENA 3 FULL HD",
@@ -353,8 +355,7 @@
     "Ten"
   ],
   "13tv": [
-    "Trece",
-    "HBO Max 1"
+    "Trece"
   ],
   "parch": [
     "Paramount Network"
@@ -378,10 +379,12 @@
     "À Punt",
     "À Punt 2"
   ],
-  "CanalSur.es": [
+  "csurOrange": [
     "Canal Sur",
     "Canal Sur 2",
-    "Canal Sur Internacional",
+    "Canal Sur Internacional"
+  ],
+  "andatv": [
     "Andalucía TV"
   ],
   "CanalSurAndalucia.es": [

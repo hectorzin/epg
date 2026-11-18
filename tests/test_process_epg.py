@@ -92,6 +92,30 @@ class EpgUpdateTests(unittest.TestCase):
         with self.assertRaisesRegex(epg.EpgError, "empty or NULL"):
             epg.merge(sample(), self.aliases, xtream_aliases={"NULL": "ch0"})
 
+    def test_es_policy_purges_denied_xtream_clones(self):
+        mapping = {"denied.clone": "ch0"}
+        denied = frozenset({"denied.clone"})
+        payload = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="ch0"><display-name>Ch0</display-name></channel>'
+            b'<channel id="denied.clone"><display-name>Bad</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="ch0">'
+            b"<title>Show</title></programme>"
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="denied.clone">'
+            b"<title>Bad</title></programme></tv>"
+        )
+        result, _, _ = epg.merge(
+            payload,
+            {"ch0": ["Alias"]},
+            xtream_aliases={},
+            denied_xtream_clones=denied,
+            min_channels=1,
+            min_programmes=1,
+        )
+        root = epg.parse_xml(result, "out")
+        ids = {ch.get("id") for ch in root.findall("channel")}
+        self.assertNotIn("denied.clone", ids)
+
     def test_xtream_alias_loader_rejects_empty_null_and_multiple_destinations(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "xtream-aliases.json"

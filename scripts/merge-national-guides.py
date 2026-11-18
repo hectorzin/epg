@@ -234,6 +234,18 @@ def main():
         reference=args.reference_date,
         trim_tomorrow_metadata=not args.no_trim_tomorrow_metadata,
     )
+    _scripts = Path(__file__).resolve().parent
+    if str(_scripts) not in sys.path:
+        sys.path.insert(0, str(_scripts))
+    from es_xtream_policy import (  # noqa: WPS433
+        apply_channel_id_renames,
+        channel_renames,
+        denied_xtream_clone_ids,
+        purge_denied_clone_channels,
+    )
+
+    apply_channel_id_renames(merged, channel_renames())
+    purge_denied_clone_channels(merged, denied_xtream_clone_ids())
     window_start, window_end = madrid_two_day_window(args.reference_date)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     ET.indent(merged, space='  ')

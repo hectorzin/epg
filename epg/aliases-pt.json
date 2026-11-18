@@ -272,7 +272,7 @@
     "PT Sport TV 5 HD"
   ],
   "SportTVPlus.pt@SD": [
-    "PT Sport TV ",
+    "PT Sport TV",
     "PT Sport TV 4K",
     "PT Sport TV HD"
   ],
@@ -359,5 +359,11 @@
   "ZapViva.ao@SD": [
     "PT ZAP Viva 4K",
     "PT Zap Viva HD"
+  ],
+  "BTV.pt@SD": [
+    "PT BTV 4K",
+    "PT BTV HD",
+    "PT Benfica HD",
+    "PT Benfica 4K"
   ]
 }

@@ -179,7 +179,7 @@
     <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="" site_id="656">Cazavisión</channel>
     <channel site="orangetv.orange.es" lang="es" xmltv_id="BomCine.es" site_id="11174">Bom Cine</channel>
     <channel site="orangetv.orange.es" lang="es" xmltv_id="BetisTV.es" site_id="1019">Betis TV</channel>
-    <channel site="orangetv.orange.es" lang="es" xmltv_id="CanalSur.es" site_id="1035">Canal Sur</channel>
+    <channel site="orangetv.orange.es" lang="es" xmltv_id="csurOrange" site_id="1035">Canal Sur</channel>
     <channel site="orangetv.orange.es" lang="es" xmltv_id="CanalSur2.es" site_id="2022">CanalSur 2</channel>
     <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="CanalSurAndalucia.es" site_id="31">Canal Sur Andalucía</channel>
     <channel site="orangetv.orange.es" lang="es" xmltv_id="" site_id="2065">7 TV Andalucia</channel>
