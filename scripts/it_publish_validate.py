@@ -13,12 +13,16 @@ from pathlib import Path
 
 _SCRIPT_DIR = Path(__file__).resolve().parent
 _ROOT = _SCRIPT_DIR.parent
+if str(_SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPT_DIR))
 _MAX_IDENTITY_LOSS = 0.20
 _MIN_CHANNELS = 80
 _MIN_PROGRAMMES = 5000
 REFERENCE_CURATED = 66
 REFERENCE_USEFUL = 65
 REFERENCE_STREAMS = 116
+DEFAULT_CATALOG = _ROOT / "temp" / "it-trial" / "xtream-it-catalog.json"
+IPTVNATOR_DB = Path.home() / ".iptvnator" / "databases" / "iptvnator.db"
 
 NUMERIC_ID_RE = re.compile(r"^\d+$")
 
@@ -94,7 +98,23 @@ def validate_tree(guide_path: Path) -> tuple[set[str], int]:
     dup = [c.get("id") for c in root.findall("channel")]
     if len(dup) != len(set(dup)):
         raise SystemExit("Italy guide has duplicate channel ids")
+    validate_channel_layout(root)
     return channels, len(programmes)
+
+
+def validate_channel_layout(root: ET.Element) -> None:
+    from xmltv_channel import channel_children_ordered
+
+    for channel in root.findall("channel"):
+        channel_id = channel.get("id") or ""
+        if not channel_children_ordered(channel):
+            raise SystemExit(f"Italy guide DTD order violation on channel {channel_id!r}")
+        display_names = channel.findall("display-name")
+        if not display_names:
+            raise SystemExit(f"Italy guide channel {channel_id!r} has no display-name")
+        first = (display_names[0].text or "").strip()
+        if not first:
+            raise SystemExit(f"Italy guide channel {channel_id!r} has empty first display-name")
 
 
 def validate_xtream_layer(guide_path: Path, aliases_path: Path, xtream_path: Path, *, process_epg) -> dict:
@@ -111,7 +131,28 @@ def validate_xtream_layer(guide_path: Path, aliases_path: Path, xtream_path: Pat
     return {"alias_ids": len(aliases), "clone_ids": 0}
 
 
-def validate_curated_coverage(guide_path: Path, aliases_path: Path) -> dict:
+def private_catalog_available(catalog: Path) -> bool:
+    return catalog.is_file() or IPTVNATOR_DB.is_file()
+
+
+def load_coverage_catalog_rows(catalog: Path | None) -> list[dict]:
+    from it_catalog_match import clean_catalog_rows, load_catalog_json, load_streams_db
+
+    if catalog and catalog.is_file():
+        return clean_catalog_rows(load_catalog_json(catalog))
+    if IPTVNATOR_DB.is_file():
+        return load_streams_db()
+    raise FileNotFoundError(
+        f"No Italian Xtream catalog at {catalog!s} and no IPTVnator DB at {IPTVNATOR_DB}"
+    )
+
+
+def validate_curated_coverage(
+    guide_path: Path,
+    aliases_path: Path,
+    *,
+    catalog: Path | None = None,
+) -> dict:
     from it_catalog_match import client_coverage_report, load_rejected_streams, validate_rejected_not_in_aliases
 
     aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
@@ -119,7 +160,8 @@ def validate_curated_coverage(guide_path: Path, aliases_path: Path) -> dict:
     violations = validate_rejected_not_in_aliases(aliases, rejected)
     if violations:
         raise SystemExit("Rejected streams in aliases-it.json: " + ", ".join(violations))
-    report = client_coverage_report(guide_path, aliases=aliases)
+    rows = load_coverage_catalog_rows(catalog)
+    report = client_coverage_report(guide_path, aliases=aliases, catalog_rows=rows)
     if report["curated_mappings_verified"] < REFERENCE_CURATED:
         raise SystemExit(
             "Curated alias coverage below reference: "
@@ -140,6 +182,7 @@ def main() -> int:
     parser.add_argument("previous", type=Path, nargs="?", default=Path("guide-it.xml"))
     parser.add_argument("--aliases", type=Path, default=_ROOT / "epg" / "aliases-it.json")
     parser.add_argument("--xtream-aliases", type=Path, default=_ROOT / "epg" / "xtream-aliases-it.json")
+    parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)
     parser.add_argument("--max-identity-loss", type=float, default=_MAX_IDENTITY_LOSS)
     parser.add_argument("--skip-coverage", action="store_true")
     args = parser.parse_args()
@@ -154,16 +197,36 @@ def main() -> int:
         if report["exceeds_threshold"]:
             raise SystemExit(f"Identity coverage loss {report['identity_loss_ratio']:.1%} exceeds threshold")
     validate_xtream_layer(args.generated, args.aliases, args.xtream_aliases, process_epg=process_epg)
-    if not args.skip_coverage:
-        cov = validate_curated_coverage(args.generated, args.aliases)
+    if args.skip_coverage:
+        print("Italy curated client coverage skipped (--skip-coverage)", file=sys.stderr)
+    elif private_catalog_available(args.catalog):
+        catalog_hint = args.catalog if args.catalog.is_file() else IPTVNATOR_DB
+        try:
+            cov = validate_curated_coverage(
+                args.generated,
+                args.aliases,
+                catalog=args.catalog if args.catalog.is_file() else None,
+            )
+        except (FileNotFoundError, ValueError, OSError) as exc:
+            print(f"::warning::Skipping Italy curated client coverage: {exc}", file=sys.stderr)
+        else:
+            print(
+                "Italy curated coverage (private catalog; manual alias layer; panel EPG NULL): "
+                f"IPTVnator auto {cov['iptvnator_auto_hits']}/{REFERENCE_STREAMS}, "
+                f"after aliases {cov['iptvnator_after_aliases']}/{REFERENCE_STREAMS}; "
+                f"AquaPlay auto {cov['aquaplay_auto_hits']}/{REFERENCE_STREAMS}, "
+                f"after aliases {cov['aquaplay_after_aliases']}/{REFERENCE_STREAMS}; "
+                f"with useful programming {cov['curated_with_useful_programming']}/{REFERENCE_STREAMS} "
+                f"(catalog {catalog_hint})"
+            )
+    else:
         print(
-            "Italy curated coverage (manual alias layer; panel EPG NULL): "
-            f"IPTVnator auto {cov['iptvnator_auto_hits']}/116, "
-            f"after aliases {cov['iptvnator_after_aliases']}/116; "
-            f"AquaPlay auto {cov['aquaplay_auto_hits']}/116, "
-            f"after aliases {cov['aquaplay_after_aliases']}/116; "
-            f"with useful programming {cov['curated_with_useful_programming']}/116"
+            "::warning::Skipping Italy curated client coverage: no private Xtream catalog "
+            f"(checked {args.catalog} and {IPTVNATOR_DB}); CI cannot verify "
+            f"{REFERENCE_CURATED}/{REFERENCE_STREAMS} curated / {REFERENCE_USEFUL}/{REFERENCE_STREAMS} useful",
+            file=sys.stderr,
         )
+    print(f"Validated Italy Xtream layer: {len(channels)} channels, alias ids {len(json.loads(args.aliases.read_text(encoding='utf-8')))}")
     return 0
 
 
