@@ -13,6 +13,8 @@ from zoneinfo import ZoneInfo
 
 import xml.etree.ElementTree as ET
 
+from xmltv_channel import normalize_channel_children
+
 NATIONAL_GUIDE_PATTERN = re.compile(r'^(?:guide-[a-z]{2}|guide-arabic)\.xml$', re.IGNORECASE)
 MADRID = ZoneInfo('Europe/Madrid')
 LAST_RUN: dict[str, int] = {
@@ -171,6 +173,7 @@ def merge(paths, *, reference: datetime | None = None, trim_tomorrow_metadata: b
         raise ValueError('all national guides are empty')
     result = ET.Element('tv')
     for c in channels.values():
+        normalize_channel_children(c)
         result.append(c)
     for p in programs.values():
         result.append(p)

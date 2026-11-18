@@ -38,6 +38,25 @@ class EpgUpdateTests(unittest.TestCase):
         self.assertEqual(root.find("channel[@id='ch65']/display-name[3]").text, "Second alias 65")
         self.assertEqual(len(root.findall("programme")), 3000)
 
+    def test_reorders_channel_children_after_alias_merge(self):
+        messy = sample(channels=120, programmes=3000).decode()
+        messy = messy.replace(
+            '<channel id="ch0"><display-name>Channel 0</display-name></channel>',
+            (
+                '<channel id="ch0"><display-name>Channel 0</display-name>'
+                '<icon src="https://example.com/ch0.png"/>'
+                '<url>https://example.com</url>'
+                '<display-name>Pre-existing alias</display-name></channel>'
+            ),
+        )
+        data, _, _ = epg.merge(messy.encode(), {"ch0": ["Alias 0"]})
+        root = epg.parse_xml(data, "test")
+        channel = root.find("channel[@id='ch0']")
+        tags = [node.tag for node in channel]
+        self.assertEqual(tags[:3], ["display-name", "display-name", "display-name"])
+        self.assertEqual(tags[3:], ["icon", "url"])
+        self.assertEqual(channel.find("display-name").text, "Channel 0")
+
     def test_idempotent_alias_merge(self):
         first, _, _ = epg.merge(sample(), self.aliases)
         second, _, _ = epg.merge(first, self.aliases)

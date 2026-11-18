@@ -165,6 +165,7 @@ class NationalGuideMergeTests(unittest.TestCase):
             second_root = ET.Element('tv')
             second_channel = ET.SubElement(second_root, 'channel', id='shared.id')
             ET.SubElement(second_channel, 'display-name').text = 'Canonical'
+            ET.SubElement(second_channel, 'icon', src='https://example.com/logo.png')
             ET.SubElement(second_channel, 'display-name').text = 'Xtream alias'
             second_programme = ET.SubElement(
                 second_root,
@@ -183,6 +184,9 @@ class NationalGuideMergeTests(unittest.TestCase):
                 [node.text for node in channel.findall('display-name')],
                 ['Canonical', 'Xtream alias'],
             )
+            from xmltv_channel import channel_children_ordered
+
+            self.assertTrue(channel_children_ordered(channel))
             self.assertEqual(len(merged.findall('channel')), 1)
             self.assertEqual(len(merged.findall('programme')), 2)
 

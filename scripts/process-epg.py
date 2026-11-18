@@ -18,6 +18,7 @@ _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
 
+from xmltv_channel import normalize_channels_in_tree  # noqa: E402
 from es_xtream_policy import (  # noqa: E402
     apply_channel_id_renames,
     channel_renames,
@@ -564,8 +565,9 @@ def merge(
             duplicate = _programme_with_channel(programme, xtream_id)
             root.append(duplicate)
 
+    channel_order_fixed = normalize_channels_in_tree(root)
     has_new_xtream_ids = any(xtream_id != original_id for xtream_id, original_id in alias_destinations.items())
-    if aliases_complete and not has_new_xtream_ids:
+    if aliases_complete and not has_new_xtream_ids and not channel_order_fixed:
         result = source
     else:
         result = ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n"

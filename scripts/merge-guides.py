@@ -146,6 +146,12 @@ def main():
             print(f"WARNING: ignoring invalid secondary guide {path}: {exc}", file=sys.stderr)
             feeds.append(None)
     result, ch, pg, completed, skipped = merge(primary, *feeds)
+    _scripts = Path(__file__).resolve().parent
+    if str(_scripts) not in sys.path:
+        sys.path.insert(0, str(_scripts))
+    from xmltv_channel import normalize_channels_in_tree  # noqa: WPS433
+
+    normalize_channels_in_tree(result)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(result).write(args.output, encoding="utf-8", xml_declaration=True)
     print(f"Merged guide: channels={len(result.findall('channel'))}, programmes={len(result.findall('programme'))}")
