@@ -53,6 +53,19 @@ INCORRECT_IDS = frozenset(
         "universal.de",
     }
 )
+# Same Magenta station, published under a collision suffix while tvheute held the
+# canonical id. Super RTL's canonical id is occupied, so its mint SuperRTL.de@SD
+# moves to RTLSuper.de@Germany. A pair is accepted only when both names are the
+# same station and the destination has real programmes.
+CANONICAL_ID_MIGRATIONS = {
+    "DisneyChannel.de@Germany": "DisneyChannel.de@SD",
+    "SWRFernsehenBadenWurttemberg.de@Germany": "SWRFernsehenBadenWurttemberg.de@SD",
+    "SkyCinemaPremieren.de@Germany": "SkyCinemaPremieren.de@SD",
+    "SkySport1.de@Germany": "SkySport1.de@SD",
+    "SkySportBundesliga1.de@Germany": "SkySportBundesliga1.de@SD",
+    "SuperRTL.de@SD": "RTLSuper.de@Germany",
+    "hrfernsehen.de@Germany": "hrfernsehen.de@SD",
+}
 # Spelling and rebrand pairs. Applied to the whole station key, never as a substring.
 STATION_ALIASES = {
     "kabel1": "kabeleins",

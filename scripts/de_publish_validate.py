@@ -30,6 +30,82 @@ MIN_CHANNELS = 60
 MIN_PROGRAMMES = 2000
 
 
+def _first_names(root: ET.Element) -> dict[str, str]:
+    names = {}
+    for channel in root.findall("channel"):
+        channel_id = channel.get("id") or ""
+        if channel_id:
+            names[channel_id] = de_epg.channel_name(channel)
+    return names
+
+
+def _programmed_channels(root: ET.Element) -> set[str]:
+    programmed = set()
+    for programme in root.findall("programme"):
+        title = (programme.findtext("title") or "").strip()
+        if title and not de_epg.vanished_title(title):
+            programmed.add(programme.get("channel") or "")
+    return programmed
+
+
+def missing_channel_problems(
+    previous: ET.Element,
+    generated: ET.Element,
+    missing: set[str],
+    migrations: dict[str, str] | None = None,
+) -> list[str]:
+    """Allow only an explicit rename onto the same station with real programmes."""
+    migrations = de_epg.CANONICAL_ID_MIGRATIONS if migrations is None else migrations
+    if not missing:
+        return []
+    previous_names = _first_names(previous)
+    generated_names = _first_names(generated)
+    programmed = _programmed_channels(generated)
+    problems: list[str] = []
+    unexplained: list[str] = []
+    grouped: dict[str, list[str]] = {}
+    for old_id in missing:
+        destination = migrations.get(old_id)
+        if destination:
+            grouped.setdefault(destination, []).append(old_id)
+    skipped = set()
+    for destination, old_ids in sorted(grouped.items()):
+        if len(old_ids) > 1:
+            claimed = ", ".join(sorted(old_ids))
+            problems.append(f"{destination} is claimed by {claimed}")
+            skipped.update(old_ids)
+    for old_id in sorted(missing):
+        if old_id in skipped:
+            continue
+        destination = migrations.get(old_id)
+        if not destination:
+            unexplained.append(old_id)
+            continue
+        if de_epg.is_incorrect_panel_id(old_id) or de_epg.is_incorrect_panel_id(destination):
+            problems.append(f"refusing to migrate incorrect id {old_id}")
+            continue
+        if not de_epg.is_strong_id(destination):
+            problems.append(f"{old_id} does not migrate to a canonical id")
+            continue
+        if destination not in generated_names:
+            problems.append(f"{old_id} migrates to missing channel {destination}")
+            continue
+        if destination not in programmed:
+            problems.append(f"{destination} has no real programmes for {old_id}")
+            continue
+        old_name = previous_names.get(old_id, "")
+        new_name = generated_names.get(destination, "")
+        old_key = de_epg.identity_key(old_name)
+        new_key = de_epg.identity_key(new_name)
+        if not old_key[0] or old_key != new_key:
+            problems.append(
+                f"{old_id} ({old_name}) is not the same station as {destination} ({new_name})"
+            )
+    if unexplained:
+        problems.append(f"previous channels missing: {', '.join(unexplained[:8])}")
+    return problems
+
+
 def validate(generated: Path, previous: Path | None, aliases: Path, xtream_aliases: Path) -> list[str]:
     problems: list[str] = []
     root = ET.parse(generated).getroot()
@@ -69,10 +145,10 @@ def validate(generated: Path, previous: Path | None, aliases: Path, xtream_alias
             if alias_id in channel_ids and original_id not in channel_ids:
                 problems.append(f"clone {alias_id} is present but {original_id} is missing")
     if previous and previous.is_file() and previous.stat().st_size:
-        old_ids = {channel.get("id") for channel in ET.parse(previous).getroot().findall("channel")}
-        missing = sorted(channel_id for channel_id in old_ids if channel_id not in channel_ids)
-        if missing:
-            problems.append(f"previous channels missing: {', '.join(missing[:8])}")
+        previous_root = ET.parse(previous).getroot()
+        old_ids = {channel.get("id") for channel in previous_root.findall("channel")}
+        missing = {channel_id for channel_id in old_ids if channel_id and channel_id not in channel_ids}
+        problems.extend(missing_channel_problems(previous_root, root, missing))
     return problems
 
 
