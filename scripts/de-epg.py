@@ -321,6 +321,73 @@ def preferred_id(candidates: list[tuple[str, str, dict]]) -> str:
     return mint_id(best[2]["name"])
 
 
+def prepared_channels(groups: dict[tuple, list[dict]]) -> list[dict]:
+    """One viable row per station, with the id its highest-priority source would publish."""
+    rows = []
+    for key, entries in groups.items():
+        viable = [
+            entry
+            for entry in entries
+            if score_channel(entry["programmes"], entry["source"])[0] > 0
+        ]
+        if not viable:
+            continue
+        viable.sort(
+            key=lambda entry: (
+                SOURCE_PRIORITY.get(entry["source"], 0),
+                score_channel(entry["programmes"], entry["source"])[0],
+            ),
+            reverse=True,
+        )
+        winner = viable[0]
+        programmes, contrib = fill_programmes(viable)
+        if not programmes:
+            continue
+        candidates = [
+            (entry["published_id"], entry["source"], {"name": entry["name"], "kind": entry["kind"]})
+            for entry in viable
+        ]
+        rows.append(
+            {
+                "key": key,
+                "viable": viable,
+                "winner": winner,
+                "programmes": programmes,
+                "contrib": contrib,
+                "desired": preferred_id(candidates),
+                "kind": winner["kind"],
+                "priority": SOURCE_PRIORITY.get(winner["source"], 0),
+                "score": score_channel(winner["programmes"], winner["source"])[0],
+            }
+        )
+    return rows
+
+
+def strong_id_owners(rows: list[dict]) -> dict[str, dict]:
+    """The highest-priority station keeps a canonical id already covered by an earlier source.
+
+    A later source that merely repeats that xmltv id, under another display name, does not
+    become a second channel and does not take the id. Two stations from the same source
+    that resolve to one id both stay published; the catalog mapping keeps the canonical id.
+    """
+    kind_rank = {"catalog": 2, "native": 1, "mint": 0}
+    owners: dict[str, dict] = {}
+    for row in rows:
+        desired = row["desired"]
+        if not is_strong_id(desired):
+            continue
+        current = owners.get(desired)
+        rank = (row["priority"], kind_rank.get(row["kind"], 0), row["score"], row["key"])
+        current_rank = (
+            (current["priority"], kind_rank.get(current["kind"], 0), current["score"], current["key"])
+            if current is not None
+            else None
+        )
+        if current_rank is None or rank > current_rank:
+            owners[desired] = row
+    return owners
+
+
 def avoid_collision(channel_id: str, occupied: set[str], name: str) -> str:
     usable = (
         channel_id not in occupied
@@ -509,32 +576,44 @@ def merge_guides(
     result = ET.Element("tv")
     used_ids: set[str] = set()
     source_choice: dict[str, dict] = {}
-    for key, entries in sorted(groups.items(), key=lambda item: item[0]):
-        viable = [entry for entry in entries if score_channel(entry["programmes"], entry["source"])[0] > 0]
-        if not viable:
+    rows = prepared_channels(groups)
+    owners = strong_id_owners(rows)
+    for row in sorted(rows, key=lambda item: (-item["priority"], item["key"])):
+        winner = row["winner"]
+        desired = row["desired"]
+        owner = owners.get(desired)
+        if owner is not None and owner is not row and owner["priority"] > row["priority"]:
+            collisions.append(
+                {
+                    "name": winner["name"],
+                    "original_id": desired,
+                    "rewritten_id": "dropped",
+                    "source": winner["source"],
+                    "kept_by": owner["winner"]["name"],
+                }
+            )
             continue
-        viable.sort(
-            key=lambda entry: (
-                SOURCE_PRIORITY.get(entry["source"], 0),
-                score_channel(entry["programmes"], entry["source"])[0],
-            ),
-            reverse=True,
-        )
-        winner = viable[0]
-        programmes, contrib = fill_programmes(viable)
-        if not programmes:
-            continue
-        candidates = [
-            (entry["published_id"], entry["source"], {"name": entry["name"], "kind": entry["kind"]})
-            for entry in viable
-        ]
-        channel_id = preferred_id(candidates)
-        hinted = canonical_hints.get(key)
-        if hinted and hinted not in used_ids and ID_RE.fullmatch(hinted) and not is_incorrect_panel_id(hinted):
-            if hinted not in occupied or hinted == channel_id:
+        reserved = set(used_ids)
+        if owner is not None and owner is not row:
+            reserved.add(desired)
+            channel_id = mint_id(winner["name"])
+        else:
+            channel_id = desired
+        # Stale hints must not move a priority source off the canonical id, nor
+        # hand that id to the abbreviation that previously stole it.
+        if not is_strong_id(channel_id):
+            hinted = canonical_hints.get(row["key"])
+            hint_owner = owners.get(hinted) if hinted else None
+            if (
+                hinted
+                and hinted not in used_ids
+                and ID_RE.fullmatch(hinted)
+                and not is_incorrect_panel_id(hinted)
+                and hint_owner in (None, row)
+            ):
                 channel_id = hinted
         original_id = channel_id
-        channel_id = avoid_collision(channel_id, occupied | used_ids, winner["name"])
+        channel_id = avoid_collision(channel_id, occupied | reserved, winner["name"])
         if original_id in occupied or is_incorrect_panel_id(original_id) or NUMERIC_ID_RE.fullmatch(original_id or ""):
             collisions.append(
                 {
@@ -556,10 +635,10 @@ def merge_guides(
         used_ids.add(channel_id)
         source_choice[channel_id] = {
             "identity_source": winner["source"],
-            "contrib": contrib,
+            "contrib": row["contrib"],
             "name": winner["name"],
             "original_id": original_id,
-            "station": key[0],
+            "station": row["key"][0],
         }
         node = copy.deepcopy(winner["channel"])
         node.set("id", channel_id)
@@ -569,7 +648,7 @@ def merge_guides(
             node.insert(0, display)
         display.text = winner["name"]
         result.append(node)
-        for programme in programmes:
+        for programme in row["programmes"]:
             cloned = copy.deepcopy(programme)
             cloned.set("channel", channel_id)
             result.append(cloned)

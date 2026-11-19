@@ -176,6 +176,135 @@ class GermanIdentityTests(unittest.TestCase):
             self.assertEqual(titles, ["Magenta hour", "Web only"])
             self.assertEqual(choices["History.de@SD"]["name"], "History")
 
+    def test_secondary_source_does_not_displace_a_covered_priority_identity(self):
+        pairs = [
+            ("492496936303", "Disney Channel", "Disney", "DisneyChannel.de@SD"),
+            ("262277160060", "Super RTL", "RTLS", "RTLSuper.de@Germany"),
+            ("389264936266", "Sky Cinema Premiere", "SKYci", "SkyCinemaPremieren.de@SD"),
+            ("274350120288", "hr-fernsehen", "HR", "hrfernsehen.de@SD"),
+            ("274350120291", "SWR Fernsehen BW", "SWR", "SWRFernsehenBadenWurttemberg.de@SD"),
+            ("389265448072", "Sky Sport Top Event", "SKYsp1", "SkySport1.de@SD"),
+            ("389264424237", "Sky Sport Bundesliga", "SKYbl", "SkySportBundesliga1.de@SD"),
+        ]
+        identities = {
+            "site_ids": {
+                "492496936303": "DisneyChannel.de@SD",
+                "262277160060": "RTLSuper.de@SD",
+                "389264936266": "SkyCinemaPremieren.de@SD",
+                "274350120288": "hrfernsehen.de@SD",
+                "274350120291": "SWRFernsehenBadenWurttemberg.de@SD",
+                "389265448072": "SkySport1.de@SD",
+                "389264424237": "SkySportBundesliga1.de@SD",
+            },
+            "stations": {},
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            magenta = root / "magenta.xml"
+            secondary = root / "tvheute.xml"
+            output = root / "out.xml"
+            write_guide(
+                magenta,
+                [(site_id, name) for site_id, name, _short, _published in pairs],
+                [
+                    (site_id, f"{name} programme", "20261119010000 +0100")
+                    for site_id, name, _short, _published in pairs
+                ],
+            )
+            write_guide(
+                secondary,
+                [(published if published != "RTLSuper.de@Germany" else "RTLSuper.de@SD", short) for _site, _name, short, published in pairs],
+                [
+                    (
+                        published if published != "RTLSuper.de@Germany" else "RTLSuper.de@SD",
+                        f"{short} programme",
+                        "20261119020000 +0100",
+                    )
+                    for _site, _name, short, published in pairs
+                ],
+            )
+            hints = {
+                de_epg.identity_key("Disney"): "DisneyChannel.de@SD",
+                de_epg.identity_key("Disney Channel"): "DisneyChannel.de@Germany",
+            }
+            _channels, _programmes, choices, collisions = de_epg.write_merged(
+                [("magenta", magenta, None), ("tvheute", secondary, None)],
+                output,
+                {"RTLSuper.de@SD"},
+                canonical_hints=hints,
+                identities=identities,
+            )
+            merged = ET.parse(output).getroot()
+            names = {
+                channel.get("id"): channel.findtext("display-name")
+                for channel in merged.findall("channel")
+            }
+            for _site, name, short, published in pairs:
+                self.assertEqual(names.get(published), name, published)
+                self.assertNotIn(short, names.values(), short)
+                self.assertEqual(choices[published]["identity_source"], "magenta")
+            dropped = {row["name"] for row in collisions if row.get("rewritten_id") == "dropped"}
+            self.assertEqual(dropped, {short for _site, _name, short, _published in pairs})
+
+    def test_same_source_stations_that_share_an_id_both_remain(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            magenta = root / "magenta.xml"
+            output = root / "out.xml"
+            write_guide(
+                magenta,
+                [("8", "Sky Sport 8"), ("10", "Sky Sport 10")],
+                [
+                    ("8", "Match 8", "20261119010000 +0100"),
+                    ("10", "Match 10", "20261119010000 +0100"),
+                ],
+            )
+            de_epg.write_merged(
+                [("magenta", magenta, None)],
+                output,
+                set(),
+                identities={"site_ids": {"8": "SkySport10.de@SD"}, "stations": {}},
+            )
+            merged = ET.parse(output).getroot()
+            names = {
+                channel.get("id"): channel.findtext("display-name")
+                for channel in merged.findall("channel")
+            }
+            self.assertEqual(names.get("SkySport10.de@SD"), "Sky Sport 8")
+            self.assertIn("Sky Sport 10", names.values())
+            self.assertNotEqual(
+                next(channel_id for channel_id, name in names.items() if name == "Sky Sport 10"),
+                "SkySport10.de@SD",
+            )
+
+    def test_uncovered_identity_still_accepts_the_secondary_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            magenta = root / "magenta.xml"
+            secondary = root / "tvheute.xml"
+            output = root / "out.xml"
+            write_guide(
+                magenta,
+                [("100", "Disney Channel")],
+                [("100", "Sendepause", "20261119010000 +0100")],
+            )
+            write_guide(
+                secondary,
+                [("DisneyChannel.de@SD", "Disney")],
+                [("DisneyChannel.de@SD", "Bluey", "20261119020000 +0100")],
+            )
+            de_epg.write_merged(
+                [("magenta", magenta, None), ("tvheute", secondary, None)],
+                output,
+                set(),
+                identities={"site_ids": {"100": "DisneyChannel.de@SD"}, "stations": {}},
+            )
+            merged = ET.parse(output).getroot()
+            self.assertEqual(
+                merged.find("channel[@id='DisneyChannel.de@SD']/display-name").text,
+                "Disney",
+            )
+
     def test_select_skips_a_covered_identity_and_duplicate_site(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -311,6 +440,23 @@ class GermanAliasFileTests(unittest.TestCase):
             self.assertNotEqual(alias_id, original_id)
             owners = [channel_id for channel_id, names in aliases.items() if channel_id == original_id]
             self.assertTrue(owners or original_id, original_id)
+        curated = {
+            "WeltderWunderTV.de@SD": "DE WELT DER WUNDER TV",
+            "BabyTV.de@SD": "DE baby",
+            "WDR.de@SD": "DE Wdr Tv",
+            "MDRFernsehenSachsen.de@SD": "DE MDR SACHSEN HD",
+            "RAN1.de@SD": "DE Ran 1Tv",
+            "RBW.de@SD": "DE Rbw Tv",
+        }
+        for channel_id, title in curated.items():
+            self.assertIn(title, aliases[channel_id])
+        self.assertEqual(clones["weltderwunder.de"], "WeltderWunderTV.de@SD")
+        self.assertEqual(clones["babytv.de"], "BabyTV.de@SD")
+        self.assertEqual(clones["wdr.de"], "WDR.de@SD")
+        self.assertEqual(clones["mdrsachsen.de"], "MDRFernsehenSachsen.de@SD")
+        for incorrect in de_epg.INCORRECT_IDS:
+            self.assertNotIn(incorrect, clones)
+            self.assertNotIn(incorrect, aliases)
 
 
 if __name__ == "__main__":
