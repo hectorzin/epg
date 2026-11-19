@@ -95,6 +95,8 @@ class XtreamMatchingTests(unittest.TestCase):
     def test_nl_and_it_playlist_regions_are_recognised(self):
         self.assertEqual(match.classify_playlist_region("[NL] HOLLANDS"), "NL")
         self.assertEqual(match.classify_playlist_region("[IT] ITALY"), "IT")
+        self.assertEqual(match.classify_playlist_region("[DE] SKY DUTCH"), "DE")
+        self.assertNotEqual(match.classify_playlist_region("[DE] SKY DUTCH"), "NL")
 
     def test_grand_ecran_feed_maps_without_numeric_suffix(self):
         guide_ids = {"CanalPlusGrandEcran.fr@SD"}

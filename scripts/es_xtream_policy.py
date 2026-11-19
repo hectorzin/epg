@@ -20,6 +20,7 @@ PROFILE_TO_POLICY_KEY = {
     "gb": None,
     "nl": "nl",
     "it": None,
+    "de": None,
 }
 
 

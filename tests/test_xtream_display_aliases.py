@@ -22,6 +22,7 @@ ALIAS_FILES = {
     "pt": ROOT / "epg" / "aliases-pt.json",
     "nl": ROOT / "epg" / "aliases-nl.json",
     "it": ROOT / "epg" / "aliases-it.json",
+    "de": ROOT / "epg" / "aliases-de.json",
 }
 
 

@@ -52,6 +52,8 @@ class ItalyPublishValidateTests(unittest.TestCase):
             alias_path = root / "aliases.json"
             xtream_path = root / "xtream.json"
             write_minimal_guide(guide)
+            previous = root / "previous.xml"
+            write_minimal_guide(previous)
             alias_path.write_text(json.dumps(aliases), encoding="utf-8")
             xtream_path.write_text("{}", encoding="utf-8")
             missing_catalog = root / "missing-catalog.json"
@@ -59,6 +61,7 @@ class ItalyPublishValidateTests(unittest.TestCase):
             argv = [
                 "it_publish_validate.py",
                 str(guide),
+                str(previous),
                 "--aliases",
                 str(alias_path),
                 "--xtream-aliases",
@@ -95,6 +98,7 @@ class ItalyPublishValidateTests(unittest.TestCase):
         }
         argv = [
             "it_publish_validate.py",
+            str(guide_path),
             str(guide_path),
             "--aliases",
             str(ROOT / "epg" / "aliases-it.json"),
