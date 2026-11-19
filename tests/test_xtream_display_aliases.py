@@ -47,6 +47,7 @@ class XtreamDisplayAliasTests(unittest.TestCase):
         self.assertIn("M+ VAMOS HD", aliases["vamosd"])
         self.assertIn("CAZAyPESCA FULL HD", aliases["cazpes"])
         self.assertIn("DAZN LALIGA HD+", aliases["daznli"])
+        self.assertIn("DAZN LALIGA HD 235", aliases["daznli"])
         self.assertIn("M.LCAMPEONES HD+", aliases["chapio"])
 
     def test_spanish_first_alias_entries_are_preserved(self):
