@@ -112,6 +112,35 @@ class GermanCanonicalMigrationTests(unittest.TestCase):
         problems = validate.missing_channel_problems(previous, generated, {"hrfernsehen.de@Germany"})
         self.assertTrue(any("no real programmes" in problem for problem in problems))
 
+    def test_empty_kept_channel_is_not_a_loss(self):
+        previous = ET.Element("tv")
+        generated = ET.Element("tv")
+        for channel_id, name in (
+            ("ZDF.de@Germany", "ZDF"),
+            ("SkySportBundesliga9.de@SD", "Sky Sport Bundesliga 8"),
+        ):
+            channel = ET.SubElement(previous, "channel", id=channel_id)
+            ET.SubElement(channel, "display-name").text = name
+            kept = ET.SubElement(generated, "channel", id=channel_id)
+            ET.SubElement(kept, "display-name").text = name
+        old = ET.SubElement(
+            previous,
+            "programme",
+            channel="SkySportBundesliga9.de@SD",
+            start="20261118010000 +0100",
+        )
+        ET.SubElement(old, "title").text = "TEST"
+        programme = ET.SubElement(
+            generated, "programme", channel="ZDF.de@Germany", start="20261119010000 +0100"
+        )
+        ET.SubElement(programme, "title").text = "heute"
+        generated_ids = {channel.get("id") for channel in generated.findall("channel")}
+        previous_ids = {channel.get("id") for channel in previous.findall("channel")}
+        missing = {channel_id for channel_id in previous_ids if channel_id and channel_id not in generated_ids}
+        problems = validate.missing_channel_problems(previous, generated, missing)
+        self.assertEqual(missing, set())
+        self.assertEqual(problems, [])
+
     def test_unlisted_disappearance_is_still_rejected(self):
         previous = ET.Element("tv")
         for channel_id, name in (("ZDF.de@Germany", "ZDF"), ("Other.de@SD", "Other")):
@@ -221,3 +250,28 @@ class GermanPublishValidateTests(unittest.TestCase):
                 problems = validate.validate(guide, previous, aliases, clones)
             self.assertTrue(any("unsafe channel id vox.de" in problem for problem in problems))
             self.assertTrue(any("ZDF.de@Germany" in problem for problem in problems))
+
+    def test_validator_accepts_a_catalog_channel_without_programmes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "previous.xml"
+            generated = root / "generated.xml"
+            aliases = root / "aliases.json"
+            clones = root / "clones.json"
+            write_guide(
+                previous,
+                [("ZDF.de@Germany", "ZDF"), ("SkySportBundesliga9.de@SD", "Sky Sport Bundesliga 8")],
+                [("ZDF.de@Germany", "heute"), ("SkySportBundesliga9.de@SD", "TEST")],
+            )
+            write_guide(
+                generated,
+                [("ZDF.de@Germany", "ZDF"), ("SkySportBundesliga9.de@SD", "Sky Sport Bundesliga 8")],
+                [("ZDF.de@Germany", "heute")],
+            )
+            aliases.write_text(
+                json.dumps({"SkySportBundesliga9.de@SD": ["DE Sky Sport Bundesliga 8 HD [ Match Time ]"]}),
+                encoding="utf-8",
+            )
+            clones.write_text("{}", encoding="utf-8")
+            with patch.object(validate, "MIN_CHANNELS", 1), patch.object(validate, "MIN_PROGRAMMES", 1):
+                self.assertEqual(validate.validate(generated, previous, aliases, clones), [])

@@ -22,6 +22,7 @@ from xmltv_channel import normalize_channels_in_tree  # noqa: E402
 from xtream_matching import normalize_channel_name  # noqa: E402
 
 IDENTITIES_PATH = _ROOT / "epg" / "de-magenta-identities.json"
+XTREAM_ALIASES_PATH = _ROOT / "epg" / "xtream-aliases-de.json"
 VANISHED_TITLES = {
     "channel no longer available",
     "this channel is no longer available",
@@ -474,6 +475,117 @@ def programmed_channel_names(guide_paths: list[Path]) -> tuple[set[str], set[tup
     return ids, identities
 
 
+def load_clone_ids(path: Path | None = None) -> set[str]:
+    path = path or XTREAM_ALIASES_PATH
+    if not path.is_file():
+        return set()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        return set()
+    return {key.strip() for key in data if isinstance(key, str) and key.strip()}
+
+
+def catalog_presence(
+    sources: list[tuple[str, Path, Path | None]],
+    identities: dict[str, dict[str, str]],
+) -> tuple[set[tuple], set[str]]:
+    """Station keys and published IDs still listed in origin catalogs."""
+    keys: set[tuple] = set()
+    ids: set[str] = set()
+    for _name, _guide, catalog in sources:
+        if catalog is None:
+            continue
+        for channel in iter_catalog_channels(catalog):
+            name = channel_name(channel)
+            key = identity_key(name)
+            if key[0]:
+                keys.add(key)
+            xmltv_id = (channel.get("xmltv_id") or "").strip()
+            site_id = (channel.get("site_id") or "").strip()
+            lookup = xmltv_id or site_id
+            if lookup:
+                published, _kind = published_for(lookup, name, identities)
+                if is_strong_id(published):
+                    ids.add(published)
+            if xmltv_id and is_strong_id(xmltv_id):
+                ids.add(xmltv_id)
+    return keys, ids
+
+
+def previous_channel_nodes(paths: list[Path] | None) -> list[ET.Element]:
+    channels: list[ET.Element] = []
+    seen: set[str] = set()
+    for path in paths or []:
+        if not path.is_file() or path.stat().st_size == 0:
+            continue
+        root = parse_xmltv(path)
+        for channel in root.findall("channel"):
+            channel_id = channel.get("id") or ""
+            if not channel_id or channel_id in seen:
+                continue
+            seen.add(channel_id)
+            channels.append(channel)
+    return channels
+
+
+def retain_catalog_channels(
+    result: ET.Element,
+    used_ids: set[str],
+    sources: list[tuple[str, Path, Path | None]],
+    occupied: set[str],
+    identities: dict[str, dict[str, str]],
+    previous_guides: list[Path] | None,
+    clone_ids: set[str] | None,
+    source_choice: dict[str, dict],
+) -> int:
+    """Re-emit previously published originals that the catalog still lists, without programmes."""
+    clone_ids = clone_ids or set()
+    catalog_keys, catalog_ids = catalog_presence(sources, identities)
+    if not catalog_keys and not catalog_ids:
+        return 0
+    published_keys = set()
+    for channel in result.findall("channel"):
+        key = identity_key(channel_name(channel) or channel.get("id") or "")
+        if key[0]:
+            published_keys.add(key)
+    kept = 0
+    for channel in previous_channel_nodes(previous_guides):
+        channel_id = channel.get("id") or ""
+        if (
+            not channel_id
+            or channel_id in used_ids
+            or channel_id in clone_ids
+            or not is_strong_id(channel_id)
+            or is_incorrect_panel_id(channel_id)
+            or is_forbidden_channel_id(channel_id)
+        ):
+            continue
+        if channel_id in occupied and channel_id not in SHARED_XMLTV_IDS:
+            continue
+        name = channel_name(channel) or channel_id
+        key = identity_key(name)
+        if key[0] and key in published_keys:
+            continue
+        in_catalog = (bool(key[0]) and key in catalog_keys) or channel_id in catalog_ids
+        if not in_catalog:
+            continue
+        node = copy.deepcopy(channel)
+        node.set("id", channel_id)
+        result.append(node)
+        used_ids.add(channel_id)
+        if key[0]:
+            published_keys.add(key)
+        source_choice[channel_id] = {
+            "identity_source": "previous",
+            "contrib": {},
+            "name": name,
+            "original_id": channel_id,
+            "station": key[0],
+        }
+        kept += 1
+    return kept
+
+
 def canonical_hints_from_guide(path: Path) -> dict[tuple, str]:
     if not path.is_file() or path.stat().st_size == 0:
         return {}
@@ -551,6 +663,8 @@ def merge_guides(
     occupied: set[str],
     canonical_hints: dict[tuple, str] | None = None,
     identities: dict[str, dict[str, str]] | None = None,
+    previous_guides: list[Path] | None = None,
+    clone_ids: set[str] | None = None,
 ) -> tuple[ET.Element, dict[str, dict], list[dict]]:
     canonical_hints = canonical_hints or {}
     identities = identities if identities is not None else load_verified_identities()
@@ -669,6 +783,16 @@ def merge_guides(
             cloned = copy.deepcopy(programme)
             cloned.set("channel", channel_id)
             result.append(cloned)
+    retain_catalog_channels(
+        result,
+        used_ids,
+        sources,
+        occupied,
+        identities,
+        previous_guides,
+        clone_ids,
+        source_choice,
+    )
     if not result.findall("programme"):
         raise ValueError("no German programmes were generated")
     normalize_channels_in_tree(result)
@@ -681,9 +805,16 @@ def write_merged(
     occupied: set[str],
     canonical_hints: dict[tuple, str] | None = None,
     identities: dict[str, dict[str, str]] | None = None,
+    previous_guides: list[Path] | None = None,
+    clone_ids: set[str] | None = None,
 ) -> tuple[int, int, dict[str, dict], list[dict]]:
     merged, source_choice, collisions = merge_guides(
-        sources, occupied, canonical_hints, identities
+        sources,
+        occupied,
+        canonical_hints,
+        identities,
+        previous_guides=previous_guides,
+        clone_ids=clone_ids,
     )
     output.parent.mkdir(parents=True, exist_ok=True)
     ET.indent(merged, space="  ")
@@ -756,8 +887,16 @@ def main() -> int:
         for key, channel_id in canonical_hints_from_guide(guide).items():
             hints.setdefault(key, channel_id)
     identities = load_verified_identities(args.identities)
+    previous_guides = [path for path in args.canonical_guide if path.is_file()]
+    clone_ids = load_clone_ids() | set(denied_xtream_clone_ids())
     channels, programmes, choices, collisions = write_merged(
-        sources, args.output, occupied, hints or None, identities
+        sources,
+        args.output,
+        occupied,
+        hints or None,
+        identities,
+        previous_guides=previous_guides,
+        clone_ids=clone_ids,
     )
     by_source: dict[str, int] = defaultdict(int)
     for meta in choices.values():

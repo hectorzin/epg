@@ -508,10 +508,13 @@ def merge(
         for p in root.findall("programme")
         if (p.findtext("title") or "").strip()
     }
+    # Regional guides keep clones of originals that still exist as channels,
+    # even when the current window has no titled programmes.
+    original_pool = set(channels) if alias_mode == "regional" else {c for c in programmed if c in channels}
     xtream_aliases, _skipped = filter_configured_xtream_aliases(
         xtream_aliases or {},
         set(channels),
-        {c for c in programmed if c in channels},
+        original_pool,
         tolerate_missing_original=tolerate_xtream,
     )
     alias_destinations: dict[str, str] = {}

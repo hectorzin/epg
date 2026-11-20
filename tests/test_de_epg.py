@@ -23,12 +23,19 @@ match = load_module("de_catalog_match", MATCH_SCRIPT)
 process_epg = load_module("process_epg", PROCESS_SCRIPT)
 
 
-def write_guide(path, channels, programmes):
+def write_guide(path, channels, programmes, *, icons=None, extra_names=None):
+    icons = icons or {}
+    extra_names = extra_names or {}
     root = ET.Element("tv")
     for channel_id, name in channels:
         channel = ET.SubElement(root, "channel", id=channel_id)
         ET.SubElement(channel, "url").text = "https://example.test"
         ET.SubElement(channel, "display-name").text = name
+        for alias in extra_names.get(channel_id, []):
+            ET.SubElement(channel, "display-name").text = alias
+        icon_src = icons.get(channel_id)
+        if icon_src:
+            ET.SubElement(channel, "icon", src=icon_src)
     for channel_id, title, start in programmes:
         programme = ET.SubElement(
             root,
@@ -39,6 +46,33 @@ def write_guide(path, channels, programmes):
         )
         ET.SubElement(programme, "title").text = title
     ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
+
+
+def write_catalog(path, channels):
+    root = ET.Element("channels")
+    for site_id, name, xmltv_id in channels:
+        node = ET.SubElement(
+            root,
+            "channel",
+            site_id=site_id,
+            xmltv_id=xmltv_id,
+        )
+        node.text = name
+    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
+
+
+BUNDESLIGA_IDENTITIES = {
+    "site_ids": {
+        "389264936260": "SkySportBundesliga9.de@SD",
+        "389265448058": "SkySportBundesliga10.de@SD",
+        "389264936256": "SkySportBundesliga11.de@SD",
+    },
+    "stations": {
+        "skysportbundesliga8": "SkySportBundesliga9.de@SD",
+        "skysportbundesliga9": "SkySportBundesliga10.de@SD",
+        "skysportbundesliga10": "SkySportBundesliga11.de@SD",
+    },
+}
 
 
 class GermanIdentityTests(unittest.TestCase):
@@ -246,6 +280,139 @@ class GermanIdentityTests(unittest.TestCase):
             dropped = {row["name"] for row in collisions if row.get("rewritten_id") == "dropped"}
             self.assertEqual(dropped, {short for _site, _name, short, _published in pairs})
 
+    def test_empty_catalog_channels_are_kept_from_the_previous_guide(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            magenta = root / "magenta.xml"
+            catalog = root / "magenta.channels.xml"
+            previous = root / "previous.xml"
+            output = root / "out.xml"
+            write_guide(
+                magenta,
+                [("262264872014", "ZDF")],
+                [("262264872014", "heute", "20261119010000 +0100")],
+            )
+            write_catalog(
+                catalog,
+                [
+                    ("262264872014", "ZDF", ""),
+                    ("389264936260", "Sky Sport Bundesliga 8", ""),
+                    ("389265448058", "Sky Sport Bundesliga 9", ""),
+                    ("389264936256", "Sky Sport Bundesliga 10", ""),
+                ],
+            )
+            write_guide(
+                previous,
+                [
+                    ("ZDF.de@SD", "ZDF"),
+                    ("SkySportBundesliga9.de@SD", "Sky Sport Bundesliga 8"),
+                    ("SkySportBundesliga10.de@SD", "Sky Sport Bundesliga 9"),
+                    ("zdf.de", "ZDF"),
+                    ("Gone.de@SD", "Gone"),
+                ],
+                [
+                    ("ZDF.de@SD", "old heute", "20261118010000 +0100"),
+                    ("SkySportBundesliga9.de@SD", "TEST", "20261119130000 +0100"),
+                    ("SkySportBundesliga10.de@SD", "TEST", "20261119130000 +0100"),
+                    ("zdf.de", "old clone", "20261118010000 +0100"),
+                    ("Gone.de@SD", "old gone", "20261118010000 +0100"),
+                ],
+                icons={
+                    "SkySportBundesliga9.de@SD": "https://example.test/bl9.png",
+                    "SkySportBundesliga10.de@SD": "https://example.test/bl10.png",
+                },
+                extra_names={
+                    "SkySportBundesliga9.de@SD": ["DE Sky Sport Bundesliga 8 HD [ Match Time ]"],
+                    "SkySportBundesliga10.de@SD": ["DE Sky Sport Bundesliga 9 HD [ Match Time ]"],
+                },
+            )
+            identities = {
+                "site_ids": {
+                    "262264872014": "ZDF.de@SD",
+                    **BUNDESLIGA_IDENTITIES["site_ids"],
+                },
+                "stations": {
+                    "zdf": "ZDF.de@SD",
+                    **BUNDESLIGA_IDENTITIES["stations"],
+                },
+            }
+            de_epg.write_merged(
+                [("magenta", magenta, catalog)],
+                output,
+                set(),
+                identities=identities,
+                previous_guides=[previous],
+                clone_ids={"zdf.de"},
+            )
+            merged = ET.parse(output).getroot()
+            nine = merged.find("channel[@id='SkySportBundesliga9.de@SD']")
+            ten = merged.find("channel[@id='SkySportBundesliga10.de@SD']")
+            self.assertIsNotNone(nine)
+            self.assertIsNotNone(ten)
+            self.assertEqual(nine.findtext("display-name"), "Sky Sport Bundesliga 8")
+            self.assertEqual(
+                [node.text for node in nine.findall("display-name")],
+                ["Sky Sport Bundesliga 8", "DE Sky Sport Bundesliga 8 HD [ Match Time ]"],
+            )
+            self.assertEqual(nine.find("icon").get("src"), "https://example.test/bl9.png")
+            self.assertEqual(ten.find("icon").get("src"), "https://example.test/bl10.png")
+            titles = {
+                (programme.get("channel"), programme.findtext("title"))
+                for programme in merged.findall("programme")
+            }
+            self.assertEqual(titles, {("ZDF.de@SD", "heute")})
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertNotIn("zdf.de", ids)
+            self.assertNotIn("Gone.de@SD", ids)
+            self.assertNotIn("SkySportBundesliga11.de@SD", ids)
+
+    def test_magenta_bundesliga_10_does_not_take_the_published_id(self):
+        self.assertEqual(de_epg.mint_id("Sky Sport Bundesliga 10"), "SkySportBundesliga10.de@SD")
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            magenta = root / "magenta.xml"
+            output = root / "out.xml"
+            write_guide(
+                magenta,
+                [
+                    ("389264936260", "Sky Sport Bundesliga 8"),
+                    ("389265448058", "Sky Sport Bundesliga 9"),
+                    ("389264936256", "Sky Sport Bundesliga 10"),
+                    ("262264872014", "ZDF"),
+                ],
+                [
+                    ("389264936260", "Match 8", "20261119010000 +0100"),
+                    ("389265448058", "Match 9", "20261119010000 +0100"),
+                    ("389264936256", "Match 10", "20261119010000 +0100"),
+                    ("262264872014", "heute", "20261119010000 +0100"),
+                ],
+            )
+            identities = {
+                "site_ids": {
+                    "262264872014": "ZDF.de@SD",
+                    **BUNDESLIGA_IDENTITIES["site_ids"],
+                },
+                "stations": {
+                    "zdf": "ZDF.de@SD",
+                    **BUNDESLIGA_IDENTITIES["stations"],
+                },
+            }
+            de_epg.write_merged(
+                [("magenta", magenta, None)],
+                output,
+                set(),
+                identities=identities,
+            )
+            merged = ET.parse(output).getroot()
+            names = {
+                channel.get("id"): channel.findtext("display-name")
+                for channel in merged.findall("channel")
+            }
+            self.assertEqual(names.get("SkySportBundesliga9.de@SD"), "Sky Sport Bundesliga 8")
+            self.assertEqual(names.get("SkySportBundesliga10.de@SD"), "Sky Sport Bundesliga 9")
+            self.assertEqual(names.get("SkySportBundesliga11.de@SD"), "Sky Sport Bundesliga 10")
+            self.assertNotEqual(names.get("SkySportBundesliga10.de@SD"), "Sky Sport Bundesliga 10")
+
     def test_same_source_stations_that_share_an_id_both_remain(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -419,6 +586,83 @@ class GermanIdentityTests(unittest.TestCase):
                 "heute",
             )
 
+    def test_profile_de_keeps_empty_original_aliases_and_clones(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / "raw.xml"
+            output = root / "final.xml"
+            aliases = root / "aliases.json"
+            xtream = root / "xtream.json"
+            write_guide(
+                source,
+                [("ZDF.de@Germany", "ZDF"), ("SkySportBundesliga9.de@SD", "Sky Sport Bundesliga 8")],
+                [("ZDF.de@Germany", "heute", "20261119010000 +0100")],
+                icons={"SkySportBundesliga9.de@SD": "https://example.test/bl9.png"},
+            )
+            aliases.write_text(
+                json.dumps(
+                    {
+                        "ZDF.de@Germany": ["DE ZDF HD"],
+                        "SkySportBundesliga9.de@SD": ["DE Sky Sport Bundesliga 8 HD [ Match Time ]"],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            xtream.write_text(
+                json.dumps(
+                    {
+                        "zdf.de": "ZDF.de@Germany",
+                        "skysportbundesliga9.de": "SkySportBundesliga9.de@SD",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            import sys
+            from unittest.mock import patch
+
+            argv = [
+                "process-epg.py",
+                "--input",
+                str(source),
+                "--output",
+                str(output),
+                "--aliases",
+                str(aliases),
+                "--xtream-aliases",
+                str(xtream),
+                "--profile",
+                "de",
+                "--min-channels",
+                "1",
+                "--min-programmes",
+                "1",
+            ]
+            with patch.object(sys, "argv", argv):
+                self.assertEqual(process_epg.main(), 0)
+            merged = ET.parse(output).getroot()
+            empty = merged.find("channel[@id='SkySportBundesliga9.de@SD']")
+            self.assertIsNotNone(empty)
+            self.assertEqual(
+                [node.text for node in empty.findall("display-name")],
+                ["Sky Sport Bundesliga 8", "DE Sky Sport Bundesliga 8 HD [ Match Time ]"],
+            )
+            self.assertEqual(empty.find("icon").get("src"), "https://example.test/bl9.png")
+            clone = merged.find("channel[@id='skysportbundesliga9.de']")
+            self.assertIsNotNone(clone)
+            self.assertEqual([node.text for node in clone.findall("display-name")], [node.text for node in empty.findall("display-name")])
+            self.assertIsNone(merged.find("programme[@channel='SkySportBundesliga9.de@SD']"))
+            self.assertIsNone(merged.find("programme[@channel='skysportbundesliga9.de']"))
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertEqual(
+                ids,
+                {
+                    "ZDF.de@Germany",
+                    "zdf.de",
+                    "SkySportBundesliga9.de@SD",
+                    "skysportbundesliga9.de",
+                },
+            )
+
 
 class GermanAliasFileTests(unittest.TestCase):
     def test_committed_aliases_do_not_reuse_unsafe_ids(self):
@@ -458,6 +702,20 @@ class GermanAliasFileTests(unittest.TestCase):
         for incorrect in de_epg.INCORRECT_IDS:
             self.assertNotIn(incorrect, clones)
             self.assertNotIn(incorrect, aliases)
+
+    def test_committed_identities_keep_magenta_bundesliga_10_off_the_published_id(self):
+        identities = json.loads((ROOT / "epg" / "de-magenta-identities.json").read_text(encoding="utf-8"))
+        self.assertEqual(identities["stations"]["skysportbundesliga8"], "SkySportBundesliga9.de@SD")
+        self.assertEqual(identities["stations"]["skysportbundesliga9"], "SkySportBundesliga10.de@SD")
+        self.assertEqual(identities["stations"]["skysportbundesliga10"], "SkySportBundesliga11.de@SD")
+        self.assertEqual(identities["site_ids"]["389264936256"], "SkySportBundesliga11.de@SD")
+        self.assertEqual(identities["site_ids"]["389265448058"], "SkySportBundesliga10.de@SD")
+        self.assertNotEqual(
+            identities["stations"]["skysportbundesliga10"],
+            identities["stations"]["skysportbundesliga9"],
+        )
+        self.assertNotIn("SkySportBundesliga9.de@SD", de_epg.CANONICAL_ID_MIGRATIONS)
+        self.assertNotIn("SkySportBundesliga10.de@SD", de_epg.CANONICAL_ID_MIGRATIONS)
 
     def test_shared_rally_id_is_kept_when_occupied_by_spain(self):
         with tempfile.TemporaryDirectory() as directory:

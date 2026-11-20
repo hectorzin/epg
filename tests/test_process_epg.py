@@ -392,6 +392,60 @@ class EpgUpdateTests(unittest.TestCase):
         self.assertEqual((channels, programmes), (120, 3000))
         self.assertIsNone(root.find("channel[@id='absent']"))
 
+    def test_regional_mode_clones_empty_original_channel(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="ch1"><display-name>One</display-name></channel>'
+            b'<channel id="empty.de@SD"><display-name>Event</display-name>'
+            b'<icon src="https://example.test/event.png"/></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="ch1">'
+            b"<title>News</title></programme></tv>"
+        )
+        mapping = {"event.de": "empty.de@SD"}
+        result, channels, programmes = epg.merge(
+            xml,
+            {"empty.de@SD": ["DE Event HD"]},
+            xtream_aliases=mapping,
+            min_channels=1,
+            min_programmes=1,
+            alias_mode="regional",
+        )
+        root = epg.parse_xml(result, "result")
+        original = root.find("channel[@id='empty.de@SD']")
+        clone = root.find("channel[@id='event.de']")
+        self.assertIsNotNone(original)
+        self.assertIsNotNone(clone)
+        self.assertEqual(
+            [node.text for node in original.findall("display-name")],
+            ["Event", "DE Event HD"],
+        )
+        self.assertEqual(original.find("icon").get("src"), "https://example.test/event.png")
+        self.assertEqual([node.text for node in clone.findall("display-name")], ["Event", "DE Event HD"])
+        self.assertIsNone(root.find("programme[@channel='empty.de@SD']"))
+        self.assertIsNone(root.find("programme[@channel='event.de']"))
+        self.assertEqual((channels, programmes), (2, 1))
+
+    def test_tolerant_mode_skips_clone_of_unprogrammed_original(self):
+        xml = (
+            b'<?xml version="1.0"?><tv>'
+            b'<channel id="ch1"><display-name>One</display-name></channel>'
+            b'<channel id="empty.de@SD"><display-name>Event</display-name></channel>'
+            b'<programme start="20261115000000 +0000" stop="20261115010000 +0000" channel="ch1">'
+            b"<title>News</title></programme></tv>"
+        )
+        result, channels, programmes = epg.merge(
+            xml,
+            {},
+            xtream_aliases={"event.de": "empty.de@SD"},
+            min_channels=1,
+            min_programmes=1,
+            alias_mode="tolerant",
+        )
+        root = epg.parse_xml(result, "result")
+        self.assertIsNone(root.find("channel[@id='event.de']"))
+        self.assertIsNotNone(root.find("channel[@id='empty.de@SD']"))
+        self.assertEqual((channels, programmes), (2, 1))
+
     def test_regional_mode_skips_configured_xtream_when_original_absent(self):
         xml = (
             b'<?xml version="1.0"?><tv>'
