@@ -62,7 +62,7 @@ export default function About() {
               la programación de El País, y la API de Orange TV.
             </p>
             <p className="text-xs lg:text-sm text-slate-300 leading-relaxed mt-2">
-              El archivo <code className="bg-slate-800 px-1.5 py-0.5 rounded text-[11px]">guide.xml</code> es
+              El archivo <code className="bg-slate-800 px-1.5 py-0.5 rounded text-[11px]">guide.xml.gz</code> es
               compatible con cualquier reproductor IPTV que soporte el formato XMLTV: TiviMate, Kodi,
               Plex, VLC, y muchos más.
             </p>
@@ -211,7 +211,7 @@ export default function About() {
             <h3 className="text-sm lg:text-base font-semibold text-white mb-3">Enlaces</h3>
             <div className="space-y-2">
               <a
-                href="https://github.com/raulfdeztdo/epg"
+                href="https://github.com/hectorzin/epg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-xs lg:text-sm text-slate-400 hover:text-white transition-colors"
@@ -226,7 +226,7 @@ export default function About() {
                 className="flex items-center gap-2 text-xs lg:text-sm text-slate-400 hover:text-white transition-colors"
               >
                 <Rss size={14} className="lg:size-4" />
-                Archivo guide.xml
+                Archivo guide.xml.gz
               </a>
               <a
                 href="https://github.com/iptv-org/epg"

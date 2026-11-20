@@ -16,6 +16,7 @@ SPEC = importlib.util.spec_from_file_location("process_epg", SCRIPTS / "process-
 epg = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(epg)
 policy = importlib.import_module("es_xtream_policy")
+xmltv_gzip = importlib.import_module("xmltv_gzip")
 
 SIM = ROOT / "temp" / "simulate_es_mapping_fix.py"
 
@@ -78,7 +79,11 @@ class EsXtreamPolicyTests(unittest.TestCase):
             env={
                 **__import__("os").environ,
                 "SIM_GUIDE_ES_AFTER": str(after_es),
-                "SIM_GUIDE_GLOBAL_AFTER": str(after_gl) if after_gl.is_file() else str(ROOT / "guide.xml"),
+                "SIM_GUIDE_GLOBAL_AFTER": (
+                    str(after_gl)
+                    if after_gl.is_file()
+                    else str(xmltv_gzip.published_global_guide(ROOT))
+                ),
             },
         )
         self.assertEqual(proc.returncode, 0, proc.stderr)

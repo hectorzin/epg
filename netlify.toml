@@ -2,10 +2,19 @@
   command = "echo 'No build needed - pre-built frontend committed to repo'"
   publish = "frontend/dist"
 
-# guide.xml pesa 4 MB y lo descargan muchos clientes: se sirve desde GitHub para no gastar el
-# ancho de banda de Netlify, y esta URL publica sigue funcionando.
+# 302 externo hacia la URL que termina en .gz. Netlify no reenvía el cuerpo ni lo
+# recomprime: el cliente sigue Location y descarga guide.xml.gz. GitHub lo sirve
+# como application/octet-stream, sin Content-Encoding, y el reproductor descomprime
+# una sola vez por la extensión. Un proxy 200 dejaría la ruta /guide.xml y
+# entregaría GZIP con nombre de XML.
 [[redirects]]
   from = "/guide.xml"
-  to = "https://raw.githubusercontent.com/raulfdeztdo/epg/main/guide.xml"
+  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/guide.xml.gz"
+  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz"
   status = 302
   force = true

@@ -12,6 +12,7 @@ if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
 
 from es_xtream_policy import split_policy_exempt_losses  # noqa: E402
+from xmltv_gzip import parse_xmltv  # noqa: E402
 
 MAX_PROGRAMMED_LOSS = 0.20
 
@@ -47,7 +48,7 @@ def programmed_coverage_report(
     *,
     max_loss_ratio: float = MAX_PROGRAMMED_LOSS,
 ) -> dict[str, object]:
-    old_root = ET.parse(previous).getroot()
+    old_root = parse_xmltv(previous)
     new_root = ET.parse(generated).getroot()
     old_ids = programmed_channel_ids(old_root)
     new_ids = programmed_channel_ids(new_root)

@@ -82,6 +82,22 @@ class NationalPublishValidateTests(unittest.TestCase):
             self.assertIn("01tv.fr", report["lost_policy_exempt"])
             self.assertFalse(report["exceeds_threshold"])
 
+    def test_previous_gzip_is_compared_as_xml(self):
+        from xmltv_gzip import compress_xmltv
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            plain = root / "old.xml"
+            previous = root / "old.xml.gz"
+            generated = root / "new.xml"
+            write_guide(plain, ["a", "b"], ["a", "b"])
+            previous.write_bytes(compress_xmltv(plain.read_bytes()))
+            write_guide(generated, ["a"], ["a"])
+            report = validate.programmed_coverage_report(previous, generated)
+            self.assertEqual(report["old_programmed"], 2)
+            self.assertEqual(report["new_programmed"], 1)
+            self.assertIn("b", report["lost_real"])
+
 
 class EsXtreamMappingRegression(unittest.TestCase):
     def test_cima_noel_not_mapped_to_missing_terror(self):

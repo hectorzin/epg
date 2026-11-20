@@ -15,6 +15,9 @@ _SCRIPT_DIR = Path(__file__).resolve().parent
 _ROOT = _SCRIPT_DIR.parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
+
+from xmltv_gzip import parse_xmltv  # noqa: E402
+
 _MAX_IDENTITY_LOSS = 0.20
 _MIN_CHANNELS = 80
 _MIN_PROGRAMMES = 5000
@@ -64,7 +67,7 @@ def channel_id_to_identity(root: ET.Element, identity_key) -> dict[str, tuple]:
 
 
 def identity_coverage_report(previous: Path, generated: Path, *, identity_key, max_loss_ratio: float) -> dict:
-    old_root = ET.parse(previous).getroot()
+    old_root = parse_xmltv(previous)
     new_root = ET.parse(generated).getroot()
     old_ids = programmed_channel_ids(old_root)
     new_ids = programmed_channel_ids(new_root)

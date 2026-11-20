@@ -16,6 +16,7 @@ if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
 
 from tr_catalog_match import structural_problems  # noqa: E402
+from xmltv_gzip import parse_xmltv  # noqa: E402
 
 
 def _load_tr_epg():
@@ -94,7 +95,7 @@ def validate(generated: Path, previous: Path | None, aliases: Path, xtream_alias
             if alias_id in channel_ids and original_id not in channel_ids:
                 problems.append(f"clone {alias_id} is present but {original_id} is missing")
     if previous and previous.is_file() and previous.stat().st_size:
-        previous_root = ET.parse(previous).getroot()
+        previous_root = parse_xmltv(previous)
         old_ids = {channel.get("id") for channel in previous_root.findall("channel")}
         missing = sorted(channel_id for channel_id in old_ids if channel_id and channel_id not in channel_ids)
         if missing:

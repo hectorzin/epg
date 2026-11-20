@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
+from xmltv_gzip import is_global_guide, parse_xmltv, published_global_guide  # noqa: E402
 from xtream_matching import (  # noqa: E402
     build_guide_indexes,
     classify_playlist_region,
@@ -89,7 +90,7 @@ def match_key_ap(value: str) -> str:
 
 
 def load_guide_context(path: Path) -> tuple[set[str], dict[str, list[str]], set[str]]:
-    root = ET.parse(path).getroot()
+    root = parse_xmltv(path)
     ids: set[str] = set()
     names: dict[str, list[str]] = {}
     programmed: set[str] = set()
@@ -348,10 +349,10 @@ def coverage_report(guide_path: Path, aliases: dict[str, list[str]] | None = Non
     del aliases  # display aliases are materialised in the XMLTV guide
     rows = load_sports_rows()
     ids, display, programmed = load_guide_context(guide_path)
-    root = ET.parse(guide_path).getroot()
+    root = parse_xmltv(guide_path)
     ap_index, ap_collisions = aquaplay_index(root, programmed)
     clones = clone_roots(guide_path) if guide_path.name.startswith("guide-es") else clone_roots(ROOT / "guide-es.xml")
-    global_guide = guide_path.name == "guide.xml"
+    global_guide = is_global_guide(guide_path)
 
     stats = defaultdict(int)
     details: list[dict] = []
@@ -438,7 +439,7 @@ def propose_aliases(
     clones = clone_roots(ROOT / "epg/xtream-aliases.json")
     proposals: dict[str, list[str]] = defaultdict(list)
 
-    global_guide = guide_path.name == "guide.xml"
+    global_guide = is_global_guide(guide_path)
     _, display, programmed_ctx = load_guide_context(guide_path)
     for row in rows:
         name = row["name"]
@@ -482,26 +483,32 @@ def apply_proposals(aliases_path: Path, proposals: dict[str, list[str]]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--guide", type=Path, default=ROOT / "guide.xml")
+    parser.add_argument("--guide", type=Path, default=None)
     parser.add_argument("--aliases", type=Path, default=ROOT / "epg/aliases.json")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--json", type=Path, help="Write detailed report JSON")
     args = parser.parse_args()
 
+    guide = args.guide or published_global_guide(ROOT)
     aliases = json.loads(args.aliases.read_text(encoding="utf-8"))
-    before = coverage_report(args.guide, aliases)
-    ids, _, programmed = load_guide_context(args.guide)
-    root = ET.parse(args.guide).getroot()
+    before = coverage_report(guide, aliases)
+    ids, _, programmed = load_guide_context(guide)
+    root = parse_xmltv(guide)
     ap_index, ap_collisions = aquaplay_index(root, programmed)
     proposals = propose_aliases(
-        args.guide, aliases, ids=ids, programmed=programmed, ap_index=ap_index, ap_collisions=ap_collisions
+        guide,
+        aliases,
+        ids=ids,
+        programmed=programmed,
+        ap_index=ap_index,
+        ap_collisions=ap_collisions,
     )
     added = 0
     if args.apply and proposals:
         added = apply_proposals(args.aliases, proposals)
         aliases = json.loads(args.aliases.read_text(encoding="utf-8"))
 
-    after = coverage_report(args.guide, aliases)
+    after = coverage_report(guide, aliases)
     print(json.dumps({"before": before["stats"], "after": after["stats"], "proposals": proposals, "added": added}, indent=2))
     if args.json:
         args.json.write_text(

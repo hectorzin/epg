@@ -49,7 +49,7 @@ export default function Sidebar() {
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full px-3 py-2 text-xs font-medium text-slate-400 border border-slate-700 rounded-lg hover:border-slate-600 hover:text-white transition-colors"
         >
-          ⬇ guide.xml
+          ⬇ guide.xml.gz
         </a>
         <p className="text-center text-[10px] text-slate-600 flex items-center justify-center gap-1">
           by{' '}

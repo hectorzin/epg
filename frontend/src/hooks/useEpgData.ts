@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { decodeGuideBody } from '../utils/decodeGuide'
 import { parseGuideXml, type ParsedEpgData } from '../utils/parseGuide'
 import { useAutoRefresh } from './useAutoRefresh'
 
@@ -34,8 +35,8 @@ export function useEpgData({ refreshInterval }: UseEpgDataOptions = {}): UseEpgD
       const version = response.headers.get('etag') || response.headers.get('last-modified')
       if (background && version && version === versionRef.current) return
 
-      const text = await response.text()
-      // Content-Length can't be used: GitHub compresses the guide, so it reports the gzipped size
+      const text = await decodeGuideBody(new Uint8Array(await response.arrayBuffer()))
+      // The published guide is gzip. Measure the XML after decompression.
       const fileSize = new Blob([text]).size
 
       versionRef.current = version

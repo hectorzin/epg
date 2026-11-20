@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from xmltv_gzip import parse_xmltv, published_global_guide  # noqa: E402
 from xtream_matching import (  # noqa: E402
     channel_stem,
     disambiguate_by_quality,
@@ -42,7 +43,6 @@ PENDING_FILES = {
     "fr": ROOT / "epg" / "xtream-pending-fr.json",
     "arabic": ROOT / "epg" / "xtream-pending-arabic.json",
 }
-GLOBAL_GUIDE = ROOT / "guide.xml"
 
 
 def strip_quality_tokens(text: str) -> str:
@@ -77,7 +77,7 @@ class EpgCatalog:
         for path in paths:
             if not path.is_file():
                 continue
-            root = ET.parse(path).getroot()
+            root = parse_xmltv(path)
             label = path.name
             for channel in root.findall("channel"):
                 cid = channel.get("id") or ""
@@ -304,7 +304,7 @@ def merge_alias(aliases: dict[str, list[str]], channel_id: str, xtream_title: st
 def review_profile(profile: str, dry_run: bool) -> dict:
     pending_path = PENDING_FILES[profile]
     pending = json.loads(pending_path.read_text(encoding="utf-8"))
-    paths = [REGION_GUIDES[profile], GLOBAL_GUIDE]
+    paths = [REGION_GUIDES[profile], published_global_guide(ROOT)]
     catalog = EpgCatalog(paths)
     allowed = catalog.allowed_ids(profile)
     aliases = json.loads(ALIAS_FILES[profile].read_text(encoding="utf-8"))
