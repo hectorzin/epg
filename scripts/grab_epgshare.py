@@ -131,12 +131,41 @@ def copy_channel(source: ET.Element, xmltv_id: str, name: str) -> ET.Element:
     return channel
 
 
+def channels_from_ripper(tag: str, xml: bytes) -> list[dict[str, str]]:
+    """Every channel in one ripper, keeping the source id as the XMLTV id."""
+    root = ET.fromstring(xml)
+    if root.tag != "tv":
+        raise GrabError(f"EPGShare {tag}: root is not <tv>")
+    selected: list[dict[str, str]] = []
+    for node in root.findall("channel"):
+        source_id = (node.get("id") or "").strip()
+        if not source_id:
+            continue
+        name = ""
+        for display in node.findall("display-name"):
+            name = (display.text or "").strip()
+            if name:
+                break
+        selected.append(
+            {
+                "tag": tag,
+                "source_id": source_id,
+                "xmltv_id": source_id,
+                "name": name or source_id,
+            }
+        )
+    if not selected:
+        raise GrabError(f"EPGShare {tag}: no channels")
+    return selected
+
+
 def build_guide(
     channels: list[dict[str, str]],
     *,
     days: int,
     today: datetime.date | None = None,
     download=download_ripper,
+    preloaded: dict[str, bytes] | None = None,
 ) -> ET.Element:
     today = today or datetime.now(timezone.utc).date()
     window = wanted_days(days, today)
@@ -148,7 +177,7 @@ def build_guide(
     programmes_out = 0
     for tag, requested in by_tag.items():
         wanted = {item["source_id"]: item for item in requested}
-        xml = download(tag)
+        xml = preloaded.get(tag) if preloaded and tag in preloaded else download(tag)
         root = ET.fromstring(xml)
         if root.tag != "tv":
             raise GrabError(f"EPGShare {tag}: root is not <tv>")
@@ -205,7 +234,11 @@ def write_guide(path: Path, root: ET.Element) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--channels", type=Path, required=True)
+    parser.add_argument("--channels", type=Path, help="Curated channels file. Omit with --tag.")
+    parser.add_argument(
+        "--tag",
+        help="Grab every channel from this EPGShare ripper tag (for example TR1)",
+    )
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--days", type=int, default=2)
     parser.add_argument("--today", help="UTC calendar date YYYY-MM-DD (default: now)")
@@ -219,11 +252,19 @@ def main() -> int:
     args = parser.parse_args()
     if args.days < 1:
         raise GrabError("--days must be >= 1")
+    if not args.channels and not args.tag:
+        raise GrabError("pass --channels or --tag")
     today = None
     if args.today:
         today = datetime.strptime(args.today, "%Y-%m-%d").date()
-    selected = parse_channels_file(args.channels)
-    root = build_guide(selected, days=args.days, today=today)
+    preloaded: dict[str, bytes] | None = None
+    if args.channels:
+        selected = parse_channels_file(args.channels)
+    else:
+        downloaded = download_ripper(args.tag)
+        selected = channels_from_ripper(args.tag, downloaded)
+        preloaded = {args.tag: downloaded}
+    root = build_guide(selected, days=args.days, today=today, preloaded=preloaded)
     write_guide(args.output, root)
     for target in args.inject_into:
         inject_into(target, root)

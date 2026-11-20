@@ -35,7 +35,8 @@ epg/
 │   ├── generate-pt.yml         # Publica solo guide-pt.xml
 │   ├── generate-nl.yml         # Publica solo guide-nl.xml
 │   ├── generate-it.yml         # Publica solo guide-it.xml
-│   └── generate-de.yml         # Publica solo guide-de.xml
+│   ├── generate-de.yml         # Publica solo guide-de.xml
+│   └── generate-tr.yml         # Publica solo guide-tr.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── grab_epgshare.py        # Extra EPGShare (Rally.TV.de) para ES y DE
@@ -101,18 +102,32 @@ sites/<dominio>/
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
- `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml` y `generate-de.yml`, luego fusiona con
+ `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml` y
+ `generate-tr.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
   altera los `guide-*.xml`: conserva todos los canales (IDs, alias, logos), pero filtra la parrilla
   a hoy y mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se
   mantienen). Solo en `guide.xml`, los programas cuya hora de inicio cae en **mañana** (Madrid)
   conservan `title`, `category` y los atributos del `<programme>`; el resto de metadatos del
   programa se omiten. Los que empiezan hoy, aunque terminen mañana, conservan todos los metadatos.
+- El generador turco publica `guide-tr.xml` con `scripts/tr-epg.py` (Digiturk → D-Smart →
+ TV+ → Türksat Kablo → EPGShare TR1). Si el grabber de iptv-org no trae programas de
+ D-Smart, TV+ o Türksat, `scripts/grab_tr_public.py` usa su API pública. Türksat verifica TLS;
+ si el servidor no envía el intermedio, se completa con el certificado GlobalSign indicado en
+ el propio certificado y se vuelve a comprobar el nombre. Los ids publicados
+ quedan en `.tr`; si otro país ya usa el mismo id se reescribe a `@Turkey`. Tivibu no se
+ usa: su parrilla pide un token de abonado. Tras el merge crudo, `process-epg --profile tr`
+ con `epg/aliases-tr.json` y `epg/xtream-aliases-tr.json`. El grab usa `--days=2` y la zona
+ `Europe/Istanbul` (UTC+3).
 - El generador alemán publica `guide-de.xml` con `scripts/de-epg.py` (Magenta → Magenta web →
   TV Heute, más extras EPGShare). Rally.TV (`Rally.TV.de`, site_id `RALLY_TV1#Rally.TV.de`) se
   descarga con `scripts/grab_epgshare.py` (mismo contrato URL que iptv-org `epgshare01.online`).
   El ID se comparte con `guide-es.xml`; no se reescribe por colisión internacional. La fusión
-  global conserva un solo canal y no duplica programas. Tras el merge crudo,
+  global conserva un solo canal y no duplica programas. Si un canal publicado sigue
+  en el catálogo de origen pero el grab no trae programas, se reemite el `<channel>`
+  (ID, display-name, icono) sin recuperar parrilla caducada. Magenta «Sky Sport
+  Bundesliga 10» (`389264936256`) usa `SkySportBundesliga11.de@SD` para no chocar
+  con el 10 ya publicado (Magenta 9). Tras el merge crudo,
   `process-epg --profile de` con `epg/aliases-de.json`. El grab usa `--days=2`.
 - El generador español también descarga Rally.TV con `scripts/grab_epgshare.py` y lo fusiona
   vía `merge-guides.py --epgshare`. Display-name Xtream exacto `DAZN RALLY TV` en

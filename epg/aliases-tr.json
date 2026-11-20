@@ -1,0 +1,438 @@
+{
+  "24TV.tr@SD": [
+    "TR 24 TV 1080P",
+    "TR 24 TV HD"
+  ],
+  "24kitchen.tr@SD": [
+    "TR 24 KITCHEN HD"
+  ],
+  "360.tr@SD": [
+    "TR 360 HD",
+    "TR 360 TV 1080p"
+  ],
+  "A2TV.tr@SD": [
+    "TR A2 1080p*",
+    "TR A2 HD"
+  ],
+  "AHaber.tr@SD": [
+    "TR A HABER 1080P",
+    "TR A HABER 1080p",
+    "TR A HABER HD"
+  ],
+  "AKITTV.tr@SD": [
+    "TR AKIT TV HD*"
+  ],
+  "ANews.tr@SD": [
+    "TR A NEWS 1080p*"
+  ],
+  "APara.tr@SD": [
+    "TR A PARA 1080p*"
+  ],
+  "ASpor.tr@SD": [
+    "TR A SPOR HD",
+    "TR A SPOR SD"
+  ],
+  "ATV.tr@SD": [
+    "TR ATV 1080P",
+    "TR ATV HD",
+    "TR ATV HEVC",
+    "TR ATV*"
+  ],
+  "BBCEarth.tr@SD": [
+    "TR BBC EARTH HD TR"
+  ],
+  "BRT2.tr@SD": [
+    "TR BRT 2 HD-A"
+  ],
+  "BabyTV.tr@SD": [
+    "TR BABY TV"
+  ],
+  "Beinsports.tr@SD": [
+    "TR BEIN SPOR 1 HD",
+    "TR BEIN SPORT 1 SD",
+    "TR BEINSPOR 1 HD",
+    "TR BEINSPORT 1 HD",
+    "TR BEINSPORT 1 SD"
+  ],
+  "Beinsports2.tr@SD": [
+    "TR BEIN SPOR 2 HD",
+    "TR BEINSPOR 2 HD",
+    "TR BEINSPORT 2 HD"
+  ],
+  "Beinsports3.tr@SD": [
+    "TR BEIN SPOR 3 HD",
+    "TR BEINSPOR 3 HD",
+    "TR BEINSPORT 3 HD"
+  ],
+  "Beinsports4.tr@SD": [
+    "TR BEIN SPOR 4 HD",
+    "TR BEINSPOR 4 HD",
+    "TR BEINSPORT 4 HD"
+  ],
+  "BenguTURK.tr@SD": [
+    "TR BENGUTURK*A"
+  ],
+  "BeyazTV.tr@SD": [
+    "TR BEYAZ TV",
+    "TR BEYAZ TV 1080P",
+    "TR BEYAZ TV HD"
+  ],
+  "BeykentTV.tr@SD": [
+    "TR BEYKENT TV*"
+  ],
+  "BloombergHT.tr@SD": [
+    "TR BLOOMBERG HT 1080P",
+    "TR BLOOMBERG HT HD"
+  ],
+  "Brt1.tr@SD": [
+    "TR BRT 1 HD-A"
+  ],
+  "CNNTurk.tr@SD": [
+    "TR CNN TURK *",
+    "TR CNN TURK 1080P",
+    "TR CNN TURK HD"
+  ],
+  "CartoonNetwork.tr@SD": [
+    "TR CARTOON NETWORK"
+  ],
+  "CiftciTV.tr@SD": [
+    "TR CIFTCI TV HD A*"
+  ],
+  "DMAX.tr@SD": [
+    "TR DMAX TR"
+  ],
+  "DaVinciLearning.tr@SD": [
+    "TR DA VINCI LEARNING"
+  ],
+  "DiscoveryChannel.tr@SD": [
+    "TR DISCOVERY TURKEY HD"
+  ],
+  "DiscoveryID.tr@SD": [
+    "TR DISCOVERY IDX TR"
+  ],
+  "DisneyChannel.tr@SD": [
+    "TR DISNEY CHANNEL TR"
+  ],
+  "DisneyJunior.tr@SD": [
+    "TR DISNEY JUNIOR TR"
+  ],
+  "DiyanetTV.tr@SD": [
+    "TR DIYANET TV"
+  ],
+  "DreamTurk.tr@SD": [
+    "TR DREAM TURK *",
+    "TR DREAM TV H*"
+  ],
+  "Ekoturk.tr@SD": [
+    "TR EKOTURK TV H*"
+  ],
+  "EuroD.tr@Turkey": [
+    "TR EURO D*"
+  ],
+  "Eurosport1.tr@SD": [
+    "TR EUROSPORT 1 HD"
+  ],
+  "Eurosport2.tr@SD": [
+    "TR EUROSPORT 2 HD"
+  ],
+  "FBTV.tr@SD": [
+    "TR FB TV HD"
+  ],
+  "FMTV.tr@SD": [
+    "TR FM TV*"
+  ],
+  "FX.tr@HD": [
+    "TR FX HD"
+  ],
+  "Fightbox.tr@SD": [
+    "TR FIGHTBOX HD"
+  ],
+  "HaberGlobal.tr@SD": [
+    "TR HABER GLOBAL 1080P",
+    "TR HABER GLOBAL HD*"
+  ],
+  "HaberturkTV.tr@Turkey": [
+    "TR HABERTURK 1080P",
+    "TR HABERTURK HD"
+  ],
+  "HalkTV.tr@SD": [
+    "TR HALK TV 1080P",
+    "TR HALK TV*"
+  ],
+  "KRTTV.tr@SD": [
+    "TR KRT TV HD*"
+  ],
+  "KabloInfo.tr@SD": [
+    "TR KABLO INFO HD"
+  ],
+  "KadirgaTV.tr@SD": [
+    "TR KADIRGA TV*H"
+  ],
+  "Kanal23.tr@SD": [
+    "TR KANAL 23*H"
+  ],
+  "Kanal26.tr@SD": [
+    "TR KANAL 26*A"
+  ],
+  "Kanal33.tr@SD": [
+    "TR KANAL 33*H"
+  ],
+  "Kanal7.tr@SD": [
+    "TR KANAL 7",
+    "TR KANAL 7 1080P",
+    "TR KANAL7",
+    "TR KANAL7 HD"
+  ],
+  "KanalB.tr@SD": [
+    "TR KANAL B *A"
+  ],
+  "KanalD.tr@SD": [
+    "TR KANAL D",
+    "TR KANAL D 1080P",
+    "TR KANAL D HD",
+    "TR KANAL D HEVC"
+  ],
+  "KanalV.tr@SD": [
+    "TR KANAL V*A"
+  ],
+  "KibrisTV.tr@SD": [
+    "TR KIBRIS TV-A"
+  ],
+  "Lalegul.tr@SD": [
+    "TR LALEGUL TV"
+  ],
+  "LoveNature.tr@SD": [
+    "TR LOVE NATURE HD"
+  ],
+  "Meltemtv.tr@SD": [
+    "TR MELTEM TV*"
+  ],
+  "MinikaCocuk.tr@SD": [
+    "TR MINIKA COCUK"
+  ],
+  "MinikaGo.tr@SD": [
+    "TR MINIKAGO TV"
+  ],
+  "MovieSmartClassic.tr@SD": [
+    "TR MOVIE SMART CLASSIC HD (LIVE)"
+  ],
+  "MovieSmartTurk.tr@SD": [
+    "TR MOVIE SMART TURK HD (LIVE)"
+  ],
+  "NOWTV.tr@SD": [
+    "TR FOX TV",
+    "TR FOX TV 1080P",
+    "TR FOX TV HD *",
+    "TR FOX TV HEVC"
+  ],
+  "NTV.tr@SD": [
+    "TR NTV HD",
+    "TR NTV HD 1080P"
+  ],
+  "NationalGeographic.tr@SD": [
+    "TR NAT GEO HD"
+  ],
+  "NationalGeographicWild.tr@SD": [
+    "TR NAT GEO WILD HD"
+  ],
+  "NickJr.tr@SD": [
+    "TR NICK JR"
+  ],
+  "Nickelodeon.tr@SD": [
+    "TR NICKELODEON TR"
+  ],
+  "Number1TV.tr@SD": [
+    "TR NR1 TV HD*"
+  ],
+  "Number1Turk.tr@SD": [
+    "TR NR1 TURK TV HD*"
+  ],
+  "PowerTURK.tr@SD": [
+    "TR POWER TURK 1080p"
+  ],
+  "PowerTV.tr@SD": [
+    "TR POWER TV HD 1080P*"
+  ],
+  "SSport.tr@SD": [
+    "TR S SPORTS TV HD"
+  ],
+  "SSport2.tr@SD": [
+    "TR S SPORT 2 HD"
+  ],
+  "STARTV.tr@SD": [
+    "TR STAR TV 1080P",
+    "TR STAR TV HD",
+    "TR STAR TV HEVC",
+    "TR STAR TV*"
+  ],
+  "SaudiQuran.tr@SD": [
+    "TR SAUDI QURAN"
+  ],
+  "SemerkandTV.tr@SD": [
+    "TR SEMERKAND TV"
+  ],
+  "ShowTV.tr@SD": [
+    "TR SHOW TV",
+    "TR SHOW TV 1080P",
+    "TR SHOW TV HD",
+    "TR SHOW TV HEVC"
+  ],
+  "Sinema1001.tr@SD": [
+    "TR Sinema 1001 HD"
+  ],
+  "Sinema1002.tr@SD": [
+    "TR Sinema 1002 HD"
+  ],
+  "Sinema2.tr@SD": [
+    "TR Sinema 2 HD"
+  ],
+  "SinemaAile.tr@SD": [
+    "TR Sinema Aile HD"
+  ],
+  "SinemaAile2.tr@SD": [
+    "TR Sinema Aile 2 HD"
+  ],
+  "SinemaAksiyon.tr@SD": [
+    "TR Sinema Aksiyon HD"
+  ],
+  "SinemaAksiyon2.tr@SD": [
+    "TR Sinema Aksiyon 2 HD"
+  ],
+  "SinemaKomedi.tr@SD": [
+    "TR Sinema Komedi HD"
+  ],
+  "SinemaKomedi2.tr@SD": [
+    "TR Sinema Komedi 2 HD"
+  ],
+  "SinemaTVAile2.tr@SD": [
+    "TR SINEMA TV Aile 2"
+  ],
+  "SporSmart.tr@SD": [
+    "TR SPOR SMART HD"
+  ],
+  "SportsTV.tr@SD": [
+    "TR SPORTS TV*"
+  ],
+  "TGRTHaber.tr@SD": [
+    "TR TGRT HABER",
+    "TR TGRT HABER 1080p"
+  ],
+  "TLC.tr@SD": [
+    "TR TLC TURKEY"
+  ],
+  "TMB.tr@SD": [
+    "TR TMB TV A*"
+  ],
+  "TRT1.tr@SD": [
+    "TR TRT 1 1080P",
+    "TR TRT 1 HD",
+    "TR TRT 1 HEVC",
+    "TR TRT1 1080p"
+  ],
+  "TRT2.tr@SD": [
+    "TR TRT 2 HD"
+  ],
+  "TRT3Spor.tr@SD": [
+    "TR TRT 3 SPOR"
+  ],
+  "TRT4K.tr@SD": [
+    "TR TRT 4K"
+  ],
+  "TRTAvaz.tr@SD": [
+    "TR TRT AVAZ"
+  ],
+  "TRTBelgesel.tr@SD": [
+    "TR TRT BELGESEL 1080p",
+    "TR TRT BELGESEL HD 1080P"
+  ],
+  "TRTCocuk.tr@Turkey": [
+    "TR TRT COCUK 1080p",
+    "TR TRT COCUK HD",
+    "TR TRT COCUK*"
+  ],
+  "TRTHaber.tr@SD": [
+    "TR TRT HABER HD*",
+    "TR TRT HABER*",
+    "TR TRT HABER1080p"
+  ],
+  "TRTKurdi.tr@SD": [
+    "TR TRT KURDI 1080p"
+  ],
+  "TRTMuzik.tr@Turkey": [
+    "TR TRT MUZIK 1080p",
+    "TR TRT MUZIK*"
+  ],
+  "TRTSpor.tr@SD": [
+    "TR TRT SPOR 1080p",
+    "TR TRT SPOR HD",
+    "TR TRT SPOR HD 1080P"
+  ],
+  "TRTSporYildiz.tr@SD": [
+    "TR TRT SPOR YILDIZ"
+  ],
+  "TRTTurk.tr@Turkey": [
+    "TR TRT TURK",
+    "TR TRT TURK 1080p"
+  ],
+  "TRTWorld.tr@Turkey": [
+    "TR TRT WORLD 1080p"
+  ],
+  "TV1.tr@SD": [
+    "TR TV 1 A*"
+  ],
+  "TV100.tr@SD": [
+    "TR TV 100 1080P",
+    "TR TV 100*"
+  ],
+  "TV4.tr@SD": [
+    "TR TV 4",
+    "TR TV 4 1080P"
+  ],
+  "TV5.tr@SD": [
+    "TR TV 5*"
+  ],
+  "TV8.tr@Turkey": [
+    "TR TV 8 *",
+    "TR TV8 1080P",
+    "TR TV8 HD",
+    "TR TV8 HEVC"
+  ],
+  "TV85.tr@SD": [
+    "TR TV 8.5",
+    "TR TV 8.5 1080P",
+    "TR TV 8.5 HD"
+  ],
+  "TVNET.tr@SD": [
+    "TR TV NET 1080P",
+    "TR TVNET HD"
+  ],
+  "Tele1.tr@SD": [
+    "TR TELE 1*"
+  ],
+  "Teve2.tr@SD": [
+    "TR TEVE 2 *",
+    "TR TEVE 2 1080P"
+  ],
+  "TurkmeneliTV.tr@SD": [
+    "TR TURKMENELI TV"
+  ],
+  "UcankusTV.tr@SD": [
+    "TR UCAN KUS TV"
+  ],
+  "UlkeTV.tr@SD": [
+    "TR ULKE TV 1080P",
+    "TR ULKE TV HD"
+  ],
+  "UlusalKanal.tr@SD": [
+    "TR ULUSAL KANAL*"
+  ],
+  "VavTV.tr@SD": [
+    "TR VAV TV"
+  ],
+  "ViasatNatureHistory.tr@SD": [
+    "TR VIASAT NATURE/HISTORY HD"
+  ],
+  "beINSportsHaber.tr@SD": [
+    "TR BEiN SPORT HABER HD"
+  ]
+}
