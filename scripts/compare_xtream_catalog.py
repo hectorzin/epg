@@ -22,16 +22,16 @@ from xtream_matching import (  # noqa: E402
 )
 
 PROFILES = {
-    "es": ("guide-es.xml", "epg/aliases.json", "epg/xtream-aliases.json", "ES"),
-    "fr": ("guide-fr.xml", "epg/aliases-fr.json", "epg/xtream-aliases-fr.json", "FR"),
+    "es": ("guides/guide-es.xml", "epg/aliases.json", "epg/xtream-aliases.json", "ES"),
+    "fr": ("guides/guide-fr.xml", "epg/aliases-fr.json", "epg/xtream-aliases-fr.json", "FR"),
     "arabic": (
-        "guide-arabic.xml",
+        "guides/guide-arabic.xml",
         "epg/aliases-arabic.json",
         "epg/xtream-aliases-arabic.json",
         "ARABIC",
     ),
-    "gb": ("guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json", "GB"),
-    "pt": ("guide-pt.xml", "epg/aliases-pt.json", "epg/xtream-aliases-pt.json", "PT"),
+    "gb": ("guides/guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json", "GB"),
+    "pt": ("guides/guide-pt.xml", "epg/aliases-pt.json", "epg/xtream-aliases-pt.json", "PT"),
 }
 
 

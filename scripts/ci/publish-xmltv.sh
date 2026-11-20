@@ -33,6 +33,7 @@ for attempt in $(seq 1 8); do
   git checkout -B main origin/main
 
   for file in "${FILES[@]}"; do
+    mkdir -p -- "$(dirname "$file")"
     cp -- "$BACKUP_DIR/$(basename "$file")" "$file"
   done
 

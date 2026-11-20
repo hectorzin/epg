@@ -185,7 +185,7 @@ def validate_real_coverage(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("generated", type=Path)
-    parser.add_argument("previous", type=Path, nargs="?", default=Path("guide-nl.xml"))
+    parser.add_argument("previous", type=Path, nargs="?", default=Path("guides/guide-nl.xml"))
     parser.add_argument("--aliases", type=Path, default=Path("epg/aliases-nl.json"))
     parser.add_argument("--xtream-aliases", type=Path, default=Path("epg/xtream-aliases-nl.json"))
     parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)

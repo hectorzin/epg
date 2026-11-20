@@ -32,8 +32,8 @@ QUALITY_MARKER = re.compile(
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
 REGION_GUIDES = {
-    "fr": ROOT / "guide-fr.xml",
-    "arabic": ROOT / "guide-arabic.xml",
+    "fr": ROOT / "guides" / "guide-fr.xml",
+    "arabic": ROOT / "guides" / "guide-arabic.xml",
 }
 ALIAS_FILES = {
     "fr": ROOT / "epg" / "aliases-fr.json",

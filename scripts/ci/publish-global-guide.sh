@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Re-merge national guides from main on every attempt; validate before push (no artifacts).
-# National guides stay plain XML. The global guide is merged to a temporary XML file,
-# validated, packed as guide.xml.gz (level 9, mtime 0) and published without guide.xml.
+# National guides stay plain XML in guides/. The global guide is merged to a temporary
+# XML file, validated, packed as guides/guide.xml.gz (level 9, mtime 0) and published
+# without a root guide.xml or guide.xml.gz.
 set -euo pipefail
 
 ROOT=${1:-.}
@@ -12,8 +13,10 @@ if [[ "$REQUESTED_NAME" != "guide.xml.gz" && "$REQUESTED_NAME" != "guide.xml" ]]
   echo "::error::Global guide must be published as guide.xml.gz" >&2
   exit 2
 fi
-PUBLISHED="$ROOT/guide.xml.gz"
-LEGACY="$ROOT/guide.xml"
+mkdir -p "$ROOT/guides"
+PUBLISHED="$ROOT/guides/guide.xml.gz"
+LEGACY_XML="$ROOT/guide.xml"
+LEGACY_GZIP="$ROOT/guide.xml.gz"
 TMP_XML=""
 
 cleanup() {
@@ -32,6 +35,7 @@ merge_and_validate() {
     rm -f -- "$TMP_XML"
   fi
   TMP_XML=$(mktemp)
+  mkdir -p "$ROOT/guides"
   python3 scripts/merge-national-guides.py --root "$ROOT" --output "$TMP_XML"
   python3 scripts/xmltv_gzip.py validate "$TMP_XML"
   python3 scripts/xmltv_gzip.py pack "$TMP_XML" "$PUBLISHED"
@@ -49,11 +53,17 @@ for attempt in $(seq 1 8); do
   if git ls-files --error-unmatch -- guide.xml >/dev/null 2>&1; then
     git rm -f -- guide.xml
   fi
-  if [[ -f "$LEGACY" && "$LEGACY" != "$PUBLISHED" ]]; then
-    rm -f -- "$LEGACY"
+  if git ls-files --error-unmatch -- guide.xml.gz >/dev/null 2>&1; then
+    git rm -f -- guide.xml.gz
+  fi
+  if [[ -f "$LEGACY_XML" && "$LEGACY_XML" != "$PUBLISHED" ]]; then
+    rm -f -- "$LEGACY_XML"
+  fi
+  if [[ -f "$LEGACY_GZIP" && "$LEGACY_GZIP" != "$PUBLISHED" ]]; then
+    rm -f -- "$LEGACY_GZIP"
   fi
   git add -f -- "$PUBLISHED"
-  if git diff --cached --quiet -- guide.xml "$PUBLISHED"; then
+  if git diff --cached --quiet -- guide.xml guide.xml.gz "$PUBLISHED"; then
     echo "Global guide unchanged."
     exit 0
   fi

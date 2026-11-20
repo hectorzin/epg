@@ -79,6 +79,17 @@ class XmltvGzipTests(unittest.TestCase):
             self.assertTrue(is_global_guide(compressed))
             self.assertTrue(is_global_guide(plain))
 
+    def test_published_global_guide_prefers_guides_directory(self):
+        xml_bytes = sample_xml()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "guide.xml.gz").write_bytes(gzip.compress(xml_bytes, mtime=0))
+            nested = root / "guides"
+            nested.mkdir()
+            published = nested / "guide.xml.gz"
+            published.write_bytes(gzip.compress(xml_bytes, mtime=0))
+            self.assertEqual(published_global_guide(root), published)
+
     def test_validate_rejects_a_guide_without_programmes(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "guide.temp.xml"
@@ -113,7 +124,7 @@ class XmltvGzipTests(unittest.TestCase):
 
     def test_publish_script_packs_gzip_and_drops_plain_global_guide(self):
         text = PUBLISH.read_text(encoding="utf-8")
-        self.assertIn('PUBLISHED="$ROOT/guide.xml.gz"', text)
+        self.assertIn('PUBLISHED="$ROOT/guides/guide.xml.gz"', text)
         self.assertIn("xmltv_gzip.py validate", text)
         self.assertIn("xmltv_gzip.py pack", text)
         self.assertIn("git rm -f -- guide.xml", text)

@@ -156,7 +156,7 @@ def validate(generated: Path, previous: Path | None, aliases: Path, xtream_alias
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("generated", type=Path)
-    parser.add_argument("previous", nargs="?", type=Path, default=Path("guide-de.xml"))
+    parser.add_argument("previous", nargs="?", type=Path, default=Path("guides/guide-de.xml"))
     parser.add_argument("--aliases", type=Path, default=_ROOT / "epg" / "aliases-de.json")
     parser.add_argument("--xtream-aliases", type=Path, default=_ROOT / "epg" / "xtream-aliases-de.json")
     args = parser.parse_args()

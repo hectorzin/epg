@@ -98,9 +98,9 @@ def guide_display_name_map(root: ET.Element) -> dict[str, list[str]]:
 
 class GuideRegressionTests(unittest.TestCase):
     def _guides(self) -> list[Path]:
-        return sorted(ROOT.glob("guide*.xml"))
+        return sorted((ROOT / "guides").glob("guide*.xml"))
 
-    @unittest.skipUnless(any(ROOT.glob("guide-es.xml")), "local guide-es.xml missing")
+    @unittest.skipUnless(any((ROOT / "guides").glob("guide-es.xml")), "local guide-es.xml missing")
     def test_local_guides_keep_channel_metadata_when_reordered(self):
         for path in self._guides():
             with self.subTest(guide=path.name):
@@ -111,11 +111,15 @@ class GuideRegressionTests(unittest.TestCase):
                 for channel in clone.findall("channel"):
                     self.assertTrue(channel_children_ordered(channel))
 
-    @unittest.skipUnless(any(ROOT.glob("guide-es.xml")), "local guide-es.xml missing")
+    @unittest.skipUnless(any((ROOT / "guides").glob("guide-es.xml")), "local guide-es.xml missing")
     def test_xtream_name_indexes_unchanged_after_reorder(self):
         from xtream_matching import build_guide_indexes
 
-        for path in (ROOT / "guide-es.xml", ROOT / "guide-nl.xml", ROOT / "guide-pt.xml"):
+        for path in (
+            ROOT / "guides" / "guide-es.xml",
+            ROOT / "guides" / "guide-nl.xml",
+            ROOT / "guides" / "guide-pt.xml",
+        ):
             if not path.is_file():
                 continue
             with self.subTest(guide=path.name):

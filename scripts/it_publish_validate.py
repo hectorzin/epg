@@ -182,7 +182,7 @@ def validate_curated_coverage(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("generated", type=Path)
-    parser.add_argument("previous", type=Path, nargs="?", default=Path("guide-it.xml"))
+    parser.add_argument("previous", type=Path, nargs="?", default=Path("guides/guide-it.xml"))
     parser.add_argument("--aliases", type=Path, default=_ROOT / "epg" / "aliases-it.json")
     parser.add_argument("--xtream-aliases", type=Path, default=_ROOT / "epg" / "xtream-aliases-it.json")
     parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)

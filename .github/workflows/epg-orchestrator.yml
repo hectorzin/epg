@@ -94,7 +94,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          bash scripts/ci/publish-global-guide.sh . guide.xml.gz "chore(epg): update global guide"
+          bash scripts/ci/publish-global-guide.sh . guides/guide.xml.gz "chore(epg): update global guide"
       - name: Report generator outcomes
         if: always()
         run: |

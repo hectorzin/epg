@@ -17,6 +17,7 @@ _ROOT = _SCRIPT_DIR.parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
 
+from guide_layout import national_guide_dir  # noqa: E402
 from xmltv_gzip import parse_xmltv  # noqa: E402
 
 
@@ -59,9 +60,10 @@ def parse_start(value: str) -> datetime | None:
 def occupied_guides(root: Path) -> list[Path]:
     if not root.is_dir():
         return []
+    search = national_guide_dir(root)
     return sorted(
         path
-        for path in root.glob("guide-*.xml")
+        for path in search.glob("guide-*.xml")
         if NATIONAL_GUIDE.match(path.name) and path.name != "guide-be.xml" and path.stat().st_size > 0
     )
 
@@ -164,7 +166,7 @@ def validate(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("generated", type=Path)
-    parser.add_argument("previous", nargs="?", type=Path, default=Path("guide-be.xml"))
+    parser.add_argument("previous", nargs="?", type=Path, default=Path("guides/guide-be.xml"))
     parser.add_argument("--stations", type=Path, default=_ROOT / "epg" / "be-stations.json")
     parser.add_argument("--aliases", type=Path, default=_ROOT / "epg" / "aliases-be.json")
     parser.add_argument("--xtream-aliases", type=Path, default=_ROOT / "epg" / "xtream-aliases-be.json")

@@ -51,6 +51,18 @@ class NationalGuideMergeTests(unittest.TestCase):
                 ['guide-ar.xml', 'guide-arabic.xml', 'guide-es.xml', 'guide-fr.xml', 'guide-gb.xml'],
             )
 
+    def test_discover_reads_guides_directory_and_ignores_root_copies(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            ET.ElementTree(guide('STALE', 'Stale')).write(root / 'guide-es.xml')
+            nested = root / 'guides'
+            nested.mkdir()
+            current = nested / 'guide-fr.xml'
+            ET.ElementTree(guide('FR.1', 'France')).write(current)
+            (nested / 'guide.xml.gz').write_bytes(b'not-a-national-guide')
+            discovered = module.discover_national_guides(root)
+            self.assertEqual(discovered, [current])
+
     def test_cli_discovers_guides_under_root(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)

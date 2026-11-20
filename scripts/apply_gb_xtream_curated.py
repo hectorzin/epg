@@ -21,7 +21,7 @@ from compare_xtream_catalog import catalog_link_stats, merge_aliases_into_names 
 from xtream_pending import classify_pending_row  # noqa: E402
 
 CATALOG_PATH = ROOT / "temp" / "uk-xtream-catalog.json"
-GUIDE_PATH = ROOT / "guide-gb.xml"
+GUIDE_PATH = ROOT / "guides" / "guide-gb.xml"
 ALIASES_PATH = ROOT / "epg" / "aliases-gb.json"
 CLONES_PATH = ROOT / "epg" / "xtream-aliases-gb.json"
 PENDING_PATH = ROOT / "epg" / "xtream-pending-gb.json"

@@ -36,7 +36,7 @@ class EsXtreamPolicyTests(unittest.TestCase):
         self.assertIn("Andalucía TV", aliases.get("andatv", []))
 
     def test_process_epg_purges_denied_clones_and_renames(self):
-        guide = ROOT / "guide-es.xml"
+        guide = ROOT / "guides" / "guide-es.xml"
         if not guide.is_file():
             self.skipTest("guide-es.xml not present locally")
         out = ROOT / "temp" / "guide-es.after.xml"

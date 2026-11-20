@@ -300,9 +300,11 @@ class BelgianTableTests(unittest.TestCase):
             self.assertGreater(programmes, 0)
 
     def test_french_and_dutch_guides_do_not_already_own_new_belgian_ids(self):
-        if not (ROOT / "guide-fr.xml").is_file() or not (ROOT / "guide-nl.xml").is_file():
+        france = ROOT / "guides" / "guide-fr.xml"
+        netherlands = ROOT / "guides" / "guide-nl.xml"
+        if not france.is_file() or not netherlands.is_file():
             self.skipTest("national guides are not checked out")
-        occupied = be_epg.programmed_ids([ROOT / "guide-fr.xml", ROOT / "guide-nl.xml"])
+        occupied = be_epg.programmed_ids([france, netherlands])
         stations, _unmatched = be_epg.load_table(STATIONS)
         for station in stations:
             if not station.get("required"):

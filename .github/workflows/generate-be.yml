@@ -60,8 +60,8 @@ jobs:
           )
           occupied_files=()
           for national in guide-fr.xml guide-nl.xml guide-es.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-it.xml guide-de.xml guide-tr.xml; do
-            if [[ -f "$WORKSPACE/$national" ]]; then
-              occupied_files+=("$WORKSPACE/$national")
+            if [[ -f "$WORKSPACE/guides/$national" ]]; then
+              occupied_files+=("$WORKSPACE/guides/$national")
             fi
           done
           covered_guides=("${occupied_files[@]}")
@@ -112,8 +112,8 @@ jobs:
           for prior in "${occupied_files[@]}"; do
             merge_args+=(--occupied-guide "$prior")
           done
-          if [[ -f "$WORKSPACE/guide-be.xml" ]]; then
-            merge_args+=(--canonical-guide "$WORKSPACE/guide-be.xml")
+          if [[ -f "$WORKSPACE/guides/guide-be.xml" ]]; then
+            merge_args+=(--canonical-guide "$WORKSPACE/guides/guide-be.xml")
           fi
           python3 "$HELPER" "${merge_args[@]}"
 
@@ -147,7 +147,7 @@ jobs:
             echo "::error::Belgian generation code changed during the run; refusing stale output."
             exit 1
           }
-          python3 scripts/be_publish_validate.py "$GENERATED_GUIDE" guide-be.xml
-          install -m 644 "$GENERATED_GUIDE" .guide-be.xml.tmp
-          mv -f .guide-be.xml.tmp guide-be.xml
-          bash scripts/ci/publish-xmltv.sh "chore(epg): update Belgian national guide" guide-be.xml
+          python3 scripts/be_publish_validate.py "$GENERATED_GUIDE" guides/guide-be.xml
+          install -m 644 "$GENERATED_GUIDE" guides/.guide-be.xml.tmp
+          mv -f guides/.guide-be.xml.tmp guides/guide-be.xml
+          bash scripts/ci/publish-xmltv.sh "chore(epg): update Belgian national guide" guides/guide-be.xml

@@ -113,6 +113,6 @@ jobs:
             echo "::error::Generation code or channel configuration changed during the run. Refusing to publish stale output."
             exit 1
           }
-          install -m 644 "$SPANISH_GUIDE" .guide-es.xml.tmp
-          mv -f .guide-es.xml.tmp guide-es.xml
-          bash scripts/ci/publish-xmltv.sh "chore(epg): update Spanish national guide" guide-es.xml
+          install -m 644 "$SPANISH_GUIDE" guides/.guide-es.xml.tmp
+          mv -f guides/.guide-es.xml.tmp guides/guide-es.xml
+          bash scripts/ci/publish-xmltv.sh "chore(epg): update Spanish national guide" guides/guide-es.xml

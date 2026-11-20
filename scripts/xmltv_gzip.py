@@ -28,11 +28,16 @@ def is_global_guide(path: Path) -> bool:
 
 
 def published_global_guide(root: Path) -> Path:
-    """Prefer the published gzip, then a local uncompressed global guide."""
+    """Prefer guides/guide.xml.gz, then a gzip or plain guide in ``root``."""
+    nested = root / "guides" / PUBLISHED_NAME
     compressed = root / PUBLISHED_NAME
-    if compressed.is_file():
-        return compressed
-    return root / LEGACY_NAME
+    legacy = root / LEGACY_NAME
+    for candidate in (nested, compressed):
+        if candidate.is_file():
+            return candidate
+    if legacy.is_file() or not (root / "guides").is_dir():
+        return legacy
+    return nested
 
 
 def assert_gzip_header(payload: bytes) -> None:

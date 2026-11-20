@@ -24,11 +24,11 @@ from xtream_pending import build_pending_report  # noqa: E402
 
 DEFAULT_DB = Path.home() / ".iptvnator" / "databases" / "iptvnator.db"
 GUIDES = {
-    "ES": ROOT / "guide-es.xml",
-    "FR": ROOT / "guide-fr.xml",
-    "ARABIC": ROOT / "guide-arabic.xml",
-    "GB": ROOT / "guide-gb.xml",
-    "PT": ROOT / "guide-pt.xml",
+    "ES": ROOT / "guides" / "guide-es.xml",
+    "FR": ROOT / "guides" / "guide-fr.xml",
+    "ARABIC": ROOT / "guides" / "guide-arabic.xml",
+    "GB": ROOT / "guides" / "guide-gb.xml",
+    "PT": ROOT / "guides" / "guide-pt.xml",
 }
 ALIAS_OUT = {
     "ES": ROOT / "epg" / "aliases.json",

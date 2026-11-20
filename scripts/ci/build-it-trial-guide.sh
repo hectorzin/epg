@@ -10,8 +10,8 @@ UP_RAI="$ROOT/temp/it-trial/upstream/sites/raiplay.it/raiplay.it.channels.xml"
 UP_TIVU="$ROOT/temp/it-trial/upstream/sites/tivu.tv/tivu.tv.channels.xml"
 occupied=()
 for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-nl.xml; do
-  if [[ -f "$ROOT/$national" ]]; then
-    occupied+=(--occupied-guide "$ROOT/$national")
+  if [[ -f "$ROOT/guides/$national" ]]; then
+    occupied+=(--occupied-guide "$ROOT/guides/$national")
   fi
 done
 python3 "$ROOT/scripts/it-epg.py" merge \

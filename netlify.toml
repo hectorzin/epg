@@ -9,12 +9,12 @@
 # entregaría GZIP con nombre de XML.
 [[redirects]]
   from = "/guide.xml"
-  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz"
+  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide.xml.gz"
   status = 302
   force = true
 
 [[redirects]]
   from = "/guide.xml.gz"
-  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz"
+  to = "https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide.xml.gz"
   status = 302
   force = true

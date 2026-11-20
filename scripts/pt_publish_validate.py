@@ -158,7 +158,7 @@ def validate_xtream_layer(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("generated", type=Path)
-    parser.add_argument("previous", type=Path, nargs="?", default=Path("guide-pt.xml"))
+    parser.add_argument("previous", type=Path, nargs="?", default=Path("guides/guide-pt.xml"))
     parser.add_argument("--aliases", type=Path, default=Path("epg/aliases-pt.json"))
     parser.add_argument("--xtream-aliases", type=Path, default=Path("epg/xtream-aliases-pt.json"))
     parser.add_argument("--max-identity-loss", type=float, default=_MAX_IDENTITY_LOSS)

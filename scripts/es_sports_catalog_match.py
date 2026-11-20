@@ -351,7 +351,7 @@ def coverage_report(guide_path: Path, aliases: dict[str, list[str]] | None = Non
     ids, display, programmed = load_guide_context(guide_path)
     root = parse_xmltv(guide_path)
     ap_index, ap_collisions = aquaplay_index(root, programmed)
-    clones = clone_roots(guide_path) if guide_path.name.startswith("guide-es") else clone_roots(ROOT / "guide-es.xml")
+    clones = clone_roots(guide_path) if guide_path.name.startswith("guide-es") else clone_roots(ROOT / "guides" / "guide-es.xml")
     global_guide = is_global_guide(guide_path)
 
     stats = defaultdict(int)

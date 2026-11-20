@@ -13,7 +13,12 @@ from zoneinfo import ZoneInfo
 
 import xml.etree.ElementTree as ET
 
-from xmltv_channel import normalize_channel_children
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from guide_layout import national_guide_dir  # noqa: E402
+from xmltv_channel import normalize_channel_children  # noqa: E402
 
 NATIONAL_GUIDE_PATTERN = re.compile(r'^(?:guide-[a-z]{2}|guide-arabic)\.xml$', re.IGNORECASE)
 MADRID = ZoneInfo('Europe/Madrid')
@@ -28,13 +33,17 @@ TOMORROW_PROGRAMME_CHILDREN = frozenset({'title', 'category'})
 def discover_national_guides(root: Path, *, validate: bool = False) -> list[Path]:
     """Return guide-XX.xml paths in deterministic sorted order.
 
+    Published guides are read from ``root/guides`` when that directory exists.
+    A directory that contains the XML files directly is scanned as given.
+
     When validate=True, every matching file must be non-empty and pass read_guide()
     (invalid nationals abort the merge instead of being skipped).
     """
     if not root.is_dir():
         return []
+    search = national_guide_dir(root)
     guides = sorted(
-        p for p in root.glob('guide-*.xml') if NATIONAL_GUIDE_PATTERN.match(p.name)
+        p for p in search.glob('guide-*.xml') if NATIONAL_GUIDE_PATTERN.match(p.name)
     )
     if not validate:
         return [p for p in guides if p.stat().st_size > 0]
@@ -235,7 +244,7 @@ def main():
         '--root',
         type=Path,
         default=None,
-        help='Directory to scan for guide-XX.xml when no guide paths are given',
+        help='Repository or fixture directory. National guides are read from guides/ when present',
     )
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument(

@@ -10,7 +10,7 @@
 
 Fork simplificado de [iptv-org/epg](https://github.com/iptv-org/epg) para descargar la EPG de canales de television en España y generar una guia nacional arabe.
 
-### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml) · [Reino Unido](https://raw.githubusercontent.com/hectorzin/epg/main/guide-gb.xml)
+### 🌐 [Dashboard en vivo](https://epg-spain.netlify.app/) · [Guía global](https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide.xml.gz) · [España](https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-es.xml) · [Francia](https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-fr.xml) · [Reino Unido](https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-gb.xml)
 
 ## Dashboard web
 
@@ -39,7 +39,7 @@ El dashboard se despliega en Netlify y carga la guía publicada en GitHub.
 | `programacion-tv.elpais.com` | 17 | API JSON |
 | `orangetv.orange.es` | 6 | API JSON |
 
-El repositorio también publica `guide-arabic.xml`, generado con los catálogos árabes de Shahid,
+El repositorio también publica `guides/guide-arabic.xml`, generado con los catálogos árabes de Shahid,
 elCinema, OSN, beIN, beIN SPORTS MENA, Al Jazeera, ART y Ayn. Shahid se procesa primero; las
 demás fuentes completan canales que aún no tienen programación. SAT.tv y EPGShare01 se excluyen
 porque las pruebas no devolvieron programación utilizable. La guía cubre dos días y elCinema
@@ -51,17 +51,19 @@ trabaja con una conexión y un segundo de demora entre peticiones.
 
 1. El workflow orquestador (`epg-orchestrator.yml`) se ejecuta cada día a las 03:00 UTC (o manualmente).
 2. Lanza en paralelo los generadores nacionales (`generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`, `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml`, `generate-tr.yml` y `generate-be.yml`). Cada uno publica su guía nacional.
-3. España lee el fichero maestro, ejecuta sus parsers, enriquece el XMLTV con la capa Xtream (`scripts/process-epg.py`, `epg/aliases.json`, `epg/xtream-aliases.json`) y publica `guide-es.xml`.
-4. Francia genera `guide-fr.xml` (SFR, Canal+, Telecablesat) y aplica la misma capa con `epg/aliases-fr.json` y `epg/xtream-aliases-fr.json` antes de publicar.
-5. Arabic genera `guide-arabic.xml` y aplica `epg/aliases-arabic.json` y `epg/xtream-aliases-arabic.json`.
-6. Reino Unido genera `guide-gb.xml` fusionando EPGShare UK1, Sky, tv24.co.uk y Virgin TV Go con `scripts/gb-epg.py`, reescribe colisiones de ID con otras regiones a `@UK` y aplica `epg/aliases-gb.json` y `epg/xtream-aliases-gb.json`.
-7. Portugal genera `guide-pt.xml` con `scripts/pt-epg.py` (NOS, MEO, Vodafone, TVI; dos días) y aplica `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`.
-8. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros nacionales válidos con `scripts/merge-national-guides.py` en un XML temporal, lo valida, lo comprime con GZIP nivel 9 y `mtime=0` y publica una sola vez `guide.xml.gz` tras comprobar que al descomprimirlo el XML es idéntico. El `guide.xml` global sin comprimir se elimina del repositorio. La fusión conserva **todos** los canales (IDs, `display-name`, alias y clones Xtream) de cada guía nacional, pero **recorta la parrilla global** a **hoy y mañana** según `Europe/Madrid`, respetando las zonas horarias XMLTV y manteniendo cualquier programa que solape ese intervalo. En la guía global únicamente, los programas que **empiezan** mañana (fecha de inicio en Madrid) dejan fuera descripciones, iconos y demás metadatos secundarios del `<programme>` (se conservan `title`, `category` y atributos `channel`/`start`/`stop`); los que empiezan hoy mantienen metadatos completos aunque acaben mañana. Las guías `guide-*.xml` no se modifican y siguen publicándose en XML.
-9. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
-10. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz` y en cada `guide-*.xml` nacional, incluida `guide-be.xml`. La global es GZIP; las nacionales siguen en XML.
-11. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
+3. España lee el fichero maestro, ejecuta sus parsers, enriquece el XMLTV con la capa Xtream (`scripts/process-epg.py`, `epg/aliases.json`, `epg/xtream-aliases.json`) y publica `guides/guide-es.xml`.
+4. Francia genera `guides/guide-fr.xml` (SFR, Canal+, Telecablesat) y aplica la misma capa con `epg/aliases-fr.json` y `epg/xtream-aliases-fr.json` antes de publicar. Países Bajos y Bélgica leen esa guía ya publicada.
+5. Arabic genera `guides/guide-arabic.xml` y aplica `epg/aliases-arabic.json` y `epg/xtream-aliases-arabic.json`.
+6. Reino Unido genera `guides/guide-gb.xml` fusionando EPGShare UK1, Sky, tv24.co.uk y Virgin TV Go con `scripts/gb-epg.py`, reescribe colisiones de ID con otras regiones a `@UK` y aplica `epg/aliases-gb.json` y `epg/xtream-aliases-gb.json`.
+7. Portugal genera `guides/guide-pt.xml` con `scripts/pt-epg.py` (NOS, MEO, Vodafone, TVI; dos días) y aplica `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`.
+8. Países Bajos publica `guides/guide-nl.xml` y, al elegir canales, consulta `guides/guide-es.xml`, `guides/guide-fr.xml`, `guides/guide-arabic.xml`, `guides/guide-gb.xml` y `guides/guide-pt.xml`.
+9. Bélgica publica `guides/guide-be.xml`. Antes de descargar, lee las guías nacionales ya publicadas en `guides/`, en particular `guides/guide-fr.xml` y `guides/guide-nl.xml`. Si un id ya tiene programas en una de ellas, no vuelve a descargar esa parrilla.
+10. Cuando terminan los generadores (incluso si uno falla), el orquestador hace checkout de `main`, fusiona los ficheros de `guides/` con `scripts/merge-national-guides.py` en un XML temporal, lo valida, lo comprime con GZIP nivel 9 y `mtime=0` y publica una sola vez `guides/guide.xml.gz` tras comprobar que al descomprimirlo el XML es idéntico. El `guide.xml` global sin comprimir se elimina del repositorio. La fusión conserva **todos** los canales (IDs, `display-name`, alias y clones Xtream) de cada guía nacional, pero **recorta la parrilla global** a **hoy y mañana** según `Europe/Madrid`, respetando las zonas horarias XMLTV y manteniendo cualquier programa que solape ese intervalo. En la guía global únicamente, los programas que **empiezan** mañana (fecha de inicio en Madrid) dejan fuera descripciones, iconos y demás metadatos secundarios del `<programme>` (se conservan `title`, `category` y atributos `channel`/`start`/`stop`); los que empiezan hoy mantienen metadatos completos aunque acaben mañana. Las guías `guides/guide-*.xml` no se modifican y siguen publicándose en XML.
+11. Cada generador conserva su última guía válida si una ejecución falla. La fusión global reutiliza esas guías; no se usan artifacts de Actions.
+12. Las guías públicas están en `https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide.xml.gz` y en cada `guides/guide-*.xml` nacional, incluida `guides/guide-be.xml`. La global es GZIP; las nacionales siguen en XML.
+13. Puedes lanzar manualmente cada generador nacional sin ejecutar el orquestador; el global solo se actualiza con el orquestador o si vuelves a fusionar en local y publicas.
 
-**Nueva región:** cualquier guía nacional que se incorpore debe incluir su propio par de ficheros `epg/aliases-XX.json` y `epg/xtream-aliases-XX.json`, un paso `process-epg.py --profile …` en el workflow y validación de que cada clone Xtream existe en el XMLTV publicado. Los mappings se generan en local con `scripts/build_xtream_mappings.py` (lee la base IPTVnator en solo lectura; no se commitea ni se pasa a CI).
+**Nueva región:** la guía se guarda en `guides/guide-XX.xml`. Debe incluir su propio par de ficheros `epg/aliases-XX.json` y `epg/xtream-aliases-XX.json`, un paso `process-epg.py --profile …` en el workflow y validación de que cada clone Xtream existe en el XMLTV publicado. Si puede compartir ids con otra guía, hay que añadir `guides/guide-XX.xml` a las listas de guías ocupadas (Bélgica lee Francia, Países Bajos y el resto de nacionales desde `guides/`). Los mappings se generan en local con `scripts/build_xtream_mappings.py` (lee la base IPTVnator en solo lectura; no se commitea ni se pasa a CI).
 
 ## Estructura del proyecto
 
@@ -114,7 +116,9 @@ epg/
 │   ├── orangetv.orange.es/     # Parser + canales de Orange TV
 │   └── programacion-tv.elpais.com/ # Parser + canales de El Pais
 ├── tests/                      # Tests (Jest)
-├── guide.xml.gz                # Guía global publicada por GitHub Actions (GZIP; ignorada en local)
+├── guides/                     # Guías publicadas. Las futuras guías nacionales van aquí
+│   ├── guide-*.xml             # Guías nacionales en XML
+│   └── guide.xml.gz            # Guía global publicada por GitHub Actions (GZIP; ignorada en local)
 ├── guide.xml                   # XMLTV local sin comprimir (ignorado; el orquestador no lo publica)
 ├── lineup.json                 # Salida generada (grupos de la Guia TV) - en .gitignore
 ├── netlify.toml                # Config de despliegue
@@ -164,11 +168,11 @@ Tras el grab, cada generador nacional ejecuta `scripts/process-epg.py` con un pe
 
 | Perfil | Guía de entrada | `display-name` | Clones Xtream |
 | --- | --- | --- | --- |
-| `es` | `guide-es.xml` | `epg/aliases.json` | `epg/xtream-aliases.json` |
-| `fr` | `guide-fr.xml` | `epg/aliases-fr.json` | `epg/xtream-aliases-fr.json` |
-| `arabic` | `guide-arabic.xml` | `epg/aliases-arabic.json` | `epg/xtream-aliases-arabic.json` |
-| `gb` | `guide-gb.xml` | `epg/aliases-gb.json` | `epg/xtream-aliases-gb.json` |
-| `be` | `guide-be.xml` | `epg/aliases-be.json` | `epg/xtream-aliases-be.json` |
+| `es` | `guides/guide-es.xml` | `epg/aliases.json` | `epg/xtream-aliases.json` |
+| `fr` | `guides/guide-fr.xml` | `epg/aliases-fr.json` | `epg/xtream-aliases-fr.json` |
+| `arabic` | `guides/guide-arabic.xml` | `epg/aliases-arabic.json` | `epg/xtream-aliases-arabic.json` |
+| `gb` | `guides/guide-gb.xml` | `epg/aliases-gb.json` | `epg/xtream-aliases-gb.json` |
+| `be` | `guides/guide-be.xml` | `epg/aliases-be.json` | `epg/xtream-aliases-be.json` |
 
 Los alias añaden los nombres exactos de la lista Xtream como `display-name`. Los clones duplican
 canal y programas bajo el `epg_channel_id` de Xtream cuando la asociación es fiable; no se usa
@@ -206,7 +210,7 @@ real del catálogo Xtream (sin contar clones como canales originales): `python s
 Para pruebas locales sobre la guía española:
 
 ```sh
-python scripts/process-epg.py --input guide-es.xml --output temp/guide.final.xml --profile es
+python scripts/process-epg.py --input guides/guide-es.xml --output temp/guide.final.xml --profile es
 ```
 
 El catálogo Xtream opcional (`--xtream-catalog`) debe ser JSON con `xtream_id`, `name`, `epg_id` y
@@ -227,16 +231,16 @@ npm run grab -- --channels=sites/movistarplus.es/movistarplus.es.channels.xml --
 | Workflow | Uso |
 | --- | --- |
 | `epg-orchestrator.yml` | Cron diario 03:00 UTC. Ejecuta generadores en paralelo y fusiona al final. |
-| `generate-es.yml` | Solo `guide-es.xml`. Manual o invocado por el orquestador. |
-| `generate-fr.yml` | Solo `guide-fr.xml`. Manual o invocado por el orquestador. |
-| `generate-arabic.yml` | Solo `guide-arabic.xml`. Manual o invocado por el orquestador. |
-| `generate-gb.yml` | Solo `guide-gb.xml` (upstream iptv-org/epg: EPGShare UK1, Sky, tv24, Virgin). |
+| `generate-es.yml` | Solo `guides/guide-es.xml`. Manual o invocado por el orquestador. |
+| `generate-fr.yml` | Solo `guides/guide-fr.xml`. Manual o invocado por el orquestador. |
+| `generate-arabic.yml` | Solo `guides/guide-arabic.xml`. Manual o invocado por el orquestador. |
+| `generate-gb.yml` | Solo `guides/guide-gb.xml` (upstream iptv-org/epg: EPGShare UK1, Sky, tv24, Virgin). |
 
-El fusionador descubre automáticamente los ficheros `guide-XX.xml` (incluido `guide-ar.xml` para
+El fusionador descubre automáticamente los ficheros `guides/guide-XX.xml` (incluido `guide-ar.xml` para
 Argentina) y el nombre especial `guide-arabic.xml`; este último no se confunde con Argentina.
 `scripts/ci/publish-xmltv.sh` hace commit y push con reintentos tras `git pull`, evitando conflictos
 cuando los generadores publican a la vez. La URL pública de la guía global es
-`guide.xml.gz` en la rama `main`. Las guías nacionales siguen en XML. La parrilla global
+`guides/guide.xml.gz` en la rama `main`. Las guías nacionales siguen en XML dentro de `guides/`. La parrilla global
 sigue limitada a hoy y mañana en `Europe/Madrid`.
 
 ### Descargar solo un site concreto
@@ -262,7 +266,7 @@ cd frontend
 npm run build
 ```
 
-> El plugin de Vite copia automaticamente el `guide.xml` local (sin comprimir) y `lineup.json` de la raiz al directorio `dist/` durante el build. La guia publicada es `guide.xml.gz`; Netlify redirige `/guide.xml` a ese fichero.
+> El plugin de Vite copia automaticamente el `guide.xml` local (sin comprimir) y `lineup.json` de la raiz al directorio `dist/` durante el build. La guia publicada es `guides/guide.xml.gz`; Netlify redirige `/guide.xml` y `/guide.xml.gz` a ese fichero.
 
 ### Lineup de la Guia TV
 
@@ -324,17 +328,18 @@ npm run lint
 ```sh
 python scripts/merge-national-guides.py --root . --output guide.xml
 python scripts/xmltv_gzip.py validate guide.xml
-python scripts/xmltv_gzip.py pack guide.xml guide.xml.gz
+python scripts/xmltv_gzip.py pack guide.xml guides/guide.xml.gz
 ```
 
 El orquestador no deja el XML global en el repositorio: lo escribe en un temporal, lo valida y
-publica solo `guide.xml.gz`. El comando anterior sirve para inspeccionar la fusión en local.
+publica solo `guides/guide.xml.gz`. El comando anterior sirve para inspeccionar la fusión en local.
+`--root .` lee las guías nacionales desde `guides/`.
 Usa el mismo recorte de dos días en `Europe/Madrid`. Opcionalmente puedes fijar el día de
 referencia con `--reference-date YYYY-MM-DD` (zona Madrid) para pruebas o reproducción.
 
 ## Uso de la guía global
 
-`guide.xml.gz` combina las guías nacionales y limita la parrilla a **hoy y mañana** (calendario de Madrid). Los ficheros `guide-*.xml` conservan su ventana completa y el formato XML. El contenido descomprimido es [XMLTV](https://wiki.xmltv.org/index.php/XMLTVFormat) y es compatible con:
+`guides/guide.xml.gz` combina las guías nacionales y limita la parrilla a **hoy y mañana** (calendario de Madrid). Los ficheros `guides/guide-*.xml` conservan su ventana completa y el formato XML. El contenido descomprimido es [XMLTV](https://wiki.xmltv.org/index.php/XMLTVFormat) y es compatible con:
 
 - **Kodi** (PVR IPTV Simple Client)
 - **TiviMate**
@@ -347,10 +352,10 @@ referencia con `--reference-date YYYY-MM-DD` (zona Madrid) para pruebas o reprod
 La guia es publica y gratuita:
 
 ```
-https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz
-https://raw.githubusercontent.com/hectorzin/epg/main/guide-es.xml
-https://raw.githubusercontent.com/hectorzin/epg/main/guide-fr.xml
-https://raw.githubusercontent.com/hectorzin/epg/main/guide-arabic.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide.xml.gz
+https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-es.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-fr.xml
+https://raw.githubusercontent.com/hectorzin/epg/main/guides/guide-arabic.xml
 ```
 
 ## Origen

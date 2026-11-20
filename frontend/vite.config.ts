@@ -6,7 +6,7 @@ import { resolve } from 'node:path'
 import type { Plugin } from 'vite'
 
 // Dev and the local build use the uncompressed guide.xml at the repo root.
-// The published global guide is guide.xml.gz.
+// The published global guide is guides/guide.xml.gz.
 // Serves the generated files from the repo root in dev and copies them into dist/ on build
 const DATA_FILES = [
   { name: 'guide.xml', type: 'application/xml' },

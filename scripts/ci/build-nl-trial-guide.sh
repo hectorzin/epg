@@ -9,8 +9,8 @@ UP_DELTA="$ROOT/temp/iptv-org-epg-uk/sites/webtv.delta.nl/webtv.delta.nl.channel
 UP_TVGIDS="$ROOT/temp/iptv-org-epg-uk/sites/tvgids.nl/tvgids.nl.channels.xml"
 occupied=()
 for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-gb.xml guide-pt.xml; do
-  if [[ -f "$ROOT/$national" ]]; then
-    occupied+=(--occupied-guide "$ROOT/$national")
+  if [[ -f "$ROOT/guides/$national" ]]; then
+    occupied+=(--occupied-guide "$ROOT/guides/$national")
   fi
 done
 python3 "$ROOT/scripts/nl-epg.py" merge \

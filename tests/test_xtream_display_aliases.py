@@ -167,7 +167,7 @@ class XtreamDisplayAliasTests(unittest.TestCase):
         self.assertEqual(len(root.findall("programme[@channel='a3']")), 20)
 
     def test_cli_applies_new_names_on_a_copy_without_changing_source(self):
-        guide = ROOT / "guide-es.xml"
+        guide = ROOT / "guides" / "guide-es.xml"
         if not guide.is_file():
             self.skipTest("guide-es.xml not present")
         with tempfile.TemporaryDirectory() as directory:
@@ -220,9 +220,9 @@ class XtreamDisplayAliasTests(unittest.TestCase):
     def test_raw_national_guides_without_existing_clones_still_process(self):
         """CI feeds the grab/merge XML, which has no Xtream clone ids yet."""
         cases = (
-            ("fr", "guide-fr.xml", "epg/aliases-fr.json", "epg/xtream-aliases-fr.json"),
-            ("gb", "guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json"),
-            ("pt", "guide-pt.xml", "epg/aliases-pt.json", "epg/xtream-aliases-pt.json"),
+            ("fr", "guides/guide-fr.xml", "epg/aliases-fr.json", "epg/xtream-aliases-fr.json"),
+            ("gb", "guides/guide-gb.xml", "epg/aliases-gb.json", "epg/xtream-aliases-gb.json"),
+            ("pt", "guides/guide-pt.xml", "epg/aliases-pt.json", "epg/xtream-aliases-pt.json"),
         )
         for profile, guide_rel, alias_rel, clone_rel in cases:
             guide = ROOT / guide_rel

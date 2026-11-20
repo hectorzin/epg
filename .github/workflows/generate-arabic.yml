@@ -147,7 +147,7 @@ jobs:
             echo "::error::Arabic generation code changed during the run; refusing stale output."
             exit 1
           }
-          python3 scripts/national_publish_validate.py "$GENERATED_GUIDE" guide-arabic.xml --region Arabic
+          python3 scripts/national_publish_validate.py "$GENERATED_GUIDE" guides/guide-arabic.xml --region Arabic
           python3 - "$GENERATED_GUIDE" <<'PY'
           import json, sys, xml.etree.ElementTree as ET
           from pathlib import Path
@@ -161,6 +161,6 @@ jobs:
           warn_missing_configured_channels("Arabic", channels, aliases, xtream)
           print(f"Validated Arabic Xtream layer: {len(channels)} channels, {len(xtream)} clone IDs")
           PY
-          install -m 644 "$GENERATED_GUIDE" .guide-arabic.xml.tmp
-          mv -f .guide-arabic.xml.tmp guide-arabic.xml
-          bash scripts/ci/publish-xmltv.sh "chore(epg): update Arabic guide" guide-arabic.xml
+          install -m 644 "$GENERATED_GUIDE" guides/.guide-arabic.xml.tmp
+          mv -f guides/.guide-arabic.xml.tmp guides/guide-arabic.xml
+          bash scripts/ci/publish-xmltv.sh "chore(epg): update Arabic guide" guides/guide-arabic.xml

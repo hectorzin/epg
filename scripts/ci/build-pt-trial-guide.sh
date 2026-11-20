@@ -7,8 +7,8 @@ OUT_DIR="$ROOT/temp"
 HELPER="$ROOT/scripts/pt-epg.py"
 occupied=()
 for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-gb.xml; do
-  if [[ -f "$ROOT/$national" ]]; then
-    occupied+=(--occupied-guide "$ROOT/$national")
+  if [[ -f "$ROOT/guides/$national" ]]; then
+    occupied+=(--occupied-guide "$ROOT/guides/$national")
   fi
 done
 python3 "$HELPER" merge \
