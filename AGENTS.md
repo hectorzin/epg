@@ -36,7 +36,8 @@ epg/
 │   ├── generate-nl.yml         # Publica solo guide-nl.xml
 │   ├── generate-it.yml         # Publica solo guide-it.xml
 │   ├── generate-de.yml         # Publica solo guide-de.xml
-│   └── generate-tr.yml         # Publica solo guide-tr.xml
+│   ├── generate-tr.yml         # Publica solo guide-tr.xml
+│   └── generate-be.yml         # Publica solo guide-be.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── grab_epgshare.py        # Extra EPGShare (Rally.TV.de) para ES y DE
@@ -57,15 +58,16 @@ epg/
 ├── frontend/                   # Dashboard React + Vite + Tailwind (package.json propio)
 │   ├── src/components/ChannelGrid.tsx # Parrilla agrupada de la Guia TV
 │   ├── src/hooks/              # useEpgData, useLineup, useAutoRefresh, useStoredSet
-│   ├── vite.config.ts          # Sirve/copia guide.xml y lineup.json desde la raiz
+│   ├── vite.config.ts          # Sirve/copia guide.xml local y lineup.json desde la raiz
 │   └── dist/                   # Build de produccion commiteado (lo publica Netlify)
 ├── tests/                      # Tests de comandos (Jest)
-├── guide.xml                   # Salida generada (XMLTV) - en .gitignore
+├── guide.xml                   # XMLTV global local, sin comprimir - en .gitignore
+├── guide.xml.gz                # Guia global publicada (GZIP) - en .gitignore; CI la fuerza
 ├── lineup.json                 # Salida generada (grupos y orden de canales) - en .gitignore
 ├── AGENTS.md                   # Instrucciones para agentes (fuente unica)
 ├── opencode.json               # Configuracion de OpenCode (permisos)
-├── netlify/edge-functions/     # Bloqueo de clientes abusivos de guide.xml
-├── netlify.toml                # Publica frontend/dist sin build y redirige guide.xml a GitHub
+├── netlify/edge-functions/     # Bloqueo de clientes abusivos de /guide.xml y /guide.xml.gz
+├── netlify.toml                # Publica frontend/dist sin build y redirige la guia a GitHub
 ├── package.json
 └── tsconfig.json
 ```
@@ -102,14 +104,20 @@ sites/<dominio>/
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
- `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml` y
- `generate-tr.yml`, luego fusiona con
-  `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
+ `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml`,
+ `generate-tr.yml` y `generate-be.yml`, luego fusiona con
+  `scripts/merge-national-guides.py` (`--root .`). El XML global se escribe en un fichero
+  temporal, se valida igual que antes y se comprime con GZIP nivel 9 y `mtime=0`
+  (`scripts/xmltv_gzip.py`). Solo se publica si el contenido descomprimido es idéntico a ese
+  XML. El repositorio central recibe únicamente `guide.xml.gz`; el `guide.xml` global sin
+  comprimir se elimina del índice. Las guías nacionales siguen en XML. La fusión global no
   altera los `guide-*.xml`: conserva todos los canales (IDs, alias, logos), pero filtra la parrilla
   a hoy y mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se
-  mantienen). Solo en `guide.xml`, los programas cuya hora de inicio cae en **mañana** (Madrid)
-  conservan `title`, `category` y los atributos del `<programme>`; el resto de metadatos del
-  programa se omiten. Los que empiezan hoy, aunque terminen mañana, conservan todos los metadatos.
+  mantienen). No ampliar esa ventana. Solo en la guía global, los programas cuya hora de inicio
+  cae en **mañana** (Madrid) conservan `title`, `category` y los atributos del `<programme>`; el
+  resto de metadatos del programa se omiten. Los que empiezan hoy, aunque terminen mañana,
+  conservan todos los metadatos. Las validaciones que comparan con la versión anterior leen
+  `guide.xml.gz` (o el `guide.xml` legado mientras siga en `main`) descomprimiendo el GZIP.
 - El generador turco publica `guide-tr.xml` con `scripts/tr-epg.py` (Digiturk → D-Smart →
  TV+ → Türksat Kablo → EPGShare TR1). Si el grabber de iptv-org no trae programas de
  D-Smart, TV+ o Türksat, `scripts/grab_tr_public.py` usa su API pública. Türksat verifica TLS;
@@ -122,6 +130,16 @@ sites/<dominio>/
  usa: su parrilla pide un token de abonado. Tras el merge crudo, `process-epg --profile tr`
  con `epg/aliases-tr.json` y `epg/xtream-aliases-tr.json`. El grab usa `--days=2` y la zona
  `Europe/Istanbul` (UTC+3).
+- El generador belga publica `guide-be.xml` con `scripts/be-epg.py` (Telenet →
+ mon-programme-tv.be → vtm.be, y para BX1, Canal Zoom, Télé Sambre y TV Lux también
+ POST Luxembourg → Télé Câble Sat) y la tabla curada `epg/be-stations.json`. Solo entran
+ los canales de `[BL] BELGIUM`. Si el mismo id ya tiene programas en otra guía nacional, no se
+ vuelve a descargar: se conserva ese id, se añade el nombre Xtream y los programas siguen
+ en la guía que ya los tenía. El `epg_channel_id` distinto se publica como canal propio con
+ esa parrilla copiada, sin repetirla sobre el id compartido. No se usa pickx.be (roto), ni
+ el feed francés de Eleven/Nat Geo, ni RTV Oost neerlandesa para TV Oost. Tras el merge
+ crudo, `process-epg --profile be` con `epg/aliases-be.json` y `epg/xtream-aliases-be.json`
+ (vacío: los ids Xtream ya van en la guía). El grab usa `--days=2`.
 - El generador alemán publica `guide-de.xml` con `scripts/de-epg.py` (Magenta → Magenta web →
   TV Heute, más extras EPGShare). Rally.TV (`Rally.TV.de`, site_id `RALLY_TV1#Rally.TV.de`) se
   descarga con `scripts/grab_epgshare.py` (mismo contrato URL que iptv-org `epgshare01.online`).
@@ -176,6 +194,11 @@ sites/<dominio>/
   detecta. La guía árabe usa el nombre especial `guide-arabic.xml` para no colisionar con
   `guide-ar.xml` de Argentina. Toda región nueva requiere alias + xtream-aliases + paso
   `process-epg` en su workflow.
+- next-blog no forma parte de esta publicación y no hay que modificarlo todavía. El
+  orquestador no llama a `hectorzin/next-blog` ni usa un secreto para avisarle. Su importador
+  sigue pidiendo `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml` (XML sin
+  comprimir). Cuando `guide.xml` desaparezca de `main`, ese importador dejará de encontrar la
+  guía hasta que se actualice, en otro cambio, para descargar y descomprimir `guide.xml.gz`.
 - Runners: `ubuntu-24.04` (ES + merge) y `ubuntu-latest` (FR). `GITHUB_TOKEN` con `contents: write`.
 - `actions/checkout` fijado por SHA con `persist-credentials: false`. `npm ci --ignore-scripts` +
   `npm run api:load` antes del grab español.
@@ -203,8 +226,9 @@ Carga la skill correspondiente cuando trabajes en:
 - No modificar los ficheros en `scripts/core/` ni `scripts/models/` salvo que sea estrictamente necesario. Son del upstream de iptv-org/epg y conviene mantener compatibilidad.
 - Al crear o modificar parsers de sites, siempre actualizar los tests y fixtures correspondientes.
 - Los ficheros `.channels.xml` usan encoding UTF-8 y formato XML con indentacion de 4 espacios.
-- `guide.xml` esta en `.gitignore`. El GitHub Action lo genera y commitea explicitamente.
-  Pesa varios MB: no lo leas entero, usa `grep`/`head` para inspeccionarlo. Lo mismo para
+- `guide.xml` y `guide.xml.gz` estan en `.gitignore`. El orquestador genera el XML global en
+  un temporal, publica `guide.xml.gz` con `git add -f` y quita el `guide.xml` global del
+  repositorio. No leas la guia entera: sin comprimir pesa decenas de MB. Lo mismo para
   `frontend/dist/guide.xml`.
 - No hagas `npm run build` en `frontend/` ni modifiques `frontend/dist/` salvo que se pida: el
   build commiteado es lo que publica Netlify. Si cambias `frontend/src/`, el cambio no se publica
@@ -220,7 +244,10 @@ Carga la skill correspondiente cuando trabajes en:
   commits ni en el frontend. Nunca anadas a `lineup.json` URLs de stream ni `tvg-name`.
 - Si `lineup.json` no existe, la parrilla muestra todos los canales en orden alfabetico.
 - Los grupos contraidos se guardan en `localStorage` (`epg.guide.collapsedGroups`). La Guia TV
-  refresca `guide.xml` y `lineup.json` cada 5 minutos mientras esta abierta.
+  refresca `/guide.xml` y `lineup.json` cada 5 minutos mientras esta abierta. En local Vite
+  sirve el `guide.xml` sin comprimir. En produccion Netlify redirige esa ruta al `guide.xml.gz`
+  de GitHub y el cliente lo descomprime. `frontend/dist` no incluye ese cambio hasta el
+  proximo build.
 - El barrel file `scripts/core/index.ts` reexporta todos los modulos de core. Si se anade o elimina un modulo, actualizar el barrel.
 - Lo mismo para `scripts/models/index.ts`.
 
@@ -261,12 +288,14 @@ Reglas de mantenimiento:
 
 - `npm test` tiene 9 fallos previos en `tests/commands/epg/grab.test.ts`, ajenos a los parsers y
   al lineup. No los tomes como regresion de tus cambios; comprueba que el numero no aumenta.
-- `guide.xml` contiene algunos programas duplicados (mismo canal y hora de inicio). En la linea de
+- La guia global contiene algunos programas duplicados (mismo canal y hora de inicio). En la linea de
   tiempo de la Guia TV generan avisos de claves duplicadas de React en la consola.
 - El User-Agent `OTT-TV/*` agotaba el ancho de banda del plan Free de Netlify, compartido con otros
   sitios de la cuenta. `netlify/edge-functions/block-guide-clients.ts` le responde 403 en
-  `/guide.xml`. Para bloquear otro cliente, amplia el filtro `header` de su `config`.
-- `netlify.toml` redirige `/guide.xml` a la copia de GitHub para no gastar ese ancho de banda. La URL
-  de Netlify debe seguir funcionando porque hay listas IPTV que la usan, pero en el README y en la
-  web se anuncia solo la de GitHub (`frontend/src/constants.ts`). `frontend/dist/guide.xml` se sigue
-  copiando, pero la redireccion lo oculta.
+  `/guide.xml` y `/guide.xml.gz`. Para bloquear otro cliente, amplia el filtro `header` de su `config`.
+- `netlify.toml` redirige `/guide.xml` y `/guide.xml.gz` a
+  `https://raw.githubusercontent.com/hectorzin/epg/main/guide.xml.gz` para no gastar el ancho de
+  banda de Netlify. La URL de Netlify debe seguir funcionando porque hay listas IPTV que la usan,
+  pero en el README y en la web se anuncia solo la de GitHub (`frontend/src/constants.ts`).
+  `frontend/dist/guide.xml` se sigue copiando, pero la redireccion lo oculta. El `frontend/dist`
+  commiteado aun anuncia y parsea el XML plano: no se regenera hasta que se pida el build.

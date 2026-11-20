@@ -1,0 +1,494 @@
+{
+  "stations": [
+    {
+      "id": "VTM.be@SD",
+      "names": ["BE VTM HD"],
+      "panel_ids": ["vtm.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "vtmhd"},
+        {"site": "vtm.be", "site_id": "vtm"},
+        {"site": "mon-programme-tv.be", "site_id": "148/programme-television-vtm"}
+      ]
+    },
+    {
+      "id": "VTM2.be@SD",
+      "names": ["BE VTM 2 HD", "BE 2BE", "BE Q2 HD"],
+      "panel_ids": ["vtm2.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "2behd"},
+        {"site": "vtm.be", "site_id": "vtm2"},
+        {"site": "mon-programme-tv.be", "site_id": "467/programme-television-vtm2"}
+      ]
+    },
+    {
+      "id": "VTM3.be@SD",
+      "names": ["BE VTM 3", "BE Vitaya HD"],
+      "panel_ids": ["vtm3.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "vitaya"},
+        {"site": "vtm.be", "site_id": "vtm3"},
+        {"site": "mon-programme-tv.be", "site_id": "541/programme-television-vtm3"}
+      ]
+    },
+    {
+      "id": "VTM4.be@SD",
+      "names": ["BE VTM 4", "BE Acht"],
+      "panel_ids": ["vtm4.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "acht"},
+        {"site": "vtm.be", "site_id": "vtm4"},
+        {"site": "mon-programme-tv.be", "site_id": "688/programme-television-vtm4"}
+      ]
+    },
+    {
+      "id": "VTMGold.be@SD",
+      "names": ["BE VTM Gold"],
+      "panel_ids": ["vtmgold.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "caz2"},
+        {"site": "vtm.be", "site_id": "vtmgold"}
+      ]
+    },
+    {
+      "id": "VTMKids.be@SD",
+      "names": ["BE VTM KIDS", "BE Kadet"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "mon-programme-tv.be", "site_id": "1170/programme-television-vtm-kids"}
+      ]
+    },
+    {
+      "id": "Play4.be@SD",
+      "names": ["BE Vier HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "vierhd"},
+        {"site": "mon-programme-tv.be", "site_id": "150/programme-television-vier"}
+      ]
+    },
+    {
+      "id": "Play5.be@SD",
+      "names": ["BE VIJF TV"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "vijfhd"},
+        {"site": "mon-programme-tv.be", "site_id": "296/programme-television-vijf"}
+      ]
+    },
+    {
+      "id": "Play6.be@SD",
+      "names": ["BE ZES"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "zes"}
+      ]
+    },
+    {
+      "id": "VRT1.be@SD",
+      "names": ["BE EEN HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "eenhd"},
+        {"site": "mon-programme-tv.be", "site_id": "313/programme-television-een"}
+      ]
+    },
+    {
+      "id": "VRTCanvas.be@SD",
+      "names": ["BE Canvas HD"],
+      "panel_ids": ["canvas.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "ketnetcanvashd"},
+        {"site": "mon-programme-tv.be", "site_id": "581/programme-television-canvas"}
+      ]
+    },
+    {
+      "id": "Ketnet.be@SD",
+      "names": ["BE Ketnet"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "ketnet"},
+        {"site": "mon-programme-tv.be", "site_id": "164/programme-television-ketnet"}
+      ]
+    },
+    {
+      "id": "LaUne.be@SD",
+      "names": ["BE LA UNE HD"],
+      "panel_ids": ["laune.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "launehd"},
+        {"site": "mon-programme-tv.be", "site_id": "24/programme-television-la-une-rtbf"}
+      ]
+    },
+    {
+      "id": "Tipik.be@SD",
+      "names": ["BE Tipik", "BE TIPIK HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "ladeuxhd"},
+        {"site": "mon-programme-tv.be", "site_id": "1916/programme-television-tipik"}
+      ]
+    },
+    {
+      "id": "LaTrois.be@SD",
+      "names": ["BE La Trois HD"],
+      "panel_ids": ["latrois.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "latrois"},
+        {"site": "mon-programme-tv.be", "site_id": "717/programme-television-la-trois"}
+      ]
+    },
+    {
+      "id": "RTLTVI.be@SD",
+      "names": ["BE RTL TVI HD"],
+      "panel_ids": ["rtltvi.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "rtltvihd"},
+        {"site": "mon-programme-tv.be", "site_id": "19/programme-television-rtl-tvi"}
+      ]
+    },
+    {
+      "id": "RTLClub.be@SD",
+      "names": ["BE Club RTL"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "clubrtlhd"},
+        {"site": "mon-programme-tv.be", "site_id": "67/programme-television-rtl-club"}
+      ]
+    },
+    {
+      "id": "RTLPlug.be@SD",
+      "names": ["BE Plug RTL"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "plugrtl"},
+        {"site": "mon-programme-tv.be", "site_id": "281/programme-television-rtl-plug"}
+      ]
+    },
+    {
+      "id": "AB3.be@SD",
+      "names": ["BE AB3 HD"],
+      "panel_ids": ["ab3.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "ab3"},
+        {"site": "mon-programme-tv.be", "site_id": "229/programme-television-ab3"}
+      ]
+    },
+    {
+      "id": "AB1.fr@SD",
+      "names": ["BE AB1 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": []
+    },
+    {
+      "id": "ABXplore.be@SD",
+      "names": ["BE AB EXPLORE"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "mon-programme-tv.be", "site_id": "1725/programme-television-abxplore"}
+      ]
+    },
+    {
+      "id": "BeSeries.be@SD",
+      "names": ["BE SERIES"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "beserieshd"},
+        {"site": "mon-programme-tv.be", "site_id": "393/programme-television-be-series"}
+      ]
+    },
+    {
+      "id": "BX1.be@SD",
+      "names": ["BE BX1", "BE TELE BRUXELLERS"],
+      "panel_ids": ["bx1.be"],
+      "required": false,
+      "sources": [
+        {"site": "tv-programme.telecablesat.fr", "site_id": "382"}
+      ]
+    },
+    {
+      "id": "CanalZoom.be@SD",
+      "names": ["BE CANAL ZOOM"],
+      "panel_ids": ["canalzoom.be"],
+      "required": false,
+      "sources": [
+        {"site": "tv-programme.telecablesat.fr", "site_id": "386"}
+      ]
+    },
+    {
+      "id": "Matele.be@SD",
+      "names": ["BE MATELE"],
+      "panel_ids": ["matele.be"],
+      "required": false,
+      "sources": []
+    },
+    {
+      "id": "Notele.be@SD",
+      "names": ["BE NOTELE"],
+      "panel_ids": [],
+      "required": false,
+      "sources": []
+    },
+    {
+      "id": "Telesambre.be@SD",
+      "names": ["BE TELE SAMBRE"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "tv-programme.telecablesat.fr", "site_id": "383"}
+      ]
+    },
+    {
+      "id": "TVLux.be@SD",
+      "names": ["BE TV Lux"],
+      "panel_ids": ["tvlux.be"],
+      "required": false,
+      "sources": [
+        {"site": "tv.post.lu", "site_id": "bdd3df00-1411-11ea-934c-4323fc36d546"},
+        {"site": "tv-programme.telecablesat.fr", "site_id": "392"}
+      ]
+    },
+    {
+      "id": "LN24.be@SD",
+      "names": ["BE LN24"],
+      "panel_ids": ["ln24.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "ln24"},
+        {"site": "mon-programme-tv.be", "site_id": "1873/programme-television-ln24"}
+      ]
+    },
+    {
+      "id": "EclipsTV.be@SD",
+      "names": ["BE Eclips TV", "BE Evenaar"],
+      "panel_ids": ["evenaar.be"],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "evenaar"}
+      ]
+    },
+    {
+      "id": "TFX.fr@SD",
+      "names": ["BE TFX"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "tfx"}
+      ]
+    },
+    {
+      "id": "TMC.fr@SD",
+      "names": ["BE TMC"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "tmc"},
+        {"site": "mon-programme-tv.be", "site_id": "70/programme-television-tmc"}
+      ]
+    },
+    {
+      "id": "KTO.fr@SD",
+      "names": ["BE KTO"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "mon-programme-tv.be", "site_id": "221/programme-television-kto"}
+      ]
+    },
+    {
+      "id": "NRJHits.fr@SD",
+      "names": ["BE NRJ Hits"],
+      "panel_ids": [],
+      "required": false,
+      "sources": []
+    },
+    {
+      "id": "CartoonitoCEE.uk@SD",
+      "names": ["BE BOOMERANG"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "boomerang"}
+      ]
+    },
+    {
+      "id": "XITE.nl@SD",
+      "names": ["BE XITE"],
+      "panel_ids": ["xite.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "xite"}
+      ]
+    },
+    {
+      "id": "NationalGeographic.be@HD",
+      "names": ["BE Nat Geo HD"],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "natgeohd"}
+      ]
+    },
+    {
+      "id": "PlaySports1.be@SD",
+      "names": ["BE Play Sports 1 HD (ONLY EVENTS)"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "primesporthd"}
+      ]
+    },
+    {
+      "id": "PlaySports2.be@SD",
+      "names": ["BE Play Sports 2 HD (ONLY EVENTS)"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "sportinghd2"}
+      ]
+    },
+    {
+      "id": "PlaySports4.be@SD",
+      "names": ["BE Play Sports 4 HD (ONLY EVENTS)"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "sporting4"}
+      ]
+    },
+    {
+      "id": "PlaySports5PremierLeague.be@SD",
+      "names": ["BE Play Sports 5 HD (ONLY EVENTS)"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "sporting5"}
+      ]
+    },
+    {
+      "id": "DAZNElevenSports1.be@SD",
+      "names": ["BE Eleven Sports 1 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "11football"},
+        {"site": "mon-programme-tv.be", "site_id": "1377/programme-television-eleven-sports-1"}
+      ]
+    },
+    {
+      "id": "DAZNElevenSports2.be@SD",
+      "names": ["BE Eleven Sports 2 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "11sports"}
+      ]
+    },
+    {
+      "id": "DAZNElevenSports3.be@SD",
+      "names": ["BE ELEVEN SPORT 3"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "11sports3"}
+      ]
+    },
+    {
+      "id": "DAZNElevenProLeague1.be@SD",
+      "names": ["BE ELEVEN PRO LEAGUE 1 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "jplnl01"}
+      ]
+    },
+    {
+      "id": "DAZNElevenProLeague2.be@SD",
+      "names": ["BE ELEVEN PRO LEAGUE 2 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "jplnl02"}
+      ]
+    },
+    {
+      "id": "DAZNElevenProLeague3.be@SD",
+      "names": ["BE ELEVEN PRO LEAGUE 3 HD"],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "jplnl03"}
+      ]
+    },
+    {
+      "id": "VOOsportWorld1.be@SD",
+      "names": ["BE Voo Sport World 1"],
+      "panel_ids": ["voosportworld1.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "besport1hd"},
+        {"site": "mon-programme-tv.be", "site_id": "302/programme-television-voo-sport-world-1"}
+      ]
+    },
+    {
+      "id": "VOOsportWorld2.be@SD",
+      "names": ["BE Voo Sport World 2"],
+      "panel_ids": ["voosportworld2.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "besport2"},
+        {"site": "mon-programme-tv.be", "site_id": "303/programme-television-voo-sport-world-2"}
+      ]
+    },
+    {
+      "id": "VOOsportWorld3.be@SD",
+      "names": ["BE Voo Sport World 3 HD"],
+      "panel_ids": ["voosportworld3.be"],
+      "required": false,
+      "sources": [
+        {"site": "telenet.tv", "site_id": "besport3"},
+        {"site": "mon-programme-tv.be", "site_id": "1574/programme-television-voo-sport-world-3"}
+      ]
+    }
+  ],
+  "unmatched": [
+    {"name": "BE 192 TV", "reason": "No Belgian source; Dutch 192TV is a different feed"},
+    {"name": "BE ATV ANTWERPEN", "reason": "No working public source; pickx.be is broken"},
+    {"name": "BE CAZ #", "reason": "Ambiguous legacy name, not mapped to VTM 4 or VTM Gold"},
+    {"name": "BE CINEMA 1", "reason": "Not Be Ciné and no source named Cinema 1"},
+    {"name": "BE Jim Jam", "reason": "Not njam!"},
+    {"name": "BE Ketop12 HD", "reason": "OP 12 is off air"},
+    {"name": "BE Lord TV", "reason": "No public source"},
+    {"name": "BE Petange", "reason": "No public source"},
+    {"name": "BE Play Sports 6 HD (ONLY EVENTS)", "reason": "Telenet has no Play Sports 6"},
+    {"name": "BE RTL Luxembourg HD", "reason": "Not RTL9 or RTL Luxembourg radio"},
+    {"name": "BE RTL ZWEE", "reason": "No source; not RTL club or RTL Tele"},
+    {"name": "BE TV OOST", "reason": "Flemish TV Oost, not Dutch RTV Oost; no public source"},
+    {"name": "BE TVL", "reason": "No public source"},
+    {"name": "BE TVO", "reason": "Not TV Oost"},
+    {"name": "BE VICE", "reason": "No public source"},
+    {"name": "BE Voo Sport 1", "reason": "Not VOO Sport World 1"},
+    {"name": "BE Voo Sport 2", "reason": "Not VOO Sport World 2"}
+  ]
+}

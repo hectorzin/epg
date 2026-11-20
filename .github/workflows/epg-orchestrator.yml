@@ -64,8 +64,13 @@ jobs:
     uses: ./.github/workflows/generate-tr.yml
     secrets: inherit
 
+  belgium:
+    if: ${{ inputs.merge_only != true }}
+    uses: ./.github/workflows/generate-be.yml
+    secrets: inherit
+
   merge-global:
-    needs: [spain, france, arabic, britain, portugal, netherlands, italy, germany, turkey]
+    needs: [spain, france, arabic, britain, portugal, netherlands, italy, germany, turkey, belgium]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     concurrency:
@@ -104,5 +109,6 @@ jobs:
             echo "- Italy: ${{ needs.italy.result }}"
             echo "- Germany: ${{ needs.germany.result }}"
             echo "- Turkey: ${{ needs.turkey.result }}"
+            echo "- Belgium: ${{ needs.belgium.result }}"
             echo "- Global merge: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"
