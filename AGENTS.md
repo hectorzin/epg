@@ -37,9 +37,11 @@ epg/
 │   ├── generate-it.yml         # Publica solo guides/guide-it.xml
 │   ├── generate-de.yml         # Publica solo guides/guide-de.xml
 │   ├── generate-tr.yml         # Publica solo guides/guide-tr.xml
-│   └── generate-be.yml         # Publica solo guides/guide-be.xml
+│   ├── generate-be.yml         # Publica solo guides/guide-be.xml
+│   └── generate-ca.yml         # Publica solo guides/guide-ca.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
+│   ├── ca-epg.py               # Selección y fusión de la guía canadiense
 │   ├── grab_epgshare.py        # Extra EPGShare (Rally.TV.de) para ES y DE
 │   ├── commands/
 │   │   ├── epg/grab.ts         # Punto de entrada principal
@@ -107,7 +109,7 @@ sites/<dominio>/
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
  `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml`,
- `generate-tr.yml` y `generate-be.yml`, luego fusiona con
+ `generate-tr.yml`, `generate-be.yml` y `generate-ca.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`, que lee `guides/`). El XML global se escribe en un fichero
   temporal, se valida igual que antes y se comprime con GZIP nivel 9 y `mtime=0`
   (`scripts/xmltv_gzip.py`). Solo se publica si el contenido descomprimido es idéntico a ese
@@ -143,6 +145,22 @@ sites/<dominio>/
  el feed francés de Eleven/Nat Geo, ni RTV Oost neerlandesa para TV Oost. Tras el merge
  crudo, `process-epg --profile be` con `epg/aliases-be.json` y `epg/xtream-aliases-be.json`
  (vacío: los ids Xtream ya van en la guía). El grab usa `--days=2`.
+- El generador canadiense publica `guides/guide-ca.xml` con `scripts/ca-epg.py` (TV Hebdo →
+  EPGShare CA2 → open-epg) y la tabla curada `epg/ca-stations.json`. Solo entran los canales de
+  `[CA] CANADA`. Lee las guías nacionales ya publicadas en `guides/`. Si un id ya tiene programas,
+  no vuelve a descargar esa parrilla: `LoveNature.ca@SD` sigue en `guides/guide-nl.xml`. Los feeds
+  regionales, deportivos y de distinta franja (CBC/CTV/Global por ciudad, TSN 1–5, Sportsnet
+  East/Ontario/Pacific/West, Crave y HBO este frente a oeste) no se mezclan. Los sucesores
+  canadienses verificados usan la parrilla actual: Animal Planet es CTV Wild, Discovery Science es
+  CTV Nature, Discovery Velocity es CTV Speed, DIY Network es Magnolia Network, Moi et Cie es
+  Témoin y Ztélé es Z. Global News Vancouver usa solo Global News BC1. BBC World News coincide
+  en todas las horas solapadas con BBC News North America y se publica en ese mismo id.
+  Nickelodeon, Disney Junior, Disney XD y ABC Spark cerraron en 2025 y
+  no heredan otra señal. No se usa la parrilla
+  estadounidense de Zap2it ni un ABC/CBS genérico. TV Hebdo solo aporta canales franceses; EPGShare
+  CA2 conserva el corte regional en inglés y francés. Tras el merge crudo, `process-epg --profile ca`
+  con `epg/aliases-ca.json` y `epg/xtream-aliases-ca.json` (vacío: los ids Xtream ya van en la guía).
+  El grab usa `--days=2`.
 - El generador alemán publica `guides/guide-de.xml` con `scripts/de-epg.py` (Magenta → Magenta web →
   TV Heute, más extras EPGShare). Rally.TV (`Rally.TV.de`, site_id `RALLY_TV1#Rally.TV.de`) se
   descarga con `scripts/grab_epgshare.py` (mismo contrato URL que iptv-org `epgshare01.online`).
@@ -189,7 +207,7 @@ sites/<dominio>/
 - Cada generador nacional publica únicamente su guía vía `scripts/ci/publish-xmltv.sh`
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
 - **Capa Xtream obligatoria:** tras el grab/XMLTV crudo, cada workflow ejecuta
-  `scripts/process-epg.py` con `--profile es|fr|arabic|gb|pt|nl` y los JSON en `epg/aliases*.json` /
+  `scripts/process-epg.py` con `--profile es|fr|arabic|gb|pt|nl|it|de|tr|be|ca` y los JSON en `epg/aliases*.json` /
   `epg/xtream-aliases*.json` (p. ej. `aliases-gb.json`, `xtream-aliases-gb.json`). El paso de
   publish valida que cada clone exista en la guía. Los mappings se regeneran en local con
   `python scripts/build_xtream_mappings.py` (`XTREAM_DB` opcional); no commitear credenciales,
@@ -200,6 +218,7 @@ sites/<dominio>/
   `guide-ar.xml` de Argentina. Toda región nueva requiere alias + xtream-aliases + paso
   `process-epg` en su workflow. Si comparte ids con otra guía, añadir el fichero a las listas de
   guías ocupadas: Bélgica lee `guides/guide-fr.xml`, `guides/guide-nl.xml` y el resto de nacionales;
+  Canadá lee todas las nacionales ya publicadas, incluida `guides/guide-nl.xml`;
   Países Bajos lee `guides/guide-fr.xml` entre otras, y Francia publica la suya para que ambos la usen.
 - next-blog no forma parte de esta publicación. El orquestador no llama a `hectorzin/next-blog`
   ni usa un secreto para avisarle. Su importador descarga

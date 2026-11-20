@@ -59,7 +59,7 @@ jobs:
             "telecablesat:sites/tv-programme.telecablesat.fr/tv-programme.telecablesat.fr.channels.xml"
           )
           occupied_files=()
-          for national in guide-fr.xml guide-nl.xml guide-es.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-it.xml guide-de.xml guide-tr.xml; do
+          for national in guide-fr.xml guide-nl.xml guide-es.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-it.xml guide-de.xml guide-tr.xml guide-ca.xml; do
             if [[ -f "$WORKSPACE/guides/$national" ]]; then
               occupied_files+=("$WORKSPACE/guides/$national")
             fi

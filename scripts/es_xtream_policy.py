@@ -23,6 +23,7 @@ PROFILE_TO_POLICY_KEY = {
     "de": None,
     "tr": None,
     "be": None,
+    "ca": None,
 }
 
 

@@ -1,0 +1,523 @@
+{
+  "CBCToronto.ca@HD": [
+    "CA CBC Toronto HD"
+  ],
+  "CBCMontreal.ca@HD": [
+    "CA CBC Montreal HD"
+  ],
+  "CBCVancouver.ca@HD": [
+    "CA CBC Vancouver HD"
+  ],
+  "CBCCalgary.ca@HD": [
+    "CA CBC Calgary HD"
+  ],
+  "CBCEdmonton.ca@HD": [
+    "CA CBC Edmonton HD"
+  ],
+  "CBCHalifax.ca@HD": [
+    "CA CBC Halifax HD"
+  ],
+  "CBCOttawa.ca@HD": [
+    "CA CBC Ottawa HD"
+  ],
+  "CBCWinnipeg.ca@HD": [
+    "CA CBC Winnipeg HD"
+  ],
+  "CBCStJohns.ca@SD": [
+    "CA CBC St Johns HD"
+  ],
+  "CBCCharlottetown.ca@SD": [
+    "CA CBC Charlottetown HD"
+  ],
+  "CBCWindsor.ca@SD": [
+    "CA CBC Windsor HD"
+  ],
+  "CBCNewsNetwork.ca@HD": [
+    "CA CBC News Network HD"
+  ],
+  "CTVToronto.ca@HD": [
+    "CA CTV TORONTO"
+  ],
+  "CTVMontreal.ca@HD": [
+    "CA CTV Montreal"
+  ],
+  "CTVVancouver.ca@HD": [
+    "CA CTV Vancouver 1 HD"
+  ],
+  "CTVEdmonton.ca@HD": [
+    "CA CTV EDMONTON HD"
+  ],
+  "CTVHalifax.ca@HD": [
+    "CA CTV Halifax"
+  ],
+  "CTVOttawa.ca@HD": [
+    "CA CTV Ottawa HD"
+  ],
+  "CTV2Atlantic.ca@HD": [
+    "CA CTV2 Atlantic HD"
+  ],
+  "CTV2Barrie.ca@HD": [
+    "CA CTV2 Barrie HD"
+  ],
+  "CTV2Ottawa.ca@HD": [
+    "CA CTV2 Ottawa HD"
+  ],
+  "CTVComedy.ca@SD": [
+    "CA CTV Comedy Channel"
+  ],
+  "CTVDrama.ca@HD": [
+    "CA CTV Drama HD"
+  ],
+  "CTVLife.ca@HD": [
+    "CA CTV Life"
+  ],
+  "CTVSciFi.ca@HD": [
+    "CA CTV SCI-FI"
+  ],
+  "CTVNews.ca@HD": [
+    "CA CTV News HD"
+  ],
+  "GlobalToronto.ca@HD": [
+    "CA GLOBAL TORONTO HD"
+  ],
+  "GlobalVancouver.ca@HD": [
+    "CA GLOBAL VANCOUVER"
+  ],
+  "GlobalCalgary.ca@HD": [
+    "CA Global Calgary"
+  ],
+  "GlobalEdmonton.ca@HD": [
+    "CA Global Edmonton"
+  ],
+  "GlobalHalifax.ca@HD": [
+    "CA Global Halifax HD"
+  ],
+  "CitytvToronto.ca@HD": [
+    "CA Citytv Toronto HD"
+  ],
+  "CitytvMontreal.ca@HD": [
+    "CA Citytv Montreal"
+  ],
+  "Citytv.ca@SD": [
+    "CA City TV"
+  ],
+  "ICITele.ca@HD": [
+    "CA ICI Tele HD"
+  ],
+  "ICIMontreal.ca@HD": [
+    "CA ICI Montreal"
+  ],
+  "ICIOntario.ca@HD": [
+    "CA ICI Tele Ontario HD"
+  ],
+  "ICIVancouver.ca@HD": [
+    "CA ICI VANCOUVER FR"
+  ],
+  "ICIRDI.ca@HD": [
+    "CA ICI RDI"
+  ],
+  "ICIARTV.ca@HD": [
+    "CA ICI ARTV FR"
+  ],
+  "TVAMontreal.ca@HD": [
+    "CA TVA Montreal HD FR"
+  ],
+  "TV5Quebec.ca@HD": [
+    "CA TV5 Quebec HD FR"
+  ],
+  "TeleQuebec.ca@HD": [
+    "CA TELE QUEBEC FR"
+  ],
+  "TFO.ca@HD": [
+    "CA TFO HD"
+  ],
+  "TVASports2.ca@HD": [
+    "CA Tva Sports 2 HD"
+  ],
+  "LCN.ca@HD": [
+    "CA LCN"
+  ],
+  "CanalVie.ca@HD": [
+    "CA  VIE"
+  ],
+  "addikTV.ca@HD": [
+    "CA ADDIK FR"
+  ],
+  "CanalD.ca@HD": [
+    "CA Canal D FR"
+  ],
+  "Casa.ca@HD": [
+    "CA CASA FR"
+  ],
+  "Evasion.ca@SD": [
+    "CA Evasion FR"
+  ],
+  "Historia.ca@HD": [
+    "CA Historia"
+  ],
+  "RDS.ca@HD": [
+    "CA RDS FR"
+  ],
+  "RDS2.ca@HD": [
+    "CA RDS 2 FR"
+  ],
+  "RDSInfo.ca@HD": [
+    "CA RDS INFO FR"
+  ],
+  "Unis.ca@HD": [
+    "CA Unis TV HD FR"
+  ],
+  "AssembleeNationale.ca@SD": [
+    "CA Assemblee Nationale Quebec FR"
+  ],
+  "MeteoMedia.ca@HD": [
+    "CA Meteo Media Montreal"
+  ],
+  "Cinepop.ca@HD": [
+    "CA CINEPOP"
+  ],
+  "PlanetePlus.ca@HD": [
+    "CA Planete HD"
+  ],
+  "TSN1.ca@HD": [
+    "CA TSN 1 HD"
+  ],
+  "TSN2.ca@HD": [
+    "CA TSN 2 HD"
+  ],
+  "TSN3.ca@HD": [
+    "CA TSN 3 HD"
+  ],
+  "TSN4.ca@HD": [
+    "CA TSN 4 HD"
+  ],
+  "TSN5.ca@HD": [
+    "CA TSN 5 HD"
+  ],
+  "SportsnetEast.ca@HD": [
+    "CA Sportsnet East HD"
+  ],
+  "SportsnetOntario.ca@HD": [
+    "CA Sportsnet Ontario HD"
+  ],
+  "SportsnetPacific.ca@HD": [
+    "CA Sportsnet Pacific HD"
+  ],
+  "SportsnetWest.ca@HD": [
+    "CA Sportsnet West HD"
+  ],
+  "SportsnetOne.ca@HD": [
+    "CA Sportsnet One HD"
+  ],
+  "Sportsnet360.ca@HD": [
+    "CA Sportsnet 360 HD"
+  ],
+  "SportsnetWorld.ca@HD": [
+    "CA SPORTSNET WORLD"
+  ],
+  "Crave1East.ca@HD": [
+    "CA TMN1E Crave 1 HD"
+  ],
+  "Crave2East.ca@HD": [
+    "CA TMN2E Crave 2 HD"
+  ],
+  "Crave3East.ca@HD": [
+    "CA TMN3E Crave 3 HD"
+  ],
+  "Crave4East.ca@SD": [
+    "CA TMN4E Crave 4 HD"
+  ],
+  "HBOCanada1.ca@HD": [
+    "CA HBO 1"
+  ],
+  "Starz1East.ca@HD": [
+    "CA Starz 1"
+  ],
+  "Starz2East.ca@SD": [
+    "CA Starz 2"
+  ],
+  "SuperEcran1.ca@HD": [
+    "CA Super Ecran 1"
+  ],
+  "SuperEcran2.ca@HD": [
+    "CA Super Ecran 2"
+  ],
+  "SuperEcran3.ca@HD": [
+    "CA Super Ecran 3"
+  ],
+  "SuperEcran4.ca@HD": [
+    "CA Super Ecran 4"
+  ],
+  "SuperChannelHeartHome.ca@HD": [
+    "CA SUPER Channel Heart Home HD"
+  ],
+  "SuperChannelVault.ca@HD": [
+    "CA SUPER Channel VAULT HD"
+  ],
+  "DisneyChannel.ca@HD": [
+    "CA Disney Channel HD"
+  ],
+  "FamilyChannelEast.ca@SD": [
+    "CA Family Channel East HD"
+  ],
+  "Treehouse.ca@HD": [
+    "CA Treehouse HD"
+  ],
+  "YTV.ca@HD": [
+    "CA YTV HD"
+  ],
+  "AdultSwim.ca@SD": [
+    "CA ADULT SWIM HD"
+  ],
+  "CartoonNetwork.ca@HD": [
+    "CA Cartoon Network HD"
+  ],
+  "AMCCanada.ca@HD": [
+    "CA AMC HD"
+  ],
+  "BravoCanada.ca@HD": [
+    "CA Bravo HD"
+  ],
+  "FXCanada.ca@HD": [
+    "CA FX"
+  ],
+  "FXXCanada.ca@SD": [
+    "CA Fxx HD"
+  ],
+  "Showcase.ca@HD": [
+    "CA Showcase HD"
+  ],
+  "Slice.ca@HD": [
+    "CA Slice HD"
+  ],
+  "WNetwork.ca@HD": [
+    "CA W NETWORK"
+  ],
+  "ECanada.ca@HD": [
+    "CA E Entertainment HD"
+  ],
+  "Much.ca@HD": [
+    "CA Much Music HD"
+  ],
+  "CMT.ca@SD": [
+    "CA Cmt"
+  ],
+  "History.ca@HD": [
+    "CA History HD"
+  ],
+  "History2.ca@SD": [
+    "CA H2 HD"
+  ],
+  "DiscoveryChannel.ca@SD": [
+    "CA Discovery Channel HD"
+  ],
+  "NationalGeographic.ca@HD": [
+    "CA Nat Geo HD"
+  ],
+  "NationalGeographicWild.ca@HD": [
+    "CA Nat Geo Wild HD"
+  ],
+  "WildTV.ca@SD": [
+    "CA Wild"
+  ],
+  "FoodNetwork.ca@SD": [
+    "CA Food Network HD"
+  ],
+  "HGTV.ca@SD": [
+    "CA HGTV HD"
+  ],
+  "Lifetime.ca@HD": [
+    "CA Lifetime HD"
+  ],
+  "TLC.ca@SD": [
+    "CA TLC HD"
+  ],
+  "InvestigationDiscovery.ca@SD": [
+    "CA ID Investigation Discovery HD"
+  ],
+  "CrimePlusInvestigation.ca@SD": [
+    "CA Crime Investigation HD"
+  ],
+  "LoveNature.ca@SD": [
+    "CA Love Nature HD"
+  ],
+  "BBCNewsNorthAmerica.ca@SD": [
+    "CA BBC News HD",
+    "CA BBC World News"
+  ],
+  "AlJazeeraEnglish.ca@SD": [
+    "CA Al Jazeera English"
+  ],
+  "beINSportsCanada.ca@HD": [
+    "CA BeIN Sports HD"
+  ],
+  "CNN.ca@HD": [
+    "CA CNN HD"
+  ],
+  "CNNInternational.ca@SD": [
+    "CA CNN International"
+  ],
+  "FoxNews.ca@SD": [
+    "CA Fox News HD"
+  ],
+  "HLN.ca@HD": [
+    "CA HLN Headline News HD"
+  ],
+  "CNBCCanada.ca@SD": [
+    "CA CNBC"
+  ],
+  "BNNBloomberg.ca@HD": [
+    "CA BNN Bloomberg HD"
+  ],
+  "CPACEnglish.ca@HD": [
+    "CA CPAC EN HD"
+  ],
+  "CP24.ca@HD": [
+    "CA Cp24 TV"
+  ],
+  "CHCH.ca@SD": [
+    "CA CHCH HD"
+  ],
+  "APTN.ca@HD": [
+    "CA APTN"
+  ],
+  "TheWeatherNetwork.ca@HD": [
+    "CA The Weather Network HD"
+  ],
+  "WeatherNetworkCWEA.ca@SD": [
+    "CA Weather Network"
+  ],
+  "Omni1.ca@HD": [
+    "CA OMNI 1 HD"
+  ],
+  "Omni2.ca@HD": [
+    "CA Omni 2 HD"
+  ],
+  "YesTV.ca@SD": [
+    "CA YES TV HD"
+  ],
+  "NTV.ca@HD": [
+    "CA NTV"
+  ],
+  "VisionTV.ca@HD": [
+    "CA VISION"
+  ],
+  "OUTtv.ca@SD": [
+    "CA OUT TV"
+  ],
+  "DaystarCanada.ca@SD": [
+    "CA DAYSTAR TV"
+  ],
+  "EWTNCanada.ca@SD": [
+    "CA EWTN TV"
+  ],
+  "MiracleChannel.ca@SD": [
+    "CA Miracle"
+  ],
+  "CottageLife.ca@HD": [
+    "CA Cottage Life"
+  ],
+  "DejaView.ca@SD": [
+    "CA DEJAVIEW"
+  ],
+  "DTour.ca@HD": [
+    "CA DTour"
+  ],
+  "GameTV.ca@SD": [
+    "CA Game TV"
+  ],
+  "GameShowNetwork.ca@HD": [
+    "CA GSN Game Show Network TV"
+  ],
+  "FightNetwork.ca@HD": [
+    "CA Fight Network HD"
+  ],
+  "MovieTime.ca@HD": [
+    "CA MovieTime"
+  ],
+  "Makeful.ca@SD": [
+    "CA Makeful HD"
+  ],
+  "Max.ca@SD": [
+    "CA Max"
+  ],
+  "SilverScreenClassics.ca@SD": [
+    "CA Silver Screen Classics HD"
+  ],
+  "TCMCanada.ca@HD": [
+    "CA Tcm HD"
+  ],
+  "SmithsonianChannel.ca@SD": [
+    "CA Smithsonian",
+    "CA Smithsonian HD"
+  ],
+  "GolfChannel.ca@HD": [
+    "CA Golf Channel HD"
+  ],
+  "MLBNetworkCanada.ca@HD": [
+    "CA MLB Network"
+  ],
+  "NBATVCanada.ca@HD": [
+    "CA NBA TV HD"
+  ],
+  "NFLNetworkCanada.ca@HD": [
+    "CA NFL Network HD"
+  ],
+  "FoxSportsRacing.ca@HD": [
+    "CA Fox Sports Racing"
+  ],
+  "OneSoccer.ca@SD": [
+    "CA One Soccer"
+  ],
+  "Gusto.ca@SD": [
+    "CA Gusto"
+  ],
+  "WorldFishingNetwork.ca@SD": [
+    "CA World Fishing Network"
+  ],
+  "PrimeAsia.ca@SD": [
+    "CA Prime Asia TV"
+  ],
+  "WUTV.ca@HD": [
+    "CA FOX 29 WUTV Buffalo"
+  ],
+  "WNLO.ca@HD": [
+    "CA CW 23 WNLO Buffalo"
+  ],
+  "PBSWNED.ca@SD": [
+    "CA PBS Buffalo"
+  ],
+  "KTLA.ca@SD": [
+    "CA KTLA"
+  ],
+  "WGN.ca@SD": [
+    "CA WGN"
+  ],
+  "WPCH.ca@HD": [
+    "CA Peach Tree HD"
+  ],
+  "CTVWild.ca@HD": [
+    "CA Animal Planet HD"
+  ],
+  "CTVNature.ca@HD": [
+    "CA Discovery Science HD"
+  ],
+  "CTVSpeed.ca@HD": [
+    "CA Discovery Velocity HD"
+  ],
+  "MagnoliaNetwork.ca@HD": [
+    "CA Diy Network HD"
+  ],
+  "Z.ca@HD": [
+    "CA Z TELE"
+  ],
+  "Temoin.ca@HD": [
+    "CA MOI CIE"
+  ],
+  "ShoppingChannel.ca@SD": [
+    "CA The Shopping Channel"
+  ],
+  "GlobalNewsBC.ca@HD": [
+    "CA Global News Vancouver"
+  ]
+}

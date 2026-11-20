@@ -1,0 +1,2836 @@
+{
+  "stations": [
+    {
+      "id": "CBCToronto.ca@HD",
+      "names": [
+        "CA CBC Toronto HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Toronto.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCMontreal.ca@HD",
+      "names": [
+        "CA CBC Montreal HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBMT-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCVancouver.ca@HD",
+      "names": [
+        "CA CBC Vancouver HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Vancouver.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCCalgary.ca@HD",
+      "names": [
+        "CA CBC Calgary HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Calgary.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCEdmonton.ca@HD",
+      "names": [
+        "CA CBC Edmonton HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Edmonton.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCHalifax.ca@HD",
+      "names": [
+        "CA CBC Halifax HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Halifax.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCOttawa.ca@HD",
+      "names": [
+        "CA CBC Ottawa HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Ottawa.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCWinnipeg.ca@HD",
+      "names": [
+        "CA CBC Winnipeg HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Winnipeg.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCStJohns.ca@SD",
+      "names": [
+        "CA CBC St Johns HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.St..John’s.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCCharlottetown.ca@SD",
+      "names": [
+        "CA CBC Charlottetown HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBCT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCWindsor.ca@SD",
+      "names": [
+        "CA CBC Windsor HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.Television-Windsor.9.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CBCNewsNetwork.ca@HD",
+      "names": [
+        "CA CBC News Network HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBC.News.Network.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVToronto.ca@HD",
+      "names": [
+        "CA CTV TORONTO"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Toronto.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVMontreal.ca@HD",
+      "names": [
+        "CA CTV Montreal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CFCF-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVVancouver.ca@HD",
+      "names": [
+        "CA CTV Vancouver 1 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Vancouver.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVEdmonton.ca@HD",
+      "names": [
+        "CA CTV EDMONTON HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Edmonton.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVHalifax.ca@HD",
+      "names": [
+        "CA CTV Halifax"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Halifax.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVOttawa.ca@HD",
+      "names": [
+        "CA CTV Ottawa HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CJOH-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTV2Atlantic.ca@HD",
+      "names": [
+        "CA CTV2 Atlantic HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Two.-.Atlantic.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTV2Barrie.ca@HD",
+      "names": [
+        "CA CTV2 Barrie HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Two.-.Barrie.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTV2Ottawa.ca@HD",
+      "names": [
+        "CA CTV2 Ottawa HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Two.-.Ottawa.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVComedy.ca@SD",
+      "names": [
+        "CA CTV Comedy Channel"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.COMEDY.CHANNEL.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVDrama.ca@HD",
+      "names": [
+        "CA CTV Drama HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.DRAMA.CHANNEL.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVLife.ca@HD",
+      "names": [
+        "CA CTV Life"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.LIFE.CHANNEL.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVSciFi.ca@HD",
+      "names": [
+        "CA CTV SCI-FI"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.SCI-FI.CHANNEL.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVNews.ca@HD",
+      "names": [
+        "CA CTV News HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.News.Channel.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalToronto.ca@HD",
+      "names": [
+        "CA GLOBAL TORONTO HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Global.Toronto.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalVancouver.ca@HD",
+      "names": [
+        "CA GLOBAL VANCOUVER"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Global.BC.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalCalgary.ca@HD",
+      "names": [
+        "CA Global Calgary"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Global.Calgary.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalEdmonton.ca@HD",
+      "names": [
+        "CA Global Edmonton"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Global.Edmonton.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalHalifax.ca@HD",
+      "names": [
+        "CA Global Halifax HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Global.Maritimes.(CIHF).ca2"
+        }
+      ]
+    },
+    {
+      "id": "CitytvToronto.ca@HD",
+      "names": [
+        "CA Citytv Toronto HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Citytv.Toronto.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CitytvMontreal.ca@HD",
+      "names": [
+        "CA Citytv Montreal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Citytv.Montreal.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Citytv.ca@SD",
+      "names": [
+        "CA City TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CityTv.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICITele.ca@HD",
+      "names": [
+        "CA ICI Tele HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#ICI.Tele.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICIMontreal.ca@HD",
+      "names": [
+        "CA ICI Montreal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "src/SRCHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBFT-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICIOntario.ca@HD",
+      "names": [
+        "CA ICI Tele Ontario HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBOFT-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICIVancouver.ca@HD",
+      "names": [
+        "CA ICI VANCOUVER FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "src/CBUFT"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CBUFT-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICIRDI.ca@HD",
+      "names": [
+        "CA ICI RDI"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "rdi/RDIHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#ICI.RDI.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ICIARTV.ca@HD",
+      "names": [
+        "CA ICI ARTV FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "artv/ARTHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#ICI.ARTV.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TVAMontreal.ca@HD",
+      "names": [
+        "CA TVA Montreal HD FR"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "tva/TVAHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CFTM-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TV5Quebec.ca@HD",
+      "names": [
+        "CA TV5 Quebec HD FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "tv5/TV5HD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TV.5.Québec.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TeleQuebec.ca@HD",
+      "names": [
+        "CA TELE QUEBEC FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "tqc/TQCHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CIVM-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TFO.ca@HD",
+      "names": [
+        "CA TFO HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "tfo/TFOHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TFO.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TVASports2.ca@HD",
+      "names": [
+        "CA Tva Sports 2 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "tvs2/TVS2"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TVA.Sports.2.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "LCN.ca@HD",
+      "names": [
+        "CA LCN"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "lcn/LCN+HD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Le.Canal.Nouvelles.TVA.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CanalVie.ca@HD",
+      "names": [
+        "CA  VIE"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "vie/VIEHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Le.Canal.Vie.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "addikTV.ca@HD",
+      "names": [
+        "CA ADDIK FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "myst/ADDIKHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#ADDIK.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CanalD.ca@HD",
+      "names": [
+        "CA Canal D FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "d/D+HD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Canal.D.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Casa.ca@HD",
+      "names": [
+        "CA CASA FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "idee/CASAH"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CASA.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Evasion.ca@SD",
+      "names": [
+        "CA Evasion FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "evasion/EVAHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Canal.Evasion.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Historia.ca@HD",
+      "names": [
+        "CA Historia"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "historia/HIAHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Historia.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "RDS.ca@HD",
+      "names": [
+        "CA RDS FR"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "rds/RDSHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Réseau.des.Sports.(RDS).HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "RDS2.ca@HD",
+      "names": [
+        "CA RDS 2 FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "rds2/RDS2H"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#RDS2.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "RDSInfo.ca@HD",
+      "names": [
+        "CA RDS INFO FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "ris/RDSIH"
+        },
+        {
+          "site": "open-epg.com",
+          "site_id": "ReseaudesSportsInfoRDSI.ca"
+        }
+      ]
+    },
+    {
+      "id": "Unis.ca@HD",
+      "names": [
+        "CA Unis TV HD FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "unis/UNIS"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Unis.TV.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "AssembleeNationale.ca@SD",
+      "names": [
+        "CA Assemblee Nationale Quebec FR"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "asna/ANAT"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#ASSEMBLÉE.NATIONALE.(CF.Cable.TV).ca2"
+        }
+      ]
+    },
+    {
+      "id": "MeteoMedia.ca@HD",
+      "names": [
+        "CA Meteo Media Montreal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "met/MET"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#MétéoMédia.(MM).HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Cinepop.ca@HD",
+      "names": [
+        "CA CINEPOP"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "cpop/POPHD"
+        },
+        {
+          "site": "open-epg.com",
+          "site_id": "CinePopHD.ca"
+        }
+      ]
+    },
+    {
+      "id": "PlanetePlus.ca@HD",
+      "names": [
+        "CA Planete HD"
+      ],
+      "panel_ids": [
+        "planeteplus.ca"
+      ],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "plan/PLAHD"
+        },
+        {
+          "site": "open-epg.com",
+          "site_id": "CAPlanetePlus.ca"
+        }
+      ]
+    },
+    {
+      "id": "TSN1.ca@HD",
+      "names": [
+        "CA TSN 1 HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSN.1.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TSN2.ca@HD",
+      "names": [
+        "CA TSN 2 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSN.2.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TSN3.ca@HD",
+      "names": [
+        "CA TSN 3 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSN.3.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TSN4.ca@HD",
+      "names": [
+        "CA TSN 4 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSN.4.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TSN5.ca@HD",
+      "names": [
+        "CA TSN 5 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSN.5.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetEast.ca@HD",
+      "names": [
+        "CA Sportsnet East HD"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.East.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetOntario.ca@HD",
+      "names": [
+        "CA Sportsnet Ontario HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.Ontario.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetPacific.ca@HD",
+      "names": [
+        "CA Sportsnet Pacific HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.(Pacific).HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetWest.ca@HD",
+      "names": [
+        "CA Sportsnet West HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.West.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetOne.ca@HD",
+      "names": [
+        "CA Sportsnet One HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.One.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Sportsnet360.ca@HD",
+      "names": [
+        "CA Sportsnet 360 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.360.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SportsnetWorld.ca@HD",
+      "names": [
+        "CA SPORTSNET WORLD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Sportsnet.World.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Crave1East.ca@HD",
+      "names": [
+        "CA TMN1E Crave 1 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Crave1.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Crave2East.ca@HD",
+      "names": [
+        "CA TMN2E Crave 2 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Crave2.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Crave3East.ca@HD",
+      "names": [
+        "CA TMN3E Crave 3 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Crave3.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Crave4East.ca@SD",
+      "names": [
+        "CA TMN4E Crave 4 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Crave4.ca2"
+        }
+      ]
+    },
+    {
+      "id": "HBOCanada1.ca@HD",
+      "names": [
+        "CA HBO 1"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#HBO.Canada.1.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Starz1East.ca@HD",
+      "names": [
+        "CA Starz 1"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#STARZ.1.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Starz2East.ca@SD",
+      "names": [
+        "CA Starz 2"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#STARZ.2.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperEcran1.ca@HD",
+      "names": [
+        "CA Super Ecran 1"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "se/SEHD"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Écran.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperEcran2.ca@HD",
+      "names": [
+        "CA Super Ecran 2"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "se/SE+2"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Écran.HD2.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperEcran3.ca@HD",
+      "names": [
+        "CA Super Ecran 3"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "se/SE+3"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Écran.3.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperEcran4.ca@HD",
+      "names": [
+        "CA Super Ecran 4"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "tvhebdo.com",
+          "site_id": "se/SE+4"
+        },
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Écran.4.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperChannelHeartHome.ca@HD",
+      "names": [
+        "CA SUPER Channel Heart Home HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Channel.Heart.and.Home.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SuperChannelVault.ca@HD",
+      "names": [
+        "CA SUPER Channel VAULT HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Super.Channel.Vault.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "DisneyChannel.ca@HD",
+      "names": [
+        "CA Disney Channel HD"
+      ],
+      "panel_ids": [
+        "disneychannel.ca"
+      ],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Disney.Channel.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FamilyChannelEast.ca@SD",
+      "names": [
+        "CA Family Channel East HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "FAMILYCHANNEL.ca"
+        }
+      ]
+    },
+    {
+      "id": "Treehouse.ca@HD",
+      "names": [
+        "CA Treehouse HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Treehouse.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "YTV.ca@HD",
+      "names": [
+        "CA YTV HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#YTV.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "AdultSwim.ca@SD",
+      "names": [
+        "CA ADULT SWIM HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Adult.Swim.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CartoonNetwork.ca@HD",
+      "names": [
+        "CA Cartoon Network HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Cartoon.Network.HD.Canada.ca2"
+        }
+      ]
+    },
+    {
+      "id": "AMCCanada.ca@HD",
+      "names": [
+        "CA AMC HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#AMC.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "BravoCanada.ca@HD",
+      "names": [
+        "CA Bravo HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Bravo.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FXCanada.ca@HD",
+      "names": [
+        "CA FX"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#FX.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FXXCanada.ca@SD",
+      "names": [
+        "CA Fxx HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#FXX.Canada.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Showcase.ca@HD",
+      "names": [
+        "CA Showcase HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Showcase.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Slice.ca@HD",
+      "names": [
+        "CA Slice HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#SLICE.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "WNetwork.ca@HD",
+      "names": [
+        "CA W NETWORK"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#W.Network.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ECanada.ca@HD",
+      "names": [
+        "CA E Entertainment HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#E!.Entertainment.Television.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Much.ca@HD",
+      "names": [
+        "CA Much Music HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Much.Music.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CMT.ca@SD",
+      "names": [
+        "CA Cmt"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Country.Music.Television.(CMT).ca2"
+        }
+      ]
+    },
+    {
+      "id": "History.ca@HD",
+      "names": [
+        "CA History HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#History.Television.HD.(Canada).ca2"
+        }
+      ]
+    },
+    {
+      "id": "History2.ca@SD",
+      "names": [
+        "CA H2 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#HISTORY.2.ca2"
+        }
+      ]
+    },
+    {
+      "id": "DiscoveryChannel.ca@SD",
+      "names": [
+        "CA Discovery Channel HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Discovery.Channel.ca2"
+        }
+      ]
+    },
+    {
+      "id": "NationalGeographic.ca@HD",
+      "names": [
+        "CA Nat Geo HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#National.Geographic.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "NationalGeographicWild.ca@HD",
+      "names": [
+        "CA Nat Geo Wild HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#National.Geographic.Wild.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "WildTV.ca@SD",
+      "names": [
+        "CA Wild"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#WILD.TV.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FoodNetwork.ca@SD",
+      "names": [
+        "CA Food Network HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Food.Network.ca2"
+        }
+      ]
+    },
+    {
+      "id": "HGTV.ca@SD",
+      "names": [
+        "CA HGTV HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Home.and.Garden.Television.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Lifetime.ca@HD",
+      "names": [
+        "CA Lifetime HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Lifetime.HD.(Canada).ca2"
+        }
+      ]
+    },
+    {
+      "id": "TLC.ca@SD",
+      "names": [
+        "CA TLC HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "TLC.ca"
+        }
+      ]
+    },
+    {
+      "id": "InvestigationDiscovery.ca@SD",
+      "names": [
+        "CA ID Investigation Discovery HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Investigation.Discovery.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CrimePlusInvestigation.ca@SD",
+      "names": [
+        "CA Crime Investigation HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Crime.Plus.Investigation.SD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "LoveNature.ca@SD",
+      "names": [
+        "CA Love Nature HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Love.Nature.ca2"
+        }
+      ]
+    },
+    {
+      "id": "BBCNewsNorthAmerica.ca@SD",
+      "names": [
+        "CA BBC News HD",
+        "CA BBC World News"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#BBC.News.(North.America).ca2"
+        },
+        {
+          "site": "open-epg.com",
+          "site_id": "BBCWORLDNEWS.ca"
+        }
+      ]
+    },
+    {
+      "id": "AlJazeeraEnglish.ca@SD",
+      "names": [
+        "CA Al Jazeera English"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Al.Jazeera.English.ca2"
+        }
+      ]
+    },
+    {
+      "id": "beINSportsCanada.ca@HD",
+      "names": [
+        "CA BeIN Sports HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#beIN.Sports.HD.(Canada).ca2"
+        }
+      ]
+    },
+    {
+      "id": "CNN.ca@HD",
+      "names": [
+        "CA CNN HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CNN.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CNNInternational.ca@SD",
+      "names": [
+        "CA CNN International"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CNN.International.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FoxNews.ca@SD",
+      "names": [
+        "CA Fox News HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Fox.News.Channel.ca2"
+        }
+      ]
+    },
+    {
+      "id": "HLN.ca@HD",
+      "names": [
+        "CA HLN Headline News HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#HLN.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CNBCCanada.ca@SD",
+      "names": [
+        "CA CNBC"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CNBC.Canadian.Feed.ca2"
+        }
+      ]
+    },
+    {
+      "id": "BNNBloomberg.ca@HD",
+      "names": [
+        "CA BNN Bloomberg HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#BNN.Bloomberg.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CPACEnglish.ca@HD",
+      "names": [
+        "CA CPAC EN HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#[CPAC].Cable.Public.Affairs.Channel.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CP24.ca@HD",
+      "names": [
+        "CA Cp24 TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Cable.Pulse.24.(CP24).HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CHCH.ca@SD",
+      "names": [
+        "CA CHCH HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CHCH-DT.ca2"
+        }
+      ]
+    },
+    {
+      "id": "APTN.ca@HD",
+      "names": [
+        "CA APTN"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Aboriginal.Peoples.Television.Network.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TheWeatherNetwork.ca@HD",
+      "names": [
+        "CA The Weather Network HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#The.Weather.Network.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "WeatherNetworkCWEA.ca@SD",
+      "names": [
+        "CA Weather Network"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Weather.Network.(CWEA).ca2"
+        }
+      ]
+    },
+    {
+      "id": "Omni1.ca@HD",
+      "names": [
+        "CA OMNI 1 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#OMNI1.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Omni2.ca@HD",
+      "names": [
+        "CA Omni 2 HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#OMNI2.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "YesTV.ca@SD",
+      "names": [
+        "CA YES TV HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#YesTV.ca2"
+        }
+      ]
+    },
+    {
+      "id": "NTV.ca@HD",
+      "names": [
+        "CA NTV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#NTV.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "VisionTV.ca@HD",
+      "names": [
+        "CA VISION"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Vision.TV.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "OUTtv.ca@SD",
+      "names": [
+        "CA OUT TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#OUTtv.ca2"
+        }
+      ]
+    },
+    {
+      "id": "DaystarCanada.ca@SD",
+      "names": [
+        "CA DAYSTAR TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Daystar.Canada.ca2"
+        }
+      ]
+    },
+    {
+      "id": "EWTNCanada.ca@SD",
+      "names": [
+        "CA EWTN TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#EWTNC.(EWTN.-.Canadian.Feed).ca2"
+        }
+      ]
+    },
+    {
+      "id": "MiracleChannel.ca@SD",
+      "names": [
+        "CA Miracle"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#The.Miracle.Channel.-.CJIL.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CottageLife.ca@HD",
+      "names": [
+        "CA Cottage Life"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Cottage.Life.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "DejaView.ca@SD",
+      "names": [
+        "CA DEJAVIEW"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Deja.View.ca2"
+        }
+      ]
+    },
+    {
+      "id": "DTour.ca@HD",
+      "names": [
+        "CA DTour"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#DTour.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GameTV.ca@SD",
+      "names": [
+        "CA Game TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#GameTV.Canada.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GameShowNetwork.ca@HD",
+      "names": [
+        "CA GSN Game Show Network TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Game.Show.Network.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FightNetwork.ca@HD",
+      "names": [
+        "CA Fight Network HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#The.Fight.Network.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "MovieTime.ca@HD",
+      "names": [
+        "CA MovieTime"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#MovieTime.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Makeful.ca@SD",
+      "names": [
+        "CA Makeful HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Makeful.TV.SD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Max.ca@SD",
+      "names": [
+        "CA Max"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Max.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SilverScreenClassics.ca@SD",
+      "names": [
+        "CA Silver Screen Classics HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Silver.Screen.Classics.ca2"
+        }
+      ]
+    },
+    {
+      "id": "TCMCanada.ca@HD",
+      "names": [
+        "CA Tcm HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Turner.Classic.Movies.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "SmithsonianChannel.ca@SD",
+      "names": [
+        "CA Smithsonian",
+        "CA Smithsonian HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Smithsonian.Channel.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GolfChannel.ca@HD",
+      "names": [
+        "CA Golf Channel HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Golf.Channel.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "MLBNetworkCanada.ca@HD",
+      "names": [
+        "CA MLB Network"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#MLB.Network.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "NBATVCanada.ca@HD",
+      "names": [
+        "CA NBA TV HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#NBA.TV.Canada.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "NFLNetworkCanada.ca@HD",
+      "names": [
+        "CA NFL Network HD"
+      ],
+      "panel_ids": [
+        "nflnetworkcanada.ca"
+      ],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#NFL.Network.ALT.-.Canadian.Feed.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "FoxSportsRacing.ca@HD",
+      "names": [
+        "CA Fox Sports Racing"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Fox.Sports.Racing.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "OneSoccer.ca@SD",
+      "names": [
+        "CA One Soccer"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#One.Soccer.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Gusto.ca@SD",
+      "names": [
+        "CA Gusto"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "CAGusto.ca"
+        }
+      ]
+    },
+    {
+      "id": "WorldFishingNetwork.ca@SD",
+      "names": [
+        "CA World Fishing Network"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "WFNWorldFishingNetwork.ca"
+        }
+      ]
+    },
+    {
+      "id": "PrimeAsia.ca@SD",
+      "names": [
+        "CA Prime Asia TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Prime.Asia.TV.SD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "WUTV.ca@HD",
+      "names": [
+        "CA FOX 29 WUTV Buffalo"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "WUTVHDTV.ca"
+        }
+      ]
+    },
+    {
+      "id": "WNLO.ca@HD",
+      "names": [
+        "CA CW 23 WNLO Buffalo"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "WNLOHDTV.ca"
+        }
+      ]
+    },
+    {
+      "id": "PBSWNED.ca@SD",
+      "names": [
+        "CA PBS Buffalo"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "PBSWNED.ca"
+        }
+      ]
+    },
+    {
+      "id": "KTLA.ca@SD",
+      "names": [
+        "CA KTLA"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#KTLA.ca2"
+        }
+      ]
+    },
+    {
+      "id": "WGN.ca@SD",
+      "names": [
+        "CA WGN"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#WGN.(Chicago).ca2"
+        }
+      ]
+    },
+    {
+      "id": "WPCH.ca@HD",
+      "names": [
+        "CA Peach Tree HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#WPCH.Cable.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVWild.ca@HD",
+      "names": [
+        "CA Animal Planet HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Wild.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVNature.ca@HD",
+      "names": [
+        "CA Discovery Science HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Nature.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "CTVSpeed.ca@HD",
+      "names": [
+        "CA Discovery Velocity HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#CTV.Speed.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "MagnoliaNetwork.ca@HD",
+      "names": [
+        "CA Diy Network HD"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Magnolia.Network.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Z.ca@HD",
+      "names": [
+        "CA Z TELE"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#Z.HD.ca2"
+        }
+      ]
+    },
+    {
+      "id": "Temoin.ca@HD",
+      "names": [
+        "CA MOI CIE"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TÉMOIN.ca2"
+        }
+      ]
+    },
+    {
+      "id": "ShoppingChannel.ca@SD",
+      "names": [
+        "CA The Shopping Channel"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epgshare01.online",
+          "site_id": "CA2#TSC.ca2"
+        }
+      ]
+    },
+    {
+      "id": "GlobalNewsBC.ca@HD",
+      "names": [
+        "CA Global News Vancouver"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "open-epg.com",
+          "site_id": "GlobalNewsBC1.ca"
+        }
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "name": "CA ABC HD",
+      "reason": "No single ABC feed; Buffalo, Boston and Seattle affiliates differ"
+    },
+    {
+      "name": "CA ABC WEST",
+      "reason": "No ABC West feed; not Seattle or Buffalo"
+    },
+    {
+      "name": "CA Abc Spark HD",
+      "reason": "Closed on 1 Sep 2025; no Canadian successor"
+    },
+    {
+      "name": "CA AE HD",
+      "reason": "No A&E Canada feed"
+    },
+    {
+      "name": "CA BBC America",
+      "reason": "No BBC America feed; not BBC News North America"
+    },
+    {
+      "name": "CA BBC Toronto Gaunda Punjab",
+      "reason": "Not BBC News; ATN Punjabi and PTC Punjabi are different channels"
+    },
+    {
+      "name": "CA Bet",
+      "reason": "No BET Canada feed"
+    },
+    {
+      "name": "CA CBS",
+      "reason": "Buffalo, Boston and Seattle CBS affiliates differ"
+    },
+    {
+      "name": "CA Cbc HD",
+      "reason": "No generic CBC; city stations keep different schedules"
+    },
+    {
+      "name": "CA Cooking Channel",
+      "reason": "No Cooking Channel Canada feed"
+    },
+    {
+      "name": "CA CTV 2",
+      "reason": "CTV2 Atlantic, Barrie, Ottawa, Toronto and Vancouver differ"
+    },
+    {
+      "name": "CA CTV Vancouver 2 SD",
+      "reason": "Not CTV2 Vancouver and no second CTV Vancouver feed"
+    },
+    {
+      "name": "CA Disney Junior HD",
+      "reason": "Closed on 1 Sep 2025; Treehouse is a different service"
+    },
+    {
+      "name": "CA Disney XD HD",
+      "reason": "Closed on 1 Sep 2025; no Canadian successor"
+    },
+    {
+      "name": "CA Family CHRGD",
+      "reason": "Rebranded as WildBrainTV and closed in Oct 2025; not Family Channel East"
+    },
+    {
+      "name": "CA Family Jr HD",
+      "reason": "Closed with WildBrain in Oct 2025; not Family Channel East"
+    },
+    {
+      "name": "CA FYI",
+      "reason": "No FYI feed"
+    },
+    {
+      "name": "CA Global News Calgary",
+      "reason": "No per-city news feed; Global Calgary is a different station"
+    },
+    {
+      "name": "CA Global News Edmonton",
+      "reason": "No per-city news feed; Global Edmonton is a different station"
+    },
+    {
+      "name": "CA Global News HD",
+      "reason": "No generic national feed; Global News BC1 is the Vancouver channel"
+    },
+    {
+      "name": "CA Global News Kingston",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA Global News Montreal",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA Global News Peterborough",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA Global News Regina",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA Global News Saskatoon",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA Global News Toronto",
+      "reason": "Not Global Toronto; only Global News BC1 has a verified 24-hour feed"
+    },
+    {
+      "name": "CA Global News Winnipeg",
+      "reason": "No per-city news feed"
+    },
+    {
+      "name": "CA HBO 2",
+      "reason": "HBO Canada 2 West is a different timezone; no eastern HBO 2 feed"
+    },
+    {
+      "name": "CA ICI Radio Toronto",
+      "reason": "Radio, not ICI Télé Toronto"
+    },
+    {
+      "name": "CA ICI Tele 2 HD",
+      "reason": "No second ICI Télé feed besides Montreal, Ontario and Vancouver"
+    },
+    {
+      "name": "CA IFC",
+      "reason": "No IFC Canada feed"
+    },
+    {
+      "name": "CA IIPC TV",
+      "reason": "No public source"
+    },
+    {
+      "name": "CA MTV 2",
+      "reason": "Licence revoked in 2024; no Canadian feed"
+    },
+    {
+      "name": "CA MTV HD",
+      "reason": "Licence revoked in 2025; no Canadian feed"
+    },
+    {
+      "name": "CA NHL Network HD",
+      "reason": "Not an NHL Centre Ice PPV slot"
+    },
+    {
+      "name": "CA Nick HD",
+      "reason": "Closed on 1 Sep 2025; US Nickelodeon and YTV are different services"
+    },
+    {
+      "name": "CA OLN HD",
+      "reason": "No current OLN feed; a stale listing now points at Bravo Canada"
+    },
+    {
+      "name": "CA ONE Get Fit FHD",
+      "reason": "No public source"
+    },
+    {
+      "name": "CA Outdoor Life Network",
+      "reason": "No current OLN feed; a stale listing now points at Bravo Canada"
+    },
+    {
+      "name": "CA Own HD",
+      "reason": "No OWN Canada feed"
+    },
+    {
+      "name": "CA PARAMOUNT NETWORK HD",
+      "reason": "No Paramount Network Canada feed"
+    },
+    {
+      "name": "CA Prime Canada TV",
+      "reason": "Not Prime Asia"
+    },
+    {
+      "name": "CA Rogers TV",
+      "reason": "Community channel; city feeds differ"
+    },
+    {
+      "name": "CA Seasons HD",
+      "reason": "No Seasons feed"
+    },
+    {
+      "name": "CA Sportsnet News",
+      "reason": "Not Sportsnet 360"
+    },
+    {
+      "name": "CA SPORTSNET PPV",
+      "reason": "Event PPV, not a regional Sportsnet channel"
+    },
+    {
+      "name": "CA Teletoon HD",
+      "reason": "English Teletoon became Cartoon Network in 2023 and the previous Cartoon Network became Boomerang; both names remain, so neither feed can be assigned"
+    },
+    {
+      "name": "CA TRAVEL ESCAPE",
+      "reason": "No Travel + Escape feed"
+    },
+    {
+      "name": "CA TRAVELXP",
+      "reason": "No Travelxp feed"
+    },
+    {
+      "name": "CA TVO Kids HD",
+      "reason": "Not the TVO main feed"
+    },
+    {
+      "name": "CA Canada One",
+      "reason": "No verified public feed"
+    },
+    {
+      "name": "Ca - Prime 1 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 1 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 2 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 2 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 3 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 3 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 4 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 4 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 5 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 5 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 6 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 6 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 7 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 7 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 8 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 8 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 9 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 9 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime 10 4K",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    },
+    {
+      "name": "Ca - Prime Classic 10 HD",
+      "reason": "PPV slot; not Prime Asia or a numbered movie channel"
+    }
+  ]
+}
