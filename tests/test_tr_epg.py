@@ -287,6 +287,221 @@ class TurkishIdentityTests(unittest.TestCase):
         when = public.tvplus_when("2026-11-20 02:57:00 UTC+03:00")
         self.assertEqual(public.xmltv_stamp(when), "20261120025700 +0300")
 
+    def test_published_id_keeps_its_spelling_and_current_programmes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            current = root / "tvplus.xml"
+            output = root / "out.xml"
+            write_guide(
+                previous,
+                [
+                    ("AKITTV.tr@SD", "AKİT TV"),
+                    ("DaVinci.tr@SD", "Da Vinci"),
+                    ("EkolTV.tr@SD", "Ekol TV"),
+                    ("KibrisGencTV.tr@SD", "Kıbrıs Genç TV"),
+                ],
+                [
+                    ("AKITTV.tr@SD", "caducado", "20261120070000 +0300"),
+                    ("DaVinci.tr@SD", "caducado", "20261120070000 +0300"),
+                    ("EkolTV.tr@SD", "caducado", "20261120070000 +0300"),
+                    ("KibrisGencTV.tr@SD", "caducado", "20261120070000 +0300"),
+                ],
+            )
+            tree = ET.parse(previous)
+            for channel in tree.getroot().findall("channel"):
+                if channel.get("id") == "DaVinci.tr@SD":
+                    ET.SubElement(channel, "icon", src="https://example.test/davinci.png")
+            tree.write(previous, encoding="utf-8", xml_declaration=True)
+            write_guide(
+                current,
+                [
+                    ("AkitTV.tr@SD", "AKIT TV"),
+                    ("DaVinci.de@SD", "DA VINCI"),
+                    ("4355", "EKOL TV"),
+                    ("KibrisGencTV.cy@SD", "KIBRIS GENC TV"),
+                ],
+                [
+                    ("AkitTV.tr@SD", "bülten", "20261120080000 +0300"),
+                    ("DaVinci.de@SD", "resim", "20261120080000 +0300"),
+                    ("4355", "ekol haber", "20261120080000 +0300"),
+                    ("KibrisGencTV.cy@SD", "genç", "20261120080000 +0300"),
+                ],
+            )
+            tr_epg.write_merged([("tvplus", current, None)], output, set(), [previous])
+            merged = ET.parse(output).getroot()
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertEqual(
+                ids,
+                {"AKITTV.tr@SD", "DaVinci.tr@SD", "EkolTV.tr@SD", "KibrisGencTV.tr@SD"},
+            )
+            titles = {programme.findtext("title") for programme in merged.findall("programme")}
+            self.assertEqual(titles, {"bülten", "resim", "ekol haber", "genç"})
+            davinci = merged.find("channel[@id='DaVinci.tr@SD']")
+            self.assertEqual(davinci.find("icon").get("src"), "https://example.test/davinci.png")
+            self.assertEqual(
+                {programme.get("channel") for programme in merged.findall("programme")},
+                ids,
+            )
+
+    def test_short_minted_id_does_not_replace_a_published_one(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            current = root / "turksat.xml"
+            output = root / "out.xml"
+            write_guide(
+                previous,
+                [("24TV.tr@SD", "24"), ("TRT4K.tr@SD", "TRT 4K")],
+                [
+                    ("24TV.tr@SD", "caducado", "20261120010000 +0300"),
+                    ("TRT4K.tr@SD", "caducado", "20261120010000 +0300"),
+                ],
+            )
+            write_guide(
+                current,
+                [("24.tr@SD", "24"), ("8801", "TRT 4K")],
+                [
+                    ("24.tr@SD", "gece", "20261120020000 +0300"),
+                    ("8801", "belgesel", "20261120020000 +0300"),
+                ],
+            )
+            tr_epg.write_merged([("turksat", current, None)], output, set(), [previous])
+            merged = ET.parse(output).getroot()
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertEqual(ids, {"24TV.tr@SD", "TRT4K.tr@SD"})
+            titles = {programme.findtext("title") for programme in merged.findall("programme")}
+            self.assertEqual(titles, {"gece", "belgesel"})
+
+    def test_occupied_rewrite_is_not_moved_back(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            current = root / "digiturk.xml"
+            occupied = root / "guide-nl.xml"
+            output = root / "out.xml"
+            write_guide(
+                previous,
+                [("TRTTurk.tr@Turkey", "TRT TÜRK")],
+                [("TRTTurk.tr@Turkey", "caducado", "20261120090000 +0300")],
+            )
+            write_guide(
+                occupied,
+                [("TRTTurk.tr@SD", "TRT Turk")],
+                [("TRTTurk.tr@SD", "Nederlands", "20261120090000 +0100")],
+            )
+            write_guide(
+                current,
+                [("TRTTurk.tr@SD", "TRT TÜRK")],
+                [("TRTTurk.tr@SD", "Ana Haber", "20261120100000 +0300")],
+            )
+            tr_epg.write_merged(
+                [("digiturk", current, None)],
+                output,
+                tr_epg.collect_occupied([occupied]),
+                [previous],
+            )
+            merged = ET.parse(output).getroot()
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertEqual(ids, {"TRTTurk.tr@Turkey"})
+            self.assertEqual(
+                [programme.findtext("title") for programme in merged.findall("programme")],
+                ["Ana Haber"],
+            )
+
+    def test_catalog_channel_without_programmes_keeps_id_and_icon_only(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            catalog = root / "turksat.channels.xml"
+            current = root / "turksat.xml"
+            output = root / "out.xml"
+            write_guide(
+                previous,
+                [("EkolTV.tr@SD", "Ekol TV"), ("ATV.tr@SD", "ATV")],
+                [
+                    ("EkolTV.tr@SD", "caducado", "20261120060000 +0300"),
+                    ("ATV.tr@SD", "haber", "20261120080000 +0300"),
+                ],
+            )
+            tree = ET.parse(previous)
+            for channel in tree.getroot().findall("channel"):
+                if channel.get("id") == "EkolTV.tr@SD":
+                    ET.SubElement(channel, "icon", src="https://example.test/ekol.png")
+            tree.write(previous, encoding="utf-8", xml_declaration=True)
+            channels = ET.Element("channels")
+            for xmltv_id, name in (("", "Ekol TV"), ("ATV.tr@SD", "ATV")):
+                node = ET.SubElement(channels, "channel", site_id=name)
+                if xmltv_id:
+                    node.set("xmltv_id", xmltv_id)
+                node.text = name
+            ET.ElementTree(channels).write(catalog, encoding="utf-8", xml_declaration=True)
+            write_guide(
+                current,
+                [("ATV.tr@SD", "ATV")],
+                [("ATV.tr@SD", "haber nuevo", "20261120090000 +0300")],
+            )
+            tr_epg.write_merged([("turksat", current, catalog)], output, set(), [previous])
+            merged = ET.parse(output).getroot()
+            ekol = merged.find("channel[@id='EkolTV.tr@SD']")
+            self.assertIsNotNone(ekol)
+            self.assertEqual(ekol.find("icon").get("src"), "https://example.test/ekol.png")
+            self.assertEqual(ekol.findtext("display-name"), "Ekol TV")
+            programmes = merged.findall("programme")
+            self.assertEqual([programme.get("channel") for programme in programmes], ["ATV.tr@SD"])
+            self.assertEqual([programme.findtext("title") for programme in programmes], ["haber nuevo"])
+
+    def test_channel_missing_from_every_catalog_is_dropped(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            catalog = root / "channels.xml"
+            current = root / "dsmart.xml"
+            output = root / "out.xml"
+            write_guide(
+                previous,
+                [("Gone.tr@SD", "Kanal Kayboldu"), ("ATV.tr@SD", "ATV")],
+                [("ATV.tr@SD", "haber", "20261120080000 +0300")],
+            )
+            channels = ET.Element("channels")
+            node = ET.SubElement(channels, "channel", site_id="atv", xmltv_id="ATV.tr@SD")
+            node.text = "ATV"
+            ET.ElementTree(channels).write(catalog, encoding="utf-8", xml_declaration=True)
+            write_guide(
+                current,
+                [("ATV.tr@SD", "ATV")],
+                [("ATV.tr@SD", "haber nuevo", "20261120090000 +0300")],
+            )
+            tr_epg.write_merged([("dsmart", current, catalog)], output, set(), [previous])
+            ids = {channel.get("id") for channel in ET.parse(output).getroot().findall("channel")}
+            self.assertEqual(ids, {"ATV.tr@SD"})
+
+    def test_validator_still_rejects_a_missing_previous_channel(self):
+        validator = load_module("tr_publish_validate", ROOT / "scripts" / "tr_publish_validate.py")
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            previous = root / "guide-tr.xml"
+            generated = root / "generated.xml"
+            write_guide(
+                previous,
+                [("AKITTV.tr@SD", "AKİT TV")],
+                [("AKITTV.tr@SD", "bülten", "20261120080000 +0300")],
+            )
+            write_guide(
+                generated,
+                [("ATV.tr@SD", "ATV")],
+                [("ATV.tr@SD", "haber", "20261120080000 +0300")],
+            )
+            problems = validator.validate(
+                generated,
+                previous,
+                root / "missing-aliases.json",
+                root / "missing-clones.json",
+            )
+            self.assertTrue(any(item.startswith("previous channels missing:") for item in problems))
+            self.assertTrue(any("AKITTV.tr@SD" in item for item in problems))
+            self.assertTrue(any("minimum" in item for item in problems))
+
 
 if __name__ == "__main__":
     unittest.main()

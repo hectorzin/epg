@@ -115,7 +115,10 @@ sites/<dominio>/
  D-Smart, TV+ o Türksat, `scripts/grab_tr_public.py` usa su API pública. Türksat verifica TLS;
  si el servidor no envía el intermedio, se completa con el certificado GlobalSign indicado en
  el propio certificado y se vuelve a comprobar el nombre. Los ids publicados
- quedan en `.tr`; si otro país ya usa el mismo id se reescribe a `@Turkey`. Tivibu no se
+ quedan en `.tr`; si otro país ya usa el mismo id se reescribe a `@Turkey`. Una estación ya
+ publicada conserva su id aunque otra fuente la escriba con otras mayúsculas o con otro xmltv id.
+ Si sigue en un catálogo de origen pero el grab no trae programas, se reemite el canal (id,
+ display-name e icono) sin recuperar la parrilla anterior. Tivibu no se
  usa: su parrilla pide un token de abonado. Tras el merge crudo, `process-epg --profile tr`
  con `epg/aliases-tr.json` y `epg/xtream-aliases-tr.json`. El grab usa `--days=2` y la zona
  `Europe/Istanbul` (UTC+3).

@@ -87,6 +87,11 @@ jobs:
               merge_sources+=("$name=$guide,$catalog")
             else
               echo "$name: no valid output"
+              # The catalog still proves the station exists, so a previously
+              # published channel can be kept without copying its old programmes.
+              if [[ -f "$catalog" ]]; then
+                merge_sources+=("$name=$guide,$catalog")
+              fi
             fi
           }
           set -e
@@ -100,7 +105,7 @@ jobs:
           set -e
           if [[ "$epgshare_status" -eq 0 ]] && [[ -s "$OUTPUT_DIR/epgshare.xml" ]]
           then
-            merge_sources+=("epgshare=$OUTPUT_DIR/epgshare.xml,")
+            merge_sources+=("epgshare=$OUTPUT_DIR/epgshare.xml,$OUTPUT_DIR/epgshare.xml")
             echo "epgshare: TR1 grabbed"
           else
             echo "epgshare: no valid TR1 output"

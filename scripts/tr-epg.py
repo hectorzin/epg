@@ -358,7 +358,13 @@ def usable_programmes(channel_id: str, programmes: list[ET.Element]) -> list[ET.
     return kept
 
 
-def choose_id(rows: list[dict], station: str, occupied: set[str], used: set[str]) -> tuple[str, str]:
+def choose_id(
+    rows: list[dict],
+    station: str,
+    occupied: set[str],
+    used: set[str],
+    hint: str = "",
+) -> tuple[str, str]:
     best_id = ""
     best_rank: tuple[int, int, str] | None = None
     for row in rows:
@@ -369,8 +375,14 @@ def choose_id(rows: list[dict], station: str, occupied: set[str], used: set[str]
         if best_rank is None or rank > best_rank:
             best_rank = rank
             best_id = row["original_id"]
-    original = best_id or mint_id(rows[0]["name"])
-    return avoid_collision(original, occupied, used, rows[0]["name"]), original
+    unconstrained = best_id or mint_id(rows[0]["name"])
+    chosen = unconstrained
+    # The same station keeps the id already published for it. A later catalog id,
+    # another capitalisation, or a shorter minted id must not replace it.
+    # Programmes still come from the current grab.
+    if hint and hint not in used and hint not in occupied and is_published_id(hint):
+        chosen = hint
+    return avoid_collision(chosen, occupied, used, rows[0]["name"]), unconstrained
 
 
 def fill_programmes(rows: list[dict]) -> tuple[list[ET.Element], dict[str, int]]:
@@ -387,8 +399,9 @@ def fill_programmes(rows: list[dict]) -> tuple[list[ET.Element], dict[str, int]]
     return [by_start[start] for start in sorted(by_start)], dict(contrib)
 
 
-def catalog_identities(paths: list[Path | None]) -> set[tuple[str, int]]:
+def catalog_presence(paths: list[Path | None]) -> tuple[set[tuple[str, int]], set[str]]:
     keys: set[tuple[str, int]] = set()
+    ids: set[str] = set()
     for path in paths:
         if path is None or not path.is_file():
             continue
@@ -396,7 +409,42 @@ def catalog_identities(paths: list[Path | None]) -> set[tuple[str, int]]:
             key = identity_key(channel_name(channel))
             if key[0]:
                 keys.add(key)
-    return keys
+            for attr in ("xmltv_id", "id"):
+                value = (channel.get(attr) or "").strip()
+                if is_published_id(value):
+                    ids.add(value)
+    return keys, ids
+
+
+def canonical_hints(previous: list[Path]) -> dict[tuple[str, int], str]:
+    hints: dict[tuple[str, int], str] = {}
+    for path in previous:
+        if not path.is_file() or path.stat().st_size == 0:
+            continue
+        root = parse_xmltv(path)
+        for channel in root.findall("channel"):
+            channel_id = channel.get("id") or ""
+            if not is_published_id(channel_id):
+                continue
+            key = identity_key(channel_name(channel) or channel_id)
+            if key[0]:
+                hints.setdefault(key, channel_id)
+    return hints
+
+
+def previous_icons(previous: list[Path]) -> dict[str, str]:
+    icons: dict[str, str] = {}
+    for path in previous:
+        if not path.is_file() or path.stat().st_size == 0:
+            continue
+        root = parse_xmltv(path)
+        for channel in root.findall("channel"):
+            channel_id = channel.get("id") or ""
+            icon = channel.find("icon")
+            src = (icon.get("src") or "").strip() if icon is not None else ""
+            if channel_id and src and channel_id not in icons:
+                icons[channel_id] = src
+    return icons
 
 
 def retain_previous(
@@ -405,9 +453,17 @@ def retain_previous(
     occupied: set[str],
     previous: list[Path],
     catalog_keys: set[tuple[str, int]],
+    catalog_ids: set[str],
 ) -> int:
-    if not catalog_keys:
+    """Re-emit a published channel the catalog still lists, without its old programmes."""
+    if not catalog_keys and not catalog_ids:
         return 0
+    published_keys = {
+        identity_key(channel_name(channel) or "")
+        for channel in result.findall("channel")
+        if identity_key(channel_name(channel) or "")[0]
+    }
+    used_folded = {channel_id.casefold() for channel_id in used}
     kept = 0
     seen: set[str] = set()
     for path in previous:
@@ -420,6 +476,7 @@ def retain_previous(
                 not channel_id
                 or channel_id in seen
                 or channel_id in used
+                or channel_id.casefold() in used_folded
                 or channel_id in occupied
                 or not is_published_id(channel_id)
             ):
@@ -427,14 +484,19 @@ def retain_previous(
             seen.add(channel_id)
             name = channel_name(channel) or channel_id
             key = identity_key(name)
-            if not key[0] or key not in catalog_keys:
+            if key[0] and key in published_keys:
                 continue
-            if any(identity_key(channel_name(node) or "") == key for node in result.findall("channel")):
+            if not ((key[0] and key in catalog_keys) or channel_id in catalog_ids):
                 continue
             node = copy.deepcopy(channel)
             node.set("id", channel_id)
+            for programme in list(node.findall("programme")):
+                node.remove(programme)
             result.append(node)
             used.add(channel_id)
+            used_folded.add(channel_id.casefold())
+            if key[0]:
+                published_keys.add(key)
             kept += 1
     return kept
 
@@ -448,7 +510,10 @@ def merge_guides(
     for source_name, guide_path, _catalog in sources:
         if not guide_path.is_file() or guide_path.stat().st_size == 0:
             continue
-        root = parse_xmltv(guide_path)
+        try:
+            root = parse_xmltv(guide_path)
+        except (ET.ParseError, ValueError):
+            continue
         programmes: dict[str, list[ET.Element]] = defaultdict(list)
         for programme in root.findall("programme"):
             channel_id = programme.get("channel") or ""
@@ -478,9 +543,11 @@ def merge_guides(
     used: set[str] = set()
     choices: dict[str, dict] = {}
     collisions: list[dict] = []
+    hints = canonical_hints(previous_guides or [])
+    icons = previous_icons(previous_guides or [])
     for key, rows in sorted(groups.items(), key=lambda item: item[0]):
         station = key[0]
-        published, original = choose_id(rows, station, occupied, used)
+        published, original = choose_id(rows, station, occupied, used, hints.get(key, ""))
         if published != original:
             collisions.append(
                 {
@@ -505,6 +572,8 @@ def merge_guides(
         display.text = winner["name"]
         if not (display.get("lang") or "").strip():
             display.set("lang", "tr")
+        if node.find("icon") is None and icons.get(published):
+            ET.SubElement(node, "icon", src=icons[published])
         result.append(node)
         for programme in programmes:
             cloned = copy.deepcopy(programme)
@@ -518,13 +587,8 @@ def merge_guides(
             "original_id": original,
             "station": station,
         }
-    retain_previous(
-        result,
-        used,
-        occupied,
-        previous_guides or [],
-        catalog_identities([catalog for _name, _guide, catalog in sources]),
-    )
+    catalog_keys, catalog_ids = catalog_presence([catalog for _name, _guide, catalog in sources])
+    retain_previous(result, used, occupied, previous_guides or [], catalog_keys, catalog_ids)
     if not result.findall("programme"):
         raise ValueError("no Turkish programmes were generated")
     normalize_channels_in_tree(result)
