@@ -3735,24 +3735,6 @@
     "reason": "epg_id_not_in_guide"
   },
   {
-    "xtream_id": "520",
-    "name": "M+ Series",
-    "epg_id": "cima.es.mseries",
-    "category": "[ES] SERIES",
-    "status": "ambiguous_association",
-    "detail": "panel_core_multiple_guides",
-    "reason": "panel_core_multiple_guides"
-  },
-  {
-    "xtream_id": "521",
-    "name": "M+ Series 2",
-    "epg_id": "cima.es.mseries",
-    "category": "[ES] SERIES",
-    "status": "ambiguous_association",
-    "detail": "panel_core_multiple_guides",
-    "reason": "panel_core_multiple_guides"
-  },
-  {
     "xtream_id": "523",
     "name": "M+ Originales 2",
     "epg_id": "cima.es.moriginales",
@@ -5211,15 +5193,6 @@
     "reason": "no_guide_channel_or_alias"
   },
   {
-    "xtream_id": "737",
-    "name": "M+ SERIES 4K",
-    "epg_id": "movistarseries.es",
-    "category": "[ES] 4K",
-    "status": "channel_not_in_sources",
-    "detail": "epg_id_not_in_guide",
-    "reason": "epg_id_not_in_guide"
-  },
-  {
     "xtream_id": "738",
     "name": "M+VAMOS 3 4K",
     "epg_id": "NULL",
@@ -5380,15 +5353,6 @@
     "status": "ambiguous_association",
     "detail": "ambiguous_name",
     "reason": "ambiguous_name"
-  },
-  {
-    "xtream_id": "786",
-    "name": "M+ SERIES FULL HD",
-    "epg_id": "movistarseries.es",
-    "category": "[ES] FULL HD",
-    "status": "channel_not_in_sources",
-    "detail": "epg_id_not_in_guide",
-    "reason": "epg_id_not_in_guide"
   },
   {
     "xtream_id": "787",

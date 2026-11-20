@@ -45,7 +45,7 @@ class MergeTests(unittest.TestCase):
         self.assertEqual([p.findtext("title") for p in out.findall("programme[@channel='MovistarPlus.dazb2']")], ["Hoops", "Supplement"])
         self.assertIn("MovistarPlus.dazb2", completed["orange"])
         self.assertEqual(skipped["overlap"], 1)
-        self.assertEqual(channels, {"orange": 1, "elpais": 1})
+        self.assertEqual(channels, {"orange": 1, "elpais": 1, "epgshare": 0})
 
     def test_exact_duplicates_and_source_priority(self):
         primary = guide([("main", "Main")], [("main", "20261115090000 +0000", "20261115100000 +0000", "Primary")])
@@ -74,6 +74,65 @@ class MergeTests(unittest.TestCase):
         self.assertEqual(out.find("programme").findtext("title"), "Keep me")
         ids = {c.get("id") for c in out.findall("channel")}
         self.assertTrue(all(p.get("channel") in ids for p in out.findall("programme")))
+
+    def test_orange_champions_fill_empty_movistar_shells_without_duplicate_ids(self):
+        main = guide(
+            [("MovistarPlus.chap5", "M+ Liga de Campeones 6"), ("MovistarPlus.chap12", "M+ Liga de Campeones 13")],
+            [],
+        )
+        orange = guide(
+            [("Orange.1054", "M+ Liga de Campeones 6"), ("Orange.1099", "M+ Liga de Campeones 13"), ("Orange.1", "Runtime")],
+            [
+                ("Orange.1054", "20261120120000 +0000", "20261120160000 +0000", "M Liga de Campeones 6"),
+                ("Orange.1099", "20261120160000 +0000", "20261120200000 +0000", "M Liga de Campeones 13"),
+                ("Orange.1", "20261120120000 +0000", "20261120140000 +0000", "Pelicula"),
+            ],
+        )
+        out, channels, progs, completed, skipped = mod.merge(main, orange, None)
+        ids = {c.get("id") for c in out.findall("channel")}
+        self.assertEqual(ids, {"MovistarPlus.chap5", "MovistarPlus.chap12", "Orange.1"})
+        self.assertEqual(out.find("programme[@channel='MovistarPlus.chap5']/title").text, "M Liga de Campeones 6")
+        self.assertEqual(out.find("programme[@channel='MovistarPlus.chap12']/title").text, "M Liga de Campeones 13")
+        self.assertEqual(completed["orange"], {"MovistarPlus.chap5", "MovistarPlus.chap12"})
+        self.assertEqual(channels, {"orange": 1, "elpais": 0, "epgshare": 0})
+        self.assertEqual(progs["orange"], 3)
+        self.assertEqual(skipped["unknown"], 0)
+
+    def test_orange_top_barca_is_added_as_new_channel(self):
+        main = guide([("MovistarPlus.playdc", "Disney Junior")], [])
+        orange = guide(
+            [("Orange.11178", "Top Barça")],
+            [("Orange.11178", "20261120120000 +0000", "20261120140000 +0000", "HIGHLIGHTS | Barça - Feyenoord")],
+        )
+        out, channels, progs, completed, skipped = mod.merge(main, orange, None)
+        self.assertIn("Orange.11178", {c.get("id") for c in out.findall("channel")})
+        self.assertEqual(out.find("channel[@id='Orange.11178']/display-name").text, "Top Barça")
+        self.assertEqual(
+            out.find("programme[@channel='Orange.11178']/title").text,
+            "HIGHLIGHTS | Barça - Feyenoord",
+        )
+        self.assertEqual(channels["orange"], 1)
+        self.assertEqual(progs["orange"], 1)
+        self.assertEqual(completed["orange"], set())
+        self.assertEqual(skipped["unknown"], 0)
+
+    def test_epgshare_rally_is_added_as_new_channel(self):
+        main = guide([("MovistarPlus.playdc", "Disney Junior")], [])
+        epgshare = guide(
+            [("Rally.TV.de", "Rally TV")],
+            [("Rally.TV.de", "20261120100000 +0000", "20261120105200 +0000", "Season Review - WRC 2026")],
+        )
+        out, channels, progs, completed, skipped = mod.merge(main, None, None, epgshare)
+        self.assertIn("Rally.TV.de", {c.get("id") for c in out.findall("channel")})
+        self.assertEqual(out.find("channel[@id='Rally.TV.de']/display-name").text, "Rally TV")
+        self.assertEqual(
+            out.find("programme[@channel='Rally.TV.de']/title").text,
+            "Season Review - WRC 2026",
+        )
+        self.assertEqual(channels["epgshare"], 1)
+        self.assertEqual(progs["epgshare"], 1)
+        self.assertEqual(completed["epgshare"], set())
+        self.assertEqual(skipped["unknown"], 0)
 
     def test_partial_total_failures_and_references(self):
         primary = guide([("main", "Main")], [("main", "20261115000000 +0000", "20261115010000 +0000", "Keep")])

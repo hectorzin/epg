@@ -68,6 +68,30 @@
     "M.LCAMPEONES HD+",
     "M+LCAMPEONES 4K"
   ],
+  "MovistarPlus.chap5": [
+    "M+LCAMPEON6"
+  ],
+  "MovistarPlus.chap6": [
+    "M+LCAMPEON7"
+  ],
+  "MovistarPlus.chap7": [
+    "M+LCAMPEON8"
+  ],
+  "MovistarPlus.chap8": [
+    "M+LCAMPEON9"
+  ],
+  "MovistarPlus.chap9": [
+    "M+LCAMPEON10"
+  ],
+  "MovistarPlus.chap10": [
+    "M+LCAMPEON11"
+  ],
+  "MovistarPlus.chap11": [
+    "M+LCAMPEON12"
+  ],
+  "MovistarPlus.chap12": [
+    "M+LCAMPEON13"
+  ],
   "cl13": [
     "CALLE 13 FULL HD",
     "Calle 13",
@@ -262,6 +286,12 @@
     "M+ Clásicos",
     "M+ Clásicos 3",
     "M+ Clásicos 2"
+  ],
+  "mhits": [
+    "M+ Series",
+    "M+ Series 2",
+    "M+ SERIES FULL HD",
+    "M+ SERIES 4K"
   ],
   "mindi": [
     "M+ Indie FULL HD",
@@ -559,6 +589,12 @@
   ],
   "Orange.11281": [
     "AMC Western"
+  ],
+  "Orange.11178": [
+    "TOP BARÇA HD"
+  ],
+  "Rally.TV.de": [
+    "DAZN RALLY TV"
   ],
   "inteco": [
     "El Toro TV HD"

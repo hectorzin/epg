@@ -13,6 +13,8 @@ ORANGE_IDS = {
     "11182", "11098", "11099", "11102", "11103", "11100", "11183", "11184", "11120",
     "11121", "11128", "11104", "11105", "1081", "1095", "1086", "2209", "12007",
     "12006", "11273", "11106", "11107", "11232", "11270", "11015",
+    "1054", "1055", "1056", "11036", "1096", "1097", "1098", "1099",
+    "11178",
 }
 # El País candidates confirmed by the audit, curated to avoid channel clones,
 # ambiguous names, and obsolete/rebranded duplicates. Keep this list explicit.
@@ -42,7 +44,11 @@ for entry in catalog:
         continue
     if any(x in normalized for x in ("prueba", "test", "promo", "autopromocion")):
         continue
-    if normalized in mov_names or (sid == "11015"):
+    if sid == "11015":
+        continue
+    if normalized in mov_names and sid not in {
+        "1054", "1055", "1056", "11036", "1096", "1097", "1098", "1099",
+    }:
         continue
     xmlid = f"Orange.{sid}"
     ET.SubElement(orange, "channel", {"site": "orangetv.orange.es", "lang": "es", "xmltv_id": xmlid, "site_id": sid}).text = name

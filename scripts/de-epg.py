@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Select German channels and merge XMLTV guides (Magenta TV > Magenta web > TV Heute)."""
+"""Select German channels and merge XMLTV guides (Magenta TV > Magenta web > TV Heute > EPGShare extras)."""
 from __future__ import annotations
 
 import argparse
@@ -36,8 +36,10 @@ QUALITY_WORDS = re.compile(
 TRAILING_MARK = re.compile(r"(?:\s*\*+\s*[A-Za-z]?)+\s*$")
 ID_RE = re.compile(r"^[^\s<>\"']+$")
 NUMERIC_ID_RE = re.compile(r"^\d+$")
-SOURCE_PRIORITY = {"magenta": 4, "magentaweb": 3, "tvheute": 2}
+SOURCE_PRIORITY = {"magenta": 4, "magentaweb": 3, "tvheute": 2, "epgshare": 1}
 COLLISION_FEED = "Germany"
+# Same physical station published in another national guide (currently ES).
+SHARED_XMLTV_IDS = frozenset({"Rally.TV.de"})
 # Panel ids that the German bouquet attaches to a different station.
 INCORRECT_IDS = frozenset(
     {
@@ -402,6 +404,8 @@ def strong_id_owners(rows: list[dict]) -> dict[str, dict]:
 
 
 def avoid_collision(channel_id: str, occupied: set[str], name: str) -> str:
+    if channel_id in SHARED_XMLTV_IDS:
+        return channel_id
     usable = (
         channel_id not in occupied
         and not NUMERIC_ID_RE.fullmatch(channel_id)

@@ -447,6 +447,7 @@ class GermanAliasFileTests(unittest.TestCase):
             "MDRFernsehenSachsen.de@SD": "DE MDR SACHSEN HD",
             "RAN1.de@SD": "DE Ran 1Tv",
             "RBW.de@SD": "DE Rbw Tv",
+            "Rally.TV.de": "DAZN RALLY TV",
         }
         for channel_id, title in curated.items():
             self.assertIn(title, aliases[channel_id])
@@ -457,6 +458,32 @@ class GermanAliasFileTests(unittest.TestCase):
         for incorrect in de_epg.INCORRECT_IDS:
             self.assertNotIn(incorrect, clones)
             self.assertNotIn(incorrect, aliases)
+
+    def test_shared_rally_id_is_kept_when_occupied_by_spain(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            guide = root / "epgshare.xml"
+            output = root / "out.xml"
+            write_guide(
+                guide,
+                [("Rally.TV.de", "Rally TV")],
+                [("Rally.TV.de", "Season Review - WRC 2026", "20261120090028 +0000")],
+            )
+            de_epg.write_merged(
+                [("epgshare", guide, None)],
+                output,
+                {"Rally.TV.de"},
+                identities={"site_ids": {}, "stations": {}},
+            )
+            merged = ET.parse(output).getroot()
+            ids = {channel.get("id") for channel in merged.findall("channel")}
+            self.assertEqual(ids, {"Rally.TV.de"})
+            self.assertEqual(merged.find("channel[@id='Rally.TV.de']/display-name").text, "Rally TV")
+
+    def test_epgshare_is_lowest_priority_source(self):
+        self.assertEqual(de_epg.SOURCE_PRIORITY["epgshare"], 1)
+        self.assertLess(de_epg.SOURCE_PRIORITY["epgshare"], de_epg.SOURCE_PRIORITY["tvheute"])
+        self.assertEqual(de_epg.SHARED_XMLTV_IDS, frozenset({"Rally.TV.de"}))
 
 
 if __name__ == "__main__":

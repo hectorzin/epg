@@ -13,6 +13,66 @@ from pathlib import Path
 
 TIME_RE = re.compile(r"^(\d{14})(?:\s*([+-]\d{4}|Z))?")
 SPECIAL_NAMES = {"Disney Channel": "Disney Junior"}
+ORANGE_PROGRAMME_REMAP = {
+    "Orange.11232": ("dazb2",),
+    "Orange.11270": ("dazb3",),
+    "Orange.11015": ("playdc",),
+    "Orange.1054": ("chap5",),
+    "Orange.1055": ("chap6",),
+    "Orange.1056": ("chap7",),
+    "Orange.11036": ("chap8",),
+    "Orange.1096": ("chap9",),
+    "Orange.1097": ("chap10",),
+    "Orange.1098": ("chap11",),
+    "Orange.1099": ("chap12",),
+}
+ORANGE_SKIP_CHANNEL_IDS = frozenset({
+    "Orange.11232",
+    "Orange.11270",
+    "Orange.1054",
+    "Orange.1055",
+    "Orange.1056",
+    "Orange.11036",
+    "Orange.1096",
+    "Orange.1097",
+    "Orange.1098",
+    "Orange.1099",
+})
+ORANGE_SUPPLEMENT_STEMS = frozenset({
+    "dazb2",
+    "dazb3",
+    "chap5",
+    "chap6",
+    "chap7",
+    "chap8",
+    "chap9",
+    "chap10",
+    "chap11",
+    "chap12",
+})
+
+
+def resolve_orange_target(channel_id: str, channels: dict[str, ET.Element]) -> str:
+    stems = ORANGE_PROGRAMME_REMAP.get(channel_id)
+    if not stems:
+        return channel_id
+    for stem in stems:
+        for candidate in (f"MovistarPlus.{stem}", stem):
+            if candidate in channels:
+                return candidate
+    return f"MovistarPlus.{stems[0]}"
+
+
+def orange_shell_exists(channel_id: str, channels: dict[str, ET.Element]) -> bool:
+    target = resolve_orange_target(channel_id, channels)
+    return target in channels and target != channel_id
+
+
+def is_orange_supplement(channel_id: str, label: str) -> bool:
+    if label != "orange" or not channel_id:
+        return False
+    stem = channel_id.split(".", 1)[-1]
+    return stem in ORANGE_SUPPLEMENT_STEMS
 
 
 def load(path: Path) -> ET.Element:
@@ -41,19 +101,24 @@ def fingerprint(node: ET.Element) -> tuple:
     ))
 
 
-def merge(primary: ET.Element, orange: ET.Element | None, elpais: ET.Element | None):
+def merge(
+    primary: ET.Element,
+    orange: ET.Element | None,
+    elpais: ET.Element | None,
+    epgshare: ET.Element | None = None,
+):
     result = copy.deepcopy(primary)
     channels = {node.get("id"): node for node in result.findall("channel")}
     programmes = list(result.findall("programme"))
     per_channel = {}
     for p in programmes:
         per_channel.setdefault(p.get("channel"), []).append(p)
-    added_channels = {"orange": 0, "elpais": 0}
-    added_programmes = {"orange": 0, "elpais": 0}
-    completed = {"orange": set(), "elpais": set()}
+    added_channels = {"orange": 0, "elpais": 0, "epgshare": 0}
+    added_programmes = {"orange": 0, "elpais": 0, "epgshare": 0}
+    completed = {"orange": set(), "elpais": set(), "epgshare": set()}
     skipped = {"duplicate": 0, "overlap": 0, "unknown": 0}
 
-    for label, source in (("orange", orange), ("elpais", elpais)):
+    for label, source in (("orange", orange), ("elpais", elpais), ("epgshare", epgshare)):
         if source is None:
             print(f"WARNING: {label} feed unavailable; continuing with higher-priority feeds", file=sys.stderr)
             continue
@@ -67,7 +132,9 @@ def merge(primary: ET.Element, orange: ET.Element | None, elpais: ET.Element | N
                         ET.SubElement(channels[primary_id], "display-name").text = "Disney Channel"
         valid_incoming = {p.get("channel") for p in source.findall("programme") if interval(p)}
         for channel_id, channel in incoming_channels.items():
-            if not channel_id or channel_id not in valid_incoming or channel_id in {"Orange.11232", "Orange.11270"}:
+            if not channel_id or channel_id not in valid_incoming:
+                continue
+            if label == "orange" and channel_id in ORANGE_SKIP_CHANNEL_IDS and orange_shell_exists(channel_id, channels):
                 continue
             if channel_id in channels:
                 if channel_id in {"MovistarPlus.playdc", "playdc"} and label == "orange":
@@ -81,19 +148,15 @@ def merge(primary: ET.Element, orange: ET.Element | None, elpais: ET.Element | N
             added_channels[label] += 1
         for p in source.findall("programme"):
             channel_id = p.get("channel")
-            if label == "orange" and channel_id in {"Orange.11232", "Orange.11270"}:
-                target = "dazb2" if channel_id.endswith("11232") else "dazb3"
-                channel_id = next((candidate for candidate in (f"MovistarPlus.{target}", target)
-                                   if candidate in channels), f"MovistarPlus.{target}")
-            if label == "orange" and channel_id == "Orange.11015":
-                channel_id = next((candidate for candidate in ("MovistarPlus.playdc", "playdc")
-                                   if candidate in channels), "MovistarPlus.playdc")
+            if label == "orange" and channel_id in ORANGE_PROGRAMME_REMAP:
+                channel_id = resolve_orange_target(channel_id, channels)
             if channel_id not in channels:
                 skipped["unknown"] += 1
                 continue
             # New secondary channels may be added. Existing IDs are always owned
-            # by the higher-priority feed, except the two specifically requested completions.
-            supplement = channel_id in {"MovistarPlus.dazb2", "MovistarPlus.dazb3", "dazb2", "dazb3"} and label == "orange"
+            # by the higher-priority feed, except Orange supplements that fill
+            # Movistar shells (DAZN basketball and M+ Liga de Campeones 6–13).
+            supplement = is_orange_supplement(channel_id, label)
             if channel_id not in accepted_ids and not supplement:
                 continue
             iv = interval(p)
@@ -132,11 +195,12 @@ def main():
     ap.add_argument("--movistar", type=Path, required=True)
     ap.add_argument("--orange", type=Path)
     ap.add_argument("--elpais", type=Path)
+    ap.add_argument("--epgshare", type=Path)
     ap.add_argument("--output", type=Path, required=True)
     args = ap.parse_args()
     primary = load(args.movistar)
     feeds = []
-    for path in (args.orange, args.elpais):
+    for path in (args.orange, args.elpais, args.epgshare):
         if not path or not path.exists() or path.stat().st_size == 0:
             feeds.append(None)
             continue
@@ -155,7 +219,10 @@ def main():
     args.output.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(result).write(args.output, encoding="utf-8", xml_declaration=True)
     print(f"Merged guide: channels={len(result.findall('channel'))}, programmes={len(result.findall('programme'))}")
-    print(f"Added channels: Orange={ch['orange']}, El País={ch['elpais']}; programmes={pg}")
+    print(
+        f"Added channels: Orange={ch['orange']}, El País={ch['elpais']}, "
+        f"EPGShare={ch['epgshare']}; programmes={pg}"
+    )
     print(f"Completed channels: { {k: sorted(v) for k, v in completed.items()} }; skipped={skipped}")
 
 

@@ -84,6 +84,17 @@ jobs:
             IFS=: read -r name catalog <<< "$entry"
             run_source "$name" "$catalog"
           done
+          set +e
+          python3 "$WORKSPACE/scripts/grab_epgshare.py" --channels="$WORKSPACE/epg/epgshare-rally.channels.xml" --days=2 --output="$OUTPUT_DIR/epgshare.xml"
+          epgshare_status=$?
+          set -e
+          if [[ "$epgshare_status" -eq 0 ]] && [[ -s "$OUTPUT_DIR/epgshare.xml" ]] && python3 -c 'import sys, xml.etree.ElementTree as ET; root=ET.parse(sys.argv[1]).getroot(); good=[p for p in root.findall("programme") if (p.findtext("title") or "").strip()]; raise SystemExit(0 if root.tag=="tv" and good else 1)' "$OUTPUT_DIR/epgshare.xml"
+          then
+            merge_sources+=("epgshare=$OUTPUT_DIR/epgshare.xml,$WORKSPACE/epg/epgshare-rally.channels.xml")
+            echo "epgshare: Rally.TV.de grabbed"
+          else
+            echo "epgshare: no valid Rally.TV output"
+          fi
           magenta_channels=0
           if [[ -s "$OUTPUT_DIR/magenta.xml" ]]; then
             magenta_channels=$(python3 -c 'import sys, xml.etree.ElementTree as ET; root=ET.parse(sys.argv[1]).getroot(); programmed={p.get("channel") for p in root.findall("programme") if (p.findtext("title") or "").strip()}; print(sum(1 for c in root.findall("channel") if c.get("id") in programmed))' "$OUTPUT_DIR/magenta.xml")
@@ -133,7 +144,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s "$GENERATED_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/de-epg.py scripts/de_catalog_match.py scripts/de_publish_validate.py scripts/merge-national-guides.py scripts/process-epg.py scripts/xtream_matching.py .github/workflows epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/de-epg.py scripts/de_catalog_match.py scripts/de_publish_validate.py scripts/grab_epgshare.py scripts/merge-national-guides.py scripts/process-epg.py scripts/xtream_matching.py .github/workflows epg || {
             echo "::error::German generation code changed during the run; refusing stale output."
             exit 1
           }

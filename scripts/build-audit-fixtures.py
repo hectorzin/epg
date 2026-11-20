@@ -52,6 +52,19 @@ for segment in range(1, 4):
             target_id = "MovistarPlus.dazb3"
         elif source_channel.get("site_id") == "11015":
             target_id = "MovistarPlus.playdc"
+        elif source_channel.get("site_id") in {
+            "1054", "1055", "1056", "11036", "1096", "1097", "1098", "1099",
+        }:
+            target_id = {
+                "1054": "MovistarPlus.chap5",
+                "1055": "MovistarPlus.chap6",
+                "1056": "MovistarPlus.chap7",
+                "11036": "MovistarPlus.chap8",
+                "1096": "MovistarPlus.chap9",
+                "1097": "MovistarPlus.chap10",
+                "1098": "MovistarPlus.chap11",
+                "1099": "MovistarPlus.chap12",
+            }[source_channel.get("site_id")]
         for item in block.get("programs", []):
             try:
                 start = datetime.fromtimestamp(float(item["startDate"]) / 1000, timezone.utc)

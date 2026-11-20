@@ -34,9 +34,11 @@ epg/
 │   ├── generate-gb.yml         # Publica solo guide-gb.xml
 │   ├── generate-pt.yml         # Publica solo guide-pt.xml
 │   ├── generate-nl.yml         # Publica solo guide-nl.xml
-│   └── generate-it.yml         # Publica solo guide-it.xml
+│   ├── generate-it.yml         # Publica solo guide-it.xml
+│   └── generate-de.yml         # Publica solo guide-de.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
+│   ├── grab_epgshare.py        # Extra EPGShare (Rally.TV.de) para ES y DE
 │   ├── commands/
 │   │   ├── epg/grab.ts         # Punto de entrada principal
 │   │   ├── channels/lint.mts   # Linter XML
@@ -99,13 +101,22 @@ sites/<dominio>/
 
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
- `generate-pt.yml`, `generate-nl.yml` y `generate-it.yml`, luego fusiona con
+ `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml` y `generate-de.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`) y publica solo `guide.xml`. La fusión global no
   altera los `guide-*.xml`: conserva todos los canales (IDs, alias, logos), pero filtra la parrilla
   a hoy y mañana en `Europe/Madrid` (XMLTV con offset; programas que solapan el intervalo se
   mantienen). Solo en `guide.xml`, los programas cuya hora de inicio cae en **mañana** (Madrid)
   conservan `title`, `category` y los atributos del `<programme>`; el resto de metadatos del
   programa se omiten. Los que empiezan hoy, aunque terminen mañana, conservan todos los metadatos.
+- El generador alemán publica `guide-de.xml` con `scripts/de-epg.py` (Magenta → Magenta web →
+  TV Heute, más extras EPGShare). Rally.TV (`Rally.TV.de`, site_id `RALLY_TV1#Rally.TV.de`) se
+  descarga con `scripts/grab_epgshare.py` (mismo contrato URL que iptv-org `epgshare01.online`).
+  El ID se comparte con `guide-es.xml`; no se reescribe por colisión internacional. La fusión
+  global conserva un solo canal y no duplica programas. Tras el merge crudo,
+  `process-epg --profile de` con `epg/aliases-de.json`. El grab usa `--days=2`.
+- El generador español también descarga Rally.TV con `scripts/grab_epgshare.py` y lo fusiona
+  vía `merge-guides.py --epgshare`. Display-name Xtream exacto `DAZN RALLY TV` en
+  `epg/aliases.json` y `epg/aliases-de.json`; sin clones en `xtream-aliases*.json`. No usar Pluto TV.
 - El generador portugués publica `guide-pt.xml` con `scripts/pt-epg.py` (prioridad NOS → MEO →
  Vodafone → TVI, identidad de mercado PT, colisiones con feed `Portugal`). Tras el merge crudo,
  `process-epg --profile pt` con `epg/aliases-pt.json` y `epg/xtream-aliases-pt.json`. El grab usa

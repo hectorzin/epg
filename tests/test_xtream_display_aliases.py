@@ -49,6 +49,14 @@ class XtreamDisplayAliasTests(unittest.TestCase):
         self.assertIn("DAZN LALIGA HD+", aliases["daznli"])
         self.assertIn("DAZN LALIGA HD 235", aliases["daznli"])
         self.assertIn("M.LCAMPEONES HD+", aliases["chapio"])
+        self.assertEqual(
+            aliases["mhits"],
+            ["M+ Series", "M+ Series 2", "M+ SERIES FULL HD", "M+ SERIES 4K"],
+        )
+        for n in range(6, 14):
+            self.assertEqual(aliases[f"MovistarPlus.chap{n - 1}"], [f"M+LCAMPEON{n}"])
+        self.assertEqual(aliases["Orange.11178"], ["TOP BARÇA HD"])
+        self.assertEqual(aliases["Rally.TV.de"], ["DAZN RALLY TV"])
 
     def test_spanish_first_alias_entries_are_preserved(self):
         aliases = _load(ALIAS_FILES["es"])

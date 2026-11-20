@@ -54,11 +54,16 @@ jobs:
           npm run grab -- --channels=sites/programacion-tv.elpais.com/elpais-selected.channels.xml --maxConnections=3 --days=2 --timeout=10000 --output="$RUNNER_TEMP/epg-output/elpais.xml"
           test -s "$RUNNER_TEMP/epg-output/elpais.xml"
 
+      - name: Run EPGShare Rally.TV grabber
+        run: |
+          python scripts/grab_epgshare.py --channels=epg/epgshare-rally.channels.xml --days=2 --output="$RUNNER_TEMP/epg-output/epgshare.xml"
+          test -s "$RUNNER_TEMP/epg-output/epgshare.xml"
+
       - name: Merge source guides
         env:
           OUTPUT_DIR: ${{ runner.temp }}/epg-output
         run: |
-          python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --output "$OUTPUT_DIR/guide.merged.xml"
+          python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --epgshare "$OUTPUT_DIR/epgshare.xml" --output "$OUTPUT_DIR/guide.merged.xml"
 
       - name: Process and validate Spanish XMLTV
         id: validate
@@ -104,7 +109,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s "$SPANISH_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py scripts/build_xtream_mappings.py scripts/xtream_matching.py .github/workflows scripts/commands/epg scripts/core scripts/models sites epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/process-epg.py scripts/merge-guides.py scripts/merge-national-guides.py scripts/grab_epgshare.py scripts/build_xtream_mappings.py scripts/xtream_matching.py .github/workflows scripts/commands/epg scripts/core scripts/models sites epg || {
             echo "::error::Generation code or channel configuration changed during the run. Refusing to publish stale output."
             exit 1
           }

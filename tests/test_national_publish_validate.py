@@ -93,6 +93,26 @@ class EsXtreamMappingRegression(unittest.TestCase):
         self.assertIn("cima.es.theme.noel", aliases)
         self.assertNotIn("MovistarPlus.terror", aliases)
 
+    def test_mplus_series_clones_point_at_mhits(self):
+        import json
+
+        xtream = json.loads((ROOT / "epg" / "xtream-aliases.json").read_text(encoding="utf-8"))
+        self.assertEqual(xtream["cima.es.mseries"], "mhits")
+        self.assertEqual(xtream["movistarseries.es"], "mhits")
+        self.assertEqual(xtream["cima.es.moriginales"], "morig")
+        aliases = json.loads((ROOT / "epg" / "aliases.json").read_text(encoding="utf-8"))
+        self.assertEqual(
+            aliases["mhits"],
+            ["M+ Series", "M+ Series 2", "M+ SERIES FULL HD", "M+ SERIES 4K"],
+        )
+        self.assertIn("M+ Originales 2", aliases["morig"])
+        for n in range(6, 14):
+            self.assertEqual(aliases[f"MovistarPlus.chap{n - 1}"], [f"M+LCAMPEON{n}"])
+        self.assertEqual(aliases["Orange.11178"], ["TOP BARÇA HD"])
+        self.assertEqual(aliases["Rally.TV.de"], ["DAZN RALLY TV"])
+        self.assertNotIn("Orange.11178", xtream)
+        self.assertNotIn("Rally.TV.de", xtream)
+
 
 if __name__ == "__main__":
     unittest.main()
