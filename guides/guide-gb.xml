@@ -759,11 +759,11 @@
     <title lang="en">Hokkaido - Japans wilder Norden</title>
     <desc lang="en">Auf der japanischen Nordinsel Hokkaido gibt es alles, was im Rest des Landes nur noch selten zu finden ist: unberührte Natur, weite Flächen und wilde Tiere. Es ist eine Landschaft mit Vulkanen, Bergen und glasklaren Seen.</desc>
   </programme>
-  <programme start="20261122054000 +0000" stop="20261122061000 +0000" channel="3Sat.uk@HD">
+  <programme start="20261122054000 +0000" stop="20261122061500 +0000" channel="3Sat.uk@HD">
     <title lang="en">Traumorte</title>
     <desc lang="en">Im Atlantik, etwa 600 Kilometer von der Küste Nordwestafrikas entfernt, liegen die Kapverden.</desc>
   </programme>
-  <programme start="20261122054000 +0000" stop="20261122061500 +0000" channel="3Sat.uk@HD">
+  <programme start="20261122054000 +0000" stop="20261122061000 +0000" channel="3Sat.uk@HD">
     <title lang="en">Traumorte</title>
     <desc lang="en">Im Atlantik, etwa 600 Kilometer von der Küste Nordwestafrikas entfernt, liegen die Kapverden.</desc>
   </programme>
@@ -5404,11 +5404,11 @@
     <title lang="en">Al Arabiya News</title>
     <desc lang="en">Be at the forefront of top stories, breaking news, current affairs and all there is to know in the Arab region and around the world.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AlArabiya.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122060700 +0000" channel="AlArabiya.uk@SD">
     <title lang="en">Sabah Al Arabiya</title>
     <desc lang="en">Arabic.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122060700 +0000" channel="AlArabiya.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AlArabiya.uk@SD">
     <title lang="en">Sabah Al Arabiya</title>
     <desc lang="en">Arabic.</desc>
   </programme>
@@ -8427,11 +8427,11 @@
     <title lang="en">ADN Aragonés</title>
     <desc lang="en">El programa muestra en primera persona cómo es el día a día de multitud de aragoneses que viven fuera de las fronteras de la comunidad autónoma. Conoceremos sus vivencias, a qué se dedican y cómo siguen conectados a la tierra que les vio nacer.</desc>
   </programme>
-  <programme start="20261122053000 +0000" stop="20261122060000 +0000" channel="AragonTV.uk@SD">
+  <programme start="20261122053000 +0000" stop="20261122063000 +0000" channel="AragonTV.uk@SD">
     <title lang="en">ADN Aragonés</title>
     <desc lang="en">El programa muestra en primera persona cómo es el día a día de multitud de aragoneses que viven fuera de las fronteras de la comunidad autónoma. Conoceremos sus vivencias, a qué se dedican y cómo siguen conectados a la tierra que les vio nacer.</desc>
   </programme>
-  <programme start="20261122053000 +0000" stop="20261122063000 +0000" channel="AragonTV.uk@SD">
+  <programme start="20261122053000 +0000" stop="20261122060000 +0000" channel="AragonTV.uk@SD">
     <title lang="en">ADN Aragonés</title>
     <desc lang="en">El programa muestra en primera persona cómo es el día a día de multitud de aragoneses que viven fuera de las fronteras de la comunidad autónoma. Conoceremos sus vivencias, a qué se dedican y cómo siguen conectados a la tierra que les vio nacer.</desc>
   </programme>
@@ -9680,11 +9680,11 @@
     <title lang="en">Metamorphosen - Die Wildnis kehrt zurück</title>
     <desc lang="en">An den Großen Seen am Nordrand der USA hat die Industrialisierung tiefe Spuren hinterlassen. Besonders der Eriesee hat unter dem Menschen gelitten. Früher von Wäldern und Sümpfen umgeben, machten ihn Landwirtschaft, Städtebau und Industrie zu einer.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="ARTE.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122063500 +0000" channel="ARTE.uk@SD">
     <title lang="en">Metamorphosen - Die Wildnis kehrt zurück</title>
     <desc lang="en">Costa Rica ist berühmt für Nationalparks, Tropenwälder und seltene Tiere. Über Jahrhunderte allerdings musste der Wald immer weiter weichen - vor allem für die Landwirtschaft. Seit den 1980er Jahren steuert das Land um. Riesige Flächen wurden.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122063500 +0000" channel="ARTE.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="ARTE.uk@SD">
     <title lang="en">Metamorphosen - Die Wildnis kehrt zurück</title>
     <desc lang="en">Costa Rica ist berühmt für Nationalparks, Tropenwälder und seltene Tiere. Über Jahrhunderte allerdings musste der Wald immer weiter weichen - vor allem für die Landwirtschaft. Seit den 1980er Jahren steuert das Land um. Riesige Flächen wurden.</desc>
   </programme>
@@ -10072,10 +10072,10 @@
   <programme start="20261122010000 +0000" stop="20261122050000 +0000" channel="AsharqNews.uk@HD">
     <title lang="en">To Be Announced</title>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AsharqNews.uk@HD">
+  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="AsharqNews.uk@HD">
     <title lang="en">To Be Announced</title>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="AsharqNews.uk@HD">
+  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AsharqNews.uk@HD">
     <title lang="en">To Be Announced</title>
   </programme>
   <programme start="20261122090000 +0000" stop="20261122130000 +0000" channel="AsharqNews.uk@HD">
@@ -10123,11 +10123,11 @@
     <title lang="en">Kanal nicht mehr verfügbar</title>
     <desc lang="en">Dieser Kanal ist nicht mehr verfügbar.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AstroTV.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="AstroTV.uk@SD">
     <title lang="en">Kanal nicht mehr verfügbar</title>
     <desc lang="en">Dieser Kanal ist nicht mehr verfügbar.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="AstroTV.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="AstroTV.uk@SD">
     <title lang="en">Kanal nicht mehr verfügbar</title>
     <desc lang="en">Dieser Kanal ist nicht mehr verfügbar.</desc>
   </programme>
@@ -15890,11 +15890,11 @@
     <title lang="en">Bill's Included</title>
     <desc lang="en">When Bill's wife walks out on him for the gardener, he's left lonely and broke. In the hope of turning his life around, he lets out his spare rooms to four students.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBC2England.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBC2England.uk@SD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBC2England.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBC2England.uk@SD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
@@ -34104,11 +34104,11 @@
     <title lang="en">Bill's Included</title>
     <desc lang="en">When Bill's wife walks out on him for the gardener, he's left lonely and broke. In the hope of turning his life around, he lets out his spare rooms to four students.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBCTwoNationalEnglandForScotland.uk@ScotlandHD">
+  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBCTwoNationalEnglandForScotland.uk@ScotlandHD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBCTwoNationalEnglandForScotland.uk@ScotlandHD">
+  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBCTwoNationalEnglandForScotland.uk@ScotlandHD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
@@ -34315,11 +34315,11 @@
     <title lang="en">Bill's Included</title>
     <desc lang="en">When Bill's wife walks out on him for the gardener, he's left lonely and broke. In the hope of turning his life around, he lets out his spare rooms to four students.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBCTwoNIreland.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBCTwoNIreland.uk@SD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122063000 +0000" channel="BBCTwoNIreland.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="BBCTwoNIreland.uk@SD">
     <title lang="en">This Is BBC TWO</title>
     <desc lang="en">Preview of upcoming programmes from BBC Two.</desc>
   </programme>
@@ -34528,7 +34528,7 @@
   </programme>
   <programme start="20261121080600 +0000" stop="20261121090000 +0000" channel="BBCWorldSv.uk@SD">
     <title lang="en">Weekend</title>
-    <desc lang="en">A review of the week with the latest news.</desc>
+    <desc lang="en">Warsaw described the incident as a 'provocation' from Moscow.</desc>
   </programme>
   <programme start="20261121090000 +0000" stop="20261121090600 +0000" channel="BBCWorldSv.uk@SD">
     <title lang="en">BBC News</title>
@@ -48486,11 +48486,11 @@
     <title lang="en">The Simpsons</title>
     <desc lang="en">Principal Skinner persuades Homer and Marge to place their son on a student exchange programme. Meanwhile, an Albanian child comes to Springfield intent on a spot of industrial espionage.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="Channel4Midlands.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122061500 +0000" channel="Channel4Midlands.uk@SD">
     <title lang="en">Cheers</title>
     <desc lang="en">Rebecca has a phony romance with Sam to protect herself from Martin Teal.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122061500 +0000" channel="Channel4Midlands.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="Channel4Midlands.uk@SD">
     <title lang="en">Cheers</title>
     <desc lang="en">Rebecca has a phony romance with Sam to protect herself from Martin Teal.</desc>
   </programme>
@@ -48741,11 +48741,11 @@
     <title lang="en">The Simpsons</title>
     <desc lang="en">Principal Skinner persuades Homer and Marge to place their son on a student exchange programme. Meanwhile, an Albanian child comes to Springfield intent on a spot of industrial espionage.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="Channel4SouthEast.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122061500 +0000" channel="Channel4SouthEast.uk@SD">
     <title lang="en">Cheers</title>
     <desc lang="en">Rebecca has a phony romance with Sam to protect herself from Martin Teal.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122061500 +0000" channel="Channel4SouthEast.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="Channel4SouthEast.uk@SD">
     <title lang="en">Cheers</title>
     <desc lang="en">Rebecca has a phony romance with Sam to protect herself from Martin Teal.</desc>
   </programme>
@@ -59591,10 +59591,10 @@
   <programme start="20261121230000 +0000" stop="20261122030000 +0000" channel="CTC.uk@SD">
     <title lang="en">Programma STS</title>
   </programme>
-  <programme start="20261122030000 +0000" stop="20261122110000 +0000" channel="CTC.uk@SD">
+  <programme start="20261122030000 +0000" stop="20261122033000 +0000" channel="CTC.uk@SD">
     <title lang="en">Programma STS</title>
   </programme>
-  <programme start="20261122030000 +0000" stop="20261122033000 +0000" channel="CTC.uk@SD">
+  <programme start="20261122030000 +0000" stop="20261122110000 +0000" channel="CTC.uk@SD">
     <title lang="en">Programma STS</title>
   </programme>
   <programme start="20261122110000 +0000" stop="20261122150000 +0000" channel="CTC.uk@SD">
@@ -59633,10 +59633,10 @@
   <programme start="20261122020000 +0000" stop="20261122050000 +0000" channel="CubavisiNInternacional.uk@SD">
     <title lang="en">Cubavisión Internacional</title>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="CubavisiNInternacional.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="CubavisiNInternacional.uk@SD">
     <title lang="en">Cubavisión Internacional</title>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="CubavisiNInternacional.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122090000 +0000" channel="CubavisiNInternacional.uk@SD">
     <title lang="en">Cubavisión Internacional</title>
   </programme>
   <programme start="20261122090000 +0000" stop="20261122130000 +0000" channel="CubavisiNInternacional.uk@SD">
@@ -70165,10 +70165,10 @@
     <title lang="en">Asphalt-Cowboys</title>
     <desc lang="en">Dokumentation über den Alltag der Asphalt-Cowboys, der Könige der Autobahn: der Trucker. In tonnenschweren Lastwagen fahren sie durch ganz Europa, immer unter Zeitdruck, immer fern von zu Hause. Trotz allem würden sie ihren Job nicht tauschen wollen.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="DMAXAustria.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122075000 +0000" channel="DMAXAustria.uk@SD">
     <title lang="en">Infomercial</title>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122075000 +0000" channel="DMAXAustria.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="DMAXAustria.uk@SD">
     <title lang="en">Infomercial</title>
   </programme>
   <programme start="20261122075000 +0000" stop="20261122085000 +0000" channel="DMAXAustria.uk@SD">
@@ -89359,11 +89359,11 @@
     <title lang="en">Haunted Case Files</title>
     <desc lang="en">The spirit of a murderer tries to possess an investigator in an Ohio library, and a woman is terrorised by shadow-like figures in her home in Massachusetts.</desc>
   </programme>
-  <programme start="20261122054200 +0000" stop="20261122063700 +0000" channel="HauntTV.uk@SD">
+  <programme start="20261122054200 +0000" stop="20261122061200 +0000" channel="HauntTV.uk@SD">
     <title lang="en">Haunted Case Files</title>
     <desc lang="en">A woman and her teenage daughter are terrorised by apparitions, while in Arizona, something sinister is found lurking in an abandoned factory.</desc>
   </programme>
-  <programme start="20261122054200 +0000" stop="20261122061200 +0000" channel="HauntTV.uk@SD">
+  <programme start="20261122054200 +0000" stop="20261122063700 +0000" channel="HauntTV.uk@SD">
     <title lang="en">Haunted Case Files</title>
     <desc lang="en">A woman and her teenage daughter are terrorised by apparitions, while in Arizona, something sinister is found lurking in an abandoned factory.</desc>
   </programme>
@@ -102288,11 +102288,11 @@
     <title lang="en">Grantchester</title>
     <desc lang="en">Geordie and new vicar Alphy Kottaram get off on the wrong foot but soon find themselves investigating the murder of a local landowner.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITV1GranadaBorder.uk@GranadaPlus1">
+  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITV1GranadaBorder.uk@GranadaPlus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITV1GranadaBorder.uk@GranadaPlus1">
+  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITV1GranadaBorder.uk@GranadaPlus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
@@ -102781,11 +102781,11 @@
     <title lang="en">Grantchester</title>
     <desc lang="en">Geordie and new vicar Alphy Kottaram get off on the wrong foot but soon find themselves investigating the murder of a local landowner.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITV1CentralHour.uk@Plus1">
+  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITV1CentralHour.uk@Plus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITV1CentralHour.uk@Plus1">
+  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITV1CentralHour.uk@Plus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
@@ -108927,11 +108927,11 @@
     <title lang="en">Grantchester</title>
     <desc lang="en">Geordie and new vicar Alphy Kottaram get off on the wrong foot but soon find themselves investigating the murder of a local landowner.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITVWestCountry.uk@Plus1">
+  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITVWestCountry.uk@Plus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
-  <programme start="20261122045000 +0000" stop="20261122052000 +0000" channel="ITVWestCountry.uk@Plus1">
+  <programme start="20261122045000 +0000" stop="20261122060500 +0000" channel="ITVWestCountry.uk@Plus1">
     <title lang="en">Unwind with ITV</title>
     <desc lang="en">A daily delivery of bespoke Mindfulness content designed to calm the mind and encourage relaxation and reflection.</desc>
   </programme>
@@ -115091,11 +115091,11 @@
     <title lang="en">Reisebilder Mongolei - Biwak nonstop - Von der Wüste Gobi bis ins Altai-Gebirge</title>
     <desc lang="en">Die Dokumentation zeigt eine Reise von der Wüste Gobi bis ins Altai-Gebirge in der Mongolei.</desc>
   </programme>
-  <programme start="20261122045500 +0000" stop="20261122052500 +0000" channel="MDRSachsenAnhalt.uk@SD">
+  <programme start="20261122045500 +0000" stop="20261122062500 +0000" channel="MDRSachsenAnhalt.uk@SD">
     <title lang="en">Praxis mit Meerblick</title>
     <desc lang="en">Gegen einen Ohrwurm gibt es keine wirksame Medizin: Das muss Nora Kaminski am eigenen Leib erfahren. Der Rügen-Ärztin geht ihr gemeinsames Lied mit Peer ebenso wenig aus dem Kopf, wie sich der frühere Ehemann aus ihrem Herzen verbannen lässt.</desc>
   </programme>
-  <programme start="20261122045500 +0000" stop="20261122062500 +0000" channel="MDRSachsenAnhalt.uk@SD">
+  <programme start="20261122045500 +0000" stop="20261122052500 +0000" channel="MDRSachsenAnhalt.uk@SD">
     <title lang="en">Praxis mit Meerblick</title>
     <desc lang="en">Gegen einen Ohrwurm gibt es keine wirksame Medizin: Das muss Nora Kaminski am eigenen Leib erfahren. Der Rügen-Ärztin geht ihr gemeinsames Lied mit Peer ebenso wenig aus dem Kopf, wie sich der frühere Ehemann aus ihrem Herzen verbannen lässt.</desc>
   </programme>
@@ -119260,11 +119260,11 @@
   <programme start="20261122043000 +0000" stop="20261122051500 +0000" channel="N24DokuAustria.uk@SD">
     <title lang="en">Militärtechnik</title>
   </programme>
-  <programme start="20261122051500 +0000" stop="20261122054500 +0000" channel="N24DokuAustria.uk@SD">
+  <programme start="20261122051500 +0000" stop="20261122060500 +0000" channel="N24DokuAustria.uk@SD">
     <title lang="en">Mayday - Alarm im Cockpit</title>
     <desc lang="en">Am 24. März 2015 befindet sich die Maschine des Germanwings-Flugs 9525 auf dem Weg von Barcelona nach Düsseldorf. Urplötzlich verliert der Airbus A320-211 über den Alpen innerhalb kürzester Zeit an Höhe. Sofort leitet die französische Flugsicherung Notfallmaßnahmen ein und versucht, den Piloten zu erreichen. Vergeblich: Der Jet verschwindet vom Radar. Erst Stunden später werden in einer unzugänglichen Bergregion Wrackteile und die Überreste von 150 Menschen entdeckt.</desc>
   </programme>
-  <programme start="20261122051500 +0000" stop="20261122060500 +0000" channel="N24DokuAustria.uk@SD">
+  <programme start="20261122051500 +0000" stop="20261122054500 +0000" channel="N24DokuAustria.uk@SD">
     <title lang="en">Mayday - Alarm im Cockpit</title>
     <desc lang="en">Am 24. März 2015 befindet sich die Maschine des Germanwings-Flugs 9525 auf dem Weg von Barcelona nach Düsseldorf. Urplötzlich verliert der Airbus A320-211 über den Alpen innerhalb kürzester Zeit an Höhe. Sofort leitet die französische Flugsicherung Notfallmaßnahmen ein und versucht, den Piloten zu erreichen. Vergeblich: Der Jet verschwindet vom Radar. Erst Stunden später werden in einer unzugänglichen Bergregion Wrackteile und die Überreste von 150 Menschen entdeckt.</desc>
   </programme>
@@ -120510,11 +120510,11 @@
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Super-Edgar beginnt damit, Superhelden zu imitieren. Bosse, der missmutige Igel, macht sich über ihn lustig und Super-Edgar weiß nicht weiter. Seine Freunde beschließen, sich als Superbösewichte auszugeben, um seine Moral wieder zu stärken.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenHH.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenHH.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenHH.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenHH.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
@@ -120788,11 +120788,11 @@
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Super-Edgar beginnt damit, Superhelden zu imitieren. Bosse, der missmutige Igel, macht sich über ihn lustig und Super-Edgar weiß nicht weiter. Seine Freunde beschließen, sich als Superbösewichte auszugeben, um seine Moral wieder zu stärken.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenMV.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenMV.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenMV.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenMV.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
@@ -121074,11 +121074,11 @@
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Super-Edgar beginnt damit, Superhelden zu imitieren. Bosse, der missmutige Igel, macht sich über ihn lustig und Super-Edgar weiß nicht weiter. Seine Freunde beschließen, sich als Superbösewichte auszugeben, um seine Moral wieder zu stärken.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenNDS.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenNDS.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenNDS.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenNDS.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
@@ -121360,11 +121360,11 @@
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Super-Edgar beginnt damit, Superhelden zu imitieren. Bosse, der missmutige Igel, macht sich über ihn lustig und Super-Edgar weiß nicht weiter. Seine Freunde beschließen, sich als Superbösewichte auszugeben, um seine Moral wieder zu stärken.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenSH.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenSH.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="NDRFernsehenSH.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="NDRFernsehenSH.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
@@ -139095,11 +139095,11 @@
     <title lang="en">kinokino</title>
     <desc lang="en">Das Filmmagazin stellt die wichtigsten Neustarts und Themen aus der Filmwelt vor. Das Magazin zeigt Porträts und Interviews mit Schauspielern und Regisseuren. Es werden die Tops und Flops kritisiert und von den spannendsten Festivals berichtet.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122064500 +0000" channel="One.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="One.uk@SD">
     <title lang="en">Daheim in den Bergen</title>
     <desc lang="en">Marie Huber und Georg Leitner haben bei einer Hausgeburt auf der Alm ihr Baby bekommen. In diesem Glücksmoment erhalten die jungen Eltern jedoch eine schreckliche Nachricht: Ihre Väter, Sebastian und Lorenz, sind mit dem Auto tödlich verunglückt.</desc>
   </programme>
-  <programme start="20261122052000 +0000" stop="20261122055000 +0000" channel="One.uk@SD">
+  <programme start="20261122052000 +0000" stop="20261122064500 +0000" channel="One.uk@SD">
     <title lang="en">Daheim in den Bergen</title>
     <desc lang="en">Marie Huber und Georg Leitner haben bei einer Hausgeburt auf der Alm ihr Baby bekommen. In diesem Glücksmoment erhalten die jungen Eltern jedoch eine schreckliche Nachricht: Ihre Väter, Sebastian und Lorenz, sind mit dem Auto tödlich verunglückt.</desc>
   </programme>
@@ -139678,11 +139678,11 @@
     <title lang="en">Der Bergdoktor</title>
     <desc lang="en">Lilli hat Liebeskummer, und Lisbeth fragt Martin, ob ihnen die Rettung des Gruberhofs geglückt sei. Denn Martin hat Anne gestanden, dass die Grubers dafür gesorgt haben, dass der Käufer für Arthurs Felder abgesprungen ist. Martin muss dringend mit Anne reden. Doch er wird zunächst zur Familie Löffler gerufen, deren älteste Tochter Lisa bereits mehrfach an Leukämie erkrankt war und akut an starken Schmerzen am Rücken leidet.</desc>
   </programme>
-  <programme start="20261122052500 +0000" stop="20261122055500 +0000" channel="ORF2Wien.uk@SD">
+  <programme start="20261122052500 +0000" stop="20261122061500 +0000" channel="ORF2Wien.uk@SD">
     <title lang="en">Text Aktuell</title>
     <desc lang="en">Ein Service von ORF-Teletext mit den Schlagzeilen des Tages und dem Wetterbericht.</desc>
   </programme>
-  <programme start="20261122052500 +0000" stop="20261122061500 +0000" channel="ORF2Wien.uk@SD">
+  <programme start="20261122052500 +0000" stop="20261122055500 +0000" channel="ORF2Wien.uk@SD">
     <title lang="en">Text Aktuell</title>
     <desc lang="en">Ein Service von ORF-Teletext mit den Schlagzeilen des Tages und dem Wetterbericht.</desc>
   </programme>
@@ -149466,11 +149466,11 @@
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Super-Edgar beginnt damit, Superhelden zu imitieren. Bosse, der missmutige Igel, macht sich über ihn lustig und Super-Edgar weiß nicht weiter. Seine Freunde beschließen, sich als Superbösewichte auszugeben, um seine Moral wieder zu stärken.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="RADIOBREMEN.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="RADIOBREMEN.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122061500 +0000" channel="RADIOBREMEN.uk@SD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="RADIOBREMEN.uk@SD">
     <title lang="en">Edgar, das Super-Karibu</title>
     <desc lang="en">Das Super-Karibu ist der Helfer in der Not, egal zu welcher Zeit und egal an welchem Ort, stets einsatzbereit - wie ein richtiger Superheld. Das findet auch Gina, die bezaubernde Kamel-Dame, an die Super-Edgar sein Herz verloren hat.</desc>
   </programme>
@@ -150340,11 +150340,11 @@
     <title lang="en">Wilde Berliner</title>
     <desc lang="en">Ursula Stöter aus dem brandenburgischen Krangen kümmert sich neben Fuchsbaby Miley auch um 14 kleine Waschbären-Waisenkinder. Die Tiere wurden in der Umgebung von Passanten gefunden und zu ihr auf den Hof gebracht. Ursula Stöter versucht so gut es geht, als Ersatz-Mutter einzuspringen. Heute darf ein kleines Geschwisterpaar zum ersten Mal zur Turnstunde in den Kirschbaum. Norbert Dornbusch ist Drucker an der TU-Berlin und leidenschaftlicher Eichhörnchenfreund.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="RBBBerlinFernsehen.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122063000 +0000" channel="RBBBerlinFernsehen.uk@SD">
     <title lang="en">Brisant</title>
     <desc lang="en">Das Boulevardmagazin berichtet über Prominente und besonders dramatische Ereignisse.</desc>
   </programme>
-  <programme start="20261122055000 +0000" stop="20261122063000 +0000" channel="RBBBerlinFernsehen.uk@SD">
+  <programme start="20261122055000 +0000" stop="20261122062000 +0000" channel="RBBBerlinFernsehen.uk@SD">
     <title lang="en">Brisant</title>
     <desc lang="en">Das Boulevardmagazin berichtet über Prominente und besonders dramatische Ereignisse.</desc>
   </programme>
@@ -196868,11 +196868,11 @@
     <title lang="en">So isst ?</title>
     <desc lang="en">Die italienische Insel Sizilien verführt mit atemberaubenden Landschaften und kulinarischen Genüssen. Wer süße Verlockungen sucht, sollte nach Noto reisen, in die barocke Perle im Südosten der Insel. Im Caffè Sicilia verzaubert Corrado Assenza.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="SWRFernsehenRP.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122070000 +0000" channel="SWRFernsehenRP.uk@SD">
     <title lang="en">SWR3 FIT</title>
     <desc lang="en">Die Ausgabe ist perfekt für alle, die auch am Wochenende gerne früh aufstehen, zur Arbeit unterwegs sind oder Lust auf Abwechslung haben. Während der Musikstrecken ergänzen aktuelle Nachrichten zum Nachlesen die Livebilder aus dem Studio.</desc>
   </programme>
-  <programme start="20261122050000 +0000" stop="20261122070000 +0000" channel="SWRFernsehenRP.uk@SD">
+  <programme start="20261122050000 +0000" stop="20261122053000 +0000" channel="SWRFernsehenRP.uk@SD">
     <title lang="en">SWR3 FIT</title>
     <desc lang="en">Die Ausgabe ist perfekt für alle, die auch am Wochenende gerne früh aufstehen, zur Arbeit unterwegs sind oder Lust auf Abwechslung haben. Während der Musikstrecken ergänzen aktuelle Nachrichten zum Nachlesen die Livebilder aus dem Studio.</desc>
   </programme>
@@ -203980,13 +203980,13 @@
   </programme>
   <programme start="20261122191500 +0000" stop="20261122201500 +0000" channel="TNTSports4.uk@HD">
     <title lang="en">1st Test: New Zealand v India</title>
-    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington.</desc>
+    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington. The tourists are in a commanding position, resuming on 486 for four with a lead of 118 runs.</desc>
     <icon src="https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640" />
     <image>https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640</image>
   </programme>
   <programme start="20261122191500 +0000" stop="20261122201500 +0000" channel="TNTSports4.uk@HD">
     <title lang="en">1st Test: New Zealand v India</title>
-    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington.</desc>
+    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington. The tourists are in a commanding position, resuming on 486 for four with a lead of 118 runs.</desc>
     <icon src="https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640" />
     <image>https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640</image>
   </programme>
@@ -225333,11 +225333,11 @@
     <title lang="en">Verklag mich doch!</title>
     <desc lang="en">Kirsten Seibert wird seit einiger Zeit von einem Stalker beobachtet und verfolgt. Als sie herausfindet, wer ihr Stalker ist, beschließt sie, ihn mit einer richterlichen Anordnung nach dem Gewaltschutzgesetz endgültig aus ihrem Leben zu verbannen.</desc>
   </programme>
-  <programme start="20261122053500 +0000" stop="20261122060500 +0000" channel="Voxup.uk@SD">
+  <programme start="20261122053500 +0000" stop="20261122062500 +0000" channel="Voxup.uk@SD">
     <title lang="en">Verklag mich doch!</title>
     <desc lang="en">Helen Schneider lässt sich künstlich befruchten und wird schwanger. Allerdings macht das Krankenhaus einen Fehler. Helens befruchtete Eizelle wurde mit der eines anderen Paares vertauscht. Nun stellt sich die Frage, wem welches Baby gehört.</desc>
   </programme>
-  <programme start="20261122053500 +0000" stop="20261122062500 +0000" channel="Voxup.uk@SD">
+  <programme start="20261122053500 +0000" stop="20261122060500 +0000" channel="Voxup.uk@SD">
     <title lang="en">Verklag mich doch!</title>
     <desc lang="en">Helen Schneider lässt sich künstlich befruchten und wird schwanger. Allerdings macht das Krankenhaus einen Fehler. Helens befruchtete Eizelle wurde mit der eines anderen Paares vertauscht. Nun stellt sich die Frage, wem welches Baby gehört.</desc>
   </programme>
@@ -225475,6 +225475,133 @@
   <channel id="WDRAachen.uk@SD">
     <display-name>WDR Aachen</display-name>
   </channel>
+  <programme start="20261121055000 +0000" stop="20261121062000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Lokalzeit aus Duisburg</title>
+    <desc lang="en">Das Lokalzeit-Studio versorgt die Zuschauer mit Nachrichten und Berichten aus Duisburg. Die regionalen Nachrichten rund um Duisburg sprechen Themen in den Bereichen Gesellschaft, Politik, Wirtschaft und Kultur an.</desc>
+  </programme>
+  <programme start="20261121062000 +0000" stop="20261121065000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Sehen statt Hören</title>
+    <desc lang="en">Präsentiert werden Informationen aus Gesellschaft, Kultur, Familie, Arbeit, Freizeit, Sport und Technik werden mit visuellen Mitteln für diejenigen Zuschauer/Innen verständlich gemacht, die den Ton nicht oder nicht gut hören können.</desc>
+  </programme>
+  <programme start="20261121065000 +0000" stop="20261121071000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Erlebnisreisen</title>
+    <desc lang="en">Die Zusammenfassung von Magazinbeiträgen aus der Servicezeit oder kürzere exklusive Reportagen.</desc>
+  </programme>
+  <programme start="20261121071000 +0000" stop="20261121073500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Die Sendung mit dem Elefanten</title>
+    <desc lang="en">Der beste Freund der Maus verzaubert mit seiner ganz eigenen Sendung. Er erfreut seine Zuschauer mit vielen Lach- und Sachgeschichten und bringt sie damit zum Lachen und Staunen.</desc>
+  </programme>
+  <programme start="20261121073500 +0000" stop="20261121080500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Die Sendung mit der Maus</title>
+    <desc lang="en">Hilfreiche Antworten auf kindliche Fragen werden in informativen Sachgeschichten beantwortet. Außerdem unterhalten die Maus, die Ente und der Elefant mit lustigen Geschichten und Liedern. Groß und Klein erfreuen sich an den Lach- und Sachgeschichten.</desc>
+  </programme>
+  <programme start="20261121080500 +0000" stop="20261121100000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Top 444 Countdown - Die größten Hits für NRW</title>
+    <desc lang="en">Gemeinsam mit Zuschauern feiern die "WDR 4"-Moderatoren die Hits unterschiedlicher Jahrzehnte. Nach dem Motto: "Jetzt bestimmen Sie, welche Musik gespielt wird!" wurden die Lieblingshits gesucht und in die Top 444 eingeordnet.</desc>
+  </programme>
+  <programme start="20261121100000 +0000" stop="20261121101500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Unsere Tipps - Ausflugs-Highlights im Westen</title>
+    <desc lang="en">Überall in NRW gibt es spannende Orte zu entdecken - darunter echte Geheimtipps. Gemeinsam mit Daniel Assmann erkunden wir Ausflugstipps im Westen für Familien und alle, die mal rauswollen und etwas erleben möchten: ruhig oder mit viel Action.</desc>
+  </programme>
+  <programme start="20261121101500 +0000" stop="20261121104500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Raus aufs Land</title>
+    <desc lang="en">In der Sendung werden Menschen aus Berlin begleitet, die raus auf das Land in Brandenburg ziehen. Gezeigt wird, wie sie sich in der neuen Umgebung zurechtfinden, wie die Kinder Anschluss finden und was die Alteingesessenen denken.</desc>
+  </programme>
+  <programme start="20261121104500 +0000" stop="20261121111500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Kochen mit Martina und Moritz</title>
+    <desc lang="en">Die berühmtesten Bratwürste Deutschlands kommen aus Franken und aus Thüringen. Ob die kleinen Nürnberger, die Fränkischen Bratwürstchen oder die größeren und dickeren Bratwürste aus Thüringen - immer sind sie knusprig, saftig und voller Duft. Die Fernsehköche Martina und Moritz zeigen, wie man Würste selber macht. Aber natürlich kann man auch mit beim Metzger gekauften Würsten herzhafte Gerichte zubereiten. Martina und Moritz haben wunderbare Rezepte ausprobiert.</desc>
+  </programme>
+  <programme start="20261121111500 +0000" stop="20261121114500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Meisterküche</title>
+    <desc lang="en">Für den diesjährigen Sommer haben sich die Köche Martina und Moritz, Björn Freitag und Martina Kömpel was ganz besonderes ausgedacht: Sie präsentieren ihre ausgefeilte und raffinierte Kochkunst in einer neuen Sendereihe.</desc>
+  </programme>
+  <programme start="20261121114500 +0000" stop="20261121120000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">WDR aktuell</title>
+    <desc lang="en">Die Sendung bietet Nachrichten für und aus Nordrhein-Westfalen im Magazinformat.</desc>
+  </programme>
+  <programme start="20261121120000 +0000" stop="20261121124500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Lokomotiven und Legenden</title>
+  </programme>
+  <programme start="20261121124500 +0000" stop="20261121125500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Erlebnisreisen</title>
+    <desc lang="en">Die Zusammenfassung von Magazinbeiträgen aus der Servicezeit oder kürzere exklusive Reportagen.</desc>
+  </programme>
+  <programme start="20261121125500 +0000" stop="20261121150000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Sport im Westen</title>
+    <desc lang="en">14. Spieltag.</desc>
+  </programme>
+  <programme start="20261121150000 +0000" stop="20261121151500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">WDR aktuell</title>
+    <desc lang="en">Die Sendung bietet Nachrichten für und aus Nordrhein-Westfalen im Magazinformat.</desc>
+  </programme>
+  <programme start="20261121151500 +0000" stop="20261121160000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Der Vorkoster</title>
+    <desc lang="en">Der renommierte Koch Björn Freitag nimmt die moderne Lebensmittelindustrie genau unter die Lupe.</desc>
+  </programme>
+  <programme start="20261121160000 +0000" stop="20261121164500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Land &amp; lecker</title>
+    <desc lang="en">Die Reportage stellt die Landwirtin Agnes Jaud vor, die in Oberbayern den über 100 Jahre alten Milchhof ihrer Familie um eine eigene Bio-Käsemanufaktur erweitert hat. Jede ihrer handgemachten Käsespezialitäten wird aus Heumilch hergestellt.</desc>
+  </programme>
+  <programme start="20261121164500 +0000" stop="20261121171500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Meisterküche</title>
+    <desc lang="en">Für den diesjährigen Sommer haben sich die Köche Martina und Moritz, Björn Freitag und Martina Kömpel was ganz Besonderes ausgedacht: Sie präsentieren ihre ausgefeilte und raffinierte Kochkunst in einer neuen Sendereihe.</desc>
+  </programme>
+  <programme start="20261121171500 +0000" stop="20261121174500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">west.art</title>
+    <desc lang="en">Es wird über Kulturereignisse, wie Bücher, Filme, Ausstellungen und mehr aus dem Westen, berichtet. Auch Musikevents, aktuelle Gesellschaftsphänomene, Trends, Kultur-Hotspots oder brisante Kultur-politische Themen der Region werden beleuchtet.</desc>
+  </programme>
+  <programme start="20261121174500 +0000" stop="20261121183000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Aktuelle Stunde</title>
+    <desc lang="en">Regionales Infotainmentmagazin mit den aktuellsten Neuigkeiten aus Nordrhein-Westfalen, Deutschland und der Welt. Die Aktuelle Stunde bringt Themen und Geschichten, die die Menschen zwischen Rhein und Weser interessieren, bewegen und berühren.</desc>
+  </programme>
+  <programme start="20261121183000 +0000" stop="20261121190000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Lokalzeit</title>
+    <desc lang="en">Die Sendung beschäftigt sich mit den lokalen Ereignissen und Nachrichten. Hinzu kommen verschiedene Berichte zu aktuellen Themen verschiedener Art.</desc>
+  </programme>
+  <programme start="20261121190000 +0000" stop="20261121191500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Tagesschau</title>
+    <desc lang="en">Wir berichten über die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20261121191500 +0000" stop="20261121221500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Top 444 Countdown - Die größten Hits für NRW</title>
+    <desc lang="en">Gemeinsam mit Zuschauern feiern die "WDR 4"-Moderatoren die Hits unterschiedlicher Jahrzehnte. Nach dem Motto: "Jetzt bestimmen Sie, welche Musik gespielt wird!" wurden die Lieblingshits gesucht und in die Top 444 eingeordnet.</desc>
+  </programme>
+  <programme start="20261121221500 +0000" stop="20261121230000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Ladies Night</title>
+    <desc lang="en">Lisa Feller fragt, warum uns KI-generierte Früchte emotional mitnehmen. Ninia LaGrande blickt kritisch auf die heutige Datingwelt. Lu Komma Klar entlarvt Babys als die wahren Highperformer und Jane Mumford fragt, wann gesund leben cool geworden ist.</desc>
+  </programme>
+  <programme start="20261121230000 +0000" stop="20261121234500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Ladies Night</title>
+    <desc lang="en">Fräulein Jahnke alias Gerburg Jahnke geht der Frage nach, in welcher geheimnisvollen Welt Frauen eigentlich leben. Antworten und noch mehr Fragen zu diesem Thema gibt es in der einzigen deutschen Kabarett- und Comedyshow mit reiner Frauenbesetzung.</desc>
+  </programme>
+  <programme start="20261121234500 +0000" stop="20261122015000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Im Rausch der Tiefe</title>
+    <desc lang="en">Schon in ihrer Kindheit auf den griechischen Inseln verbindet den schweigsamen Jacques und den extrovertierten Enzo die Liebe zum Meer. 20 Jahre später hält Enzo den Weltmeistertitel im Tiefseetauchen ohne Sauerstoffgerät. Jacques taucht auch beruflich, aber im Dienst der Wissenschaft, außerdem hat er kürzlich die New Yorker Versicherungsagentin Johana kennen- und liebengelernt. Nun fordert Enzo seinen Freund vor der Küste Siziliens zum Tauch-Wettstreit heraus.</desc>
+  </programme>
+  <programme start="20261122015000 +0000" stop="20261122024000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Watzmann ermittelt</title>
+    <desc lang="en">Die Berchtesgadener staunen nicht schlecht: Dutzende Weihnachtsmänner bevölkern mitten im Sommer ihr Stadtzentrum. Die Aufregung nutzen zwei Männer, ein Juweliergeschäft auszurauben. Kurz danach wird ein toter Weihnachtsmann gefunden.</desc>
+  </programme>
+  <programme start="20261122024000 +0000" stop="20261122033000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Watzmann ermittelt</title>
+    <desc lang="en">Doris Renz, Scheidungsanwältin und Solistin eines bekannten Laien-Chores, wird ermordet aufgefunden. Schnell wird klar: Die Getötete war in dem Chor ziemlich unbeliebt, Jerry vermutet gar Mobbing. Vor allem Nina Golling war die Tote ein Dorn im Auge.</desc>
+  </programme>
+  <programme start="20261122033000 +0000" stop="20261122050000 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Wunderschön!</title>
+    <desc lang="en">Die Sendung stellt eine Region der Erde mit ihrer landschaftlichen und kulturellen Schönheit vor.</desc>
+  </programme>
+  <programme start="20261122050000 +0000" stop="20261122051500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Erlebnisreisen</title>
+    <desc lang="en">Die Zusammenfassung von Magazinbeiträgen aus der Servicezeit oder kürzere exklusive Reportagen.</desc>
+  </programme>
+  <programme start="20261122051500 +0000" stop="20261122054500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Lokalzeit</title>
+    <desc lang="en">Die Sendung beschäftigt sich mit den lokalen Ereignissen und Nachrichten. Hinzu kommen verschiedene Berichte zu aktuellen Themen verschiedener Art.</desc>
+  </programme>
+  <programme start="20261122054500 +0000" stop="20261122061500 +0000" channel="WDRAachen.uk@SD">
+    <title lang="en">Quarks im Ersten</title>
+    <desc lang="en">Das Wissenschaftsmagazin geht unterschiedlichen Themen mit interessanten Erklärungen auf den Grund.</desc>
+  </programme>
   <programme start="20261122054500 +0000" stop="20261122061500 +0000" channel="WDRAachen.uk@SD">
     <title lang="en">Quarks im Ersten</title>
     <desc lang="en">Das Wissenschaftsmagazin geht unterschiedlichen Themen mit interessanten Erklärungen auf den Grund.</desc>
@@ -227576,10 +227703,10 @@
     <title lang="en">Mayday</title>
     <desc lang="en">Über der sturmgepeitschten Nordsee wird eine Turboprop-Maschine vom Blitz getroffen. Im Cockpit fallen die Instrumente aus, das Flugzeug rast in die Tiefe, der Aufprall scheint unausweichlich. Bei der Untersuchung wird etwas Ungewöhnliches entdeckt.</desc>
   </programme>
-  <programme start="20261122055900 +0000" stop="20261122062900 +0000" channel="Welt.uk@SD">
+  <programme start="20261122055900 +0000" stop="20261122061900 +0000" channel="Welt.uk@SD">
     <title lang="en">Die Welt am Morgen</title>
   </programme>
-  <programme start="20261122055900 +0000" stop="20261122061900 +0000" channel="Welt.uk@SD">
+  <programme start="20261122055900 +0000" stop="20261122062900 +0000" channel="Welt.uk@SD">
     <title lang="en">Die Welt am Morgen</title>
   </programme>
   <programme start="20261122061900 +0000" stop="20261122063500 +0000" channel="Welt.uk@SD">
@@ -228848,11 +228975,11 @@
     <title lang="en">Pettersson und Findus</title>
     <desc lang="en">Pettersson geht mit Findus fischen und genießt die Ruhe, bis Signhild kommt, um genau hier den Angelwettbewerb vorzubereiten. Während Findus eine Chance wittert, den ersten Preis, einen Korb voll leckerer Würstchen, zu gewinnen, flieht Pettersson den Trubel. Doch der Kater kann ihn überreden und Pettersson nimmt am Wettbewerb teil. Er fängt auch einen dicken Hecht, der aber landet bei Nachbar Gustavsson im Boot.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="ZDF.uk@HD">
+  <programme start="20261122055500 +0000" stop="20261122062000 +0000" channel="ZDF.uk@HD">
     <title lang="en">Für Hund und Katz ist auch noch Platz: Die Reise auf dem Hexenbesen</title>
     <desc lang="en">Als die Hexe gemeinsam mit ihrer Katze durch die Lüfte fliegt, packt der Wind plötzlich ihren Zauberhut, ihren Zauberstab und ihre Schleife. Glücklicherweise taucht ein freundlicher Hund mit dem Hut im Maul auf und bittet um ein Plätzchen auf dem Hexenbesen. Auch der Vogel, der die Haarschleife findet, möchte mitfliegen. Zuletzt kommt noch ein Frosch, der den Zauberstab herbeischafft. Die Katze ärgert sich über so viel Gastfreundschaft der Hexe. Und dann bricht auch noch der Besenstiel entzwei.</desc>
   </programme>
-  <programme start="20261122055500 +0000" stop="20261122062000 +0000" channel="ZDF.uk@HD">
+  <programme start="20261122055500 +0000" stop="20261122062500 +0000" channel="ZDF.uk@HD">
     <title lang="en">Für Hund und Katz ist auch noch Platz: Die Reise auf dem Hexenbesen</title>
     <desc lang="en">Als die Hexe gemeinsam mit ihrer Katze durch die Lüfte fliegt, packt der Wind plötzlich ihren Zauberhut, ihren Zauberstab und ihre Schleife. Glücklicherweise taucht ein freundlicher Hund mit dem Hut im Maul auf und bittet um ein Plätzchen auf dem Hexenbesen. Auch der Vogel, der die Haarschleife findet, möchte mitfliegen. Zuletzt kommt noch ein Frosch, der den Zauberstab herbeischafft. Die Katze ärgert sich über so viel Gastfreundschaft der Hexe. Und dann bricht auch noch der Besenstiel entzwei.</desc>
   </programme>
@@ -229332,11 +229459,11 @@
     <title lang="en">Der Schneider von Panama</title>
     <desc lang="en">Der britische Agent Osnard wirbt den Schneider Harry Pendel aus der Überlegung heraus an, dass ein Mann, der die feine Gesellschaft einkleidet, eigentlich das eine oder andere Gespräch über den Panama-Kanal mitbekommen müsste. Der vorbestrafte Pendel ist aber nicht der, für den ihn Osnard hält. Seine Geschichten entbehren meist jeglichen Wahrheitsgehalts. Doch dann wird Pendel klar, dass das gefährliche Spiel von Bluff und Gegenbluff eine Nummer zu groß für ihn geworden ist.</desc>
   </programme>
-  <programme start="20261122053500 +0000" stop="20261122060500 +0000" channel="Zdfneo.uk@HD">
+  <programme start="20261122053500 +0000" stop="20261122062000 +0000" channel="Zdfneo.uk@HD">
     <title lang="en">Terra X</title>
     <desc lang="en">Film von Ingo Helm und Volker Schmidt-Sondermann.</desc>
   </programme>
-  <programme start="20261122053500 +0000" stop="20261122062000 +0000" channel="Zdfneo.uk@HD">
+  <programme start="20261122053500 +0000" stop="20261122060500 +0000" channel="Zdfneo.uk@HD">
     <title lang="en">Terra X</title>
     <desc lang="en">Film von Ingo Helm und Volker Schmidt-Sondermann.</desc>
   </programme>
@@ -233130,13 +233257,13 @@
   </programme>
   <programme start="20261122191500 +0000" stop="20261122201500 +0000" channel="tntsports4.uk">
     <title lang="en">1st Test: New Zealand v India</title>
-    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington.</desc>
+    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington. The tourists are in a commanding position, resuming on 486 for four with a lead of 118 runs.</desc>
     <icon src="https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640" />
     <image>https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640</image>
   </programme>
   <programme start="20261122191500 +0000" stop="20261122201500 +0000" channel="tntsports4.uk">
     <title lang="en">1st Test: New Zealand v India</title>
-    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington.</desc>
+    <desc lang="en">Action from day four of the first Test between New Zealand and India in Wellington. The tourists are in a commanding position, resuming on 486 for four with a lead of 118 runs.</desc>
     <icon src="https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640" />
     <image>https://images.metadata.sky.com/pd-image/7411f7e8-1b24-432a-95ad-689c0108bb7c/16-9/640</image>
   </programme>
