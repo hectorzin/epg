@@ -52,6 +52,17 @@ class SpanishLoopEpgTests(unittest.TestCase):
         self.assertEqual(xtream.get("movistarplus.es"), "MovistarPlus.freeli")
         self.assertEqual(xtream.get("cima.es.bbchistory"), "MovistarPlus.bbhis")
 
+    def test_runtime_cine_pluto_id_is_curated(self):
+        runtime_id = "6086d3f420fc8500075f8dbf"
+        pluto = ET.parse(ROOT / "epg" / "es-pluto.channels.xml").getroot()
+        ids = {ch.get("xmltv_id") for ch in pluto.findall("channel")}
+        self.assertIn(runtime_id, ids)
+        aliases = json.loads(ALIASES.read_text(encoding="utf-8"))
+        xtream = json.loads(XTREAM.read_text(encoding="utf-8"))
+        self.assertIn("Runtime Cine", aliases[runtime_id])
+        self.assertNotIn("Runtime Acción", aliases[runtime_id])
+        self.assertEqual(xtream.get(runtime_id), runtime_id)
+
     def test_moviestardrama_no_longer_cloned_to_drama2(self):
         xtream = json.loads(XTREAM.read_text(encoding="utf-8"))
         self.assertNotIn("moviestardrama.es", xtream)
@@ -80,7 +91,7 @@ class SpanishLoopEpgTests(unittest.TestCase):
 
     def test_fast_channel_lists_exist(self):
         expected = {
-            "es-pluto.channels.xml": 36,
+            "es-pluto.channels.xml": 37,
             "es-samsung.channels.xml": 4,
             "es-rakuten.channels.xml": 8,
         }
