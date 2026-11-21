@@ -169,7 +169,11 @@ sites/<dominio>/
   `guides/guide-gb.xml` y `guides/guide-arabic.xml`. Si un id ya tiene programas, no vuelve a
   descargar esa parrilla: `RTI1.ci@SD`, `CRTV.cm@SD`, `ORTM1.ml@SD`, `2STV.sn@SD` y el resto de
   señales ya publicadas siguen en la guía que las tenía. TVC News Nigeria reutiliza
-  `TVCNews.ng@SD` de la guía británica y no copia sus programas. No se mezclan variantes: RTS Senegal no
+  `TVCNews.ng@SD` de la guía británica y no copia sus programas. Canal+ Afrique no usa el
+  parser de iptv-org: ese parser pide en paralelo la ficha de cada programa y, desde GitHub
+  Actions, Canal+ responde 403. `scripts/grab_canalplus_afrique.py` pide solo la parrilla
+  diaria (título, inicio y fin), con una pausa y reintentos, y no publica una salida por
+  debajo de 400 programas. No se mezclan variantes: RTS Senegal no
   usa RTS Suiza, ORTM 2 no usa ORTM 1, Canal 2 Internacional no usa Canal 2 Movies, Al Jazeera
   árabe no usa Al Jazeera English, TV5MONDE Info no usa TV5MONDE Afrique y TVM1 no usa TVM
   Internacional. Los `epg_channel_id` del panel están vacíos, así que no hay clones. Tras el

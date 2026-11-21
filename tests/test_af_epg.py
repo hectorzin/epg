@@ -281,6 +281,37 @@ class AfricanTableTests(unittest.TestCase):
             problems = validate.validate(guide, None, STATIONS, ALIASES, XTREAM, root)
             self.assertTrue(any("duplicates programmes" in problem for problem in problems), problems)
 
+    def test_validator_rejects_a_required_channel_shell_without_programmes(self):
+        validate = load_module("af_publish_validate_shell", VALIDATE_SCRIPT)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            stations = root / "stations.json"
+            aliases = root / "aliases.json"
+            xtream = root / "xtream.json"
+            guide = root / "guide-af.xml"
+            stations.write_text(
+                json.dumps(
+                    {
+                        "stations": [
+                            {
+                                "id": "RTS1.sn@SD",
+                                "names": ["AF RTS 1 -Senegal"],
+                                "panel_ids": [],
+                                "required": True,
+                                "sources": [{"site": "canalplus.com", "site_id": "sn#180076"}],
+                            }
+                        ],
+                        "unmatched": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            aliases.write_text(json.dumps({"RTS1.sn@SD": ["AF RTS 1 -Senegal"]}), encoding="utf-8")
+            xtream.write_text("{}", encoding="utf-8")
+            write_guide(guide, [("RTS1.sn@SD", "RTS")], [])
+            problems = validate.validate(guide, None, stations, aliases, xtream, root)
+            self.assertTrue(any("missing programmes for RTS1.sn@SD" in problem for problem in problems), problems)
+
     def test_process_epg_profile_adds_the_exact_playlist_name(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

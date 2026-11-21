@@ -72,11 +72,26 @@ jobs:
             count=$(python3 "$HELPER" "${args[@]}") || return 0
             echo "$name: $count uncovered channels selected"
             if [[ "$count" == "0" ]]; then return 0; fi
+            local status=1
             set +e
-            npm run grab -- --channels="$selected" --days=2 --maxConnections=1 --timeout=20000 "--output=$guide" 2>&1 | tee "$OUTPUT_DIR/$name.log"
-            local status=${PIPESTATUS[0]}
+            if [[ "$name" == "canalplus" ]]; then
+              python3 "$WORKSPACE/scripts/grab_canalplus_afrique.py" \
+                --channels "$selected" \
+                --days 2 \
+                --delay 1 \
+                --min-programmes 400 \
+                --output "$guide"
+              status=$?
+            else
+              npm run grab -- --channels="$selected" --days=2 --maxConnections=1 --timeout=20000 "--output=$guide" 2>&1 | tee "$OUTPUT_DIR/$name.log"
+              status=${PIPESTATUS[0]}
+            fi
             set -e
             echo "$status" > "$OUTPUT_DIR/$name.status"
+            if [[ "$name" == "canalplus" && "$status" != "0" ]]; then
+              echo "::error::Canal+ Afrique did not produce a complete guide"
+              exit 1
+            fi
             if [[ -s "$guide" ]] && python3 - "$guide" <<'PY'
           import sys, xml.etree.ElementTree as ET
           root=ET.parse(sys.argv[1]).getroot()
@@ -137,7 +152,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s "$GENERATED_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/af-epg.py scripts/af_publish_validate.py scripts/merge-national-guides.py scripts/process-epg.py scripts/xtream_matching.py .github/workflows epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/af-epg.py scripts/af_publish_validate.py scripts/grab_canalplus_afrique.py scripts/merge-national-guides.py scripts/process-epg.py scripts/xtream_matching.py .github/workflows epg || {
             echo "::error::African generation code changed during the run; refusing stale output."
             exit 1
           }

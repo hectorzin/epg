@@ -125,6 +125,8 @@ def validate(
                     problems.append(f"Xtream id {panel} has no programmes")
             continue
         if channel_id in known:
+            if station.get("required") and counts[channel_id] == 0:
+                problems.append(f"missing programmes for {channel_id}")
             for panel in panels:
                 if panel not in known:
                     problems.append(f"missing Xtream id {panel}")
