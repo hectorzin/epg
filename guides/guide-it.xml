@@ -8564,7 +8564,7 @@
   </programme>
   <programme start="20261121174200 +0000" stop="20261121185400 +0000" channel="Canale5.it@SD">
     <title lang="it">Caduta libera - aut.</title>
-    <sub-title lang="it">Caduta libera '26 - aut., 76</sub-title>
+    <sub-title lang="it">Sabato 21 novembre</sub-title>
     <desc lang="it">Max Giusti conduce la nuova edizione insieme a Isobel Kinnear: studio rinnovato, band dal vivo, nuova prova finale e un montepremi che può raggiungere i 500.000 euro.</desc>
     <category lang="it">Intrattenimento</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314704301007601/media/19/83/e041862f-ae77-4349-9326-798e414d69c8/2bf4c361-749a-4585-a39d-209f8d50f5ca.jpg</image>
@@ -8593,7 +8593,7 @@
   </programme>
   <programme start="20261122012800 +0000" stop="20261122023900 +0000" channel="Canale5.it@SD">
     <title lang="it">Caduta libera - aut.</title>
-    <sub-title lang="it">Caduta libera '26 - aut., 76</sub-title>
+    <sub-title lang="it">Sabato 21 novembre</sub-title>
     <desc lang="it">Max Giusti conduce la nuova edizione insieme a Isobel Kinnear: studio rinnovato, band dal vivo, nuova prova finale e un montepremi che può raggiungere i 500.000 euro.</desc>
     <category lang="it">Intrattenimento</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314704301007601/media/19/83/e041862f-ae77-4349-9326-798e414d69c8/2bf4c361-749a-4585-a39d-209f8d50f5ca.jpg</image>
@@ -28383,7 +28383,7 @@
   </programme>
   <programme start="20261122054400 +0000" stop="20261122055700 +0000" channel="Iris.it@SD">
     <title lang="it">Finche' c'e' Ditta c'e' speranza</title>
-    <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F010939304001001/epg/media/10/10/cf148c18-d8e2-4c8f-8515-4f75c7deac56/7332fa1c-d7b3-428b-82e7-db4c03328a91.jpg</image>
+    <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F010939304001001/epg/media/30/94/5400c872-3796-4e2a-be93-a677e4e66504/689f9695-9d5c-403a-9f94-c701fc9afd05.jpg</image>
   </programme>
   <programme start="20261122055700 +0000" stop="20261122062800 +0000" channel="Iris.it@SD">
     <title lang="it">Orazio</title>
@@ -29182,11 +29182,11 @@
     <category lang="it">Mondo e Tendenze</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314063301000204/media/19/83/0886a68f-7146-4777-811a-02af6786149a/b9b1470c-a0b6-415f-9627-cf93f69468ff.jpg</image>
   </programme>
-  <programme start="20261121061800 +0000" stop="20261121065100 +0000" channel="Italia1.it@SD">
+  <programme start="20261121061900 +0000" stop="20261121065200 +0000" channel="Italia1.it@SD">
     <title lang="it">The Tom &amp; Jerry Show - PrimaTv</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F310175803001401/epg/media/5/5/ab9f32b2-f15f-4d4e-844a-98106df2781a/0faaee39-bd8f-424e-b1a5-95e9944cef20.jpg</image>
   </programme>
-  <programme start="20261121065100 +0000" stop="20261121074000 +0000" channel="Italia1.it@SD">
+  <programme start="20261121065200 +0000" stop="20261121074000 +0000" channel="Italia1.it@SD">
     <title lang="it">I pinguini di Madagascar</title>
     <sub-title lang="it">Ep. 7 - A spasso con Marlene / Gatto nei guai / Biscotto del malagurio / Amore di scimmia</sub-title>
     <desc lang="it">Le avventure dei pinguini Skipper, Kowalski, Rico e Soldato, impegnati in missioni più o meno improbabili, per proteggere gli altri animali dello zoo di Central Park.</desc>
@@ -29197,11 +29197,11 @@
     <title lang="it">I Griffin - PrimaTv</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314295702000501/epg/media/30/94/dcbec618-58f4-4e94-b8c1-518868c12e7a/adfb8e6f-1c4c-4c83-936c-a885de51f853.jpg</image>
   </programme>
-  <programme start="20261121080500 +0000" stop="20261121083100 +0000" channel="Italia1.it@SD">
+  <programme start="20261121080500 +0000" stop="20261121083200 +0000" channel="Italia1.it@SD">
     <title lang="it">I Griffin - PrimaTv</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314295702000601/epg/media/30/94/dcbec618-58f4-4e94-b8c1-518868c12e7a/adfb8e6f-1c4c-4c83-936c-a885de51f853.jpg</image>
   </programme>
-  <programme start="20261121083100 +0000" stop="20261121090300 +0000" channel="Italia1.it@SD">
+  <programme start="20261121083200 +0000" stop="20261121090300 +0000" channel="Italia1.it@SD">
     <title lang="it">The Middle</title>
     <sub-title lang="it">Ep. 20 - Tu, io e Sue!</sub-title>
     <desc lang="it">Axl trova alla sua band la prima serata, ma la storia tra Darrin e Sue farà litigare il gruppo. Frankie teme che dopo il diploma conquistato non riuscira' a trovare lavoro.</desc>
@@ -29227,7 +29227,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F302372701000604/epg/media/28/92/999bee7c-40e0-48dc-8414-0669c8c33c73/3ed387f0-e600-490d-a45f-1c7934fb610d.jpg</image>
   </programme>
-  <programme start="20261121095900 +0000" stop="20261121102900 +0000" channel="Italia1.it@SD">
+  <programme start="20261121095900 +0000" stop="20261121102800 +0000" channel="Italia1.it@SD">
     <title lang="it">THE BIG BANG THEORY</title>
     <desc lang="it">Sheldon fa da pacificatore tra Leonard e Penny perche' il litigio che e' in corso tra i due gli causa un fastidioso "inconveniente".</desc>
     <category lang="it">Intrattenimento</category>
@@ -29235,7 +29235,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F302372701000704/epg/media/2/2/cccb566f-1918-4708-8e11-8b61265add2d/631519db-7b70-4261-a341-e1612b514a6e.jpg</image>
   </programme>
-  <programme start="20261121102900 +0000" stop="20261121105300 +0000" channel="Italia1.it@SD">
+  <programme start="20261121102800 +0000" stop="20261121105300 +0000" channel="Italia1.it@SD">
     <title lang="it">Will &amp; grace</title>
     <sub-title lang="it">Ep. 4 - Lieto fine</sub-title>
     <desc lang="it">Jack e Karen desiderano che Will e Grace facciano pace e hanno ideato un piano per farli incontrare alla festa di Hannah, la figlia di Joe e Larry.</desc>
@@ -29276,18 +29276,18 @@
     <title lang="it">Alcaraz - Shelton</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314438102000701/epg/media/16/80/bf530927-b9be-4600-8698-85bef7918158/4fd1868c-8d67-473b-a70f-4adf9dc82e10.jpg</image>
   </programme>
-  <programme start="20261121153200 +0000" stop="20261121155400 +0000" channel="Italia1.it@SD">
+  <programme start="20261121153200 +0000" stop="20261121154700 +0000" channel="Italia1.it@SD">
     <title lang="it">Nitto ATP Finals Live</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314831601001401/epg/media/7/7/f07175b0-c175-4138-9578-65758187eaa7/bf61e461-9146-4139-b8bf-50f4f5fade4e.jpg</image>
   </programme>
-  <programme start="20261121155400 +0000" stop="20261121162500 +0000" channel="Italia1.it@SD">
+  <programme start="20261121154700 +0000" stop="20261121161800 +0000" channel="Italia1.it@SD">
     <title lang="it">Sfida Impossibile</title>
     <sub-title lang="it">Seconda puntata | Nicola Ventola</sub-title>
     <desc lang="it">Non semplici sportivi, ma leggende dello sport italiano, sfidate da Stefano Corti! Li batterà? In questa puntata il calciatore Nicola Ventola.</desc>
     <category lang="it">Intrattenimento</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314601801000201/media/12/12/6f947c9c-36c6-4806-a528-ad12bcf64b6c/c1f12062-151e-4e02-a3b3-dee3a2a857a4.jpg</image>
   </programme>
-  <programme start="20261121162500 +0000" stop="20261121164500 +0000" channel="Italia1.it@SD">
+  <programme start="20261121161800 +0000" stop="20261121163800 +0000" channel="Italia1.it@SD">
     <title lang="it">THE BIG BANG THEORY</title>
     <desc lang="it">Penny cerca di capire i suoi sentimenti per Leonard e ipotizza di poterlo lasciare.</desc>
     <category lang="it">Intrattenimento</category>
@@ -29295,18 +29295,24 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F304832101000204/epg/media/21/85/fc52b58d-1b62-45e6-bb05-6ead029bbc2f/63c1c112-1f26-48b1-8b7b-9b462594080f.jpg</image>
   </programme>
-  <programme start="20261121164500 +0000" stop="20261121170500 +0000" channel="Italia1.it@SD">
+  <programme start="20261121163800 +0000" stop="20261121165800 +0000" channel="Italia1.it@SD">
     <title lang="it">Airport security Usa</title>
     <sub-title lang="it">Episodio 4</sub-title>
     <desc lang="it">Polveri sospette, marijuana nascosta, farmaci dubbi e cuccioli in viaggio: gli agenti affrontano casi insoliti e delicati.</desc>
     <category lang="it">Mondo e Tendenze</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F309800501000404/media/22/86/8bd557b2-4024-4c87-b7f9-36f9e5181e3a/952a64ba-01e6-402f-af14-69b5bcd9d56e.jpg</image>
   </programme>
-  <programme start="20261121170500 +0000" stop="20261121172100 +0000" channel="Italia1.it@SD">
+  <programme start="20261121165800 +0000" stop="20261121170900 +0000" channel="Italia1.it@SD">
     <title lang="it">Storie segrete</title>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F313783703001301/epg/media/17/81/74c5b50c-4e6c-4123-bbb8-7a995108f0f5/355b0744-8563-4c81-8e19-5e7337bff4ec.jpg</image>
+  </programme>
+  <programme start="20261121170900 +0000" stop="20261121172100 +0000" channel="Italia1.it@SD">
+    <title lang="it">Storie segrete</title>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F313783703001401/epg/media/11/11/44c8c090-20e0-4f57-9d36-8daea73cbe86/205a812e-f895-4fcd-bfc5-3bccabc2427f.jpg</image>
   </programme>
   <programme start="20261121172100 +0000" stop="20261121173000 +0000" channel="Italia1.it@SD">
     <title lang="it">Studio Aperto Live</title>
@@ -29355,15 +29361,15 @@
     <category lang="it">Film</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F307202001000102/epg/media/7/7/a7218205-090a-43e5-b6bd-3d4a5f1d7aeb/28682e91-c339-486d-aab0-1f8f23c00963.jpg</image>
   </programme>
-  <programme start="20261122021700 +0000" stop="20261122023000 +0000" channel="Italia1.it@SD">
+  <programme start="20261122021700 +0000" stop="20261122022900 +0000" channel="Italia1.it@SD">
     <title lang="it">Studio Aperto - La giornata</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314217901032501/epg/media/24/88/e0cc8bcf-328b-4ec1-a705-2af70e5d1859/a41f665c-4fe3-4109-8abf-dde087922002.jpg</image>
   </programme>
-  <programme start="20261122023000 +0000" stop="20261122025000 +0000" channel="Italia1.it@SD">
+  <programme start="20261122022900 +0000" stop="20261122024900 +0000" channel="Italia1.it@SD">
     <title lang="it">Sport Mediaset - La giornata</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314226801032501/epg/media/30/94/80d93924-44bb-41a8-86d9-3f8d3ecd2379/9e22663b-b629-4a7f-bf76-c1f3ac4148ec.jpg</image>
   </programme>
-  <programme start="20261122025000 +0000" stop="20261122031400 +0000" channel="Italia1.it@SD">
+  <programme start="20261122024900 +0000" stop="20261122031400 +0000" channel="Italia1.it@SD">
     <title lang="it">E-Planet</title>
     <sub-title lang="it">Puntata del 15 novembre</sub-title>
     <desc lang="it">Appuntamento con il Magazine Green all'insegna della sostenibilità.</desc>
@@ -29408,35 +29414,38 @@
     <category lang="it">Mondo e Tendenze</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314063301000304/media/0/0/7f9f8e87-ca75-4f13-bf21-0cd1d03c7a68/463d92c4-9cb7-4ae6-8a1b-2636b23b7496.jpg</image>
   </programme>
-  <programme start="20261122051500 +0000" stop="20261122060200 +0000" channel="Italia1.it@SD">
+  <programme start="20261122051500 +0000" stop="20261122060100 +0000" channel="Italia1.it@SD">
     <title lang="it">Storie dimenticate</title>
     <sub-title lang="it">Ep. 4 - La biblioteca perduta di Ivan il terribile e il treno del tesoro scomparso</sub-title>
     <desc lang="it">Gli esperti indagano sul tesoro confederato scomparso, la biblioteca di Ivan il Terribile, i gioielli rubati a Dublino e i teschi dell'Uomo di Pechino perduti.</desc>
     <category lang="it">Mondo e Tendenze</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314063301000404/media/30/94/04c17bfb-6d87-455e-aad1-b542be0c26d2/3a527e17-24f3-4e45-a3fb-13c38bb3becb.jpg</image>
   </programme>
-  <programme start="20261122060200 +0000" stop="20261122063400 +0000" channel="Italia1.it@SD">
+  <programme start="20261122060100 +0000" stop="20261122063400 +0000" channel="Italia1.it@SD">
     <title lang="it">Super Partes</title>
-    <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314224701001701/epg/media/0/0/e3b37a73-4d69-46f3-bfbc-3f61eaeca8db/597665ae-54c1-41f5-8950-74294134015c.jpg</image>
+    <sub-title lang="it">Puntata del 22 novembre, Italia 1</sub-title>
+    <desc lang="it">Intervengono in questa puntata: Martina Semenzato (Noi Moderati); Catia Polidori (Forza Italia); Fabrizio Benzoni (Azione); Sara Kelany (Fratelli d'Italia); Silvia Fregolent (Italia Viva); Chiara Gribaudo (PD); Peppe De Cristifaro (Alleanza Verdi e Sinistra); Stefania Pucciarelli (Lega); Gilda Sportello (M5S).</desc>
+    <category lang="it">Intrattenimento</category>
+    <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314224701001701/media/25/89/c50aae32-0d37-4923-9f8a-b20c146c3bab/43a0957b-7ef7-4d94-959e-20eca1bc10c3.jpg</image>
   </programme>
-  <programme start="20261122063400 +0000" stop="20261122072200 +0000" channel="Italia1.it@SD">
+  <programme start="20261122063400 +0000" stop="20261122072100 +0000" channel="Italia1.it@SD">
     <title lang="it">I pinguini di Madagascar</title>
     <sub-title lang="it">Ep. 8 - Orca volante / Sotto sorveglianza / Tutto torna indietro / Procione mascherato</sub-title>
     <desc lang="it">Le avventure dei pinguini Skipper, Kowalski, Rico e Soldato, impegnati in missioni più o meno improbabili, per proteggere gli altri animali dello zoo di Central Park.</desc>
     <category lang="it">Intrattenimento</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F301447703000802/epg/media/30/94/ba13d006-30c9-4862-8b1c-753127ebea81/a257d1f4-2c4a-4637-827f-1551a8017048.jpg</image>
   </programme>
-  <programme start="20261122072200 +0000" stop="20261122074700 +0000" channel="Italia1.it@SD">
+  <programme start="20261122072100 +0000" stop="20261122074600 +0000" channel="Italia1.it@SD">
     <title lang="it">I Griffin - PrimaTv</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314295702000701/epg/media/30/94/dcbec618-58f4-4e94-b8c1-518868c12e7a/adfb8e6f-1c4c-4c83-936c-a885de51f853.jpg</image>
   </programme>
-  <programme start="20261122074700 +0000" stop="20261122081100 +0000" channel="Italia1.it@SD">
+  <programme start="20261122074600 +0000" stop="20261122081000 +0000" channel="Italia1.it@SD">
     <title lang="it">I Griffin - PrimaTv</title>
     <episode-num system="xmltv_ns">24.13.0/1</episode-num>
     <episode-num system="onscreen">S25E14</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314295701001404/epg/media/30/94/dcbec618-58f4-4e94-b8c1-518868c12e7a/adfb8e6f-1c4c-4c83-936c-a885de51f853.jpg</image>
   </programme>
-  <programme start="20261122081100 +0000" stop="20261122083900 +0000" channel="Italia1.it@SD">
+  <programme start="20261122081000 +0000" stop="20261122083800 +0000" channel="Italia1.it@SD">
     <title lang="it">The Middle</title>
     <sub-title lang="it">Ep. 22 - Il regalo giusto per mamma</sub-title>
     <desc lang="it">Si avvicina la festa della mamma e Frankie teme che le sarà fatto l'ennesimo regalo inutile. Comincia così a spargere la voce su che cosa vuole.</desc>
@@ -29445,7 +29454,7 @@
     <episode-num system="onscreen">S04E22</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F304797501002203/media/18/82/c9d365f1-43ec-457e-8e19-05172a3e4f34/e03a5206-0e71-4c48-a609-763d355c7773.jpg</image>
   </programme>
-  <programme start="20261122083900 +0000" stop="20261122090000 +0000" channel="Italia1.it@SD">
+  <programme start="20261122083800 +0000" stop="20261122085800 +0000" channel="Italia1.it@SD">
     <title lang="it">The Middle</title>
     <sub-title lang="it">Ep. 23 - Una bugia tira l'altra</sub-title>
     <desc lang="it">Sue pungolata da Axl, decide di marinare la scuola per la prima volta, ma quella che doveva essere una giornata di liberta' e divertimento si trasforma in un incubo.</desc>
@@ -29454,7 +29463,7 @@
     <episode-num system="onscreen">S04E23</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F304797501002303/media/18/82/42f03732-66ab-41a4-a82f-b2563a7be348/e1120299-9e77-4ab9-9b39-6df69264b9b3.jpg</image>
   </programme>
-  <programme start="20261122090000 +0000" stop="20261122092500 +0000" channel="Italia1.it@SD">
+  <programme start="20261122085800 +0000" stop="20261122092400 +0000" channel="Italia1.it@SD">
     <title lang="it">THE BIG BANG THEORY</title>
     <sub-title lang="it">Ep. 8 - La carenza delle paperelle adesive</sub-title>
     <desc lang="it">Con Leonard, Howard e Raj in campeggio nel deserto, solo Sheldon può aiutare Penny quando questa rimane bloccata nella vasca da bagno.</desc>
@@ -29463,7 +29472,7 @@
     <episode-num system="onscreen">S03E08</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F302372701000804/epg/media/18/82/bde2c90c-2df8-4e51-8374-8ba5ea32f34c/13226861-d22b-4b97-bf59-010119c594ad.jpg</image>
   </programme>
-  <programme start="20261122092500 +0000" stop="20261122095300 +0000" channel="Italia1.it@SD">
+  <programme start="20261122092400 +0000" stop="20261122095200 +0000" channel="Italia1.it@SD">
     <title lang="it">THE BIG BANG THEORY</title>
     <sub-title lang="it">Ep. 9 - La formula della vendetta</sub-title>
     <desc lang="it">Dopo essere stato umiliato sulla Radio Pubblica Nazionale, Sheldon giura di distruggere Kripke e i ragazzi sono lieti di aiutarlo.</desc>
@@ -29472,7 +29481,7 @@
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F302372701000904/epg/media/10/10/1dffc967-5ab8-49b8-a23c-b2084789ba4f/3fb5a819-687a-4f9d-b8fb-cdbcf3c822d3.jpg</image>
   </programme>
-  <programme start="20261122095300 +0000" stop="20261122102700 +0000" channel="Italia1.it@SD">
+  <programme start="20261122095200 +0000" stop="20261122102600 +0000" channel="Italia1.it@SD">
     <title lang="it">Will &amp; grace</title>
     <sub-title lang="it">Ep. 7 - Pazzo da legale</sub-title>
     <desc lang="it">Doucette va in pensione e viene sostituito dal suo socio, Stein, ufficialmente direttore della sede di Londra.</desc>
@@ -29481,7 +29490,7 @@
     <episode-num system="onscreen">S05E07</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F011532301000702/media/29/93/f4510531-c18b-4e31-88f2-96596eb9905c/cc49c107-69bd-40ae-b3be-1e7d0174030e.jpg</image>
   </programme>
-  <programme start="20261122102700 +0000" stop="20261122105200 +0000" channel="Italia1.it@SD">
+  <programme start="20261122102600 +0000" stop="20261122105200 +0000" channel="Italia1.it@SD">
     <title lang="it">Will &amp; grace</title>
     <sub-title lang="it">Ep. 6 - Un'iniezione e la frittata è fatta</sub-title>
     <desc lang="it">Leo presenta Grace ai suoi genitori spacciandoli però per vecchi amici. Grace fa delle gaffe paurose e quando scopre la verità cerca di rimediare.</desc>
@@ -29505,18 +29514,18 @@
     <title lang="it">Sport Mediaset XXL</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314666401001101/epg/media/18/82/e5e5722c-d51f-45ac-a677-1a88f3f9c2da/ad0ed9b1-c160-403c-892f-cbf4033a40c4.jpg</image>
   </programme>
-  <programme start="20261122130200 +0000" stop="20261122133200 +0000" channel="Italia1.it@SD">
+  <programme start="20261122130200 +0000" stop="20261122133100 +0000" channel="Italia1.it@SD">
     <title lang="it">E-Planet</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314224501004701/epg/media/4/4/528505de-72d6-4035-85de-a100aeab11b6/532db362-92b5-47a1-acaa-80b665649705.jpg</image>
   </programme>
-  <programme start="20261122133200 +0000" stop="20261122142700 +0000" channel="Italia1.it@SD">
+  <programme start="20261122133100 +0000" stop="20261122142600 +0000" channel="Italia1.it@SD">
     <title lang="it">NCIS: New Orleans</title>
     <sub-title lang="it">Ep. 9 - Sotto protezione</sub-title>
     <desc lang="it">La vita di Sebastian è in pericolo quando un criminale che ha messo dietro le sbarre sfugge alla custodia della polizia.</desc>
     <category lang="it">Intrattenimento</category>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F311332402000901/media/13/13/2b9a33b0-70d8-4880-b254-98f6d032b248/3cb14be2-db73-4e3e-986e-5772aa5cb362.jpg</image>
   </programme>
-  <programme start="20261122142700 +0000" stop="20261122151700 +0000" channel="Italia1.it@SD">
+  <programme start="20261122142600 +0000" stop="20261122151700 +0000" channel="Italia1.it@SD">
     <title lang="it">NCIS: New Orleans</title>
     <sub-title lang="it">Ep. 12 - C'era una volta</sub-title>
     <desc lang="it">Dopo che una molotov viene lanciata nel bar di Pride, le prove lo portano verso Sasha Broussard, che ha mantenuto un segreto che influenzerà la sua vita per sempre.</desc>
@@ -29529,11 +29538,11 @@
     <title lang="it">The Equalizer</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F312177502000302/epg/media/6/6/38370584-ad07-4536-8d3c-f4e5eeeb989f/61fe69c4-fb1a-4799-8c44-384a1a6043e7.jpg</image>
   </programme>
-  <programme start="20261122160800 +0000" stop="20261122161200 +0000" channel="Italia1.it@SD">
+  <programme start="20261122160800 +0000" stop="20261122161300 +0000" channel="Italia1.it@SD">
     <title lang="it">Studio Aperto Live</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314217601032601/epg/media/5/5/03634e50-fe74-4110-b992-d02b49bc4161/e392e267-a6f0-4142-8aa3-be4cc67b3211.jpg</image>
   </programme>
-  <programme start="20261122161200 +0000" stop="20261122164100 +0000" channel="Italia1.it@SD">
+  <programme start="20261122161300 +0000" stop="20261122164100 +0000" channel="Italia1.it@SD">
     <title lang="it">Studio Aperto</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314217201065201/epg/media/25/89/002d06c8-cd13-44d1-8433-07dc9ecee6e0/2ca594c0-39dc-41e0-b55a-7afa97357404.jpg</image>
   </programme>
@@ -29541,11 +29550,11 @@
     <title lang="it">Nitto ATP Finals Live</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314831601001501/epg/media/7/7/f07175b0-c175-4138-9578-65758187eaa7/bf61e461-9146-4139-b8bf-50f4f5fade4e.jpg</image>
   </programme>
-  <programme start="20261122170200 +0000" stop="20261122190300 +0000" channel="Italia1.it@SD">
+  <programme start="20261122170200 +0000" stop="20261122190400 +0000" channel="Italia1.it@SD">
     <title lang="it">Nitto ATP Finals</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314438102000801/epg/media/16/80/bf530927-b9be-4600-8698-85bef7918158/4fd1868c-8d67-473b-a70f-4adf9dc82e10.jpg</image>
   </programme>
-  <programme start="20261122190300 +0000" stop="20261122194400 +0000" channel="Italia1.it@SD">
+  <programme start="20261122190400 +0000" stop="20261122194400 +0000" channel="Italia1.it@SD">
     <title lang="it">Nitto ATP Finals Live</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314831601001601/epg/media/7/7/f07175b0-c175-4138-9578-65758187eaa7/bf61e461-9146-4139-b8bf-50f4f5fade4e.jpg</image>
   </programme>
@@ -29558,11 +29567,11 @@
     <episode-num system="onscreen">S14E12</episode-num>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F308188801001202/media/23/87/7d3ce3cc-50a9-46a9-93a8-155593ef99a8/15063cbc-12f9-400e-a87b-3bf9cd02a8bd.jpg</image>
   </programme>
-  <programme start="20261122203000 +0000" stop="20261123002700 +0000" channel="Italia1.it@SD">
+  <programme start="20261122203000 +0000" stop="20261123003200 +0000" channel="Italia1.it@SD">
     <title lang="it">Le Iene presentano: La Cura</title>
     <image>https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314528001000201/epg/media/8/8/c46b0428-413f-4a4d-aea7-695353e6dfa1/b79ce024-4595-4cfe-b6fa-5334be8c11f2.jpg</image>
   </programme>
-  <programme start="20261123002700 +0000" stop="20261123011400 +0000" channel="Italia1.it@SD">
+  <programme start="20261123003200 +0000" stop="20261123011900 +0000" channel="Italia1.it@SD">
     <title lang="it">Grandi furti della storia con Pierce Brosnan</title>
     <sub-title lang="it">Ep. 6 - Colpo grosso alla Lloyd Bank</sub-title>
     <desc lang="it">Un ladro, ispirato da una storia di Sherlock Holmes, tenta qualcosa di impossibile: rapinare una delle banche più conosciute di Londra.</desc>
@@ -40573,20 +40582,20 @@
   <programme start="20261121202000 +0000" stop="20261121211000 +0000" channel="RAI2.it@SD">
     <title lang="it">S.W.A.T. Exiles S1E6 - Trappola a domicilio</title>
     <sub-title lang="it">Trappola a domicilio</sub-title>
-    <desc lang="it">1^ Visione Rai - Un giovane muore di overdose durante un falò sulla spiaggia. Hondo e la sua squadra scoprono l'esistenza di una nuova droga che viene recapitata insieme al cibo a domicilio.</desc>
+    <desc lang="it">Un giovane muore di overdose durante un falò sulla spiaggia. Hondo e la sua squadra scoprono l'esistenza di una nuova droga che viene recapitata insieme al cibo a domicilio.</desc>
     <url>https://www.raiplay.it/dirette/rai2/SWAT-Exiles-S1E6---Trappola-a-domicilio-803f5653-3fe9-429f-a34d-21ada43affc5.html</url>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
-    <image>https://www.raiplay.it/dl/img/2026/10/28/1793182254769_2048x1152.jpg</image>
+    <image>https://www.raiplay.it/dl/img/2026/11/21/1795257511075_fff.jpg</image>
   </programme>
   <programme start="20261121211000 +0000" stop="20261121220000 +0000" channel="RAI2.it@SD">
     <title lang="it">S.W.A.T. Exiles S1E7 - Ultimo banco</title>
     <sub-title lang="it">Ultimo banco</sub-title>
-    <desc lang="it">1^ Visione Rai - Mentre Ethan viene dimesso dall'ospedale a seguito del trauma subìto, la Squadra 44 deve salvare studenti e professori di una scuola media, presa di mira da un ex alunno.</desc>
+    <desc lang="it">Mentre Ethan viene dimesso dall'ospedale a seguito del trauma subìto, la Squadra 44 deve salvare studenti e professori di una scuola media, presa di mira da un ex alunno.</desc>
     <url>https://www.raiplay.it/dirette/rai2/SWAT-Exiles-S1E7---Ultimo-banco-b3ecca79-155b-4340-8f06-36968bcb287e.html</url>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
-    <image>https://www.raiplay.it/dl/img/2026/10/28/1793182254769_2048x1152.jpg</image>
+    <image>https://www.raiplay.it/dl/img/2026/11/21/1795257698345_cccccb.jpg</image>
   </programme>
   <programme start="20261121220000 +0000" stop="20261121230500 +0000" channel="RAI2.it@SD">
     <title lang="it">Sabato al 90° - Puntata del 21/11/2026</title>
@@ -40808,20 +40817,20 @@
   <programme start="20261122200000 +0000" stop="20261122205000 +0000" channel="RAI2.it@SD">
     <title lang="it">The Rookie S8E17 - Il sosia perfetto</title>
     <sub-title lang="it">Il sosia perfetto</sub-title>
-    <desc lang="it">1^ Visione Rai - Mentre Thorsen viene rapinato per strada, Miranda scappa con i bambini per impedire al marito, Glasser, di ottenere la custodia dei figli. Monica architetta un piano per uscire dal programma di protezione testimoni.</desc>
+    <desc lang="it">Mentre Thorsen viene rapinato per strada, Miranda scappa con i bambini per impedire al marito, Glasser, di ottenere la custodia dei figli. Monica architetta un piano per uscire dal programma di protezione testimoni.</desc>
     <url>https://www.raiplay.it/dirette/rai2/The-Rookie-S8E17---Il-sosia-perfetto-c6237d25-52b3-4641-ba0e-64fa9871d2f4.html</url>
     <episode-num system="xmltv_ns">7.16.0/1</episode-num>
     <episode-num system="onscreen">S08E17</episode-num>
-    <image>https://www.raiplay.it/dl/img/2020/04/20/1587375930362_2048x1152.jpg</image>
+    <image>https://www.raiplay.it/dl/img/2026/11/21/1795257885387_ddd.jpg</image>
   </programme>
   <programme start="20261122205000 +0000" stop="20261122214000 +0000" channel="RAI2.it@SD">
     <title lang="it">The Rookie S8E18 - La vendetta è spietata</title>
     <sub-title lang="it">La vendetta è spietata</sub-title>
-    <desc lang="it">1^ Visione Rai - Durante il trasferimento verso il Tribunale, l'auto blindata di Everett viene portata via da un elicottero dotato di magnete e Garza, Wade e tutta la squadra non riescono a sventare la fuga.</desc>
+    <desc lang="it">Durante il trasferimento verso il Tribunale, l'auto blindata di Everett viene portata via da un elicottero dotato di magnete e Garza, Wade e tutta la squadra non riescono a sventare la fuga.</desc>
     <url>https://www.raiplay.it/dirette/rai2/The-Rookie-S8E18---La-vendetta-e-spietata-1ba6123e-ea5e-48fb-947f-e795fff03f26.html</url>
     <episode-num system="xmltv_ns">7.17.0/1</episode-num>
     <episode-num system="onscreen">S08E18</episode-num>
-    <image>https://www.raiplay.it/dl/img/2020/04/20/1587375930362_2048x1152.jpg</image>
+    <image>https://www.raiplay.it/dl/img/2026/11/21/1795257955191_cvcx.jpg</image>
   </programme>
   <programme start="20261122214000 +0000" stop="20261122233000 +0000" channel="RAI2.it@SD">
     <title lang="it">Domenica Sportiva - Puntata del 22/11/2026</title>
@@ -62443,7 +62452,7 @@
     <image>https://guidatv.sky.it/uuid/48f75a75-9ee0-4515-818d-7144e999af70/COVER_TITLE_TALL?territory=IT&amp;version=1d85da33-ee8b-362f-927b-cb4a2ad87c8f&amp;w=600&amp;h=800&amp;md5ChecksumParam=1bbe6f9ce48744f6afb94194d9883299</image>
   </programme>
   <programme start="20261122031500 +0000" stop="20261122050000 +0000" channel="SkySportTennis.it@SD">
-    <title lang="it">Singolare: 1a Semifinale</title>
+    <title lang="it">Alcaraz - Shelton Singolare: 1a Semifinale</title>
     <desc lang="it">... Finals. - Dalla Inalpi Arena di Torino, Italia.</desc>
     <category lang="it">Sport/Tennis</category>
     <url>https://guidatv.sky.it/sport/tennis-atp-finals/singolare-1a-semifinale/30bd9282-e0d1-490e-98c8-503187f25700</url>
@@ -62461,7 +62470,7 @@
     <image>https://guidatv.sky.it/uuid/48f75a75-9ee0-4515-818d-7144e999af70/COVER_TITLE_TALL?territory=IT&amp;version=1d85da33-ee8b-362f-927b-cb4a2ad87c8f&amp;w=600&amp;h=800&amp;md5ChecksumParam=1bbe6f9ce48744f6afb94194d9883299</image>
   </programme>
   <programme start="20261122051500 +0000" stop="20261122070500 +0000" channel="SkySportTennis.it@SD">
-    <title lang="it">Singolare: 1a Semifinale</title>
+    <title lang="it">Alcaraz - Shelton Singolare: 1a Semifinale</title>
     <desc lang="it">... Finals. - ALCARAZ (Spa)-SHELTON (Usa) - Carlos Alcaraz cerca la sua seconda finale alle Atp Finals contro l'esordiente Ben Shelton. Tc: Boschetto-Bertolucci</desc>
     <category lang="it">Sport/Tennis</category>
     <url>https://guidatv.sky.it/sport/tennis-atp-finals/singolare-1a-semifinale/30bd9282-e0d1-490e-98c8-503187f25700</url>
@@ -62506,7 +62515,7 @@
     <image>https://guidatv.sky.it/uuid/48f75a75-9ee0-4515-818d-7144e999af70/COVER_TITLE_TALL?territory=IT&amp;version=1d85da33-ee8b-362f-927b-cb4a2ad87c8f&amp;w=600&amp;h=800&amp;md5ChecksumParam=1bbe6f9ce48744f6afb94194d9883299</image>
   </programme>
   <programme start="20261122102500 +0000" stop="20261122121000 +0000" channel="SkySportTennis.it@SD">
-    <title lang="it">Singolare: 1a Semifinale</title>
+    <title lang="it">Alcaraz - Shelton Singolare: 1a Semifinale</title>
     <desc lang="it">... Finals. - ALCARAZ (Spa)-SHELTON (Usa) - Carlos Alcaraz cerca la sua seconda finale alle Atp Finals contro l'esordiente Ben Shelton. Tc: Boschetto-Bertolucci</desc>
     <category lang="it">Sport/Tennis</category>
     <url>https://guidatv.sky.it/sport/tennis-atp-finals/singolare-1a-semifinale/30bd9282-e0d1-490e-98c8-503187f25700</url>
