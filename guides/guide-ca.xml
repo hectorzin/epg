@@ -25027,9 +25027,6 @@
       <value>6</value>
     </rating>
   </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="Casa.ca@HD">
-    <title>Un zoo pas comme les autres</title>
-  </programme>
   <programme channel="Citytv.ca@SD" start="20261121103000 +0000" stop="20261121110000 +0000">
     <title lang="en">CityNews Tonight Toronto</title>
     <desc lang="en">Coverage of the day's top news stories.</desc>
@@ -25170,9 +25167,6 @@
     <rating system="Régie du cinéma">
       <value>G</value>
     </rating>
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="Evasion.ca@SD">
-    <title>Le vet de Bondi en cavale</title>
   </programme>
   <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="FamilyChannelEast.ca@SD">
     <title>Pick a Puppy</title>
@@ -25371,9 +25365,6 @@
       <value>6</value>
     </rating>
   </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="ICIARTV.ca@HD">
-    <title>Quelle famille!</title>
-  </programme>
   <programme channel="ICITele.ca@HD" start="20261121103000 +0000" stop="20261121110000 +0000">
     <title lang="en">Kalimera Patrida</title>
     <desc lang="en">Interviews with various Greek local personalities and information about what is happening in all levels of government within the Greek community.</desc>
@@ -25512,15 +25503,6 @@
     <title>Sit and Be Fit</title>
     <desc>S14 E12 — Good AlignmentExercising with eyes closed.</desc>
   </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="RDS2.ca@HD">
-    <title>L'antichambre</title>
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
-  </programme>
   <programme channel="Sportsnet360.ca@HD" start="20261121103000 +0000" stop="20261121110000 +0000">
     <title lang="en">NHL's Best</title>
     <desc lang="en">Showcasing plays from the NHL.</desc>
@@ -25578,15 +25560,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p11413944_b_h10_aa.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">E27</episode-num>
     <previously-shown />
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="TV5Quebec.ca@HD">
-    <title>Mon animal et moi</title>
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121104500 +0000" channel="TVAMontreal.ca@HD">
-    <title>Infopublicité</title>
-  </programme>
-  <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="Unis.ca@HD">
-    <title>Les inventifs</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121103000 +0000" stop="20261121110000 +0000">
     <title lang="en">Creflo Dollar Ministries</title>
@@ -25778,9 +25751,6 @@
       <value>16</value>
     </rating>
   </programme>
-  <programme start="20261121103400 +0000" stop="20261121110000 +0000" channel="ICIRDI.ca@HD">
-    <title>Le national</title>
-  </programme>
   <programme channel="GlobalCalgary.ca@HD" start="20261121103500 +0000" stop="20261121110000 +0000">
     <title lang="en">SIGN OFF</title>
     <desc lang="en">Sign off.</desc>
@@ -25883,9 +25853,6 @@
       <value>0</value>
     </rating>
   </programme>
-  <programme start="20261121103500 +0000" stop="20261121104000 +0000" channel="TeleQuebec.ca@HD">
-    <title>Simon</title>
-  </programme>
   <programme channel="Treehouse.ca@HD" start="20261121103500 +0000" stop="20261121105000 +0000">
     <title lang="en">Barney's World</title>
     <sub-title lang="en">Nonna on the Move</sub-title>
@@ -25953,9 +25920,6 @@
     <episode-num system="onscreen">S1 E7</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261121104000 +0000" stop="20261121104800 +0000" channel="TeleQuebec.ca@HD">
-    <title>Bing</title>
-  </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261121104300 +0000" stop="20261121105000 +0000">
     <title lang="en">Bestest Day Ever WIth My Best Friend</title>
     <sub-title lang="en">Brownie's Bestest Day Ever!</sub-title>
@@ -25994,9 +25958,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p25180666_b_h8_aa.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">S1 E8</episode-num>
     <previously-shown />
-  </programme>
-  <programme start="20261121104400 +0000" stop="20261121130000 +0000" channel="ICIVancouver.ca@HD">
-    <title>Hors d'ondes</title>
   </programme>
   <programme channel="AdultSwim.ca@SD" start="20261121104500 +0000" stop="20261121110000 +0000">
     <title lang="en">Robot Chicken</title>
@@ -26086,9 +26047,6 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20261121104500 +0000" stop="20261121110000 +0000" channel="TVAMontreal.ca@HD">
-    <title>La victoire de l'amour</title>
-  </programme>
   <programme channel="YTV.ca@HD" start="20261121104500 +0000" stop="20261121110000 +0000">
     <title lang="en">Looney Tunes Cartoons</title>
     <sub-title lang="en">Pain in the Ice; Tunnel Vision; Pool Bunny</sub-title>
@@ -26130,9 +26088,6 @@
     <rating system="Kijkwijzer">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261121104800 +0000" stop="20261121105800 +0000" channel="TeleQuebec.ca@HD">
-    <title>Chuggington: En avant les locos</title>
   </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261121105000 +0000" stop="20261121110000 +0000">
     <title lang="en">Bestest Day Ever WIth My Best Friend</title>
@@ -137848,7 +137803,7 @@
   <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="ICIARTV.ca@HD">
     <title>La petite patrie</title>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="ICIRDI.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103400 +0000" channel="ICIRDI.ca@HD">
     <title>Le 64'</title>
   </programme>
   <programme channel="ICITele.ca@HD" start="20261122100000 +0000" stop="20261122110000 +0000">
@@ -139172,7 +139127,7 @@
       <value>U</value>
     </rating>
   </programme>
-  <programme start="20261122102300 +0000" stop="20261122105300 +0000" channel="TeleQuebec.ca@HD">
+  <programme start="20261122102300 +0000" stop="20261122103500 +0000" channel="TeleQuebec.ca@HD">
     <title>La famille Blaireau-Renard</title>
   </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261122102500 +0000" stop="20261122103300 +0000">
@@ -140720,7 +140675,7 @@
       <value>S</value>
     </rating>
   </programme>
-  <programme start="20261122103400 +0000" stop="20261122110000 +0000" channel="ICIRDI.ca@HD">
+  <programme start="20261122103400 +0000" stop="20261122110400 +0000" channel="ICIRDI.ca@HD">
     <title>Le téléjournal avec Claudine Bourbonnais</title>
   </programme>
   <programme channel="GlobalCalgary.ca@HD" start="20261122103500 +0000" stop="20261122110000 +0000">
@@ -141174,7 +141129,7 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261122104800 +0000" stop="20261122105800 +0000" channel="TeleQuebec.ca@HD">
+  <programme start="20261122104800 +0000" stop="20261122111800 +0000" channel="TeleQuebec.ca@HD">
     <title>Chuggington: En avant les locos</title>
   </programme>
   <programme channel="Treehouse.ca@HD" start="20261122105000 +0000" stop="20261122110000 +0000">
