@@ -1146,6 +1146,16 @@
     <display-name>قناة عمان مباشر</display-name>
     <icon src="https://i.imgur.com/UkQTR5b.png" />
   </channel>
+  <channel id="LaayouneTV.ma@SD">
+    <display-name>Laâyoune</display-name>
+    <display-name>MA Laayoune</display-name>
+    <display-name>TNT Laayoune TV.</display-name>
+  </channel>
+  <channel id="TamazightTV.ma@SD">
+    <display-name>Tamazight</display-name>
+    <display-name>MA Tamazight</display-name>
+    <display-name>TNT Tamazight.</display-name>
+  </channel>
   <programme start="20261119000000 +0000" stop="20261119235959 +0000" channel="arabic.bigtime">
     <title lang="ar">جدول البرامج غير متاح</title>
   </programme>
@@ -79312,5 +79322,197 @@
   </programme>
   <programme start="20261120193000 +0000" stop="20261120203000 +0000" channel="OmanTVMubashir.om">
     <title lang="ar">المسلسل العماني/نظر عيني</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121000000 +0100" stop="20261121003000 +0100">
+    <title lang="ar">مسلسل الطير الا من فركو 13</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121003000 +0100" stop="20261121220000 +0100">
+    <title lang="ar">أمداح</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121220000 +0100" stop="20261121223000 +0100">
+    <title lang="ar">كنوز من الصحراء</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121223000 +0100" stop="20261121230000 +0100">
+    <title lang="ar">الاخبار الجهوية</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121230000 +0100" stop="20261121233000 +0100">
+    <title lang="ar">مع الناهة</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261121233000 +0100" stop="20261122000000 +0100">
+    <title lang="ar">أمنير</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261122000000 +0100" stop="20261122003000 +0100">
+    <title lang="ar">مسلسل الطير الا من فركو 14</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261122003000 +0100" stop="20261122220000 +0100">
+    <title lang="ar">أمداح</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261122220000 +0100" stop="20261122223000 +0100">
+    <title lang="ar">المائدة الصحراوية</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261122223000 +0100" stop="20261122230000 +0100">
+    <title lang="ar">الاخبار الجهوية</title>
+  </programme>
+  <programme channel="LaayouneTV.ma@SD" start="20261122230000 +0100" stop="20261123000000 +0100">
+    <title lang="ar">سهرات ليالي أزوان</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121003000 +0100" stop="20261121010000 +0100">
+    <title lang="ar">النشرة المسائية + احوال الطقس</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121010000 +0100" stop="20261121023000 +0100">
+    <title lang="ar">فيلم</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121023000 +0100" stop="20261121120000 +0100">
+    <title lang="ar">تماوايت</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121120000 +0100" stop="20261121120500 +0100">
+    <title lang="ar">افتتاح الإرسال // السلام الملكي // القرآن الكريم // الدعاء</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121120500 +0100" stop="20261121121500 +0100">
+    <title lang="ar">كلام القلب</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121121500 +0100" stop="20261121123000 +0100">
+    <title lang="ar">ڰ ايمولا ن تنمالت ن ؤ رقاس</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121123000 +0100" stop="20261121124500 +0100">
+    <title lang="ar">النشرة الجوية</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121124500 +0100" stop="20261121130500 +0100">
+    <title lang="ar">كبسولة اموغانغ</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121130500 +0100" stop="20261121140000 +0100">
+    <title lang="ar">تاونزا</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121140000 +0100" stop="20261121143000 +0100">
+    <title lang="ar">نشرة الاخبار الظهيرة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121143000 +0100" stop="20261121150000 +0100">
+    <title lang="ar">للاحذية وجوه</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121150000 +0100" stop="20261121153000 +0100">
+    <title lang="ar">موروث حي</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121153000 +0100" stop="20261121170000 +0100">
+    <title lang="ar">فيلم</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121170000 +0100" stop="20261121173000 +0100">
+    <title lang="ar">شاشتك</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121173000 +0100" stop="20261121180000 +0100">
+    <title lang="ar">قنطرة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121180000 +0100" stop="20261121181500 +0100">
+    <title lang="ar">نشرة الاخبار الموجزة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121181500 +0100" stop="20261121191500 +0100">
+    <title lang="ar">تاونزا *اعادة*</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121191500 +0100" stop="20261121193000 +0100">
+    <title lang="ar">انمال نتمازيغت</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121193000 +0100" stop="20261121201500 +0100">
+    <title lang="ar">شباب ماك</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121201500 +0100" stop="20261121203000 +0100">
+    <title lang="ar">مغاربة العالم</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121203000 +0100" stop="20261121210000 +0100">
+    <title lang="ar">الاخبار المفصلة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121210000 +0100" stop="20261121223000 +0100">
+    <title lang="ar">تامغرانغ</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121223000 +0100" stop="20261121230000 +0100">
+    <title lang="ar">قافلة الشعر</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121230000 +0100" stop="20261121233000 +0100">
+    <title lang="ar">لحظة ثقافة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261121233000 +0100" stop="20261122003000 +0100">
+    <title lang="ar">ويلكوم تامازيغت</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122003000 +0100" stop="20261122010000 +0100">
+    <title lang="ar">النشرة المسائية + احوال الطقس</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122010000 +0100" stop="20261122023000 +0100">
+    <title lang="ar">فيلم</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122023000 +0100" stop="20261122120000 +0100">
+    <title lang="ar">امودو</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122120000 +0100" stop="20261122120500 +0100">
+    <title lang="ar">افتتاح الإرسال // السلام الملكي // القرآن الكريم // الدعاء</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122120500 +0100" stop="20261122121500 +0100">
+    <title lang="ar">كلام القلب</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122121500 +0100" stop="20261122123000 +0100">
+    <title lang="ar">ڰ ايمولا ن تنمالت ن ؤ رقاس</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122123000 +0100" stop="20261122124500 +0100">
+    <title lang="ar">النشرة الجوية</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122124500 +0100" stop="20261122130000 +0100">
+    <title lang="ar">كبسولة اموغانغ</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122130000 +0100" stop="20261122133000 +0100">
+    <title lang="ar">مرآة الطفل</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122133000 +0100" stop="20261122140000 +0100">
+    <title lang="ar">احنا معاك *اعادة*</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122140000 +0100" stop="20261122143000 +0100">
+    <title lang="ar">نشرة الاخبار الظهيرة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122143000 +0100" stop="20261122150000 +0100">
+    <title lang="ar">المجلة البرلمانية</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122150000 +0100" stop="20261122153000 +0100">
+    <title lang="ar">مسارات *اعادة*</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122153000 +0100" stop="20261122170000 +0100">
+    <title lang="ar">تامغرانغ *اعادة*</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122170000 +0100" stop="20261122173000 +0100">
+    <title lang="ar">شاشتك</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122173000 +0100" stop="20261122180000 +0100">
+    <title lang="ar">قنطرة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122180000 +0100" stop="20261122181500 +0100">
+    <title lang="ar">نشرة الاخبار الموجزة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122181500 +0100" stop="20261122184500 +0100">
+    <title lang="ar">غيلاد</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122184500 +0100" stop="20261122191500 +0100">
+    <title lang="ar">تيمزورا</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122191500 +0100" stop="20261122193000 +0100">
+    <title lang="ar">انمال نتمازيغت</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122193000 +0100" stop="20261122194500 +0100">
+    <title lang="ar">تيموزاي</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122194500 +0100" stop="20261122201500 +0100">
+    <title lang="ar">اقتصادنا</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122201500 +0100" stop="20261122203000 +0100">
+    <title lang="ar">تادوسي نغ</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122203000 +0100" stop="20261122210000 +0100">
+    <title lang="ar">الاخبار المفصلة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122210000 +0100" stop="20261122213000 +0100">
+    <title lang="ar">مجلة الثامنة</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122213000 +0100" stop="20261122223000 +0100">
+    <title lang="ar">سلسلة تلفزية : لعنة القدر</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122223000 +0100" stop="20261122233000 +0100">
+    <title lang="ar">قافلة الشعر</title>
+  </programme>
+  <programme channel="TamazightTV.ma@SD" start="20261122233000 +0100" stop="20261123003000 +0100">
+    <title lang="ar">ويلكوم تامازيغت</title>
   </programme>
 </tv>

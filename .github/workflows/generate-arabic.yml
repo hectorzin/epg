@@ -53,6 +53,7 @@ jobs:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.revision }}
           OUTPUT_DIR: ${{ runner.temp }}/arabic-epg-output
           HELPER: ${{ github.workspace }}/scripts/arabic-epg.py
+          WORKSPACE: ${{ github.workspace }}
         shell: bash
         run: |
           set -uo pipefail
@@ -112,6 +113,19 @@ jobs:
           merge_args=(merge --output "$OUTPUT_DIR/guide-arabic.xml")
           for pair in "${successful_pairs[@]}"; do merge_args+=(--pair "$pair"); done
           python "$HELPER" "${merge_args[@]}"
+          occupied=()
+          for national in guide-es.xml guide-fr.xml guide-gb.xml guide-pt.xml guide-nl.xml guide-it.xml guide-de.xml guide-tr.xml guide-be.xml guide-ca.xml guide-af.xml; do
+            if [[ -f "$WORKSPACE/guides/$national" ]]; then
+              occupied+=(--occupied-guide "$WORKSPACE/guides/$national")
+            fi
+          done
+          python3 "$WORKSPACE/scripts/grab_snrt.py" \
+            --channels "$WORKSPACE/epg/snrt-ma.channels.xml" \
+            --aliases "$WORKSPACE/epg/aliases-arabic.json" \
+            --days 2 \
+            --output "$OUTPUT_DIR/snrt.xml" \
+            --append-to "$OUTPUT_DIR/guide-arabic.xml" \
+            "${occupied[@]}"
           echo "upstream=$UPSTREAM_SHA" >> "$GITHUB_OUTPUT"
           echo "elapsed=$(($(date +%s)-started))" >> "$GITHUB_OUTPUT"
           echo "Arabic trial complete: $(stat -c%s "$OUTPUT_DIR/guide-arabic.xml") bytes"
@@ -143,7 +157,7 @@ jobs:
         run: |
           set -euo pipefail
           test -s "$GENERATED_GUIDE"
-          git diff --quiet "$SOURCE_SHA" -- scripts/arabic-epg.py scripts/merge-national-guides.py scripts/process-epg.py .github/workflows epg || {
+          git diff --quiet "$SOURCE_SHA" -- scripts/arabic-epg.py scripts/grab_snrt.py scripts/merge-national-guides.py scripts/process-epg.py .github/workflows epg || {
             echo "::error::Arabic generation code changed during the run; refusing stale output."
             exit 1
           }

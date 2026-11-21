@@ -632,7 +632,7 @@ def main() -> int:
     parser.add_argument("--xtream-aliases", type=Path, default=root / "epg" / "xtream-aliases.json")
     parser.add_argument(
         "--profile",
-        choices=("es", "fr", "arabic", "gb", "pt", "nl", "it", "de", "tr", "be", "ca"),
+        choices=("es", "fr", "arabic", "gb", "pt", "nl", "it", "de", "tr", "be", "ca", "af"),
         default="es",
         help="Alias validation profile (regional guides use relaxed display-name counts)",
     )
@@ -687,6 +687,7 @@ def main() -> int:
             "tr": "TR",
             "be": "BE",
             "ca": "CA",
+            "af": "AF",
         }[profile]
         tolerate_configured = profile != "es"
         xtream_aliases, xtream_summary = resolve_xtream_catalog(

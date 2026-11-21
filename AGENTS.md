@@ -38,10 +38,12 @@ epg/
 │   ├── generate-de.yml         # Publica solo guides/guide-de.xml
 │   ├── generate-tr.yml         # Publica solo guides/guide-tr.xml
 │   ├── generate-be.yml         # Publica solo guides/guide-be.xml
-│   └── generate-ca.yml         # Publica solo guides/guide-ca.xml
+│   ├── generate-ca.yml         # Publica solo guides/guide-ca.xml
+│   └── generate-af.yml         # Publica solo guides/guide-af.xml
 ├── scripts/
 │   ├── arabic-epg.py           # Selección de cobertura y fusión de XMLTV árabe
 │   ├── ca-epg.py               # Selección y fusión de la guía canadiense
+│   ├── af-epg.py               # Selección y fusión de la guía africana
 │   ├── grab_epgshare.py        # Extra EPGShare (Rally.TV.de) para ES y DE
 │   ├── commands/
 │   │   ├── epg/grab.ts         # Punto de entrada principal
@@ -109,7 +111,7 @@ sites/<dominio>/
 - `epg-orchestrator.yml`: cron 03:00 UTC y `workflow_dispatch`. Llama en paralelo a
  `generate-es.yml`, `generate-fr.yml`, `generate-arabic.yml`, `generate-gb.yml`,
  `generate-pt.yml`, `generate-nl.yml`, `generate-it.yml`, `generate-de.yml`,
- `generate-tr.yml`, `generate-be.yml` y `generate-ca.yml`, luego fusiona con
+ `generate-tr.yml`, `generate-be.yml`, `generate-ca.yml` y `generate-af.yml`, luego fusiona con
   `scripts/merge-national-guides.py` (`--root .`, que lee `guides/`). El XML global se escribe en un fichero
   temporal, se valida igual que antes y se comprime con GZIP nivel 9 y `mtime=0`
   (`scripts/xmltv_gzip.py`). Solo se publica si el contenido descomprimido es idéntico a ese
@@ -161,6 +163,18 @@ sites/<dominio>/
   CA2 conserva el corte regional en inglés y francés. Tras el merge crudo, `process-epg --profile ca`
   con `epg/aliases-ca.json` y `epg/xtream-aliases-ca.json` (vacío: los ids Xtream ya van en la guía).
   El grab usa `--days=2`.
+- El generador africano publica `guides/guide-af.xml` con `scripts/af-epg.py` (Canal+ Afrique →
+  TMA Caraïbes) y la tabla curada `epg/af-stations.json`. Solo entran los canales de `[AF] AFRIQUE`.
+  Lee las guías nacionales ya publicadas, sobre todo `guides/guide-fr.xml`, `guides/guide-pt.xml`,
+  `guides/guide-gb.xml` y `guides/guide-arabic.xml`. Si un id ya tiene programas, no vuelve a
+  descargar esa parrilla: `RTI1.ci@SD`, `CRTV.cm@SD`, `ORTM1.ml@SD`, `2STV.sn@SD` y el resto de
+  señales ya publicadas siguen en la guía que las tenía. TVC News Nigeria reutiliza
+  `TVCNews.ng@SD` de la guía británica y no copia sus programas. No se mezclan variantes: RTS Senegal no
+  usa RTS Suiza, ORTM 2 no usa ORTM 1, Canal 2 Internacional no usa Canal 2 Movies, Al Jazeera
+  árabe no usa Al Jazeera English, TV5MONDE Info no usa TV5MONDE Afrique y TVM1 no usa TVM
+  Internacional. Los `epg_channel_id` del panel están vacíos, así que no hay clones. Tras el
+  merge crudo, `process-epg --profile af` con `epg/aliases-af.json` y `epg/xtream-aliases-af.json`
+  (vacío). El grab usa `--days=2`.
 - El generador alemán publica `guides/guide-de.xml` con `scripts/de-epg.py` (Magenta → Magenta web →
   TV Heute, más extras EPGShare). Rally.TV (`Rally.TV.de`, site_id `RALLY_TV1#Rally.TV.de`) se
   descarga con `scripts/grab_epgshare.py` (mismo contrato URL que iptv-org `epgshare01.online`).
@@ -201,13 +215,16 @@ sites/<dominio>/
   Virgin TV Go. Tras el merge crudo, `process-epg --profile gb` con `epg/aliases-gb.json` y
   `epg/xtream-aliases-gb.json`; los mappings curados viven en `scripts/apply_gb_xtream_curated.py`.
 - El generador Arabic publica `guides/guide-arabic.xml` con Shahid primero y elCinema, OSN, beIN,
-  beIN SPORTS MENA, Al Jazeera, ART y Ayn como fuentes complementarias. Mantiene dos días,
-  limita elCinema a una conexión con un segundo de demora, conserva títulos árabes y omite SAT.tv
-  y EPGShare01 mientras no aporten programación válida.
+  beIN SPORTS MENA, Al Jazeera, ART y Ayn como fuentes complementarias. Después añade Laâyoune
+  y Tamazight desde la parrilla pública de SNRT (`scripts/grab_snrt.py`, `epg/snrt-ma.channels.xml`);
+  el grabber de iptv-org recibe 403 en esa web. No copia un id que ya tenga programas en otra guía
+  nacional. Mantiene dos días, limita elCinema a una conexión con un segundo de demora, conserva
+  títulos árabes y omite SAT.tv y EPGShare01 mientras no aporten programación válida. Marruecos,
+  Argelia y Túnez no tienen guía propia: sus canales del panel reutilizan los ids ya publicados.
 - Cada generador nacional publica únicamente su guía vía `scripts/ci/publish-xmltv.sh`
   (reintentos con `git fetch`/`checkout` para evitar conflictos de push concurrentes).
 - **Capa Xtream obligatoria:** tras el grab/XMLTV crudo, cada workflow ejecuta
-  `scripts/process-epg.py` con `--profile es|fr|arabic|gb|pt|nl|it|de|tr|be|ca` y los JSON en `epg/aliases*.json` /
+  `scripts/process-epg.py` con `--profile es|fr|arabic|gb|pt|nl|it|de|tr|be|ca|af` y los JSON en `epg/aliases*.json` /
   `epg/xtream-aliases*.json` (p. ej. `aliases-gb.json`, `xtream-aliases-gb.json`). El paso de
   publish valida que cada clone exista en la guía. Los mappings se regeneran en local con
   `python scripts/build_xtream_mappings.py` (`XTREAM_DB` opcional); no commitear credenciales,
@@ -218,7 +235,8 @@ sites/<dominio>/
   `guide-ar.xml` de Argentina. Toda región nueva requiere alias + xtream-aliases + paso
   `process-epg` en su workflow. Si comparte ids con otra guía, añadir el fichero a las listas de
   guías ocupadas: Bélgica lee `guides/guide-fr.xml`, `guides/guide-nl.xml` y el resto de nacionales;
-  Canadá lee todas las nacionales ya publicadas, incluida `guides/guide-nl.xml`;
+  Canadá lee todas las nacionales ya publicadas, incluida `guides/guide-nl.xml` y `guides/guide-af.xml`;
+  África lee todas las nacionales ya publicadas;
   Países Bajos lee `guides/guide-fr.xml` entre otras, y Francia publica la suya para que ambos la usen.
 - next-blog no forma parte de esta publicación. El orquestador no llama a `hectorzin/next-blog`
   ni usa un secreto para avisarle. Su importador descarga

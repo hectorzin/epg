@@ -74,8 +74,13 @@ jobs:
     uses: ./.github/workflows/generate-ca.yml
     secrets: inherit
 
+  africa:
+    if: ${{ inputs.merge_only != true }}
+    uses: ./.github/workflows/generate-af.yml
+    secrets: inherit
+
   merge-global:
-    needs: [spain, france, arabic, britain, portugal, netherlands, italy, germany, turkey, belgium, canada]
+    needs: [spain, france, arabic, britain, portugal, netherlands, italy, germany, turkey, belgium, canada, africa]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     concurrency:
@@ -116,5 +121,6 @@ jobs:
             echo "- Turkey: ${{ needs.turkey.result }}"
             echo "- Belgium: ${{ needs.belgium.result }}"
             echo "- Canada: ${{ needs.canada.result }}"
+            echo "- Africa: ${{ needs.africa.result }}"
             echo "- Global merge: ${{ job.status }}"
           } >> "$GITHUB_STEP_SUMMARY"

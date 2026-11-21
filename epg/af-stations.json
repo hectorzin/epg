@@ -1,0 +1,725 @@
+{
+  "stations": [
+    {
+      "id": "2STV.sn@SD",
+      "names": [
+        "AF 2S TV -Senegal"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180122"
+        }
+      ]
+    },
+    {
+      "id": "Canal2International.cm@SD",
+      "names": [
+        "AF CANAL 2"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180172"
+        }
+      ]
+    },
+    {
+      "id": "CRTV.cm@SD",
+      "names": [
+        "AF CRTV"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180010"
+        }
+      ]
+    },
+    {
+      "id": "ORTM1.ml@SD",
+      "names": [
+        "AF ORTM 1 -Mali"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180069"
+        }
+      ]
+    },
+    {
+      "id": "ORTBTV.bj@SD",
+      "names": [
+        "AF ORTB -Benin"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": []
+    },
+    {
+      "id": "RTI1.ci@SD",
+      "names": [
+        "AF RTI 1"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180171"
+        }
+      ]
+    },
+    {
+      "id": "TFM.sn@SD",
+      "names": [
+        "AF TFM -Senegal"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180234"
+        }
+      ]
+    },
+    {
+      "id": "SenTV.sn@SD",
+      "names": [
+        "AF SEN TV SN"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180377"
+        }
+      ]
+    },
+    {
+      "id": "NollywoodTV.fr@SD",
+      "names": [
+        "AF Nollywood Fr -Nigeria"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180270"
+        }
+      ]
+    },
+    {
+      "id": "AlJazeera.qa@Arabic",
+      "names": [
+        "AF Al Jazeera"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180277"
+        }
+      ]
+    },
+    {
+      "id": "TraceToca.fr@SD",
+      "names": [
+        "AF Trace Toca"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": []
+    },
+    {
+      "id": "VoxAfrica.uk@SD",
+      "names": [
+        "AF VOX Afrique"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180193"
+        }
+      ]
+    },
+    {
+      "id": "RTS1.sn@SD",
+      "names": [
+        "AF RTS 1 -Senegal"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180076"
+        }
+      ]
+    },
+    {
+      "id": "RTI2.ci@SD",
+      "names": [
+        "AF RTI 2"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180271"
+        }
+      ]
+    },
+    {
+      "id": "ORTM2.ml@SD",
+      "names": [
+        "AF ORTM 2 -Mali"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180397"
+        }
+      ]
+    },
+    {
+      "id": "Canal3.bj@SD",
+      "names": [
+        "AF CANAL 3 BENIN"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180546"
+        }
+      ]
+    },
+    {
+      "id": "RTB.bf@SD",
+      "names": [
+        "AF Rtb"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180121"
+        }
+      ]
+    },
+    {
+      "id": "RwandaTV.rw@SD",
+      "names": [
+        "AF Rwanda TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180251"
+        }
+      ]
+    },
+    {
+      "id": "M7.ml@SD",
+      "names": [
+        "AF M7 -Mali"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180257"
+        }
+      ]
+    },
+    {
+      "id": "BenieTV.sn@SD",
+      "names": [
+        "AF Benie TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180325"
+        }
+      ]
+    },
+    {
+      "id": "WalfTV.sn@SD",
+      "names": [
+        "AF Walf -Senegal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180572"
+        }
+      ]
+    },
+    {
+      "id": "AsfiyahiTV.sn@SD",
+      "names": [
+        "AF Asfiyahi Tv senegal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180612"
+        }
+      ]
+    },
+    {
+      "id": "KalacTV.gn@SD",
+      "names": [
+        "AF Kalac TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180640"
+        }
+      ]
+    },
+    {
+      "id": "LampFallTV.sn@SD",
+      "names": [
+        "AF Lamp Fall -Senegal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180921"
+        }
+      ]
+    },
+    {
+      "id": "MalikiaTV.sn@SD",
+      "names": [
+        "AF Malikiatv -Senegal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180092"
+        }
+      ]
+    },
+    {
+      "id": "ITV.sn@SD",
+      "names": [
+        "AF ITV -Senegal"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180722"
+        }
+      ]
+    },
+    {
+      "id": "TM1.ml@SD",
+      "names": [
+        "AF TM1 TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180723"
+        }
+      ]
+    },
+    {
+      "id": "KC2.rw@SD",
+      "names": [
+        "AF KC2 RWANDA"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180747"
+        }
+      ]
+    },
+    {
+      "id": "VoxTV.cg@SD",
+      "names": [
+        "AF VOX TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "canalplus.com",
+          "site_id": "sn#180561"
+        }
+      ]
+    },
+    {
+      "id": "TMA.gp@SD",
+      "names": [
+        "AF Tma caraibes TV"
+      ],
+      "panel_ids": [],
+      "required": false,
+      "sources": [
+        {
+          "site": "epg.tmacaraibes.com",
+          "site_id": "TMA.gp@SD"
+        }
+      ]
+    },
+    {
+      "id": "TVCNews.ng@SD",
+      "names": [
+        "AF TVC News Live -Nigeria"
+      ],
+      "panel_ids": [],
+      "required": true,
+      "sources": []
+    }
+  ],
+  "unmatched": [
+    {
+      "name": "AF A12 TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF A2i",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF A2i Music TV -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF A2i TV Religion -Senegal",
+      "reason": "Not Canal+ ITV Senegal"
+    },
+    {
+      "name": "AF ABN TV -Nigeria",
+      "reason": "No ABN entry in Canal+ Afrique or DStv Nigeria"
+    },
+    {
+      "name": "AF ANN -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF AYV",
+      "reason": "EPGShare NG1 lists AYV TV but the current ripper has no programmes"
+    },
+    {
+      "name": "AF Addis TV -ETHIOPIA",
+      "reason": "No Addis TV entry in Canal+ Ethiopia or DStv"
+    },
+    {
+      "name": "AF Africa Gospel TV -Senegal",
+      "reason": "Not Trace Gospel"
+    },
+    {
+      "name": "AF Afrique Media TV",
+      "reason": "Not Africa 24 or Tele Africa"
+    },
+    {
+      "name": "AF Afro Music",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Ahadu TV -Ethiopia",
+      "reason": "No Ahadu entry in the Canal+ or DStv catalogs"
+    },
+    {
+      "name": "AF BTV Biafra 1",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Chosen TV",
+      "reason": "Not Sen TV"
+    },
+    {
+      "name": "AF Cis TV -Congo",
+      "reason": "Canal+ CIS TV is the Guinean channel, not a Congolese feed"
+    },
+    {
+      "name": "AF Citizen Extra",
+      "reason": "Not Citizen TV; EPGShare lists Citizen TV without programmes"
+    },
+    {
+      "name": "AF Ctv Afrique",
+      "reason": "Not TV+ Afrique"
+    },
+    {
+      "name": "AF DTV -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF EDEN",
+      "reason": "Canal+ lists EDEN TV without identifying which Eden feed it is"
+    },
+    {
+      "name": "AF Eriteria TV",
+      "reason": "No Eri-TV entry in the Canal+ or DStv catalogs"
+    },
+    {
+      "name": "AF Espace TV -Cameron",
+      "reason": "Canal+ ESPACE TV is the Guinean channel, not a Cameroonian feed"
+    },
+    {
+      "name": "AF Evandis Gospel TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Faith World TV -Etopia",
+      "reason": "DStv Faith is a different channel"
+    },
+    {
+      "name": "AF Gambia - Qtv",
+      "reason": "No QTV Gambia entry in the Canal+ or DStv catalogs"
+    },
+    {
+      "name": "AF Hadi TV1",
+      "reason": "Iranian Hadi TV feed; no African EPG and not interchangeable with TV1"
+    },
+    {
+      "name": "AF Hadi TV2",
+      "reason": "Iranian Hadi TV feed, distinct from Hadi TV1"
+    },
+    {
+      "name": "AF Hadi TV4",
+      "reason": "Iranian Hadi TV feed, distinct from the other Hadi feeds"
+    },
+    {
+      "name": "AF Hadi TV5",
+      "reason": "Iranian Hadi TV feed, distinct from the other Hadi feeds"
+    },
+    {
+      "name": "AF ITV 2",
+      "reason": "Canal+ only lists ITV Senegal, not a second ITV feed"
+    },
+    {
+      "name": "AF Impac TV -Cameron",
+      "reason": "Canal+ IMPACT TV is the Burkina Faso channel, not a Cameroonian feed"
+    },
+    {
+      "name": "AF Inooro TV -Kenya",
+      "reason": "EPGShare KE1 lists Inooro TV but the current ripper has no programmes"
+    },
+    {
+      "name": "AF Ivoire Channel",
+      "reason": "Not Ivoire TV Music"
+    },
+    {
+      "name": "AF JOY NEWS -Ghana",
+      "reason": "EPGShare KE1 lists Joy News but the current ripper has no programmes"
+    },
+    {
+      "name": "AF KBC TV -Kenya",
+      "reason": "EPGShare KE1 lists KBCTV but the current ripper has no programmes"
+    },
+    {
+      "name": "AF Kajou TV -Kenya",
+      "reason": "No Kajou entry in DStv Kenya"
+    },
+    {
+      "name": "AF Kalsan TV Somali",
+      "reason": "No Kalsan entry in the Canal+ or DStv catalogs"
+    },
+    {
+      "name": "AF Kingdom Sat channel",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Kwanza -Kenya",
+      "reason": "No Kwanza entry in DStv Kenya"
+    },
+    {
+      "name": "AF L INTELLIGENT TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Love World Mena TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Loveworld XP",
+      "reason": "Distinct from Love World Mena and not in the catalogs"
+    },
+    {
+      "name": "AF Lumire TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF MY MUSIC AFRICA HD",
+      "reason": "Not Trace Urban or Trace Africa"
+    },
+    {
+      "name": "AF Mouride tv",
+      "reason": "Not Al Mouridiyyah TV"
+    },
+    {
+      "name": "AF My TV Channel -Cameron",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF NAJA",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF NRB TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF NTV",
+      "reason": "EPGShare KE1 lists NTV Kenya and NTV Uganda, both without programmes"
+    },
+    {
+      "name": "AF Obosso TV -Congo",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Ouest Tv -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF RTF -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF RTJ TV -Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF RTS 3 -Senegal",
+      "reason": "Canal+ RTS 2 is a different Senegal feed; no RTS 3 source"
+    },
+    {
+      "name": "AF RTV -Ghana",
+      "reason": "Not CRTV or another RTV feed"
+    },
+    {
+      "name": "AF Rave TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Riv Shilo",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF SN TV",
+      "reason": "Not Sen TV"
+    },
+    {
+      "name": "AF SOMALILAND TV",
+      "reason": "No Somaliland National TV entry in the catalogs"
+    },
+    {
+      "name": "AF SenWeb TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Studio 1 TV -Ghana",
+      "reason": "Not Studio Universal"
+    },
+    {
+      "name": "AF Sunu Label TV -Senegal ",
+      "reason": "Not Sunu Yeuf"
+    },
+    {
+      "name": "AF Surnaturel TV",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF TV5 Monde info",
+      "reason": "Not TV5MONDE Afrique, TV5MONDE Europe or TV5 Monde FBS"
+    },
+    {
+      "name": "AF TV7 Colmar",
+      "reason": "Canal+ TV7 is the Togo channel, not TV7 Colmar"
+    },
+    {
+      "name": "AF TVM1 -Mozambique",
+      "reason": "Not TVM Internacional"
+    },
+    {
+      "name": "AF TVS Senegal",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF Touba Monde -Senegal",
+      "reason": "Not Touba TV"
+    },
+    {
+      "name": "AF Touba VISON -Senegal",
+      "reason": "Not Touba TV or Touba Monde"
+    },
+    {
+      "name": "AF Tv Mocambique -Mozambique",
+      "reason": "Not TVM Internacional or TVM1"
+    },
+    {
+      "name": "AF URBAN AFRICA TV",
+      "reason": "Not Trace Urban Afrique"
+    },
+    {
+      "name": "AF VOX AFRICA News",
+      "reason": "Not Vox Africa and not Africanews"
+    },
+    {
+      "name": "AF VSTV",
+      "reason": "Not STV Cameroon"
+    },
+    {
+      "name": "AF amaze tv sierra leone",
+      "reason": "No public EPG names this station"
+    },
+    {
+      "name": "AF energy 100fm namibia",
+      "reason": "Radio station; no TV schedule in the catalogs"
+    },
+    {
+      "name": "IR Hadi TV3",
+      "reason": "Iranian Hadi TV feed filed under Afrique; distinct from the other Hadi feeds"
+    }
+  ]
+}

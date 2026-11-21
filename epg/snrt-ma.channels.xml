@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="snrt.ma" site_id="4069" lang="ar" xmltv_id="LaayouneTV.ma@SD" expect="العيون">Laâyoune</channel>
+  <channel site="snrt.ma" site_id="4075" lang="ar" xmltv_id="TamazightTV.ma@SD" expect="الأمازيغية">Tamazight</channel>
+</channels>

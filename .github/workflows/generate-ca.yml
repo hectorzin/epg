@@ -52,7 +52,7 @@ jobs:
           set -uo pipefail
           mkdir -p "$OUTPUT_DIR"
           occupied_files=()
-          for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-nl.xml guide-it.xml guide-de.xml guide-tr.xml guide-be.xml; do
+          for national in guide-es.xml guide-fr.xml guide-arabic.xml guide-gb.xml guide-pt.xml guide-nl.xml guide-it.xml guide-de.xml guide-tr.xml guide-be.xml guide-af.xml; do
             if [[ -f "$WORKSPACE/guides/$national" ]]; then
               occupied_files+=("$WORKSPACE/guides/$national")
             fi

@@ -100,6 +100,8 @@ class XtreamMatchingTests(unittest.TestCase):
         self.assertEqual(match.classify_playlist_region("[BL] BELGIUM"), "BE")
         self.assertEqual(match.classify_playlist_region("[BE] BELGIUM"), "BE")
         self.assertEqual(match.classify_playlist_region("[CA] CANADA"), "CA")
+        self.assertEqual(match.classify_playlist_region("[AF] AFRIQUE"), "AF")
+        self.assertNotEqual(match.classify_playlist_region("[AF] AFRIQUE"), "ARABIC")
         self.assertNotEqual(match.classify_playlist_region("[DE] SKY DUTCH"), "NL")
 
     def test_grand_ecran_feed_maps_without_numeric_suffix(self):

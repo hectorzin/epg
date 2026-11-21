@@ -24,6 +24,7 @@ PROFILE_TO_POLICY_KEY = {
     "tr": None,
     "be": None,
     "ca": None,
+    "af": None,
 }
 
 
