@@ -11465,12 +11465,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121073000 +0000" stop="20261121093000 +0000" channel="ICIARTV.ca@HD">
-    <title>Quelque part dans le temps</title>
-  </programme>
-  <programme start="20261121073000 +0000" stop="20261121083000 +0000" channel="ICIRDI.ca@HD">
-    <title>Le téléjournal avec Claudine Bourbonnais</title>
-  </programme>
   <programme channel="ICITele.ca@HD" start="20261121073000 +0000" stop="20261121080000 +0000">
     <title lang="en">Pinoy Pa Rin With Tenne &amp; Michael</title>
     <desc lang="en">Featuring the local Filipino Canadian community.</desc>
@@ -11601,15 +11595,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121073000 +0000" stop="20261121080000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121073000 +0000" stop="20261121080000 +0000" channel="RDS2.ca@HD">
-    <title>L'antichambre</title>
-  </programme>
-  <programme start="20261121073000 +0000" stop="20261121080000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
-  </programme>
   <programme channel="SilverScreenClassics.ca@SD" start="20261121073000 +0000" stop="20261121080000 +0000">
     <title lang="en">Postcards From Canada</title>
     <desc lang="en">Images of the East Coast and Canadian Winters.</desc>
@@ -11667,9 +11652,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p12194710_b_h8_aa.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261121073000 +0000" stop="20261121085500 +0000" channel="SuperEcran1.ca@HD">
-    <title>Une pincée de tromperie: Une enquête de Hannah Swensen</title>
-  </programme>
   <programme channel="TCMCanada.ca@HD" start="20261121073000 +0000" stop="20261121093000 +0000">
     <title lang="en">A Little Romance</title>
     <desc lang="en">Intellectually precocious teenager Lauren King lives in Paris with her somewhat ditzy mother. On a movie set, she strikes up a friendship with teenage film buff Daniel Michon. After Lauren's mother forbids her to date the outspoken Daniel, the young lovebirds team up with eccentric pickpocket Julius to run away to Venice, where, according to legend, a couple who kiss under the Bridge of Sighs will stay together forever.</desc>
@@ -11714,12 +11696,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p11413944_b_h10_aa.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">E27</episode-num>
     <previously-shown />
-  </programme>
-  <programme start="20261121073000 +0000" stop="20261121110000 +0000" channel="TVASports2.ca@HD">
-    <title>UFC en direct - Fight night</title>
-  </programme>
-  <programme start="20261121073000 +0000" stop="20261121080000 +0000" channel="Unis.ca@HD">
-    <title>Demon Slayer : Kimetsu no Yaiba</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121073000 +0000" stop="20261121080000 +0000">
     <title lang="en">Tribal Trails</title>
@@ -12161,9 +12137,6 @@
       <value>All</value>
     </rating>
   </programme>
-  <programme start="20261121074400 +0000" stop="20261121084400 +0000" channel="ICIMontreal.ca@HD">
-    <title>24·60</title>
-  </programme>
   <programme channel="HBOCanada1.ca@HD" start="20261121074500 +0000" stop="20261121093000 +0000">
     <title lang="en">American Splendor</title>
     <desc lang="en">Underground comic book writer Harvey Pekar, portrayed by Paul Giamatti but also appearing as himself, is the subject of this inventive biopic. Much of the film focuses on the eccentric Pekar's day-to-day life in Cleveland, particularly his relationship with his patient wife, Joyce Brabner (played by Hope Davis and also appearing as herself). As Pekar's musings are brought to the screen in this unique and engaging production, the movie playfully incorporates comic book-like panels.</desc>
@@ -12269,9 +12242,6 @@
     <rating system="Kijkwijzer">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261121075500 +0000" stop="20261121093000 +0000" channel="Cinepop.ca@HD">
-    <title>Avant que mon coeur bascule</title>
   </programme>
   <programme channel="FXCanada.ca@HD" start="20261121075500 +0000" stop="20261121082000 +0000">
     <title lang="en">It's Always Sunny in Philadelphia</title>
@@ -13257,9 +13227,6 @@
       <value>12</value>
     </rating>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="CanalVie.ca@HD">
-    <title>Transplanté</title>
-  </programme>
   <programme channel="CartoonNetwork.ca@HD" start="20261121080000 +0000" stop="20261121083000 +0000">
     <title lang="en">Total Dramarama</title>
     <sub-title lang="en">Judgement Bidet; Dial B for Birder</sub-title>
@@ -13299,9 +13266,6 @@
     <rating system="Kijkwijzer">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="Casa.ca@HD">
-    <title>L'adresse idéale</title>
   </programme>
   <programme channel="Citytv.ca@SD" start="20261121080000 +0000" stop="20261121090000 +0000">
     <title lang="en">Hudson &amp; Rex</title>
@@ -13655,9 +13619,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="Evasion.ca@SD">
-    <title>Désastres et découvertes</title>
-  </programme>
   <programme channel="FXXCanada.ca@SD" start="20261121080000 +0000" stop="20261121083000 +0000">
     <title lang="en">Brooklyn Nine-Nine</title>
     <sub-title lang="en">The Chopper</sub-title>
@@ -13908,9 +13869,6 @@
     <rating system="UK Content Provider">
       <value>PG</value>
     </rating>
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="Historia.ca@HD">
-    <title>Secrets déclassifiés avec David Duchovny</title>
   </programme>
   <programme channel="History.ca@HD" start="20261121080000 +0000" stop="20261121090000 +0000">
     <title lang="en">The UnXplained Special Presentation</title>
@@ -14235,9 +14193,6 @@
       <value>16</value>
     </rating>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="MeteoMedia.ca@HD">
-    <title>Prévisions météorologiques</title>
-  </programme>
   <programme channel="MiracleChannel.ca@SD" start="20261121080000 +0000" stop="20261121083000 +0000">
     <title lang="en">TV One Life</title>
     <desc lang="en">Bringing young people to an encounter with God.</desc>
@@ -14421,24 +14376,12 @@
     <title>Maigret on Masterpiece</title>
     <desc>S02 E05 — The Yellow Dog, Part OneAfter a wealthy businessman is killed, Guichard assigns the case to Maigret, who must trust his instincts despite pressure from his superiors.</desc>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121093000 +0000" channel="PlanetePlus.ca@HD">
-    <title>Les trésors enfouis du royaume de Shu</title>
-  </programme>
   <programme channel="PrimeAsia.ca@SD" start="20261121080000 +0000" stop="20261121090000 +0000">
     <title lang="en">Prime Bollywood</title>
     <date>2019</date>
     <category lang="en">Entertainment</category>
     <icon src="http://dtil.tmsimg.com/assets/p17167506_b_h8_aa.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121083000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121100000 +0000" channel="RDS2.ca@HD">
-    <title>Le 5 à 7</title>
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121083000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
   </programme>
   <programme channel="ShoppingChannel.ca@SD" start="20261121080000 +0000" stop="20261121090000 +0000">
     <title lang="en">Brian Bailey: Canadian Designer Fall Fashion</title>
@@ -14775,9 +14718,6 @@
       <value>TVPG</value>
     </rating>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121083000 +0000" channel="Unis.ca@HD">
-    <title>Hunter X Hunter</title>
-  </programme>
   <programme channel="VisionTV.ca@HD" start="20261121080000 +0000" stop="20261121083000 +0000">
     <title lang="en">Tomorrow's World</title>
     <desc lang="en">Tomorrow's World makes sense of your world through the pages of the Bible. Sponsored by the Living Church of God, Tomorrow's World proclaims the good news of the coming Kingdom of God and warns of the troubled times ahead.</desc>
@@ -14941,9 +14881,6 @@
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121090000 +0000" channel="addikTV.ca@HD">
-    <title>Le mobile du crime</title>
-  </programme>
   <programme channel="beINSportsCanada.ca@HD" start="20261121080000 +0000" stop="20261121083000 +0000">
     <title lang="en">One Weekly</title>
     <desc lang="en">The host, along with several sports experts, discuss the best fighters and deliver the latest developments happening in the world of mixed martial arts.</desc>
@@ -14978,12 +14915,6 @@
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261121080000 +0000" stop="20261121093000 +0000" channel="planeteplus.ca">
-    <title>Les trésors enfouis du royaume de Shu</title>
-  </programme>
-  <programme start="20261121080100 +0000" stop="20261121090100 +0000" channel="TVAMontreal.ca@HD">
-    <title>Infopublicité</title>
   </programme>
   <programme channel="CTV2Barrie.ca@HD" start="20261121080500 +0000" stop="20261121091500 +0000">
     <title lang="en">Criminal Minds: Evolution</title>
@@ -15240,9 +15171,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121081100 +0000" stop="20261121101000 +0000" channel="ICIVancouver.ca@HD">
-    <title>Seberg</title>
-  </programme>
   <programme channel="ICIOntario.ca@HD" start="20261121081400 +0000" stop="20261121091400 +0000">
     <title lang="fr">24/60</title>
     <desc lang="fr">Dans cette émission quotidienne diffusée en direct, on y retrouve différents sujets d'importance des dernières 24 heures. Que ce soit l'économie, la politique, la culture ou le sport, l'équipe de chroniqueurs débat sur les dossiers chauds tandis que les journalistes sondent le terrain en y rencontrant les protagonistes. L'émission propose également une participation active par le biais des médias sociaux, permettant aux auditeurs d'émettre leurs opinions sur les nouvelles du jour.</desc>
@@ -15288,9 +15216,6 @@
     <rating system="Krajowa Rada Radiofonii i Telewizji">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20261121081900 +0000" stop="20261121084400 +0000" channel="TeleQuebec.ca@HD">
-    <title>Luka et Léo</title>
   </programme>
   <programme channel="CTVSciFi.ca@HD" start="20261121082000 +0000" stop="20261121092000 +0000">
     <title lang="en">Anne Rice's Mayfair Witches</title>
@@ -15955,9 +15880,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="ICIRDI.ca@HD">
-    <title>Le national</title>
-  </programme>
   <programme channel="LCN.ca@HD" start="20261121083000 +0000" stop="20261121090000 +0000">
     <title lang="fr">TVA nouvelles</title>
     <desc lang="fr">Information régionale, nationale et internationale.</desc>
@@ -16123,12 +16045,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p18698522_b_h10_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
-  </programme>
   <programme channel="SilverScreenClassics.ca@SD" start="20261121083000 +0000" stop="20261121090000 +0000">
     <title lang="en">Classroom Classics</title>
     <desc lang="en">Featuring "Snap Out of It" and "Keeping Mentally Fit.".</desc>
@@ -16228,9 +16144,6 @@
     <episode-num system="onscreen">E27</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="TV5Quebec.ca@HD">
-    <title>Les ambassadeurs</title>
-  </programme>
   <programme channel="Temoin.ca@HD" start="20261121083000 +0000" stop="20261121090000 +0000">
     <title lang="fr">Un meurtrier parmi nous</title>
     <desc lang="fr">Devon Guzman, 19 ans, est retrouvée morte sur la banquette arrière de sa voiture; s'agit-il d'un suicide? D'une surdose? La police a des doutes; en enquêtant, elle découvre un triangle amoureux, une bonne dose de jalousie et beaucoup de colère.</desc>
@@ -16308,9 +16221,6 @@
     <rating system="Dirección General de Radio, Televisión y Cinematografía">
       <value>A</value>
     </rating>
-  </programme>
-  <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="Unis.ca@HD">
-    <title>Hunter X Hunter</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121083000 +0000" stop="20261121090000 +0000">
     <title lang="en">Faytene</title>
@@ -16781,12 +16691,6 @@
       <value>ATP</value>
     </rating>
   </programme>
-  <programme start="20261121084400 +0000" stop="20261121110000 +0000" channel="ICIMontreal.ca@HD">
-    <title>Hors d'ondes</title>
-  </programme>
-  <programme start="20261121084400 +0000" stop="20261121091000 +0000" channel="TeleQuebec.ca@HD">
-    <title>Cochon dingue</title>
-  </programme>
   <programme channel="SuperEcran2.ca@HD" start="20261121084500 +0000" stop="20261121103000 +0000">
     <title lang="fr">L'intrus</title>
     <desc lang="fr">Lorsque Matthew, un vendeur solitaire de Los Angeles dans la vingtaine, fait la rencontre d'Oliver, une vedette de la pop en pleine ascension, il saisit l'occasion de se faufiler au sein de son cercle branché. Cependant, y rester ne sera pas une sinécure.</desc>
@@ -16847,9 +16751,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121085000 +0000" stop="20261121110000 +0000" channel="TFO.ca@HD">
-    <title>Hors d'ondes</title>
-  </programme>
   <programme channel="SuperChannelVault.ca@HD" start="20261121085500 +0000" stop="20261121110000 +0000">
     <title lang="en">The Longest Yard</title>
     <desc lang="en">An ex-football star doing time is forced by the warden to organize a team of inmates to play against his own line-up of guards. The warden tries to blackmail him into throwing the game, but the convicts have their own ideas and see the game as an opportunity to repay some of the brutality they have endured.</desc>
@@ -16901,9 +16802,6 @@
     <star-rating system="TMS">
       <value>7.0/10</value>
     </star-rating>
-  </programme>
-  <programme start="20261121085500 +0000" stop="20261121102000 +0000" channel="SuperEcran1.ca@HD">
-    <title>Le coeur en laisse</title>
   </programme>
   <programme channel="Treehouse.ca@HD" start="20261121085500 +0000" stop="20261121092000 +0000">
     <title lang="en">Agent Binky: Pets of the Universe</title>
@@ -17787,9 +17685,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="CanalVie.ca@HD">
-    <title>Vendre ou rénover au Québec</title>
-  </programme>
   <programme channel="CartoonNetwork.ca@HD" start="20261121090000 +0000" stop="20261121093000 +0000">
     <title lang="en">Hotel Transylvania: The Series</title>
     <sub-title lang="en">Brain Drain; Hair Today, Gone Tomorrow</sub-title>
@@ -17828,9 +17723,6 @@
     <rating system="Kijkwijzer">
       <value>6</value>
     </rating>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="Casa.ca@HD">
-    <title>Les frères Scott: Sous pression</title>
   </programme>
   <programme channel="Citytv.ca@SD" start="20261121090000 +0000" stop="20261121100000 +0000">
     <title lang="en">Hudson &amp; Rex</title>
@@ -18263,9 +18155,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121103000 +0000" channel="Evasion.ca@SD">
-    <title>Alone: Les survivants</title>
-  </programme>
   <programme channel="FXXCanada.ca@SD" start="20261121090000 +0000" stop="20261121093000 +0000">
     <title lang="en">Brooklyn Nine-Nine</title>
     <sub-title lang="en">AC/DC</sub-title>
@@ -18573,9 +18462,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="Historia.ca@HD">
-    <title>Les grandes évasions avec Morgan Freeman</title>
-  </programme>
   <programme channel="History.ca@HD" start="20261121090000 +0000" stop="20261121100000 +0000">
     <title lang="en">The Proof Is Out There: Unexplained Edition</title>
     <sub-title lang="en">Bizarre Finds</sub-title>
@@ -18637,9 +18523,6 @@
     <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
       <value>A10</value>
     </rating>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="ICIRDI.ca@HD">
-    <title>Zone économie</title>
   </programme>
   <programme channel="ICITele.ca@HD" start="20261121090000 +0000" stop="20261121100000 +0000">
     <title lang="fr">Ava TV</title>
@@ -18887,9 +18770,6 @@
       <value>16</value>
     </rating>
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="MeteoMedia.ca@HD">
-    <title>Prévisions météorologiques</title>
-  </programme>
   <programme channel="MiracleChannel.ca@SD" start="20261121090000 +0000" stop="20261121093000 +0000">
     <title lang="en">Way of the Master</title>
     <desc lang="en">In this fast-paced, family-friendly, award-winning talk show, Ray Comfort and the team tackle some of the toughest questions about God, the Bible, and hot topics that skeptics and believers alike wrestle with, in a profound and often humorous way.</desc>
@@ -19030,12 +18910,6 @@
     <category lang="en">Public affairs</category>
     <icon src="http://dtil.tmsimg.com/assets/p12983658_b_h10_aa.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121093000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121093000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
   </programme>
   <programme channel="ShoppingChannel.ca@SD" start="20261121090000 +0000" stop="20261121100000 +0000">
     <title lang="en">KitchenAid Event</title>
@@ -19303,9 +19177,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p492912_b_h10_ae.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="TV5Quebec.ca@HD">
-    <title>Sans limites</title>
-  </programme>
   <programme channel="Temoin.ca@HD" start="20261121090000 +0000" stop="20261121100000 +0000">
     <title lang="fr">Un amour qui tue</title>
     <sub-title lang="fr">Portée disparue au Missouri</sub-title>
@@ -19337,9 +19208,6 @@
     <category lang="en">Weather</category>
     <icon src="http://dtil.tmsimg.com/assets/p10340387_b_h11_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121090000 +0000" stop="20261121093000 +0000" channel="Unis.ca@HD">
-    <title>Tout Sexplique</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121090000 +0000" stop="20261121093000 +0000">
     <title lang="en">Tomorrow's World</title>
@@ -19526,9 +19394,6 @@
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261121090000 +0000" stop="20261121100000 +0000" channel="addikTV.ca@HD">
-    <title>Le mobile du crime</title>
-  </programme>
   <programme channel="disneychannel.ca" start="20261121090000 +0000" stop="20261121093000 +0000">
     <title lang="en">Big City Greens</title>
     <sub-title lang="en">Spinned Off; Broken Karted</sub-title>
@@ -19602,9 +19467,6 @@
     <category lang="en">Soccer</category>
     <icon src="https://cdn.tvpassport.com/image/show/960x540/v2/p23245340_b_v12_ad.jpg" />
     <previously-shown />
-  </programme>
-  <programme start="20261121090100 +0000" stop="20261121100000 +0000" channel="TVAMontreal.ca@HD">
-    <title>TVA nouvelles</title>
   </programme>
   <programme channel="GlobalToronto.ca@HD" start="20261121090500 +0000" stop="20261121093500 +0000">
     <title lang="en">Paid Programming</title>
@@ -19879,9 +19741,6 @@
     <rating system="Mediakasvatus- ja kuvaohjelmayksikkö">
       <value>K12</value>
     </rating>
-  </programme>
-  <programme start="20261121091000 +0000" stop="20261121093400 +0000" channel="TeleQuebec.ca@HD">
-    <title>Luka et Léo</title>
   </programme>
   <programme channel="SuperChannelHeartHome.ca@HD" start="20261121091200 +0000" stop="20261121100000 +0000">
     <title lang="en">Crossroad Springs</title>
@@ -20583,9 +20442,6 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261121093000 +0000" stop="20261121110000 +0000" channel="Cinepop.ca@HD">
-    <title>Mon passé volé</title>
-  </programme>
   <programme channel="DaystarCanada.ca@SD" start="20261121093000 +0000" stop="20261121100000 +0000">
     <title lang="en">Reflections</title>
     <desc lang="en">Familiar hymns and original music accompany Scripture to help one let go and surrender during a time of daily prayer and meditation.</desc>
@@ -20957,9 +20813,6 @@
       <value>A10</value>
     </rating>
   </programme>
-  <programme start="20261121093000 +0000" stop="20261121103000 +0000" channel="ICIARTV.ca@HD">
-    <title>Pourquoi pas Evans?</title>
-  </programme>
   <programme channel="LCN.ca@HD" start="20261121093000 +0000" stop="20261121100000 +0000">
     <title lang="fr">TVA nouvelles</title>
     <desc lang="fr">Information régionale, nationale et internationale.</desc>
@@ -21032,9 +20885,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p838739_b_h10_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="PlanetePlus.ca@HD">
-    <title>Quand l'histoire fait dates</title>
-  </programme>
   <programme channel="PrimeAsia.ca@SD" start="20261121093000 +0000" stop="20261121100000 +0000">
     <title lang="en">Khabar di Khabar</title>
     <desc lang="en">The host presents a detailed and reliable analysis of the latest and the most important news updates of the day.</desc>
@@ -21043,12 +20893,6 @@
     <category lang="en">News</category>
     <icon src="http://dtil.tmsimg.com/assets/p14489784_b_h10_aa.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
   </programme>
   <programme channel="Sportsnet360.ca@HD" start="20261121093000 +0000" stop="20261121100000 +0000">
     <title lang="en">NHL's Best</title>
@@ -21136,9 +20980,6 @@
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>0</value>
     </rating>
-  </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="Unis.ca@HD">
-    <title>Tout Sexplique</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121093000 +0000" stop="20261121100000 +0000">
     <title lang="en">Joyce Meyer Enjoying Everyday Life</title>
@@ -21310,9 +21151,6 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="planeteplus.ca">
-    <title>Quand l'histoire fait dates</title>
-  </programme>
   <programme channel="OneSoccer.ca@SD" start="20261121093000 -0500" stop="20261121113000 -0500">
     <title lang="en">Live: Fútbol Bundesliga</title>
     <sub-title lang="en">Borussia Mönchengladbach vs. Borussia Dortmund</sub-title>
@@ -21348,9 +21186,6 @@
     <rating system="Kijkwijzer">
       <value>16</value>
     </rating>
-  </programme>
-  <programme start="20261121093400 +0000" stop="20261121100000 +0000" channel="TeleQuebec.ca@HD">
-    <title>Drazilion</title>
   </programme>
   <programme channel="GlobalCalgary.ca@HD" start="20261121093500 +0000" stop="20261121103500 +0000">
     <title lang="en">Tamron Hall</title>
@@ -22784,9 +22619,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="CanalVie.ca@HD">
-    <title>Vendre ou rénover au Québec</title>
-  </programme>
   <programme channel="CartoonNetwork.ca@HD" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="en">Grossology</title>
     <sub-title lang="en">When Allergies Attack</sub-title>
@@ -22814,9 +22646,6 @@
     <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
       <value>L</value>
     </rating>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="Casa.ca@HD">
-    <title>Notre première maison</title>
   </programme>
   <programme channel="Citytv.ca@SD" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="en">CityNews Tonight Toronto</title>
@@ -23470,9 +23299,6 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="Historia.ca@HD">
-    <title>Nos ancêtres les extraterrestres</title>
-  </programme>
   <programme channel="History.ca@HD" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="en">M*A*S*H</title>
     <sub-title lang="en">Settling Debts</sub-title>
@@ -23549,9 +23375,6 @@
     <rating system="방송통신심의위원회">
       <value>15</value>
     </rating>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103400 +0000" channel="ICIRDI.ca@HD">
-    <title>Le 64'</title>
   </programme>
   <programme channel="ICITele.ca@HD" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="it">Vivere Bene</title>
@@ -23750,9 +23573,6 @@
     <episode-num system="onscreen">S4 E4</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="MeteoMedia.ca@HD">
-    <title>Prévisions météorologiques</title>
-  </programme>
   <programme channel="NFLNetworkCanada.ca@HD" start="20261121100000 +0000" stop="20261121110000 +0000">
     <title lang="en">NFL Fantasy Live</title>
     <desc lang="en">Fantasy experts share the latest news and analysis to help you dominate your fantasy matchup.</desc>
@@ -23862,9 +23682,6 @@
     <title>Yoga in Practice</title>
     <desc>S02 E05 — Finding Your CenterUsing the Triangle and Half Moon poses to ground one's energy in order to create inner balance.</desc>
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="PlanetePlus.ca@HD">
-    <title>Anthropocène, l'implacable enquête</title>
-  </programme>
   <programme channel="PrimeAsia.ca@SD" start="20261121100000 +0000" stop="20261121110000 +0000">
     <title lang="en">Prime Focus</title>
     <desc lang="en">The latest socio-economic and political news, updates and developments from various parts of the world.</desc>
@@ -23872,15 +23689,6 @@
     <category lang="en">Community</category>
     <icon src="http://dtil.tmsimg.com/assets/p14489789_b_h10_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="RDS.ca@HD">
-    <title>Sports 30</title>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="RDS2.ca@HD">
-    <title>L'antichambre</title>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="RDSInfo.ca@HD">
-    <title>Sports 30</title>
   </programme>
   <programme channel="ShoppingChannel.ca@SD" start="20261121100000 +0000" stop="20261121110000 +0000">
     <title lang="en">Doll 10 Proven Beauty Solutions</title>
@@ -24088,15 +23896,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p492912_b_h10_ae.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="TV5Quebec.ca@HD">
-    <title>Tendance XXI</title>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="TVAMontreal.ca@HD">
-    <title>Infopublicité</title>
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121102300 +0000" channel="TeleQuebec.ca@HD">
-    <title>La Pat'Patrouille</title>
-  </programme>
   <programme channel="Temoin.ca@HD" start="20261121100000 +0000" stop="20261121110000 +0000">
     <title lang="fr">Un amour qui tue</title>
     <sub-title lang="fr">Lettre d'amour</sub-title>
@@ -24128,9 +23927,6 @@
     <category lang="en">Weather</category>
     <icon src="http://dtil.tmsimg.com/assets/p10340387_b_h11_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121103000 +0000" channel="Unis.ca@HD">
-    <title>Les inventifs</title>
   </programme>
   <programme channel="VisionTV.ca@HD" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="en">700 Club Canada</title>
@@ -24311,9 +24107,6 @@
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="addikTV.ca@HD">
-    <title>Le mobile du crime</title>
-  </programme>
   <programme channel="disneychannel.ca" start="20261121100000 +0000" stop="20261121103000 +0000">
     <title lang="en">Zoo Diaries</title>
     <desc lang="en">Orangutans get new play toys; a dwarf crocodile is ailing.</desc>
@@ -24349,9 +24142,6 @@
     <icon src="http://dtil.tmsimg.com/assets/p8827101_b_h10_ag.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">E67</episode-num>
     <previously-shown />
-  </programme>
-  <programme start="20261121100000 +0000" stop="20261121110000 +0000" channel="planeteplus.ca">
-    <title>Anthropocène, l'implacable enquête</title>
   </programme>
   <programme channel="KTLA.ca@SD" start="20261121100500 +0000" stop="20261121103500 +0000">
     <title lang="en">Scrabble</title>
@@ -24390,9 +24180,6 @@
     <rating system="Canadian Parental Rating">
       <value>PG</value>
     </rating>
-  </programme>
-  <programme start="20261121101000 +0000" stop="20261121104400 +0000" channel="ICIVancouver.ca@HD">
-    <title>24·60</title>
   </programme>
   <programme channel="Treehouse.ca@HD" start="20261121101000 +0000" stop="20261121103500 +0000">
     <title lang="en">Curious George</title>
@@ -24651,9 +24438,6 @@
       <value>7.0/10</value>
     </star-rating>
   </programme>
-  <programme start="20261121102000 +0000" stop="20261121120000 +0000" channel="SuperEcran1.ca@HD">
-    <title>Eileen (s.-t.f.)</title>
-  </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261121102200 +0000" stop="20261121102900 +0000">
     <title lang="en">The Jeremy and Jazzy Show</title>
     <sub-title lang="en">Decorating Paper Planes</sub-title>
@@ -24722,9 +24506,6 @@
     <rating system="Régie du cinéma">
       <value>G</value>
     </rating>
-  </programme>
-  <programme start="20261121102300 +0000" stop="20261121103500 +0000" channel="TeleQuebec.ca@HD">
-    <title>La famille Blaireau-Renard</title>
   </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261121102900 +0000" stop="20261121103600 +0000">
     <title lang="en">Aunty B's House</title>
@@ -120210,7 +119991,7 @@
       <value>A10</value>
     </rating>
   </programme>
-  <programme start="20261122060000 +0000" stop="20261122063000 +0000" channel="ICIARTV.ca@HD">
+  <programme start="20261122060000 +0000" stop="20261122080000 +0000" channel="ICIARTV.ca@HD">
     <title>Fauteuils d'orchestre</title>
   </programme>
   <programme start="20261122060000 +0000" stop="20261122062700 +0000" channel="ICIRDI.ca@HD">
@@ -121084,7 +120865,7 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261122060000 +0000" stop="20261122063000 +0000" channel="addikTV.ca@HD">
+  <programme start="20261122060000 +0000" stop="20261122080000 +0000" channel="addikTV.ca@HD">
     <title>Resident Evil: L'ultime chapitre</title>
   </programme>
   <programme channel="disneychannel.ca" start="20261122060000 +0000" stop="20261122063000 +0000">
@@ -121655,7 +121436,7 @@
       <value>B15</value>
     </rating>
   </programme>
-  <programme start="20261122061500 +0000" stop="20261122064500 +0000" channel="Cinepop.ca@HD">
+  <programme start="20261122061500 +0000" stop="20261122082000 +0000" channel="Cinepop.ca@HD">
     <title>À tout jamais: Une histoire de Cendrillon</title>
   </programme>
   <programme channel="Starz1East.ca@HD" start="20261122061500 +0000" stop="20261122081000 +0000">
@@ -121936,7 +121717,7 @@
       <value>-10</value>
     </rating>
   </programme>
-  <programme start="20261122062500 +0000" stop="20261122065500 +0000" channel="SuperEcran1.ca@HD">
+  <programme start="20261122062500 +0000" stop="20261122080000 +0000" channel="SuperEcran1.ca@HD">
     <title>Distorsions</title>
   </programme>
   <programme start="20261122062700 +0000" stop="20261122063000 +0000" channel="ICIRDI.ca@HD">
@@ -122936,7 +122717,7 @@
     <episode-num system="onscreen">E5</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261122063000 +0000" stop="20261122070000 +0000" channel="TVASports2.ca@HD">
+  <programme start="20261122063000 +0000" stop="20261122093000 +0000" channel="TVASports2.ca@HD">
     <title>Football universitaire canadien</title>
   </programme>
   <programme start="20261122063000 +0000" stop="20261122070000 +0000" channel="Unis.ca@HD">
@@ -123143,10 +122924,10 @@
       <value>9</value>
     </rating>
   </programme>
-  <programme start="20261122063400 +0000" stop="20261122070400 +0000" channel="ICIVancouver.ca@HD">
+  <programme start="20261122063400 +0000" stop="20261122084300 +0000" channel="ICIVancouver.ca@HD">
     <title>Trois jours et une vie</title>
   </programme>
-  <programme start="20261122063800 +0000" stop="20261122070800 +0000" channel="ICIMontreal.ca@HD">
+  <programme start="20261122063800 +0000" stop="20261122080700 +0000" channel="ICIMontreal.ca@HD">
     <title>Une belle course</title>
   </programme>
   <programme channel="ICIOntario.ca@HD" start="20261122063800 +0000" stop="20261122080700 +0000">
@@ -123303,7 +123084,7 @@
       <value>-10</value>
     </rating>
   </programme>
-  <programme start="20261122065500 +0000" stop="20261122072500 +0000" channel="TFO.ca@HD">
+  <programme start="20261122065500 +0000" stop="20261122082000 +0000" channel="TFO.ca@HD">
     <title>Rêveuses de villes</title>
   </programme>
   <programme channel="SuperChannelHeartHome.ca@HD" start="20261122065900 +0000" stop="20261122083000 +0000">
@@ -124294,7 +124075,7 @@
       <value>12</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="CanalVie.ca@HD">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="CanalVie.ca@HD">
     <title>Vendre ou rénover au Québec</title>
   </programme>
   <programme channel="CartoonNetwork.ca@HD" start="20261122070000 +0000" stop="20261122073000 +0000">
@@ -124336,7 +124117,7 @@
       <value>6</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="Casa.ca@HD">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="Casa.ca@HD">
     <title>Mon toit sur l'eau</title>
   </programme>
   <programme channel="Citytv.ca@SD" start="20261122070000 +0000" stop="20261122080000 +0000">
@@ -124586,7 +124367,7 @@
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="Evasion.ca@SD">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="Evasion.ca@SD">
     <title>Ice Vikings: Pêche extrême</title>
   </programme>
   <programme channel="FXCanada.ca@HD" start="20261122070000 +0000" stop="20261122080000 +0000">
@@ -124988,7 +124769,7 @@
       <value>A10</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="ICIRDI.ca@HD">
+  <programme start="20261122070000 +0000" stop="20261122072700 +0000" channel="ICIRDI.ca@HD">
     <title>Le téléjournal avec Claudine Bourbonnais</title>
   </programme>
   <programme channel="KTLA.ca@SD" start="20261122070000 +0000" stop="20261122073500 +0000">
@@ -125100,7 +124881,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="MeteoMedia.ca@HD">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="MeteoMedia.ca@HD">
     <title>Prévisions météorologiques</title>
   </programme>
   <programme channel="MiracleChannel.ca@SD" start="20261122070000 +0000" stop="20261122073000 +0000">
@@ -125248,7 +125029,7 @@
     <title>Nolly on Masterpiece</title>
     <desc>S01 E01Actress Noele "Nolly" Gordon is the star of the popular British soap opera Crossroads until a studio executive decides to terminate her contract.</desc>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="PlanetePlus.ca@HD">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="PlanetePlus.ca@HD">
     <title>L'affaire Françoise Claustre</title>
   </programme>
   <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="RDS.ca@HD">
@@ -125730,7 +125511,7 @@
       <value>9</value>
     </rating>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="planeteplus.ca">
+  <programme start="20261122070000 +0000" stop="20261122080000 +0000" channel="planeteplus.ca">
     <title>L'affaire Françoise Claustre</title>
   </programme>
   <programme channel="OneSoccer.ca@SD" start="20261122070000 -0500" stop="20261122090000 -0500">
@@ -125845,10 +125626,10 @@
       <value>AL</value>
     </rating>
   </programme>
-  <programme start="20261122070900 +0000" stop="20261122073900 +0000" channel="TVAMontreal.ca@HD">
+  <programme start="20261122070900 +0000" stop="20261122084500 +0000" channel="TVAMontreal.ca@HD">
     <title>Sans pitié 2</title>
   </programme>
-  <programme start="20261122071000 +0000" stop="20261122074000 +0000" channel="TeleQuebec.ca@HD">
+  <programme start="20261122071000 +0000" stop="20261122082300 +0000" channel="TeleQuebec.ca@HD">
     <title>SOS sages-femmes</title>
   </programme>
   <programme channel="SuperChannelVault.ca@HD" start="20261122071500 +0000" stop="20261122093000 +0000">
@@ -125948,7 +125729,7 @@
       <value>14A</value>
     </rating>
   </programme>
-  <programme start="20261122071500 +0000" stop="20261122074500 +0000" channel="TV5Quebec.ca@HD">
+  <programme start="20261122071500 +0000" stop="20261122090000 +0000" channel="TV5Quebec.ca@HD">
     <title>Neige</title>
   </programme>
   <programme channel="Treehouse.ca@HD" start="20261122071500 +0000" stop="20261122074000 +0000">
@@ -129943,7 +129724,7 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261122080700 +0000" stop="20261122110000 +0000" channel="ICIMontreal.ca@HD">
+  <programme start="20261122080700 +0000" stop="20261122083700 +0000" channel="ICIMontreal.ca@HD">
     <title>Hors d'ondes</title>
   </programme>
   <programme channel="ICIOntario.ca@HD" start="20261122080700 +0000" stop="20261122110000 +0000">
@@ -130171,7 +129952,7 @@
       <value>15 år</value>
     </rating>
   </programme>
-  <programme start="20261122082000 +0000" stop="20261122110000 +0000" channel="Cinepop.ca@HD">
+  <programme start="20261122082000 +0000" stop="20261122085000 +0000" channel="Cinepop.ca@HD">
     <title>Parfum de femme</title>
   </programme>
   <programme start="20261122082000 +0000" stop="20261122095500 +0000" channel="TFO.ca@HD">
@@ -134759,7 +134540,7 @@
       <value>-10</value>
     </rating>
   </programme>
-  <programme start="20261122092500 +0000" stop="20261122120000 +0000" channel="SuperEcran1.ca@HD">
+  <programme start="20261122092500 +0000" stop="20261122095500 +0000" channel="SuperEcran1.ca@HD">
     <title>Anatomie d'une chute</title>
   </programme>
   <programme start="20261122092700 +0000" stop="20261122093000 +0000" channel="ICIRDI.ca@HD">
@@ -136472,7 +136253,7 @@
     <episode-num system="onscreen">S2 E1</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261122095500 +0000" stop="20261122110000 +0000" channel="TFO.ca@HD">
+  <programme start="20261122095500 +0000" stop="20261122102500 +0000" channel="TFO.ca@HD">
     <title>Hors d'ondes</title>
   </programme>
   <programme channel="SuperChannelHeartHome.ca@HD" start="20261122095800 +0000" stop="20261122113000 +0000">
@@ -137428,7 +137209,7 @@
       <value>12</value>
     </rating>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="CanalVie.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="CanalVie.ca@HD">
     <title>La famille Groulx</title>
   </programme>
   <programme channel="CartoonNetwork.ca@HD" start="20261122100000 +0000" stop="20261122103000 +0000">
@@ -137459,7 +137240,7 @@
       <value>L</value>
     </rating>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="Casa.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="Casa.ca@HD">
     <title>Les anges de la rénovation</title>
   </programme>
   <programme channel="Citytv.ca@SD" start="20261122100000 +0000" stop="20261122103000 +0000">
@@ -137677,7 +137458,7 @@
       <value>G</value>
     </rating>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="Evasion.ca@SD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="Evasion.ca@SD">
     <title>Alaska: Le triangle maudit</title>
   </programme>
   <programme channel="FXCanada.ca@HD" start="20261122100000 +0000" stop="20261122110000 +0000">
@@ -138067,7 +137848,7 @@
   <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="ICIARTV.ca@HD">
     <title>La petite patrie</title>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122103400 +0000" channel="ICIRDI.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="ICIRDI.ca@HD">
     <title>Le 64'</title>
   </programme>
   <programme channel="ICITele.ca@HD" start="20261122100000 +0000" stop="20261122110000 +0000">
@@ -138182,7 +137963,7 @@
     <episode-num system="onscreen">S1 E5</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="MeteoMedia.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="MeteoMedia.ca@HD">
     <title>Prévisions météorologiques</title>
   </programme>
   <programme channel="MiracleChannel.ca@SD" start="20261122100000 +0000" stop="20261122103000 +0000">
@@ -138338,7 +138119,7 @@
     <title>Yoga in Practice</title>
     <desc>S02 E06 — Intention, Knowledge, and ActionUniting mind and body with the standing rotation, revolved open twist, and the apex pose, Twisted Sister.</desc>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="PlanetePlus.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="PlanetePlus.ca@HD">
     <title>ALIEN : Terreur sur grand écran</title>
   </programme>
   <programme channel="PrimeAsia.ca@SD" start="20261122100000 +0000" stop="20261122110000 +0000">
@@ -138732,7 +138513,7 @@
       <value>TVG</value>
     </rating>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="addikTV.ca@HD">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="addikTV.ca@HD">
     <title>Les enquêtes de Murdoch</title>
   </programme>
   <programme channel="disneychannel.ca" start="20261122100000 +0000" stop="20261122103000 +0000">
@@ -138775,7 +138556,7 @@
     <icon src="http://dtil.tmsimg.com/assets/GNLZZGG0039LGL5.jpg?w=960&amp;h=540" />
     <previously-shown />
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="planeteplus.ca">
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="planeteplus.ca">
     <title>ALIEN : Terreur sur grand écran</title>
   </programme>
   <programme channel="KTLA.ca@SD" start="20261122100200 +0000" stop="20261122103200 +0000">
@@ -139105,7 +138886,7 @@
     <episode-num system="onscreen">S1 E14</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261122101200 +0000" stop="20261122130000 +0000" channel="ICIVancouver.ca@HD">
+  <programme start="20261122101200 +0000" stop="20261122104200 +0000" channel="ICIVancouver.ca@HD">
     <title>Hors d'ondes</title>
   </programme>
   <programme channel="AMCCanada.ca@HD" start="20261122101500 +0000" stop="20261122104500 +0000">
@@ -139391,7 +139172,7 @@
       <value>U</value>
     </rating>
   </programme>
-  <programme start="20261122102300 +0000" stop="20261122103500 +0000" channel="TeleQuebec.ca@HD">
+  <programme start="20261122102300 +0000" stop="20261122105300 +0000" channel="TeleQuebec.ca@HD">
     <title>La famille Blaireau-Renard</title>
   </programme>
   <programme channel="CBCCharlottetown.ca@SD" start="20261122102500 +0000" stop="20261122103300 +0000">
