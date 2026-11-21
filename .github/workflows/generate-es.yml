@@ -59,11 +59,21 @@ jobs:
           python scripts/grab_epgshare.py --channels=epg/epgshare-rally.channels.xml --days=2 --output="$RUNNER_TEMP/epg-output/epgshare.xml"
           test -s "$RUNNER_TEMP/epg-output/epgshare.xml"
 
+      - name: Run FAST grabber (Pluto, Samsung ES, Rakuten, Atrescine)
+        continue-on-error: true
+        run: |
+          python scripts/grab_spanish_fast.py --atrescine --output="$RUNNER_TEMP/epg-output/fast.xml"
+          test -s "$RUNNER_TEMP/epg-output/fast.xml"
+
       - name: Merge source guides
         env:
           OUTPUT_DIR: ${{ runner.temp }}/epg-output
         run: |
-          python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --epgshare "$OUTPUT_DIR/epgshare.xml" --output "$OUTPUT_DIR/guide.merged.xml"
+          FAST_ARGS="--fast $OUTPUT_DIR/fast.xml"
+          if [ ! -s "$OUTPUT_DIR/fast.xml" ]; then
+            FAST_ARGS=""
+          fi
+          python scripts/merge-guides.py --movistar "$OUTPUT_DIR/movistar.xml" --orange "$OUTPUT_DIR/orange.xml" --elpais "$OUTPUT_DIR/elpais.xml" --epgshare "$OUTPUT_DIR/epgshare.xml" $FAST_ARGS --output "$OUTPUT_DIR/guide.merged.xml"
 
       - name: Process and validate Spanish XMLTV
         id: validate

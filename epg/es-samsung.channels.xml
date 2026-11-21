@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel site="i.mjh.nz" lang="es" xmltv_id="CineFriki.es@SD" site_id="SamsungTVPlus/es#ESBD800001RJ">Cine Friki</channel>
+    <channel site="i.mjh.nz" lang="es" xmltv_id="CineWestern.es@SD" site_id="SamsungTVPlus/es#ES2300005G7">Cine Western</channel>
+    <channel site="i.mjh.nz" lang="es" xmltv_id="MyTimeMovieNetwork.es@SD" site_id="SamsungTVPlus/es#ESBA2200004G5">MyTime Movie Network</channel>
+    <channel site="i.mjh.nz" lang="es" xmltv_id="RakutenTVFamilyMovies.es@Spain" site_id="SamsungTVPlus/es#ES260001081">En Familia - Rakuten TV</channel>
+</channels>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVDramaMovies.es@Spain" site_id="RAKUTEN1#ES:.Películas.de.Drama.-.Rakuten.TV.be">Rakuten TV Drama</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVActionMovies.es@Spain" site_id="RAKUTEN1#ES:.Películas.de.Acción.-.Rakuten.TV.be">Rakuten TV Acción</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVComedyMovies.es@Spain" site_id="RAKUTEN1#ES:.Comedia.-.Rakuten.TV.be">Rakuten TV Comedia</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVTopMovies.es@Spain" site_id="RAKUTEN1#ES:.Pelis.Top.-.Rakuten.TV.be">Rakuten TV Top Películas</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVSciFi.es@Spain" site_id="RAKUTEN1#ES:.Sci-Fi.-.Rakuten.TV.be">Rakuten TV Sci-Fi</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVCrime.es@Spain" site_id="RAKUTEN1#ES:.Crimen.-.Rakuten.TV.be">Rakuten TV Crimen</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVThrillers.es@Spain" site_id="RAKUTEN1#ES:.Thrillers.-.Rakuten.TV.be">Rakuten TV Thrillers</channel>
+    <channel site="epgshare01.online" lang="es" xmltv_id="RakutenTVRomance.es@Spain" site_id="RAKUTEN1#ES:.Películas.Románticas.-.Rakuten.TV.be">Rakuten TV Románticas</channel>
+</channels>

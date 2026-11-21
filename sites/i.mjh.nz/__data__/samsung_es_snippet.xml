@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="CineFriki.es@SD"><display-name>Cine Friki</display-name></channel>
+  <programme start="20261121080000 +0000" stop="20261121100000 +0000" channel="CineFriki.es@SD">
+    <title>Test</title>
+  </programme>
+</tv>

@@ -115,6 +115,7 @@ class EsXtreamMappingRegression(unittest.TestCase):
         xtream = json.loads((ROOT / "epg" / "xtream-aliases.json").read_text(encoding="utf-8"))
         self.assertEqual(xtream["cima.es.mseries"], "mhits")
         self.assertEqual(xtream["movistarseries.es"], "mhits")
+        self.assertNotIn("moviestardrama.es", xtream)
         self.assertEqual(xtream["cima.es.moriginales"], "morig")
         aliases = json.loads((ROOT / "epg" / "aliases.json").read_text(encoding="utf-8"))
         self.assertEqual(

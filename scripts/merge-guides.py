@@ -106,6 +106,7 @@ def merge(
     orange: ET.Element | None,
     elpais: ET.Element | None,
     epgshare: ET.Element | None = None,
+    fast: ET.Element | None = None,
 ):
     result = copy.deepcopy(primary)
     channels = {node.get("id"): node for node in result.findall("channel")}
@@ -113,12 +114,17 @@ def merge(
     per_channel = {}
     for p in programmes:
         per_channel.setdefault(p.get("channel"), []).append(p)
-    added_channels = {"orange": 0, "elpais": 0, "epgshare": 0}
-    added_programmes = {"orange": 0, "elpais": 0, "epgshare": 0}
-    completed = {"orange": set(), "elpais": set(), "epgshare": set()}
+    added_channels = {"orange": 0, "elpais": 0, "epgshare": 0, "fast": 0}
+    added_programmes = {"orange": 0, "elpais": 0, "epgshare": 0, "fast": 0}
+    completed = {"orange": set(), "elpais": set(), "epgshare": set(), "fast": set()}
     skipped = {"duplicate": 0, "overlap": 0, "unknown": 0}
 
-    for label, source in (("orange", orange), ("elpais", elpais), ("epgshare", epgshare)):
+    for label, source in (
+        ("orange", orange),
+        ("elpais", elpais),
+        ("epgshare", epgshare),
+        ("fast", fast),
+    ):
         if source is None:
             print(f"WARNING: {label} feed unavailable; continuing with higher-priority feeds", file=sys.stderr)
             continue
@@ -196,11 +202,12 @@ def main():
     ap.add_argument("--orange", type=Path)
     ap.add_argument("--elpais", type=Path)
     ap.add_argument("--epgshare", type=Path)
+    ap.add_argument("--fast", type=Path, help="Pluto/Samsung/Rakuten FAST supplement (guide-es only)")
     ap.add_argument("--output", type=Path, required=True)
     args = ap.parse_args()
     primary = load(args.movistar)
     feeds = []
-    for path in (args.orange, args.elpais, args.epgshare):
+    for path in (args.orange, args.elpais, args.epgshare, args.fast):
         if not path or not path.exists() or path.stat().st_size == 0:
             feeds.append(None)
             continue
@@ -221,7 +228,7 @@ def main():
     print(f"Merged guide: channels={len(result.findall('channel'))}, programmes={len(result.findall('programme'))}")
     print(
         f"Added channels: Orange={ch['orange']}, El País={ch['elpais']}, "
-        f"EPGShare={ch['epgshare']}; programmes={pg}"
+        f"EPGShare={ch['epgshare']}, FAST={ch['fast']}; programmes={pg}"
     )
     print(f"Completed channels: { {k: sorted(v) for k, v in completed.items()} }; skipped={skipped}")
 

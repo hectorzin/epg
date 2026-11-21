@@ -44,7 +44,6 @@
   "energy.es": "energy",
   "eurosport1.es": "esp",
   "eurosport2.es": "esp2",
-  "fox.es.skyshowtime1": "skysho",
   "gol.es": "gol",
   "la1.es": "tve",
   "la2.es": "la2",
@@ -79,7 +78,6 @@
   "mdeportes6.es": "multi8",
   "movistaraccion.es": "cpacci",
   "movistarcomedia.es": "cpcome",
-  "moviestardrama.es": "cpcole",
   "movistarclasicos.es": "mclas",
   "cima.es.indie": "mindi",
   "movistarplus.es": "MovistarPlus.freeli",
@@ -105,5 +103,7 @@
   "TVG2.es@SD": "tvg2",
   "hollywood.es": "CanalHollywood.es",
   "sundance.es": "SundanceTV.es",
+  "cima.es.iberian": "SundanceTV.es",
+  "cima.es.a3cine": "cima.es.a3cine",
   "mtv.es": "mtv"
 }

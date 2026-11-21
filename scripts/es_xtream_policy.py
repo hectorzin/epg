@@ -59,6 +59,61 @@ def denied_xtream_clone_ids() -> frozenset[str]:
     return frozenset(str(x) for x in raw) | frozenset(str(x) for x in global_raw)
 
 
+def denied_xtream_epg_resolve_ids() -> frozenset[str]:
+    """Panel EPG ids that must not receive programmes via auto name/clone resolution."""
+    raw = load_es_xtream_policy().get("denied_xtream_epg_resolve_ids") or []
+    return frozenset(str(x) for x in raw)
+
+
+def epg_empty_channel_ids() -> frozenset[str]:
+    """Scraped channel ids whose programmes must not be published (panel loops)."""
+    raw = load_es_xtream_policy().get("epg_empty_channel_ids") or []
+    return frozenset(str(x) for x in raw)
+
+
+def loop_panel_display_names() -> frozenset[str]:
+    raw = load_es_xtream_policy().get("loop_panel_display_names") or []
+    return frozenset(str(x) for x in raw)
+
+
+def purge_denied_epg_resolve_channels(root, denied: frozenset[str]) -> int:
+    if not denied:
+        return 0
+    removed = 0
+    for channel in list(root.findall("channel")):
+        if (channel.get("id") or "") in denied:
+            root.remove(channel)
+            removed += 1
+    for programme in list(root.findall("programme")):
+        if (programme.get("channel") or "") in denied:
+            root.remove(programme)
+    return removed
+
+
+def prune_loop_panel_display_names(root, names: frozenset[str]) -> int:
+    if not names:
+        return 0
+    pruned = 0
+    for channel in root.findall("channel"):
+        for node in list(channel.findall("display-name")):
+            text = (node.text or "").strip()
+            if text in names:
+                channel.remove(node)
+                pruned += 1
+    return pruned
+
+
+def purge_channel_programmes(root, channel_ids: frozenset[str]) -> int:
+    if not channel_ids:
+        return 0
+    removed = 0
+    for programme in list(root.findall("programme")):
+        if (programme.get("channel") or "") in channel_ids:
+            root.remove(programme)
+            removed += 1
+    return removed
+
+
 def global_denied_xtream_clone_ids() -> frozenset[str]:
     return denied_xtream_clone_ids()
 

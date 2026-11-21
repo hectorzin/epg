@@ -23,9 +23,15 @@ from es_xtream_policy import (  # noqa: E402
     apply_channel_id_renames,
     channel_renames,
     denied_xtream_clone_ids,
+    denied_xtream_epg_resolve_ids,
+    epg_empty_channel_ids,
     filter_denied_xtream_aliases,
+    loop_panel_display_names,
     merge_curated_display_aliases,
+    prune_loop_panel_display_names,
+    purge_channel_programmes,
     purge_denied_clone_channels,
+    purge_denied_epg_resolve_channels,
     remap_alias_keys,
     sanitize_display_aliases,
 )
@@ -286,6 +292,7 @@ def resolve_xtream_catalog(
     *,
     auto_region: str = "ES",
     tolerate_missing_configured: bool = False,
+    denied_epg_resolve: frozenset[str] | None = None,
 ) -> tuple[dict[str, str], dict[str, int]]:
     """Resolve safe catalog matches to original guide IDs and summarize coverage."""
     channels, _ = validate_tree(root, "source")
@@ -360,6 +367,10 @@ def resolve_xtream_catalog(
         summary["covered_channels"] += len(rows)
 
     for epg_id, rows in groups.items():
+        if denied_epg_resolve and epg_id in denied_epg_resolve:
+            summary["uncovered_epg_ids"] += 1
+            summary["uncovered_channels"] += len(rows)
+            continue
         if epg_id in configured_aliases:
             continue
         name_keys = {normalize_channel_name(str(row["name"])) for row in rows}
@@ -674,6 +685,14 @@ def main() -> int:
             apply_channel_id_renames(source_root, id_renames)
         if denied_clones:
             purge_denied_clone_channels(source_root, denied_clones)
+        if profile == "es":
+            denied_resolve = denied_xtream_epg_resolve_ids()
+            if denied_resolve:
+                purge_denied_epg_resolve_channels(source_root, denied_resolve)
+            prune_loop_panel_display_names(source_root, loop_panel_display_names())
+            empty_ids = epg_empty_channel_ids()
+            if empty_ids:
+                purge_channel_programmes(source_root, empty_ids)
         source = ET.tostring(source_root, encoding="utf-8", xml_declaration=True) + b"\n"
         auto_region = {
             "es": "ES",
@@ -690,6 +709,7 @@ def main() -> int:
             "af": "AF",
         }[profile]
         tolerate_configured = profile != "es"
+        denied_resolve = denied_xtream_epg_resolve_ids() if profile == "es" else None
         xtream_aliases, xtream_summary = resolve_xtream_catalog(
             source_root,
             xtream_catalog,
@@ -697,6 +717,7 @@ def main() -> int:
             configured_xtream_aliases,
             auto_region=auto_region,
             tolerate_missing_configured=tolerate_configured,
+            denied_epg_resolve=denied_resolve,
         )
         result, channels, programmes = merge(
             source,

@@ -111,16 +111,13 @@
     "M+ ACCION FULL HD",
     "M+ Acción",
     "M+ ACCION 4K",
-    "M+ Acción 3",
-    "M+ Acción 2"
+    "M+ Acción 3"
   ],
   "cpcole": [
     "M+ DRAMA FULL HD",
     "M+ Drama",
     "M+ DRAMA 4K",
-    "M+ Drama 3",
-    "M+ Drama 2",
-    "M+ DRAMA 2 FULL HD"
+    "M+ Drama 3"
   ],
   "cpcome": [
     "M+ COMEDIA FULL HD",
@@ -334,7 +331,9 @@
     "M+ Estrenos FULL HD",
     "M+ Estrenos",
     "M+ Estrenos 4K",
-    "M+ Estrenos 2"
+    "M+ Estrenos 2",
+    "M+ Cine",
+    "M+ Cine Selección"
   ],
   "mvf1": [
     "DAZN F1 FULL HD",
@@ -539,30 +538,6 @@
   "MovistarPlus.freeli": [
     "M+ Cero"
   ],
-  "skysho": [
-    "SkyShowtime 1",
-    "M+ Cinesur",
-    "M+ Acción 2",
-    "M+ Ficción Premium",
-    "M+ Ficción 2",
-    "M+ Ficción 1",
-    "Prime Video 1",
-    "Prime Video 2",
-    "Procaja 1",
-    "M+ Netflix 1",
-    "Procaja 3",
-    "Procaja 2",
-    "Apple TV+ 1",
-    "M+ Netflix 2",
-    "SkyShowtime 2",
-    "Marvel Studios 1",
-    "Apple TV+ 2",
-    "Rakuten TV Top 1",
-    "Rakuten TV Top 2",
-    "STAR Channel",
-    "STAR Channel 2",
-    "FOX FULL HD"
-  ],
   "mdoc": [
     "M+ Documentales",
     "M+Documentales 4K",
@@ -651,7 +626,13 @@
   ],
   "SundanceTV.es": [
     "SUNDANCE TV",
-    "SUNDANCE TV FULL HD"
+    "SUNDANCE TV FULL HD",
+    "M+ Iberian Screen"
+  ],
+  "cima.es.a3cine": [
+    "Atrescine",
+    "Atrescine 2",
+    "Atrescine Internacional"
   ],
   "mtv": [
     "MTV ESPANA",
