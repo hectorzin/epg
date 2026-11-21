@@ -2724,7 +2724,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121080500 +0000" stop="20261121084000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121080500 +0000" stop="20261121083000 +0000" channel="3sat.de@Germany">
     <title lang="de">Kulturplatz</title>
     <sub-title lang="de">Swiss Success Stories - Der Hochseilartist und der Preis der Freiheit - Folge 1</sub-title>
     <desc lang="de">Sein Lebenstraum verlangt David Dimitri vieles ab: Schon als 14-Jähriger verlässt er das Elternhaus, um an einer Zirkusschule in Budapest zu studieren. Eine große Karriere als Hochseilartist nimmt ihren Anfang - die wieder in die Schweiz führt.</desc>
@@ -2736,7 +2736,10 @@
     <category lang="de">Gesellschaft</category>
     <country lang="de">CH</country>
   </programme>
-  <programme start="20261121084000 +0000" stop="20261121090500 +0000" channel="3sat.de@Germany">
+  <programme start="20261121083000 +0000" stop="20261121084400 +0000" channel="3sat.de@Germany">
+    <title lang="de">The Dying Swans Project</title>
+  </programme>
+  <programme start="20261121084400 +0000" stop="20261121090500 +0000" channel="3sat.de@Germany">
     <title lang="de">Bilder aus Südtirol</title>
     <desc lang="de">Das Bundesländermagazin Bilder aus Südtirol stellt in seinen Dokumentationen Südtirol vor. Dabei stehen die aktuellen gesellschaftspolitischen Geschehen, die Geschichte, der Tourismus, die Wirtschaft und die Kultur der Region im Fokus.</desc>
     <date>20260101</date>
@@ -2745,7 +2748,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121090500 +0000" stop="20261121095000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121090500 +0000" stop="20261121095100 +0000" channel="3sat.de@Germany">
     <title lang="de">Wiener Plätze (1/2)</title>
     <sub-title lang="de">Wiener Plätze</sub-title>
     <desc lang="de">Wiens Plätze tragen mehr Geschichte in sich, als einem oft bewusst ist. Nur wenige wissen, an welchen Ecken die Weltgeschichte genau durchgezogen ist. Karl Hohenlohe besucht den Albertinaplatz, den Karlsplatz und die Freyung.</desc>
@@ -2757,7 +2760,7 @@
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
   </programme>
-  <programme start="20261121095000 +0000" stop="20261121103500 +0000" channel="3sat.de@Germany">
+  <programme start="20261121095100 +0000" stop="20261121103700 +0000" channel="3sat.de@Germany">
     <title lang="de">Wiener Plätze (2/2)</title>
     <sub-title lang="de">Wiener Plätze - Wien damals</sub-title>
     <desc lang="de">Wien ist anders, diesen Slogan haben Befürworter und Kritiker der Stadt stets beide im Mund geführt, einmal ohne und einmal mit Ironie. Diese Dokumentation setzt ihre Erkundung durch das Wien der letzten Jahrzehnte fort.</desc>
@@ -2768,7 +2771,7 @@
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
   </programme>
-  <programme start="20261121103500 +0000" stop="20261121111000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121103700 +0000" stop="20261121110900 +0000" channel="3sat.de@Germany">
     <title lang="de">Durchs Mariazellerland</title>
     <sub-title lang="de">Landleben</sub-title>
     <desc lang="de">Auch im Herbst und Winter beeindruckt das Mariazellerland durch seine landschaftliche Schönheit. Auf dem Weg von Mariazell nach St. Lambrecht liegt die Grebenzen, eine reizvolle alpine Landschaft mit einem Ski- und Ausflugsgebiet.</desc>
@@ -2779,7 +2782,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121111000 +0000" stop="20261121120000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121110900 +0000" stop="20261121120000 +0000" channel="3sat.de@Germany">
     <title lang="de">Liebesg'schichten und Heiratssachen (10/10)</title>
     <sub-title lang="de">Liebesg'schichten und Heiratssachen</sub-title>
     <desc lang="de">In dieser Sendung geht es um verschiedene Singles, die ihr Leben nicht mehr allein und einsam verbringen wollen. Daher werden sie in kurzen Porträts dargestellt und sie erzählen davon, wie sie ihr derzeitiges Sololeben verbringen.</desc>
@@ -2790,7 +2793,7 @@
     <episode-num system="xmltv_ns">28.9.0/1</episode-num>
     <episode-num system="onscreen">S29E10</episode-num>
   </programme>
-  <programme start="20261121120000 +0000" stop="20261121121000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121120000 +0000" stop="20261121121100 +0000" channel="3sat.de@Germany">
     <title lang="de">ZIB</title>
     <sub-title lang="de">vom 21.11.2026, 13:00 Uhr</sub-title>
     <desc lang="de">Seit 1955 informiert das österreichische Nachrichtenjournal Zeit im Bild am Vorabend über die aktuellen Geschehnisse und Ereignisse auf der ganzen Welt. Außerdem werden Expertenanalysen und Entwicklungen auf den Finanzmärkten vorgestellt.</desc>
@@ -2800,7 +2803,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121121000 +0000" stop="20261121121500 +0000" channel="3sat.de@Germany">
+  <programme start="20261121121100 +0000" stop="20261121121700 +0000" channel="3sat.de@Germany">
     <title lang="de">Notizen aus dem Ausland</title>
     <desc lang="de">Monothematische, kurze Beiträge über die gesellschaftliche oder politische Situation in einem Land der Welt.</desc>
     <date>20260101</date>
@@ -2808,7 +2811,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE,AT</country>
   </programme>
-  <programme start="20261121121500 +0000" stop="20261121130000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121121700 +0000" stop="20261121130200 +0000" channel="3sat.de@Germany">
     <title lang="de">quer</title>
     <sub-title lang="de">... durch die Woche mit Christoph Süß</sub-title>
     <desc lang="de">Folgendes ist geplant: "Anschläge auf Stromversorgung: Blackout auch in Bayern?", "Immer weniger Geldautomaten auf dem Land", "Baurecht versus Wohnungsnot: Ist der Rückbau von Häusern nötig?" sowie "Keine Schulbegleitung für krankes Kind".</desc>
@@ -2818,7 +2821,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121130000 +0000" stop="20261121133000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121130200 +0000" stop="20261121133100 +0000" channel="3sat.de@Germany">
     <title lang="de">Ländermagazin</title>
     <sub-title lang="de">Heute aus Bayern: Margarete Steiff - wie aus einer mutigen Idee eine Weltmarke wird</sub-title>
     <desc lang="de">Menschen, Landschaften und Geschichten aus allen Bundesländern zeigen die poetische und nahbare regionale Vielfalt Deutschlands. Im Mittelpunkt stehen zahlreiche bewegende regionale sowie überregionale Ereignisse und Themen.</desc>
@@ -2827,7 +2830,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121133000 +0000" stop="20261121140000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121133100 +0000" stop="20261121140000 +0000" channel="3sat.de@Germany">
     <title lang="de">Kunst + Krempel</title>
     <sub-title lang="de">His Master's Voice-Grammophon · Musikinstrumente und mehr</sub-title>
     <desc lang="de">Auf Schloss Faber-Castell begutachten die Experten ein überaus rares Grammophon. Außerdem wird ein Stuhl mit einer außergewöhnlichen Lehne vorgestellt, eine Frauen-Büste im Jugendstil und ein Spielzeugauto, das ein wertvolles Sammlerstück ist.</desc>
@@ -2837,7 +2840,7 @@
     <category lang="de">Wissen</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121140000 +0000" stop="20261121143000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121140000 +0000" stop="20261121143100 +0000" channel="3sat.de@Germany">
     <title lang="de">Natur im Garten (9/10)</title>
     <sub-title lang="de">Natur im Garten</sub-title>
     <desc lang="de">Der Gartenbuchautor Karl Ploberger gibt hilfreiche Tipps und Tricks zur Gartenpflege.</desc>
@@ -2850,7 +2853,7 @@
     <episode-num system="xmltv_ns">30.8.0/1</episode-num>
     <episode-num system="onscreen">S31E09</episode-num>
   </programme>
-  <programme start="20261121143000 +0000" stop="20261121150000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121143100 +0000" stop="20261121150100 +0000" channel="3sat.de@Germany">
     <title lang="de">Andalusien - Spaniens maurischer Süden</title>
     <desc lang="de">Umgeben vom Atlantischen Ozean und dem Mittelmeer bildet Andalusien mit dem Felsen von Gibraltar die südlichste Region der iberischen Halbinsel und des europäischen Festlands. Dieser maurisch geprägte Süden Spaniens wird eingehend vorgestellt.</desc>
     <date>20210101</date>
@@ -2859,7 +2862,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121150000 +0000" stop="20261121163000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121150100 +0000" stop="20261121163100 +0000" channel="3sat.de@Germany">
     <title lang="de">Ella Schön - Die nackte Wahrheit</title>
     <desc lang="de">Holger Packebusch, der Besitzer des ortsansässigen FKK-Campingplatzes, scheint verwirrt zu sein. Als er am nächsten Morgen in Kollkamps Kanzlei auftaucht und stockend von seiner Demenz-Diagnose berichtet, übernimmt Ella seinen Fall. Packebusch wurde aufgrund seines unbekleideten Spaziergangs durchs Dorf beim Gericht angeschwärzt. Wenn sich das Gericht der Sache annimmt, besteht die Gefahr, dass er einen Betreuer vor die Nase gesetzt bekommt.</desc>
     <date>20180101</date>
@@ -2868,7 +2871,7 @@
     <category lang="de">Komödie</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121163000 +0000" stop="20261121180000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121163100 +0000" stop="20261121180000 +0000" channel="3sat.de@Germany">
     <title lang="de">Ella Schön - Sturmgeschwister</title>
     <desc lang="de">Ungewöhnliche Kundschaft hat Ella, denn sie soll zwei pubertierende Schwestern gegen ihre Eltern vertreten. Die beiden Jugendlichen fühlen sich nicht genug geliebt und wollen von zu Hause ausziehen. Die Mädchen ziehen in Christinas Baumhaus ein, Ravioli aus der Dose inklusive. Christina kennt die Eltern, Besitzer einer Fischbrötchenbude am Hafen, und versucht, zu vermitteln. Dieser Versucht bleibt allerdings leider erfolglos.</desc>
     <date>20180101</date>
@@ -2876,7 +2879,7 @@
     <category lang="de">Romantik</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121180000 +0000" stop="20261121181800 +0000" channel="3sat.de@Germany">
+  <programme start="20261121180000 +0000" stop="20261121182100 +0000" channel="3sat.de@Germany">
     <title lang="de">heute</title>
     <sub-title lang="de">vom 21.11.2026, um 19:00 Uhr</sub-title>
     <desc lang="de">Das Nachrichtenmagazin informiert über aktuelle Meldungen aus Deutschland und der Welt.</desc>
@@ -2885,7 +2888,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121181800 +0000" stop="20261121182000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121182100 +0000" stop="20261121182200 +0000" channel="3sat.de@Germany">
     <title lang="de">3sat-Wetter</title>
     <desc lang="de">Die Sendung zeigt das aktuelle Wetter aus Deutschland, Österreich und der Schweiz.</desc>
     <date>20260101</date>
@@ -2893,7 +2896,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121182000 +0000" stop="20261121190000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121182200 +0000" stop="20261121190000 +0000" channel="3sat.de@Germany">
     <title lang="de">Wir und nicht Ich - Der Deutsche Theaterpreis DER FAUST</title>
     <desc lang="de">Dokumentation, Deutschland 2026 Theater erzählt von Krieg, Klima und Kontrollverlust - und verändert sich dabei selbst. Hierarchien werden hinterfragt, Verantwortung geteilt und neue Formen der Zusammenarbeit erprobt. Dabei geht es um weit mehr als um veränderte Produktionsbedingungen. Die Theater werden zu Laboren für eine Gesellschaft, die selbst nach neuen Formen des Zusammenhalts sucht. Die FAUST-Preisverleihung in Wiesbaden bringt unterschiedliche Perspektiven zusammen. HD-Produktion</desc>
     <date>20260101</date>
@@ -2913,7 +2916,7 @@
     <category lang="de">Politik</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121191500 +0000" stop="20261121204500 +0000" channel="3sat.de@Germany">
+  <programme start="20261121191500 +0000" stop="20261121204400 +0000" channel="3sat.de@Germany">
     <title lang="de">Eine Nacht in Bangkok</title>
     <desc lang="de">Ein lang getrenntes Ehepaar wird schlagartig wieder vereint, als die gemeinsame Tochter überraschend in Untersuchungshaft gerät. Um das rätselhafte Handeln des entfremdeten Kindes zu begreifen, begeben sich die Eltern auf eine Spurensuche im Umfeld der Festgenommenen. Dabei werden sie nicht nur mit unvermuteten Facetten ihres Kindes konfrontiert, sondern müssen sich auch mit unverarbeiteten Verletzungen, verdrängten Gefühlen und dem Scheitern der einstigen Gemeinschaft auseinandersetzen.</desc>
     <date>20260101</date>
@@ -2921,7 +2924,7 @@
     <category lang="de">Drama</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121204500 +0000" stop="20261121221500 +0000" channel="3sat.de@Germany">
+  <programme start="20261121204400 +0000" stop="20261121221400 +0000" channel="3sat.de@Germany">
     <title lang="de">Nürnberg 45 - Im Angesicht des Bösen</title>
     <sub-title lang="de">ARD History</sub-title>
     <desc lang="de">Der Journalist Ernst Michel muss bei den Nürnberger Prozessen im Jahr 1945 über die Täter berichten, die seine Familie ermordet haben. Auch Seweryna Szmaglewska, eine der wenigen Zeuginnen, durchlebt ihr Trauma im Gerichtssaal erneut.</desc>
@@ -2932,7 +2935,7 @@
     <episode-num system="xmltv_ns">0.60.0/1</episode-num>
     <episode-num system="onscreen">S01E61</episode-num>
   </programme>
-  <programme start="20261121221500 +0000" stop="20261122002000 +0000" channel="3sat.de@Germany">
+  <programme start="20261121221400 +0000" stop="20261122001900 +0000" channel="3sat.de@Germany">
     <title lang="de">Offenes Geheimnis</title>
     <desc lang="de">Als Lauras Schwester Ana heiratet, reist Laura von Buenos Aires in ihr spanisches Heimatdorf. Dort hat ihre Jugendliebe Paco, dem sie ihr Familienerbe verkauft hat, ein Weingut gegründet. Lauras Vater Antonio gefällt das gar nicht. Dieser war einst ein erfolgreicher Geschäftsmann, hat jedoch durch seine Spielsucht sein gesamtes Vermögen verspielt. Dann wird plötzlich Lauras Tochter Irene entführt und es treten einige Familiengeheimnisse ans Licht.</desc>
     <date>20180101</date>
@@ -2941,7 +2944,7 @@
     <category lang="de">Krimi</category>
     <country lang="de">ES,FR,IT</country>
   </programme>
-  <programme start="20261122002000 +0000" stop="20261122011500 +0000" channel="3sat.de@Germany">
+  <programme start="20261122001900 +0000" stop="20261122011600 +0000" channel="3sat.de@Germany">
     <title lang="de">lebensArt</title>
     <desc lang="de">Martin Traxl und Clarissa Stadler präsentieren Inhalte, die nicht nur vom Kulturkalender, sondern auch von gesellschaftlichen und kulturpolitischen Entwicklungen bestimmt werden. Es werden Themen aus Literatur, Musik, Film und Theater behandelt.</desc>
     <date>20260101</date>
@@ -2949,7 +2952,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122011500 +0000" stop="20261122024000 +0000" channel="3sat.de@Germany">
+  <programme start="20261122011600 +0000" stop="20261122024100 +0000" channel="3sat.de@Germany">
     <title lang="de">das aktuelle sportstudio</title>
     <desc lang="de">Die Sendung bringt aktuelle Nachrichten zur Fußball-Bundesliga und zu anderen Sportarten. Zudem werden interessante Studiogäste aus allen Sportarten zu einem Gespräch ins Studio eingeladen. Außerdem gibt es natürlich die legendäre Torwand.</desc>
     <date>20260101</date>
@@ -2957,7 +2960,7 @@
     <category lang="de">Sport</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122024000 +0000" stop="20261122032500 +0000" channel="3sat.de@Germany">
+  <programme start="20261122024100 +0000" stop="20261122032500 +0000" channel="3sat.de@Germany">
     <title lang="de">Expedition Anden: Gebirge in Bewegung</title>
     <sub-title lang="de">Expedition Anden - Gebirge in Bewegung</sub-title>
     <desc lang="de">In den Anden bebt die Erde - und es entstehen Rohstoffe. Der Geologe Colin Devey begibt sich auf Expedition, um die Kräfte des Erdinneren zu erforschen. Seine Reise führt vom alten Inka-Erbe in Cusco bis ins raue chilenische Hochland.</desc>
@@ -2968,7 +2971,7 @@
     <category lang="de">Geschichte</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122032500 +0000" stop="20261122041000 +0000" channel="3sat.de@Germany">
+  <programme start="20261122032500 +0000" stop="20261122040900 +0000" channel="3sat.de@Germany">
     <title lang="de">Expedition Anden: Die Kraft von Wind und Wasser</title>
     <sub-title lang="de">Expedition Anden - Die Kraft von Wind und Wasser</sub-title>
     <desc lang="de">Der Geologe Colin Devey erkundet, wie Wind, Eis und Wasser die Anden formen. Von Patagonien bis zur Atacama-Wüste zeigt die Dokumentation ein faszinierendes Naturlabor, in dem atmosphärische Kräfte die einzigartigen Landschaften bilden.</desc>
@@ -2979,12 +2982,12 @@
     <category lang="de">Geschichte</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122041000 +0000" stop="20261122044000 +0000" channel="3sat.de@Germany">
+  <programme start="20261122040900 +0000" stop="20261122043900 +0000" channel="3sat.de@Germany">
     <title lang="de">Süd-Vietnam - Naturparadies am Mekong</title>
     <desc lang="de">Frankreich 2026 Der Süden Vietnams bietet Reisenden eine Mischung aus Stadtleben, Kultur und Natur. Die Reise führt von Saigon ins Mekong-Delta und an die von Kalksteinklippen geprägten Buchten der Südküste. Viel von der bewegten Geschichte des Landes zeigt sich in Vietnams Süden, ob traditionelle Buddha-Tempel, französische Kolonialarchitektur oder Prachtbauten der sozialistischen Ära. Abseits der Städte locken sowohl malerische Küsten als auch das kühlere Hochland. HD-Produktion</desc>
     <date>20260101</date>
   </programme>
-  <programme start="20261122044000 +0000" stop="20261122051000 +0000" channel="3sat.de@Germany">
+  <programme start="20261122043900 +0000" stop="20261122051000 +0000" channel="3sat.de@Germany">
     <title lang="de">West-Sumatra - Indonesiens grünes Paradies</title>
     <sub-title lang="de">West-Sumatra</sub-title>
     <desc lang="de">Die schönsten und idyllischsten Orte auf der ganzen Welt und ihre Geschichten werden vorgestellt.</desc>
@@ -5260,8 +5263,12 @@
   </programme>
   <programme start="20261122024500 +0000" stop="20261122030000 +0000" channel="AllgauTV.de@SD">
     <title lang="de">Aus dem Unterallgäu und Memmingen vom 19. November 2026 (Wh.)</title>
-    <desc lang="de">Der Weg ins Berufsleben ist nicht für alle selbstverständlich. Die Unterallgäuer Werkstätten und INTEGRA mensch unterstützen Menschen mit Behinderung dabei, berufliche Perspektiven zu entwickeln und ihren Platz auf dem allgemeinen Arbeitsmarkt zu finden. Wir begleiten Beschäftigte bei ihrer täglichen Arbeit, besuchen Menschen, denen der Schritt in ein reguläres Arbeitsverhältnis gelungen ist, und sprechen mit Unternehmen über ihre Erfahrungen. Außerdem zeigen wir am Beispiel einer Kita, wie Inklusion im Arbeitsalltag gelingen kann und welche Chancen eine Zusammenarbeit für alle Beteiligten bietet.</desc>
+    <sub-title lang="de">Aus dem Unterallgäu und Memmingen</sub-title>
+    <desc lang="de">Das Magazin befasst sich mit Themen, die die Region Unterallgäu und Memmingen beschäftigen.</desc>
     <date>20210101</date>
+    <category lang="de">400-Show</category>
+    <category lang="de">Unterhaltung</category>
+    <country lang="de">DE</country>
   </programme>
   <programme start="20261122030000 +0000" stop="20261122040000 +0000" channel="AllgauTV.de@SD">
     <title lang="de">allgäu.tv Wochenrückblick vom 21. November 2026 (Wh.)</title>
@@ -5275,8 +5282,12 @@
   </programme>
   <programme start="20261122040000 +0000" stop="20261122041500 +0000" channel="AllgauTV.de@SD">
     <title lang="de">Aus dem Oberallgäu und Kempten: Die Auseinandersetzung mit dem Begriff Heimat. (Wh.)</title>
-    <desc lang="de">Was ist Heimat? Diese Frage ist gar nicht so leicht zu beantworten, aber genau deshalb stellen sie sich wohl auch so viele Menschen. Bezirksheimatpfleger Christoph Lang geht dieser Frage sozusagen beruflich auf den Grund. In seinen Augen ist es vor allem das Gefühl der Geborgenheit, dass uns Menschen etwas Heimat nennen lässt. Das würde wohl auch Autor Michael Kobr so unterschreiben. In seinen Kluftinger Krimis spielt die Heimat aber auch die Geschichte der Region eine entscheidende Rolle. Letztere ist das Steckenpferd von Historikerin Veronika Heilmannseder, die tagtäglich daran arbeitet Heimatgeschichte und auch deren dunkle Kapitel für die Menschen zugänglich zu machen. Das und noch mehr sehen Sie in der neuen Ausgabe unseres Landkreismagazins aus dem Oberallgäu und Kempten. Ab Donnerstag im Kabelprogramm und ab Freitag im Satellitenprogramm.</desc>
+    <sub-title lang="de">Aus dem Oberallgäu und Kempten</sub-title>
+    <desc lang="de">Das Magazin befasst sich mit Themen, die die Region Oberallgäu und Kempten beschäftigen.</desc>
     <date>20210101</date>
+    <category lang="de">400-Show</category>
+    <category lang="de">Unterhaltung</category>
+    <country lang="de">DE</country>
   </programme>
   <programme start="20261122041500 +0000" stop="20261122043000 +0000" channel="AllgauTV.de@SD">
     <title lang="de">Aus dem Unterallgäu und Memmingen vom 19. November 2026 (Wh.)</title>
@@ -59087,7 +59098,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121132700 +0000" stop="20261121150500 +0000" channel="Eurosport1.de@SD">
+  <programme start="20261121132700 +0000" stop="20261121150200 +0000" channel="Eurosport1.de@SD">
     <title lang="de">FIS Skispringen Weltcup</title>
     <sub-title lang="de">Lillehammer: Frauen: HS 140</sub-title>
     <desc lang="de">Übertragung von aktuellen Skispringen and Skiflug Wettbewerben im FIS Weltcup.</desc>
@@ -59095,7 +59106,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121150500 +0000" stop="20261121153500 +0000" channel="Eurosport1.de@SD">
+  <programme start="20261121150200 +0000" stop="20261121153200 +0000" channel="Eurosport1.de@SD">
     <title lang="de">FIS Ski Alpin Weltcup</title>
     <sub-title lang="de">Gurgl: Slalom Frauen, 2. Lauf</sub-title>
     <desc lang="de">Übertragungen von internationalen FIS Ski Alpin Weltcup Rennen.</desc>
@@ -59103,7 +59114,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121153500 +0000" stop="20261121174500 +0000" channel="Eurosport1.de@SD">
+  <programme start="20261121153200 +0000" stop="20261121174200 +0000" channel="Eurosport1.de@SD">
     <title lang="de">FIS Skispringen Weltcup</title>
     <sub-title lang="de">Lillehammer: Männer: HS 140</sub-title>
     <desc lang="de">Übertragung von aktuellen Skispringen and Skiflug Wettbewerben im FIS Weltcup.</desc>
@@ -59111,7 +59122,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121174500 +0000" stop="20261121190000 +0000" channel="Eurosport1.de@SD">
+  <programme start="20261121174200 +0000" stop="20261121190000 +0000" channel="Eurosport1.de@SD">
     <title lang="de">Eiskunstlauf</title>
     <sub-title lang="de">Mixed : Kür</sub-title>
     <desc lang="de">Übertragung aktueller Eiskunstlauf-Wettbewerbe.</desc>
@@ -163643,10 +163654,14 @@
   <channel id="SkySport3.de@SD">
     <display-name>Sky Sport 1</display-name>
   </channel>
-  <programme start="20261121031000 +0000" stop="20261121033000 +0000" channel="SkySport3.de@SD">
-    <title lang="de">Es folgt: Live Motorsport</title>
-    <desc lang="de">Es folgt: Motorsport</desc>
+  <programme start="20261120230000 +0000" stop="20261121033000 +0000" channel="SkySport3.de@SD">
+    <title lang="de">Es folgt: ab 04:30: Live Motorsport</title>
+    <sub-title lang="de">Live Motorsport</sub-title>
+    <desc lang="de">Informationssendung.</desc>
     <date>20240101</date>
+    <category lang="de">400-Show</category>
+    <category lang="de">Unterhaltung</category>
+    <country lang="de">DE</country>
   </programme>
   <programme start="20261121033000 +0000" stop="20261121060000 +0000" channel="SkySport3.de@SD">
     <title lang="de">Live Motorsport: FIA F4 World Cup - Qualification Race (Macau GP)</title>
@@ -163657,7 +163672,7 @@
     <category lang="de">Sport</category>
   </programme>
   <programme start="20261121060000 +0000" stop="20261121062000 +0000" channel="SkySport3.de@SD">
-    <title lang="de">Es folgt: Live Motorsport</title>
+    <title lang="de">Es folgt: ab 07:00: Live Motorsport</title>
     <sub-title lang="de">Live Motorsport</sub-title>
     <desc lang="de">Informationssendung.</desc>
     <date>20240101</date>
@@ -163673,7 +163688,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121080000 +0000" stop="20261121093500 +0000" channel="SkySport3.de@SD">
+  <programme start="20261121080000 +0000" stop="20261121110000 +0000" channel="SkySport3.de@SD">
     <title lang="de">Live Motorsport: FIA FR World Cup - Qualification Race (Macau GP)</title>
     <sub-title lang="de">Qualification Race: Macau GP</sub-title>
     <desc lang="de">Übertragung des FIA FR World Cup Grand Prix von Macau aus Macau, China.</desc>
@@ -163690,7 +163705,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122010000 +0000" stop="20261122023500 +0000" channel="SkySport3.de@SD">
+  <programme start="20261122010000 +0000" stop="20261122040000 +0000" channel="SkySport3.de@SD">
     <title lang="de">Live Motorsport: FIA F4 World Cup - Main Race (Macau GP)</title>
     <sub-title lang="de">Main Race: Macau GP</sub-title>
     <desc lang="de">Circuito da Guia</desc>
@@ -163699,7 +163714,7 @@
     <category lang="de">Sport</category>
   </programme>
   <programme start="20261122040000 +0000" stop="20261122042000 +0000" channel="SkySport3.de@SD">
-    <title lang="de">Es folgt: Live Motorsport</title>
+    <title lang="de">Es folgt: ab 05:00: Live Motorsport</title>
     <sub-title lang="de">Live Motorsport</sub-title>
     <desc lang="de">Informationssendung.</desc>
     <date>20240101</date>
@@ -163715,8 +163730,8 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261122064000 +0000" stop="20261122070000 +0000" channel="SkySport3.de@SD">
-    <title lang="de">Es folgt: Live Motorsport</title>
+  <programme start="20261122060000 +0000" stop="20261122070000 +0000" channel="SkySport3.de@SD">
+    <title lang="de">Es folgt: ab 08:00: Live Motorsport</title>
     <sub-title lang="de">Live Motorsport</sub-title>
     <desc lang="de">Informationssendung.</desc>
     <date>20240101</date>
@@ -163724,7 +163739,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122070000 +0000" stop="20261122085000 +0000" channel="SkySport3.de@SD">
+  <programme start="20261122070000 +0000" stop="20261122100000 +0000" channel="SkySport3.de@SD">
     <title lang="de">Live Motorsport: FIA FR World Cup - Main Race (Macau GP)</title>
     <sub-title lang="de">Main Race: Macau GP</sub-title>
     <desc lang="de">Übertragung des FIA FR World Cup Grand Prix von Macau aus Macau, China.</desc>
@@ -163796,7 +163811,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Basketball</category>
   </programme>
-  <programme start="20261121175500 +0000" stop="20261121210000 +0000" channel="SkySport6.de@SD">
+  <programme start="20261121175500 +0000" stop="20261121230000 +0000" channel="SkySport6.de@SD">
     <title lang="de">Live NBA: Milwaukee Bucks @ Philadelphia 76ers</title>
     <sub-title lang="de">Philadelphia 76ers - Milwaukee Bucks</sub-title>
     <desc lang="de">Aus der Xfinity Mobile Arena in Philadelphia, Pennsylvania, USA.</desc>
@@ -163817,7 +163832,7 @@
     <category lang="de">Fußball</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121145000 +0000" stop="20261121170000 +0000" channel="SkySport10.de@SD">
+  <programme start="20261121145000 +0000" stop="20261121173000 +0000" channel="SkySport10.de@SD">
     <title lang="de">Live PL: AFC Bournemouth - Nottingham Forest, 11. Spieltag</title>
     <sub-title lang="de">Bournemouth - Nottingham Forest</sub-title>
     <desc lang="de">Aus dem Vitality Stadium in Bournemouth, Großbritannien.</desc>
@@ -164270,7 +164285,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Fußball</category>
   </programme>
-  <programme start="20261121164500 +0000" stop="20261121201500 +0000" channel="SkySportBundesliga2.de@SD">
+  <programme start="20261121164500 +0000" stop="20261121204500 +0000" channel="SkySportBundesliga2.de@SD">
     <title lang="de">Live BL: FC Schalke 04 - VfB Stuttgart, tipico Topspiel der Woche, 10. Spieltag</title>
     <sub-title lang="de">FC Schalke 04 - VfB Stuttgart</sub-title>
     <desc lang="de">Aus der VELTINS-Arena, Gelsenkirchen, Deutschland.</desc>
@@ -164376,7 +164391,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Fußball</category>
   </programme>
-  <programme start="20261121220000 +0000" stop="20261121230000 +0000" channel="SkySportBundesliga3.de@SD">
+  <programme start="20261121220000 +0000" stop="20261121233000 +0000" channel="SkySportBundesliga3.de@SD">
     <title lang="de">2. BL Alle Spiele, alle Tore: Die Vodafone Highlight-Show, 12. Spieltag, Samstag komplett</title>
     <sub-title lang="de">12. Spieltag, Samstag komplett</sub-title>
     <desc lang="de">Das Magazin zeigt aktuelle Berichte zu allen Spielen und Toren aus der 2. Bundesliga.</desc>
@@ -164466,7 +164481,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Fußball</category>
   </programme>
-  <programme start="20261121164500 +0000" stop="20261121201500 +0000" channel="SkySportBundesliga4.de@SD">
+  <programme start="20261121164500 +0000" stop="20261121204500 +0000" channel="SkySportBundesliga4.de@SD">
     <title lang="de">Live BL: Tactical Feed: S04 - VFB, 10. Spieltag</title>
     <sub-title lang="de">S04 - VFB, 10. Spieltag</sub-title>
     <desc lang="de">Die Live-Analyse zum Bundesliga-Topspiel am Samstag.</desc>
@@ -164518,7 +164533,7 @@
     <title lang="de">Live BL: B04 - SCP: NEO.bet Countdown, 10. Spieltag</title>
     <desc lang="de">Spannende Vorberichte und knallharte Analysen: Der NEO.bet Countdown stimmt auf den bevorstehenden Samstags-Spieltag der Bundesliga ein.</desc>
   </programme>
-  <programme start="20261121141500 +0000" stop="20261121164500 +0000" channel="SkySportBundesliga5.de@SD">
+  <programme start="20261121141500 +0000" stop="20261121170000 +0000" channel="SkySportBundesliga5.de@SD">
     <title lang="de">Live BL: Bayer Leverkusen - SC Paderborn 07, 10. Spieltag</title>
     <sub-title lang="de">Bayer 04 Leverkusen - SC Paderborn 07</sub-title>
     <desc lang="de">Aus der BayArena in Leverkusen, Deutschland.</desc>
@@ -164569,7 +164584,7 @@
     <title lang="de">Live BL: SGE - TSG: NEO.bet Countdown, 10. Spieltag</title>
     <desc lang="de">Spannende Vorberichte und knallharte Analysen: Der NEO.bet Countdown stimmt auf den bevorstehenden Samstags-Spieltag der Bundesliga ein.</desc>
   </programme>
-  <programme start="20261121141500 +0000" stop="20261121164500 +0000" channel="SkySportBundesliga6.de@SD">
+  <programme start="20261121141500 +0000" stop="20261121170000 +0000" channel="SkySportBundesliga6.de@SD">
     <title lang="de">Live BL: Eintracht Frankfurt - TSG Hoffenheim, 10. Spieltag</title>
     <sub-title lang="de">Eintracht Frankfurt - TSG Hoffenheim</sub-title>
     <desc lang="de">Aus dem Deutsche Bank Park, Frankfurt, Deutschland.</desc>
@@ -164616,7 +164631,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Fußball</category>
   </programme>
-  <programme start="20261121140000 +0000" stop="20261121163000 +0000" channel="SkySportBundesliga7.de@SD">
+  <programme start="20261121140000 +0000" stop="20261121170000 +0000" channel="SkySportBundesliga7.de@SD">
     <title lang="de">Live BL: Multiview, 10. Spieltag</title>
     <sub-title lang="de">10. Spieltag</sub-title>
     <desc lang="de">Innovativ, individuell, interaktiv: das neue Bundesliga-Erlebnis am Samstagnachmittag bei Sky Sport - maßgeschneidert für jeden Fan!</desc>
@@ -164646,7 +164661,7 @@
     <category lang="de">Fußball</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121140000 +0000" stop="20261121144500 +0000" channel="SkySportBundesliga8.de@SD">
+  <programme start="20261121140000 +0000" stop="20261121151500 +0000" channel="SkySportBundesliga8.de@SD">
     <title lang="de">Live 2. BL Alle Spiele, alle Tore: Die Vodafone Highlight-Show, 12. Spieltag, Samstag</title>
     <sub-title lang="de">12. Spieltag, Samstag</sub-title>
     <desc lang="de">Das Magazin zeigt aktuelle Berichte zu allen Spielen und Toren aus der 2. Bundesliga.</desc>
@@ -166788,11 +166803,11 @@
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121110000 +0000" stop="20261121131500 +0000" channel="SkySport2.de@SD">
-    <title lang="de">Live ATP Finals: Doppel HF1, 7. Tag in Turin (ITA), Halbfinale 1</title>
+    <title lang="de">Live ATP Finals: M. Arevalo (ESA) / M. Pavic (CRO) - C. Harrison (USA) / N. Skupski (GBR), 7. Tag in Turin (ITA), Halbfinale 1</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennis-Duos der Welt auf. Welches Doppel holt sich den Sieg in Turin? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121131500 +0000" stop="20261121153000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">Live ATP Finals: Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
+    <title lang="de">Live ATP Finals: C. Alcaraz (ESP) - B. Shelton (USA), Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121153000 +0000" stop="20261121160000 +0000" channel="SkySport2.de@SD">
@@ -166813,15 +166828,15 @@
     <country lang="de">US</country>
   </programme>
   <programme start="20261121170000 +0000" stop="20261121190000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">Live ATP Finals: Doppel HF2, 7. Tag in Turin (ITA), Halbfinale 2</title>
+    <title lang="de">Live ATP Finals: K. Krawietz (GER) / T. Puetz (GER) - T. Arribage (FRA) / A. Olivetti (FRA), 7. Tag in Turin (ITA), Halbfinale 2</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennis-Duos der Welt auf. Welches Doppel holt sich den Sieg in Turin? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121190000 +0000" stop="20261121213000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">Live ATP Finals: Einzel HF2, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
+    <title lang="de">Live ATP Finals: A. Zverev (GER) - D. Medvedev, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121213000 +0000" stop="20261121233000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">ATP Finals: Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
+    <title lang="de">ATP Finals: C. Alcaraz (ESP) - B. Shelton (USA), Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261121233000 +0000" stop="20261122020000 +0000" channel="SkySport2.de@SD">
@@ -166829,7 +166844,7 @@
     <desc lang="de">Showdown in Indian Wells: Bei den WTA Finals 2026 schlagen die acht besten Tennisspielerinnen der Welt auf. Wer siegt in den USA? Kommentar: U.a. Stefan Hempel &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261122020000 +0000" stop="20261122040000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">ATP Finals: Einzel HF2, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
+    <title lang="de">ATP Finals: A. Zverev (GER) - D. Medvedev, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261122040000 +0000" stop="20261122061500 +0000" channel="SkySport2.de@SD">
@@ -166841,7 +166856,7 @@
     <category lang="de">Sport</category>
   </programme>
   <programme start="20261122061500 +0000" stop="20261122081500 +0000" channel="SkySport2.de@SD">
-    <title lang="de">ATP Finals: Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
+    <title lang="de">ATP Finals: C. Alcaraz (ESP) - B. Shelton (USA), Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261122081500 +0000" stop="20261122091500 +0000" channel="SkySport2.de@SD">
@@ -166863,11 +166878,11 @@
     <country lang="de">US</country>
   </programme>
   <programme start="20261122100000 +0000" stop="20261122120000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">ATP Finals: Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
+    <title lang="de">ATP Finals: C. Alcaraz (ESP) - B. Shelton (USA), Einzel HF1, 7. Tag in Turin (ITA), Einzel Halbfinale 1</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261122120000 +0000" stop="20261122140000 +0000" channel="SkySport2.de@SD">
-    <title lang="de">ATP Finals: Einzel HF2, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
+    <title lang="de">ATP Finals: A. Zverev (GER) - D. Medvedev, 7. Tag in Turin (ITA), Einzel Halbfinale 2</title>
     <desc lang="de">Das Finale der ATP Tour: Bei den Finals schlagen die acht besten Tennisspieler der Welt auf, darunter Alexander Zverev. Wer triumphiert? Kommentar: Paul Häuser &amp; Marcel Meinert.</desc>
   </programme>
   <programme start="20261122140000 +0000" stop="20261122163000 +0000" channel="SkySport2.de@SD">
@@ -191134,14 +191149,24 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122231500 +0000" stop="20261122234500 +0000" channel="TVA.de@SD">
-    <title lang="de">Sonntagssendung (Wh.)</title>
-    <sub-title lang="de">Sonntagssendung</sub-title>
-    <desc lang="de">Es werden im Wechsel Programme wie zum Beispiel das TVA Gesundheitsforum oder TVA Horizonte gezeigt.</desc>
-    <date>20220101</date>
-    <category lang="de">500-Information</category>
-    <category lang="de">Nachrichten</category>
-    <category lang="de">Magazin</category>
+  <programme start="20261122231500 +0000" stop="20261122233000 +0000" channel="TVA.de@SD">
+    <title lang="de">Servus TVA vom 23.11.2026</title>
+    <sub-title lang="de">Servus TVA</sub-title>
+    <desc lang="de">Die Sendung zeigt Beiträge zu den Themen Heimat und Brauchtum in der Region. In Beiträgen werden Burgen, Schlösser und Naturdenkmäler vorgestellt. Außerdem berichten Heimatpfleger und Trachtenvereine von der Arbeit in ihrer Heimat.</desc>
+    <date>20200101</date>
+    <category lang="de">400-Show</category>
+    <category lang="de">Unterhaltung</category>
+    <country lang="de">AT</country>
+  </programme>
+  <programme start="20261122233000 +0000" stop="20261122234500 +0000" channel="TVA.de@SD">
+    <title lang="de">Blitzlicht vom 23.11.2026</title>
+    <sub-title lang="de">Blitzlicht</sub-title>
+    <desc lang="de">Im Fokus der Sendung stehen Themen aus Kunst, Kultur und Gesellschaft und die Menschen dahinter.</desc>
+    <date>20210101</date>
+    <category lang="de">400-Show</category>
+    <category lang="de">Unterhaltung</category>
+    <category lang="de">Gesellschaft</category>
+    <country lang="de">DE</country>
   </programme>
   <programme start="20261122234500 +0000" stop="20261123000000 +0000" channel="TVA.de@SD">
     <title lang="de">Mein Landkreis Cham vom 20.11.2026 (Wh.)</title>
@@ -211950,6 +211975,8 @@
     <title lang="de">Fregatte '''Mecklenburg-Vorpommern'' - Leben im NATO-Einsatz</title>
     <desc lang="de">Jeden Tag begegnen sich NATO und Russland in der Ostsee. Sechs Monate war die deutsche Fregatte Mecklenburg-Vorpommern hier im Einsatz. Für die Besatzung bedeutet das: Leben auf See, Arbeiten auf See - und im Ernstfall Kämpfen auf See.</desc>
     <date>20260101</date>
+    <category lang="de">500-Information</category>
+    <category lang="de">Wissen</category>
     <country lang="de">DE</country>
   </programme>
   <programme start="20261122003000 +0000" stop="20261122011500 +0000" channel="WELT.de@Germany">
@@ -216349,13 +216376,8 @@
   </programme>
   <programme start="20261121043000 +0000" stop="20261121045500 +0000" channel="ZDF.de@Germany">
     <title lang="de">Malory Towers</title>
-    <sub-title lang="de">Der erste Schultag</sub-title>
-    <desc lang="de">Es ist Darrell Rivers erster Tag in Malory Towers. Dort holt sie die Vergangenheit aus ihrer alten Schule St. Hildas ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen hinter Darrells Geheimnis zu kommen.</desc>
+    <desc lang="de">Abenteuerserie, Großbritannien / Kanada 2020 Es ist Darrell Rivers erster Tag in "Malory Towers". Eigentlich kann sie den Neustart im Internat kaum erwarten. Doch dann holt sie die Vergangenheit ihrer alten Schule St. Hilda's ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen, hinter Darrells Geheimnis zu kommen. Unterdessen vergnügen sich die Mädchen bei einem geheimen Mitternachtsfest. Doch das müssen sie vor der strengen Miss M. geheim halten. Darsteller: Darrell Rivers - Ella Bright Miss Potts - Imali Perera Mrs. Rivers - Flora Dawson Mr. Rivers - Rob Carter Felicity - Minti Gorne Alicia Johns - Zoey Siewert Regie: Bruce McDonald, Rebecca Rycroft Buch/Autor: Rachel Flowerday, Sasha Hails HD-Produktion</desc>
     <date>20200101</date>
-    <category lang="de">700-Kinder</category>
-    <category lang="de">Kinder</category>
-    <category lang="de">Drama</category>
-    <country lang="de">GB</country>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
   </programme>
@@ -220497,28 +220519,6 @@
     <country lang="de">DE</country>
     <image>http://ngiss.t-online.de/cm1s/media/gracenote/2/6/p26205617_i_h9_aa_2023-12-29T10_33_10.jpg</image>
   </programme>
-  <programme start="20261121043000 +0000" stop="20261121045500 +0000" channel="TestkanalL02.de@SD">
-    <title lang="de">Malory Towers</title>
-    <sub-title lang="de">Der erste Schultag</sub-title>
-    <desc lang="de">Es ist Darrell Rivers erster Tag in Malory Towers. Dort holt sie die Vergangenheit aus ihrer alten Schule St. Hildas ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen hinter Darrells Geheimnis zu kommen.</desc>
-    <credits>
-      <director>Rebecca Rycroft</director>
-      <director>Bruce McDonald</director>
-      <producer>Grainne McNamara</producer>
-      <producer>Angela Boudreault</producer>
-      <producer>Josh Scherba</producer>
-      <producer>Anne Loi</producer>
-      <producer>Jo Sargent</producer>
-    </credits>
-    <date>20200101</date>
-    <category lang="de">Kinder</category>
-    <category lang="de">Drama</category>
-    <icon src="http://ngiss.t-online.de/cm1s/media/gracenote/1/8/p18135962_e_h9_aa_2020-07-23T16_10_17.jpg" />
-    <country lang="de">GB</country>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>http://ngiss.t-online.de/cm1s/media/gracenote/1/8/p18135962_e_h9_aa_2020-07-23T16_10_17.jpg</image>
-  </programme>
   <programme start="20261121045500 +0000" stop="20261121052000 +0000" channel="TestkanalL02.de@SD">
     <title lang="de">Malory Towers</title>
     <sub-title lang="de">Aller Anfang ist schwer</sub-title>
@@ -222005,28 +222005,6 @@
     <icon src="http://ngiss.t-online.de/cm1s/media/gracenote/2/6/p26205617_i_h9_aa_2023-12-29T10_33_10.jpg" />
     <country lang="de">DE</country>
     <image>http://ngiss.t-online.de/cm1s/media/gracenote/2/6/p26205617_i_h9_aa_2023-12-29T10_33_10.jpg</image>
-  </programme>
-  <programme start="20261121043000 +0000" stop="20261121045500 +0000" channel="TestkanalL07.de@SD">
-    <title lang="de">Malory Towers</title>
-    <sub-title lang="de">Der erste Schultag</sub-title>
-    <desc lang="de">Es ist Darrell Rivers erster Tag in Malory Towers. Dort holt sie die Vergangenheit aus ihrer alten Schule St. Hildas ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen hinter Darrells Geheimnis zu kommen.</desc>
-    <credits>
-      <director>Rebecca Rycroft</director>
-      <director>Bruce McDonald</director>
-      <producer>Grainne McNamara</producer>
-      <producer>Angela Boudreault</producer>
-      <producer>Josh Scherba</producer>
-      <producer>Anne Loi</producer>
-      <producer>Jo Sargent</producer>
-    </credits>
-    <date>20200101</date>
-    <category lang="de">Kinder</category>
-    <category lang="de">Drama</category>
-    <icon src="http://ngiss.t-online.de/cm1s/media/gracenote/1/8/p18135962_e_h9_aa_2020-07-23T16_10_17.jpg" />
-    <country lang="de">GB</country>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>http://ngiss.t-online.de/cm1s/media/gracenote/1/8/p18135962_e_h9_aa_2020-07-23T16_10_17.jpg</image>
   </programme>
   <programme start="20261121045500 +0000" stop="20261121052000 +0000" channel="TestkanalL07.de@SD">
     <title lang="de">Malory Towers</title>
@@ -228515,7 +228493,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121080500 +0000" stop="20261121084000 +0000" channel="3sat.de">
+  <programme start="20261121080500 +0000" stop="20261121083000 +0000" channel="3sat.de">
     <title lang="de">Kulturplatz</title>
     <sub-title lang="de">Swiss Success Stories - Der Hochseilartist und der Preis der Freiheit - Folge 1</sub-title>
     <desc lang="de">Sein Lebenstraum verlangt David Dimitri vieles ab: Schon als 14-Jähriger verlässt er das Elternhaus, um an einer Zirkusschule in Budapest zu studieren. Eine große Karriere als Hochseilartist nimmt ihren Anfang - die wieder in die Schweiz führt.</desc>
@@ -228527,7 +228505,10 @@
     <category lang="de">Gesellschaft</category>
     <country lang="de">CH</country>
   </programme>
-  <programme start="20261121084000 +0000" stop="20261121090500 +0000" channel="3sat.de">
+  <programme start="20261121083000 +0000" stop="20261121084400 +0000" channel="3sat.de">
+    <title lang="de">The Dying Swans Project</title>
+  </programme>
+  <programme start="20261121084400 +0000" stop="20261121090500 +0000" channel="3sat.de">
     <title lang="de">Bilder aus Südtirol</title>
     <desc lang="de">Das Bundesländermagazin Bilder aus Südtirol stellt in seinen Dokumentationen Südtirol vor. Dabei stehen die aktuellen gesellschaftspolitischen Geschehen, die Geschichte, der Tourismus, die Wirtschaft und die Kultur der Region im Fokus.</desc>
     <date>20260101</date>
@@ -228536,7 +228517,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121090500 +0000" stop="20261121095000 +0000" channel="3sat.de">
+  <programme start="20261121090500 +0000" stop="20261121095100 +0000" channel="3sat.de">
     <title lang="de">Wiener Plätze (1/2)</title>
     <sub-title lang="de">Wiener Plätze</sub-title>
     <desc lang="de">Wiens Plätze tragen mehr Geschichte in sich, als einem oft bewusst ist. Nur wenige wissen, an welchen Ecken die Weltgeschichte genau durchgezogen ist. Karl Hohenlohe besucht den Albertinaplatz, den Karlsplatz und die Freyung.</desc>
@@ -228548,7 +228529,7 @@
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
   </programme>
-  <programme start="20261121095000 +0000" stop="20261121103500 +0000" channel="3sat.de">
+  <programme start="20261121095100 +0000" stop="20261121103700 +0000" channel="3sat.de">
     <title lang="de">Wiener Plätze (2/2)</title>
     <sub-title lang="de">Wiener Plätze - Wien damals</sub-title>
     <desc lang="de">Wien ist anders, diesen Slogan haben Befürworter und Kritiker der Stadt stets beide im Mund geführt, einmal ohne und einmal mit Ironie. Diese Dokumentation setzt ihre Erkundung durch das Wien der letzten Jahrzehnte fort.</desc>
@@ -228559,7 +228540,7 @@
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
   </programme>
-  <programme start="20261121103500 +0000" stop="20261121111000 +0000" channel="3sat.de">
+  <programme start="20261121103700 +0000" stop="20261121110900 +0000" channel="3sat.de">
     <title lang="de">Durchs Mariazellerland</title>
     <sub-title lang="de">Landleben</sub-title>
     <desc lang="de">Auch im Herbst und Winter beeindruckt das Mariazellerland durch seine landschaftliche Schönheit. Auf dem Weg von Mariazell nach St. Lambrecht liegt die Grebenzen, eine reizvolle alpine Landschaft mit einem Ski- und Ausflugsgebiet.</desc>
@@ -228570,7 +228551,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121111000 +0000" stop="20261121120000 +0000" channel="3sat.de">
+  <programme start="20261121110900 +0000" stop="20261121120000 +0000" channel="3sat.de">
     <title lang="de">Liebesg'schichten und Heiratssachen (10/10)</title>
     <sub-title lang="de">Liebesg'schichten und Heiratssachen</sub-title>
     <desc lang="de">In dieser Sendung geht es um verschiedene Singles, die ihr Leben nicht mehr allein und einsam verbringen wollen. Daher werden sie in kurzen Porträts dargestellt und sie erzählen davon, wie sie ihr derzeitiges Sololeben verbringen.</desc>
@@ -228581,7 +228562,7 @@
     <episode-num system="xmltv_ns">28.9.0/1</episode-num>
     <episode-num system="onscreen">S29E10</episode-num>
   </programme>
-  <programme start="20261121120000 +0000" stop="20261121121000 +0000" channel="3sat.de">
+  <programme start="20261121120000 +0000" stop="20261121121100 +0000" channel="3sat.de">
     <title lang="de">ZIB</title>
     <sub-title lang="de">vom 21.11.2026, 13:00 Uhr</sub-title>
     <desc lang="de">Seit 1955 informiert das österreichische Nachrichtenjournal Zeit im Bild am Vorabend über die aktuellen Geschehnisse und Ereignisse auf der ganzen Welt. Außerdem werden Expertenanalysen und Entwicklungen auf den Finanzmärkten vorgestellt.</desc>
@@ -228591,7 +228572,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">AT</country>
   </programme>
-  <programme start="20261121121000 +0000" stop="20261121121500 +0000" channel="3sat.de">
+  <programme start="20261121121100 +0000" stop="20261121121700 +0000" channel="3sat.de">
     <title lang="de">Notizen aus dem Ausland</title>
     <desc lang="de">Monothematische, kurze Beiträge über die gesellschaftliche oder politische Situation in einem Land der Welt.</desc>
     <date>20260101</date>
@@ -228599,7 +228580,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE,AT</country>
   </programme>
-  <programme start="20261121121500 +0000" stop="20261121130000 +0000" channel="3sat.de">
+  <programme start="20261121121700 +0000" stop="20261121130200 +0000" channel="3sat.de">
     <title lang="de">quer</title>
     <sub-title lang="de">... durch die Woche mit Christoph Süß</sub-title>
     <desc lang="de">Folgendes ist geplant: "Anschläge auf Stromversorgung: Blackout auch in Bayern?", "Immer weniger Geldautomaten auf dem Land", "Baurecht versus Wohnungsnot: Ist der Rückbau von Häusern nötig?" sowie "Keine Schulbegleitung für krankes Kind".</desc>
@@ -228609,7 +228590,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121130000 +0000" stop="20261121133000 +0000" channel="3sat.de">
+  <programme start="20261121130200 +0000" stop="20261121133100 +0000" channel="3sat.de">
     <title lang="de">Ländermagazin</title>
     <sub-title lang="de">Heute aus Bayern: Margarete Steiff - wie aus einer mutigen Idee eine Weltmarke wird</sub-title>
     <desc lang="de">Menschen, Landschaften und Geschichten aus allen Bundesländern zeigen die poetische und nahbare regionale Vielfalt Deutschlands. Im Mittelpunkt stehen zahlreiche bewegende regionale sowie überregionale Ereignisse und Themen.</desc>
@@ -228618,7 +228599,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121133000 +0000" stop="20261121140000 +0000" channel="3sat.de">
+  <programme start="20261121133100 +0000" stop="20261121140000 +0000" channel="3sat.de">
     <title lang="de">Kunst + Krempel</title>
     <sub-title lang="de">His Master's Voice-Grammophon · Musikinstrumente und mehr</sub-title>
     <desc lang="de">Auf Schloss Faber-Castell begutachten die Experten ein überaus rares Grammophon. Außerdem wird ein Stuhl mit einer außergewöhnlichen Lehne vorgestellt, eine Frauen-Büste im Jugendstil und ein Spielzeugauto, das ein wertvolles Sammlerstück ist.</desc>
@@ -228628,7 +228609,7 @@
     <category lang="de">Wissen</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121140000 +0000" stop="20261121143000 +0000" channel="3sat.de">
+  <programme start="20261121140000 +0000" stop="20261121143100 +0000" channel="3sat.de">
     <title lang="de">Natur im Garten (9/10)</title>
     <sub-title lang="de">Natur im Garten</sub-title>
     <desc lang="de">Der Gartenbuchautor Karl Ploberger gibt hilfreiche Tipps und Tricks zur Gartenpflege.</desc>
@@ -228641,7 +228622,7 @@
     <episode-num system="xmltv_ns">30.8.0/1</episode-num>
     <episode-num system="onscreen">S31E09</episode-num>
   </programme>
-  <programme start="20261121143000 +0000" stop="20261121150000 +0000" channel="3sat.de">
+  <programme start="20261121143100 +0000" stop="20261121150100 +0000" channel="3sat.de">
     <title lang="de">Andalusien - Spaniens maurischer Süden</title>
     <desc lang="de">Umgeben vom Atlantischen Ozean und dem Mittelmeer bildet Andalusien mit dem Felsen von Gibraltar die südlichste Region der iberischen Halbinsel und des europäischen Festlands. Dieser maurisch geprägte Süden Spaniens wird eingehend vorgestellt.</desc>
     <date>20210101</date>
@@ -228650,7 +228631,7 @@
     <category lang="de">Dokumentation</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121150000 +0000" stop="20261121163000 +0000" channel="3sat.de">
+  <programme start="20261121150100 +0000" stop="20261121163100 +0000" channel="3sat.de">
     <title lang="de">Ella Schön - Die nackte Wahrheit</title>
     <desc lang="de">Holger Packebusch, der Besitzer des ortsansässigen FKK-Campingplatzes, scheint verwirrt zu sein. Als er am nächsten Morgen in Kollkamps Kanzlei auftaucht und stockend von seiner Demenz-Diagnose berichtet, übernimmt Ella seinen Fall. Packebusch wurde aufgrund seines unbekleideten Spaziergangs durchs Dorf beim Gericht angeschwärzt. Wenn sich das Gericht der Sache annimmt, besteht die Gefahr, dass er einen Betreuer vor die Nase gesetzt bekommt.</desc>
     <date>20180101</date>
@@ -228659,7 +228640,7 @@
     <category lang="de">Komödie</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121163000 +0000" stop="20261121180000 +0000" channel="3sat.de">
+  <programme start="20261121163100 +0000" stop="20261121180000 +0000" channel="3sat.de">
     <title lang="de">Ella Schön - Sturmgeschwister</title>
     <desc lang="de">Ungewöhnliche Kundschaft hat Ella, denn sie soll zwei pubertierende Schwestern gegen ihre Eltern vertreten. Die beiden Jugendlichen fühlen sich nicht genug geliebt und wollen von zu Hause ausziehen. Die Mädchen ziehen in Christinas Baumhaus ein, Ravioli aus der Dose inklusive. Christina kennt die Eltern, Besitzer einer Fischbrötchenbude am Hafen, und versucht, zu vermitteln. Dieser Versucht bleibt allerdings leider erfolglos.</desc>
     <date>20180101</date>
@@ -228667,7 +228648,7 @@
     <category lang="de">Romantik</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121180000 +0000" stop="20261121181800 +0000" channel="3sat.de">
+  <programme start="20261121180000 +0000" stop="20261121182100 +0000" channel="3sat.de">
     <title lang="de">heute</title>
     <sub-title lang="de">vom 21.11.2026, um 19:00 Uhr</sub-title>
     <desc lang="de">Das Nachrichtenmagazin informiert über aktuelle Meldungen aus Deutschland und der Welt.</desc>
@@ -228676,7 +228657,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121181800 +0000" stop="20261121182000 +0000" channel="3sat.de">
+  <programme start="20261121182100 +0000" stop="20261121182200 +0000" channel="3sat.de">
     <title lang="de">3sat-Wetter</title>
     <desc lang="de">Die Sendung zeigt das aktuelle Wetter aus Deutschland, Österreich und der Schweiz.</desc>
     <date>20260101</date>
@@ -228684,7 +228665,7 @@
     <category lang="de">Nachrichten</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121182000 +0000" stop="20261121190000 +0000" channel="3sat.de">
+  <programme start="20261121182200 +0000" stop="20261121190000 +0000" channel="3sat.de">
     <title lang="de">Wir und nicht Ich - Der Deutsche Theaterpreis DER FAUST</title>
     <desc lang="de">Dokumentation, Deutschland 2026 Theater erzählt von Krieg, Klima und Kontrollverlust - und verändert sich dabei selbst. Hierarchien werden hinterfragt, Verantwortung geteilt und neue Formen der Zusammenarbeit erprobt. Dabei geht es um weit mehr als um veränderte Produktionsbedingungen. Die Theater werden zu Laboren für eine Gesellschaft, die selbst nach neuen Formen des Zusammenhalts sucht. Die FAUST-Preisverleihung in Wiesbaden bringt unterschiedliche Perspektiven zusammen. HD-Produktion</desc>
     <date>20260101</date>
@@ -228704,7 +228685,7 @@
     <category lang="de">Politik</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121191500 +0000" stop="20261121204500 +0000" channel="3sat.de">
+  <programme start="20261121191500 +0000" stop="20261121204400 +0000" channel="3sat.de">
     <title lang="de">Eine Nacht in Bangkok</title>
     <desc lang="de">Ein lang getrenntes Ehepaar wird schlagartig wieder vereint, als die gemeinsame Tochter überraschend in Untersuchungshaft gerät. Um das rätselhafte Handeln des entfremdeten Kindes zu begreifen, begeben sich die Eltern auf eine Spurensuche im Umfeld der Festgenommenen. Dabei werden sie nicht nur mit unvermuteten Facetten ihres Kindes konfrontiert, sondern müssen sich auch mit unverarbeiteten Verletzungen, verdrängten Gefühlen und dem Scheitern der einstigen Gemeinschaft auseinandersetzen.</desc>
     <date>20260101</date>
@@ -228712,7 +228693,7 @@
     <category lang="de">Drama</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261121204500 +0000" stop="20261121221500 +0000" channel="3sat.de">
+  <programme start="20261121204400 +0000" stop="20261121221400 +0000" channel="3sat.de">
     <title lang="de">Nürnberg 45 - Im Angesicht des Bösen</title>
     <sub-title lang="de">ARD History</sub-title>
     <desc lang="de">Der Journalist Ernst Michel muss bei den Nürnberger Prozessen im Jahr 1945 über die Täter berichten, die seine Familie ermordet haben. Auch Seweryna Szmaglewska, eine der wenigen Zeuginnen, durchlebt ihr Trauma im Gerichtssaal erneut.</desc>
@@ -228723,7 +228704,7 @@
     <episode-num system="xmltv_ns">0.60.0/1</episode-num>
     <episode-num system="onscreen">S01E61</episode-num>
   </programme>
-  <programme start="20261121221500 +0000" stop="20261122002000 +0000" channel="3sat.de">
+  <programme start="20261121221400 +0000" stop="20261122001900 +0000" channel="3sat.de">
     <title lang="de">Offenes Geheimnis</title>
     <desc lang="de">Als Lauras Schwester Ana heiratet, reist Laura von Buenos Aires in ihr spanisches Heimatdorf. Dort hat ihre Jugendliebe Paco, dem sie ihr Familienerbe verkauft hat, ein Weingut gegründet. Lauras Vater Antonio gefällt das gar nicht. Dieser war einst ein erfolgreicher Geschäftsmann, hat jedoch durch seine Spielsucht sein gesamtes Vermögen verspielt. Dann wird plötzlich Lauras Tochter Irene entführt und es treten einige Familiengeheimnisse ans Licht.</desc>
     <date>20180101</date>
@@ -228732,7 +228713,7 @@
     <category lang="de">Krimi</category>
     <country lang="de">ES,FR,IT</country>
   </programme>
-  <programme start="20261122002000 +0000" stop="20261122011500 +0000" channel="3sat.de">
+  <programme start="20261122001900 +0000" stop="20261122011600 +0000" channel="3sat.de">
     <title lang="de">lebensArt</title>
     <desc lang="de">Martin Traxl und Clarissa Stadler präsentieren Inhalte, die nicht nur vom Kulturkalender, sondern auch von gesellschaftlichen und kulturpolitischen Entwicklungen bestimmt werden. Es werden Themen aus Literatur, Musik, Film und Theater behandelt.</desc>
     <date>20260101</date>
@@ -228740,7 +228721,7 @@
     <category lang="de">Unterhaltung</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122011500 +0000" stop="20261122024000 +0000" channel="3sat.de">
+  <programme start="20261122011600 +0000" stop="20261122024100 +0000" channel="3sat.de">
     <title lang="de">das aktuelle sportstudio</title>
     <desc lang="de">Die Sendung bringt aktuelle Nachrichten zur Fußball-Bundesliga und zu anderen Sportarten. Zudem werden interessante Studiogäste aus allen Sportarten zu einem Gespräch ins Studio eingeladen. Außerdem gibt es natürlich die legendäre Torwand.</desc>
     <date>20260101</date>
@@ -228748,7 +228729,7 @@
     <category lang="de">Sport</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122024000 +0000" stop="20261122032500 +0000" channel="3sat.de">
+  <programme start="20261122024100 +0000" stop="20261122032500 +0000" channel="3sat.de">
     <title lang="de">Expedition Anden: Gebirge in Bewegung</title>
     <sub-title lang="de">Expedition Anden - Gebirge in Bewegung</sub-title>
     <desc lang="de">In den Anden bebt die Erde - und es entstehen Rohstoffe. Der Geologe Colin Devey begibt sich auf Expedition, um die Kräfte des Erdinneren zu erforschen. Seine Reise führt vom alten Inka-Erbe in Cusco bis ins raue chilenische Hochland.</desc>
@@ -228759,7 +228740,7 @@
     <category lang="de">Geschichte</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122032500 +0000" stop="20261122041000 +0000" channel="3sat.de">
+  <programme start="20261122032500 +0000" stop="20261122040900 +0000" channel="3sat.de">
     <title lang="de">Expedition Anden: Die Kraft von Wind und Wasser</title>
     <sub-title lang="de">Expedition Anden - Die Kraft von Wind und Wasser</sub-title>
     <desc lang="de">Der Geologe Colin Devey erkundet, wie Wind, Eis und Wasser die Anden formen. Von Patagonien bis zur Atacama-Wüste zeigt die Dokumentation ein faszinierendes Naturlabor, in dem atmosphärische Kräfte die einzigartigen Landschaften bilden.</desc>
@@ -228770,12 +228751,12 @@
     <category lang="de">Geschichte</category>
     <country lang="de">DE</country>
   </programme>
-  <programme start="20261122041000 +0000" stop="20261122044000 +0000" channel="3sat.de">
+  <programme start="20261122040900 +0000" stop="20261122043900 +0000" channel="3sat.de">
     <title lang="de">Süd-Vietnam - Naturparadies am Mekong</title>
     <desc lang="de">Frankreich 2026 Der Süden Vietnams bietet Reisenden eine Mischung aus Stadtleben, Kultur und Natur. Die Reise führt von Saigon ins Mekong-Delta und an die von Kalksteinklippen geprägten Buchten der Südküste. Viel von der bewegten Geschichte des Landes zeigt sich in Vietnams Süden, ob traditionelle Buddha-Tempel, französische Kolonialarchitektur oder Prachtbauten der sozialistischen Ära. Abseits der Städte locken sowohl malerische Küsten als auch das kühlere Hochland. HD-Produktion</desc>
     <date>20260101</date>
   </programme>
-  <programme start="20261122044000 +0000" stop="20261122051000 +0000" channel="3sat.de">
+  <programme start="20261122043900 +0000" stop="20261122051000 +0000" channel="3sat.de">
     <title lang="de">West-Sumatra - Indonesiens grünes Paradies</title>
     <sub-title lang="de">West-Sumatra</sub-title>
     <desc lang="de">Die schönsten und idyllischsten Orte auf der ganzen Welt und ihre Geschichten werden vorgestellt.</desc>
@@ -252798,7 +252779,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121132700 +0000" stop="20261121150500 +0000" channel="eurosport1.de">
+  <programme start="20261121132700 +0000" stop="20261121150200 +0000" channel="eurosport1.de">
     <title lang="de">FIS Skispringen Weltcup</title>
     <sub-title lang="de">Lillehammer: Frauen: HS 140</sub-title>
     <desc lang="de">Übertragung von aktuellen Skispringen and Skiflug Wettbewerben im FIS Weltcup.</desc>
@@ -252806,7 +252787,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121150500 +0000" stop="20261121153500 +0000" channel="eurosport1.de">
+  <programme start="20261121150200 +0000" stop="20261121153200 +0000" channel="eurosport1.de">
     <title lang="de">FIS Ski Alpin Weltcup</title>
     <sub-title lang="de">Gurgl: Slalom Frauen, 2. Lauf</sub-title>
     <desc lang="de">Übertragungen von internationalen FIS Ski Alpin Weltcup Rennen.</desc>
@@ -252814,7 +252795,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121153500 +0000" stop="20261121174500 +0000" channel="eurosport1.de">
+  <programme start="20261121153200 +0000" stop="20261121174200 +0000" channel="eurosport1.de">
     <title lang="de">FIS Skispringen Weltcup</title>
     <sub-title lang="de">Lillehammer: Männer: HS 140</sub-title>
     <desc lang="de">Übertragung von aktuellen Skispringen and Skiflug Wettbewerben im FIS Weltcup.</desc>
@@ -252822,7 +252803,7 @@
     <category lang="de">300-Sport</category>
     <category lang="de">Sport</category>
   </programme>
-  <programme start="20261121174500 +0000" stop="20261121190000 +0000" channel="eurosport1.de">
+  <programme start="20261121174200 +0000" stop="20261121190000 +0000" channel="eurosport1.de">
     <title lang="de">Eiskunstlauf</title>
     <sub-title lang="de">Mixed : Kür</sub-title>
     <desc lang="de">Übertragung aktueller Eiskunstlauf-Wettbewerbe.</desc>
@@ -294754,6 +294735,8 @@
     <title lang="de">Fregatte '''Mecklenburg-Vorpommern'' - Leben im NATO-Einsatz</title>
     <desc lang="de">Jeden Tag begegnen sich NATO und Russland in der Ostsee. Sechs Monate war die deutsche Fregatte Mecklenburg-Vorpommern hier im Einsatz. Für die Besatzung bedeutet das: Leben auf See, Arbeiten auf See - und im Ernstfall Kämpfen auf See.</desc>
     <date>20260101</date>
+    <category lang="de">500-Information</category>
+    <category lang="de">Wissen</category>
     <country lang="de">DE</country>
   </programme>
   <programme start="20261122003000 +0000" stop="20261122011500 +0000" channel="welt.de">
@@ -295692,13 +295675,8 @@
   </programme>
   <programme start="20261121043000 +0000" stop="20261121045500 +0000" channel="zdf.de">
     <title lang="de">Malory Towers</title>
-    <sub-title lang="de">Der erste Schultag</sub-title>
-    <desc lang="de">Es ist Darrell Rivers erster Tag in Malory Towers. Dort holt sie die Vergangenheit aus ihrer alten Schule St. Hildas ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen hinter Darrells Geheimnis zu kommen.</desc>
+    <desc lang="de">Abenteuerserie, Großbritannien / Kanada 2020 Es ist Darrell Rivers erster Tag in "Malory Towers". Eigentlich kann sie den Neustart im Internat kaum erwarten. Doch dann holt sie die Vergangenheit ihrer alten Schule St. Hilda's ein. Während Darrell in Alicia eine erste Freundin findet, versucht die eifersüchtige Gwen, hinter Darrells Geheimnis zu kommen. Unterdessen vergnügen sich die Mädchen bei einem geheimen Mitternachtsfest. Doch das müssen sie vor der strengen Miss M. geheim halten. Darsteller: Darrell Rivers - Ella Bright Miss Potts - Imali Perera Mrs. Rivers - Flora Dawson Mr. Rivers - Rob Carter Felicity - Minti Gorne Alicia Johns - Zoey Siewert Regie: Bruce McDonald, Rebecca Rycroft Buch/Autor: Rachel Flowerday, Sasha Hails HD-Produktion</desc>
     <date>20200101</date>
-    <category lang="de">700-Kinder</category>
-    <category lang="de">Kinder</category>
-    <category lang="de">Drama</category>
-    <country lang="de">GB</country>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
   </programme>
