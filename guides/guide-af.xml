@@ -139,1269 +139,6 @@
     <display-name>AF TVC News Live -Nigeria</display-name>
     <icon src="https://i.imgur.com/jaSq18B.png" />
   </channel>
-  <programme start="20261125040000 +0000" stop="20261125070000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">PLAY LIST</title>
-    <title lang="en">PLAY LIST</title>
-    <title lang="es">PLAY LIST</title>
-    <title lang="pt">PLAY LIST</title>
-    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
-    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
-    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
-    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
-    <category>music</category>
-    <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-005.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125060000 +0000" stop="20261125063000 +0000">
-    <title lang="fr">Tafsir du Coran</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Actu Matin</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125060000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125060000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125060000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125060000 +0000" stop="20261125061500 +0000">
-    <title lang="fr">Folly dance</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125060000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125060000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125060000 +0000" stop="20261125061000 +0000">
-    <title lang="fr">Gazettes</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125060000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125061000 +0000" stop="20261125063100 +0000">
-    <title lang="fr">Actualités</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125061500 +0000" stop="20261125063000 +0000">
-    <title lang="fr">Sur le net</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125063000 +0000" stop="20261125070000 +0000">
-    <title lang="fr">Wazifa</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125063000 +0000" stop="20261125073000 +0000">
-    <title lang="fr">Secrets 2 vies</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125063100 +0000" stop="20261125073000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125070000 +0000" stop="20261125073000 +0000">
-    <title lang="fr">Enfants</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125070000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125070000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125070000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125070000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125070000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125070000 +0000" stop="20261125072000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 1</title>
-    <title lang="en">Tematik 1</title>
-    <title lang="es">Tematik 1</title>
-    <title lang="pt">Tematik 1</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 1</desc>
-    <desc lang="en">Selection of music videos from Tématik 1</desc>
-    <desc lang="es">Selección de videoclips de Tématik 1</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 1</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme start="20261125072000 +0000" stop="20261125074000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 2</title>
-    <title lang="en">Tematik 2</title>
-    <title lang="es">Tematik 2</title>
-    <title lang="pt">Tematik 2</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 2</desc>
-    <desc lang="en">Selection of music videos from Tématik 2</desc>
-    <desc lang="es">Selección de videoclips de Tématik 2</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 2</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125073000 +0000" stop="20261125093000 +0000">
-    <title lang="fr">Marhaban Sénégal</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125073000 +0000" stop="20261125080000 +0000">
-    <title lang="fr">La loi de la vengeance</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125073000 +0000" stop="20261125073500 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125073500 +0000" stop="20261125080000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme start="20261125074000 +0000" stop="20261125080000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 3</title>
-    <title lang="en">Tematik 3</title>
-    <title lang="es">Tematik 3</title>
-    <title lang="pt">Tematik 3</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 3</desc>
-    <desc lang="en">Selection of music videos from Tématik 3</desc>
-    <desc lang="es">Selección de videoclips de Tématik 3</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 3</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Fun hits</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125080000 +0000" stop="20261125080900 +0000" channel="TMA.gp@SD">
-    <title lang="fr">COEUR D’ARTISTE</title>
-    <title lang="en">ARTIST SPOTLIGHT</title>
-    <title lang="es">CORAZÓN DE ARTISTA</title>
-    <title lang="pt">CORAÇÃO DE ARTISTA</title>
-    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
-    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
-    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
-    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
-    <category>music</category>
-    <length units="minutes">9</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125080000 +0000" stop="20261125090000 +0000">
-    <title lang="fr">Le talk</title>
-  </programme>
-  <programme start="20261125080900 +0000" stop="20261125110000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">GLOBAL</title>
-    <title lang="en">GLOBAL</title>
-    <title lang="es">GLOBAL</title>
-    <title lang="pt">GLOBAL</title>
-    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
-    <desc lang="en">All African and Caribbean music.</desc>
-    <desc lang="es">Toda la música africana y caribeña.</desc>
-    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
-    <category>music</category>
-    <length units="minutes">171</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-001.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125090000 +0000" stop="20261125091000 +0000">
-    <title lang="fr">Grand public</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">Le P'tit Dej'</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125090000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125090000 +0000" stop="20261125090500 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125090000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125090500 +0000" stop="20261125093000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125091000 +0000" stop="20261125092000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125092000 +0000" stop="20261125103000 +0000">
-    <title lang="fr">Feuilleton</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125093000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">Clips</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125093000 +0000" stop="20261125100000 +0000">
-    <title lang="fr">Le monde aujourd'hui</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125100000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Daroul Habibi</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125100000 +0000" stop="20261125102500 +0000">
-    <title lang="fr">La reine blanche</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125100000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125102500 +0000" stop="20261125103000 +0000">
-    <title lang="fr">Flash en images</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125103000 +0000" stop="20261125110000 +0000">
-    <title lang="fr">Top (MBOA)</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125103000 +0000" stop="20261125104500 +0000">
-    <title lang="fr">La cour éducative</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125104500 +0000" stop="20261125111500 +0000">
-    <title lang="fr">China Farm</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125110000 +0000" stop="20261125111500 +0000">
-    <title lang="fr">Express 3</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125110000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125110000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125110000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125110000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125110000 +0000" stop="20261125120000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125110000 +0000" stop="20261125140000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">PLAY LIST</title>
-    <title lang="en">PLAY LIST</title>
-    <title lang="es">PLAY LIST</title>
-    <title lang="pt">PLAY LIST</title>
-    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
-    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
-    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
-    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
-    <category>music</category>
-    <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-006.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125110000 +0000" stop="20261125114000 +0000">
-    <title lang="fr">Newsroom</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125111500 +0000" stop="20261125120000 +0000">
-    <title lang="fr">Revue de presse</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125111500 +0000" stop="20261125114000 +0000">
-    <title lang="fr">Les enquêtes du juge Di</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125114000 +0000" stop="20261125123000 +0000">
-    <title lang="fr">L'ombre du passé</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125114000 +0000" stop="20261125115000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125115000 +0000" stop="20261125123100 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125120000 +0000" stop="20261125123000 +0000">
-    <title lang="fr">Xibaar yi</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125120000 +0000" stop="20261125125000 +0000">
-    <title lang="fr">JT Français</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125120000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125120000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125120000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125120000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125120000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125120000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125120000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125123000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">Clips</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125123000 +0000" stop="20261125124500 +0000">
-    <title lang="fr">Le JT de 12H30</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125123100 +0000" stop="20261125132500 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125124500 +0000" stop="20261125130000 +0000">
-    <title lang="fr">C' papa à la cuisine</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125125000 +0000" stop="20261125130000 +0000">
-    <title lang="fr">Escale (Télé-services)</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">Sunu Dine</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125130000 +0000" stop="20261125131500 +0000">
-    <title lang="fr">Grand public</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125130000 +0000" stop="20261125133000 +0000">
-    <title lang="fr">La loi de la vengeance</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125130000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125131500 +0000" stop="20261125133000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125132500 +0000" stop="20261125133000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125133000 +0000" stop="20261125143000 +0000">
-    <title lang="fr">Happy Day / Documentaire / Africanews</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125133000 +0000" stop="20261125140000 +0000">
-    <title lang="fr">Les chroniques de la vie</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125133000 +0000" stop="20261125142500 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Prière Tisbar et Doua</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125140000 +0000" stop="20261125144500 +0000">
-    <title lang="fr">Los Angeles : Bad Girls - Saison 2</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125140000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125140000 +0000" stop="20261125142000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 4</title>
-    <title lang="en">Tematik 4</title>
-    <title lang="es">Tematik 4</title>
-    <title lang="pt">Tematik 4</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 4</desc>
-    <desc lang="en">Selection of music videos from Tématik 4</desc>
-    <desc lang="es">Selección de videoclips de Tématik 4</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 4</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme start="20261125142000 +0000" stop="20261125144000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 5</title>
-    <title lang="en">Tematik 5</title>
-    <title lang="es">Tematik 5</title>
-    <title lang="pt">Tematik 5</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 5</desc>
-    <desc lang="en">Selection of music videos from Tématik 5</desc>
-    <desc lang="es">Selección de videoclips de Tématik 5</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 5</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125142500 +0000" stop="20261125143000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125143000 +0000" stop="20261125150000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125143000 +0000" stop="20261125153000 +0000">
-    <title lang="fr">Le talk</title>
-  </programme>
-  <programme start="20261125144000 +0000" stop="20261125150000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 6</title>
-    <title lang="en">Tematik 6</title>
-    <title lang="es">Tematik 6</title>
-    <title lang="pt">Tematik 6</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 6</desc>
-    <desc lang="en">Selection of music videos from Tématik 6</desc>
-    <desc lang="es">Selección de videoclips de Tématik 6</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 6</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125144500 +0000" stop="20261125151500 +0000">
-    <title lang="fr">Hello</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">Borom Daara ji nous parle</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125150000 +0000" stop="20261125153000 +0000">
-    <title lang="fr">Bulletin</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125150000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme start="20261125150000 +0000" stop="20261125150900 +0000" channel="TMA.gp@SD">
-    <title lang="fr">COEUR D’ARTISTE</title>
-    <title lang="en">ARTIST SPOTLIGHT</title>
-    <title lang="es">CORAZÓN DE ARTISTA</title>
-    <title lang="pt">CORAÇÃO DE ARTISTA</title>
-    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
-    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
-    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
-    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
-    <category>music</category>
-    <length units="minutes">9</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125150000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme start="20261125150900 +0000" stop="20261125190000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">GLOBAL</title>
-    <title lang="en">GLOBAL</title>
-    <title lang="es">GLOBAL</title>
-    <title lang="pt">GLOBAL</title>
-    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
-    <desc lang="en">All African and Caribbean music.</desc>
-    <desc lang="es">Toda la música africana y caribeña.</desc>
-    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
-    <category>music</category>
-    <length units="minutes">231</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-002.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125151500 +0000" stop="20261125161000 +0000">
-    <title lang="fr">Mood d'Ados</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125153000 +0000" stop="20261125160000 +0000">
-    <title lang="fr">Feuilleton</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125153000 +0000" stop="20261125153500 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125153500 +0000" stop="20261125160000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">Sunu tariqa</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125160000 +0000" stop="20261125163000 +0000">
-    <title lang="fr">Histoire de mon quartier</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125160000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125160000 +0000" stop="20261125161000 +0000">
-    <title lang="fr">Gazettes</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125161000 +0000" stop="20261125164000 +0000">
-    <title lang="fr">La reine blanche</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125161000 +0000" stop="20261125162500 +0000">
-    <title lang="fr">Actualités</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125162500 +0000" stop="20261125163000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125163000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">Saga 229</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125163000 +0000" stop="20261125170000 +0000">
-    <title lang="fr">Le monde aujourd'hui</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125164000 +0000" stop="20261125171000 +0000">
-    <title lang="fr">Tom Sawyer</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125170000 +0000" stop="20261125171500 +0000">
-    <title lang="fr">Prière Takussan et Doua</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Inuyasha / Africanews / Documentaire</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125170000 +0000" stop="20261125180000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125171000 +0000" stop="20261125172500 +0000">
-    <title lang="fr">Shuke et Beita</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125171500 +0000" stop="20261125173000 +0000">
-    <title lang="fr">Enfants</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125172500 +0000" stop="20261125174000 +0000">
-    <title lang="fr">La cour éducative</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125173000 +0000" stop="20261125194000 +0000">
-    <title lang="fr">Takussan Naby</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125174000 +0000" stop="20261125174500 +0000">
-    <title lang="fr">Flash info</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125174500 +0000" stop="20261125183000 +0000">
-    <title lang="fr">L'ombre du passé</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125180000 +0000" stop="20261125193000 +0000">
-    <title lang="fr">90 mn au Bénin</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125180000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125180000 +0000" stop="20261125184500 +0000">
-    <title lang="fr">Newsroom</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125180000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125183000 +0000" stop="20261125192500 +0000">
-    <title lang="fr">Secrets 2 vies</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125184500 +0000" stop="20261125185000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125185000 +0000" stop="20261125190000 +0000">
-    <title lang="fr">Gazettes</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125190000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125190000 +0000" stop="20261125220000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">PLAY LIST</title>
-    <title lang="en">PLAY LIST</title>
-    <title lang="es">PLAY LIST</title>
-    <title lang="pt">PLAY LIST</title>
-    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
-    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
-    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
-    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
-    <category>music</category>
-    <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-007.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125190000 +0000" stop="20261125193100 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125192500 +0000" stop="20261125193000 +0000">
-    <title lang="fr">Météo</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125193000 +0000" stop="20261125200000 +0000">
-    <title lang="fr">Feuilleton</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125193000 +0000" stop="20261125195000 +0000">
-    <title lang="fr">JT 19H30</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125193100 +0000" stop="20261125200000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125194000 +0000" stop="20261125194500 +0000">
-    <title lang="fr">Prière Magreb et Coran</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125194500 +0000" stop="20261125203000 +0000">
-    <title lang="fr">Xibaar yi</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125195000 +0000" stop="20261125200500 +0000">
-    <title lang="fr">C' papa à la cuisine</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Secret de prospérité</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125200000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125200000 +0000" stop="20261125200500 +0000">
-    <title lang="fr">Gazettes</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125200500 +0000" stop="20261125203000 +0000">
-    <title lang="fr">La loi de la vengeance</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125200500 +0000" stop="20261125202500 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125202500 +0000" stop="20261125203000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125203000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Compil Séries</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125203000 +0000" stop="20261125210000 +0000">
-    <title lang="fr">Les chroniques de la vie</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125203000 +0000" stop="20261125211500 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">Nit Ak Jëfëm</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125210000 +0000" stop="20261125211500 +0000">
-    <title lang="fr">Edition de la nuit</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125210000 +0000" stop="20261125214500 +0000">
-    <title lang="fr">Los Angeles : Bad Girls - Saison 2</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125210000 +0000" stop="20261125220000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261125210000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125211500 +0000" stop="20261125223000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125211500 +0000" stop="20261125215500 +0000">
-    <title lang="fr">Newsroom</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125214500 +0000" stop="20261125220000 +0000">
-    <title lang="fr">Sur le net</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125215500 +0000" stop="20261125220500 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">Al Maktoum nous parle</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">Secrets 2 vies</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125220000 +0000" stop="20261125230000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125220000 +0000" stop="20261125222000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 7</title>
-    <title lang="en">Tematik 7</title>
-    <title lang="es">Tematik 7</title>
-    <title lang="pt">Tematik 7</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 7</desc>
-    <desc lang="en">Selection of music videos from Tématik 7</desc>
-    <desc lang="es">Selección de videoclips de Tématik 7</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 7</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125220500 +0000" stop="20261125230500 +0000">
-    <title lang="fr">Le talk</title>
-  </programme>
-  <programme start="20261125222000 +0000" stop="20261125224000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 8</title>
-    <title lang="en">Tematik 8</title>
-    <title lang="es">Tematik 8</title>
-    <title lang="pt">Tematik 8</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 8</desc>
-    <desc lang="en">Selection of music videos from Tématik 8</desc>
-    <desc lang="es">Selección de videoclips de Tématik 8</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 8</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261125223000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Actu Matin</title>
-  </programme>
-  <programme start="20261125224000 +0000" stop="20261125230000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 9</title>
-    <title lang="en">Tematik 9</title>
-    <title lang="es">Tematik 9</title>
-    <title lang="pt">Tematik 9</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 9</desc>
-    <desc lang="en">Selection of music videos from Tématik 9</desc>
-    <desc lang="es">Selección de videoclips de Tématik 9</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 9</desc>
-    <category>music</category>
-    <length units="minutes">20</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Ach chifa</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125230000 +0000" stop="20261125233000 +0000">
-    <title lang="fr">La fille du général</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261125230000 +0000" stop="20261126000000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme start="20261125230000 +0000" stop="20261125230900 +0000" channel="TMA.gp@SD">
-    <title lang="fr">COEUR D’ARTISTE</title>
-    <title lang="en">ARTIST SPOTLIGHT</title>
-    <title lang="es">CORAZÓN DE ARTISTA</title>
-    <title lang="pt">CORAÇÃO DE ARTISTA</title>
-    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
-    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
-    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
-    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
-    <category>music</category>
-    <length units="minutes">9</length>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261125230500 +0000" stop="20261126050000 +0000">
-    <title lang="fr">Informations</title>
-  </programme>
-  <programme start="20261125230900 +0000" stop="20261126040000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">GLOBAL</title>
-    <title lang="en">GLOBAL</title>
-    <title lang="es">GLOBAL</title>
-    <title lang="pt">GLOBAL</title>
-    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
-    <desc lang="en">All African and Caribbean music.</desc>
-    <desc lang="es">Toda la música africana y caribeña.</desc>
-    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
-    <category>music</category>
-    <length units="minutes">291</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-003.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-    <rating system="VCHIP">
-      <value>TV-G</value>
-    </rating>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125233000 +0000" stop="20261125235000 +0000">
-    <title lang="fr">JT 19H30</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261125235000 +0000" stop="20261126001500 +0000">
-    <title lang="fr">Les chroniques de la vie</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261126000000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">Marhaban Sénégal</title>
-  </programme>
-  <programme channel="BenieTV.sn@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">The Blessings Channel</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261126000000 +0000" stop="20261126013000 +0000">
-    <title lang="fr">Euronews / Secret de prospérité</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261126000000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126000000 +0000" stop="20261126010000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261126000000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="LampFallTV.sn@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Lamp Fall TV</title>
-  </programme>
-  <programme channel="M7.ml@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">M7</title>
-  </programme>
-  <programme channel="MalikiaTV.sn@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Malikia TV leeru Maodo</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126000000 +0000" stop="20261126010000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126000000 +0000" stop="20261126010000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126000000 +0000" stop="20261126010000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126000000 +0000" stop="20261126010000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="TM1.ml@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Infos, culture et divertissement au Mali</title>
-  </programme>
-  <programme channel="WalfTV.sn@SD" start="20261126000000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126001500 +0000" stop="20261126011000 +0000">
-    <title lang="fr">Mood d'Ados</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126010000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126010000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126010000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126010000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126010000 +0000" stop="20261126020000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126011000 +0000" stop="20261126013500 +0000">
-    <title lang="fr">China Farm</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261126013000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126013500 +0000" stop="20261126022000 +0000">
-    <title lang="fr">L'ombre du passé</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261126020000 +0000" stop="20261126053000 +0000">
-    <title lang="fr">Gamou</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126020000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126020000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126020000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126020000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126020000 +0000" stop="20261126030000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126022000 +0000" stop="20261126031200 +0000">
-    <title lang="fr">Le P'tit Dej'</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261126030000 +0000" stop="20261126034500 +0000">
-    <title lang="fr">Edition de la nuit</title>
-  </programme>
-  <programme channel="ITV.sn@SD" start="20261126030000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126030000 +0000" stop="20261126040000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="KalacTV.gn@SD" start="20261126030000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Des tubes, des légendes</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126030000 +0000" stop="20261126040000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126030000 +0000" stop="20261126040000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126030000 +0000" stop="20261126040000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126030000 +0000" stop="20261126040000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126031200 +0000" stop="20261126053000 +0000">
-    <title lang="fr">Fermeture d'antenne</title>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261126034500 +0000" stop="20261126050000 +0000">
-    <title lang="fr">Musique</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126040000 +0000" stop="20261126050000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126040000 +0000" stop="20261126050000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126040000 +0000" stop="20261126050000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126040000 +0000" stop="20261126050000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126040000 +0000" stop="20261126050000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
   <programme start="20261126040000 +0000" stop="20261126070000 +0000" channel="TMA.gp@SD">
     <title lang="fr">PLAY LIST</title>
     <title lang="en">PLAY LIST</title>
@@ -1413,46 +150,13 @@
     <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
     <category>music</category>
     <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-008.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
     <rating system="VCHIP">
       <value>TV-G</value>
     </rating>
-  </programme>
-  <programme channel="Canal3.bj@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Singbassa</title>
-  </programme>
-  <programme channel="KC2.rw@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">KC2 TV</title>
-  </programme>
-  <programme channel="ORTM2.ml@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">ORTM 2</title>
-  </programme>
-  <programme channel="RTB.bf@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">RTB</title>
-  </programme>
-  <programme channel="RTS1.sn@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">RTS 1 Sénégal</title>
-  </programme>
-  <programme channel="RwandaTV.rw@SD" start="20261126050000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">La chaîne publique du Rwanda</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261126050000 +0000" stop="20261126054000 +0000">
-    <title lang="fr">Newsroom</title>
-  </programme>
-  <programme channel="AsfiyahiTV.sn@SD" start="20261126053000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Récital Coran</title>
-  </programme>
-  <programme channel="RTI2.ci@SD" start="20261126053000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Ouverture d'antenne</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261126054000 +0000" stop="20261126055000 +0000">
-    <title lang="fr">Break : marché / météo / communiqué / sur</title>
-  </programme>
-  <programme channel="VoxTV.cg@SD" start="20261126055000 +0000" stop="20261126060000 +0000">
-    <title lang="fr">Actualités</title>
   </programme>
   <programme channel="AsfiyahiTV.sn@SD" start="20261126060000 +0000" stop="20261126063000 +0000">
     <title lang="fr">Tafsir du Coran</title>
@@ -1542,16 +246,17 @@
     <title lang="fr">La chaîne publique du Rwanda</title>
   </programme>
   <programme start="20261126070000 +0000" stop="20261126072000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 1</title>
-    <title lang="en">Tematik 1</title>
-    <title lang="es">Tematik 1</title>
-    <title lang="pt">Tematik 1</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 1</desc>
-    <desc lang="en">Selection of music videos from Tématik 1</desc>
-    <desc lang="es">Selección de videoclips de Tématik 1</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 1</desc>
+    <title lang="fr">Tématik Soca</title>
+    <title lang="en">Tematik Soca</title>
+    <title lang="es">Tematik Soca</title>
+    <title lang="pt">Tematik Soca</title>
+    <desc lang="fr">Sélection de vidéo clips de Soca</desc>
+    <desc lang="en">Selection of music videos from Soca</desc>
+    <desc lang="es">Selección de videoclips de Soca</desc>
+    <desc lang="pt">Seleção de videoclipes de Soca</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Soca/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1563,16 +268,17 @@
     <title lang="fr">Informations</title>
   </programme>
   <programme start="20261126072000 +0000" stop="20261126074000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 2</title>
-    <title lang="en">Tematik 2</title>
-    <title lang="es">Tematik 2</title>
-    <title lang="pt">Tematik 2</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 2</desc>
-    <desc lang="en">Selection of music videos from Tématik 2</desc>
-    <desc lang="es">Selección de videoclips de Tématik 2</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 2</desc>
+    <title lang="fr">Tématik Zouk</title>
+    <title lang="en">Tematik Zouk</title>
+    <title lang="es">Tematik Zouk</title>
+    <title lang="pt">Tematik Zouk</title>
+    <desc lang="fr">Sélection de vidéo clips de Zouk</desc>
+    <desc lang="en">Selection of music videos from Zouk</desc>
+    <desc lang="es">Selección de videoclips de Zouk</desc>
+    <desc lang="pt">Seleção de videoclipes de Zouk</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Zouk/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1593,16 +299,17 @@
     <title lang="fr">Informations</title>
   </programme>
   <programme start="20261126074000 +0000" stop="20261126080000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 3</title>
-    <title lang="en">Tematik 3</title>
-    <title lang="es">Tematik 3</title>
-    <title lang="pt">Tematik 3</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 3</desc>
-    <desc lang="en">Selection of music videos from Tématik 3</desc>
-    <desc lang="es">Selección de videoclips de Tématik 3</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 3</desc>
+    <title lang="fr">Tématik Bachata</title>
+    <title lang="en">Tematik Bachata</title>
+    <title lang="es">Tematik Bachata</title>
+    <title lang="pt">Tematik Bachata</title>
+    <desc lang="fr">Sélection de vidéo clips de Bachata</desc>
+    <desc lang="en">Selection of music videos from Bachata</desc>
+    <desc lang="es">Selección de videoclips de Bachata</desc>
+    <desc lang="pt">Seleção de videoclipes de Bachata</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Bachata/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1660,7 +367,7 @@
     <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
     <category>music</category>
     <length units="minutes">171</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-005.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/global/global-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1802,7 +509,7 @@
     <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
     <category>music</category>
     <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-001.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-002.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1949,16 +656,17 @@
     <title lang="fr">La chaîne publique du Rwanda</title>
   </programme>
   <programme start="20261126140000 +0000" stop="20261126142000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 4</title>
-    <title lang="en">Tematik 4</title>
-    <title lang="es">Tematik 4</title>
-    <title lang="pt">Tematik 4</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 4</desc>
-    <desc lang="en">Selection of music videos from Tématik 4</desc>
-    <desc lang="es">Selección de videoclips de Tématik 4</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 4</desc>
+    <title lang="fr">Tématik DanceHall</title>
+    <title lang="en">Tematik DanceHall</title>
+    <title lang="es">Tematik DanceHall</title>
+    <title lang="pt">Tematik DanceHall</title>
+    <desc lang="fr">Sélection de vidéo clips de DanceHall</desc>
+    <desc lang="en">Selection of music videos from DanceHall</desc>
+    <desc lang="es">Selección de videoclips de DanceHall</desc>
+    <desc lang="pt">Seleção de videoclipes de DanceHall</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/DanceHall/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1967,16 +675,17 @@
     </rating>
   </programme>
   <programme start="20261126142000 +0000" stop="20261126144000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 5</title>
-    <title lang="en">Tematik 5</title>
-    <title lang="es">Tematik 5</title>
-    <title lang="pt">Tematik 5</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 5</desc>
-    <desc lang="en">Selection of music videos from Tématik 5</desc>
-    <desc lang="es">Selección de videoclips de Tématik 5</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 5</desc>
+    <title lang="fr">Tématik Kizomba</title>
+    <title lang="en">Tematik Kizomba</title>
+    <title lang="es">Tematik Kizomba</title>
+    <title lang="pt">Tematik Kizomba</title>
+    <desc lang="fr">Sélection de vidéo clips de Kizomba</desc>
+    <desc lang="en">Selection of music videos from Kizomba</desc>
+    <desc lang="es">Selección de videoclips de Kizomba</desc>
+    <desc lang="pt">Seleção de videoclipes de Kizomba</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Kizomba/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1991,16 +700,17 @@
     <title lang="fr">Informations</title>
   </programme>
   <programme start="20261126144000 +0000" stop="20261126150000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 6</title>
-    <title lang="en">Tematik 6</title>
-    <title lang="es">Tematik 6</title>
-    <title lang="pt">Tematik 6</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 6</desc>
-    <desc lang="en">Selection of music videos from Tématik 6</desc>
-    <desc lang="es">Selección de videoclips de Tématik 6</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 6</desc>
+    <title lang="fr">Tématik Reggaeton</title>
+    <title lang="en">Tematik Reggaeton</title>
+    <title lang="es">Tematik Reggaeton</title>
+    <title lang="pt">Tematik Reggaeton</title>
+    <desc lang="fr">Sélection de vidéo clips de Reggaeton</desc>
+    <desc lang="en">Selection of music videos from Reggaeton</desc>
+    <desc lang="es">Selección de videoclips de Reggaeton</desc>
+    <desc lang="pt">Seleção de videoclipes de Reggaeton</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Reggaeton/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2088,7 +798,7 @@
     <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
     <category>music</category>
     <length units="minutes">231</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-006.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/global/global-002.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2272,7 +982,7 @@
     <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
     <category>music</category>
     <length units="minutes">180</length>
-    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-002.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-003.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2425,16 +1135,17 @@
     <title lang="fr">La chaîne publique du Rwanda</title>
   </programme>
   <programme start="20261126220000 +0000" stop="20261126222000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 7</title>
-    <title lang="en">Tematik 7</title>
-    <title lang="es">Tematik 7</title>
-    <title lang="pt">Tematik 7</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 7</desc>
-    <desc lang="en">Selection of music videos from Tématik 7</desc>
-    <desc lang="es">Selección de videoclips de Tématik 7</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 7</desc>
+    <title lang="fr">Tématik Afrobeat</title>
+    <title lang="en">Tematik Afrobeat</title>
+    <title lang="es">Tematik Afrobeat</title>
+    <title lang="pt">Tematik Afrobeat</title>
+    <desc lang="fr">Sélection de vidéo clips de Afrobeat</desc>
+    <desc lang="en">Selection of music videos from Afrobeat</desc>
+    <desc lang="es">Selección de videoclips de Afrobeat</desc>
+    <desc lang="pt">Seleção de videoclipes de Afrobeat</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Afrobeat/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2446,14 +1157,14 @@
     <title lang="fr">Informations</title>
   </programme>
   <programme start="20261126222000 +0000" stop="20261126224000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 8</title>
-    <title lang="en">Tematik 8</title>
-    <title lang="es">Tematik 8</title>
-    <title lang="pt">Tematik 8</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 8</desc>
-    <desc lang="en">Selection of music videos from Tématik 8</desc>
-    <desc lang="es">Selección de videoclips de Tématik 8</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 8</desc>
+    <title lang="fr">Tématik Sega</title>
+    <title lang="en">Tematik Sega</title>
+    <title lang="es">Tematik Sega</title>
+    <title lang="pt">Tematik Sega</title>
+    <desc lang="fr">Sélection de vidéo clips de Sega</desc>
+    <desc lang="en">Selection of music videos from Sega</desc>
+    <desc lang="es">Selección de videoclips de Sega</desc>
+    <desc lang="pt">Seleção de videoclipes de Sega</desc>
     <category>music</category>
     <length units="minutes">20</length>
     <rating system="CSA">
@@ -2467,16 +1178,17 @@
     <title lang="fr">Actu Matin</title>
   </programme>
   <programme start="20261126224000 +0000" stop="20261126230000 +0000" channel="TMA.gp@SD">
-    <title lang="fr">Tématik 9</title>
-    <title lang="en">Tematik 9</title>
-    <title lang="es">Tematik 9</title>
-    <title lang="pt">Tematik 9</title>
-    <desc lang="fr">Sélection de vidéo clips de Tématik 9</desc>
-    <desc lang="en">Selection of music videos from Tématik 9</desc>
-    <desc lang="es">Selección de videoclips de Tématik 9</desc>
-    <desc lang="pt">Seleção de videoclipes de Tématik 9</desc>
+    <title lang="fr">Tématik Kompa</title>
+    <title lang="en">Tematik Kompa</title>
+    <title lang="es">Tematik Kompa</title>
+    <title lang="pt">Tematik Kompa</title>
+    <desc lang="fr">Sélection de vidéo clips de Kompa</desc>
+    <desc lang="en">Selection of music videos from Kompa</desc>
+    <desc lang="es">Selección de videoclips de Kompa</desc>
+    <desc lang="pt">Seleção de videoclipes de Kompa</desc>
     <category>music</category>
     <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Kompa/tematik-001.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2537,7 +1249,7 @@
     <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
     <category>music</category>
     <length units="minutes">291</length>
-    <icon src="http://www.tmacaraibes.com/images/global/global-007.jpg" />
+    <icon src="http://www.tmacaraibes.com/images/global/global-003.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2686,6 +1398,25 @@
   <programme channel="RwandaTV.rw@SD" start="20261127040000 +0000" stop="20261127050000 +0000">
     <title lang="fr">La chaîne publique du Rwanda</title>
   </programme>
+  <programme start="20261127040000 +0000" stop="20261127070000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">PLAY LIST</title>
+    <title lang="en">PLAY LIST</title>
+    <title lang="es">PLAY LIST</title>
+    <title lang="pt">PLAY LIST</title>
+    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
+    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
+    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
+    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
+    <category>music</category>
+    <length units="minutes">180</length>
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-004.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
   <programme channel="Canal3.bj@SD" start="20261127050000 +0000" stop="20261127060000 +0000">
     <title lang="fr">Singbassa</title>
   </programme>
@@ -2717,6 +1448,1303 @@
     <title lang="fr">Break : marché / météo / communiqué / sur</title>
   </programme>
   <programme channel="VoxTV.cg@SD" start="20261127055000 +0000" stop="20261127060000 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127060000 +0000" stop="20261127063000 +0000">
+    <title lang="fr">Tafsir du Coran</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Actu Matin</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127060000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127060000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127060000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127060000 +0000" stop="20261127061500 +0000">
+    <title lang="fr">Folly dance</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127060000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127060000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127060000 +0000" stop="20261127061000 +0000">
+    <title lang="fr">Gazettes</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127060000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127061000 +0000" stop="20261127063100 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127061500 +0000" stop="20261127063000 +0000">
+    <title lang="fr">Sur le net</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127063000 +0000" stop="20261127070000 +0000">
+    <title lang="fr">Wazifa</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127063000 +0000" stop="20261127073000 +0000">
+    <title lang="fr">Secrets 2 vies</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127063100 +0000" stop="20261127065500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127065500 +0000" stop="20261127070000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127070000 +0000" stop="20261127073000 +0000">
+    <title lang="fr">Enfants</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127070000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127070000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127070000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127070000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127070000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127070000 +0000" stop="20261127072000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Soca</title>
+    <title lang="en">Tematik Soca</title>
+    <title lang="es">Tematik Soca</title>
+    <title lang="pt">Tematik Soca</title>
+    <desc lang="fr">Sélection de vidéo clips de Soca</desc>
+    <desc lang="en">Selection of music videos from Soca</desc>
+    <desc lang="es">Selección de videoclips de Soca</desc>
+    <desc lang="pt">Seleção de videoclipes de Soca</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Soca/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127070000 +0000" stop="20261127073000 +0000">
+    <title lang="fr">Vox culture</title>
+  </programme>
+  <programme start="20261127072000 +0000" stop="20261127074000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Zouk</title>
+    <title lang="en">Tematik Zouk</title>
+    <title lang="es">Tematik Zouk</title>
+    <title lang="pt">Tematik Zouk</title>
+    <desc lang="fr">Sélection de vidéo clips de Zouk</desc>
+    <desc lang="en">Selection of music videos from Zouk</desc>
+    <desc lang="es">Selección de videoclips de Zouk</desc>
+    <desc lang="pt">Seleção de videoclipes de Zouk</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Zouk/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127073000 +0000" stop="20261127093000 +0000">
+    <title lang="fr">Marhaban Sénégal</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127073000 +0000" stop="20261127080000 +0000">
+    <title lang="fr">La loi de la vengeance</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127073000 +0000" stop="20261127073500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127073500 +0000" stop="20261127074500 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme start="20261127074000 +0000" stop="20261127080000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Bachata</title>
+    <title lang="en">Tematik Bachata</title>
+    <title lang="es">Tematik Bachata</title>
+    <title lang="pt">Tematik Bachata</title>
+    <desc lang="fr">Sélection de vidéo clips de Bachata</desc>
+    <desc lang="en">Selection of music videos from Bachata</desc>
+    <desc lang="es">Selección de videoclips de Bachata</desc>
+    <desc lang="pt">Seleção de videoclipes de Bachata</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Bachata/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127074500 +0000" stop="20261127080000 +0000">
+    <title lang="fr">Votre avis</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Salam</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127080000 +0000" stop="20261127080900 +0000" channel="TMA.gp@SD">
+    <title lang="fr">COEUR D’ARTISTE</title>
+    <title lang="en">ARTIST SPOTLIGHT</title>
+    <title lang="es">CORAZÓN DE ARTISTA</title>
+    <title lang="pt">CORAÇÃO DE ARTISTA</title>
+    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
+    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
+    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
+    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
+    <category>music</category>
+    <length units="minutes">9</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127080000 +0000" stop="20261127090000 +0000">
+    <title lang="fr">Le talk</title>
+  </programme>
+  <programme start="20261127080900 +0000" stop="20261127110000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">GLOBAL</title>
+    <title lang="en">GLOBAL</title>
+    <title lang="es">GLOBAL</title>
+    <title lang="pt">GLOBAL</title>
+    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
+    <desc lang="en">All African and Caribbean music.</desc>
+    <desc lang="es">Toda la música africana y caribeña.</desc>
+    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
+    <category>music</category>
+    <length units="minutes">171</length>
+    <icon src="http://www.tmacaraibes.com/images/global/global-005.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127090000 +0000" stop="20261127091000 +0000">
+    <title lang="fr">Grand public</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">Le P'tit Dej'</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127090000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127090000 +0000" stop="20261127090500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127090000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127090500 +0000" stop="20261127093000 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127091000 +0000" stop="20261127092000 +0000">
+    <title lang="fr">Musique</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127092000 +0000" stop="20261127100500 +0000">
+    <title lang="fr">Feuilleton</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127093000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">Clips</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127093000 +0000" stop="20261127100000 +0000">
+    <title lang="fr">Le monde aujourd'hui</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127100000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">La table du Coran</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127100000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127100000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127100000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127100000 +0000" stop="20261127102500 +0000">
+    <title lang="fr">La reine blanche</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127100000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127100000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127100000 +0000" stop="20261127100500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127100500 +0000" stop="20261127103000 +0000">
+    <title lang="fr">Washington forum VOA</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127100500 +0000" stop="20261127103000 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127102500 +0000" stop="20261127103000 +0000">
+    <title lang="fr">Flash en images</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127103000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">Top (MBOA)</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127103000 +0000" stop="20261127104500 +0000">
+    <title lang="fr">La cour éducative</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127103000 +0000" stop="20261127110000 +0000">
+    <title lang="fr">Washington forum</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127104500 +0000" stop="20261127111500 +0000">
+    <title lang="fr">China Farm</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127110000 +0000" stop="20261127111500 +0000">
+    <title lang="fr">Express 3</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127110000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127110000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127110000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127110000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127110000 +0000" stop="20261127120000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127110000 +0000" stop="20261127140000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">PLAY LIST</title>
+    <title lang="en">PLAY LIST</title>
+    <title lang="es">PLAY LIST</title>
+    <title lang="pt">PLAY LIST</title>
+    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
+    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
+    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
+    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
+    <category>music</category>
+    <length units="minutes">180</length>
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-005.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127110000 +0000" stop="20261127114000 +0000">
+    <title lang="fr">Newsroom</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127111500 +0000" stop="20261127120000 +0000">
+    <title lang="fr">Revue de presse</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127111500 +0000" stop="20261127114000 +0000">
+    <title lang="fr">Les enquêtes du juge Di</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127114000 +0000" stop="20261127123000 +0000">
+    <title lang="fr">L'ombre du passé</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127114000 +0000" stop="20261127115000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127115000 +0000" stop="20261127123100 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127120000 +0000" stop="20261127123000 +0000">
+    <title lang="fr">Xibaar yi</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127120000 +0000" stop="20261127125000 +0000">
+    <title lang="fr">JT Français</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127120000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127120000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127120000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127120000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127120000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127120000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127120000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127123000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">Récital Coran</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127123000 +0000" stop="20261127124500 +0000">
+    <title lang="fr">Le JT de 12H30</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127123100 +0000" stop="20261127125500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127124500 +0000" stop="20261127130000 +0000">
+    <title lang="fr">C' papa à la cuisine</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127125000 +0000" stop="20261127130000 +0000">
+    <title lang="fr">Escale (Télé-services)</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127125500 +0000" stop="20261127130000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">Al Bayan</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127130000 +0000" stop="20261127131500 +0000">
+    <title lang="fr">Grand public</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127130000 +0000" stop="20261127133000 +0000">
+    <title lang="fr">La loi de la vengeance</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127130000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127130000 +0000" stop="20261127135500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127131500 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Le débat / Africanews</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127133000 +0000" stop="20261127140000 +0000">
+    <title lang="fr">Les chroniques de la vie</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127135500 +0000" stop="20261127140000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127140000 +0000" stop="20261127143000 +0000">
+    <title lang="fr">Prière Djumah</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127140000 +0000" stop="20261127144500 +0000">
+    <title lang="fr">Los Angeles : Bad Girls - Saison 2</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127140000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127140000 +0000" stop="20261127142000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik DanceHall</title>
+    <title lang="en">Tematik DanceHall</title>
+    <title lang="es">Tematik DanceHall</title>
+    <title lang="pt">Tematik DanceHall</title>
+    <desc lang="fr">Sélection de vidéo clips de DanceHall</desc>
+    <desc lang="en">Selection of music videos from DanceHall</desc>
+    <desc lang="es">Selección de videoclips de DanceHall</desc>
+    <desc lang="pt">Seleção de videoclipes de DanceHall</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/DanceHall/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127140000 +0000" stop="20261127142500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme start="20261127142000 +0000" stop="20261127144000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Kizomba</title>
+    <title lang="en">Tematik Kizomba</title>
+    <title lang="es">Tematik Kizomba</title>
+    <title lang="pt">Tematik Kizomba</title>
+    <desc lang="fr">Sélection de vidéo clips de Kizomba</desc>
+    <desc lang="en">Selection of music videos from Kizomba</desc>
+    <desc lang="es">Selección de videoclips de Kizomba</desc>
+    <desc lang="pt">Seleção de videoclipes de Kizomba</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Kizomba/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127142500 +0000" stop="20261127143000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127143000 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Le sermon du vendredi</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127143000 +0000" stop="20261127153000 +0000">
+    <title lang="fr">Le talk</title>
+  </programme>
+  <programme start="20261127144000 +0000" stop="20261127150000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Reggaeton</title>
+    <title lang="en">Tematik Reggaeton</title>
+    <title lang="es">Tematik Reggaeton</title>
+    <title lang="pt">Tematik Reggaeton</title>
+    <desc lang="fr">Sélection de vidéo clips de Reggaeton</desc>
+    <desc lang="en">Selection of music videos from Reggaeton</desc>
+    <desc lang="es">Selección de videoclips de Reggaeton</desc>
+    <desc lang="pt">Seleção de videoclipes de Reggaeton</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Reggaeton/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127144500 +0000" stop="20261127150000 +0000">
+    <title lang="fr">Sur le net</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">Conférence religieuse</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127150000 +0000" stop="20261127153000 +0000">
+    <title lang="fr">Bulletin</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127150000 +0000" stop="20261127153000 +0000">
+    <title lang="fr">Business Africa</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127150000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme start="20261127150000 +0000" stop="20261127150900 +0000" channel="TMA.gp@SD">
+    <title lang="fr">COEUR D’ARTISTE</title>
+    <title lang="en">ARTIST SPOTLIGHT</title>
+    <title lang="es">CORAZÓN DE ARTISTA</title>
+    <title lang="pt">CORAÇÃO DE ARTISTA</title>
+    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
+    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
+    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
+    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
+    <category>music</category>
+    <length units="minutes">9</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127150000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme start="20261127150900 +0000" stop="20261127190000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">GLOBAL</title>
+    <title lang="en">GLOBAL</title>
+    <title lang="es">GLOBAL</title>
+    <title lang="pt">GLOBAL</title>
+    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
+    <desc lang="en">All African and Caribbean music.</desc>
+    <desc lang="es">Toda la música africana y caribeña.</desc>
+    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
+    <category>music</category>
+    <length units="minutes">231</length>
+    <icon src="http://www.tmacaraibes.com/images/global/global-006.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127153000 +0000" stop="20261127160000 +0000">
+    <title lang="fr">Washington forum VOA</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127153000 +0000" stop="20261127161500 +0000">
+    <title lang="fr">Ma Mind</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127153000 +0000" stop="20261127153500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127153500 +0000" stop="20261127154500 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127154500 +0000" stop="20261127160000 +0000">
+    <title lang="fr">Votre avis</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">Allo Oustaz</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">Musique</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127160000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127160000 +0000" stop="20261127161000 +0000">
+    <title lang="fr">Gazettes</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127161000 +0000" stop="20261127163000 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127161500 +0000" stop="20261127170800 +0000">
+    <title lang="fr">La reine blanche</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127163000 +0000" stop="20261127170000 +0000">
+    <title lang="fr">Le monde aujourd'hui</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127170000 +0000" stop="20261127171500 +0000">
+    <title lang="fr">Prière Takussan et Doua</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Africanews / Documentaire</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127170000 +0000" stop="20261127180000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127170000 +0000" stop="20261127170500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127170500 +0000" stop="20261127172500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127170800 +0000" stop="20261127172500 +0000">
+    <title lang="fr">Shuke et Beita</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127171500 +0000" stop="20261127173000 +0000">
+    <title lang="fr">Enfants</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127172500 +0000" stop="20261127174000 +0000">
+    <title lang="fr">La cour éducative</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127172500 +0000" stop="20261127180000 +0000">
+    <title lang="fr">Vox culture</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127173000 +0000" stop="20261127194500 +0000">
+    <title lang="fr">Hadratoul Djumah</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127174000 +0000" stop="20261127174500 +0000">
+    <title lang="fr">Flash info</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127174500 +0000" stop="20261127183000 +0000">
+    <title lang="fr">L'ombre du passé</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127180000 +0000" stop="20261127193000 +0000">
+    <title lang="fr">90 mn au Bénin</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127180000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127180000 +0000" stop="20261127184500 +0000">
+    <title lang="fr">Newsroom</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127180000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127183000 +0000" stop="20261127192500 +0000">
+    <title lang="fr">Secrets 2 vies</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127184500 +0000" stop="20261127185000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127185000 +0000" stop="20261127190000 +0000">
+    <title lang="fr">Gazettes</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127190000 +0000" stop="20261127200000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127190000 +0000" stop="20261127220000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">PLAY LIST</title>
+    <title lang="en">PLAY LIST</title>
+    <title lang="es">PLAY LIST</title>
+    <title lang="pt">PLAY LIST</title>
+    <desc lang="fr">Sélection des meilleurs clips africains et caribéens.</desc>
+    <desc lang="en">Selection of the best African and Caribbean music videos.</desc>
+    <desc lang="es">Selección de los mejores videoclips africanos y caribeños.</desc>
+    <desc lang="pt">Seleção dos melhores videoclipes africanos e caribenhos.</desc>
+    <category>music</category>
+    <length units="minutes">180</length>
+    <icon src="http://www.tmacaraibes.com/images/playlist/playlist-006.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127190000 +0000" stop="20261127193100 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127192500 +0000" stop="20261127193000 +0000">
+    <title lang="fr">Météo</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127193000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Feuilleton</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127193000 +0000" stop="20261127195000 +0000">
+    <title lang="fr">JT 19H30</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127193100 +0000" stop="20261127195500 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127194500 +0000" stop="20261127203000 +0000">
+    <title lang="fr">Xibaar yi</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127195000 +0000" stop="20261127200500 +0000">
+    <title lang="fr">C' papa à la cuisine</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127195500 +0000" stop="20261127200000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127200000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127200000 +0000" stop="20261127201000 +0000">
+    <title lang="fr">Gazettes</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127200500 +0000" stop="20261127203000 +0000">
+    <title lang="fr">La loi de la vengeance</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127201000 +0000" stop="20261127202500 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127202500 +0000" stop="20261127203000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127203000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Compil Séries</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127203000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">Beaten at the game</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127203000 +0000" stop="20261127210000 +0000">
+    <title lang="fr">Washington forum</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">Eutou Cheikh</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127210000 +0000" stop="20261127211500 +0000">
+    <title lang="fr">Edition de la nuit</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127210000 +0000" stop="20261127220000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127210000 +0000" stop="20261127211500 +0000">
+    <title lang="fr">Actualités</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261127210000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127211500 +0000" stop="20261127223000 +0000">
+    <title lang="fr">Saga 229</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127211500 +0000" stop="20261127215500 +0000">
+    <title lang="fr">Newsroom</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127215500 +0000" stop="20261127220500 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">Nun wal qalam</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">Secrets 2 vies</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127220000 +0000" stop="20261127230000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127220000 +0000" stop="20261127222000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Afrobeat</title>
+    <title lang="en">Tematik Afrobeat</title>
+    <title lang="es">Tematik Afrobeat</title>
+    <title lang="pt">Tematik Afrobeat</title>
+    <desc lang="fr">Sélection de vidéo clips de Afrobeat</desc>
+    <desc lang="en">Selection of music videos from Afrobeat</desc>
+    <desc lang="es">Selección de videoclips de Afrobeat</desc>
+    <desc lang="pt">Seleção de videoclipes de Afrobeat</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Afrobeat/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127220500 +0000" stop="20261127230000 +0000">
+    <title lang="fr">Le talk</title>
+  </programme>
+  <programme start="20261127222000 +0000" stop="20261127224000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Sega</title>
+    <title lang="en">Tematik Sega</title>
+    <title lang="es">Tematik Sega</title>
+    <title lang="pt">Tematik Sega</title>
+    <desc lang="fr">Sélection de vidéo clips de Sega</desc>
+    <desc lang="en">Selection of music videos from Sega</desc>
+    <desc lang="es">Selección de videoclips de Sega</desc>
+    <desc lang="pt">Seleção de videoclipes de Sega</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261127223000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Actu Matin</title>
+  </programme>
+  <programme start="20261127224000 +0000" stop="20261127230000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">Tématik Kompa</title>
+    <title lang="en">Tematik Kompa</title>
+    <title lang="es">Tematik Kompa</title>
+    <title lang="pt">Tematik Kompa</title>
+    <desc lang="fr">Sélection de vidéo clips de Kompa</desc>
+    <desc lang="en">Selection of music videos from Kompa</desc>
+    <desc lang="es">Selección de videoclips de Kompa</desc>
+    <desc lang="pt">Seleção de videoclipes de Kompa</desc>
+    <category>music</category>
+    <length units="minutes">20</length>
+    <icon src="http://www.tmacaraibes.com/images/tematik/Kompa/tematik-002.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Allo Oustaz</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127230000 +0000" stop="20261127233000 +0000">
+    <title lang="fr">La fille du général</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261127230000 +0000" stop="20261128000000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme start="20261127230000 +0000" stop="20261127230900 +0000" channel="TMA.gp@SD">
+    <title lang="fr">COEUR D’ARTISTE</title>
+    <title lang="en">ARTIST SPOTLIGHT</title>
+    <title lang="es">CORAZÓN DE ARTISTA</title>
+    <title lang="pt">CORAÇÃO DE ARTISTA</title>
+    <desc lang="fr">Focus artiste : sélection automatique de clips autour d’un artiste.</desc>
+    <desc lang="en">Artist focus: automatic selection of clips around one artist.</desc>
+    <desc lang="es">Enfoque artista: selección automática de videoclips alrededor de un artista.</desc>
+    <desc lang="pt">Foco no artista: seleção automática de videoclipes em torno de um artista.</desc>
+    <category>music</category>
+    <length units="minutes">9</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261127230000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">Informations</title>
+  </programme>
+  <programme start="20261127230900 +0000" stop="20261128040000 +0000" channel="TMA.gp@SD">
+    <title lang="fr">GLOBAL</title>
+    <title lang="en">GLOBAL</title>
+    <title lang="es">GLOBAL</title>
+    <title lang="pt">GLOBAL</title>
+    <desc lang="fr">Toutes les musiques africaines et caribéennes.</desc>
+    <desc lang="en">All African and Caribbean music.</desc>
+    <desc lang="es">Toda la música africana y caribeña.</desc>
+    <desc lang="pt">Todas as músicas africanas e caribenhas.</desc>
+    <category>music</category>
+    <length units="minutes">291</length>
+    <icon src="http://www.tmacaraibes.com/images/global/global-007.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <rating system="VCHIP">
+      <value>TV-G</value>
+    </rating>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127233000 +0000" stop="20261127235000 +0000">
+    <title lang="fr">JT 19H30</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261127235000 +0000" stop="20261128001500 +0000">
+    <title lang="fr">Les chroniques de la vie</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261128000000 +0000" stop="20261128053000 +0000">
+    <title lang="fr">Gamou</title>
+  </programme>
+  <programme channel="BenieTV.sn@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">The Blessings Channel</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261128000000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">Euronews / Musique</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261128000000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128000000 +0000" stop="20261128010000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261128000000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="LampFallTV.sn@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Lamp Fall TV</title>
+  </programme>
+  <programme channel="M7.ml@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">M7</title>
+  </programme>
+  <programme channel="MalikiaTV.sn@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Malikia TV leeru Maodo</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128000000 +0000" stop="20261128010000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128000000 +0000" stop="20261128010000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128000000 +0000" stop="20261128010000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128000000 +0000" stop="20261128010000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="TM1.ml@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Infos, culture et divertissement au Mali</title>
+  </programme>
+  <programme channel="WalfTV.sn@SD" start="20261128000000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Chaîne d'informations générales et de divertissement</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128001500 +0000" stop="20261128004500 +0000">
+    <title lang="fr">Ma Mind</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128004500 +0000" stop="20261128023200 +0000">
+    <title lang="fr">Mob Land</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128010000 +0000" stop="20261128020000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128010000 +0000" stop="20261128020000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128010000 +0000" stop="20261128020000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128010000 +0000" stop="20261128020000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128010000 +0000" stop="20261128020000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128020000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128020000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128020000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128020000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128020000 +0000" stop="20261128030000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128023200 +0000" stop="20261128031700 +0000">
+    <title lang="fr">L'ombre du passé</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261128030000 +0000" stop="20261128034500 +0000">
+    <title lang="fr">Edition de la nuit</title>
+  </programme>
+  <programme channel="ITV.sn@SD" start="20261128030000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Chaine généraliste sénégalaise mixant divertissement et information</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128030000 +0000" stop="20261128040000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="KalacTV.gn@SD" start="20261128030000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Des tubes, des légendes</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128030000 +0000" stop="20261128040000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128030000 +0000" stop="20261128040000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128030000 +0000" stop="20261128040000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128030000 +0000" stop="20261128040000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128031700 +0000" stop="20261128041000 +0000">
+    <title lang="fr">Le P'tit Dej'</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261128034500 +0000" stop="20261128050000 +0000">
+    <title lang="fr">Musique</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128040000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128040000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128040000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128040000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128040000 +0000" stop="20261128050000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128041000 +0000" stop="20261128053000 +0000">
+    <title lang="fr">Fermeture d'antenne</title>
+  </programme>
+  <programme channel="Canal3.bj@SD" start="20261128050000 +0000" stop="20261128070000 +0000">
+    <title lang="fr">Musique</title>
+  </programme>
+  <programme channel="KC2.rw@SD" start="20261128050000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">KC2 TV</title>
+  </programme>
+  <programme channel="ORTM2.ml@SD" start="20261128050000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">ORTM 2</title>
+  </programme>
+  <programme channel="RTB.bf@SD" start="20261128050000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">RTB</title>
+  </programme>
+  <programme channel="RTS1.sn@SD" start="20261128050000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">RTS 1 Sénégal</title>
+  </programme>
+  <programme channel="RwandaTV.rw@SD" start="20261128050000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">La chaîne publique du Rwanda</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261128050000 +0000" stop="20261128054000 +0000">
+    <title lang="fr">Newsroom</title>
+  </programme>
+  <programme channel="AsfiyahiTV.sn@SD" start="20261128053000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Récital Coran</title>
+  </programme>
+  <programme channel="RTI2.ci@SD" start="20261128053000 +0000" stop="20261128060000 +0000">
+    <title lang="fr">Ouverture d'antenne</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261128054000 +0000" stop="20261128055000 +0000">
+    <title lang="fr">Break : marché / météo / communiqué / sur</title>
+  </programme>
+  <programme channel="VoxTV.cg@SD" start="20261128055000 +0000" stop="20261128060000 +0000">
     <title lang="fr">Actualités</title>
   </programme>
 </tv>
